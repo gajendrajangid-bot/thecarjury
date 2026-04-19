@@ -8,7 +8,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 
 ## Content
 
-- [2025 Tata Sierra Review](https://www.thecarjury.com/reviews/tata/sierra/) — Synthesis of 5 creators: Faisal Khan, Gagan Choudhary, MotorOctane, PowerDrift, Auto Yogi. Jury score: 8.1/10.
+- [2025 Tata Sierra Review: What India's Top 5 YouTube Reviewers Actually Think | The Car Jury](https://www.thecarjury.com/reviews/tata/sierra/) — AI synthesis from India's top YouTube reviewers.
 
 ## Methodology
 
