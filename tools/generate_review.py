@@ -184,9 +184,33 @@ def verdict_bg(verdict: str) -> str:
     return {"BUY": "#E6F2EC", "WAIT": "#FEF3C7", "SKIP": "#FEE2E2"}.get(verdict, "#F3F4F6")
 
 
+def estimate_content_words(data: dict) -> tuple[int, int]:
+    """Returns (word_count, reading_time_minutes) from synthesis data."""
+    text_fields = [
+        data.get("hero_summary", ""),
+        data.get("verdict_reason", ""),
+        data.get("design_review", ""),
+        data.get("interior_review", ""),
+        data.get("performance_review", ""),
+        data.get("ride_review", ""),
+        data.get("build_quality_review", ""),
+        data.get("value_review", ""),
+        data.get("teambhp_take", ""),
+        " ".join(data.get("pros", [])),
+        " ".join(data.get("cons", [])),
+        " ".join(data.get("consensus_points", [])),
+        " ".join(data.get("disagreement_points", [])),
+        " ".join(r.get("take", "") for r in data.get("reviewer_takes", [])),
+        " ".join(f["q"] + " " + f["a"] for f in data.get("faqs", [])),
+    ]
+    words = len(" ".join(text_fields).split())
+    return words, max(1, round(words / 238))
+
+
 def generate_html(brand: str, model: str, car_name: str, year: int,
                   data: dict, video_ids: list[str],
-                  teambhp_url: str = "", teambhp_title: str = "") -> str:
+                  teambhp_url: str = "", teambhp_title: str = "",
+                  hero_image: str = "") -> str:
     today = date.today().isoformat()
     scores = data["scores"]
     jury_score = data["jury_score"]
@@ -276,8 +300,9 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     og_title = data.get("og_title", f"{car_name} Review {year} — The Car Jury")
     num_reviewers = len(data.get("reviewer_takes", []))
     if teambhp_take:
-        num_reviewers += 1  # count TeamBHP as a source
+        num_reviewers += 1
     sources_label = f"{num_reviewers} independent sources"
+    word_count, reading_time = estimate_content_words(data)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -379,6 +404,11 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     .jury-score-big {{ font: 700 56px/1 var(--font-display); color: {score_color(jury_score)}; }}
     .jury-score-label {{ font: 600 11px/1 var(--font-ui); color: var(--stone-400); text-transform: uppercase; letter-spacing: 0.12em; margin-top: 6px; }}
     .hero-summary {{ max-width: 680px; margin: 24px auto 0; font: 400 18px/1.65 var(--font-body); color: var(--stone-800); }}
+
+    /* Hero image */
+    .hero-image-wrap {{ background: var(--white); border-bottom: 1px solid var(--hairline); }}
+    .hero-image-wrap img {{ width: 100%; max-height: 480px; object-fit: cover; display: block; }}
+    .hero-image-credit {{ font: 500 11px/1 var(--font-ui); color: var(--stone-400); text-align: right; padding: 6px 16px; }}
 
     /* Article wrap */
     .article-wrap {{ max-width: 760px; margin: 0 auto; padding: 0 24px 100px; }}
@@ -498,12 +528,18 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
   <p class="hero-summary">{data['hero_summary']}</p>
 </div>
 
+{f'''<div class="hero-image-wrap">
+  <img src="{hero_image}" alt="{car_name} — official press image" width="1529" height="911" />
+  <p class="hero-image-credit">Image: {brand_display} press kit</p>
+</div>''' if hero_image else ''}
+
 <div class="article-wrap">
 
   <div class="byline">
     <span>By The Car Jury Editorial</span>
     <span>Published {today}</span>
     <span>Synthesis of {sources_label}</span>
+    <span>{word_count:,} words · {reading_time} min read</span>
   </div>
 
   <div class="scores-section">
@@ -680,10 +716,17 @@ def main():
     data = synthesise_with_claude(args.name, args.year, transcripts, teambhp_content)
     print(f"  Jury score: {data['jury_score']} | Verdict: {data['verdict']}")
 
-    # 3. Generate HTML
+    # 3. Generate HTML — check for hero image in review folder
+    out_dir = CARJURY / "reviews" / args.brand / args.model
+    hero_image = ""
+    for ext in ["hero.jpg", "hero.png", "hero.webp"]:
+        if (out_dir / ext).exists():
+            hero_image = f"/reviews/{args.brand}/{args.model}/{ext}"
+            break
+
     html = generate_html(
         args.brand, args.model, args.name, args.year,
-        data, args.videos, teambhp_url, teambhp_title
+        data, args.videos, teambhp_url, teambhp_title, hero_image
     )
 
     if args.dry_run:
@@ -691,7 +734,6 @@ def main():
         return
 
     # 4. Write file
-    out_dir = CARJURY / "reviews" / args.brand / args.model
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / "index.html"
     out_file.write_text(html)
