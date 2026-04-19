@@ -4,15 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>2025 Tata Sierra Review: What India's Top 5 YouTube Reviewers Actually Think | The Car Jury</title>
-  <meta name="description" content="We analysed 130,000+ words of YouTube transcripts from Faisal Khan, Gagan Choudhary, MotorOctane, PowerDrift & Auto Yogi. Jury score: 8.1/10. Here's the full synthesis verdict on the 2025 Tata Sierra." />
+  <meta name="description" content="We analysed 130,000+ words of YouTube transcripts from Faisal Khan, Gagan Choudhary, MotorOctane, PowerDrift & Auto Yogi. Jury score: 8.1/10. The full synthesis verdict on the 2025 Tata Sierra." />
 
-  <!-- Canonical -->
   <link rel="canonical" href="https://www.thecarjury.com/reviews/tata/sierra/" />
-
-  <!-- Favicon -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="The Car Jury" />
   <meta property="og:title" content="2025 Tata Sierra: What India's Top 5 YouTube Reviewers Actually Think" />
@@ -28,13 +24,11 @@
   <meta property="article:tag" content="SUV Review" />
   <meta property="article:tag" content="India Car Review" />
 
-  <!-- Twitter / X Cards -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="2025 Tata Sierra: What India's Top 5 YouTube Reviewers Actually Think" />
   <meta name="twitter:description" content="Synthesis of 130,000+ words from 5 top Indian creators. Jury score: 8.1/10." />
   <meta name="twitter:image" content="https://www.thecarjury.com/images/tata/sierra-2025/sierra-2025-hero.jpg" />
 
-  <!-- Schema.org: Review + Car -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -58,18 +52,12 @@
       "@type": "Organization",
       "name": "The Car Jury",
       "url": "https://www.thecarjury.com",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.thecarjury.com/favicon.svg"
-      }
+      "logo": { "@type": "ImageObject", "url": "https://www.thecarjury.com/favicon.svg" }
     },
     "itemReviewed": {
       "@type": "Car",
       "name": "2025 Tata Sierra",
-      "brand": {
-        "@type": "Brand",
-        "name": "Tata Motors"
-      },
+      "brand": { "@type": "Brand", "name": "Tata Motors" },
       "model": "Sierra",
       "modelDate": "2025",
       "bodyType": "SUV",
@@ -91,1126 +79,592 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
-      --sierra-gold: #D4A017;
-      --sierra-dark: #1A1A1A;
-      --sierra-charcoal: #2D2D2D;
-      --text-primary: #1C1C1E;
-      --text-secondary: #4A4A4A;
-      --text-muted: #6B6B6B;
-      --border: #E5E5E5;
-      --bg-off: #F9F7F4;
-      --accent: #C8860A;
+      --font-display: "Fraunces", "Playfair Display", Georgia, serif;
+      --font-body:    "Source Serif 4", "Source Serif Pro", Charter, Georgia, serif;
+      --font-ui:      "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+      --red:          #C8102E;
+      --red-dark:     #A30C24;
+      --red-tint:     #FBE8EB;
+      --paper:        #FAF8F5;
+      --white:        #FFFFFF;
+      --hairline:     #E5E2DC;
+      --stone-200:    #D6D2CC;
+      --stone-400:    #9E9A93;
+      --stone-600:    #6B6B6B;
+      --stone-800:    #3D3D3D;
+      --ink:          #1A1A1A;
+      --green:        #0E6B3C;
+      --green-tint:   #E6F2EC;
+      --amber:        #B8860B;
+      --amber-tint:   #FBF3DF;
     }
 
-    html { scroll-behavior: smooth; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-body); -webkit-font-smoothing: antialiased; line-height: 1.7; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #fff;
-      color: var(--text-primary);
-      line-height: 1.7;
-      font-size: 17px;
-    }
+    /* ── Site Header ── */
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 100; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display); color: var(--red); letter-spacing: -0.01em; }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display); color: var(--ink); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui); color: var(--stone-600); transition: color 0.15s; }
+    .site-nav a:hover { color: var(--ink); }
+    .site-nav a.active { color: var(--ink); font-weight: 600; }
 
-    /* ── TOP NAV ── */
-    .topbar {
-      background: var(--sierra-dark);
-      color: #fff;
-      padding: 0 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 52px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    .topbar-brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.15rem;
-      letter-spacing: 0.5px;
-      color: var(--sierra-gold);
-    }
-    .topbar-tag {
-      font-size: 0.72rem;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: #999;
-    }
+    /* ── Hero Strip ── */
+    .hero-strip { width: 100%; height: 460px; overflow: hidden; }
+    .hero-strip__grid { display: grid; grid-template-columns: 2fr 1fr; gap: 3px; height: 100%; background: var(--ink); }
+    .hero-strip__grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .hero-strip__sub { display: grid; grid-template-rows: 1fr 1fr; gap: 3px; }
 
-    /* ── HERO ── */
-    .hero {
-      position: relative;
-      background: linear-gradient(145deg, #0f0c05 0%, #1a1200 40%, #2a1a00 70%, #1a0f00 100%);
-      min-height: 540px;
-      display: flex;
-      align-items: flex-end;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(ellipse 60% 50% at 70% 40%, rgba(212,160,23,0.18) 0%, transparent 70%),
-        radial-gradient(ellipse 40% 60% at 20% 80%, rgba(200,134,10,0.12) 0%, transparent 60%);
-    }
-    /* SVG Sierra silhouette */
-    .hero-silhouette {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      width: 65%;
-      max-width: 820px;
-      opacity: 0.08;
-      filter: blur(1px);
-    }
-    .hero-gradient-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to right, rgba(15,12,5,0.95) 25%, rgba(15,12,5,0.5) 60%, transparent 100%);
-    }
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      max-width: 680px;
-      padding: 3rem 4rem 4rem;
-    }
-    .hero-kicker {
-      display: inline-block;
-      background: var(--sierra-gold);
-      color: #000;
-      font-size: 0.7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      padding: 4px 10px;
-      border-radius: 2px;
-      margin-bottom: 1.4rem;
-    }
-    .hero h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2rem, 4vw, 3.2rem);
-      font-weight: 800;
-      color: #fff;
-      line-height: 1.15;
-      margin-bottom: 1.2rem;
-    }
-    .hero h1 em {
-      color: var(--sierra-gold);
-      font-style: normal;
-    }
-    .hero-sub {
-      color: #ccc;
-      font-size: 1.05rem;
-      line-height: 1.6;
-      max-width: 520px;
-      margin-bottom: 2rem;
-    }
-    .hero-meta {
-      display: flex;
-      align-items: center;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-    }
-    .hero-meta-item {
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      color: #aaa;
-      font-size: 0.8rem;
-    }
-    .hero-meta-item svg { color: var(--sierra-gold); }
-    .reviewer-avatars {
-      display: flex;
-    }
-    .reviewer-avatars span {
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      background: var(--sierra-gold);
-      border: 2px solid #1a1200;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.6rem;
-      font-weight: 700;
-      color: #000;
-      margin-left: -6px;
-    }
-    .reviewer-avatars span:first-child { margin-left: 0; }
+    /* ── Breadcrumb ── */
+    .breadcrumb { max-width: 1100px; margin: 0 auto; padding: 16px 32px; font: 500 12px/1 var(--font-ui); color: var(--stone-400); display: flex; gap: 8px; align-items: center; }
+    .breadcrumb a { color: var(--stone-600); }
+    .breadcrumb a:hover { color: var(--red); }
+    .breadcrumb__sep { color: var(--stone-200); }
 
-    /* ── CAR IMAGE STRIP ── */
-    .car-image-strip {
-      background: #f0ece4;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 340px;
-      position: relative;
-      overflow: hidden;
-      border-bottom: 3px solid var(--sierra-gold);
-    }
-    .car-image-strip img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-    }
-    .car-image-strip .image-fallback {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
-      color: #888;
-      font-size: 0.85rem;
-    }
-    /* Sierra SVG car sketch */
-    .car-svg-wrap {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(160deg, #f5f0e8 0%, #e8dfc8 100%);
-    }
-    .car-svg-wrap svg {
-      width: 70%;
-      max-width: 700px;
-      filter: drop-shadow(0 8px 32px rgba(0,0,0,0.18));
-    }
+    /* ── Article Wrapper ── */
+    .article-wrap { max-width: 720px; margin: 0 auto; padding: 48px 32px 120px; }
 
-    /* ── LAYOUT ── */
-    .article-wrap {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 0 2rem;
-      display: grid;
-      grid-template-columns: 1fr 300px;
-      gap: 4rem;
-      align-items: start;
-    }
-    .article-body { padding: 3.5rem 0; }
+    /* ── Article Header ── */
+    .article-category { font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--red); text-transform: uppercase; margin-bottom: 20px; }
+    .article-eyebrow { font: 500 13px/1.4 var(--font-ui); color: var(--stone-600); margin-bottom: 16px; }
+    .article-title { font: 700 44px/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 20px; }
+    .article-dek { font-size: 21px; line-height: 1.55; color: var(--stone-800); font-family: var(--font-body); margin-bottom: 32px; font-style: italic; }
 
-    /* ── INTRO ── */
-    .article-intro {
-      font-family: 'Lora', serif;
-      font-size: 1.18rem;
-      line-height: 1.85;
-      color: var(--text-secondary);
-      margin-bottom: 2.5rem;
-      padding-bottom: 2.5rem;
-      border-bottom: 1px solid var(--border);
-    }
-    .article-intro p + p { margin-top: 1.2rem; }
+    /* ── Byline ── */
+    .article-byline { display: flex; align-items: center; gap: 12px; padding: 20px 0; border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); margin-bottom: 40px; }
+    .article-byline__avatar { width: 36px; height: 36px; border-radius: 50%; background: var(--red); display: flex; align-items: center; justify-content: center; font: 700 14px/1 var(--font-ui); color: var(--white); flex-shrink: 0; }
+    .article-byline__info { font-family: var(--font-ui); }
+    .article-byline__name { font-size: 14px; font-weight: 600; color: var(--ink); display: block; }
+    .article-byline__meta { font-size: 12px; font-weight: 500; color: var(--stone-600); }
+    .article-byline__trust { margin-left: auto; font: 500 12px/1 var(--font-ui); color: var(--stone-600); text-align: right; }
+    .trust-dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--green); margin-right: 5px; vertical-align: middle; position: relative; top: -1px; }
 
-    /* ── SECTIONS ── */
-    .section { margin-bottom: 3rem; }
-    .section-header {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-    .section-num {
-      width: 32px;
-      height: 32px;
-      background: var(--sierra-gold);
-      color: #000;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.75rem;
-      font-weight: 700;
-      flex-shrink: 0;
-    }
-    .section h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.65rem;
-      font-weight: 700;
-      color: var(--sierra-dark);
-      line-height: 1.25;
-    }
-    .section p {
-      font-family: 'Lora', serif;
-      font-size: 1.02rem;
-      line-height: 1.85;
-      color: var(--text-secondary);
-      margin-bottom: 1rem;
-    }
-    .section p:last-child { margin-bottom: 0; }
-    .section p strong {
-      color: var(--text-primary);
-      font-weight: 600;
-    }
+    /* ── Verdict Card ── */
+    .verdict-card { background: var(--white); border-top: 2px solid var(--red); border-bottom: 1px solid var(--hairline); border-left: 1px solid var(--hairline); border-right: 1px solid var(--hairline); border-radius: 0 0 8px 8px; padding: 40px 36px; margin-bottom: 56px; }
+    .verdict-card__stamp { font: 600 11px/1 var(--font-ui); letter-spacing: 0.16em; color: var(--red); text-transform: uppercase; margin-bottom: 24px; display: flex; align-items: center; gap: 8px; }
+    .verdict-card__stamp::after { content: ''; flex: 1; height: 1px; background: var(--hairline); }
+    .verdict-card__meta { font: 500 13px/1.4 var(--font-ui); color: var(--stone-600); margin-bottom: 8px; }
+    .verdict-card__title { font: 700 32px/1.2 var(--font-display); color: var(--ink); margin-bottom: 24px; letter-spacing: -0.01em; }
+    .verdict-card__score-row { display: flex; align-items: flex-end; gap: 16px; margin-bottom: 16px; }
+    .verdict-card__score-num { font: 700 64px/1 var(--font-ui); color: var(--ink); letter-spacing: -0.03em; }
+    .verdict-card__score-denom { font: 500 24px/1 var(--font-ui); color: var(--stone-600); margin-bottom: 8px; }
 
-    /* ── CONSENSUS CARDS ── */
-    .consensus-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-      margin: 1.5rem 0;
-    }
-    .consensus-card {
-      background: var(--bg-off);
-      border-radius: 10px;
-      padding: 1.2rem 1.4rem;
-      border-left: 3px solid var(--sierra-gold);
-    }
-    .consensus-card.negative { border-left-color: #c0392b; }
-    .consensus-card .label {
-      font-size: 0.65rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: var(--sierra-gold);
-      margin-bottom: 0.4rem;
-    }
-    .consensus-card.negative .label { color: #c0392b; }
-    .consensus-card p {
-      font-family: 'Inter', sans-serif !important;
-      font-size: 0.88rem !important;
-      line-height: 1.55 !important;
-      color: var(--text-primary) !important;
-      margin: 0 !important;
-    }
+    .verdict-pill { display: inline-flex; align-items: center; gap: 6px; font: 600 12px/1 var(--font-ui); letter-spacing: 0.06em; text-transform: uppercase; padding: 8px 14px; border-radius: 4px; margin-bottom: 28px; }
+    .verdict-pill::before { content: ''; display: inline-block; width: 6px; height: 6px; border-radius: 50%; }
+    .verdict-pill--buy { background: var(--green-tint); color: var(--green); }
+    .verdict-pill--buy::before { background: var(--green); }
 
-    /* ── PULL QUOTE ── */
-    .pull-quote {
-      border-left: 4px solid var(--sierra-gold);
-      margin: 2rem 0;
-      padding: 1.2rem 1.6rem;
-      background: #fffbf2;
-      border-radius: 0 8px 8px 0;
-    }
-    .pull-quote blockquote {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.2rem;
-      font-style: italic;
-      color: var(--sierra-charcoal);
-      line-height: 1.6;
-      margin-bottom: 0.6rem;
-    }
-    .pull-quote cite {
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--sierra-gold);
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-style: normal;
-    }
+    .verdict-card__breakdown { list-style: none; border-top: 1px solid var(--hairline); margin-bottom: 24px; }
+    .verdict-card__breakdown li { display: flex; justify-content: space-between; align-items: center; padding: 13px 0; border-bottom: 1px solid var(--hairline); font: 500 15px/1.4 var(--font-ui); color: var(--stone-800); }
+    .verdict-card__breakdown li span { color: var(--stone-600); }
+    .breakdown-score { display: flex; align-items: center; gap: 10px; }
+    .breakdown-bar { width: 80px; height: 3px; background: var(--hairline); border-radius: 2px; overflow: hidden; }
+    .breakdown-bar__fill { height: 100%; background: var(--red); border-radius: 2px; }
+    .verdict-card__breakdown b { font-weight: 700; color: var(--ink); min-width: 28px; text-align: right; }
+    .verdict-card__jury { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin: 0; }
 
-    /* ── SPEC TABLE ── */
-    .spec-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1.5rem 0;
-      font-size: 0.9rem;
-    }
-    .spec-table thead tr {
-      background: var(--sierra-dark);
-      color: #fff;
-    }
-    .spec-table thead th {
-      padding: 0.75rem 1rem;
-      text-align: left;
-      font-size: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-weight: 600;
-    }
-    .spec-table tbody tr {
-      border-bottom: 1px solid var(--border);
-    }
-    .spec-table tbody tr:nth-child(even) { background: var(--bg-off); }
-    .spec-table td {
-      padding: 0.7rem 1rem;
-      font-family: 'Inter', sans-serif;
-      color: var(--text-primary);
-    }
-    .spec-table td:first-child {
-      font-weight: 600;
-      color: var(--sierra-charcoal);
-    }
-    .star { color: var(--sierra-gold); font-size: 0.9rem; }
+    /* ── Article Body ── */
+    .article-body { font-size: 19px; line-height: 1.75; color: var(--ink); font-family: var(--font-body); }
+    .article-body p { margin-bottom: 28px; }
+    .article-lede { font-size: 22px; line-height: 1.6; color: var(--stone-800); margin-bottom: 36px; }
+    .article-body h2 { font: 700 32px/1.2 var(--font-display); color: var(--ink); letter-spacing: -0.01em; margin: 56px 0 20px; }
+    .article-body strong { font-weight: 700; }
+    .article-body em { font-style: italic; }
 
-    /* ── REVIEWER SCORES ── */
-    .reviewer-scores {
-      background: var(--sierra-dark);
-      border-radius: 12px;
-      padding: 1.5rem;
-      margin: 2rem 0;
-      color: #fff;
-    }
-    .reviewer-scores h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1rem;
-      color: var(--sierra-gold);
-      margin-bottom: 1rem;
-      padding-bottom: 0.75rem;
-      border-bottom: 1px solid #333;
-    }
-    .reviewer-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.55rem 0;
-      border-bottom: 1px solid #2a2a2a;
-    }
-    .reviewer-row:last-child { border-bottom: none; }
-    .reviewer-name { font-size: 0.85rem; font-weight: 500; color: #ddd; }
-    .reviewer-channel { font-size: 0.7rem; color: #777; margin-top: 1px; }
-    .reviewer-verdict { font-size: 0.78rem; color: var(--sierra-gold); font-weight: 600; }
+    /* ── Pullquote ── */
+    .pullquote { border-left: 3px solid var(--red); padding: 4px 0 4px 28px; margin: 40px 0; }
+    .pullquote p { font: italic 700 24px/1.45 var(--font-body); color: var(--ink); margin-bottom: 8px !important; font-size: 24px !important; }
+    .pullquote cite { font: 600 12px/1 var(--font-ui); letter-spacing: 0.04em; color: var(--stone-600); text-transform: uppercase; font-style: normal; }
 
-    /* ── DISAGREE TABLE ── */
-    .disagree-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1.5rem 0;
-      font-size: 0.88rem;
-    }
-    .disagree-table thead th {
-      background: #f3f0ea;
-      padding: 0.65rem 1rem;
-      text-align: left;
-      font-size: 0.72rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      color: #555;
-      border-bottom: 2px solid var(--sierra-gold);
-    }
-    .disagree-table tbody td {
-      padding: 0.75rem 1rem;
-      border-bottom: 1px solid var(--border);
-      vertical-align: top;
-      line-height: 1.5;
-      font-family: 'Inter', sans-serif;
-      color: var(--text-secondary);
-    }
-    .disagree-table tbody td:first-child {
-      font-weight: 600;
-      color: var(--text-primary);
-      width: 22%;
-    }
-    .disagree-table tbody tr:hover { background: #fdfaf5; }
+    .jury-attr { font: 600 12px/1 var(--font-ui); letter-spacing: 0.04em; color: var(--red); text-transform: uppercase; vertical-align: middle; }
+    .section-rule { border: none; border-top: 1px solid var(--hairline); margin: 56px 0; }
 
-    /* ── VERDICT BOX ── */
-    .verdict-box {
-      background: linear-gradient(135deg, #1a1200 0%, #2a1a00 100%);
-      border-radius: 14px;
-      padding: 2.5rem;
-      margin: 2.5rem 0;
-      position: relative;
-      overflow: hidden;
-    }
-    .verdict-box::before {
-      content: '"';
-      position: absolute;
-      top: -20px;
-      left: 20px;
-      font-family: 'Playfair Display', serif;
-      font-size: 200px;
-      color: rgba(212,160,23,0.1);
-      line-height: 1;
-    }
-    .verdict-box h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.3rem;
-      color: var(--sierra-gold);
-      margin-bottom: 1rem;
-    }
-    .verdict-box p {
-      font-family: 'Lora', serif !important;
-      font-size: 1rem !important;
-      color: #ddd !important;
-      line-height: 1.8 !important;
-      margin-bottom: 0.8rem !important;
-    }
-    .verdict-box p strong { color: #fff !important; }
-    .verdict-rating {
-      display: flex;
-      align-items: center;
-      gap: 1.5rem;
-      margin-top: 1.5rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid #333;
-    }
-    .rating-circle {
-      width: 72px;
-      height: 72px;
-      border-radius: 50%;
-      border: 3px solid var(--sierra-gold);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
-    .rating-score {
-      font-size: 1.6rem;
-      font-weight: 800;
-      color: var(--sierra-gold);
-      font-family: 'Playfair Display', serif;
-      line-height: 1;
-    }
-    .rating-max { font-size: 0.65rem; color: #777; }
-    .rating-text { font-size: 0.85rem; color: #bbb; line-height: 1.5; }
-    .rating-text strong { color: var(--sierra-gold); display: block; font-size: 0.95rem; margin-bottom: 3px; }
+    /* ── Consensus Grid ── */
+    .consensus-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 28px 0; }
+    .consensus-item { background: var(--white); border: 1px solid var(--hairline); border-left: 3px solid var(--green); border-radius: 0 6px 6px 0; padding: 16px 18px; }
+    .consensus-item.neg { border-left-color: var(--red); }
+    .consensus-item__label { font: 600 10px/1 var(--font-ui); letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); margin-bottom: 8px; }
+    .consensus-item.neg .consensus-item__label { color: var(--red); }
+    .consensus-item p { font: 400 14px/1.55 var(--font-ui); color: var(--stone-800); margin: 0 !important; font-size: 14px !important; line-height: 1.55 !important; }
+    .consensus-item strong { font-weight: 600; color: var(--ink); }
 
-    /* ── SIDEBAR ── */
-    .sidebar { padding: 3.5rem 0; }
-    .sidebar-card {
-      background: var(--bg-off);
-      border-radius: 12px;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-      border: 1px solid var(--border);
-    }
-    .sidebar-card h4 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1rem;
-      color: var(--sierra-dark);
-      margin-bottom: 1rem;
-      padding-bottom: 0.6rem;
-      border-bottom: 2px solid var(--sierra-gold);
-    }
-    .sidebar-list { list-style: none; }
-    .sidebar-list li {
-      font-size: 0.85rem;
-      padding: 0.5rem 0;
-      border-bottom: 1px solid #e0ddd6;
-      color: var(--text-secondary);
-      display: flex;
-      align-items: flex-start;
-      gap: 0.5rem;
-      line-height: 1.4;
-    }
-    .sidebar-list li::before {
-      content: '✓';
-      color: var(--sierra-gold);
-      font-weight: 700;
-      flex-shrink: 0;
-      margin-top: 1px;
-    }
-    .sidebar-list.cons li::before { content: '✗'; color: #c0392b; }
-    .sidebar-list li:last-child { border-bottom: none; }
-    .quick-verdict {
-      background: var(--sierra-dark);
-      border-radius: 10px;
-      padding: 1.3rem;
-      margin-bottom: 1.5rem;
-    }
-    .quick-verdict h4 {
-      font-family: 'Playfair Display', serif;
-      font-size: 0.95rem;
-      color: var(--sierra-gold);
-      margin-bottom: 0.8rem;
-    }
-    .qv-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.4rem 0;
-      border-bottom: 1px solid #2a2a2a;
-    }
-    .qv-row:last-child { border-bottom: none; }
-    .qv-label { font-size: 0.78rem; color: #aaa; }
-    .qv-bar-wrap { display: flex; align-items: center; gap: 0.5rem; }
-    .qv-bar {
-      height: 5px;
-      background: #333;
-      border-radius: 3px;
-      width: 80px;
-      position: relative;
-    }
-    .qv-bar-fill {
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      background: var(--sierra-gold);
-      border-radius: 3px;
-    }
-    .qv-score { font-size: 0.78rem; color: var(--sierra-gold); font-weight: 600; width: 28px; text-align: right; }
-
-    /* ── DIVIDER ── */
-    .divider {
-      border: none;
-      height: 1px;
-      background: var(--border);
-      margin: 2.5rem 0;
-    }
-    .divider-gold {
-      border: none;
-      height: 2px;
-      background: linear-gradient(to right, var(--sierra-gold), transparent);
-      margin: 2.5rem 0;
-    }
-
-    /* ── FOOTER ── */
-    footer {
-      background: var(--sierra-dark);
-      color: #777;
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.8rem;
-      margin-top: 3rem;
-    }
-    footer strong { color: var(--sierra-gold); }
-
-    /* ── TABLE SCROLL WRAPPER ── */
+    /* ── Tables ── */
     .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .spec-table { width: 100%; border-collapse: collapse; margin: 24px 0; font-family: var(--font-ui); font-size: 14px; }
+    .spec-table thead th { background: var(--ink); color: var(--white); padding: 10px 14px; text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; }
+    .spec-table tbody tr { border-bottom: 1px solid var(--hairline); }
+    .spec-table tbody tr:nth-child(even) { background: var(--white); }
+    .spec-table td { padding: 10px 14px; color: var(--stone-800); }
+    .spec-table td:first-child { font-weight: 600; color: var(--ink); }
 
-    /* ── TABLET ── */
-    @media (max-width: 860px) {
-      .article-wrap { grid-template-columns: 1fr; gap: 0; padding: 0 1.2rem; }
-      .sidebar { padding: 0 0 2rem; }
-      .hero-content { padding: 2rem 1.2rem 2.5rem; }
+    .disagree-table { width: 100%; border-collapse: collapse; margin: 24px 0; font-family: var(--font-ui); font-size: 14px; }
+    .disagree-table thead th { background: var(--paper); padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--stone-600); border-bottom: 2px solid var(--red); }
+    .disagree-table tbody td { padding: 12px 14px; border-bottom: 1px solid var(--hairline); vertical-align: top; line-height: 1.5; color: var(--stone-800); }
+    .disagree-table tbody td:first-child { font-weight: 600; color: var(--ink); width: 20%; }
+
+    /* ── Verdict Strip ── */
+    .verdict-strip { background: var(--ink); color: var(--white); border-radius: 8px; padding: 36px 40px; margin: 48px 0; }
+    .verdict-strip__label { font: 600 11px/1 var(--font-ui); letter-spacing: 0.16em; color: var(--red); text-transform: uppercase; margin-bottom: 16px; }
+    .verdict-strip__text { font: 700 26px/1.35 var(--font-display); color: var(--white); margin-bottom: 8px; }
+    .verdict-strip__sub { font: 400 16px/1.5 var(--font-body); color: var(--stone-400); }
+
+    /* ── Jury Credit Strip ── */
+    .jury-strip { border-top: 1px solid var(--hairline); padding-top: 40px; margin-top: 64px; }
+    .jury-strip__label { font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--stone-600); text-transform: uppercase; margin-bottom: 20px; }
+    .jury-members { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 32px; }
+    .jury-member { font: 500 13px/1 var(--font-ui); color: var(--stone-800); background: var(--white); border: 1px solid var(--hairline); border-radius: 4px; padding: 8px 14px; }
+    .jury-member a { color: inherit; }
+    .jury-member a:hover { color: var(--red); }
+    .article-footer-meta { font: 500 13px/1.6 var(--font-ui); color: var(--stone-600); }
+    .article-footer-meta span + span::before { content: ' · '; }
+    .trust-badge { display: inline-flex; align-items: center; gap: 6px; background: var(--green-tint); color: var(--green); font: 600 11px/1 var(--font-ui); letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 10px; border-radius: 3px; margin-top: 16px; }
+
+    /* ── Related Bar ── */
+    .related-bar { background: var(--white); border-top: 1px solid var(--hairline); border-bottom: 1px solid var(--hairline); padding: 48px 32px; }
+    .related-bar__inner { max-width: 1100px; margin: 0 auto; }
+    .related-bar__label { font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--red); text-transform: uppercase; margin-bottom: 28px; }
+    .related-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .related-card { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 24px; }
+    .related-card__meta { font: 500 12px/1 var(--font-ui); color: var(--stone-600); margin-bottom: 10px; }
+    .related-card__title { font: 700 20px/1.25 var(--font-display); color: var(--ink); margin-bottom: 12px; }
+    .related-card__note { font: 500 13px/1 var(--font-ui); color: var(--stone-400); }
+
+    /* ── Site Footer ── */
+    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; }
+    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
+    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
+    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
+    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
+    .site-footer__links a:hover { color: var(--red); }
+    .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .article-title { font-size: 30px; }
+      .article-dek { font-size: 17px; }
+      .article-body { font-size: 17px; }
+      .article-lede { font-size: 18px; }
+      .article-body h2 { font-size: 26px; margin: 40px 0 16px; }
+      .article-wrap { padding: 32px 20px 80px; }
+      .site-header__inner { padding: 0 20px; }
+      .site-nav a:not(.active) { display: none; }
+      .verdict-card { padding: 24px 20px; }
+      .verdict-card__score-num { font-size: 48px; }
       .consensus-grid { grid-template-columns: 1fr; }
-      .topbar { padding: 0 1rem; }
-      .article-body { padding: 2rem 0; }
-      .disagree-table tbody td:first-child { width: 30%; }
+      .related-cards { grid-template-columns: 1fr; }
+      .site-footer__top { flex-direction: column; }
+      .hero-strip { height: 260px; }
+      .hero-strip__grid { grid-template-columns: 1fr; }
+      .hero-strip__sub { display: none; }
+      .breadcrumb { padding: 12px 20px; }
+      .verdict-strip { padding: 24px 20px; }
+      .verdict-strip__text { font-size: 20px; }
+      .related-bar { padding: 32px 20px; }
+      .site-footer { padding: 32px 20px; }
     }
-
-    /* ── MOBILE ── */
-    @media (max-width: 600px) {
-      /* Nav */
-      .topbar { padding: 0 1rem; height: 48px; }
-      .topbar-tag { display: none; }
-
-      /* Hero */
-      .hero { min-height: 340px; }
-      .hero-content { padding: 1.5rem 1rem 2rem; }
-      .hero h1 { font-size: 1.65rem; line-height: 1.2; }
-      .hero-sub { font-size: 0.88rem; margin-bottom: 1.2rem; }
-      .hero-kicker { font-size: 0.62rem; }
-      .hero-meta { gap: 0.8rem; flex-wrap: wrap; }
-      .hero-meta-item { font-size: 0.72rem; }
-      .reviewer-avatars span { width: 24px; height: 24px; font-size: 0.55rem; }
-
-      /* Image strip — single image on mobile */
-      .car-image-strip { grid-template-columns: 1fr !important; height: 220px !important; }
-      .car-image-strip > div { display: none; }
-
-      /* Article */
-      .article-wrap { padding: 0 1rem; }
-      .article-body { padding: 1.5rem 0; }
-      .article-intro { font-size: 1rem; }
-      .section h2 { font-size: 1.3rem; }
-      .section p { font-size: 0.95rem; }
-      .section { margin-bottom: 2rem; }
-
-      /* Tables — horizontal scroll */
-      .spec-table, .disagree-table { font-size: 0.8rem; }
-      .spec-table th, .spec-table td { padding: 0.55rem 0.7rem; }
-      .disagree-table td { padding: 0.6rem 0.7rem; }
-      .disagree-table tbody td:first-child { width: auto; min-width: 80px; }
-
-      /* Wrap tables in scroll div via CSS */
-      .spec-table, .disagree-table {
-        display: block;
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        white-space: nowrap;
-      }
-      .spec-table tbody td, .disagree-table tbody td {
-        white-space: normal;
-        min-width: 100px;
-      }
-
-      /* Consensus grid */
-      .consensus-grid { grid-template-columns: 1fr; gap: 0.75rem; }
-      .consensus-card { padding: 1rem; }
-
-      /* Pull quote */
-      .pull-quote { padding: 1rem 1.2rem; margin: 1.5rem 0; }
-      .pull-quote blockquote { font-size: 1rem; }
-
-      /* Verdict box */
-      .verdict-box { padding: 1.5rem 1.2rem; }
-      .verdict-box h3 { font-size: 1.1rem; }
-      .verdict-rating { flex-direction: column; align-items: flex-start; gap: 1rem; }
-
-      /* Reviewer scores */
-      .reviewer-row { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
-      .reviewer-verdict { font-size: 0.72rem; }
-
-      /* Sidebar */
-      .sidebar { padding: 0 0 1.5rem; }
-      .sidebar-card { padding: 1.1rem; }
-      .qv-bar { width: 60px; }
-
-      /* Footer */
-      footer { padding: 1.5rem 1rem; text-align: center; }
-      footer p { font-size: 0.75rem; }
-    }
-
-    /* ── SMALL MOBILE ── */
-    @media (max-width: 380px) {
-      .hero h1 { font-size: 1.45rem; }
-      .section h2 { font-size: 1.2rem; }
-      .article-wrap { padding: 0 0.75rem; }
+    @media (max-width: 480px) {
+      .pullquote p { font-size: 19px !important; }
+      .disagree-table, .spec-table { font-size: 12px; }
     }
   </style>
 </head>
 <body>
 
-<!-- TOP NAR -->
-<nav class="topbar">
-  <a class="topbar-brand" href="/" style="text-decoration:none;color:inherit">The Car Jury</a>
-  <div style="display:flex;gap:20px;font-size:0.82rem">
-    <a href="/reviews/" style="color:#aaa;text-decoration:none">Reviews</a>
-    <a href="/compare/" style="color:#aaa;text-decoration:none">Compare</a>
-    <a href="/best/" style="color:#aaa;text-decoration:none">Best Lists</a>
-    <a href="/about/" style="color:#aaa;text-decoration:none">About</a>
-  </div>
-</nav>
-
-<!-- HERO -->
-<header class="hero">
-  <img class="hero-silhouette" src="/images/tata/sierra-2025/sierra-2025-side.jpg" alt="2025 Tata Sierra" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0.22;filter:blur(1px);" />
-  <div class="hero-gradient-overlay"></div>
-  <div class="hero-content">
-    <span class="hero-kicker">Synthesis Review · 5 Creators · 2025</span>
-    <h1>2025 Tata Sierra:<br><em>What India's Top 5</em><br>Reviewers Actually Think</h1>
-    <p class="hero-sub">We analysed over 130,000 words of YouTube transcripts from Faisal Khan, Gagan Choudhary, MotorOctane, PowerDrift & Auto Yogi — so you don't have to watch 6 hours of videos.</p>
-    <div class="hero-meta">
-      <div class="hero-meta-item">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
-        5 Video Reviews Analysed
-      </div>
-      <div class="hero-meta-item">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/></svg>
-        April 2025
-      </div>
-      <div class="hero-meta-item">
-        <div class="reviewer-avatars">
-          <span>FK</span><span>GC</span><span>MO</span><span>PD</span><span>AY</span>
-        </div>
-        5 Reviewers
-      </div>
-    </div>
+<!-- Site Header -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/reviews/" class="active">Reviews</a>
+      <a href="/compare/">Compare</a>
+      <a href="/best/">Best Lists</a>
+      <a href="/influencers/">Influencers</a>
+      <a href="/about/">About</a>
+    </nav>
   </div>
 </header>
 
-<!-- CAR VISUAL STRIP -->
-<div class="car-image-strip" style="height:420px; display:grid; grid-template-columns:2fr 1fr; gap:3px; background:#111;">
-  <img src="/images/tata/sierra-2025/sierra-2025-exterior-official.jpg" alt="2025 Tata Sierra Exterior" style="width:100%;height:100%;object-fit:cover;" />
-  <div style="display:grid; grid-template-rows:1fr 1fr; gap:3px;">
-    <img src="/images/tata/sierra-2025/sierra-2025-front.jpg" alt="2025 Tata Sierra Front" style="width:100%;height:100%;object-fit:cover;" />
-    <img src="/images/tata/sierra-2025/sierra-2025-interior-official.jpg" alt="2025 Tata Sierra Interior" style="width:100%;height:100%;object-fit:cover;" />
+<!-- Hero Image Strip -->
+<div class="hero-strip">
+  <div class="hero-strip__grid">
+    <img src="/images/tata/sierra-2025/sierra-2025-exterior-official.jpg" alt="2025 Tata Sierra Exterior" />
+    <div class="hero-strip__sub">
+      <img src="/images/tata/sierra-2025/sierra-2025-front.jpg" alt="2025 Tata Sierra Front" />
+      <img src="/images/tata/sierra-2025/sierra-2025-interior-official.jpg" alt="2025 Tata Sierra Interior" />
+    </div>
   </div>
 </div>
 
-<!-- MAIN ARTICLE + SIDEBAR -->
-<div class="article-wrap">
+<!-- Breadcrumb -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span class="breadcrumb__sep">›</span>
+  <a href="/reviews/">Reviews</a>
+  <span class="breadcrumb__sep">›</span>
+  <a href="/reviews/tata/">Tata</a>
+  <span class="breadcrumb__sep">›</span>
+  <span>Sierra 2025</span>
+</nav>
 
-  <!-- ARTICLE BODY -->
-  <main class="article-body">
+<!-- Article -->
+<main>
+  <div class="article-wrap">
 
-    <!-- BYLINE (E-E-A-T) -->
-    <div style="display:flex; align-items:center; gap:1rem; padding-bottom:1.5rem; margin-bottom:1.5rem; border-bottom:1px solid var(--border); flex-wrap:wrap;">
-      <div style="width:40px;height:40px;border-radius:50%;background:var(--sierra-dark);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:1rem;color:var(--sierra-gold);font-weight:700;flex-shrink:0;">J</div>
-      <div>
-        <div style="font-size:0.82rem;font-weight:600;color:var(--text-primary);">The Car Jury Editorial Team</div>
-        <div style="font-size:0.75rem;color:var(--text-muted);">Synthesised from 5 independent creator reviews · Published April 19, 2026 · 12 min read</div>
+    <p class="article-category">Mid-size SUV · Synthesis Review</p>
+    <p class="article-eyebrow">Tata · Mid-size SUV · ₹16.9 – 25.7 lakh (ex-showroom) · April 2026</p>
+
+    <h1 class="article-title">2025 Tata Sierra: What India's Top 5 YouTube Reviewers Actually Think</h1>
+
+    <p class="article-dek">We analysed over 130,000 words of transcripts from Faisal Khan, Gagan Choudhary, MotorOctane, PowerDrift &amp; Auto Yogi — here is what five independent voices agreed on, and where they split.</p>
+
+    <!-- Byline -->
+    <div class="article-byline">
+      <div class="article-byline__avatar">CJ</div>
+      <div class="article-byline__info">
+        <span class="article-byline__name">The Car Jury Editorial Team</span>
+        <span class="article-byline__meta">April 19, 2026 · 12 min read · 130,000+ words reviewed</span>
       </div>
-      <div style="margin-left:auto; display:flex; gap:0.5rem; flex-wrap:wrap;">
-        <span style="font-size:0.72rem;background:#f0f0f0;padding:3px 10px;border-radius:20px;color:#555;">Mid-size SUV</span>
-        <span style="font-size:0.72rem;background:#f0f0f0;padding:3px 10px;border-radius:20px;color:#555;">Tata Motors</span>
-        <span style="font-size:0.72rem;background:#eaf7ee;padding:3px 10px;border-radius:20px;color:#1a7a3a;font-weight:600;">Recommended</span>
+      <div class="article-byline__trust">
+        <span class="trust-dot"></span>No sponsored content
       </div>
     </div>
 
-    <!-- INTRO -->
-    <div class="article-intro">
-      <p>Thirty-four years after the original Sierra created the template for the Indian lifestyle SUV, Tata Motors has resurrected the nameplate for a generation that has never experienced its wrap-around glass or three-door charm. As Faisal Khan bluntly put it, <em>"this second generation has absolutely nothing in common with the OG other than the name."</em></p>
+    <!-- Verdict Card -->
+    <div class="verdict-card">
+      <div class="verdict-card__stamp">The Verdict</div>
+      <p class="verdict-card__meta">Tata Motors · Mid-size SUV · ₹16.9 – 25.7 lakh (ex-showroom)</p>
+      <h2 class="verdict-card__title">2025 Tata Sierra</h2>
+      <div class="verdict-card__score-row">
+        <span class="verdict-card__score-num">8.1</span>
+        <span class="verdict-card__score-denom">/10</span>
+      </div>
+      <span class="verdict-pill verdict-pill--buy">Recommended · Buy</span>
+      <ul class="verdict-card__breakdown">
+        <li>
+          <span>Design</span>
+          <div class="breakdown-score">
+            <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:92%"></div></div>
+            <b>9.2</b>
+          </div>
+        </li>
+        <li>
+          <span>Interior</span>
+          <div class="breakdown-score">
+            <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:82%"></div></div>
+            <b>8.2</b>
+          </div>
+        </li>
+        <li>
+          <span>Performance</span>
+          <div class="breakdown-score">
+            <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:80%"></div></div>
+            <b>8.0</b>
+          </div>
+        </li>
+        <li>
+          <span>Ride &amp; Handling</span>
+          <div class="breakdown-score">
+            <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:75%"></div></div>
+            <b>7.5</b>
+          </div>
+        </li>
+        <li>
+          <span>Build Quality</span>
+          <div class="breakdown-score">
+            <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:68%"></div></div>
+            <b>6.8</b>
+          </div>
+        </li>
+        <li>
+          <span>Value for Money</span>
+          <div class="breakdown-score">
+            <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:77%"></div></div>
+            <b>7.7</b>
+          </div>
+        </li>
+      </ul>
+      <p class="verdict-card__jury">Based on 5 independent creators · 130,000+ words analysed · No sponsored reviews · No manufacturer relationships</p>
+    </div>
+
+    <!-- Article Body -->
+    <div class="article-body">
+
+      <p class="article-lede">Thirty-four years after the original Sierra created the template for the Indian lifestyle SUV, Tata Motors has resurrected the nameplate for a generation that has never experienced its wrap-around glass or three-door charm. As Faisal Khan bluntly put it, <em>"this second generation has absolutely nothing in common with the OG other than the name."</em></p>
+
       <p>After the Curvv's lukewarm market reception, PowerDrift's assessment that <em>"the Sierra has a lot riding on it"</em> rings especially true. With the Hyundai Creta dominating sales, the Citroen Aircross sweeping in, and the upcoming Renault Duster crowding the battlefield, Tata has priced the Sierra into one of the most competitive spaces in the country.</p>
-      <p>We analysed over 130,000 words of transcripts from five of India's most respected independent car YouTubers — Faisal Khan, Gagan Choudhary, MotorOctane, PowerDrift, and Auto Yogi — and synthesised their findings so you can cut straight to the verdict.</p>
-    </div>
 
-    <!-- SECTION 1: CONSENSUS -->
-    <section class="section">
-      <div class="section-header">
-        <span class="section-num">01</span>
-        <h2>What ALL Five Reviewers Agree On</h2>
-      </div>
+      <p>We analysed over 130,000 words of transcripts from five of India's most respected independent car YouTubers — Faisal Khan, Gagan Choudhary, MotorOctane, PowerDrift, and Auto Yogi — and synthesised their findings so you can cut straight to the verdict.</p>
+
+      <h2>What all five reviewers agree on</h2>
 
       <p>Across five very different review styles, a surprisingly tight consensus emerges on both the highs and the lows.</p>
 
       <div class="consensus-grid">
-        <div class="consensus-card">
-          <div class="label">Universal Praise</div>
+        <div class="consensus-item">
+          <div class="consensus-item__label">Universal Praise</div>
           <p><strong>Road presence is unmatched.</strong> PowerDrift counted "four thumbs up in the last 20 seconds." Faisal Khan: "People turn around. They're following the car."</p>
         </div>
-        <div class="consensus-card">
-          <div class="label">Universal Praise</div>
+        <div class="consensus-item">
+          <div class="consensus-item__label">Universal Praise</div>
           <p><strong>Best Tata petrol ever.</strong> MotorOctane: "Best petrol engine of Tata Motors till now." Faisal Khan admitted it's "phenomenal" — rare praise from him for Tata.</p>
         </div>
-        <div class="consensus-card">
-          <div class="label">Universal Praise</div>
+        <div class="consensus-item">
+          <div class="consensus-item__label">Universal Praise</div>
           <p><strong>JBL 12-speaker audio is segment-best.</strong> Auto Yogi called it "the best audio experience in a mid-size SUV, globally." MotorOctane agreed: "fantastic."</p>
         </div>
-        <div class="consensus-card">
-          <div class="label">Universal Praise</div>
+        <div class="consensus-item">
+          <div class="consensus-item__label">Universal Praise</div>
           <p><strong>Rear-seat space is class-leading.</strong> 2,737mm wheelbase, longest in segment. Six-footers sit behind six-footers comfortably, with a flat floor.</p>
         </div>
-        <div class="consensus-card negative">
-          <div class="label">Universal Criticism</div>
+        <div class="consensus-item neg">
+          <div class="consensus-item__label">Universal Criticism</div>
           <p><strong>Fit and finish still has gaps.</strong> Panel misalignment, beading coming loose, sharp edges Auto Yogi warned could cut your hand. Pre-production caveat applies.</p>
         </div>
-        <div class="consensus-card negative">
-          <div class="label">Universal Criticism</div>
+        <div class="consensus-item neg">
+          <div class="consensus-item__label">Universal Criticism</div>
           <p><strong>Touch panel below infotainment is a mistake.</strong> Knee contact folds ORVMs at highway speed. No physical fog-lamp buttons. Nobody defended it.</p>
         </div>
       </div>
-    </section>
 
-    <hr class="divider" />
+      <hr class="section-rule" />
 
-    <!-- SECTION 2: DESIGN -->
-    <section class="section">
-      <div class="section-header">
-        <span class="section-num">02</span>
-        <h2>Design &amp; Exterior</h2>
-      </div>
+      <h2>Design &amp; Exterior</h2>
+
       <p>The Sierra's boxy silhouette, high-set clamshell bonnet, and blacked-out B- and C-pillars drew near-universal praise. Auto Yogi called design <em>"its strongest point, its magnet."</em> PowerDrift appreciated that it <em>"feels distinct"</em> in a sea of lookalike SUVs. Gagan Choudhary highlighted how the signature yellow paint shifts between grey and green depending on the light.</p>
+
       <p>Dimensionally, Faisal Khan noted the Sierra is the <strong>widest and tallest</strong> car in the segment, with the <strong>longest wheelbase</strong>, though not the longest overall. The top variant gets <strong>19-inch alloys</strong> — the biggest in the segment — with 18- and 17-inch options on lower trims.</p>
 
-      <div class="pull-quote">
-        <blockquote>"It attracts a crazy amount of attention — people in Fortuners and Innovas are pulling over to investigate what this is."</blockquote>
+      <div class="pullquote">
+        <p>"It attracts a crazy amount of attention — people in Fortuners and Innovas are pulling over to investigate what this is."</p>
         <cite>— Faisal Khan</cite>
       </div>
 
       <p>Not everything lands. Faisal Khan disliked the alloy design and felt the rear looked <em>"chopped off."</em> He also criticised the black rear-quarter panel — a styling tribute to the OG Sierra's wrap-around glass — for creating a genuine blind spot: <em>"Instead of seeing what's outside, you end up looking at the panel."</em></p>
-    </section>
 
-    <hr class="divider" />
+      <hr class="section-rule" />
 
-    <!-- SECTION 3: INTERIOR -->
-    <section class="section">
-      <div class="section-header">
-        <span class="section-num">03</span>
-        <h2>Interior &amp; Build Quality</h2>
-      </div>
+      <h2>Interior &amp; Build Quality</h2>
+
       <p>The top variant gets a <strong>triple-screen setup</strong>: a 10.25-inch instrument cluster and two 12.3-inch displays for infotainment and the front passenger. Lower variants replace the passenger screen with an AR-based head-up display. Gagan Choudhary called the UI <em>"the best screen currently available in India"</em> for a car in this segment.</p>
+
       <p>The passenger screen supports wireless headphones, a gaming controller (PlayStation or generic Bluetooth), YouTube, and offline media. Faisal Khan liked the <strong>privacy filter</strong> so the driver can't see what's playing — a genuine improvement over Mahindra's implementation.</p>
+
       <p>Feature count is genuinely extensive: ventilated front seats, six-way power driver seat with memory, extendable thigh support on both front seats, dual-zone climate, panoramic sunroof, 65W USB-C fast charging front and rear, electronic parking brake with auto-hold, 360° camera, Level 2 ADAS with 22 features, six airbags as standard, and a BOSS mode for the rear passenger.</p>
 
-      <div class="pull-quote">
-        <blockquote>"The single switch operating both the sunblind and sunroof is maddening — you cannot open just the sunblind without opening the glass."</blockquote>
+      <div class="pullquote">
+        <p>"The single switch operating both the sunblind and sunroof is maddening — you cannot open just the sunblind without opening the glass."</p>
         <cite>— Noted independently by both Faisal Khan &amp; Gagan Choudhary</cite>
       </div>
-    </section>
 
-    <hr class="divider" />
+      <hr class="section-rule" />
 
-    <!-- SECTION 4: POWERTRAIN -->
-    <section class="section">
-      <div class="section-header">
-        <span class="section-num">04</span>
-        <h2>Powertrain &amp; Performance</h2>
-      </div>
+      <h2>Powertrain &amp; Performance</h2>
+
       <p>Three engine options, all 1.5-litre four-cylinders:</p>
 
-      <table class="spec-table">
-        <thead>
-          <tr>
-            <th>Engine</th>
-            <th>Power</th>
-            <th>Torque</th>
-            <th>Gearbox</th>
-            <th>0–100 km/h</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1.5L NA Petrol</td>
-            <td>106 PS</td>
-            <td>145 Nm</td>
-            <td>6MT / 7DCA</td>
-            <td>Not tested</td>
-          </tr>
-          <tr>
-            <td>1.5L Turbo Petrol GDI ⭐</td>
-            <td>160 PS</td>
-            <td>255 Nm</td>
-            <td>6AT (Aisin)</td>
-            <td><strong>9.7 sec</strong></td>
-          </tr>
-          <tr>
-            <td>1.5L Diesel</td>
-            <td>118 PS</td>
-            <td>260–280 Nm</td>
-            <td>6MT / 6AT</td>
-            <td>13.4 sec</td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="table-scroll">
+        <table class="spec-table">
+          <thead>
+            <tr>
+              <th>Engine</th>
+              <th>Power</th>
+              <th>Torque</th>
+              <th>Gearbox</th>
+              <th>0–100 km/h</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.5L NA Petrol</td>
+              <td>106 PS</td>
+              <td>145 Nm</td>
+              <td>6MT / 7DCA</td>
+              <td>Not tested</td>
+            </tr>
+            <tr>
+              <td>1.5L Turbo Petrol GDI ★</td>
+              <td>160 PS</td>
+              <td>255 Nm</td>
+              <td>6AT (Aisin)</td>
+              <td><strong>9.7 sec</strong></td>
+            </tr>
+            <tr>
+              <td>1.5L Diesel</td>
+              <td>118 PS</td>
+              <td>260–280 Nm</td>
+              <td>6MT / 6AT</td>
+              <td>13.4 sec</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
       <p>The <strong>turbo-petrol is the star</strong>. Faisal Khan timed 0–100 in 9.7 seconds. He praised <em>"a nice big chunky mid-range punch"</em> with peak torque from 1,750–4,000 rpm. Auto Yogi declared it <em>"their best turbocharged engine, period."</em></p>
+
       <p><strong>Fuel efficiency is the catch.</strong> Faisal Khan saw 6–7 km/l in mixed driving, calling the 50-litre tank "small for the diet this car has." MotorOctane reported a more optimistic 10–12 km/l city and 15–17 km/l highway after 1,000 km. Expect somewhere in between depending on your right foot.</p>
+
       <p>The <strong>diesel avoids AdBlue</strong> entirely through a lean-NOx trap setup — a significant long-term ownership-cost advantage flagged by MotorOctane. Auto Yogi still recommends it as the most sensible pick for high-kilometre buyers.</p>
-    </section>
 
-    <hr class="divider" />
+      <hr class="section-rule" />
 
-    <!-- SECTION 5: RIDE -->
-    <section class="section">
-      <div class="section-header">
-        <span class="section-num">05</span>
-        <h2>Ride, Handling &amp; Practicality</h2>
-      </div>
+      <h2>Ride, Handling &amp; Practicality</h2>
+
       <p>PowerDrift called the ride <em>"one of their best yet,"</em> praising the frequency-selective dampers for soft low-speed compliance and highway stability. MotorOctane described handling <em>"comparable to almost a hatchback"</em> with impressively controlled body roll for a tall SUV.</p>
+
       <p>The caveat: <strong>top-variant 19-inch wheels hurt the ride</strong>. Faisal Khan, Gagan Choudhary, and Auto Yogi all felt the low-profile tyres compromise comfort over broken surfaces. Expect 17- and 18-inch variants to ride noticeably better on Indian roads.</p>
+
       <p>Practicality is strong: <strong>622-litre boot</strong> (expandable to 1,257 litres) is the biggest in segment. Ground clearance sits around 205mm. But note — this is a <strong>front-wheel-drive monocoque</strong>. No AWD, no ladder frame. Faisal Khan was vocal that Tata missed an opportunity to take on the Thar.</p>
-    </section>
 
-    <hr class="divider" />
+      <hr class="section-rule" />
 
-    <!-- SECTION 6: DISAGREEMENTS -->
-    <section class="section">
-      <div class="section-header">
-        <span class="section-num">06</span>
-        <h2>Where the Reviewers Actually Disagree</h2>
-      </div>
+      <h2>Where the reviewers actually disagree</h2>
+
       <p>This is the most valuable section — where five experienced voices diverge tells you what's genuinely uncertain about the car.</p>
 
-      <table class="disagree-table">
-        <thead>
-          <tr>
-            <th>Topic</th>
-            <th>Camp A</th>
-            <th>Camp B</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Fit &amp; Finish</td>
-            <td><strong>Faisal Khan, Auto Yogi:</strong> Serious, unresolved Tata problem. Sharp edges, panel gaps, beading loose after 5 openings.</td>
-            <td><strong>PowerDrift, MotorOctane:</strong> Pre-production units; expect production cars to be cleaner. Not alarmed.</td>
-          </tr>
-          <tr>
-            <td>Aisin Auto Shifts</td>
-            <td><strong>MotorOctane:</strong> Shifts "faster than most dual-clutch automatics." Very impressed.</td>
-            <td><strong>Faisal Khan:</strong> "Not very fast or eager." Paddle shifters failed to respond on his turbo-petrol test car.</td>
-          </tr>
-          <tr>
-            <td>City Fuel Efficiency</td>
-            <td><strong>MotorOctane:</strong> 10–12 km/l city (post 1,000 km real-world).</td>
-            <td><strong>Faisal Khan:</strong> 6–7 km/l in mixed driving. "Small tank for the diet this car has."</td>
-          </tr>
-          <tr>
-            <td>Touch Panel ORVM Issue</td>
-            <td><strong>Auto Yogi:</strong> Knee accidentally folds ORVMs at 100 km/h. Dangerous.</td>
-            <td><strong>Gagan Choudhary:</strong> Could not reproduce the accidental activation in a full day of driving.</td>
-          </tr>
-          <tr>
-            <td>Rear Blind Spot</td>
-            <td><strong>Faisal Khan:</strong> Genuine safety compromise. Design panel blocks rear-quarter visibility.</td>
-            <td><strong>PowerDrift:</strong> Not a major issue — the blind-view monitor compensates adequately.</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <hr class="divider" />
-
-    <!-- SECTION 7: WHO SHOULD BUY -->
-    <section class="section">
-      <div class="section-header">
-        <span class="section-num">07</span>
-        <h2>Who Should Buy It</h2>
+      <div class="table-scroll">
+        <table class="disagree-table">
+          <thead>
+            <tr>
+              <th>Topic</th>
+              <th>Camp A</th>
+              <th>Camp B</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fit &amp; Finish</td>
+              <td><strong>Faisal Khan, Auto Yogi:</strong> Serious, unresolved Tata problem. Sharp edges, panel gaps, beading loose after 5 openings.</td>
+              <td><strong>PowerDrift, MotorOctane:</strong> Pre-production units; expect production cars to be cleaner. Not alarmed.</td>
+            </tr>
+            <tr>
+              <td>Aisin Auto Shifts</td>
+              <td><strong>MotorOctane:</strong> Shifts "faster than most dual-clutch automatics." Very impressed.</td>
+              <td><strong>Faisal Khan:</strong> "Not very fast or eager." Paddle shifters failed to respond on his turbo-petrol test car.</td>
+            </tr>
+            <tr>
+              <td>City Fuel Efficiency</td>
+              <td><strong>MotorOctane:</strong> 10–12 km/l city (post 1,000 km real-world).</td>
+              <td><strong>Faisal Khan:</strong> 6–7 km/l in mixed driving. "Small tank for the diet this car has."</td>
+            </tr>
+            <tr>
+              <td>Touch Panel ORVM</td>
+              <td><strong>Auto Yogi:</strong> Knee accidentally folds ORVMs at 100 km/h. Dangerous.</td>
+              <td><strong>Gagan Choudhary:</strong> Could not reproduce the accidental activation in a full day of driving.</td>
+            </tr>
+            <tr>
+              <td>Rear Blind Spot</td>
+              <td><strong>Faisal Khan:</strong> Genuine safety compromise. Design panel blocks rear-quarter visibility.</td>
+              <td><strong>PowerDrift:</strong> Not a major issue — the blind-view monitor compensates adequately.</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+
+      <hr class="section-rule" />
+
+      <h2>Who should buy it</h2>
+
       <p>The consensus buyer profile is clear. <strong>The Sierra is for someone who wants a mid-size SUV that stands out</strong> — a buyer <em>"bored of seeing a Creta,"</em> as Auto Yogi put it, who values design, presence, space, and a feature-loaded cabin more than outright precision engineering.</p>
+
       <p>If you primarily drive in the city, the <strong>turbo-petrol automatic</strong> is the enthusiast's pick — strong mid-range, refined, genuinely entertaining, but thirsty. If you're a high-kilometre commuter or frequent highway driver, Auto Yogi's recommendation of the <strong>diesel manual</strong> makes the most financial sense, especially given the no-AdBlue advantage.</p>
+
       <p><strong>Alternatives to cross-shop:</strong> Hyundai Creta (tighter build, better resale), Kia Seltos (similar turbo performance), VW Taigun/Škoda Kushaq (sharper dynamics), Toyota Hyryder/Maruti Grand Vitara (hybrid efficiency), and the upcoming Renault Duster. For those considering the Scorpio-N or Thar — the Sierra is front-wheel-drive only and is emphatically <em>not</em> that kind of vehicle.</p>
-    </section>
 
-    <hr class="divider-gold" />
-
-    <!-- VERDICT -->
-    <section class="section">
-      <div class="section-header">
-        <span class="section-num">08</span>
-        <h2>Verdict: The Jury Speaks</h2>
+      <div class="verdict-strip">
+        <div class="verdict-strip__label">The Jury Verdict</div>
+        <div class="verdict-strip__text">The best Tata SUV in a long time — but not yet the best mid-size SUV you can buy.</div>
+        <div class="verdict-strip__sub">It wins on presence, rear-seat space, features, audio, and a genuinely excellent new turbo-petrol. Buy the diesel manual if you clock big kilometres. Wait for the second production batch if build quality matters most. Either way, the Sierra deserves a serious place on your shortlist.</div>
       </div>
 
-      <div class="verdict-box">
-        <h3>The Car Jury Synthesis Verdict</h3>
-        <p>The Sierra is the <strong>best Tata SUV in a long time, but not yet the best mid-size SUV you can buy.</strong> It wins on presence, rear-seat space, features, audio, and a genuinely excellent new turbo-petrol. It loses points on fuel efficiency, fit-and-finish consistency, and some ergonomic misfires.</p>
-        <p>PowerDrift called it <em>"a damn good car"</em> with character. MotorOctane went furthest, claiming Tata has <em>"raised the segment benchmark."</em> Auto Yogi was blunt: <em>"90% good. That 10% push is what we want from Tata."</em> Even the harshest critics — Faisal Khan and Gagan Choudhary — acknowledged it's Tata's most accomplished product yet.</p>
-        <p><strong>Our recommendation: buy it if the design speaks to you and you can live with Tata's known quirks.</strong> Consider waiting for the second production batch if you're the fussy type. Either way, the Sierra deserves a serious place on your shortlist.</p>
-        <div class="verdict-rating">
-          <div class="rating-circle">
-            <span class="rating-score">8.1</span>
-            <span class="rating-max">/10</span>
-          </div>
-          <div class="rating-text">
-            <strong>Recommended — With Caveats</strong>
-            Strong design, class-leading space &amp; audio, excellent turbo-petrol. Buy the diesel manual if you clock big kilometres. Wait for second production batch if build quality matters most to you.
-          </div>
-        </div>
-      </div>
+    </div>
 
-      <div class="reviewer-scores">
-        <h3>Individual Reviewer Verdicts</h3>
-        <div class="reviewer-row">
-          <div>
-            <div class="reviewer-name">Faisal Khan</div>
-            <div class="reviewer-channel">youtube.com/faisalkhan</div>
-          </div>
-          <div class="reviewer-verdict">Critical but impressed — "Phenomenal petrol, but Tata needs to fix the basics"</div>
-        </div>
-        <div class="reviewer-row">
-          <div>
-            <div class="reviewer-name">Gagan Choudhary</div>
-            <div class="reviewer-channel">Gagan Choudhary</div>
-          </div>
-          <div class="reviewer-verdict">Best Tata yet — "Still not class-leading on quality"</div>
-        </div>
-        <div class="reviewer-row">
-          <div>
-            <div class="reviewer-name">MotorOctane</div>
-            <div class="reviewer-channel">motoroctane</div>
-          </div>
-          <div class="reviewer-verdict">Most bullish — "Raises the segment benchmark"</div>
-        </div>
-        <div class="reviewer-row">
-          <div>
-            <div class="reviewer-name">PowerDrift</div>
-            <div class="reviewer-channel">PowerDrift</div>
-          </div>
-          <div class="reviewer-verdict">"A damn good car" — character &amp; presence win</div>
-        </div>
-        <div class="reviewer-row">
-          <div>
-            <div class="reviewer-name">Auto Yogi (Vikas Yogi)</div>
-            <div class="reviewer-channel">Auto Yogi</div>
-          </div>
-          <div class="reviewer-verdict">"90% there. Push that last 10%, Tata."</div>
-        </div>
+    <!-- Jury Credit Strip -->
+    <div class="jury-strip">
+      <p class="jury-strip__label">The jury — 5 independent creators</p>
+      <div class="jury-members">
+        <div class="jury-member"><a href="/influencers/faisal-khan/">Faisal Khan</a></div>
+        <div class="jury-member"><a href="/influencers/gagan-choudhary/">Gagan Choudhary</a></div>
+        <div class="jury-member"><a href="/influencers/motoroctane/">MotorOctane</a></div>
+        <div class="jury-member"><a href="/influencers/powerdrift/">PowerDrift</a></div>
+        <div class="jury-member"><a href="/influencers/auto-yogi/">Auto Yogi</a></div>
       </div>
-
-    </section>
-
-  </main>
-
-  <!-- SIDEBAR -->
-  <aside class="sidebar">
-
-    <div class="quick-verdict">
-      <h4>At a Glance</h4>
-      <div class="qv-row">
-        <span class="qv-label">Design</span>
-        <div class="qv-bar-wrap">
-          <div class="qv-bar"><div class="qv-bar-fill" style="width:92%"></div></div>
-          <span class="qv-score">9.2</span>
-        </div>
-      </div>
-      <div class="qv-row">
-        <span class="qv-label">Interior</span>
-        <div class="qv-bar-wrap">
-          <div class="qv-bar"><div class="qv-bar-fill" style="width:82%"></div></div>
-          <span class="qv-score">8.2</span>
-        </div>
-      </div>
-      <div class="qv-row">
-        <span class="qv-label">Performance</span>
-        <div class="qv-bar-wrap">
-          <div class="qv-bar"><div class="qv-bar-fill" style="width:80%"></div></div>
-          <span class="qv-score">8.0</span>
-        </div>
-      </div>
-      <div class="qv-row">
-        <span class="qv-label">Ride &amp; Handling</span>
-        <div class="qv-bar-wrap">
-          <div class="qv-bar"><div class="qv-bar-fill" style="width:75%"></div></div>
-          <span class="qv-score">7.5</span>
-        </div>
-      </div>
-      <div class="qv-row">
-        <span class="qv-label">Build Quality</span>
-        <div class="qv-bar-wrap">
-          <div class="qv-bar"><div class="qv-bar-fill" style="width:68%"></div></div>
-          <span class="qv-score">6.8</span>
-        </div>
-      </div>
-      <div class="qv-row">
-        <span class="qv-label">Value</span>
-        <div class="qv-bar-wrap">
-          <div class="qv-bar"><div class="qv-bar-fill" style="width:77%"></div></div>
-          <span class="qv-score">7.7</span>
-        </div>
+      <p class="article-footer-meta">
+        <span>Published April 19, 2026</span>
+        <span>130,000+ words reviewed</span>
+        <span>5 independent YouTube creators</span>
+        <span>No manufacturer relationships</span>
+      </p>
+      <div class="trust-badge">
+        <span class="trust-dot" style="background:#0E6B3C; width:5px; height:5px;"></span>
+        No sponsored reviews · No manufacturer relationships
       </div>
     </div>
 
-    <div class="sidebar-card">
-      <h4>What They Loved</h4>
-      <ul class="sidebar-list">
-        <li>Road presence &amp; head-turning design</li>
-        <li>Turbo-petrol GDI engine — best Tata petrol ever</li>
-        <li>JBL 12-speaker audio (class-leading)</li>
-        <li>Longest wheelbase in segment — rear space</li>
-        <li>Passenger entertainment screen with privacy filter</li>
-        <li>Level 2 ADAS, 22 safety features standard</li>
-        <li>622L boot — biggest in segment</li>
-        <li>No AdBlue on the diesel engine</li>
-      </ul>
+  </div>
+</main>
+
+<!-- Related Verdicts -->
+<section class="related-bar">
+  <div class="related-bar__inner">
+    <p class="related-bar__label">More verdicts coming soon</p>
+    <div class="related-cards">
+      <div class="related-card">
+        <p class="related-card__meta">Renault · Mid-size SUV</p>
+        <h3 class="related-card__title">2025 Renault Duster</h3>
+        <p class="related-card__note">Review in progress</p>
+      </div>
+      <div class="related-card">
+        <p class="related-card__meta">Ola Electric · Electric SUV</p>
+        <h3 class="related-card__title">Ola Roadster / BE6e</h3>
+        <p class="related-card__note">Review in progress</p>
+      </div>
+      <div class="related-card">
+        <p class="related-card__meta">Mahindra · 3-Row SUV</p>
+        <h3 class="related-card__title">2025 Mahindra XEV 9e</h3>
+        <p class="related-card__note">Review in progress</p>
+      </div>
     </div>
+  </div>
+</section>
 
-    <div class="sidebar-card">
-      <h4>What Bothered Them</h4>
-      <ul class="sidebar-list cons">
-        <li>Fit &amp; finish still has panel gaps and sharp edges</li>
-        <li>Touch panel below infotainment is accident-prone</li>
-        <li>Turbo-petrol thirsty (6–7 km/l in city)</li>
-        <li>19-inch tyres hurt ride on rough roads</li>
-        <li>Rear quarter blind spot (design panel)</li>
-        <li>Single switch for sunblind + sunroof</li>
-        <li>No AWD — FWD monocoque only</li>
-        <li>Steering alignment drift on bumps</li>
-      </ul>
+<!-- Site Footer -->
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div>
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+      </div>
+      <div class="site-footer__links">
+        <a href="/reviews/">Reviews</a>
+        <a href="/compare/">Compare</a>
+        <a href="/best/">Best Lists</a>
+        <a href="/influencers/">Influencers</a>
+        <a href="/about/">About</a>
+      </div>
     </div>
-
-    <div class="sidebar-card">
-      <h4>Key Specifications</h4>
-      <ul class="sidebar-list" style="--icon:'→'">
-        <li style="list-style:none; display:flex; gap:0.4rem;"><span style="color:var(--sierra-gold); flex-shrink:0;">→</span> Wheelbase: 2,737mm</li>
-        <li style="list-style:none; display:flex; gap:0.4rem;"><span style="color:var(--sierra-gold); flex-shrink:0;">→</span> Ground Clearance: ~205mm</li>
-        <li style="list-style:none; display:flex; gap:0.4rem;"><span style="color:var(--sierra-gold); flex-shrink:0;">→</span> Boot: 622L / 1,257L</li>
-        <li style="list-style:none; display:flex; gap:0.4rem;"><span style="color:var(--sierra-gold); flex-shrink:0;">→</span> Turbo: 160PS, 255Nm</li>
-        <li style="list-style:none; display:flex; gap:0.4rem;"><span style="color:var(--sierra-gold); flex-shrink:0;">→</span> 0–100: 9.7 sec (turbo-petrol)</li>
-        <li style="list-style:none; display:flex; gap:0.4rem;"><span style="color:var(--sierra-gold); flex-shrink:0;">→</span> Airbags: 6 (standard)</li>
-        <li style="list-style:none; display:flex; gap:0.4rem;"><span style="color:var(--sierra-gold); flex-shrink:0;">→</span> Max wheels: 19 inch</li>
-      </ul>
+    <div class="site-footer__bottom">
+      © 2026 The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
     </div>
-
-    <div class="sidebar-card">
-      <h4>Compare Against</h4>
-      <ul class="sidebar-list">
-        <li>Hyundai Creta — tighter build, better resale</li>
-        <li>Kia Seltos — similar turbo performance</li>
-        <li>VW Taigun / Škoda Kushaq — sharper dynamics</li>
-        <li>Toyota Hyryder / Maruti Grand Vitara — hybrid efficiency</li>
-        <li>Renault Duster — upcoming rival</li>
-      </ul>
-    </div>
-
-  </aside>
-
-</div>
-
-<footer>
-  <p>This article is a synthesis of YouTube review transcripts from <strong>Faisal Khan, Gagan Choudhary, MotorOctane, PowerDrift &amp; Auto Yogi</strong>. All facts sourced from their respective reviews. No manufacturer relationship. <strong>The Car Jury</strong> — Aggregated reviews, not sponsored ones.</p>
+  </div>
 </footer>
 
 </body>
