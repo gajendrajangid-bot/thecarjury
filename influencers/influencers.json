@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "faisal-khan",
+    "name": "Faisal Khan",
+    "tagline": "Known for blunt, no-nonsense takes on Indian cars",
+    "youtube_handle": "FaisalKhanOfficial",
+    "youtube_url": "https://www.youtube.com/@FaisalKhanOfficial",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": ["tata/sierra"]
+  },
+  {
+    "slug": "gagan-choudhary",
+    "name": "Gagan Choudhary",
+    "tagline": "Deep-dive reviews with strong focus on ownership experience",
+    "youtube_handle": "GaganChoudhary",
+    "youtube_url": "https://www.youtube.com/@GaganChoudhary",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": ["tata/sierra"]
+  },
+  {
+    "slug": "motoroctane",
+    "name": "MotorOctane",
+    "tagline": "Performance and tech-focused auto reviews from Pune",
+    "youtube_handle": "MotorOctane",
+    "youtube_url": "https://www.youtube.com/@MotorOctane",
+    "instagram_url": "https://www.instagram.com/motoroctane",
+    "instagram_handle": "motoroctane",
+    "subscriber_count": "",
+    "articles": ["tata/sierra"]
+  },
+  {
+    "slug": "powerdrift",
+    "name": "PowerDrift",
+    "tagline": "India's most cinematic car review channel",
+    "youtube_handle": "PowerDrift",
+    "youtube_url": "https://www.youtube.com/@PowerDrift",
+    "instagram_url": "https://www.instagram.com/powerdrift",
+    "instagram_handle": "powerdrift",
+    "subscriber_count": "",
+    "articles": ["tata/sierra"]
+  },
+  {
+    "slug": "auto-yogi",
+    "name": "Auto Yogi",
+    "tagline": "Detailed long-form reviews with honest ownership perspective",
+    "youtube_handle": "AutoYogi",
+    "youtube_url": "https://www.youtube.com/@AutoYogi",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": ["tata/sierra"]
+  }
+]

@@ -573,6 +573,8 @@ def main():
     carjury_manager.update_sitemap()
     carjury_manager.update_llms_txt()
     carjury_manager.update_reviews_index()
+    import generate_influencer_pages
+    generate_influencer_pages.build_all()
 
     # 6. Git push
     pushed = carjury_manager.git_push(
