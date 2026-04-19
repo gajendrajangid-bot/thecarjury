@@ -571,6 +571,7 @@ def main():
     import carjury_manager
     carjury_manager.update_sitemap()
     carjury_manager.update_llms_txt()
+    carjury_manager.update_reviews_index()
 
     # 6. Git push
     pushed = carjury_manager.git_push(
