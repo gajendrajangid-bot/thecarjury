@@ -399,6 +399,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     <a href="/reviews/">Reviews</a>
     <a href="/compare/">Compare</a>
     <a href="/best/">Best Lists</a>
+    <a href="/about/">About</a>
   </div>
 </nav>
 
