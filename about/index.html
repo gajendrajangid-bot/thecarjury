@@ -7,71 +7,151 @@
   <meta name="description" content="How The Car Jury works. We synthesise transcripts from India's top independent YouTube car reviewers into a single, fact-backed verdict." />
   <link rel="canonical" href="https://www.thecarjury.com/about/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
+    :root {
+      --font-display: "Fraunces", Georgia, serif;
+      --font-body:    "Source Serif 4", Charter, Georgia, serif;
+      --font-ui:      "Inter", -apple-system, Arial, sans-serif;
+      --red:          #C8102E;
+      --red-dark:     #A30C24;
+      --paper:        #FAF8F5;
+      --white:        #FFFFFF;
+      --hairline:     #E5E2DC;
+      --stone-400:    #9E9A93;
+      --stone-600:    #6B6B6B;
+      --stone-800:    #3D3D3D;
+      --ink:          #1A1A1A;
+      --green:        #0E6B3C;
+      --green-tint:   #E6F2EC;
+    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e8e8e8; line-height: 1.7; }
-    nav { background: #111; border-bottom: 1px solid #222; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 56px; }
-    .nav-logo { font-family: Georgia, serif; font-size: 1.1rem; font-weight: bold; color: #D4A017; text-decoration: none; }
-    .nav-links { display: flex; gap: 24px; font-size: 0.85rem; }
-    .nav-links a { color: #999; text-decoration: none; }
-    .wrap { max-width: 720px; margin: 0 auto; padding: 60px 24px 80px; }
-    h1 { font-family: Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.4rem); color: #fff; margin-bottom: 16px; }
-    .lead { color: #bbb; font-size: 1.1rem; margin-bottom: 48px; border-left: 3px solid #D4A017; padding-left: 20px; }
-    h2 { font-family: Georgia, serif; font-size: 1.3rem; color: #D4A017; margin: 40px 0 12px; }
-    p { color: #ccc; margin-bottom: 16px; }
-    .step-grid { display: grid; gap: 16px; margin: 24px 0; }
-    .step { background: #141414; border: 1px solid #222; border-radius: 8px; padding: 20px 24px; display: flex; gap: 16px; align-items: flex-start; }
-    .step-num { font-family: Georgia, serif; font-size: 1.5rem; color: #D4A017; font-weight: bold; flex-shrink: 0; line-height: 1; margin-top: 2px; }
-    .step-text strong { color: #fff; display: block; margin-bottom: 4px; }
-    .step-text p { margin: 0; font-size: 0.9rem; color: #999; }
-    .principle-list { list-style: none; margin: 16px 0; }
-    .principle-list li { padding: 10px 0 10px 24px; position: relative; color: #ccc; border-bottom: 1px solid #1a1a1a; font-size: 0.95rem; }
-    .principle-list li::before { content: "→"; position: absolute; left: 0; color: #D4A017; }
-    a { color: #D4A017; text-decoration: none; }
-    footer { border-top: 1px solid #1e1e1e; padding: 24px; text-align: center; color: #555; font-size: 0.8rem; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; line-height: 1.7; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
+
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 100; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display); color: var(--red); }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display); color: var(--ink); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui); color: var(--stone-600); transition: color 0.15s; }
+    .site-nav a:hover { color: var(--ink); }
+    .site-nav a.active { color: var(--ink); font-weight: 600; }
+
+    .wrap { max-width: 720px; margin: 0 auto; padding: 64px 32px 100px; }
+
+    .page-category { font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--red); text-transform: uppercase; margin-bottom: 20px; }
+    .page-title { font: 700 44px/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 20px; }
+    .page-lead { font: 400 21px/1.6 var(--font-body); color: var(--stone-800); font-style: italic; margin-bottom: 56px; padding-left: 20px; border-left: 3px solid var(--red); }
+
+    h2 { font: 700 28px/1.2 var(--font-display); color: var(--ink); letter-spacing: -0.01em; margin: 48px 0 16px; }
+    p { font: 400 17px/1.75 var(--font-body); color: var(--stone-800); margin-bottom: 20px; }
+
+    .step-grid { display: grid; gap: 16px; margin: 24px 0 40px; }
+    .step { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 20px 24px; display: flex; gap: 18px; align-items: flex-start; }
+    .step-num { font: 700 20px/1 var(--font-display); color: var(--red); flex-shrink: 0; margin-top: 2px; min-width: 28px; }
+    .step-text strong { font: 700 16px/1.3 var(--font-ui); color: var(--ink); display: block; margin-bottom: 6px; }
+    .step-text p { font: 400 14px/1.6 var(--font-ui); color: var(--stone-600); margin: 0; }
+
+    .principle-list { list-style: none; margin: 16px 0 40px; }
+    .principle-list li { padding: 12px 0 12px 24px; position: relative; font: 400 16px/1.5 var(--font-body); color: var(--stone-800); border-bottom: 1px solid var(--hairline); }
+    .principle-list li::before { content: "→"; position: absolute; left: 0; color: var(--red); font-weight: 600; }
+    .principle-list li:last-child { border-bottom: none; }
+
+    .section-rule { border: none; border-top: 1px solid var(--hairline); margin: 48px 0; }
+
+    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; }
+    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
+    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
+    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
+    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
+    .site-footer__links a:hover { color: var(--red); }
+    .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
+
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; }
+      .site-nav a:not(.active) { display: none; }
+      .wrap { padding: 40px 20px 80px; }
+      .page-title { font-size: 30px; }
+      .page-lead { font-size: 17px; }
+      .site-footer { padding: 32px 20px; }
+      .site-footer__top { flex-direction: column; }
+    }
   </style>
 </head>
 <body>
-<nav>
-  <a class="nav-logo" href="/">The Car Jury</a>
-  <div class="nav-links">
-    <a href="/reviews/">Reviews</a>
-    <a href="/compare/">Compare</a>
-    <a href="/best/">Best Lists</a>
-  </div>
-</nav>
-<div class="wrap">
-  <h1>About The Car Jury</h1>
 
-  <h2>Vision</h2>
-  <p class="lead">To be the world's most trusted destination for car buying decisions.</p>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/reviews/">Reviews</a>
+      <a href="/compare/">Compare</a>
+      <a href="/best/">Best Lists</a>
+      <a href="/influencers/">Influencers</a>
+      <a href="/about/" class="active">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <p class="page-category">About The Car Jury</p>
+  <h1 class="page-title">How We Reach a Verdict</h1>
+  <p class="page-lead">To be the world's most trusted destination for car buying decisions.</p>
 
   <h2>Mission</h2>
-  <p style="color:#ccc;font-size:1.05rem;margin-bottom:48px">We watch every expert so you don't have to — distilling the best automotive minds on the internet into one clear, honest verdict on every car.</p>
+  <p>We watch every expert so you don't have to — distilling the best automotive minds on the internet into one clear, honest verdict on every car.</p>
+
+  <hr class="section-rule" />
 
   <h2>How It Works</h2>
   <div class="step-grid">
     <div class="step">
       <div class="step-num">1</div>
-      <div class="step-text"><strong>Select 5 independent creators</strong><p>We pick 5 Indian YouTube creators who reviewed the car independently. No CarDekho, AutoCarIndia, or media outlets — only independent voices with no manufacturer relationships.</p></div>
+      <div class="step-text">
+        <strong>Select 5 independent creators</strong>
+        <p>We pick 5 Indian YouTube creators who reviewed the car independently. No CarDekho, AutoCarIndia, or media outlets — only independent voices with no manufacturer relationships.</p>
+      </div>
     </div>
     <div class="step">
       <div class="step-num">2</div>
-      <div class="step-text"><strong>Extract full transcripts</strong><p>We pull complete video transcripts — often 100,000+ words per car across all 5 reviewers. Every opinion, spec, complaint, and praise is captured.</p></div>
+      <div class="step-text">
+        <strong>Extract full transcripts</strong>
+        <p>We pull complete video transcripts — often 100,000+ words per car across all 5 reviewers. Every opinion, spec, complaint, and praise is captured.</p>
+      </div>
     </div>
     <div class="step">
       <div class="step-num">3</div>
-      <div class="step-text"><strong>AI synthesis</strong><p>Claude AI reads all transcripts and maps consensus (what most reviewers agree on), disagreements (genuine splits in opinion), and key facts. Nothing is invented — only what's in the transcripts.</p></div>
+      <div class="step-text">
+        <strong>AI synthesis</strong>
+        <p>Claude AI reads all transcripts and maps consensus (what most reviewers agree on), disagreements (genuine splits in opinion), and key facts. Nothing is invented — only what's in the transcripts.</p>
+      </div>
     </div>
     <div class="step">
       <div class="step-num">4</div>
-      <div class="step-text"><strong>Jury score</strong><p>We score 6 dimensions: Design, Interior, Performance, Ride Quality, Build Quality, and Value for Money. The overall Jury Score is the weighted average.</p></div>
+      <div class="step-text">
+        <strong>Jury score</strong>
+        <p>We score 6 dimensions: Design, Interior, Performance, Ride Quality, Build Quality, and Value for Money. The overall Jury Score is the weighted average.</p>
+      </div>
     </div>
     <div class="step">
       <div class="step-num">5</div>
-      <div class="step-text"><strong>Buy / Wait / Skip verdict</strong><p>Every review ends with a clear recommendation. Not "it depends" — a real answer for a real Indian buyer.</p></div>
+      <div class="step-text">
+        <strong>Buy / Wait / Skip verdict</strong>
+        <p>Every review ends with a clear recommendation. Not "it depends" — a real answer for a real Indian buyer.</p>
+      </div>
     </div>
   </div>
+
+  <hr class="section-rule" />
 
   <h2>Our Principles</h2>
   <ul class="principle-list">
@@ -83,12 +163,38 @@
     <li>Indian road conditions, Indian prices, Indian buyer priorities</li>
   </ul>
 
+  <hr class="section-rule" />
+
   <h2>Why We Built This</h2>
   <p>Car buying in India is overwhelming. There are dozens of reviews per model, each with different opinions. Some reviewers are influenced by who pays for their test drive. Others focus on features that don't matter to actual buyers.</p>
   <p>The Car Jury cuts through the noise. We aggregate, synthesise, and give you one trusted verdict — backed by the collective view of India's best independent voices.</p>
 
   <p style="margin-top:40px"><a href="/reviews/">Read our reviews →</a></p>
 </div>
-<footer>© 2026 The Car Jury · <a href="/">Home</a> · <a href="/reviews/">All Reviews</a> · <a href="mailto:hello@thecarjury.com">Contact</a></footer>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div>
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+      </div>
+      <div class="site-footer__links">
+        <a href="/reviews/">Reviews</a>
+        <a href="/compare/">Compare</a>
+        <a href="/best/">Best Lists</a>
+        <a href="/influencers/">Influencers</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      © 2026 The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

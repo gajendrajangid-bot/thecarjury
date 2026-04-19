@@ -27,7 +27,6 @@ def article_display(article_slug: str) -> tuple[str, str]:
     model = " ".join(p.replace("-", " ").title() for p in parts[1:]) if len(parts) > 1 else ""
     display = f"{brand} {model}".strip()
     url = f"/reviews/{article_slug}/"
-    # Try to get real title from HTML
     page = CARJURY / "reviews" / article_slug / "index.html"
     if page.exists():
         html = page.read_text()
@@ -37,44 +36,117 @@ def article_display(article_slug: str) -> tuple[str, str]:
     return display, url
 
 
-NAV = """<nav>
-  <a class="nav-logo" href="/">The Car Jury</a>
-  <div class="nav-links">
-    <a href="/reviews/">Reviews</a>
-    <a href="/compare/">Compare</a>
-    <a href="/best/">Best Lists</a>
-    <a href="/influencers/">Influencers</a>
-    <a href="/about/">About</a>
-  </div>
-</nav>"""
-
-BASE_STYLE = """
+# Shared CSS tokens and base styles (used as a string value, not an f-string)
+SHARED_CSS = """
+    :root {
+      --font-display: "Fraunces", "Playfair Display", Georgia, serif;
+      --font-body:    "Source Serif 4", "Source Serif Pro", Charter, Georgia, serif;
+      --font-ui:      "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+      --red:          #C8102E;
+      --red-dark:     #A30C24;
+      --paper:        #FAF8F5;
+      --white:        #FFFFFF;
+      --hairline:     #E5E2DC;
+      --stone-200:    #D6D2CC;
+      --stone-400:    #9E9A93;
+      --stone-600:    #6B6B6B;
+      --stone-800:    #3D3D3D;
+      --ink:          #1A1A1A;
+      --green:        #0E6B3C;
+      --green-tint:   #E6F2EC;
+    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e8e8e8; line-height: 1.7; }
-    a { color: #D4A017; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    nav { background: #111; border-bottom: 1px solid #222; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 56px; position: sticky; top: 0; z-index: 100; }
-    .nav-logo { font-family: Georgia, serif; font-size: 1.1rem; font-weight: bold; color: #D4A017; }
-    .nav-links { display: flex; gap: 24px; font-size: 0.85rem; }
-    .nav-links a { color: #999; }
-    .wrap { max-width: 860px; margin: 0 auto; padding: 48px 24px 80px; }
-    footer { border-top: 1px solid #1e1e1e; padding: 24px; text-align: center; color: #555; font-size: 0.8rem; }
+    html { font-size: 16px; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; line-height: 1.7; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 100; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display); color: var(--red); letter-spacing: -0.01em; }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display); color: var(--ink); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui); color: var(--stone-600); transition: color 0.15s; }
+    .site-nav a:hover { color: var(--ink); }
+    .site-nav a.active { color: var(--ink); font-weight: 600; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 56px 32px 100px; }
+    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; }
+    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
+    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
+    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
+    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
+    .site-footer__links a:hover { color: var(--red); }
+    .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; }
+      .site-nav a:not(.active) { display: none; }
+      .wrap { padding: 32px 20px 80px; }
+      .site-footer { padding: 32px 20px; }
+      .site-footer__top { flex-direction: column; }
+    }
 """
+
+FONTS_LINK = '<link rel="preconnect" href="https://fonts.googleapis.com" />\n  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />'
+
+SITE_HEADER = """<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/reviews/">Reviews</a>
+      <a href="/compare/">Compare</a>
+      <a href="/best/">Best Lists</a>
+      <a href="/influencers/" class="active">Influencers</a>
+      <a href="/about/">About</a>
+    </nav>
+  </div>
+</header>"""
+
+
+def site_footer() -> str:
+    return f"""<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div>
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+      </div>
+      <div class="site-footer__links">
+        <a href="/reviews/">Reviews</a>
+        <a href="/compare/">Compare</a>
+        <a href="/best/">Best Lists</a>
+        <a href="/influencers/">Influencers</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      © {TODAY_YEAR} The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
+    </div>
+  </div>
+</footer>"""
 
 
 def generate_index(influencers: list[dict]) -> str:
     cards = ""
     for inf in influencers:
         article_count = len(inf.get("articles", []))
-        yt_link = f'<a href="{inf["youtube_url"]}" target="_blank" rel="noopener noreferrer">@{inf["youtube_handle"]}</a>' if inf.get("youtube_url") else ""
-        ig_link = f' · <a href="{inf["instagram_url"]}" target="_blank" rel="noopener noreferrer">@{inf["instagram_handle"]}</a>' if inf.get("instagram_url") else ""
+        yt_handle = inf.get("youtube_handle", "")
+        ig_handle = inf.get("instagram_handle", "")
+        yt_link = f'<a href="{inf["youtube_url"]}" target="_blank" rel="noopener noreferrer">YouTube @{yt_handle}</a>' if inf.get("youtube_url") else ""
+        ig_link = f' &nbsp;·&nbsp; <a href="{inf["instagram_url"]}" target="_blank" rel="noopener noreferrer">Instagram @{ig_handle}</a>' if inf.get("instagram_url") else ""
         cards += f"""
     <a href="/influencers/{inf['slug']}/" class="inf-card">
       <div class="inf-avatar">{inf['name'][0]}</div>
       <div class="inf-body">
         <div class="inf-name">{inf['name']}</div>
         <div class="inf-tagline">{inf['tagline']}</div>
-        <div class="inf-meta">{yt_link}{ig_link}</div>
+        <div class="inf-links">{yt_link}{ig_link}</div>
         <div class="inf-count">{article_count} review{'s' if article_count != 1 else ''} analysed</div>
       </div>
     </a>"""
@@ -84,33 +156,39 @@ def generate_index(influencers: list[dict]) -> str:
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>India's Top Car Reviewers — The Car Jury</title>
-  <meta name="description" content="The independent YouTube creators whose reviews The Car Jury synthesises. No media outlets. No manufacturer relationships." />
+  <title>India's Top Independent Car Reviewers — The Car Jury</title>
+  <meta name="description" content="The 5 independent YouTube creators whose reviews The Car Jury synthesises into one verdict. No media outlets. No manufacturer relationships." />
   <link rel="canonical" href="https://www.thecarjury.com/influencers/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  {FONTS_LINK}
   <style>
-    {BASE_STYLE}
-    h1 {{ font-family: Georgia, serif; font-size: clamp(1.6rem, 4vw, 2.2rem); color: #fff; margin-bottom: 8px; }}
-    .subtitle {{ color: #777; margin-bottom: 40px; font-size: 0.95rem; }}
+    {SHARED_CSS}
+    .page-title {{ font: 700 40px/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 10px; }}
+    .page-sub {{ font: 400 17px/1.6 var(--font-body); color: var(--stone-600); margin-bottom: 48px; }}
     .inf-grid {{ display: grid; gap: 16px; }}
-    .inf-card {{ background: #141414; border: 1px solid #222; border-radius: 10px; padding: 24px; display: flex; gap: 20px; align-items: flex-start; transition: border-color 0.2s; }}
-    .inf-card:hover {{ border-color: #D4A017; text-decoration: none; }}
-    .inf-avatar {{ width: 52px; height: 52px; border-radius: 50%; background: #D4A017; color: #000; font-family: Georgia, serif; font-size: 1.4rem; font-weight: bold; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
-    .inf-name {{ font-family: Georgia, serif; font-size: 1.1rem; color: #fff; margin-bottom: 4px; }}
-    .inf-tagline {{ color: #999; font-size: 0.88rem; margin-bottom: 8px; }}
-    .inf-meta {{ font-size: 0.82rem; color: #D4A017; margin-bottom: 6px; }}
-    .inf-count {{ font-size: 0.78rem; color: #555; background: #1a1a1a; display: inline-block; padding: 2px 10px; border-radius: 20px; }}
+    .inf-card {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 24px; display: flex; gap: 20px; align-items: flex-start; transition: border-color 0.15s; }}
+    .inf-card:hover {{ border-color: var(--stone-200); text-decoration: none; }}
+    .inf-avatar {{ width: 52px; height: 52px; border-radius: 50%; background: var(--red); color: var(--white); font: 700 22px/1 var(--font-display); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
+    .inf-name {{ font: 700 20px/1.2 var(--font-display); color: var(--ink); margin-bottom: 4px; }}
+    .inf-tagline {{ font: 400 14px/1.5 var(--font-ui); color: var(--stone-600); margin-bottom: 10px; }}
+    .inf-links {{ font: 500 13px/1 var(--font-ui); margin-bottom: 10px; }}
+    .inf-links a {{ color: var(--red); }}
+    .inf-count {{ display: inline-block; font: 600 11px/1 var(--font-ui); letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); background: var(--green-tint); padding: 4px 10px; border-radius: 3px; }}
+    @media (max-width: 600px) {{
+      .inf-card {{ flex-direction: column; gap: 12px; }}
+      .page-title {{ font-size: 28px; }}
+    }}
   </style>
 </head>
 <body>
-{NAV}
+{SITE_HEADER}
 <div class="wrap">
-  <h1>The Jury</h1>
-  <p class="subtitle">{len(influencers)} independent YouTube creators whose reviews we analyse. No media outlets. No manufacturer relationships.</p>
+  <h1 class="page-title">The Jury</h1>
+  <p class="page-sub">{len(influencers)} independent YouTube creators whose reviews we analyse. No media outlets. No manufacturer relationships.</p>
   <div class="inf-grid">{cards}
   </div>
 </div>
-<footer>© {TODAY_YEAR} The Car Jury · <a href="/">Home</a> · <a href="/reviews/">All Reviews</a></footer>
+{site_footer()}
 </body>
 </html>"""
 
@@ -124,7 +202,7 @@ def generate_influencer_page(inf: dict) -> str:
         display, url = article_display(slug)
         articles_html += f"""
       <a href="{url}" class="article-item">
-        <span class="article-title">{display}</span>
+        <span class="article-name">{display}</span>
         <span class="article-arrow">→</span>
       </a>"""
 
@@ -136,37 +214,54 @@ def generate_influencer_page(inf: dict) -> str:
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{inf['name']} — The Car Jury</title>
+  <title>{inf['name']} — Independent Car Reviewer | The Car Jury</title>
   <meta name="description" content="{inf['name']} is one of India's top independent car reviewers. The Car Jury has synthesised their analysis across {article_count} car review{'s' if article_count != 1 else ''}." />
   <link rel="canonical" href="https://www.thecarjury.com/influencers/{inf['slug']}/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  {FONTS_LINK}
   <style>
-    {BASE_STYLE}
-    .profile-header {{ display: flex; gap: 28px; align-items: center; margin-bottom: 40px; flex-wrap: wrap; }}
-    .profile-avatar {{ width: 80px; height: 80px; border-radius: 50%; background: #D4A017; color: #000; font-family: Georgia, serif; font-size: 2rem; font-weight: bold; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
-    .profile-name {{ font-family: Georgia, serif; font-size: clamp(1.6rem, 4vw, 2.2rem); color: #fff; margin-bottom: 6px; }}
-    .profile-tagline {{ color: #999; font-size: 0.95rem; margin-bottom: 14px; }}
-    .btn-yt, .btn-ig {{ display: inline-block; padding: 8px 18px; border-radius: 4px; font-size: 0.82rem; font-weight: 600; margin-right: 10px; margin-bottom: 8px; }}
-    .btn-yt {{ background: #ff0000; color: #fff; }}
-    .btn-ig {{ background: #c13584; color: #fff; }}
-    .stat-row {{ display: flex; gap: 24px; margin-bottom: 48px; flex-wrap: wrap; }}
-    .stat {{ background: #141414; border: 1px solid #222; border-radius: 8px; padding: 16px 24px; text-align: center; }}
-    .stat-num {{ font-family: Georgia, serif; font-size: 2rem; color: #D4A017; font-weight: bold; line-height: 1; }}
-    .stat-label {{ font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px; }}
-    h2 {{ font-family: Georgia, serif; font-size: 1.3rem; color: #fff; margin-bottom: 16px; padding-bottom: 8px; border-bottom: 2px solid #D4A017; display: inline-block; }}
-    .articles-list {{ display: grid; gap: 12px; }}
-    .article-item {{ background: #141414; border: 1px solid #222; border-radius: 8px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; transition: border-color 0.2s; }}
-    .article-item:hover {{ border-color: #D4A017; text-decoration: none; }}
-    .article-title {{ color: #e8e8e8; font-size: 0.95rem; }}
-    .article-arrow {{ color: #D4A017; }}
-    .breadcrumb {{ font-size: 0.8rem; color: #555; margin-bottom: 32px; }}
-    .breadcrumb a {{ color: #666; }}
+    {SHARED_CSS}
+    .breadcrumb {{ font: 500 12px/1 var(--font-ui); color: var(--stone-400); margin-bottom: 32px; display: flex; gap: 8px; align-items: center; }}
+    .breadcrumb a {{ color: var(--stone-600); }}
+    .breadcrumb a:hover {{ color: var(--red); }}
+    .breadcrumb__sep {{ color: var(--stone-200); }}
+    .profile-header {{ display: flex; gap: 28px; align-items: flex-start; margin-bottom: 40px; flex-wrap: wrap; }}
+    .profile-avatar {{ width: 80px; height: 80px; border-radius: 50%; background: var(--red); color: var(--white); font: 700 32px/1 var(--font-display); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
+    .profile-name {{ font: 700 clamp(1.6rem,4vw,2.4rem)/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 6px; }}
+    .profile-tagline {{ font: 400 15px/1.5 var(--font-body); color: var(--stone-600); margin-bottom: 16px; font-style: italic; }}
+    .btn-yt, .btn-ig {{ display: inline-block; padding: 8px 16px; border-radius: 4px; font: 600 13px/1 var(--font-ui); margin-right: 8px; margin-bottom: 8px; }}
+    .btn-yt {{ background: #C8102E; color: #fff; }}
+    .btn-yt:hover {{ background: #a30c24; color: #fff; }}
+    .btn-ig {{ background: var(--ink); color: var(--white); }}
+    .btn-ig:hover {{ background: var(--stone-800); color: var(--white); }}
+    .stat-row {{ display: flex; gap: 16px; margin-bottom: 48px; flex-wrap: wrap; }}
+    .stat {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 20px 28px; text-align: center; }}
+    .stat-num {{ font: 700 36px/1 var(--font-ui); color: var(--red); letter-spacing: -0.02em; }}
+    .stat-label {{ font: 500 11px/1 var(--font-ui); letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone-600); margin-top: 6px; }}
+    .section-label {{ font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }}
+    .articles-list {{ display: grid; gap: 10px; }}
+    .article-item {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 6px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; transition: border-color 0.15s; }}
+    .article-item:hover {{ border-color: var(--stone-200); text-decoration: none; }}
+    .article-name {{ font: 500 15px/1.4 var(--font-ui); color: var(--ink); }}
+    .article-arrow {{ font: 400 16px/1 var(--font-ui); color: var(--red); flex-shrink: 0; }}
+    .back-link {{ margin-top: 40px; font: 500 13px/1 var(--font-ui); }}
+    .back-link a {{ color: var(--stone-600); }}
+    .back-link a:hover {{ color: var(--red); }}
+    @media (max-width: 600px) {{
+      .profile-header {{ flex-direction: column; gap: 16px; }}
+    }}
   </style>
 </head>
 <body>
-{NAV}
+{SITE_HEADER}
 <div class="wrap">
-  <div class="breadcrumb"><a href="/">Home</a> → <a href="/influencers/">The Jury</a> → {inf['name']}</div>
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb__sep">›</span>
+    <a href="/influencers/">The Jury</a>
+    <span class="breadcrumb__sep">›</span>
+    <span>{inf['name']}</span>
+  </nav>
 
   <div class="profile-header">
     <div class="profile-avatar">{inf['name'][0]}</div>
@@ -184,13 +279,13 @@ def generate_influencer_page(inf: dict) -> str:
     </div>
   </div>
 
-  <h2>Reviews Featuring {inf['name']}</h2>
-  <div class="articles-list">{articles_html}
+  <p class="section-label">Reviews featuring {inf['name']}</p>
+  <div class="articles-list">{articles_html if articles_html else '<p style="color:var(--stone-400);font-size:14px;padding:16px 0">Reviews coming soon — check back after the next verdict is published.</p>'}
   </div>
 
-  <p style="margin-top:48px;color:#555;font-size:0.85rem"><a href="/influencers/">← All Jurors</a></p>
+  <p class="back-link"><a href="/influencers/">← All Jurors</a></p>
 </div>
-<footer>© {TODAY_YEAR} The Car Jury · <a href="/">Home</a> · <a href="/reviews/">All Reviews</a> · <a href="/influencers/">The Jury</a></footer>
+{site_footer()}
 </body>
 </html>"""
 
@@ -201,11 +296,9 @@ def build_all(log_fn=print):
         log_fn("No influencers.json found — skipping")
         return 0
 
-    # Main index
     index_path = CARJURY / "influencers/index.html"
     index_path.write_text(generate_index(influencers))
 
-    # Individual pages
     for inf in influencers:
         out_dir = CARJURY / "influencers" / inf["slug"]
         out_dir.mkdir(parents=True, exist_ok=True)

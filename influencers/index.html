@@ -3,56 +3,106 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>India's Top Car Reviewers — The Car Jury</title>
-  <meta name="description" content="The independent YouTube creators whose reviews The Car Jury synthesises. No media outlets. No manufacturer relationships." />
+  <title>India's Top Independent Car Reviewers — The Car Jury</title>
+  <meta name="description" content="The 5 independent YouTube creators whose reviews The Car Jury synthesises into one verdict. No media outlets. No manufacturer relationships." />
   <link rel="canonical" href="https://www.thecarjury.com/influencers/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     
+    :root {
+      --font-display: "Fraunces", "Playfair Display", Georgia, serif;
+      --font-body:    "Source Serif 4", "Source Serif Pro", Charter, Georgia, serif;
+      --font-ui:      "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+      --red:          #C8102E;
+      --red-dark:     #A30C24;
+      --paper:        #FAF8F5;
+      --white:        #FFFFFF;
+      --hairline:     #E5E2DC;
+      --stone-200:    #D6D2CC;
+      --stone-400:    #9E9A93;
+      --stone-600:    #6B6B6B;
+      --stone-800:    #3D3D3D;
+      --ink:          #1A1A1A;
+      --green:        #0E6B3C;
+      --green-tint:   #E6F2EC;
+    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e8e8e8; line-height: 1.7; }
-    a { color: #D4A017; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    nav { background: #111; border-bottom: 1px solid #222; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 56px; position: sticky; top: 0; z-index: 100; }
-    .nav-logo { font-family: Georgia, serif; font-size: 1.1rem; font-weight: bold; color: #D4A017; }
-    .nav-links { display: flex; gap: 24px; font-size: 0.85rem; }
-    .nav-links a { color: #999; }
-    .wrap { max-width: 860px; margin: 0 auto; padding: 48px 24px 80px; }
-    footer { border-top: 1px solid #1e1e1e; padding: 24px; text-align: center; color: #555; font-size: 0.8rem; }
+    html { font-size: 16px; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; line-height: 1.7; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 100; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display); color: var(--red); letter-spacing: -0.01em; }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display); color: var(--ink); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui); color: var(--stone-600); transition: color 0.15s; }
+    .site-nav a:hover { color: var(--ink); }
+    .site-nav a.active { color: var(--ink); font-weight: 600; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 56px 32px 100px; }
+    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; }
+    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
+    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
+    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
+    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
+    .site-footer__links a:hover { color: var(--red); }
+    .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; }
+      .site-nav a:not(.active) { display: none; }
+      .wrap { padding: 32px 20px 80px; }
+      .site-footer { padding: 32px 20px; }
+      .site-footer__top { flex-direction: column; }
+    }
 
-    h1 { font-family: Georgia, serif; font-size: clamp(1.6rem, 4vw, 2.2rem); color: #fff; margin-bottom: 8px; }
-    .subtitle { color: #777; margin-bottom: 40px; font-size: 0.95rem; }
+    .page-title { font: 700 40px/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 10px; }
+    .page-sub { font: 400 17px/1.6 var(--font-body); color: var(--stone-600); margin-bottom: 48px; }
     .inf-grid { display: grid; gap: 16px; }
-    .inf-card { background: #141414; border: 1px solid #222; border-radius: 10px; padding: 24px; display: flex; gap: 20px; align-items: flex-start; transition: border-color 0.2s; }
-    .inf-card:hover { border-color: #D4A017; text-decoration: none; }
-    .inf-avatar { width: 52px; height: 52px; border-radius: 50%; background: #D4A017; color: #000; font-family: Georgia, serif; font-size: 1.4rem; font-weight: bold; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-    .inf-name { font-family: Georgia, serif; font-size: 1.1rem; color: #fff; margin-bottom: 4px; }
-    .inf-tagline { color: #999; font-size: 0.88rem; margin-bottom: 8px; }
-    .inf-meta { font-size: 0.82rem; color: #D4A017; margin-bottom: 6px; }
-    .inf-count { font-size: 0.78rem; color: #555; background: #1a1a1a; display: inline-block; padding: 2px 10px; border-radius: 20px; }
+    .inf-card { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 24px; display: flex; gap: 20px; align-items: flex-start; transition: border-color 0.15s; }
+    .inf-card:hover { border-color: var(--stone-200); text-decoration: none; }
+    .inf-avatar { width: 52px; height: 52px; border-radius: 50%; background: var(--red); color: var(--white); font: 700 22px/1 var(--font-display); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .inf-name { font: 700 20px/1.2 var(--font-display); color: var(--ink); margin-bottom: 4px; }
+    .inf-tagline { font: 400 14px/1.5 var(--font-ui); color: var(--stone-600); margin-bottom: 10px; }
+    .inf-links { font: 500 13px/1 var(--font-ui); margin-bottom: 10px; }
+    .inf-links a { color: var(--red); }
+    .inf-count { display: inline-block; font: 600 11px/1 var(--font-ui); letter-spacing: 0.08em; text-transform: uppercase; color: var(--green); background: var(--green-tint); padding: 4px 10px; border-radius: 3px; }
+    @media (max-width: 600px) {
+      .inf-card { flex-direction: column; gap: 12px; }
+      .page-title { font-size: 28px; }
+    }
   </style>
 </head>
 <body>
-<nav>
-  <a class="nav-logo" href="/">The Car Jury</a>
-  <div class="nav-links">
-    <a href="/reviews/">Reviews</a>
-    <a href="/compare/">Compare</a>
-    <a href="/best/">Best Lists</a>
-    <a href="/influencers/">Influencers</a>
-    <a href="/about/">About</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/reviews/">Reviews</a>
+      <a href="/compare/">Compare</a>
+      <a href="/best/">Best Lists</a>
+      <a href="/influencers/" class="active">Influencers</a>
+      <a href="/about/">About</a>
+    </nav>
   </div>
-</nav>
+</header>
 <div class="wrap">
-  <h1>The Jury</h1>
-  <p class="subtitle">5 independent YouTube creators whose reviews we analyse. No media outlets. No manufacturer relationships.</p>
+  <h1 class="page-title">The Jury</h1>
+  <p class="page-sub">5 independent YouTube creators whose reviews we analyse. No media outlets. No manufacturer relationships.</p>
   <div class="inf-grid">
     <a href="/influencers/faisal-khan/" class="inf-card">
       <div class="inf-avatar">F</div>
       <div class="inf-body">
         <div class="inf-name">Faisal Khan</div>
         <div class="inf-tagline">Known for blunt, no-nonsense takes on Indian cars</div>
-        <div class="inf-meta"><a href="https://www.youtube.com/@FaisalKhanOfficial" target="_blank" rel="noopener noreferrer">@FaisalKhanOfficial</a></div>
+        <div class="inf-links"><a href="https://www.youtube.com/@FaisalKhanOfficial" target="_blank" rel="noopener noreferrer">YouTube @FaisalKhanOfficial</a></div>
         <div class="inf-count">1 review analysed</div>
       </div>
     </a>
@@ -61,7 +111,7 @@
       <div class="inf-body">
         <div class="inf-name">Gagan Choudhary</div>
         <div class="inf-tagline">Deep-dive reviews with strong focus on ownership experience</div>
-        <div class="inf-meta"><a href="https://www.youtube.com/@GaganChoudhary" target="_blank" rel="noopener noreferrer">@GaganChoudhary</a></div>
+        <div class="inf-links"><a href="https://www.youtube.com/@GaganChoudhary" target="_blank" rel="noopener noreferrer">YouTube @GaganChoudhary</a></div>
         <div class="inf-count">1 review analysed</div>
       </div>
     </a>
@@ -70,7 +120,7 @@
       <div class="inf-body">
         <div class="inf-name">MotorOctane</div>
         <div class="inf-tagline">Performance and tech-focused auto reviews from Pune</div>
-        <div class="inf-meta"><a href="https://www.youtube.com/@MotorOctane" target="_blank" rel="noopener noreferrer">@MotorOctane</a> · <a href="https://www.instagram.com/motoroctane" target="_blank" rel="noopener noreferrer">@motoroctane</a></div>
+        <div class="inf-links"><a href="https://www.youtube.com/@MotorOctane" target="_blank" rel="noopener noreferrer">YouTube @MotorOctane</a> &nbsp;·&nbsp; <a href="https://www.instagram.com/motoroctane" target="_blank" rel="noopener noreferrer">Instagram @motoroctane</a></div>
         <div class="inf-count">1 review analysed</div>
       </div>
     </a>
@@ -79,7 +129,7 @@
       <div class="inf-body">
         <div class="inf-name">PowerDrift</div>
         <div class="inf-tagline">India's most cinematic car review channel</div>
-        <div class="inf-meta"><a href="https://www.youtube.com/@PowerDrift" target="_blank" rel="noopener noreferrer">@PowerDrift</a> · <a href="https://www.instagram.com/powerdrift" target="_blank" rel="noopener noreferrer">@powerdrift</a></div>
+        <div class="inf-links"><a href="https://www.youtube.com/@PowerDrift" target="_blank" rel="noopener noreferrer">YouTube @PowerDrift</a> &nbsp;·&nbsp; <a href="https://www.instagram.com/powerdrift" target="_blank" rel="noopener noreferrer">Instagram @powerdrift</a></div>
         <div class="inf-count">1 review analysed</div>
       </div>
     </a>
@@ -88,12 +138,34 @@
       <div class="inf-body">
         <div class="inf-name">Auto Yogi</div>
         <div class="inf-tagline">Detailed long-form reviews with honest ownership perspective</div>
-        <div class="inf-meta"><a href="https://www.youtube.com/@AutoYogi" target="_blank" rel="noopener noreferrer">@AutoYogi</a></div>
+        <div class="inf-links"><a href="https://www.youtube.com/@AutoYogi" target="_blank" rel="noopener noreferrer">YouTube @AutoYogi</a></div>
         <div class="inf-count">1 review analysed</div>
       </div>
     </a>
   </div>
 </div>
-<footer>© 2026 The Car Jury · <a href="/">Home</a> · <a href="/reviews/">All Reviews</a></footer>
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div>
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+      </div>
+      <div class="site-footer__links">
+        <a href="/reviews/">Reviews</a>
+        <a href="/compare/">Compare</a>
+        <a href="/best/">Best Lists</a>
+        <a href="/influencers/">Influencers</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      © 2026 The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
+    </div>
+  </div>
+</footer>
 </body>
 </html>

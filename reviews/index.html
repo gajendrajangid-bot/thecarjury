@@ -4,47 +4,91 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>All Car Reviews — The Car Jury</title>
-  <meta name="description" content="Every car review on The Car Jury. Unbiased AI-synthesised verdicts from India's top independent YouTube reviewers." />
+  <meta name="description" content="Every car review on The Car Jury. AI-synthesised verdicts from India's top independent YouTube reviewers. No sponsored content." />
   <link rel="canonical" href="https://www.thecarjury.com/reviews/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
+    :root {
+      --font-display: "Fraunces", Georgia, serif;
+      --font-ui:      "Inter", -apple-system, Arial, sans-serif;
+      --red:   #C8102E; --red-dark: #A30C24;
+      --paper: #FAF8F5; --white: #FFFFFF; --ink: #1A1A1A;
+      --hairline: #E5E2DC; --stone-200: #D6D2CC;
+      --stone-400: #9E9A93; --stone-600: #6B6B6B; --stone-800: #3D3D3D;
+      --green: #0E6B3C; --green-tint: #E6F2EC;
+      --amber: #B8860B; --amber-tint: #FBF3DF;
+      --slate: #3D3D3D; --slate-tint: #EFEEEB;
+    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e8e8e8; }
-    a { color: #D4A017; text-decoration: none; }
-    nav { background: #111; border-bottom: 1px solid #222; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 56px; }
-    .nav-logo { font-family: Georgia, serif; font-size: 1.1rem; font-weight: bold; color: #D4A017; }
-    .nav-links { display: flex; gap: 24px; font-size: 0.85rem; }
-    .nav-links a { color: #999; }
-    .wrap { max-width: 860px; margin: 0 auto; padding: 48px 24px 80px; }
-    h1 { font-family: Georgia, serif; font-size: clamp(1.6rem, 4vw, 2.2rem); color: #fff; margin-bottom: 8px; }
-    .subtitle { color: #777; margin-bottom: 40px; font-size: 0.95rem; }
-    .review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; }
-    .review-card { background: #141414; border: 1px solid #222; border-radius: 10px; overflow: hidden; transition: border-color 0.2s; display: block; }
-    .review-card:hover { border-color: #D4A017; }
-    .card-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; background: #1a1a1a; display: block; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 100; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display); color: var(--red); }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display); color: var(--ink); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui); color: var(--stone-600); }
+    .site-nav a:hover { color: var(--ink); }
+    .site-nav a.active { color: var(--ink); font-weight: 600; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 56px 32px 100px; }
+    .page-title { font: 700 40px/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 10px; }
+    .page-sub { font: 400 16px/1.6 var(--font-ui); color: var(--stone-600); margin-bottom: 48px; }
+    .review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+    .review-card { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; overflow: hidden; transition: border-color 0.15s; display: block; }
+    .review-card:hover { border-color: var(--stone-200); }
+    .card-img { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; background: var(--hairline); }
+    .card-img--empty { aspect-ratio: 16/9; }
     .card-body { padding: 18px 20px; }
-    .card-brand { font-size: 0.72rem; color: #D4A017; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; }
-    .card-title { font-family: Georgia, serif; font-size: 1.05rem; color: #fff; margin-bottom: 10px; line-height: 1.3; }
+    .card-brand { font: 600 11px/1 var(--font-ui); letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
+    .card-title { font: 700 17px/1.3 var(--font-display); color: var(--ink); margin-bottom: 14px; }
     .card-meta { display: flex; justify-content: space-between; align-items: center; }
-    .card-score { font-weight: 700; font-size: 0.95rem; }
-    .card-verdict { font-size: 0.72rem; padding: 3px 10px; border-radius: 3px; font-weight: 700; background: #27ae60; color: #fff; }
-    .card-verdict.wait { background: #f39c12; }
-    .card-verdict.skip { background: #e74c3c; }
-    footer { border-top: 1px solid #1e1e1e; padding: 24px; text-align: center; color: #555; font-size: 0.8rem; }
+    .card-score { font: 700 16px/1 var(--font-ui); color: var(--ink); }
+    .verdict-pill { font: 600 11px/1 var(--font-ui); letter-spacing: 0.06em; text-transform: uppercase; padding: 5px 10px; border-radius: 3px; }
+    .verdict-pill--buy { background: var(--green-tint); color: var(--green); }
+    .verdict-pill--wait { background: var(--amber-tint); color: var(--amber); }
+    .verdict-pill--skip { background: var(--slate-tint); color: var(--slate); }
+    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; }
+    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
+    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
+    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
+    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
+    .site-footer__links a:hover { color: var(--red); }
+    .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; }
+      .site-nav a:not(.active) { display: none; }
+      .wrap { padding: 32px 20px 80px; }
+      .page-title { font-size: 28px; }
+      .site-footer { padding: 32px 20px; }
+      .site-footer__top { flex-direction: column; }
+    }
   </style>
 </head>
 <body>
-<nav>
-  <a class="nav-logo" href="/">The Car Jury</a>
-  <div class="nav-links">
-    <a href="/reviews/">Reviews</a>
-    <a href="/compare/">Compare</a>
-    <a href="/best/">Best Lists</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/reviews/" class="active">Reviews</a>
+      <a href="/compare/">Compare</a>
+      <a href="/best/">Best Lists</a>
+      <a href="/influencers/">Influencers</a>
+      <a href="/about/">About</a>
+    </nav>
   </div>
-</nav>
+</header>
 <div class="wrap">
-  <h1>All Reviews</h1>
-  <p class="subtitle">AI-synthesised verdicts from India's top independent YouTube reviewers. No sponsored content. 1 review and counting.</p>
+  <h1 class="page-title">All Reviews</h1>
+  <p class="page-sub">AI-synthesised verdicts from India's top independent YouTube reviewers. No sponsored content. 1 review and counting.</p>
   <div class="review-grid">
     <a href="/reviews/tata/sierra/" class="review-card">
       <img class="card-img" src="/images/tata/sierra-2025/sierra-2025-hero.jpg" alt="2025 Tata Sierra: What India's Top 5 YouTube Reviewers Actually Think" loading="lazy" />
@@ -52,14 +96,35 @@
         <div class="card-brand">Tata</div>
         <div class="card-title">2025 Tata Sierra: What India's Top 5 YouTube Reviewers Actually Think</div>
         <div class="card-meta">
-          <span class="card-score" style="color:#27ae60">8.1 / 10</span>
-          <span class="card-verdict ">BUY</span>
+          <span class="card-score">8.1 / 10</span>
+          <span class="verdict-pill verdict-pill--buy">BUY</span>
         </div>
       </div>
     </a>
   </div>
-  <p style="margin-top:48px;color:#555;font-size:0.85rem">More reviews coming weekly. <a href="/">← Back to home</a></p>
 </div>
-<footer>© 2026 The Car Jury · <a href="/">Home</a> · <a href="mailto:hello@thecarjury.com">Contact</a></footer>
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div>
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+      </div>
+      <div class="site-footer__links">
+        <a href="/reviews/">Reviews</a>
+        <a href="/compare/">Compare</a>
+        <a href="/best/">Best Lists</a>
+        <a href="/influencers/">Influencers</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      © 2026 The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
+    </div>
+  </div>
+</footer>
 </body>
 </html>

@@ -7,46 +7,119 @@
   <meta name="description" content="Side-by-side car comparisons for Indian buyers. Unbiased verdicts from The Car Jury." />
   <link rel="canonical" href="https://www.thecarjury.com/compare/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
+    :root {
+      --font-display: "Fraunces", Georgia, serif;
+      --font-ui:      "Inter", -apple-system, Arial, sans-serif;
+      --red: #C8102E; --red-dark: #A30C24;
+      --paper: #FAF8F5; --white: #FFFFFF; --ink: #1A1A1A;
+      --hairline: #E5E2DC; --stone-400: #9E9A93; --stone-600: #6B6B6B; --stone-800: #3D3D3D;
+    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e8e8e8; }
-    nav { background: #111; border-bottom: 1px solid #222; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 56px; }
-    .nav-logo { font-family: Georgia, serif; font-size: 1.1rem; font-weight: bold; color: #D4A017; text-decoration: none; }
-    .nav-links { display: flex; gap: 24px; font-size: 0.85rem; }
-    .nav-links a { color: #999; text-decoration: none; }
-    .hero { padding: 80px 24px; text-align: center; }
-    .hero h1 { font-family: Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.6rem); color: #fff; margin-bottom: 16px; }
-    .hero p { color: #999; max-width: 500px; margin: 0 auto 32px; font-size: 1rem; line-height: 1.6; }
-    .coming-soon { display: inline-block; border: 1px solid #D4A017; color: #D4A017; padding: 8px 20px; border-radius: 4px; font-size: 0.8rem; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 40px; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 100; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display); color: var(--red); }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display); color: var(--ink); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui); color: var(--stone-600); transition: color 0.15s; }
+    .site-nav a:hover { color: var(--ink); }
+    .site-nav a.active { color: var(--ink); font-weight: 600; }
+    .hero { padding: 80px 32px; text-align: center; }
+    .badge { display: inline-block; border: 1px solid var(--red); color: var(--red); padding: 6px 16px; border-radius: 3px; font: 600 11px/1 var(--font-ui); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 28px; }
+    .hero h1 { font: 700 clamp(1.8rem,4vw,2.8rem)/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 16px; }
+    .hero p { font: 400 17px/1.6 var(--font-ui); color: var(--stone-600); max-width: 480px; margin: 0 auto 40px; }
     .teaser { max-width: 600px; margin: 0 auto; display: grid; gap: 12px; }
-    .teaser-item { background: #141414; border: 1px solid #1e1e1e; border-radius: 8px; padding: 16px 20px; text-align: left; color: #777; font-size: 0.9rem; }
-    .teaser-item strong { color: #ccc; display: block; margin-bottom: 4px; }
-    a { color: #D4A017; text-decoration: none; }
-    footer { border-top: 1px solid #1e1e1e; padding: 24px; text-align: center; color: #555; font-size: 0.8rem; margin-top: 60px; }
+    .teaser-item { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 18px 22px; text-align: left; }
+    .teaser-item strong { font: 700 16px/1.3 var(--font-display); color: var(--ink); display: block; margin-bottom: 4px; }
+    .teaser-item span { font: 400 13px/1.5 var(--font-ui); color: var(--stone-600); }
+    .cta { margin-top: 32px; font: 500 14px/1 var(--font-ui); color: var(--stone-400); }
+    .cta a { color: var(--red); }
+    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; margin-top: 60px; }
+    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
+    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
+    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
+    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
+    .site-footer__links a:hover { color: var(--red); }
+    .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; }
+      .site-nav a:not(.active) { display: none; }
+      .hero { padding: 56px 20px; }
+      .site-footer { padding: 32px 20px; }
+      .site-footer__top { flex-direction: column; }
+    }
   </style>
 </head>
 <body>
-<nav>
-  <a class="nav-logo" href="/">The Car Jury</a>
-  <div class="nav-links">
-    <a href="/reviews/">Reviews</a>
-    <a href="/compare/">Compare</a>
-    <a href="/best/">Best Lists</a>
-    <a href="/influencers/">Influencers</a>
-    <a href="/about/">About</a>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/reviews/">Reviews</a>
+      <a href="/compare/" class="active">Compare</a>
+      <a href="/best/">Best Lists</a>
+      <a href="/influencers/">Influencers</a>
+      <a href="/about/">About</a>
+    </nav>
   </div>
-</nav>
+</header>
+
 <div class="hero">
-  <div class="coming-soon">Coming Soon</div>
+  <div class="badge">Coming Soon</div>
   <h1>Car Comparisons</h1>
   <p>Head-to-head verdicts on India's most-considered car pairs. Same jury methodology. No bias.</p>
   <div class="teaser">
-    <div class="teaser-item"><strong>Tata Sierra vs Renault Duster</strong>Which mid-size SUV wins for Indian buyers?</div>
-    <div class="teaser-item"><strong>Mahindra BE6 vs Hyundai Creta Electric</strong>India's two hottest EVs — which jury picks?</div>
-    <div class="teaser-item"><strong>Hyundai Creta vs Kia Seltos</strong>The eternal siblings — finally settled.</div>
+    <div class="teaser-item">
+      <strong>Tata Sierra vs Renault Duster</strong>
+      <span>Which mid-size SUV wins for Indian buyers?</span>
+    </div>
+    <div class="teaser-item">
+      <strong>Mahindra BE6 vs Hyundai Creta Electric</strong>
+      <span>India's two hottest EVs — which jury picks?</span>
+    </div>
+    <div class="teaser-item">
+      <strong>Hyundai Creta vs Kia Seltos</strong>
+      <span>The eternal siblings — finally settled.</span>
+    </div>
   </div>
-  <p style="margin-top:32px;color:#555;font-size:0.85rem">Meanwhile, read our latest review: <a href="/reviews/tata/sierra/">Tata Sierra 2025 →</a></p>
+  <p class="cta">Meanwhile, read our latest verdict: <a href="/reviews/tata/sierra/">Tata Sierra 2025 →</a></p>
 </div>
-<footer>© 2026 The Car Jury · <a href="/">Home</a> · <a href="/reviews/">All Reviews</a></footer>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div>
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+      </div>
+      <div class="site-footer__links">
+        <a href="/reviews/">Reviews</a>
+        <a href="/compare/">Compare</a>
+        <a href="/best/">Best Lists</a>
+        <a href="/influencers/">Influencers</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      © 2026 The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
