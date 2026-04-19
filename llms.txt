@@ -1,0 +1,22 @@
+# The Car Jury
+
+> India's aggregated car review platform. We analyse transcripts from India's top independent YouTube car reviewers and synthesise them into a single, fact-backed verdict. No manufacturer relationships. No sponsored content.
+
+## What We Do
+
+The Car Jury watches every major Indian car review on YouTube, extracts transcripts, and uses AI synthesis to find consensus, disagreements, and key facts across reviewers. Each verdict includes a jury score, section-by-section breakdown, and a clear buy/wait/skip recommendation.
+
+## Content
+
+- [2025 Tata Sierra Review](https://www.thecarjury.com/reviews/tata/sierra/) — Synthesis of 5 creators: Faisal Khan, Gagan Choudhary, MotorOctane, PowerDrift, Auto Yogi. Jury score: 8.1/10.
+
+## Methodology
+
+- 5 independent YouTube creators per car (no media outlets)
+- Full transcript analysis (100,000+ words per car)
+- Consensus vs disagreement mapping
+- Jury score across 6 dimensions: Design, Interior, Performance, Ride, Build Quality, Value
+
+## Contact
+
+hello@thecarjury.com

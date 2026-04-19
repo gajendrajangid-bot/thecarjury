@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Car Jury — India's Aggregated Car Reviews</title>
+  <meta name="description" content="We watch every YouTube review. You read one verdict. Unbiased car synthesis reviews for Indian buyers." />
+
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content="HCykxaEpopo5DWFT_oPzX_bnCRst9NcLMvvtUa-Z8Z0" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.thecarjury.com/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="The Car Jury" />
+  <meta property="og:title" content="The Car Jury — India's Aggregated Car Reviews" />
+  <meta property="og:description" content="We watch every YouTube review. You read one verdict. Unbiased car synthesis reviews for Indian buyers." />
+  <meta property="og:url" content="https://www.thecarjury.com/" />
+  <meta property="og:image" content="https://www.thecarjury.com/images/tata/sierra-2025/sierra-2025-hero.jpg" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- Twitter / X Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Car Jury — India's Aggregated Car Reviews" />
+  <meta name="twitter:description" content="We watch every YouTube review. You read one verdict. Unbiased car synthesis reviews for Indian buyers." />
+  <meta name="twitter:image" content="https://www.thecarjury.com/images/tata/sierra-2025/sierra-2025-hero.jpg" />
+
+  <!-- Schema.org: WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "The Car Jury",
+    "url": "https://www.thecarjury.com",
+    "description": "India's aggregated car review platform. AI-synthesised verdicts from top independent YouTube creators.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Car Jury",
+      "url": "https://www.thecarjury.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.thecarjury.com/favicon.svg"
+      }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.thecarjury.com/reviews/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --gold: #D4A017;
+      --dark: #111111;
+      --charcoal: #1E1E1E;
+      --text: #1C1C1E;
+      --muted: #6B6B6B;
+      --border: #E5E5E5;
+      --bg: #F9F7F4;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; background: #fff; color: var(--text); }
+
+    /* NAV */
+    nav {
+      background: var(--dark);
+      padding: 0 5%;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.3px;
+    }
+    .nav-logo span { color: #fff; font-size: 0.7rem; font-family: 'Inter', sans-serif; font-weight: 400; display: block; letter-spacing: 1.5px; text-transform: uppercase; line-height: 1; margin-top: 2px; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { color: #aaa; font-size: 0.85rem; text-decoration: none; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    /* HERO */
+    .hero {
+      background: var(--dark);
+      padding: 80px 5% 70px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      min-height: 480px;
+    }
+    .hero-left {}
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(212,160,23,0.15);
+      border: 1px solid rgba(212,160,23,0.3);
+      color: var(--gold);
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      padding: 5px 12px;
+      border-radius: 20px;
+      margin-bottom: 1.5rem;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.2rem, 4vw, 3.4rem);
+      color: #fff;
+      line-height: 1.15;
+      margin-bottom: 1.2rem;
+    }
+    .hero h1 em { color: var(--gold); font-style: normal; }
+    .hero-sub {
+      font-size: 1.05rem;
+      color: #999;
+      line-height: 1.7;
+      max-width: 480px;
+      margin-bottom: 2rem;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 2rem;
+    }
+    .stat { }
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      color: var(--gold);
+      line-height: 1;
+    }
+    .stat-label { font-size: 0.72rem; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+
+    /* FEATURED CARD IN HERO */
+    .hero-featured {
+      background: #1a1a1a;
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid #2a2a2a;
+    }
+    .featured-img {
+      background: linear-gradient(135deg, #1a1200, #2a1a00);
+      height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .featured-img svg { width: 85%; opacity: 0.9; }
+    .featured-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: var(--gold);
+      color: #000;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 3px 8px;
+      border-radius: 3px;
+    }
+    .featured-body { padding: 1.3rem; }
+    .featured-meta { font-size: 0.72rem; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; }
+    .featured-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: #fff;
+      margin-bottom: 0.8rem;
+      line-height: 1.3;
+    }
+    .featured-scores {
+      display: flex;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    .score-pill {
+      font-size: 0.72rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: #2a2a2a;
+      color: #aaa;
+    }
+    .score-pill strong { color: var(--gold); }
+    .featured-cta {
+      display: inline-block;
+      background: var(--gold);
+      color: #000;
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 8px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    /* HOW IT WORKS */
+    .how {
+      background: var(--bg);
+      padding: 60px 5%;
+      text-align: center;
+    }
+    .section-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--gold);
+      margin-bottom: 0.6rem;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--dark);
+      margin-bottom: 0.8rem;
+    }
+    .section-sub {
+      font-size: 0.95rem;
+      color: var(--muted);
+      max-width: 520px;
+      margin: 0 auto 3rem;
+      line-height: 1.6;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .step {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.8rem 1.2rem;
+      border: 1px solid var(--border);
+      position: relative;
+    }
+    .step-num {
+      width: 36px;
+      height: 36px;
+      background: var(--gold);
+      color: #000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.85rem;
+      margin: 0 auto 1rem;
+    }
+    .step h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .step p { font-size: 0.82rem; color: var(--muted); line-height: 1.55; }
+
+    /* REVIEWS SECTION */
+    .reviews-section { padding: 60px 5%; }
+    .section-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+    }
+    .view-all {
+      font-size: 0.82rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .review-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .review-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+    .card-img {
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .card-img.sierra-bg { background: linear-gradient(135deg, #1a1200, #3a2800); }
+    .card-img.coming-bg { background: linear-gradient(135deg, #0d1a2a, #1a2d3d); }
+    .card-img svg { width: 80%; }
+    .coming-label {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #aaa;
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 6px 14px;
+      border-radius: 20px;
+      white-space: nowrap;
+    }
+    .card-body { padding: 1.2rem; }
+    .card-brand { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--muted); margin-bottom: 0.3rem; }
+    .card-name { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.7rem; }
+    .card-score-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card-score {
+      display: flex;
+      align-items: baseline;
+      gap: 3px;
+    }
+    .score-big { font-size: 1.6rem; font-weight: 800; font-family: 'Playfair Display', serif; color: var(--gold); line-height: 1; }
+    .score-denom { font-size: 0.75rem; color: var(--muted); }
+    .reviewers-count { font-size: 0.75rem; color: var(--muted); }
+    .card-tag {
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .tag-recommended { background: #eaf7ee; color: #1a7a3a; }
+    .tag-coming { background: #f0f0f0; color: #888; }
+
+    /* BEST LISTS TEASER */
+    .best-section {
+      background: var(--dark);
+      padding: 60px 5%;
+    }
+    .best-section .section-label { color: var(--gold); }
+    .best-section .section-title { color: #fff; }
+    .best-section .section-sub { color: #888; }
+    .best-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .best-card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 10px;
+      padding: 1.3rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      text-decoration: none;
+      transition: border-color 0.2s;
+    }
+    .best-card:hover { border-color: var(--gold); }
+    .best-icon {
+      width: 42px;
+      height: 42px;
+      background: rgba(212,160,23,0.12);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 1.2rem;
+    }
+    .best-card-title { font-size: 0.85rem; font-weight: 600; color: #ddd; line-height: 1.4; }
+    .best-card-sub { font-size: 0.72rem; color: #666; margin-top: 2px; }
+    .coming-soon-badge {
+      font-size: 0.6rem;
+      background: #2a2a2a;
+      color: #666;
+      padding: 2px 6px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 4px;
+      display: inline-block;
+    }
+
+    /* NEWSLETTER */
+    .newsletter {
+      background: var(--bg);
+      padding: 60px 5%;
+      text-align: center;
+    }
+    .newsletter-box {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 3rem 2rem;
+      max-width: 540px;
+      margin: 0 auto;
+    }
+    .newsletter h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      margin-bottom: 0.6rem;
+    }
+    .newsletter p { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .newsletter-form { display: flex; gap: 0.5rem; }
+    .newsletter-form input {
+      flex: 1;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      font-size: 0.9rem;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+    }
+    .newsletter-form input:focus { border-color: var(--gold); }
+    .newsletter-form button {
+      background: var(--gold);
+      color: #000;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 7px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      font-family: 'Inter', sans-serif;
+    }
+    .newsletter-note { font-size: 0.72rem; color: #bbb; margin-top: 0.8rem; }
+
+    /* FOOTER */
+    footer {
+      background: var(--dark);
+      padding: 3rem 5% 2rem;
+    }
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 3rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid #222;
+      margin-bottom: 1.5rem;
+    }
+    .footer-brand {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      color: var(--gold);
+      margin-bottom: 0.6rem;
+    }
+    .footer-desc { font-size: 0.8rem; color: #666; line-height: 1.6; }
+    .footer-col h4 { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 1.5px; color: #555; margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; }
+    .footer-col li { margin-bottom: 0.5rem; }
+    .footer-col a { font-size: 0.82rem; color: #777; text-decoration: none; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; align-items: center; }
+    .footer-copy { font-size: 0.75rem; color: #555; }
+    .footer-tagline { font-size: 0.72rem; color: #444; font-style: italic; }
+
+    /* HAMBURGER */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+      background: none;
+      border: none;
+    }
+    .nav-hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: #aaa;
+      border-radius: 2px;
+      transition: all 0.2s;
+    }
+    .mobile-nav {
+      display: none;
+      background: #1a1a1a;
+      padding: 1rem 5%;
+      border-top: 1px solid #2a2a2a;
+    }
+    .mobile-nav.open { display: block; }
+    .mobile-nav a {
+      display: block;
+      color: #ccc;
+      font-size: 1rem;
+      text-decoration: none;
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #2a2a2a;
+      font-weight: 500;
+    }
+    .mobile-nav a:last-child { border-bottom: none; }
+
+    /* TABLET */
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; padding: 48px 5% 48px; }
+      .hero-featured { display: none; }
+      .hero h1 { font-size: 2.2rem; }
+      .steps { grid-template-columns: 1fr 1fr; }
+      .reviews-grid { grid-template-columns: 1fr 1fr; }
+      .best-grid { grid-template-columns: 1fr 1fr; }
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 2rem; }
+    }
+
+    /* MOBILE */
+    @media (max-width: 600px) {
+      /* Nav */
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+      nav { padding: 0 4%; }
+
+      /* Hero */
+      .hero { padding: 36px 4% 40px; gap: 1.5rem; }
+      .hero h1 { font-size: 1.9rem; line-height: 1.2; }
+      .hero-sub { font-size: 0.92rem; margin-bottom: 1.5rem; }
+      .hero-tag { font-size: 0.65rem; letter-spacing: 1px; }
+      .hero-stats { gap: 1.2rem; }
+      .stat-num { font-size: 1.4rem; }
+      .stat-label { font-size: 0.65rem; }
+
+      /* Sections */
+      .how { padding: 40px 4%; }
+      .section-title { font-size: 1.5rem; }
+      .section-sub { font-size: 0.88rem; }
+      .steps { grid-template-columns: 1fr; gap: 0.8rem; }
+      .step { padding: 1.2rem 1rem; }
+
+      /* Reviews */
+      .reviews-section { padding: 40px 4%; }
+      .reviews-grid { grid-template-columns: 1fr; gap: 1rem; }
+      .section-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+      .card-img { height: 160px; }
+
+      /* Best lists */
+      .best-section { padding: 40px 4%; }
+      .best-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+      .best-card { padding: 1rem; }
+
+      /* Newsletter */
+      .newsletter { padding: 40px 4%; }
+      .newsletter-box { padding: 2rem 1.2rem; }
+      .newsletter h2 { font-size: 1.3rem; }
+      .newsletter-form { flex-direction: column; }
+      .newsletter-form input { font-size: 1rem; padding: 12px 14px; }
+      .newsletter-form button { padding: 12px 20px; font-size: 0.95rem; }
+
+      /* Footer */
+      .footer-top { grid-template-columns: 1fr; gap: 1.5rem; padding: 2rem 4% 1.5rem; }
+      footer { padding: 2rem 4% 1.5rem; }
+      .footer-bottom { flex-direction: column; gap: 0.4rem; text-align: center; }
+      .footer-tagline { display: none; }
+    }
+
+    /* SMALL MOBILE (iPhone SE, Galaxy A series) */
+    @media (max-width: 380px) {
+      .hero h1 { font-size: 1.65rem; }
+      .hero-stats { flex-wrap: wrap; gap: 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="/" class="nav-logo">
+    CarJury
+    <span>India's Aggregated Car Reviews</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/reviews/">Reviews</a></li>
+    <li><a href="/compare/">Compare</a></li>
+    <li><a href="/best/">Best Lists</a></li>
+    <li><a href="/advice/">Advice</a></li>
+  </ul>
+  <button class="nav-hamburger" onclick="document.getElementById('mobileNav').classList.toggle('open')" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="/reviews/">Reviews</a>
+  <a href="/compare/">Compare</a>
+  <a href="/best/">Best Lists</a>
+  <a href="/advice/">Advice</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-tag">
+      <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/></svg>
+      Synthesis Reviews · No Bias · 5 Creators Per Car
+    </div>
+    <h1>We watch<br>every review.<br>You read <em>one verdict.</em></h1>
+    <p class="hero-sub">The Car Jury analyses transcripts from India's top independent car creators and distils their findings into a single, fact-backed article. No manufacturer relationships. No sponsored content.</p>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">5+</div>
+        <div class="stat-label">Creators per car</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">130K+</div>
+        <div class="stat-label">Words analysed</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">0</div>
+        <div class="stat-label">Sponsored reviews</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURED CARD -->
+  <div class="hero-featured">
+    <div class="featured-img" style="padding:0; background:#000;">
+      <span class="featured-badge">Latest Verdict</span>
+      <img src="/images/tata/sierra-2025/sierra-2025-hero.jpg" alt="2025 Tata Sierra" style="width:100%;height:100%;object-fit:cover;opacity:0.85;" />
+    </div>
+    <div class="featured-body">
+      <div class="featured-meta">Tata · Mid-size SUV · April 2025</div>
+      <div class="featured-title">2025 Tata Sierra: What India's Top 5 Reviewers Actually Think</div>
+      <div class="featured-scores">
+        <span class="score-pill">Design <strong>9.2</strong></span>
+        <span class="score-pill">Engine <strong>8.5</strong></span>
+        <span class="score-pill">Interior <strong>8.2</strong></span>
+        <span class="score-pill">Build <strong>6.8</strong></span>
+      </div>
+      <a href="/reviews/tata/sierra/" class="featured-cta">Read the Verdict →</a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how">
+  <div class="section-label">How The Car Jury Works</div>
+  <h2 class="section-title">The Jury Process</h2>
+  <p class="section-sub">Every verdict follows the same rigorous process — so you can trust what you're reading.</p>
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <h3>We pick the car</h3>
+      <p>High-interest launches and comparisons that Indian buyers are actively researching.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <h3>5 creator transcripts</h3>
+      <p>Only independent creators — no CarDekho, no AutoCarIndia. Real enthusiast voices.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <h3>AI synthesis</h3>
+      <p>130,000+ words run through Claude to find consensus, disagreements, and key facts.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <h3>One verdict</h3>
+      <p>Jury score, section-by-section breakdown, and a clear buy / wait / skip recommendation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-section">
+  <div class="section-header">
+    <div>
+      <div class="section-label">Latest Verdicts</div>
+      <h2 class="section-title" style="font-family:'Playfair Display',serif; font-size:1.8rem;">From the Jury Room</h2>
+    </div>
+    <a href="/reviews/" class="view-all">View all reviews →</a>
+  </div>
+
+  <div class="reviews-grid">
+
+    <!-- Sierra — Published -->
+    <a href="/reviews/tata/sierra/" class="review-card">
+      <div class="card-img" style="padding:0; background:#000; overflow:hidden;">
+        <img src="/images/tata/sierra-2025/sierra-2025-front.jpg" alt="2025 Tata Sierra" style="width:100%;height:100%;object-fit:cover;" />
+      </div>
+      <div class="card-body">
+        <div class="card-brand">Tata · Mid-size SUV</div>
+        <div class="card-name">2025 Sierra</div>
+        <div class="card-score-row">
+          <div class="card-score">
+            <span class="score-big">8.1</span>
+            <span class="score-denom">/10</span>
+          </div>
+          <span class="card-tag tag-recommended">Recommended</span>
+        </div>
+        <div class="reviewers-count" style="margin-top:0.4rem; font-size:0.72rem; color:#aaa;">5 creators · Faisal Khan, Gagan Choudhary + 3 more</div>
+      </div>
+    </a>
+
+    <!-- Renault Duster — Coming -->
+    <a href="#" class="review-card" style="cursor:default; opacity:0.7;">
+      <div class="card-img coming-bg">
+        <div class="coming-label">Verdict Coming Soon</div>
+      </div>
+      <div class="card-body">
+        <div class="card-brand">Renault · Mid-size SUV</div>
+        <div class="card-name">2025 Duster</div>
+        <div class="card-score-row">
+          <div class="card-score">
+            <span class="score-big" style="color:#555;">—</span>
+          </div>
+          <span class="card-tag tag-coming">In Progress</span>
+        </div>
+        <div class="reviewers-count" style="margin-top:0.4rem; font-size:0.72rem; color:#555;">Reviews dropping April 2025</div>
+      </div>
+    </a>
+
+    <!-- Mahindra BE6 — Coming -->
+    <a href="#" class="review-card" style="cursor:default; opacity:0.7;">
+      <div class="card-img coming-bg">
+        <div class="coming-label">Verdict Coming Soon</div>
+      </div>
+      <div class="card-body">
+        <div class="card-brand">Mahindra · Electric SUV</div>
+        <div class="card-name">BE6</div>
+        <div class="card-score-row">
+          <div class="card-score">
+            <span class="score-big" style="color:#555;">—</span>
+          </div>
+          <span class="card-tag tag-coming">In Progress</span>
+        </div>
+        <div class="reviewers-count" style="margin-top:0.4rem; font-size:0.72rem; color:#555;">Reviews dropping May 2025</div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- BEST LISTS -->
+<section class="best-section">
+  <div style="text-align:center; margin-bottom:2.5rem;">
+    <div class="section-label">Coming Soon</div>
+    <h2 class="section-title">Best Car Lists for India</h2>
+    <p class="section-sub">Jury-scored rankings across every segment — not opinion, actual data from creator reviews.</p>
+  </div>
+  <div class="best-grid">
+    <div class="best-card">
+      <div class="best-icon">🏆</div>
+      <div>
+        <div class="best-card-title">Best Mid-size SUV in India 2025</div>
+        <div class="coming-soon-badge">Coming June 2025</div>
+      </div>
+    </div>
+    <div class="best-card">
+      <div class="best-icon">⚡</div>
+      <div>
+        <div class="best-card-title">Best EV Under ₹20 Lakh</div>
+        <div class="coming-soon-badge">Coming July 2025</div>
+      </div>
+    </div>
+    <div class="best-card">
+      <div class="best-icon">🛣️</div>
+      <div>
+        <div class="best-card-title">Best SUV for Highway Driving</div>
+        <div class="coming-soon-badge">Coming July 2025</div>
+      </div>
+    </div>
+    <div class="best-card">
+      <div class="best-icon">⛽</div>
+      <div>
+        <div class="best-card-title">Best Diesel SUV India 2025</div>
+        <div class="coming-soon-badge">Coming August 2025</div>
+      </div>
+    </div>
+    <div class="best-card">
+      <div class="best-icon">👨‍👩‍👧</div>
+      <div>
+        <div class="best-card-title">Best Family Car Under ₹15 Lakh</div>
+        <div class="coming-soon-badge">Coming August 2025</div>
+      </div>
+    </div>
+    <div class="best-card">
+      <div class="best-icon">🎯</div>
+      <div>
+        <div class="best-card-title">Best First Car in India 2025</div>
+        <div class="coming-soon-badge">Coming September 2025</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="newsletter">
+  <div class="newsletter-box">
+    <h2>Get the next verdict first</h2>
+    <p>New car synthesis every 2 weeks. No spam, no manufacturer ads, just the jury's verdict in your inbox.</p>
+    <form class="newsletter-form" onsubmit="return false;">
+      <input type="email" placeholder="your@email.com" />
+      <button type="submit">Notify Me</button>
+    </form>
+    <div class="newsletter-note">Renault Duster verdict drops next. ~200 subscribers already waiting.</div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-brand">The Car Jury</div>
+      <p class="footer-desc">India's only car review synthesis platform. We aggregate top YouTube creator reviews and distil them into a single, fact-backed verdict. No bias. No sponsorships.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Reviews</h4>
+      <ul>
+        <li><a href="/reviews/tata/sierra/">Tata Sierra</a></li>
+        <li><a href="/reviews/">All Reviews</a></li>
+        <li><a href="/reviews/tata/">Tata Cars</a></li>
+        <li><a href="/reviews/hyundai/">Hyundai Cars</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="/compare/">Compare Cars</a></li>
+        <li><a href="/best/">Best Lists</a></li>
+        <li><a href="/advice/">Buying Advice</a></li>
+        <li><a href="/news/">Car News</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>About</h4>
+      <ul>
+        <li><a href="/about/">How It Works</a></li>
+        <li><a href="/about/">Our Methodology</a></li>
+        <li><a href="mailto:hello@thecarjury.com">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2025 TheCarJury.com — All rights reserved</span>
+    <span class="footer-tagline">"We watch every review. You read one verdict."</span>
+  </div>
+</footer>
+
+</body>
+</html>
