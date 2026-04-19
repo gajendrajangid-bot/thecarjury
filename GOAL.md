@@ -107,6 +107,33 @@ AI search engines (ChatGPT, Perplexity, Gemini, Claude) pull answers from pages 
 | Reviews Live | 10 | 40 | 100 |
 | AI citations | Track manually | 10+ | 50+ |
 
+## Influencer Sync Rule (Every Article Publish — Mandatory)
+
+**Whenever any new influencer is cited in any article, they must also be added to the influencer directory:**
+
+1. Add an entry to `influencers/influencers.json` — include: `slug`, `name`, `tagline`, `youtube_handle`, `youtube_url`, `subscriber_count`, and the article path in `articles[]`
+2. If the creator already exists in `influencers.json`, just append the new article to their `articles[]` array
+3. Create their profile folder at `influencers/[slug]/index.html` if it doesn't already exist
+4. Add them to `influencers/master_list.md` in the correct subscriber-count position
+5. The `influencers/index.html` page pulls from `influencers.json` — regenerate / update it after any change
+
+This applies to `carjury_manager.py`, `generate_review.py`, and any manual publish. No exceptions.
+
+---
+
+## Influencer Selection Rules (All Reviews)
+
+For every car review, the content writer / agent must:
+1. Start from the **top 20** in `influencers/master_list.md` (ordered by subscriber count)
+2. Filter to those who have reviewed **that specific car** — check their engagement on that video
+3. Pick **5–8 creators** with the highest engagement for that car
+4. **Hard rule: never use a video with <2% engagement rate** — treat it as potentially seeded/inauthentic
+5. If fewer than 5 qualifying videos exist in the top 20, expand down the list
+
+Full list + Quick Reference Top 20: `influencers/master_list.md`
+
+---
+
 ## Agent Responsibilities
 The Car Jury Website Manager agent (carjury_manager.py) runs daily and:
 1. Checks content queue — what's next to generate

@@ -166,6 +166,83 @@ def synthesise_with_claude(car_name: str, year: int,
     return json.loads(raw)
 
 
+# ── Influencer Registry Sync ───────────────────────────────────────────────────
+
+def sync_influencers(brand: str, model: str, reviewer_takes: list[dict]) -> bool:
+    """
+    After a review is published, ensure every cited reviewer exists in influencers.json.
+    - New reviewer → add entry with basic info derived from synthesis output
+    - Existing reviewer → append this article to their articles[] if missing
+    Also appends new entries to master_list.md under an "Unranked / New" section.
+    Returns True if influencers.json was modified.
+    """
+    json_path = CARJURY / "influencers/influencers.json"
+    master_list_path = CARJURY / "influencers/master_list.md"
+    article_slug = f"{brand}/{model}"
+
+    influencers = json.loads(json_path.read_text()) if json_path.exists() else []
+    by_name = {inf["name"].lower(): inf for inf in influencers}
+
+    changed = False
+    newly_added = []
+
+    for r in reviewer_takes:
+        name = r.get("name", "").strip()
+        channel = r.get("channel", "").strip()
+        if not name:
+            continue
+
+        key = name.lower()
+        if key in by_name:
+            inf = by_name[key]
+            if article_slug not in inf.get("articles", []):
+                inf.setdefault("articles", []).append(article_slug)
+                changed = True
+        else:
+            slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+            handle = channel.replace(" ", "") if channel and channel != name else name.replace(" ", "")
+            new_inf = {
+                "slug": slug,
+                "name": name,
+                "tagline": f"Independent car reviewer — {channel}" if channel and channel != name else "Independent car reviewer on YouTube",
+                "youtube_handle": handle,
+                "youtube_url": f"https://www.youtube.com/@{handle}",
+                "instagram_url": "",
+                "instagram_handle": "",
+                "subscriber_count": "",
+                "articles": [article_slug],
+            }
+            influencers.append(new_inf)
+            by_name[key] = new_inf
+            newly_added.append(name)
+            changed = True
+
+    if changed:
+        json_path.write_text(json.dumps(influencers, indent=2) + "\n")
+        print(f"  influencers.json updated ({len(newly_added)} new, article synced)")
+
+    if newly_added and master_list_path.exists():
+        current = master_list_path.read_text()
+        marker = "\n---\n*Last updated"
+        section_header = "\n\n---\n\n## Unranked / New (subscriber count to be filled)\n\n"
+        new_rows = "\n".join(
+            f"| — | **{n}** | TBC | TBC | TBC | TBC | Auto-added from article |"
+            for n in newly_added
+        )
+        if "## Unranked / New" in current:
+            current = current.replace(
+                "## Unranked / New (subscriber count to be filled)\n\n",
+                f"## Unranked / New (subscriber count to be filled)\n\n{new_rows}\n"
+            )
+        else:
+            insert_at = current.find(marker) if marker in current else len(current)
+            current = current[:insert_at] + section_header + new_rows + "\n" + current[insert_at:]
+        master_list_path.write_text(current)
+        print(f"  master_list.md updated: added {newly_added}")
+
+    return changed
+
+
 # ── HTML Generator ─────────────────────────────────────────────────────────────
 
 def score_color(score: float) -> str:
@@ -739,7 +816,10 @@ def main():
     out_file.write_text(html)
     print(f"\n  Written: {out_file}")
 
-    # 5. Update sitemap + llms.txt
+    # 5. Sync new reviewers into influencers.json + master_list.md
+    sync_influencers(args.brand, args.model, data.get("reviewer_takes", []))
+
+    # 6. Update sitemap + llms.txt + influencer pages
     sys.path.insert(0, str(ROOT / "agents"))
     import carjury_manager
     carjury_manager.update_sitemap()
