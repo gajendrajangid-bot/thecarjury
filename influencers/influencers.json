@@ -26,7 +26,8 @@
     "articles": [
       "tata/sierra",
       "mahindra/be6",
-      "renault/duster"
+      "renault/duster",
+      "skoda/kushaq"
     ]
   },
   {
@@ -55,7 +56,8 @@
     "why": "Gagan Choudhary is on The Jury for his precision on interior quality and cabin experience \u2014 an area where reviewers often make vague claims. His assessments are specific and traceable.",
     "articles": [
       "tata/sierra",
-      "renault/duster"
+      "renault/duster",
+      "skoda/kushaq"
     ]
   },
   {
@@ -85,7 +87,8 @@
     "why": "MotorOctane earns their place on The Jury through rigorous, measurable testing. In a landscape where reviewers often repeat manufacturer claims, they verify them.",
     "articles": [
       "tata/sierra",
-      "mahindra/be6"
+      "mahindra/be6",
+      "skoda/kushaq"
     ]
   },
   {
@@ -170,7 +173,8 @@
     ],
     "why": "V3Cars earns their place on The Jury for their rigorous variant and value analysis \u2014 an area most reviewers skip entirely. Their structured approach to which trim is worth buying is genuinely useful in synthesis.",
     "articles": [
-      "renault/duster"
+      "renault/duster",
+      "skoda/kushaq"
     ]
   },
   {
@@ -392,6 +396,32 @@
     "subscriber_count": "",
     "articles": [
       "renault/duster"
+    ]
+  },
+  {
+    "slug": "cartoqvideos",
+    "name": "CarToqVideos",
+    "tagline": "Independent car reviewer \u2014 CarToq",
+    "youtube_handle": "CarToq",
+    "youtube_url": "https://www.youtube.com/@CarToq",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "skoda/kushaq"
+    ]
+  },
+  {
+    "slug": "3tm1gdja-9g",
+    "name": "3Tm1GdJa-9g",
+    "tagline": "Independent car reviewer \u2014 Motor Preview (Dr Kesinki)",
+    "youtube_handle": "MotorPreview(DrKesinki)",
+    "youtube_url": "https://www.youtube.com/@MotorPreview(DrKesinki)",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "skoda/kushaq"
     ]
   }
 ]

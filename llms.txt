@@ -9,7 +9,8 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 ## Content
 
 - [Mahindra BE6 Review 2025 — The Car Jury](https://www.thecarjury.com/reviews/mahindra/be6/) — AI synthesis from India's top YouTube reviewers.
-- [2026 Renault Duster Review: Benchmark Ride, But No Diesel | The Car Jury](https://www.thecarjury.com/reviews/renault/duster/) — AI synthesis from India's top YouTube reviewers.
+- [Renault Duster 2026 Review — The Car Jury](https://www.thecarjury.com/reviews/renault/duster/) — AI synthesis from India's top YouTube reviewers.
+- [2026 Skoda Kushaq Review: 8-Speed AT Changes Everything | The Car Jury](https://www.thecarjury.com/reviews/skoda/kushaq/) — AI synthesis from India's top YouTube reviewers.
 - [Tata Sierra 2025 Review — The Car Jury](https://www.thecarjury.com/reviews/tata/sierra/) — AI synthesis from India's top YouTube reviewers.
 
 ## Methodology
