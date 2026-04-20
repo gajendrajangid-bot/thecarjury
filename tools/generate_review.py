@@ -829,14 +829,30 @@ def main():
     import generate_influencer_pages
     generate_influencer_pages.build_all()
 
-    # 6. Git push
+    # 7. Git push
     pushed = carjury_manager.git_push(
         f"review: {args.name} ({args.year}) — jury score {data['jury_score']}"
     )
     if pushed:
-        print(f"  Deployed to Netlify via GitHub push.")
+        print(f"  Deployed to Cloudflare Pages via GitHub push.")
 
     print(f"\n  Done! Live at: https://www.thecarjury.com/reviews/{args.brand}/{args.model}/\n")
+
+    # 8. Record publish date for Analytics Agent tracking
+    try:
+        sys.path.insert(0, str(ROOT / "agents" / "carjury"))
+        from analytics_agent import record_publish
+        record_publish(args.brand, args.model)
+    except Exception as e:
+        print(f"  [warn] Could not record publish date: {e}")
+
+    # 9. Auto-run all agents after publish
+    print("  Running agent suite...\n")
+    try:
+        from run_agents import run_all
+        run_all(args.brand, args.model)
+    except Exception as e:
+        print(f"  [warn] Agent suite failed: {e}")
 
 
 if __name__ == "__main__":
