@@ -100,4 +100,6 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **Motor Trend (Karthikeya Singhee)** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Vishal Ahlawat (with Askar Guru)** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **AutoYogi** | TBC | TBC | TBC | TBC | Auto-added from article |
