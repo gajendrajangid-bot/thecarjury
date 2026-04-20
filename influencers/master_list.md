@@ -100,6 +100,7 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **Wan29z5y_NY** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **CarToqVideos** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **3Tm1GdJa-9g** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Motor Trend (Karthikeya Singhee)** | TBC | TBC | TBC | TBC | Auto-added from article |

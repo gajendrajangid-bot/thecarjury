@@ -27,7 +27,8 @@
       "tata/sierra",
       "mahindra/be6",
       "renault/duster",
-      "skoda/kushaq"
+      "skoda/kushaq",
+      "maruti/e-vitara"
     ]
   },
   {
@@ -57,7 +58,8 @@
     "articles": [
       "tata/sierra",
       "renault/duster",
-      "skoda/kushaq"
+      "skoda/kushaq",
+      "maruti/e-vitara"
     ]
   },
   {
@@ -115,7 +117,9 @@
       "Unsponsored"
     ],
     "why": "MotorInc is on The Jury because their reviews are consistently independent and methodical. They bring the same standard of scrutiny to every car they test, which is the baseline requirement for contributing to a credible verdict.",
-    "articles": []
+    "articles": [
+      "skoda/kushaq"
+    ]
   },
   {
     "slug": "teambhp",
@@ -174,7 +178,8 @@
     "why": "V3Cars earns their place on The Jury for their rigorous variant and value analysis \u2014 an area most reviewers skip entirely. Their structured approach to which trim is worth buying is genuinely useful in synthesis.",
     "articles": [
       "renault/duster",
-      "skoda/kushaq"
+      "skoda/kushaq",
+      "maruti/e-vitara"
     ]
   },
   {
@@ -201,7 +206,9 @@
       "Alternative-aware"
     ],
     "why": "Ask CarGuru is on The Jury for Amit Khare's explicitly buyer-first advisory stance. He is one of the few reviewers who consistently recommends alternatives when a car underdelivers \u2014 a perspective that strengthens any verdict.",
-    "articles": []
+    "articles": [
+      "maruti/e-vitara"
+    ]
   },
   {
     "slug": "motorbeam",
@@ -228,7 +235,9 @@
       "Comprehensive"
     ],
     "why": "MotorBeam carries the same editorial independence as Faisal Khan's personal channel \u2014 it is his platform. Including MotorBeam gives The Jury access to their broader written analysis and long-term ownership reports, which complement video-first reviews.",
-    "articles": []
+    "articles": [
+      "skoda/kushaq"
+    ]
   },
   {
     "slug": "powerdrift",
@@ -399,29 +408,16 @@
     ]
   },
   {
-    "slug": "cartoqvideos",
-    "name": "CarToqVideos",
-    "tagline": "Independent car reviewer \u2014 CarToq",
-    "youtube_handle": "CarToq",
-    "youtube_url": "https://www.youtube.com/@CarToq",
+    "slug": "wan29z5y-ny",
+    "name": "Wan29z5y_NY",
+    "tagline": "Independent car reviewer \u2014 MotorOctane / Motoring",
+    "youtube_handle": "MotorOctane/Motoring",
+    "youtube_url": "https://www.youtube.com/@MotorOctane/Motoring",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
     "articles": [
-      "skoda/kushaq"
-    ]
-  },
-  {
-    "slug": "3tm1gdja-9g",
-    "name": "3Tm1GdJa-9g",
-    "tagline": "Independent car reviewer \u2014 Motor Preview (Dr Kesinki)",
-    "youtube_handle": "MotorPreview(DrKesinki)",
-    "youtube_url": "https://www.youtube.com/@MotorPreview(DrKesinki)",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "skoda/kushaq"
+      "maruti/e-vitara"
     ]
   }
 ]

@@ -882,15 +882,30 @@ def main():
         print(f"  TeamBHP: {teambhp_url}")
 
     # 1. Fetch transcripts
+    # Build a video_id → pool channel name map from research state if available
+    state_path = ROOT / "agents" / "carjury" / "state" / f"{args.brand}_{args.model}_research.json"
+    vid_to_pool_name: dict[str, str] = {}
+    if state_path.exists():
+        try:
+            state = json.loads(state_path.read_text())
+            for v in state.get("videos", []):
+                pool = v.get("pool_channel")
+                if pool and isinstance(pool, dict):
+                    vid_to_pool_name[v["id"]] = pool.get("name") or pool.get("channel") or ""
+        except Exception:
+            pass
+
     transcripts = {}
     for vid in args.videos:
         print(f"\n  Fetching transcript: {vid}")
         title, author = fetch_video_title(vid)
+        # Prefer pool channel name over YouTube author_name (avoids sub-channel mismatches)
+        pool_name = vid_to_pool_name.get(vid, "")
+        display_name = pool_name or author or vid
         text = fetch_transcript(vid)
         if text:
-            key = author or vid
-            transcripts[key] = text
-            print(f"    {len(text):,} chars from {author or vid}")
+            transcripts[display_name] = text
+            print(f"    {len(text):,} chars from {display_name}")
         else:
             print(f"    No transcript available")
 
