@@ -8,7 +8,9 @@
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
-    "articles": ["tata/sierra"]
+    "articles": [
+      "tata/sierra"
+    ]
   },
   {
     "slug": "gagan-choudhary",
@@ -19,7 +21,9 @@
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
-    "articles": ["tata/sierra"]
+    "articles": [
+      "tata/sierra"
+    ]
   },
   {
     "slug": "motoroctane",
@@ -30,7 +34,9 @@
     "instagram_url": "https://www.instagram.com/motoroctane",
     "instagram_handle": "motoroctane",
     "subscriber_count": "",
-    "articles": ["tata/sierra"]
+    "articles": [
+      "tata/sierra"
+    ]
   },
   {
     "slug": "powerdrift",
@@ -41,7 +47,9 @@
     "instagram_url": "https://www.instagram.com/powerdrift",
     "instagram_handle": "powerdrift",
     "subscriber_count": "",
-    "articles": ["tata/sierra"]
+    "articles": [
+      "tata/sierra"
+    ]
   },
   {
     "slug": "auto-yogi",
@@ -52,6 +60,21 @@
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
-    "articles": ["tata/sierra"]
+    "articles": [
+      "tata/sierra"
+    ]
+  },
+  {
+    "slug": "autoyogi",
+    "name": "AutoYogi",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "AutoYogi",
+    "youtube_url": "https://www.youtube.com/@AutoYogi",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/sierra"
+    ]
   }
 ]
