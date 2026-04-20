@@ -64,23 +64,16 @@ Your job: synthesise the transcripts from multiple independent reviewers into a 
 
 RULES:
 - Be completely neutral. No manufacturer bias.
-- Use specific facts, quotes, and numbers from the transcripts. Every number (price, bhp, mileage, 0-100 time) must be attributed to a specific reviewer or source.
-- Attribute claims: write "Faisal Khan noted..." or "MotorOctane measured..." — not generic "reviewers say..."
-- Identify CONSENSUS (what most reviewers agree on) and DISAGREEMENTS. When reviewers disagree, analyse WHY — different variant tested, different use case, different test conditions — don't just list the disagreement.
-- Distinguish manufacturer claims from independently verified ones: use "Mahindra claims..." vs. "MotorOctane measured..." — never present manufacturer specs as independently verified unless a reviewer confirmed them.
-- Use Indian context: prices in INR, Indian road conditions, service network, long-term reliability in Indian climate.
+- Use specific facts, quotes, and numbers from the transcripts.
+- Identify CONSENSUS (what most reviewers agree on) and DISAGREEMENTS.
+- Use Indian context: prices in INR, Indian road conditions, Indian buyers' concerns.
 - Write for both human readers AND AI search engines (GEO-optimised).
 - Every claim must be supportable from the source transcripts.
 - Never make up specs or prices — only use what's in the transcripts.
-- For value_review: always compare to the 2 closest rivals at the same price point. Name them specifically.
-- Depth over breadth: 1 specific, well-sourced claim beats 3 vague ones. Cut anything that cannot be attributed.
-- TeamBHP is a trusted 20-year-old independent forum with expert owners and journalists. Weight their observations alongside the YouTube reviewers, especially on long-term reliability and ownership cost.
+- TeamBHP is a trusted 20-year-old independent forum with expert owners and journalists. Weight their observations alongside the YouTube reviewers.
 
 CAR: {car_name} ({year})
 REVIEWERS: {reviewer_list}
-
-EXTRACTED FACTS (numbers and specs pulled from transcripts — use these as your citation anchors):
-{facts_sheet}
 
 YOUTUBE REVIEW TRANSCRIPTS:
 {transcripts}
@@ -92,9 +85,6 @@ Generate a JSON object with these exact fields:
   "jury_score": 7.5,
   "verdict": "BUY | WAIT | SKIP",
   "verdict_reason": "one sentence why",
-  "variants_tested": [
-    {{"reviewer": "Reviewer Name", "variant": "Variant name e.g. Top-spec petrol AT, Mid-spec diesel MT", "price_inr": "₹X lakh (ex-showroom)"}}
-  ],
   "scores": {{
     "design": 8.0,
     "interior": 7.5,
@@ -113,7 +103,7 @@ Generate a JSON object with these exact fields:
   "performance_review": "150-200 word paragraph on performance and powertrain",
   "ride_review": "150-200 word paragraph on ride quality and handling",
   "build_quality_review": "150-200 word paragraph on build quality and features",
-  "value_review": "150-200 word paragraph on pricing, value vs rivals. Name the 2 closest rivals and their prices.",
+  "value_review": "150-200 word paragraph on pricing and value",
   "teambhp_take": "2-3 sentences summarising what TeamBHP's community/reviewers said, highlighting any owner perspectives or long-term findings",
   "reviewer_takes": [
     {{"name": "Reviewer Name", "channel": "Channel Name", "take": "Their specific stance in 1-2 sentences"}}
@@ -137,41 +127,6 @@ Generate a JSON object with these exact fields:
 Return ONLY the JSON object. No markdown fences. No explanation."""
 
 
-def extract_facts_sheet(transcripts: dict[str, str]) -> str:
-    """
-    Pre-pass: extract all numbers and specs from each transcript into a
-    structured facts list. Gives the synthesis model concrete citation anchors
-    rather than having it hunt through raw transcript text.
-    """
-    import re
-    lines = []
-    # Patterns: prices (₹X lakh / X,XX,XXX), speeds (0-100 in Xs), power (Xbhp/Xps),
-    # torque (XNm), mileage (X kmpl / X km), dimensions/boot (X litres/mm), charging times
-    number_pat = re.compile(
-        r"(?:"
-        r"₹[\d,.]+ ?(?:lakh|crore|lac)?|"           # prices
-        r"\d[\d,.]* ?(?:lakh|lac|crore)|"
-        r"\d+(?:\.\d+)? ?(?:bhp|ps|nm|kmpl|km/h|kph|kmph|litres?|liters?|mm|kg|kw)|"
-        r"0[\-–]100 ?(?:in|kmph)? ?\d+(?:\.\d+)? ?(?:sec(?:ond)?s?)?|"  # 0-100
-        r"\d+(?:\.\d+)? ?(?:sec(?:ond)?s?) ?(?:0[\-–]100)?|"
-        r"\d{4,6} ?(?:rpm)|"                          # RPM
-        r"(?:range|charging) ?\d+ ?(?:km|min|hour|hr)"
-        r")",
-        re.IGNORECASE
-    )
-    for reviewer, text in transcripts.items():
-        facts = []
-        for sent in re.split(r'[.!?]+', text):
-            if number_pat.search(sent):
-                clean = " ".join(sent.split())[:200]
-                if clean:
-                    facts.append(f"  - {clean}")
-        if facts:
-            lines.append(f"{reviewer}:")
-            lines.extend(facts[:20])  # cap per reviewer to avoid bloating prompt
-    return "\n".join(lines) if lines else "(no numeric facts extracted)"
-
-
 def synthesise_with_claude(car_name: str, year: int,
                            transcripts: dict[str, str],
                            teambhp_content: str = "") -> dict:
@@ -183,7 +138,6 @@ def synthesise_with_claude(car_name: str, year: int,
         for name, text in transcripts.items()
         if text
     )
-    facts_sheet = extract_facts_sheet(transcripts)
 
     if teambhp_content:
         teambhp_section = f"TEAMBHP FORUM REVIEW:\n{teambhp_content}"
@@ -200,7 +154,6 @@ def synthesise_with_claude(car_name: str, year: int,
                 car_name=car_name,
                 year=year,
                 reviewer_list=reviewer_list,
-                facts_sheet=facts_sheet,
                 transcripts=combined,
                 teambhp_section=teambhp_section,
             )
@@ -210,45 +163,7 @@ def synthesise_with_claude(car_name: str, year: int,
     raw = message.content[0].text.strip()
     raw = re.sub(r"^```(?:json)?\n?", "", raw)
     raw = re.sub(r"\n?```$", "", raw)
-    data = json.loads(raw)
-
-    # Authenticity: strip TeamBHP take if no real source data was provided
-    if not teambhp_content:
-        data["teambhp_take"] = ""
-
-    # Pass 2: editorial critique — catch vague claims before publish
-    critique_prompt = f"""You are a senior automotive editor reviewing a draft article for The Car Jury.
-
-Article JSON:
-{json.dumps(data, indent=2)}
-
-Original reviewer transcripts for reference:
-{combined}
-
-Review each paragraph in: design_review, interior_review, performance_review, ride_review, build_quality_review, value_review.
-
-For EACH paragraph, if you find:
-- A vague claim not tied to a specific reviewer or number → replace it with a specific, attributed claim from the transcripts
-- A manufacturer claim presented as independently verified → add qualifier ("Mahindra claims..." / "as tested by...")
-- A comparison to rivals that's missing → add the rival name and price
-
-Return the SAME JSON structure with ONLY the improved paragraphs changed. Do not change scores, verdict, or any other fields.
-Return ONLY the JSON object. No markdown fences. No explanation."""
-
-    critique_msg = client.messages.create(
-        model="claude-opus-4-7",
-        max_tokens=8192,
-        messages=[{"role": "user", "content": critique_prompt}]
-    )
-    critique_raw = critique_msg.content[0].text.strip()
-    critique_raw = re.sub(r"^```(?:json)?\n?", "", critique_raw)
-    critique_raw = re.sub(r"\n?```$", "", critique_raw)
-    try:
-        data = json.loads(critique_raw)
-    except Exception:
-        pass  # if critique parse fails, keep original
-
-    return data
+    return json.loads(raw)
 
 
 # ── Influencer Registry Sync ───────────────────────────────────────────────────
@@ -377,7 +292,6 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     scores = data["scores"]
     jury_score = data["jury_score"]
     verdict = data["verdict"]
-    feedback_endpoint = os.environ.get("FEEDBACK_ENDPOINT", "")
     brand_display = brand.capitalize()
     canonical_url = f"https://www.thecarjury.com/reviews/{brand}/{model}/"
     vc = verdict_color(verdict)
@@ -401,23 +315,6 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
         score_bar("Build Quality", scores["build_quality"]) +
         score_bar("Value for Money", scores["value"])
     )
-
-    # Variant tested callout
-    variants_tested = data.get("variants_tested", [])
-    if variants_tested:
-        vt_rows = "\n".join(
-            f'          <div class="vt-row"><span class="vt-reviewer">{v.get("reviewer","")}</span>'
-            f'<span class="vt-variant">{v.get("variant","")}</span>'
-            f'<span class="vt-price">{v.get("price_inr","")}</span></div>'
-            for v in variants_tested
-        )
-        variants_block = f'''
-  <div class="variants-tested">
-    <div class="vt-label">Variants Tested</div>
-    {vt_rows}
-  </div>'''
-    else:
-        variants_block = ""
 
     pros_html = "\n".join(f'          <li class="pro-item">{p}</li>' for p in data["pros"])
     cons_html = "\n".join(f'          <li class="con-item">{c}</li>' for c in data["cons"])
@@ -630,30 +527,6 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     .disagree-box h3 {{ color: var(--stone-600); }}
     .disagree-box li::before {{ color: var(--stone-400); }}
 
-    /* GEO panel */
-    .geo-panel {{ background: var(--white); border: 2px solid var(--red); border-radius: 10px; padding: 18px 22px; margin: 20px 0 24px; }}
-    .geo-verdict-row {{ display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }}
-    .geo-label {{ font: 700 11px/1 var(--font-ui); text-transform: uppercase; letter-spacing: 0.10em; color: var(--stone-600); }}
-    .geo-verdict {{ font: 700 15px/1 var(--font-ui); padding: 4px 12px; border-radius: 4px; letter-spacing: 0.06em; }}
-    .verdict-color-buy .geo-verdict, .geo-verdict.verdict-color-buy {{ background: #D1FAE5; color: #065F46; }}
-    .verdict-color-wait .geo-verdict, .geo-verdict.verdict-color-wait {{ background: #FEF3C7; color: #92400E; }}
-    .verdict-color-skip .geo-verdict, .geo-verdict.verdict-color-skip {{ background: #F1F5F9; color: #475569; }}
-    .geo-score {{ font: 700 20px/1 var(--font-display); color: var(--ink); margin-left: auto; }}
-    .geo-score-denom {{ font-size: 12px; font-weight: 400; color: var(--stone-600); }}
-    .geo-reason {{ font: 400 14px/1.55 var(--font-body); color: var(--stone-700); margin: 0 0 10px; }}
-    .geo-sources {{ display: flex; gap: 6px; font-size: 12px; font-family: var(--font-ui); flex-wrap: wrap; }}
-    .geo-sources-label {{ color: var(--stone-500); }}
-    .geo-sources-list {{ color: var(--stone-700); font-weight: 500; }}
-
-    /* Variants tested */
-    .variants-tested {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 16px 20px; margin: 24px 0; }}
-    .vt-label {{ font: 700 11px/1 var(--font-ui); color: var(--stone-600); text-transform: uppercase; letter-spacing: 0.10em; margin-bottom: 10px; }}
-    .vt-row {{ display: flex; gap: 12px; flex-wrap: wrap; align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--hairline); font-size: 13px; font-family: var(--font-ui); }}
-    .vt-row:last-child {{ border-bottom: none; }}
-    .vt-reviewer {{ color: var(--stone-600); min-width: 120px; flex-shrink: 0; }}
-    .vt-variant {{ color: var(--ink); font-weight: 500; flex: 1; }}
-    .vt-price {{ color: var(--stone-600); font-size: 12px; flex-shrink: 0; }}
-
     /* TeamBHP box */
     .teambhp-box {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 24px; }}
     .teambhp-logo {{ font: 700 13px/1 var(--font-ui); color: var(--stone-600); background: var(--hairline); display: inline-block; padding: 4px 10px; border-radius: 3px; margin-bottom: 14px; letter-spacing: 0.05em; }}
@@ -704,7 +577,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     }}
   </style>
 </head>
-<body data-score="{jury_score}" data-verdict="{verdict}" data-feedback-endpoint="{feedback_endpoint}">
+<body>
 
 <header class="site-header">
   <div class="site-header__inner">
@@ -745,22 +618,6 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     <span>Synthesis of {sources_label}</span>
     <span>{word_count:,} words · {reading_time} min read</span>
   </div>
-
-  <!-- GEO Panel: structured for AI search engines (Perplexity, ChatGPT, Google SGE) -->
-  <aside class="geo-panel" data-geo="verdict-summary" aria-label="Quick verdict summary">
-    <div class="geo-verdict-row">
-      <span class="geo-label">The Jury's Verdict</span>
-      <span class="geo-verdict {vc}">{verdict}</span>
-      <span class="geo-score">{jury_score}<span class="geo-score-denom">/10</span></span>
-    </div>
-    <p class="geo-reason" data-geo="verdict-reason">{data['verdict_reason']}</p>
-    <div class="geo-sources" data-geo="sources">
-      <span class="geo-sources-label">Sourced from</span>
-      <span class="geo-sources-list">{", ".join(r["name"] for r in data.get("reviewer_takes", [])[:6])}{(" + TeamBHP" if data.get("teambhp_take") else "")}</span>
-    </div>
-  </aside>
-
-{variants_block}
 
   <div class="scores-section">
     <h2>Jury Score Breakdown</h2>
@@ -862,7 +719,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     </div>
   </div>
 </footer>
-<script src="/js/feedback.js"></script>
+
 </body>
 </html>"""
 
@@ -876,8 +733,6 @@ def main():
     parser.add_argument("--name", help="Display name e.g. 'Tata Nexon EV'")
     parser.add_argument("--year", type=int, default=2025)
     parser.add_argument("--videos", nargs="+", default=[], help="YouTube video IDs")
-    parser.add_argument("--video-names", default="",
-                        help="Override reviewer names: 'ID:Name,ID:Name' e.g. 'Abc123:MotorInc'")
     parser.add_argument("--from-research", metavar="JSON_PATH",
                         help="Load video IDs and TeamBHP from a research_agent state JSON")
     parser.add_argument("--dry-run", action="store_true", help="Don't write files or push")
@@ -917,71 +772,15 @@ def main():
         print(f"  TeamBHP: {teambhp_url}")
 
     # 1. Fetch transcripts
-    # Build a video_id → display name map: manual > research state > trusted list > YouTube oEmbed
-    # Step A: parse --video-names if provided (format: "ID:Name,ID:Name")
-    manual_names: dict[str, str] = {}
-    if getattr(args, "video_names", None):
-        for pair in args.video_names.split(","):
-            pair = pair.strip()
-            if ":" in pair:
-                vid_part, name_part = pair.split(":", 1)
-                manual_names[vid_part.strip()] = name_part.strip()
-
-    # Step B: research state pool names
-    state_path = ROOT / "agents" / "carjury" / "state" / f"{args.brand}_{args.model}_research.json"
-    vid_to_pool_name: dict[str, str] = {}
-    if state_path.exists():
-        try:
-            state = json.loads(state_path.read_text())
-            for v in state.get("videos", []):
-                pool = v.get("pool_channel")
-                if pool and isinstance(pool, dict):
-                    vid_to_pool_name[v["id"]] = pool.get("name") or pool.get("channel") or ""
-        except Exception:
-            pass
-
-    # Step C: build trusted channel handle → display name map for YouTube author_name matching
-    try:
-        inf_path = CARJURY / "influencers/influencers.json"
-        influencers_data = json.loads(inf_path.read_text()) if inf_path.exists() else []
-        trusted_author_map: dict[str, str] = {}
-        for inf in influencers_data:
-            handle = inf.get("youtube_handle", "").lstrip("@").lower()
-            name = inf.get("name", "")
-            if handle and name:
-                trusted_author_map[handle] = name
-            # Also map common display name variations
-            for alias in [name.lower(), name.lower().replace(" ", "")]:
-                trusted_author_map[alias] = name
-    except Exception:
-        trusted_author_map = {}
-
-    def resolve_name(vid: str, yt_author: str) -> str:
-        """Return the best display name for a video, never a raw video ID."""
-        # 1. Manual override
-        if vid in manual_names:
-            return manual_names[vid]
-        # 2. Research state pool name
-        if vid in vid_to_pool_name and vid_to_pool_name[vid]:
-            return vid_to_pool_name[vid]
-        # 3. YouTube author matched against trusted channel list
-        if yt_author:
-            norm = yt_author.lower().replace(" ", "")
-            for key, trusted_name in trusted_author_map.items():
-                if key and (key in norm or norm in key):
-                    return trusted_name
-            return yt_author  # use YouTube name as-is if not a video ID
-        return f"Reviewer ({vid[:6]})"  # last resort — never a raw ID
-
     transcripts = {}
     for vid in args.videos:
         print(f"\n  Fetching transcript: {vid}")
-        title, yt_author = fetch_video_title(vid)
-        display_name = resolve_name(vid, yt_author)
+        title, author = fetch_video_title(vid)
         text = fetch_transcript(vid)
         if text:
-            transcripts[display_name] = text
-            print(f"    {len(text):,} chars from {display_name}")
+            key = author or vid
+            transcripts[key] = text
+            print(f"    {len(text):,} chars from {author or vid}")
         else:
             print(f"    No transcript available")
 
@@ -1039,28 +838,7 @@ def main():
 
     print(f"\n  Done! Live at: https://www.thecarjury.com/reviews/{args.brand}/{args.model}/\n")
 
-    # 8. Convert all images in review folder to WebP
-    try:
-        from PIL import Image as PILImage
-        review_img_dir = out_dir
-        converted = 0
-        for img_path in list(review_img_dir.glob("*.jpg")) + list(review_img_dir.glob("*.png")):
-            webp_path = img_path.with_suffix(".webp")
-            if not webp_path.exists():
-                PILImage.open(img_path).save(webp_path, "WEBP", quality=82, method=6)
-                # Update HTML reference
-                html_content = out_dir_index = (out_dir / "index.html")
-                txt = html_content.read_text()
-                new_txt = txt.replace(img_path.name, webp_path.name)
-                if new_txt != txt:
-                    html_content.write_text(new_txt)
-                converted += 1
-        if converted:
-            print(f"  Converted {converted} image(s) to WebP")
-    except Exception as e:
-        print(f"  [warn] WebP conversion skipped: {e}")
-
-    # 9. Record publish date for Analytics Agent tracking
+    # 8. Record publish date for Analytics Agent tracking
     try:
         sys.path.insert(0, str(ROOT / "agents" / "carjury"))
         from analytics_agent import record_publish
