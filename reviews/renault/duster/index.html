@@ -211,6 +211,19 @@
       .site-footer { padding: 32px 20px; }
       .site-footer__top { flex-direction: column; }
     }
+      .geo-panel { background: var(--white); border: 2px solid var(--red); border-radius: 10px; padding: 18px 22px; margin: 20px 0 24px; }
+    .geo-verdict-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+    .geo-label { font: 700 11px/1 var(--font-ui); text-transform: uppercase; letter-spacing: 0.10em; color: var(--stone-600); }
+    .geo-verdict { font: 700 15px/1 var(--font-ui); padding: 4px 12px; border-radius: 4px; letter-spacing: 0.06em; }
+    .geo-verdict.verdict-color-buy { background: #D1FAE5; color: #065F46; }
+    .geo-verdict.verdict-color-wait { background: #FEF3C7; color: #92400E; }
+    .geo-verdict.verdict-color-skip { background: #F1F5F9; color: #475569; }
+    .geo-score { font: 700 20px/1 var(--font-display); color: var(--ink); margin-left: auto; }
+    .geo-score-denom { font-size: 12px; font-weight: 400; color: var(--stone-600); }
+    .geo-reason { font: 400 14px/1.55 var(--font-body); color: var(--stone-700); margin: 0 0 10px; }
+    .geo-sources { display: flex; gap: 6px; font-size: 12px; font-family: var(--font-ui); flex-wrap: wrap; }
+    .geo-sources-label { color: var(--stone-500); }
+    .geo-sources-list { color: var(--stone-700); font-weight: 500; }
   </style>
 </head>
 <body data-feedback-endpoint="https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec" data-score="7.8" data-verdict="BUY">
@@ -239,7 +252,7 @@
 <p class="hero-summary">The 2026 Renault Duster returns after a four-year hiatus as a monocoque, turbo-petrol-only SUV that Faisal Khan calls 'the new segment benchmark' for ride and handling. It pairs a 160 PS 1.3L turbo (co-developed with Mercedes-Benz, per Gagan Choudhary) with a wet-clutch DCT or 6-speed manual, but drops diesel and all-wheel drive — two of the original Duster's signature traits.</p>
 </div>
 <div class="hero-image-wrap">
-<img src="/reviews/renault/duster/hero.webp" alt="Renault Duster 2026 — official exterior press image" width="1067" height="800" loading="eager"/>
+<img alt="Renault Duster 2026 — official exterior press image" height="800" loading="eager" src="/reviews/renault/duster/hero.webp" width="1067"/>
 <div class="hero-image-credit">Image: Autocar India / Renault Press Kit</div>
 </div>
 <div class="article-wrap">
@@ -249,6 +262,19 @@
 <span>Synthesis of 6 independent sources</span>
 <span>2,547 words · 11 min read</span>
 </div>
+<aside class="geo-panel" data-geo="verdict-summary" aria-label="Quick verdict summary">
+  <div class="geo-verdict-row">
+    <span class="geo-label">The Jury's Verdict</span>
+    <span class="geo-verdict verdict-color-buy">BUY</span>
+    <span class="geo-score">7.8<span class="geo-score-denom">/10</span></span>
+  </div>
+  <p class="geo-reason" data-geo="verdict-reason">A driver-focused, ruggedly built SUV with segment-benchmark ride and handling, let down only by missing diesel/AWD and a tight rear seat.</p>
+  <div class="geo-sources" data-geo="sources">
+    <span class="geo-sources-label">Sourced from</span>
+    <span class="geo-sources-list">Gagan Choudhary, Faisal Khan, Motor Trend (Karthikeya Singhee), V3Cars, Vishal Ahlawat (with Askar Guru)</span>
+  </div>
+</aside>
+
 <div class="variants-tested">
 <div class="vt-label">Variants Tested</div>
 <div class="vt-row"><span class="vt-reviewer">Gagan Choudhary</span><span class="vt-variant">1.3L Turbo Petrol (DCT and Manual)</span><span class="vt-price">₹10–18 lakh bracket (as referenced)</span></div>
@@ -309,7 +335,7 @@
 </div>
 <div class="section">
 <h2>Design</h2>
-<p>The new Duster retains the raw SUV stance of its predecessor while looking distinctly modern — V3Cars describes it as muscular with a 212 mm ground clearance, 18-inch alloys, and thick cladding front and rear. Faisal Khan notes there's no Renault logo at the front; instead, the Duster badge sits right on the grille, with full LED lighting, a shark-fin antenna, and connected LED tail lamps. The hidden rear door handles integrated into the C-pillar (Swift-style) divide opinion — Askar Guru on Vishal Ahlawat's show points out first-time passengers may struggle to locate them. Gagan Choudhary likes the overall silhouette but dislikes the cladding on the limited Iconic edition he drove, feeling the non-limited version looks cleaner; he also suggests Renault should offer the European Duster's cladding as an accessory. The Iconic green paint on the launch edition is widely praised by Motor Trend's Karthikeya Singhee. Motor Trend calls it 'handsome, strong yet modern' and notes that despite being longer on paper than a Tata Sierra (as Gagan Choudhary points out), the Duster doesn't dominate road presence the way the Kia Seltos or Sierra do.</p>
+<p>The new Duster retains the raw SUV stance of its predecessor while looking distinctly modern — V3Cars describes it as muscular with a 212 mm ground clearance, 18-inch alloys, and thick cladding front and rear. Faisal Khan notes there's no Renault logo at the front; instead, the Duster badge sits right on the grille, with full LED lighting, a shark-fin antenna, and connected LED tail lamps. The hidden rear door handles integrated into the C-pillar (Swift-style) divide opinion — Askar Guru on Vishal Ahlawat's show points out first-time passengers may struggle to locate them. Gagan Choudhary likes the overall silhouette but dislikes the cladding on the limited Iconic edition he drove, feeling the non-limited version looks cleaner; he also suggests Renault should offer the European Duster's cladding as an accessory. The Iconic green paint on the launch edition is widely praised by Motor Trend's Karthikeya Singhee. Motor Trend calls it 'handsome, strong yet modern' and notes that despite being longer on paper than a <a href="/reviews/tata/sierra/">Tata Sierra</a> (as Gagan Choudhary points out), the Duster doesn't dominate road presence the way the Kia Seltos or Sierra do.</p>
 </div>
 <div class="section">
 <h2>Interior &amp; Features</h2>
@@ -317,7 +343,7 @@
 </div>
 <div class="section">
 <h2>Performance &amp; Powertrain</h2>
-<p>The flagship 1.3L four-cylinder turbo petrol — the same block co-developed with Mercedes-Benz, per Gagan Choudhary — produces 160 PS and 280 Nm (Faisal Khan quotes 163 hp). Faisal Khan recorded 0–100 km/h in 10.14 seconds on his first run with the manual, then 9.58 seconds and 10.47 seconds on subsequent runs; he attributes the variance to shift timing and high-altitude oxygen starvation during the mountain test route. He considers it 'more than a second slower' than the VW 1.5 TSI Evo in the Skoda Kushaq/VW Taigun, which he has timed at 8.88 seconds to 100 km/h. Gagan Choudhary calls it a 'gem of an engine' that 'feels amazing from 2,500 to 5,500 RPM' but notes turbo lag below 2,500 RPM is more evident in the manual; the wet-clutch DCT masks it well. The entry 1.0L turbo (100 PS / 160 Nm, shared with the Kiger/Magnite, per Faisal Khan) comes manual-only. A 1.8L hybrid (Faisal Khan details: 109 hp petrol + 49 hp drive motor + 20 hp hybrid starter generator, 1.4 kWh battery, 160 PS combined system output, 172 Nm) is promised around Diwali. No diesel confirmed at launch; Renault has indicated CNG only if demand warrants (per Faisal Khan).</p>
+<p>The flagship 1.3L four-cylinder turbo petrol — the same block co-developed with Mercedes-Benz, per Gagan Choudhary — produces 160 PS and 280 Nm (Faisal Khan quotes 163 hp). Faisal Khan recorded 0–100 km/h in 10.14 seconds on his first run with the manual, then 9.58 seconds and 10.47 seconds on subsequent runs; he attributes the variance to shift timing and high-altitude oxygen starvation during the mountain test route. He considers it 'more than a second slower' than the VW 1.5 TSI Evo in the <a href="/reviews/skoda/kushaq/">Skoda Kushaq</a>/VW Taigun, which he has timed at 8.88 seconds to 100 km/h. Gagan Choudhary calls it a 'gem of an engine' that 'feels amazing from 2,500 to 5,500 RPM' but notes turbo lag below 2,500 RPM is more evident in the manual; the wet-clutch DCT masks it well. The entry 1.0L turbo (100 PS / 160 Nm, shared with the Kiger/Magnite, per Faisal Khan) comes manual-only. A 1.8L hybrid (Faisal Khan details: 109 hp petrol + 49 hp drive motor + 20 hp hybrid starter generator, 1.4 kWh battery, 160 PS combined system output, 172 Nm) is promised around Diwali. No diesel confirmed at launch; Renault has indicated CNG only if demand warrants (per Faisal Khan).</p>
 </div>
 <div class="section">
 <h2>Ride Quality &amp; Handling</h2>
@@ -343,13 +369,6 @@
 </div>
 <div class="consensus-box disagree-box" style="margin-top:16px"><h3>Points of Disagreement</h3><ul> <li>0–100 km/h timings for the manual vary: Faisal Khan recorded 10.14 seconds on his first run, 9.58 seconds on the second, and 10.47 on the third — he attributes the inconsistency to gearshift timing and high-altitude oxygen loss during the Himalayan drive route.</li>
 <li>On whether the 1.3L engine delivers on its power numbers: Faisal Khan feels it underperforms versus the VW 1.5 TSI Evo and blames altitude plus big-turbo-small-engine lag, while Motor Trend and Gagan Choudhary find it 'peppy' and 'brilliant' once past the lag — likely because they drove the DCT, which masks lag better than the manual Faisal tested.</li></ul></div>
-</div>
-<div class="section">
-<h2>TeamBHP's Take</h2>
-<div class="teambhp-box">
-<div class="teambhp-logo">TeamBHP</div>
-<p class="teambhp-text">TeamBHP community-style observations align with Gagan Choudhary's reliability read — historically, Renault owners haven't reported the chronic breakdown issues seen with some segment rivals, though maintenance costs (especially for the old 1.5 diesel) have trended higher. The wet-clutch DCT is likely to be viewed favourably versus dry-clutch units from the long-term reliability standpoint. The absence of a spare wheel is likely to draw sustained criticism from the enthusiast-owner community given Indian road realities.</p>
-</div>
 </div>
 <div class="section">
 <h2>Individual Reviewer Verdicts</h2>

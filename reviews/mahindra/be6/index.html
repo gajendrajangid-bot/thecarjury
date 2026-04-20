@@ -203,6 +203,19 @@
       .site-footer { padding: 32px 20px; }
       .site-footer__top { flex-direction: column; }
     }
+      .geo-panel { background: var(--white); border: 2px solid var(--red); border-radius: 10px; padding: 18px 22px; margin: 20px 0 24px; }
+    .geo-verdict-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+    .geo-label { font: 700 11px/1 var(--font-ui); text-transform: uppercase; letter-spacing: 0.10em; color: var(--stone-600); }
+    .geo-verdict { font: 700 15px/1 var(--font-ui); padding: 4px 12px; border-radius: 4px; letter-spacing: 0.06em; }
+    .geo-verdict.verdict-color-buy { background: #D1FAE5; color: #065F46; }
+    .geo-verdict.verdict-color-wait { background: #FEF3C7; color: #92400E; }
+    .geo-verdict.verdict-color-skip { background: #F1F5F9; color: #475569; }
+    .geo-score { font: 700 20px/1 var(--font-display); color: var(--ink); margin-left: auto; }
+    .geo-score-denom { font-size: 12px; font-weight: 400; color: var(--stone-600); }
+    .geo-reason { font: 400 14px/1.55 var(--font-body); color: var(--stone-700); margin: 0 0 10px; }
+    .geo-sources { display: flex; gap: 6px; font-size: 12px; font-family: var(--font-ui); flex-wrap: wrap; }
+    .geo-sources-label { color: var(--stone-500); }
+    .geo-sources-list { color: var(--stone-700); font-weight: 500; }
   </style>
 </head>
 <body data-score="8.0" data-verdict="BUY" data-feedback-endpoint="https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec">
@@ -241,6 +254,19 @@
 <span>Synthesis of 6 independent sources</span>
 <span>2,066 words · 9 min read</span>
 </div>
+<aside class="geo-panel" data-geo="verdict-summary" aria-label="Quick verdict summary">
+  <div class="geo-verdict-row">
+    <span class="geo-label">The Jury's Verdict</span>
+    <span class="geo-verdict verdict-color-buy">BUY</span>
+    <span class="geo-score">8.0<span class="geo-score-denom">/10</span></span>
+  </div>
+  <p class="geo-reason" data-geo="verdict-reason">A genuinely futuristic, fun-to-drive electric SUV that delivers sports-car dynamics, 450-500 km real-world range and segment-first features at a disruptive price — provided you can live with a firm ride and tight rear seat.</p>
+  <div class="geo-sources" data-geo="sources">
+    <span class="geo-sources-label">Sourced from</span>
+    <span class="geo-sources-list">MotorOctane, RevLimits, RushLane, Manish Bhardwaj, Faisal Khan</span>
+  </div>
+</aside>
+
 <div class="scores-section">
 <h2>Jury Score Breakdown</h2>
 <div class="score-row">

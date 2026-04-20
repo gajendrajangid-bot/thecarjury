@@ -211,6 +211,19 @@
       .site-footer { padding: 32px 20px; }
       .site-footer__top { flex-direction: column; }
     }
+      .geo-panel { background: var(--white); border: 2px solid var(--red); border-radius: 10px; padding: 18px 22px; margin: 20px 0 24px; }
+    .geo-verdict-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+    .geo-label { font: 700 11px/1 var(--font-ui); text-transform: uppercase; letter-spacing: 0.10em; color: var(--stone-600); }
+    .geo-verdict { font: 700 15px/1 var(--font-ui); padding: 4px 12px; border-radius: 4px; letter-spacing: 0.06em; }
+    .geo-verdict.verdict-color-buy { background: #D1FAE5; color: #065F46; }
+    .geo-verdict.verdict-color-wait { background: #FEF3C7; color: #92400E; }
+    .geo-verdict.verdict-color-skip { background: #F1F5F9; color: #475569; }
+    .geo-score { font: 700 20px/1 var(--font-display); color: var(--ink); margin-left: auto; }
+    .geo-score-denom { font-size: 12px; font-weight: 400; color: var(--stone-600); }
+    .geo-reason { font: 400 14px/1.55 var(--font-body); color: var(--stone-700); margin: 0 0 10px; }
+    .geo-sources { display: flex; gap: 6px; font-size: 12px; font-family: var(--font-ui); flex-wrap: wrap; }
+    .geo-sources-label { color: var(--stone-500); }
+    .geo-sources-list { color: var(--stone-700); font-weight: 500; }
   </style>
 </head>
 <body data-feedback-endpoint="https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec" data-score="7.6" data-verdict="BUY">
@@ -249,6 +262,19 @@
 <span>Synthesis of 7 independent sources</span>
 <span>2,355 words · 10 min read</span>
 </div>
+<aside class="geo-panel" data-geo="verdict-summary" aria-label="Quick verdict summary">
+  <div class="geo-verdict-row">
+    <span class="geo-label">The Jury's Verdict</span>
+    <span class="geo-verdict verdict-color-buy">BUY</span>
+    <span class="geo-score">7.6<span class="geo-score-denom">/10</span></span>
+  </div>
+  <p class="geo-reason" data-geo="verdict-reason">The new 8-speed automatic transforms the 1.0 TSI's refinement and efficiency, but the well-loaded base Classic Plus is the only genuinely value-for-money variant.</p>
+  <div class="geo-sources" data-geo="sources">
+    <span class="geo-sources-label">Sourced from</span>
+    <span class="geo-sources-list">Gagan Choudhary, MotorOctane, MotorBeam, Faisal Khan, MotorInc, V3Cars</span>
+  </div>
+</aside>
+
 <div class="variants-tested">
 <div class="vt-label">Variants Tested</div>
 <div class="vt-row"><span class="vt-reviewer">Gagan Choudhary</span><span class="vt-variant">1.0 TSI 8-speed AT (facelift)</span><span class="vt-price">Not disclosed at time of drive</span></div>
@@ -309,7 +335,7 @@
 </div>
 <div class="section">
 <h2>Design</h2>
-<p>The facelift is evolutionary rather than revolutionary. Faisal Khan noted a new grille with vertical chrome ribs replacing the earlier chrome line, a connected LED DRL strip, new LED fog lamps (earlier halogens) and revised bumpers. The bonnet and sheet metal are unchanged. Faisal Khan measured the length at 'slightly more than 4.2 metres' with a 2.65 m wheelbase — once segment-best, but now shorter than the Tata Sierra's approximately 2.73 m. V3Cars pegs the width at 1760 mm and height at 1612 mm, both the lowest in the C-segment SUV category. Ground clearance is 188 mm per Faisal Khan (MotorOctane rounded to 'about 185 mm'). The Monte Carlo edition, now offered from launch (unusual for Skoda, per MotorBeam), adds gloss-black grille treatment, red accents, checkered-flag badging and black roof/ORVMs. New LED tail lamps with sequential indicators and Skoda lettering complete the rear. Eight exterior colours are on offer per V3Cars.</p>
+<p>The facelift is evolutionary rather than revolutionary. Faisal Khan noted a new grille with vertical chrome ribs replacing the earlier chrome line, a connected LED DRL strip, new LED fog lamps (earlier halogens) and revised bumpers. The bonnet and sheet metal are unchanged. Faisal Khan measured the length at 'slightly more than 4.2 metres' with a 2.65 m wheelbase — once segment-best, but now shorter than the <a href="/reviews/tata/sierra/">Tata Sierra</a>'s approximately 2.73 m. V3Cars pegs the width at 1760 mm and height at 1612 mm, both the lowest in the C-segment SUV category. Ground clearance is 188 mm per Faisal Khan (MotorOctane rounded to 'about 185 mm'). The Monte Carlo edition, now offered from launch (unusual for Skoda, per MotorBeam), adds gloss-black grille treatment, red accents, checkered-flag badging and black roof/ORVMs. New LED tail lamps with sequential indicators and Skoda lettering complete the rear. Eight exterior colours are on offer per V3Cars.</p>
 </div>
 <div class="section">
 <h2>Interior &amp; Features</h2>
@@ -343,13 +369,6 @@
 </div>
 <div class="consensus-box disagree-box" style="margin-top:16px"><h3>Points of Disagreement</h3><ul> <li>On efficiency gains from the 8-speed: Gagan Choudhary (who actually drove it) was cautious, noting 100 kmph rpm was 'almost the same if not higher' than the 6-speed and that the claimed 0.4 L/100km improvement 'roughly translates to around 1 kmpl'; MotorOctane was far more bullish, projecting a 3 kmpl highway jump. The disagreement stems from test context — Gagan did a limited 2-4 hour highway drive, while MotorOctane extrapolated from low-rpm cruising data.</li>
 <li>On whether to pick the 1.0 or 1.5 TSI: MotorOctane said there's 'not much difference' below 80 kmph and recommended the 1.0 for most buyers; Faisal Khan and MotorInc pushed the 1.5 TSI DSG (sub-10 second 0-100, 150 hp, 250 Nm per Faisal Khan) citing better suspension tune and refinement. The split reflects use-case — daily city vs. enthusiast/highway.</li></ul></div>
-</div>
-<div class="section">
-<h2>TeamBHP's Take</h2>
-<div class="teambhp-box">
-<div class="teambhp-logo">TeamBHP</div>
-<p class="teambhp-text">TeamBHP's community has historically validated Skoda's driving-dynamics reputation but consistently flagged service-cost concerns and the earlier AC issue — which Gagan Choudhary confirmed was real and has finally been addressed in the facelift via a reworked (likely variable-geometry) compressor. Long-term owner sentiment suggests the Aisin 6-speed AT was reliable, and Gagan Choudhary expects the new 8-speed to follow suit as it has been used in larger engines before. The prevailing community view remains that the Kushaq is a driver's SUV best bought in the value-packed lower trims.</p>
-</div>
 </div>
 <div class="section">
 <h2>Individual Reviewer Verdicts</h2>

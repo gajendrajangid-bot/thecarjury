@@ -203,9 +203,22 @@
       .site-footer { padding: 32px 20px; }
       .site-footer__top { flex-direction: column; }
     }
+      .geo-panel { background: var(--white); border: 2px solid var(--red); border-radius: 10px; padding: 18px 22px; margin: 20px 0 24px; }
+    .geo-verdict-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+    .geo-label { font: 700 11px/1 var(--font-ui); text-transform: uppercase; letter-spacing: 0.10em; color: var(--stone-600); }
+    .geo-verdict { font: 700 15px/1 var(--font-ui); padding: 4px 12px; border-radius: 4px; letter-spacing: 0.06em; }
+    .geo-verdict.verdict-color-buy { background: #D1FAE5; color: #065F46; }
+    .geo-verdict.verdict-color-wait { background: #FEF3C7; color: #92400E; }
+    .geo-verdict.verdict-color-skip { background: #F1F5F9; color: #475569; }
+    .geo-score { font: 700 20px/1 var(--font-display); color: var(--ink); margin-left: auto; }
+    .geo-score-denom { font-size: 12px; font-weight: 400; color: var(--stone-600); }
+    .geo-reason { font: 400 14px/1.55 var(--font-body); color: var(--stone-700); margin: 0 0 10px; }
+    .geo-sources { display: flex; gap: 6px; font-size: 12px; font-family: var(--font-ui); flex-wrap: wrap; }
+    .geo-sources-label { color: var(--stone-500); }
+    .geo-sources-list { color: var(--stone-700); font-weight: 500; }
   </style>
 </head>
-<body data-score="7.8" data-verdict="WAIT" data-feedback-endpoint="https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec">
+<body data-feedback-endpoint="https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec" data-score="7.8" data-verdict="WAIT">
 <header class="site-header">
 <div class="site-header__inner">
 <a class="tcj-mast" href="/">
@@ -231,7 +244,7 @@
 <p class="hero-summary">The 2025 Tata Sierra is the boldest, most feature-loaded monocoque SUV Tata has ever built, combining a head-turning boxy design with a genuinely refined new 1.5L turbo-petrol GDI engine and triple-screen tech. Reviewers unanimously call it Tata's best product yet, with class-leading rear space, ride composure, and road presence. However, fit-finish inconsistencies, touch-panel frustrations, and reliability question marks mean cautious buyers should wait for the first production batches.</p>
 </div>
 <div class="hero-image-wrap">
-<img src="/reviews/tata/sierra/hero.webp" alt="Tata Sierra 2025 — official exterior press image" width="728" height="485" loading="eager"/>
+<img alt="Tata Sierra 2025 — official exterior press image" height="485" loading="eager" src="/reviews/tata/sierra/hero.webp" width="728"/>
 <div class="hero-image-credit">Image: Autocar India / Tata Motors Press Kit</div>
 </div>
 <div class="article-wrap">
@@ -241,6 +254,19 @@
 <span>Synthesis of 6 independent sources</span>
 <span>2,167 words · 9 min read</span>
 </div>
+<aside class="geo-panel" data-geo="verdict-summary" aria-label="Quick verdict summary">
+  <div class="geo-verdict-row">
+    <span class="geo-label">The Jury's Verdict</span>
+    <span class="geo-verdict verdict-color-wait">WAIT</span>
+    <span class="geo-score">7.8<span class="geo-score-denom">/10</span></span>
+  </div>
+  <p class="geo-reason" data-geo="verdict-reason">A genuinely impressive package with class-leading design, space, and a refined new turbo petrol, but pre-production fit-finish niggles and Tata's service track record warrant waiting for initial batches.</p>
+  <div class="geo-sources" data-geo="sources">
+    <span class="geo-sources-label">Sourced from</span>
+    <span class="geo-sources-list">MotorOctane, Faisal Khan, Gagan Choudhary, PowerDrift, AutoYogi</span>
+  </div>
+</aside>
+
 <div class="scores-section">
 <h2>Jury Score Breakdown</h2>
 <div class="score-row">
@@ -316,7 +342,7 @@
 </div>
 <div class="section">
 <h2>Price &amp; Value</h2>
-<p>Official prices were not disclosed to reviewers at the time of the drives, but the Sierra is positioned squarely against the Hyundai Creta, Kia Seltos, VW Taigun, Skoda Kushaq, MG Astor, Honda Elevate, Toyota Hyryder, Maruti Grand Vitara, and the upcoming Renault Duster. The base variant is expected around ₹11.5 lakh (AutoYogi's indication) and reviewers feel the Accomplished (mid-top) variant with HUD and twin screens may be the sweet spot if priced 1.5–2 lakh below the fully loaded Accomplished Plus. Tata has reportedly received 70,000 bookings (per MotorOctane) even before official pricing, showing the design and feature list are doing the heavy lifting. Value will hinge on the final sticker: if Tata undercuts the Creta/Seltos top variants while offering bigger dimensions, more features, Level 2 ADAS, and the DPF/AdBlue-free diesel, it will be a very strong proposition. The 3-year/1-lakh-km warranty helps, but long-term ownership cost depends on Tata's service network reliability — still the brand's weakest link.</p>
+<p>Official prices were not disclosed to reviewers at the time of the drives, but the Sierra is positioned squarely against the Hyundai Creta, Kia Seltos, VW Taigun, <a href="/reviews/skoda/kushaq/">Skoda Kushaq</a>, MG Astor, Honda Elevate, Toyota Hyryder, Maruti Grand Vitara, and the upcoming <a href="/reviews/renault/duster/">Renault Duster</a>. The base variant is expected around ₹11.5 lakh (AutoYogi's indication) and reviewers feel the Accomplished (mid-top) variant with HUD and twin screens may be the sweet spot if priced 1.5–2 lakh below the fully loaded Accomplished Plus. Tata has reportedly received 70,000 bookings (per MotorOctane) even before official pricing, showing the design and feature list are doing the heavy lifting. Value will hinge on the final sticker: if Tata undercuts the Creta/Seltos top variants while offering bigger dimensions, more features, Level 2 ADAS, and the DPF/AdBlue-free diesel, it will be a very strong proposition. The 3-year/1-lakh-km warranty helps, but long-term ownership cost depends on Tata's service network reliability — still the brand's weakest link.</p>
 </div>
 <div class="section">
 <h2>What India's Reviewers Agree On</h2>

@@ -212,6 +212,10 @@ def synthesise_with_claude(car_name: str, year: int,
     raw = re.sub(r"\n?```$", "", raw)
     data = json.loads(raw)
 
+    # Authenticity: strip TeamBHP take if no real source data was provided
+    if not teambhp_content:
+        data["teambhp_take"] = ""
+
     # Pass 2: editorial critique — catch vague claims before publish
     critique_prompt = f"""You are a senior automotive editor reviewing a draft article for The Car Jury.
 
@@ -626,6 +630,21 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     .disagree-box h3 {{ color: var(--stone-600); }}
     .disagree-box li::before {{ color: var(--stone-400); }}
 
+    /* GEO panel */
+    .geo-panel {{ background: var(--white); border: 2px solid var(--red); border-radius: 10px; padding: 18px 22px; margin: 20px 0 24px; }}
+    .geo-verdict-row {{ display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }}
+    .geo-label {{ font: 700 11px/1 var(--font-ui); text-transform: uppercase; letter-spacing: 0.10em; color: var(--stone-600); }}
+    .geo-verdict {{ font: 700 15px/1 var(--font-ui); padding: 4px 12px; border-radius: 4px; letter-spacing: 0.06em; }}
+    .verdict-color-buy .geo-verdict, .geo-verdict.verdict-color-buy {{ background: #D1FAE5; color: #065F46; }}
+    .verdict-color-wait .geo-verdict, .geo-verdict.verdict-color-wait {{ background: #FEF3C7; color: #92400E; }}
+    .verdict-color-skip .geo-verdict, .geo-verdict.verdict-color-skip {{ background: #F1F5F9; color: #475569; }}
+    .geo-score {{ font: 700 20px/1 var(--font-display); color: var(--ink); margin-left: auto; }}
+    .geo-score-denom {{ font-size: 12px; font-weight: 400; color: var(--stone-600); }}
+    .geo-reason {{ font: 400 14px/1.55 var(--font-body); color: var(--stone-700); margin: 0 0 10px; }}
+    .geo-sources {{ display: flex; gap: 6px; font-size: 12px; font-family: var(--font-ui); flex-wrap: wrap; }}
+    .geo-sources-label {{ color: var(--stone-500); }}
+    .geo-sources-list {{ color: var(--stone-700); font-weight: 500; }}
+
     /* Variants tested */
     .variants-tested {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 16px 20px; margin: 24px 0; }}
     .vt-label {{ font: 700 11px/1 var(--font-ui); color: var(--stone-600); text-transform: uppercase; letter-spacing: 0.10em; margin-bottom: 10px; }}
@@ -726,6 +745,20 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     <span>Synthesis of {sources_label}</span>
     <span>{word_count:,} words · {reading_time} min read</span>
   </div>
+
+  <!-- GEO Panel: structured for AI search engines (Perplexity, ChatGPT, Google SGE) -->
+  <aside class="geo-panel" data-geo="verdict-summary" aria-label="Quick verdict summary">
+    <div class="geo-verdict-row">
+      <span class="geo-label">The Jury's Verdict</span>
+      <span class="geo-verdict {vc}">{verdict}</span>
+      <span class="geo-score">{jury_score}<span class="geo-score-denom">/10</span></span>
+    </div>
+    <p class="geo-reason" data-geo="verdict-reason">{data['verdict_reason']}</p>
+    <div class="geo-sources" data-geo="sources">
+      <span class="geo-sources-label">Sourced from</span>
+      <span class="geo-sources-list">{", ".join(r["name"] for r in data.get("reviewer_takes", [])[:6])}{(" + TeamBHP" if data.get("teambhp_take") else "")}</span>
+    </div>
+  </aside>
 
 {variants_block}
 
@@ -843,6 +876,8 @@ def main():
     parser.add_argument("--name", help="Display name e.g. 'Tata Nexon EV'")
     parser.add_argument("--year", type=int, default=2025)
     parser.add_argument("--videos", nargs="+", default=[], help="YouTube video IDs")
+    parser.add_argument("--video-names", default="",
+                        help="Override reviewer names: 'ID:Name,ID:Name' e.g. 'Abc123:MotorInc'")
     parser.add_argument("--from-research", metavar="JSON_PATH",
                         help="Load video IDs and TeamBHP from a research_agent state JSON")
     parser.add_argument("--dry-run", action="store_true", help="Don't write files or push")
@@ -882,7 +917,17 @@ def main():
         print(f"  TeamBHP: {teambhp_url}")
 
     # 1. Fetch transcripts
-    # Build a video_id → pool channel name map from research state if available
+    # Build a video_id → display name map: manual > research state > trusted list > YouTube oEmbed
+    # Step A: parse --video-names if provided (format: "ID:Name,ID:Name")
+    manual_names: dict[str, str] = {}
+    if getattr(args, "video_names", None):
+        for pair in args.video_names.split(","):
+            pair = pair.strip()
+            if ":" in pair:
+                vid_part, name_part = pair.split(":", 1)
+                manual_names[vid_part.strip()] = name_part.strip()
+
+    # Step B: research state pool names
     state_path = ROOT / "agents" / "carjury" / "state" / f"{args.brand}_{args.model}_research.json"
     vid_to_pool_name: dict[str, str] = {}
     if state_path.exists():
@@ -895,13 +940,44 @@ def main():
         except Exception:
             pass
 
+    # Step C: build trusted channel handle → display name map for YouTube author_name matching
+    try:
+        inf_path = CARJURY / "influencers/influencers.json"
+        influencers_data = json.loads(inf_path.read_text()) if inf_path.exists() else []
+        trusted_author_map: dict[str, str] = {}
+        for inf in influencers_data:
+            handle = inf.get("youtube_handle", "").lstrip("@").lower()
+            name = inf.get("name", "")
+            if handle and name:
+                trusted_author_map[handle] = name
+            # Also map common display name variations
+            for alias in [name.lower(), name.lower().replace(" ", "")]:
+                trusted_author_map[alias] = name
+    except Exception:
+        trusted_author_map = {}
+
+    def resolve_name(vid: str, yt_author: str) -> str:
+        """Return the best display name for a video, never a raw video ID."""
+        # 1. Manual override
+        if vid in manual_names:
+            return manual_names[vid]
+        # 2. Research state pool name
+        if vid in vid_to_pool_name and vid_to_pool_name[vid]:
+            return vid_to_pool_name[vid]
+        # 3. YouTube author matched against trusted channel list
+        if yt_author:
+            norm = yt_author.lower().replace(" ", "")
+            for key, trusted_name in trusted_author_map.items():
+                if key and (key in norm or norm in key):
+                    return trusted_name
+            return yt_author  # use YouTube name as-is if not a video ID
+        return f"Reviewer ({vid[:6]})"  # last resort — never a raw ID
+
     transcripts = {}
     for vid in args.videos:
         print(f"\n  Fetching transcript: {vid}")
-        title, author = fetch_video_title(vid)
-        # Prefer pool channel name over YouTube author_name (avoids sub-channel mismatches)
-        pool_name = vid_to_pool_name.get(vid, "")
-        display_name = pool_name or author or vid
+        title, yt_author = fetch_video_title(vid)
+        display_name = resolve_name(vid, yt_author)
         text = fetch_transcript(vid)
         if text:
             transcripts[display_name] = text
