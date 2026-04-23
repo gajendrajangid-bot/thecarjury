@@ -13,6 +13,15 @@ CARJURY = Path(__file__).parent.parent
 INFLUENCERS_JSON = CARJURY / "influencers/influencers.json"
 TODAY_YEAR = date.today().year
 
+GA4_SNIPPET = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0LV8GN0CD5');
+</script>"""
+
 
 def load_influencers() -> list[dict]:
     if not INFLUENCERS_JSON.exists():
@@ -154,6 +163,7 @@ def generate_index(influencers: list[dict]) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+{GA4_SNIPPET}
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>India's Top Independent Car Reviewers — The Car Jury</title>
@@ -212,6 +222,7 @@ def generate_influencer_page(inf: dict) -> str:
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+{GA4_SNIPPET}
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{inf['name']} — Independent Car Reviewer | The Car Jury</title>

@@ -13,6 +13,15 @@ from datetime import date
 
 ROOT = Path(__file__).parent.parent.parent
 CARJURY = ROOT / "carjury"
+
+GA4_SNIPPET = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0LV8GN0CD5');
+</script>"""
 sys.path.insert(0, str(ROOT))
 
 env_path = ROOT / ".env"
@@ -69,8 +78,10 @@ RULES:
 - Use Indian context: prices in INR, Indian road conditions, Indian buyers' concerns.
 - Write for both human readers AND AI search engines (GEO-optimised).
 - Every claim must be supportable from the source transcripts.
-- Never make up specs or prices — only use what's in the transcripts.
+- Never make up specs or prices. Only use what's in the transcripts.
+- NEVER use em-dashes (—) anywhere in the output. Use commas, colons, semicolons, or full stops instead.
 - TeamBHP is a trusted 20-year-old independent forum with expert owners and journalists. Weight their observations alongside the YouTube reviewers.
+- WORD LIMIT: The total combined words across all text fields (hero_summary, verdict_reason, all *_review fields, teambhp_take, reviewer_takes, pros, cons, consensus_points, disagreement_points, faqs) must not exceed 1700 words. Keep each section tight. Prefer one precise sentence over two vague ones.
 
 CAR: {car_name} ({year})
 REVIEWERS: {reviewer_list}
@@ -384,6 +395,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+{GA4_SNIPPET}
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{og_title} | The Car Jury</title>
@@ -472,20 +484,26 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     .site-nav a {{ font: 500 14px/1 var(--font-ui); color: var(--stone-600); transition: color 0.15s; }}
     .site-nav a:hover {{ color: var(--ink); }}
 
-    /* Verdict Hero */
-    .verdict-hero {{ background: var(--white); border-bottom: 1px solid var(--hairline); padding: 56px 32px 48px; text-align: center; }}
-    .verdict-hero .car-label {{ font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--red); text-transform: uppercase; margin-bottom: 20px; }}
-    .verdict-hero h1 {{ font: 700 clamp(1.8rem,4vw,2.8rem)/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 24px; max-width: 700px; margin-left: auto; margin-right: auto; }}
+    /* Hero banner */
+    .hero-banner {{ position: relative; overflow: hidden; background: #EDEDEB; }}
+    .hero-banner__img {{ width: 100%; height: 58vh; max-height: 620px; min-height: 280px; object-fit: contain; display: block; }}
+    .hero-banner__credit {{ position: absolute; bottom: 8px; right: 12px; font: 500 10px/1 var(--font-ui); color: var(--stone-400); padding: 3px 8px; }}
+
+    /* Verdict header */
+    .verdict-header {{ background: var(--white); border-bottom: 1px solid var(--hairline); }}
+    .verdict-header__inner {{ max-width: 1100px; margin: 0 auto; padding: 28px 40px 32px; }}
+    .verdict-header__kicker {{ font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--red); text-transform: uppercase; margin-bottom: 14px; }}
+    .verdict-header__row {{ display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; margin-bottom: 20px; }}
+    .verdict-header__title {{ font: 700 clamp(1.7rem,2.8vw,2.6rem)/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; flex: 1; margin-top: 4px; }}
+    .verdict-header__score {{ flex-shrink: 0; text-align: center; min-width: 110px; }}
+    .verdict-header__score .verdict-badge {{ display: block; margin-bottom: 10px; }}
+    .verdict-header__score .jury-score-big {{ display: block; }}
+    .verdict-header__score .jury-score-label {{ margin-top: 4px; }}
+    .verdict-header__reason {{ font: 400 18px/1.65 var(--font-body); color: var(--stone-800); font-style: italic; border-top: 1px solid var(--hairline); padding-top: 18px; max-width: 820px; margin: 0; }}
     .verdict-badge {{ display: inline-block; padding: 10px 28px; border-radius: 4px; font: 800 14px/1 var(--font-ui); letter-spacing: 0.12em; text-transform: uppercase; color: {vc}; background: {vbg}; border: 1.5px solid {vc}; margin-bottom: 20px; }}
-    .verdict-reason {{ font: 400 17px/1.6 var(--font-body); color: var(--stone-800); font-style: italic; max-width: 560px; margin: 0 auto 28px; }}
     .jury-score-big {{ font: 700 56px/1 var(--font-display); color: {score_color(jury_score)}; }}
     .jury-score-label {{ font: 600 11px/1 var(--font-ui); color: var(--stone-400); text-transform: uppercase; letter-spacing: 0.12em; margin-top: 6px; }}
-    .hero-summary {{ max-width: 680px; margin: 24px auto 0; font: 400 18px/1.65 var(--font-body); color: var(--stone-800); }}
-
-    /* Hero image */
-    .hero-image-wrap {{ background: var(--white); border-bottom: 1px solid var(--hairline); }}
-    .hero-image-wrap img {{ width: 100%; max-height: 480px; object-fit: cover; display: block; }}
-    .hero-image-credit {{ font: 500 11px/1 var(--font-ui); color: var(--stone-400); text-align: right; padding: 6px 16px; }}
+    .hero-summary {{ margin: 24px auto 0; font: 400 17px/1.65 var(--font-body); color: var(--stone-800); }}
 
     /* Article wrap */
     .article-wrap {{ max-width: 760px; margin: 0 auto; padding: 0 24px 100px; }}
@@ -565,10 +583,22 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     .site-footer__links a:hover {{ color: var(--red); }}
     .site-footer__bottom {{ font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }}
 
+    @media (max-width: 900px) {{
+      .hero-banner__img {{ height: 54vw; max-height: 420px; }}
+      .verdict-header__inner {{ padding: 24px 20px 28px; }}
+      .verdict-header__row {{ gap: 20px; }}
+    }}
+    @media (max-width: 600px) {{
+      .verdict-header__row {{ flex-direction: column; gap: 12px; }}
+      .verdict-header__score {{ text-align: left; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }}
+      .verdict-header__score .verdict-badge {{ margin-bottom: 0; }}
+      .verdict-header__score .jury-score-big {{ font-size: 38px; }}
+      .verdict-header__score .jury-score-label {{ font-size: 10px; }}
+      .verdict-header__reason {{ font-size: 16px; }}
+    }}
     @media (max-width: 768px) {{
       .site-header__inner {{ padding: 0 20px; }}
       .site-nav a {{ display: none; }}
-      .verdict-hero {{ padding: 40px 20px 36px; }}
       .article-wrap {{ padding: 0 20px 80px; }}
       .scores-section {{ padding: 20px; }}
       .score-label {{ width: 110px; font-size: 12px; }}
@@ -595,20 +625,24 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
   </div>
 </header>
 
-<div class="verdict-hero">
-  <div class="car-label">The Car Jury Verdict · {year}</div>
-  <h1>{car_name} — The Jury's Verdict</h1>
-  <div class="verdict-badge">{verdict}</div>
-  <p class="verdict-reason">{data['verdict_reason']}</p>
-  <div class="jury-score-big">{jury_score}</div>
-  <div class="jury-score-label">Jury Score / 10</div>
-  <p class="hero-summary">{data['hero_summary']}</p>
-</div>
-
-{f'''<div class="hero-image-wrap">
-  <img src="{hero_image}" alt="{car_name} — official press image" width="1529" height="911" />
-  <p class="hero-image-credit">Image: {brand_display} press kit</p>
+{f'''<div class="hero-banner">
+<img class="hero-banner__img" src="{hero_image}" alt="{car_name} official press image" width="1529" height="911" loading="eager" />
+<span class="hero-banner__credit">Image: {brand_display} press kit</span>
 </div>''' if hero_image else ''}
+<div class="verdict-header">
+<div class="verdict-header__inner">
+  <div class="verdict-header__kicker">The Car Jury Verdict · {year}</div>
+  <div class="verdict-header__row">
+    <h1 class="verdict-header__title">{car_name}: The Jury's Verdict</h1>
+    <div class="verdict-header__score">
+      <div class="verdict-badge">{verdict}</div>
+      <div class="jury-score-big">{jury_score}</div>
+      <div class="jury-score-label">Jury Score / 10</div>
+    </div>
+  </div>
+  <p class="verdict-header__reason">{data['verdict_reason']}</p>
+</div>
+</div>
 
 <div class="article-wrap">
 
@@ -618,6 +652,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     <span>Synthesis of {sources_label}</span>
     <span>{word_count:,} words · {reading_time} min read</span>
   </div>
+  <p class="hero-summary">{data['hero_summary']}</p>
 
   <div class="scores-section">
     <h2>Jury Score Breakdown</h2>
@@ -704,7 +739,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
           <span class="tcj-mast__the">The</span>
           <span class="tcj-mast__name">Car Jury</span>
         </a>
-        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+        <p class="site-footer__tagline">We watch every expert so you don't have to. One clear verdict on every car.</p>
       </div>
       <div class="site-footer__links">
         <a href="/reviews/">Reviews</a>
@@ -815,6 +850,16 @@ def main():
     out_file = out_dir / "index.html"
     out_file.write_text(html)
     print(f"\n  Written: {out_file}")
+    # Word count guard
+    import re as _re
+    _text = _re.sub(r'<style[^>]*>.*?</style>', ' ', html, flags=_re.DOTALL)
+    _text = _re.sub(r'<script[^>]*>.*?</script>', ' ', _text, flags=_re.DOTALL)
+    _text = _re.sub(r'<[^>]+>', ' ', _text)
+    _wc = len([w for w in _text.split() if len(w) > 1])
+    if _wc > 2000:
+        print(f"  ⚠️  Word count {_wc} exceeds 2000 limit — review the content or tighten the prompt.")
+    else:
+        print(f"  ✓  Word count: {_wc} words (under 2000 limit)")
 
     # 5. Sync new reviewers into influencers.json + master_list.md
     sync_influencers(args.brand, args.model, data.get("reviewer_takes", []))
