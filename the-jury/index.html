@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The jury — 23 independent car reviewers — The Car Jury</title>
+  <meta name="description" content="23 independent YouTube creators whose analysis forms every Car Jury verdict. No media outlets. No manufacturer relationships. No sponsored reviews." />
+  <link rel="canonical" href="https://www.thecarjury.com/the-jury/" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --font-display: "Playfair Display", "Georgia", serif;
+      --font-body:    "Source Serif 4", "Charter", "Georgia", serif;
+      --font-ui:      "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+      --red:          #C8102E;
+      --red-dark:     #A30C24;
+      --paper:        #FAF8F5;
+      --white:        #FFFFFF;
+      --hairline:     #E5E2DC;
+      --stone-200:    #D6D2CC;
+      --stone-400:    #9E9A93;
+      --stone-600:    #6B6B6B;
+      --stone-800:    #3D3D3D;
+      --ink:          #1A1A1A;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 16px; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; line-height: 1.7; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
+
+    /* ── Header ── */
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 100; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display); color: var(--red); letter-spacing: -0.01em; }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display); color: var(--ink); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui); color: var(--stone-600); transition: color 0.15s; text-decoration: none; }
+    .site-nav a:hover { color: var(--ink); }
+    .site-nav a.active { color: var(--ink); font-weight: 600; }
+
+    /* ── Layout ── */
+    .wrap { max-width: 900px; margin: 0 auto; padding: 64px 32px 120px; }
+
+    /* ── Section divider ── */
+    .section-divider { border: none; border-top: 1px solid var(--hairline); margin: 56px 0; }
+
+    /* ── Hero ── */
+    .eyebrow {
+      font: 600 11px/1 var(--font-ui);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 20px;
+    }
+    .hero-h1 {
+      font: 700 64px/1.1 var(--font-display);
+      color: var(--ink);
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+    }
+    .hero-lede {
+      font: 400 22px/1.65 var(--font-body);
+      color: var(--stone-800);
+      max-width: 580px;
+      margin-bottom: 48px;
+    }
+
+    /* ── Stats ── */
+    .stats-row {
+      display: flex;
+      gap: 0;
+      margin-bottom: 24px;
+      border: 1px solid var(--hairline);
+      border-radius: 4px;
+      overflow: hidden;
+      background: var(--white);
+      max-width: 560px;
+    }
+    .stat-item {
+      flex: 1;
+      padding: 24px 28px;
+    }
+    .stat-item + .stat-item {
+      border-left: 1px solid var(--hairline);
+    }
+    .stat-num {
+      font: 700 36px/1 var(--font-display);
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+    .stat-label {
+      font: 500 13px/1.4 var(--font-ui);
+      color: var(--stone-600);
+    }
+    .trust-line {
+      font: 500 13px/1.5 var(--font-ui);
+      color: var(--stone-600);
+      margin-bottom: 40px;
+    }
+
+    /* ── CTA button ── */
+    .btn-cta {
+      display: inline-block;
+      background: var(--red);
+      color: var(--white);
+      font: 600 15px/1 var(--font-ui);
+      padding: 14px 28px;
+      border-radius: 4px;
+      letter-spacing: 0.01em;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .btn-cta:hover { background: var(--red-dark); color: var(--white); }
+
+    /* ── Section heading block ── */
+    .section-stamp {
+      font: 600 11px/1 var(--font-ui);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 12px;
+    }
+    .section-h2 {
+      font: 700 32px/1.15 var(--font-display);
+      color: var(--ink);
+      letter-spacing: -0.01em;
+      margin-bottom: 8px;
+    }
+    .section-meta {
+      font: 500 13px/1.5 var(--font-ui);
+      color: var(--stone-600);
+      margin-bottom: 40px;
+    }
+
+    /* ── Creator cards ── */
+    .jury-grid { display: grid; gap: 12px; }
+    .jury-card {
+      background: var(--white);
+      border: 1px solid var(--hairline);
+      border-radius: 4px;
+      padding: 24px;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      transition: border-color 0.15s;
+      text-decoration: none;
+      color: inherit;
+    }
+    .jury-card:hover { border-color: var(--stone-200); color: inherit; }
+    .jury-avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: var(--paper);
+      color: var(--red);
+      border: 1px solid var(--hairline);
+      font: 600 24px/1 var(--font-ui);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+    .jury-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .jury-name {
+      font: 700 19px/1.2 var(--font-display);
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+    .jury-tagline {
+      font: 400 15px/1.65 var(--font-body);
+      color: var(--stone-600);
+      margin-bottom: 12px;
+    }
+    .jury-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .jury-links {
+      font: 500 13px/1 var(--font-ui);
+    }
+    .jury-links a { color: var(--red); }
+    .jury-links a:hover { color: var(--red-dark); }
+    .jury-count {
+      font: 600 11px/1 var(--font-ui);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--red);
+      text-decoration: none;
+      border: 1px solid var(--red);
+      padding: 4px 10px;
+      border-radius: 3px;
+      white-space: nowrap;
+    }
+    .jury-count:hover { background: var(--red); color: var(--white); }
+    .jury-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+    .jury-tag {
+      font: 500 11px/1 var(--font-ui);
+      color: var(--stone-600);
+      border: 1px solid var(--hairline);
+      padding: 4px 8px;
+      border-radius: 4px;
+      background: transparent;
+    }
+
+    /* ── Credibility anchor ── */
+    .credibility-anchor {
+      font: 400 15px/1.65 var(--font-body);
+      color: var(--stone-600);
+      margin-top: 40px;
+      padding-top: 24px;
+      border-top: 1px solid var(--hairline);
+    }
+
+    /* ── Body sections ── */
+    .section-body { margin-top: 24px; }
+    .section-body p {
+      font: 400 19px/1.7 var(--font-body);
+      color: var(--stone-800);
+      margin-bottom: 20px;
+      max-width: 680px;
+    }
+    .principle-list { list-style: none; margin-top: 24px; }
+    .principle-list li {
+      padding: 20px 0;
+      border-top: 1px solid var(--hairline);
+      display: flex;
+      gap: 20px;
+    }
+    .principle-list li:last-child { border-bottom: 1px solid var(--hairline); }
+    .principle-num {
+      font: 600 11px/1 var(--font-ui);
+      color: var(--red);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding-top: 4px;
+      min-width: 24px;
+    }
+    .principle-body h3 {
+      font: 600 18px/1.25 var(--font-display);
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+    .principle-body p {
+      font: 400 16px/1.65 var(--font-body);
+      color: var(--stone-600);
+      margin-bottom: 0;
+      max-width: 600px;
+    }
+    .exclusion-list { list-style: none; margin-top: 24px; }
+    .exclusion-list li {
+      padding: 16px 0;
+      border-top: 1px solid var(--hairline);
+    }
+    .exclusion-list li:last-child { border-bottom: 1px solid var(--hairline); }
+    .exclusion-title {
+      font: 600 16px/1.25 var(--font-display);
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+    .exclusion-desc {
+      font: 400 15px/1.65 var(--font-body);
+      color: var(--stone-600);
+      max-width: 600px;
+    }
+
+    /* ── Bottom CTA block ── */
+    .bottom-cta {
+      text-align: center;
+      padding: 56px 0 0;
+    }
+    .bottom-cta p {
+      font: 400 17px/1.6 var(--font-body);
+      color: var(--stone-600);
+      margin-bottom: 24px;
+    }
+
+    /* ── Footer ── */
+    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; }
+    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
+    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
+    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
+    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
+    .site-footer__links a:hover { color: var(--red); }
+    .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; }
+      .site-nav a:not(.active) { display: none; }
+      .wrap { padding: 40px 20px 80px; }
+      .hero-h1 { font-size: 40px; }
+      .hero-lede { font-size: 18px; }
+      .stats-row { max-width: 100%; flex-direction: column; }
+      .stat-item + .stat-item { border-left: none; border-top: 1px solid var(--hairline); }
+      .jury-card { flex-direction: column; gap: 12px; }
+      .site-footer { padding: 32px 20px; }
+      .site-footer__top { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
+    </a>
+    <nav class="site-nav">
+      <a href="/reviews/">Verdicts</a>
+      <a href="/the-jury/" class="active">The jury</a>
+      <a href="/compare/">Compare</a>
+      <a href="/best/">Best lists</a>
+      <a href="/about/">About</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ── HERO ── -->
+  <p class="eyebrow">THE JURY</p>
+  <h1 class="hero-h1">We don't have one opinion.<br>We have 23.</h1>
+  <p class="hero-lede">23 independent creators. No sponsored reviews. One verdict per car.</p>
+
+  <!-- ── STATS ── -->
+  <div class="stats-row">
+    <div class="stat-item">
+      <div class="stat-num">23</div>
+      <div class="stat-label">jury members</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-num">40+</div>
+      <div class="stat-label">verdicts published</div>
+    </div>
+  </div>
+  <p class="trust-line">No sponsored reviews. No manufacturer relationships.</p>
+
+  <a href="/reviews/" class="btn-cta">Read the latest verdict →</a>
+
+  <hr class="section-divider" />
+
+  <!-- ── JURY GRID ── -->
+  <p class="section-stamp">THE JURY</p>
+  <h2 class="section-h2">The jury</h2>
+  <p class="section-meta">23 independent creators · sorted by verdicts contributed</p>
+
+  <div class="jury-grid">
+
+    <a href="/influencers/faisal-khan/" class="jury-card">
+      <div class="jury-avatar" aria-label="Faisal Khan — independent car reviewer">F</div>
+      <div class="jury-body">
+        <div class="jury-name">Faisal Khan</div>
+        <div class="jury-tagline">Blunt, no-nonsense takes on Indian cars. Calls out manufacturer spin and backs every claim with real-world data.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@FasBeam" target="_blank" rel="noopener">YouTube @FasBeam</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">No-nonsense</span><span class="jury-tag">Value</span></div>
+            <a href="/influencers/faisal-khan/" class="jury-count">7 verdicts</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/gagan-choudhary/" class="jury-card">
+      <div class="jury-avatar" aria-label="Gagan Choudhary — independent car reviewer">G</div>
+      <div class="jury-body">
+        <div class="jury-name">Gagan Choudhary</div>
+        <div class="jury-tagline">Deep-dive reviews with a strong focus on ownership experience — what it's actually like to live with a car long after the press launch.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@GaganChoudhary" target="_blank" rel="noopener">YouTube @GaganChoudhary</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Ownership</span><span class="jury-tag">Long-term</span></div>
+            <a href="/influencers/gagan-choudhary/" class="jury-count">6 verdicts</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/motoroctane/" class="jury-card">
+      <div class="jury-avatar" aria-label="MotorOctane — independent car reviewer">M</div>
+      <div class="jury-body">
+        <div class="jury-name">MotorOctane</div>
+        <div class="jury-tagline">Performance and tech-focused reviews from Pune. Goes beyond looks to stress-test real engineering — powertrain, handling, driving dynamics.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@MotorOctane" target="_blank" rel="noopener">YouTube @MotorOctane</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Performance</span><span class="jury-tag">Tech</span></div>
+            <a href="/influencers/motoroctane/" class="jury-count">4 verdicts</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/v3cars/" class="jury-card">
+      <div class="jury-avatar" aria-label="V3Cars — independent car reviewer">V</div>
+      <div class="jury-body">
+        <div class="jury-name">V3Cars</div>
+        <div class="jury-tagline">Spec-driven, no-nonsense variant analysis — the go-to channel for buyers who want to cut through trim-level confusion.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@V3Cars" target="_blank" rel="noopener">YouTube @V3Cars</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Variants</span><span class="jury-tag">Value</span></div>
+            <a href="/influencers/v3cars/" class="jury-count">4 verdicts</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/motorinc/" class="jury-card">
+      <div class="jury-avatar" aria-label="MotorInc — independent car reviewer">M</div>
+      <div class="jury-body">
+        <div class="jury-name">MotorInc</div>
+        <div class="jury-tagline">Sharp, no-frills car reviews focused on real-world performance and honest ownership assessments for the Indian market.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/channel/UCO-uVs959_GUzzUx4ctwMMQ" target="_blank" rel="noopener">YouTube @MotorInc</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Performance</span><span class="jury-tag">Ownership</span></div>
+            <a href="/influencers/motorinc/" class="jury-count">2 verdicts</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/teambhp/" class="jury-card">
+      <div class="jury-avatar" aria-label="TeamBHP — independent car reviewer">T</div>
+      <div class="jury-body">
+        <div class="jury-name">TeamBHP</div>
+        <div class="jury-tagline">India's most authoritative enthusiast forum — community-driven long-term testing and expert analysis since 2004.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/teambhp" target="_blank" rel="noopener">YouTube @teambhp</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Long-term</span><span class="jury-tag">Community</span></div>
+            <a href="/influencers/teambhp/" class="jury-count">2 verdicts</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/motorbeam/" class="jury-card">
+      <div class="jury-avatar" aria-label="MotorBeam — independent car reviewer">M</div>
+      <div class="jury-body">
+        <div class="jury-name">MotorBeam</div>
+        <div class="jury-tagline">India's longest-running independent car review platform — founded by Faisal Khan, built on two decades of unsponsored analysis.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@MotorBeam" target="_blank" rel="noopener">YouTube @MotorBeam</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Independence</span><span class="jury-tag">In-depth</span></div>
+            <a href="/influencers/motorbeam/" class="jury-count">2 verdicts</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/ask-carguru/" class="jury-card">
+      <div class="jury-avatar" aria-label="Ask CarGuru — independent car reviewer">A</div>
+      <div class="jury-body">
+        <div class="jury-name">Ask CarGuru</div>
+        <div class="jury-tagline">One-man buyer advisory channel — Amit Khare cuts through manufacturer claims to tell you exactly what to buy and what to avoid.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@AskCarGuru" target="_blank" rel="noopener">YouTube @AskCarGuru</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Buying advice</span></div>
+            <a href="/influencers/ask-carguru/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/powerdrift/" class="jury-card">
+      <div class="jury-avatar" aria-label="PowerDrift — independent car reviewer">P</div>
+      <div class="jury-body">
+        <div class="jury-name">PowerDrift</div>
+        <div class="jury-tagline">India's most cinematic car review channel — where aesthetic production value meets substantive driving analysis.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@PowerDrift" target="_blank" rel="noopener">YouTube @PowerDrift</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Performance</span><span class="jury-tag">Driving</span></div>
+            <a href="/influencers/powerdrift/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/auto-yogi/" class="jury-card">
+      <div class="jury-avatar" aria-label="Auto Yogi — independent car reviewer">A</div>
+      <div class="jury-body">
+        <div class="jury-name">Auto Yogi</div>
+        <div class="jury-tagline">Detailed long-form reviews with an honest ownership perspective. The antidote to five-minute first-drive impressions.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@AutoYogi" target="_blank" rel="noopener">YouTube @AutoYogi</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Ownership</span><span class="jury-tag">Long-form</span></div>
+            <a href="/influencers/auto-yogi/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/rushlane/" class="jury-card">
+      <div class="jury-avatar" aria-label="RushLane — independent car reviewer">R</div>
+      <div class="jury-body">
+        <div class="jury-name">RushLane</div>
+        <div class="jury-tagline">Fast-breaking India car news and detailed first-drive reports — comprehensive coverage from launch to ownership.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@RushLane" target="_blank" rel="noopener">YouTube @RushLane</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">First drive</span></div>
+            <a href="/influencers/rushlane/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/revlimits/" class="jury-card">
+      <div class="jury-avatar" aria-label="RevLimits — independent car reviewer">R</div>
+      <div class="jury-body">
+        <div class="jury-name">RevLimits</div>
+        <div class="jury-tagline">Enthusiast car reviews with a sharp focus on driving dynamics — for buyers who care how a car feels, not just how it looks.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@RevLimits" target="_blank" rel="noopener">YouTube @RevLimits</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Driving</span><span class="jury-tag">Performance</span></div>
+            <a href="/influencers/revlimits/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/manish-bhardwaj/" class="jury-card">
+      <div class="jury-avatar" aria-label="Manish Bhardwaj — independent car reviewer">M</div>
+      <div class="jury-body">
+        <div class="jury-name">Manish Bhardwaj</div>
+        <div class="jury-tagline">Real-world EV ownership interviews and long-term usage reports — the voice of the actual buyer, not the press-launch attendee.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@ManishBhardwajOfficial" target="_blank" rel="noopener">YouTube @ManishBhardwajOfficial</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">EVs</span><span class="jury-tag">Ownership</span></div>
+            <a href="/influencers/manish-bhardwaj/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/motor-trend-karthikeya-singhee/" class="jury-card">
+      <div class="jury-avatar" aria-label="Karthikeya Singhee — independent car reviewer">K</div>
+      <div class="jury-body">
+        <div class="jury-name">Karthikeya Singhee</div>
+        <div class="jury-tagline">Detailed first-drive assessments and ownership insights for the Indian market, published under Motor Trend India.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@MotorTrendIndia" target="_blank" rel="noopener">YouTube @MotorTrendIndia</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">First drive</span></div>
+            <a href="/influencers/motor-trend-karthikeya-singhee/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/vishal-ahlawat-with-askar-guru/" class="jury-card">
+      <div class="jury-avatar" aria-label="Vishal Ahlawat — independent car reviewer">V</div>
+      <div class="jury-body">
+        <div class="jury-name">Vishal Ahlawat</div>
+        <div class="jury-tagline">Independent assessments with a strong focus on real-world driving feel and practical ownership considerations.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/@VishalAhlawat" target="_blank" rel="noopener">YouTube @VishalAhlawat</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Driving</span></div>
+            <a href="/influencers/vishal-ahlawat-with-askar-guru/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/motor-beam/" class="jury-card">
+      <div class="jury-avatar" aria-label="Motor Beam — independent car reviewer">M</div>
+      <div class="jury-body">
+        <div class="jury-name">Motor Beam</div>
+        <div class="jury-tagline">Comprehensive Indian car reviews covering spec analysis, real-world performance, and long-term ownership data.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/watch?v=Y7RTEN4htW8" target="_blank" rel="noopener">YouTube review</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">In-depth</span></div>
+            <a href="/influencers/motor-beam/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/v3-cars/" class="jury-card">
+      <div class="jury-avatar" aria-label="V3 Cars — independent car reviewer">V</div>
+      <div class="jury-body">
+        <div class="jury-name">V3 Cars</div>
+        <div class="jury-tagline">Variant and spec breakdowns for the Indian market — helping buyers navigate the increasingly complex trim-level landscape.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/watch?v=u96eWTG1N40" target="_blank" rel="noopener">YouTube review</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Variants</span></div>
+            <a href="/influencers/v3-cars/" class="jury-count">3 verdicts</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/aman-ahmed/" class="jury-card">
+      <div class="jury-avatar" aria-label="Aman Ahmed — independent car reviewer">A</div>
+      <div class="jury-body">
+        <div class="jury-name">Aman Ahmed</div>
+        <div class="jury-tagline">Detailed car and bike coverage with a focus on India-specific ownership realities and market context.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/watch?v=aBDonkTJIoU" target="_blank" rel="noopener">YouTube review</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Ownership</span></div>
+            <a href="/influencers/aman-ahmed/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/mudit-bhambri/" class="jury-card">
+      <div class="jury-avatar" aria-label="Mudit Bhambri — independent car reviewer">M</div>
+      <div class="jury-body">
+        <div class="jury-name">Mudit Bhambri</div>
+        <div class="jury-tagline">Independent assessments grounded in real-world driving and practical ownership perspective for Indian buyers.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/watch?v=w0HX9r_tUII" target="_blank" rel="noopener">YouTube review</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <a href="/influencers/mudit-bhambri/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/nikhil-rana/" class="jury-card">
+      <div class="jury-avatar" aria-label="Nikhil Rana — independent car reviewer">N</div>
+      <div class="jury-body">
+        <div class="jury-name">Nikhil Rana</div>
+        <div class="jury-tagline">Performance-first reviews and driving impressions from one of India's sharp independent voices on engineering quality.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/watch?v=M-EvNivlXwE" target="_blank" rel="noopener">YouTube review</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Performance</span></div>
+            <a href="/influencers/nikhil-rana/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/car-blogger/" class="jury-card">
+      <div class="jury-avatar" aria-label="Car Blogger — independent car reviewer">C</div>
+      <div class="jury-body">
+        <div class="jury-name">Car Blogger</div>
+        <div class="jury-tagline">Independent car reviewer covering Indian market launches, ownership experiences, and real-world driving assessments.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/watch?v=SxT9u6gbwx8" target="_blank" rel="noopener">YouTube review</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <a href="/influencers/car-blogger/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/gagan/" class="jury-card">
+      <div class="jury-avatar" aria-label="Gagan — independent car reviewer">G</div>
+      <div class="jury-body">
+        <div class="jury-name">Gagan</div>
+        <div class="jury-tagline">Independent car reviewer with a focus on ownership perspective and real-world performance in Indian driving conditions.</div>
+        <div class="jury-footer">
+          <div class="jury-links"><a href="https://www.youtube.com/watch?v=3G41vb-fV4c" target="_blank" rel="noopener">YouTube review</a></div>
+          <div style="display:flex;gap:8px;align-items:center;">
+            <a href="/influencers/gagan/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/influencers/hindi-auto-reviewer/" class="jury-card">
+      <div class="jury-avatar" aria-label="Hindi Auto Reviewer — independent car reviewer">H</div>
+      <div class="jury-body">
+        <div class="jury-name">Hindi Auto Reviewer</div>
+        <div class="jury-tagline">Hindi-language car reviews reaching buyers who prefer in-depth assessments in their first language — real-world ownership focus.</div>
+        <div class="jury-footer">
+          <div style="display:flex;gap:8px;align-items:center;">
+            <div class="jury-tags"><span class="jury-tag">Hindi</span><span class="jury-tag">Ownership</span></div>
+            <a href="/influencers/hindi-auto-reviewer/" class="jury-count">1 verdict</a>
+          </div>
+        </div>
+      </div>
+    </a>
+
+  </div><!-- /jury-grid -->
+
+  <p class="credibility-anchor">Every verdict on The Car Jury is based on the analysis of 2–7 independent creators from this panel. No single reviewer. No house view.</p>
+
+  <hr class="section-divider" />
+
+  <!-- ── HOW THE JURY THINKS ── -->
+  <p class="section-stamp">PRINCIPLES</p>
+  <h2 class="section-h2">How the jury thinks</h2>
+  <ul class="principle-list">
+    <li>
+      <div class="principle-num">01</div>
+      <div class="principle-body">
+        <h3>Independence is binary</h3>
+        <p>A channel with one sponsored review is a sponsored channel. Jury membership requires a clean track record — no manufacturer loans, no exclusive partnerships, no paid content. No exceptions.</p>
+      </div>
+    </li>
+    <li>
+      <div class="principle-num">02</div>
+      <div class="principle-body">
+        <h3>Ownership over press launches</h3>
+        <p>The first week of driving tells you almost nothing about a car you'll own for seven years. Jury members who cover long-term usage, real-world fuel economy, and post-warranty reliability are weighted accordingly.</p>
+      </div>
+    </li>
+    <li>
+      <div class="principle-num">03</div>
+      <div class="principle-body">
+        <h3>Dissent is part of the verdict</h3>
+        <p>Manufactured consensus is not a verdict. Three of seven creators disagreeing significantly means the verdict says so — it does not paper over the disagreement with a single number.</p>
+      </div>
+    </li>
+  </ul>
+
+  <hr class="section-divider" />
+
+  <!-- ── WHO DOESN'T QUALIFY ── -->
+  <p class="section-stamp">ELIGIBILITY</p>
+  <h2 class="section-h2">Who doesn't qualify</h2>
+  <ul class="exclusion-list">
+    <li>
+      <div class="exclusion-title">Media outlets</div>
+      <div class="exclusion-desc">Channels affiliated with print or broadcast media organisations are excluded. The jury is independent operators only.</div>
+    </li>
+    <li>
+      <div class="exclusion-title">Channels with manufacturer relationships</div>
+      <div class="exclusion-desc">Any channel that has accepted a car loan, exclusive content partnership, or OEM sponsorship is disqualified for 24 months from the date of the relationship.</div>
+    </li>
+    <li>
+      <div class="exclusion-title">Channels without a review track record</div>
+      <div class="exclusion-desc">A minimum 2-year track record of in-depth, real-world reviews is required. First-look and spec-sheet channels are excluded.</div>
+    </li>
+    <li>
+      <div class="exclusion-title">Single-car brand specialists</div>
+      <div class="exclusion-desc">Channels that only review one manufacturer's cars — regardless of independence — introduce structural bias that skews cross-model verdicts.</div>
+    </li>
+  </ul>
+
+  <hr class="section-divider" />
+
+  <!-- ── METHODOLOGY ── -->
+  <p class="section-stamp">METHODOLOGY</p>
+  <h2 class="section-h2">How a verdict is made</h2>
+  <ul class="principle-list">
+    <li>
+      <div class="principle-num">01</div>
+      <div class="principle-body">
+        <h3>We identify the jury</h3>
+        <p>Only independent creators with no active manufacturer relationships, a minimum 2-year track record, and documented real-world testing are selected. Paid content or sponsored reviews disqualify a channel entirely.</p>
+      </div>
+    </li>
+    <li>
+      <div class="principle-num">02</div>
+      <div class="principle-body">
+        <h3>We balance across many voices</h3>
+        <p>A minimum of two creators must have reviewed a car before a verdict is published. For popular models, we draw from seven or more independent assessments. No single reviewer controls the outcome.</p>
+      </div>
+    </li>
+    <li>
+      <div class="principle-num">03</div>
+      <div class="principle-body">
+        <h3>We render the verdict</h3>
+        <p>Each creator's assessment is weighted by depth of analysis, not follower count. We synthesise findings into a single scored verdict, noting dissent where it exists.</p>
+      </div>
+    </li>
+  </ul>
+
+  <!-- ── BOTTOM CTA ── -->
+  <div class="bottom-cta">
+    <p>23 independent voices. One clear verdict on every car.</p>
+    <a href="/reviews/" class="btn-cta">See what the jury has decided →</a>
+  </div>
+
+</div><!-- /wrap -->
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div>
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+      </div>
+      <div class="site-footer__links">
+        <a href="/reviews/">Reviews</a>
+        <a href="/compare/">Compare</a>
+        <a href="/best/">Best lists</a>
+        <a href="/the-jury/">The jury</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      © 2026 The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
