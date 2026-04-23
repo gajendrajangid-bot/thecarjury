@@ -3,358 +3,187 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gagan Choudhary — The Car Jury</title>
-  <meta name="description" content="Gagan Choudhary: Deep-dive reviews with a strong focus on ownership experience — what it's actually like to live with a car long after the press launch. The Car Jury has analysed their reviews across 4 cars." />
+  <title>Gagan Choudhary — Independent Car Reviewer | The Car Jury</title>
+  <meta name="description" content="Gagan Choudhary is one of India's top independent car reviewers. The Car Jury has synthesised their analysis across 6 car reviews." />
   <link rel="canonical" href="https://www.thecarjury.com/influencers/gagan-choudhary/" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     
     :root {
-      --red:        #C8102E;
-      --red-dark:   #8B0A1F;
-      --red-light:  #FBE8EB;
-      --ink:        #1A1A1A;
-      --paper:      #FAF8F5;
-      --white:      #FFFFFF;
-      --stone:      #6B6B6B;
-      --hairline:   #E5E2DC;
-      --green:      #0E6B3C;
-      --amber:      #B8860B;
-      --slate:      #3D3D3D;
-      --display:    'Fraunces', Georgia, serif;
-      --serif:      'Source Serif 4', Georgia, serif;
-      --sans:       'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+      --font-display: "Fraunces", "Playfair Display", Georgia, serif;
+      --font-body:    "Source Serif 4", "Source Serif Pro", Charter, Georgia, serif;
+      --font-ui:      "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+      --red:          #C8102E;
+      --red-dark:     #A30C24;
+      --paper:        #FAF8F5;
+      --white:        #FFFFFF;
+      --hairline:     #E5E2DC;
+      --stone-200:    #D6D2CC;
+      --stone-400:    #9E9A93;
+      --stone-600:    #6B6B6B;
+      --stone-800:    #3D3D3D;
+      --ink:          #1A1A1A;
+      --green:        #0E6B3C;
+      --green-tint:   #E6F2EC;
     }
-    
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    img { display: block; max-width: 100%; }
-    a { color: inherit; text-decoration: none; }
     html { font-size: 16px; }
-    body { background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.6; -webkit-font-smoothing: antialiased; }
-
-    .nav { border-bottom: 1px solid var(--hairline); background: var(--white); position: sticky; top: 0; z-index: 100; }
-    .nav__inner { max-width: 1120px; margin: 0 auto; padding: 0 24px; height: 60px; display: flex; align-items: center; justify-content: space-between; }
-    .nav__logo { font-family: var(--display); font-weight: 700; font-size: 20px; color: var(--ink); letter-spacing: -0.02em; display: inline-flex; align-items: baseline; gap: 5px; }
-    .nav__logo__the { color: var(--red); font-style: italic; font-size: 15px; font-weight: 400; }
-    .nav__links { display: flex; gap: 28px; list-style: none; }
-    .nav__links a { font-size: 13px; font-weight: 500; letter-spacing: 0.02em; color: var(--stone); text-transform: uppercase; transition: color 0.15s; }
-    .nav__links a:hover { color: var(--ink); }
-    .nav__links a.active { color: var(--red); }
-
-    .page { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
-
-    .footer { border-top: 1px solid var(--hairline); padding: 40px 0; }
-    .footer__inner { max-width: 1120px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: flex-start; gap: 32px; flex-wrap: wrap; }
-    .footer__name { font-family: var(--display); font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 6px; letter-spacing: -0.01em; }
-    .footer__tagline { font-size: 13px; color: var(--stone); max-width: 360px; line-height: 1.6; }
-    .footer__links { display: flex; gap: 24px; list-style: none; align-items: center; }
-    .footer__links a { font-size: 13px; color: var(--stone); transition: color 0.15s; }
-    .footer__links a:hover { color: var(--ink); }
-    .footer__copy { font-size: 12px; color: #BBBAB5; margin-top: 10px; }
-    .footer__bottom { max-width: 1120px; margin: 16px auto 0; padding: 0 24px; border-top: 1px solid var(--hairline); padding-top: 16px; }
-
-    .breadcrumb { padding: 20px 0 0; display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--stone); }
-    .breadcrumb a { transition: color 0.15s; }
-    .breadcrumb a:hover { color: var(--red); }
-    .breadcrumb__sep { color: var(--hairline); }
-    .breadcrumb__current { color: var(--ink); }
-
-    .profile-hero { padding: 40px 0 48px; border-bottom: 1px solid var(--hairline); display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: start; }
-    .profile-avatar { width: 72px; height: 72px; border-radius: 50%; background: var(--red-light); color: var(--red); font-family: var(--display); font-size: 30px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-    .profile-hero__meta { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
-    .profile-hero__eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin-bottom: 6px; }
-    .profile-hero__name { font-family: var(--display); font-size: 44px; font-weight: 700; line-height: 1.05; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 14px; }
-    .profile-hero__tagline { font-family: var(--serif); font-size: 19px; line-height: 1.6; color: var(--stone); max-width: 600px; margin-bottom: 28px; font-style: italic; }
-    .profile-hero__links { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-    .profile-link { display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 500; color: var(--stone); border: 1px solid var(--hairline); border-radius: 6px; padding: 7px 12px; background: var(--white); transition: all 0.15s; }
-    .profile-link:hover { color: var(--red); border-color: var(--red-light); background: var(--red-light); }
-    .profile-link svg { flex-shrink: 0; }
-
-    .profile-hero__stats { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 24px; min-width: 200px; }
-    .profile-hero__stats-title { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone); margin-bottom: 20px; }
-    .stat-row { display: flex; flex-direction: column; margin-bottom: 20px; }
-    .stat-row:last-child { margin-bottom: 0; }
-    .stat-row__num { font-size: 32px; font-weight: 600; color: var(--ink); letter-spacing: -0.03em; line-height: 1; margin-bottom: 4px; }
-    .stat-row__label { font-size: 12px; color: var(--stone); }
-    .stat-row__divider { border: none; border-top: 1px solid var(--hairline); margin: 16px 0; }
-
-    .content-layout { display: grid; grid-template-columns: 1fr 300px; gap: 48px; padding: 48px 0 72px; align-items: start; }
-    .section-heading { font-family: var(--display); font-size: 22px; font-weight: 700; color: var(--ink); margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--hairline); }
-
-    .about-body { font-family: var(--serif); font-size: 16px; line-height: 1.75; color: var(--ink); margin-bottom: 20px; }
-    .about-body p { margin-bottom: 16px; }
-    .about-body p:last-child { margin-bottom: 0; }
-    .style-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 40px; }
-    .style-tag { font-size: 12px; font-weight: 500; color: var(--stone); background: var(--white); border: 1px solid var(--hairline); border-radius: 20px; padding: 5px 12px; }
-
-    .verdict-list { display: flex; flex-direction: column; gap: 12px; }
-    .verdict-card { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; overflow: hidden; transition: border-color 0.15s; }
-    .verdict-card:hover { border-color: var(--stone); }
-    .verdict-card__stamp { background: var(--red); padding: 6px 16px; font-size: 10px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--white); }
-    .verdict-card__body { padding: 20px 20px 16px; }
-    .verdict-card__car { font-family: var(--display); font-size: 20px; font-weight: 700; color: var(--ink); margin-bottom: 12px; line-height: 1.2; }
-    .verdict-card__row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-    .verdict-score { font-size: 28px; font-weight: 600; color: var(--ink); letter-spacing: -0.02em; line-height: 1; }
-    .verdict-score__denom { font-size: 14px; color: var(--stone); font-weight: 400; }
-    .verdict-pill { display: inline-flex; align-items: center; gap: 6px; border-radius: 20px; padding: 5px 12px; font-size: 12px; font-weight: 600; letter-spacing: 0.02em; }
-    .verdict-pill--buy  { background: #E8F5EE; color: var(--green); }
-    .verdict-pill--wait { background: #FBF5E0; color: var(--amber); }
-    .verdict-pill--skip { background: #EEEEED; color: var(--slate); }
-    .verdict-card__footer { padding: 12px 20px; border-top: 1px solid var(--hairline); display: flex; align-items: center; justify-content: space-between; }
-    .verdict-card__jury-line { font-size: 12px; color: var(--stone); }
-    .verdict-card__link { font-size: 13px; font-weight: 500; color: var(--red); display: flex; align-items: center; gap: 4px; transition: gap 0.15s; }
-    .verdict-card:hover .verdict-card__link { gap: 7px; }
-
-    .trust-block { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 24px; margin-bottom: 24px; }
-    .trust-block__heading { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--red); margin-bottom: 14px; }
-    .trust-block__body { font-family: var(--serif); font-size: 14px; line-height: 1.65; color: var(--stone); }
-
-    .other-jurors-block { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; overflow: hidden; }
-    .other-jurors-block__heading { padding: 16px 20px; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone); border-bottom: 1px solid var(--hairline); }
-    .other-juror-row { display: flex; align-items: center; gap: 12px; padding: 14px 20px; border-bottom: 1px solid var(--hairline); transition: background 0.15s; }
-    .other-juror-row:last-child { border-bottom: none; }
-    .other-juror-row:hover { background: var(--paper); }
-    .other-juror-row__avatar { width: 32px; height: 32px; border-radius: 50%; background: var(--red-light); color: var(--red); font-family: var(--display); font-size: 13px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-    .other-juror-row__name { font-size: 13px; font-weight: 500; color: var(--ink); flex: 1; }
-    .other-juror-row__arrow { font-size: 14px; color: var(--hairline); transition: color 0.15s; }
-    .other-juror-row:hover .other-juror-row__arrow { color: var(--red); }
-
-    .back-link { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 500; color: var(--stone); padding: 8px 0; margin-bottom: 28px; transition: color 0.15s; }
-    .back-link:hover { color: var(--red); }
-
-    @media (max-width: 960px) {
-      .content-layout { grid-template-columns: 1fr; }
-      .content-sidebar { display: none; }
-      .profile-hero { grid-template-columns: 1fr; }
-      .profile-hero__stats { display: flex; gap: 32px; flex-wrap: wrap; }
-      .stat-row { margin-bottom: 0; }
-      .stat-row__divider { display: none; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; line-height: 1.7; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 100; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display); color: var(--red); letter-spacing: -0.01em; }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display); color: var(--ink); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui); color: var(--stone-600); transition: color 0.15s; }
+    .site-nav a:hover { color: var(--ink); }
+    .site-nav a.active { color: var(--ink); font-weight: 600; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 56px 32px 100px; }
+    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; }
+    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
+    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
+    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
+    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
+    .site-footer__links a:hover { color: var(--red); }
+    .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; }
+      .site-nav a:not(.active) { display: none; }
+      .wrap { padding: 32px 20px 80px; }
+      .site-footer { padding: 32px 20px; }
+      .site-footer__top { flex-direction: column; }
     }
+
+    .breadcrumb { font: 500 12px/1 var(--font-ui); color: var(--stone-400); margin-bottom: 32px; display: flex; gap: 8px; align-items: center; }
+    .breadcrumb a { color: var(--stone-600); }
+    .breadcrumb a:hover { color: var(--red); }
+    .breadcrumb__sep { color: var(--stone-200); }
+    .profile-header { display: flex; gap: 28px; align-items: flex-start; margin-bottom: 40px; flex-wrap: wrap; }
+    .profile-avatar { width: 80px; height: 80px; border-radius: 50%; background: var(--red); color: var(--white); font: 700 32px/1 var(--font-display); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .profile-name { font: 700 clamp(1.6rem,4vw,2.4rem)/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 6px; }
+    .profile-tagline { font: 400 15px/1.5 var(--font-body); color: var(--stone-600); margin-bottom: 16px; font-style: italic; }
+    .btn-yt, .btn-ig { display: inline-block; padding: 8px 16px; border-radius: 4px; font: 600 13px/1 var(--font-ui); margin-right: 8px; margin-bottom: 8px; }
+    .btn-yt { background: #C8102E; color: #fff; }
+    .btn-yt:hover { background: #a30c24; color: #fff; }
+    .btn-ig { background: var(--ink); color: var(--white); }
+    .btn-ig:hover { background: var(--stone-800); color: var(--white); }
+    .stat-row { display: flex; gap: 16px; margin-bottom: 48px; flex-wrap: wrap; }
+    .stat { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 20px 28px; text-align: center; }
+    .stat-num { font: 700 36px/1 var(--font-ui); color: var(--red); letter-spacing: -0.02em; }
+    .stat-label { font: 500 11px/1 var(--font-ui); letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone-600); margin-top: 6px; }
+    .section-label { font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }
+    .articles-list { display: grid; gap: 10px; }
+    .article-item { background: var(--white); border: 1px solid var(--hairline); border-radius: 6px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; transition: border-color 0.15s; }
+    .article-item:hover { border-color: var(--stone-200); text-decoration: none; }
+    .article-name { font: 500 15px/1.4 var(--font-ui); color: var(--ink); }
+    .article-arrow { font: 400 16px/1 var(--font-ui); color: var(--red); flex-shrink: 0; }
+    .back-link { margin-top: 40px; font: 500 13px/1 var(--font-ui); }
+    .back-link a { color: var(--stone-600); }
+    .back-link a:hover { color: var(--red); }
     @media (max-width: 600px) {
-      .profile-hero__name { font-size: 32px; }
-      .nav__links { display: none; }
-      .profile-hero { padding: 28px 0 36px; }
-      .footer__inner { flex-direction: column; gap: 24px; }
+      .profile-header { flex-direction: column; gap: 16px; }
     }
   </style>
 </head>
 <body>
-<nav class="nav">
-  <div class="nav__inner">
-    <a href="/" class="nav__logo">
-      <span class="nav__logo__the">The</span>Car Jury
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
     </a>
-    <ul class="nav__links">
-      <li><a href="/reviews/">Reviews</a></li>
-      <li><a href="/compare/">Compare</a></li>
-      <li><a href="/best/">Best Lists</a></li>
-      <li><a href="/influencers/" class="active">The Jury</a></li>
-      <li><a href="/about/">About</a></li>
-    </ul>
+    <nav class="site-nav">
+      <a href="/reviews/">Reviews</a>
+      <a href="/compare/">Compare</a>
+      <a href="/best/">Best Lists</a>
+      <a href="/the-jury/" class="active">The jury</a>
+      <a href="/about/">About</a>
+    </nav>
   </div>
-</nav>
-
-<div class="page">
-  <nav class="breadcrumb" aria-label="breadcrumb">
+</header>
+<div class="wrap">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
     <a href="/">Home</a>
     <span class="breadcrumb__sep">›</span>
-    <a href="/influencers/">The Jury</a>
+    <a href="/the-jury/">The jury</a>
     <span class="breadcrumb__sep">›</span>
-    <span class="breadcrumb__current">Gagan Choudhary</span>
+    <span>Gagan Choudhary</span>
   </nav>
 
-  <div class="profile-hero">
-    <div class="profile-hero__left">
-      <div class="profile-hero__meta">
-        <div class="profile-avatar">G</div>
-        <div>
-          <p class="profile-hero__eyebrow">Independent Juror · YouTube</p>
-        </div>
-      </div>
-      <h1 class="profile-hero__name">Gagan Choudhary</h1>
-      <p class="profile-hero__tagline">"Deep-dive reviews with a strong focus on ownership experience — what it's actually like to live with a car long after the press launch."</p>
-      <div class="profile-hero__links">
-        <a href="https://www.youtube.com/@GaganChoudhary" target="_blank" rel="noopener" class="profile-link" data-platform="YouTube" data-handle="GaganChoudhary">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
-          @GaganChoudhary
-        </a>
-      </div>
-    </div>
-
-    <div class="profile-hero__stats">
-      <p class="profile-hero__stats-title">On The Jury</p>
-      <div class="stat-row">
-        <span class="stat-row__num">4</span>
-        <span class="stat-row__label">reviews analysed</span>
-      </div>
-      <hr class="stat-row__divider" />
-      <div class="stat-row">
-        <span class="stat-row__num">4</span>
-        <span class="stat-row__label">verdicts contributed to</span>
-      </div>
-      <hr class="stat-row__divider" />
-      <div class="stat-row">
-        <span class="stat-row__num">Since</span>
-        <span class="stat-row__label">2026 · Active juror</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="content-layout">
-    <main class="content-main">
-      <section style="margin-bottom:40px;">
-        <h2 class="section-heading">About this juror</h2>
-        <div class="about-body"><p>Gagan Choudhary's reviews stand out for their attention to interior quality and cabin experience — the dimensions of a car that matter most to buyers who will spend years inside it. He is consistently more precise on material quality, ergonomics, and feature usability than most of his peers.</p><p>His takes are measured and fair, rarely sensational. When he praises something, it's earned. When he criticises, it's specific. This consistency makes him a reliable signal in The Jury's synthesis.</p></div>
-        <div class="style-tags"><span class="style-tag">Interior-focused</span><span class="style-tag">Measured</span><span class="style-tag">Detail-oriented</span><span class="style-tag">Quality-conscious</span><span class="style-tag">Balanced</span></div>
-      </section>
-      <section>
-        <h2 class="section-heading">Reviews we've analysed</h2>
-        <div class="verdict-list">
-          <article class="verdict-card">
-            <div class="verdict-card__stamp">The Verdict</div>
-            <div class="verdict-card__body">
-              <h3 class="verdict-card__car">Tata Sierra 2025</h3>
-              <div class="verdict-card__row">
-                <div class="verdict-score">7.8<span class="verdict-score__denom">/10</span></div>
-                <span class="verdict-pill verdict-pill--wait">● Wait</span>
-              </div>
-            </div>
-            <div class="verdict-card__footer">
-              <span class="verdict-card__jury-line">Based on 5 independent creators</span>
-              <a href="/reviews/tata/sierra/" class="verdict-card__link">Read verdict →</a>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <aside class="content-sidebar">
-      <div class="trust-block">
-        <p class="trust-block__heading">Why this juror</p>
-        <p class="trust-block__body">Gagan Choudhary is on The Jury for his precision on interior quality and cabin experience — an area where reviewers often make vague claims. His assessments are specific and traceable.</p>
-      </div>
-      <div class="other-jurors-block">
-        <p class="other-jurors-block__heading">Other jurors</p>
-        
-        <a href="/influencers/faisal-khan/" class="other-juror-row">
-          <div class="other-juror-row__avatar">F</div>
-          <span class="other-juror-row__name">Faisal Khan</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/motoroctane/" class="other-juror-row">
-          <div class="other-juror-row__avatar">M</div>
-          <span class="other-juror-row__name">MotorOctane</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/motorinc/" class="other-juror-row">
-          <div class="other-juror-row__avatar">M</div>
-          <span class="other-juror-row__name">MotorInc</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/teambhp/" class="other-juror-row">
-          <div class="other-juror-row__avatar">T</div>
-          <span class="other-juror-row__name">TeamBHP</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/v3cars/" class="other-juror-row">
-          <div class="other-juror-row__avatar">V</div>
-          <span class="other-juror-row__name">V3Cars</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/ask-carguru/" class="other-juror-row">
-          <div class="other-juror-row__avatar">A</div>
-          <span class="other-juror-row__name">Ask CarGuru</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/motorbeam/" class="other-juror-row">
-          <div class="other-juror-row__avatar">M</div>
-          <span class="other-juror-row__name">MotorBeam</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/powerdrift/" class="other-juror-row">
-          <div class="other-juror-row__avatar">P</div>
-          <span class="other-juror-row__name">PowerDrift</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/auto-yogi/" class="other-juror-row">
-          <div class="other-juror-row__avatar">A</div>
-          <span class="other-juror-row__name">Auto Yogi</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/rushlane/" class="other-juror-row">
-          <div class="other-juror-row__avatar">R</div>
-          <span class="other-juror-row__name">RushLane</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/revlimits/" class="other-juror-row">
-          <div class="other-juror-row__avatar">R</div>
-          <span class="other-juror-row__name">RevLimits</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/manish-bhardwaj/" class="other-juror-row">
-          <div class="other-juror-row__avatar">M</div>
-          <span class="other-juror-row__name">Manish Bhardwaj</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/motor-trend-karthikeya-singhee/" class="other-juror-row">
-          <div class="other-juror-row__avatar">M</div>
-          <span class="other-juror-row__name">Motor Trend (Karthikeya Singhee)</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/vishal-ahlawat-with-askar-guru/" class="other-juror-row">
-          <div class="other-juror-row__avatar">V</div>
-          <span class="other-juror-row__name">Vishal Ahlawat (with Askar Guru)</span>
-          <span class="other-juror-row__arrow">→</span>
-        </a>
-        <a href="/influencers/" class="other-juror-row" style="color:var(--red);">
-          <div class="other-juror-row__avatar" style="background:var(--paper);color:var(--stone);">↑</div>
-          <span class="other-juror-row__name" style="color:var(--red);">View all jurors</span>
-          <span class="other-juror-row__arrow" style="color:var(--red);">→</span>
-        </a>
-      </div>
-    </aside>
-  </div>
-
-  <a href="/influencers/" class="back-link">← Back to all jurors</a>
-</div>
-
-<footer class="footer">
-  <div class="footer__inner">
+  <div class="profile-header">
+    <div class="profile-avatar">G</div>
     <div>
-      <p class="footer__name">The Car Jury</p>
-      <p class="footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
-      <p class="footer__copy">No sponsored reviews · No manufacturer relationships · India's aggregated car reviews</p>
+      <div class="profile-name">Gagan Choudhary</div>
+      <div class="profile-tagline">Deep-dive reviews with a strong focus on ownership experience — what it's actually like to live with a car long after the press launch.</div>
+      <div><a href="https://www.youtube.com/@GaganChoudhary" class="btn-yt" target="_blank" rel="noopener noreferrer">YouTube @GaganChoudhary</a></div>
     </div>
-    <ul class="footer__links">
-      <li><a href="/reviews/">Reviews</a></li>
-      <li><a href="/compare/">Compare</a></li>
-      <li><a href="/best/">Best Lists</a></li>
-      <li><a href="/influencers/">The Jury</a></li>
-      <li><a href="/about/">About</a></li>
-    </ul>
   </div>
-  <div class="footer__bottom">
-    <p style="font-size:12px;color:#BBBAB5;">© 2026 The Car Jury</p>
+
+  <div class="stat-row">
+    <div class="stat">
+      <div class="stat-num">6</div>
+      <div class="stat-label">Reviews Analysed</div>
+    </div>
+  </div>
+
+  <p class="section-label">Reviews featuring Gagan Choudhary</p>
+  <div class="articles-list">
+      <a href="/reviews/tata/sierra/" class="article-item">
+        <span class="article-name">Tata Sierra</span>
+        <span class="article-arrow">→</span>
+      </a>
+      <a href="/reviews/renault/duster/" class="article-item">
+        <span class="article-name">Renault Duster</span>
+        <span class="article-arrow">→</span>
+      </a>
+      <a href="/reviews/skoda/kushaq/" class="article-item">
+        <span class="article-name">Skoda Kushaq</span>
+        <span class="article-arrow">→</span>
+      </a>
+      <a href="/reviews/maruti/e-vitara/" class="article-item">
+        <span class="article-name">Maruti E Vitara</span>
+        <span class="article-arrow">→</span>
+      </a>
+      <a href="/reviews/tata/punch/" class="article-item">
+        <span class="article-name">Tata Punch</span>
+        <span class="article-arrow">→</span>
+      </a>
+      <a href="/reviews/hyundai/creta/" class="article-item">
+        <span class="article-name">Hyundai Creta 2024 Review: The Car Jury's Verdict</span>
+        <span class="article-arrow">→</span>
+      </a>
+  </div>
+
+  <p class="back-link"><a href="/the-jury/">← All jury members</a></p>
+</div>
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div>
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+      </div>
+      <div class="site-footer__links">
+        <a href="/reviews/">Reviews</a>
+        <a href="/compare/">Compare</a>
+        <a href="/best/">Best Lists</a>
+        <a href="/the-jury/">The jury</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      © 2026 The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
+    </div>
   </div>
 </footer>
-<script>
-(function(){
-  var GAS = 'https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec';
-  var juror = window.location.pathname.replace(/\/+$/,'').split('/').pop() || '';
-  document.querySelectorAll('.profile-link[data-platform]').forEach(function(link){
-    link.addEventListener('click', function(){
-      var fd = new FormData();
-      fd.append('type', 'click');
-      fd.append('juror', juror);
-      fd.append('platform', this.getAttribute('data-platform') || '');
-      fd.append('handle', this.getAttribute('data-handle') || '');
-      fetch(GAS, {method:'POST', body:fd, mode:'no-cors'}).catch(function(){});
-    });
-  });
-})();
-</script>
 </body>
 </html>
