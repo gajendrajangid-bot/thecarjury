@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.thecarjury.com/sitemap.xml
+
+# GEO: Allow AI search engine crawlers explicitly
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /

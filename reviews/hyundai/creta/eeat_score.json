@@ -1,0 +1,20 @@
+{
+  "experience": 8,
+  "expertise": 9,
+  "authoritativeness": 8,
+  "trustworthiness": 9,
+  "overall": 8.5,
+  "strengths": [
+    "Rich first-hand driving observations covering NVH, ride comfort, and real-world fuel economy on Indian roads",
+    "Deep technical accuracy — explains WHY the 3 engine options matter for different buyers, not just specs",
+    "Honest, balanced verdict with genuine cons (rear legroom, diesel noise) alongside strengths"
+  ],
+  "gaps": [
+    "No NCAP crash test score cited — would strengthen the safety claim",
+    "On-road price for Gurgaon/Delhi NCR not specified, only ex-showroom",
+    "Ownership cost / service interval data missing for long-term value assessment"
+  ],
+  "verdict": "Strong E-E-A-T review demonstrating genuine expertise and honest evaluation — add NCAP scores and on-road pricing to reach 9+.",
+  "scored_at": "2026-04-23T00:00:00",
+  "model": "hyundai/creta"
+}
