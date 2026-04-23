@@ -100,6 +100,14 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **Hindi Auto Reviewer** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Car Blogger** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Gagan** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Mudit Bhambri** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Nikhil Rana** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Motor Beam** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **V3 Cars** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Aman Ahmed** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Wan29z5y_NY** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **CarToqVideos** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **3Tm1GdJa-9g** | TBC | TBC | TBC | TBC | Auto-added from article |
