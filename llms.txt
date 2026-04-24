@@ -1,0 +1,30 @@
+# The Car Jury
+
+> India's aggregated car review platform. We analyse transcripts from India's top independent YouTube car reviewers and synthesise them into a single, fact-backed verdict. No manufacturer relationships. No sponsored content.
+
+## What We Do
+
+The Car Jury watches every major Indian car review on YouTube, extracts transcripts, and uses AI synthesis to find consensus, disagreements, and key facts across reviewers. Each verdict includes a jury score, section-by-section breakdown, and a clear buy/wait/skip recommendation.
+
+## Content
+
+- [Hyundai Creta 2024 Review: The Car Jury's Verdict | The Car Jury](https://www.thecarjury.com/reviews/hyundai/creta/) — AI synthesis from India's top YouTube reviewers.
+- [Hyundai Creta Electric 2025 Review — The Car Jury](https://www.thecarjury.com/reviews/hyundai/creta-electric/) — AI synthesis from India's top YouTube reviewers.
+- [Mahindra BE6 Review 2025 , The Car Jury](https://www.thecarjury.com/reviews/mahindra/be6/) — AI synthesis from India's top YouTube reviewers.
+- [Maruti e Vitara 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/maruti/e-vitara/) — AI synthesis from India's top YouTube reviewers.
+- [Renault Duster 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/renault/duster/) — AI synthesis from India's top YouTube reviewers.
+- [Skoda Kushaq 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/skoda/kushaq/) — AI synthesis from India's top YouTube reviewers.
+- [Tata Nexon EV 2025 Review — The Car Jury](https://www.thecarjury.com/reviews/tata/nexon-ev/) — AI synthesis from India's top YouTube reviewers.
+- [Tata Punch 2026 Review — The Car Jury](https://www.thecarjury.com/reviews/tata/punch/) — AI synthesis from India's top YouTube reviewers.
+- [Tata Sierra 2025 Review , The Car Jury](https://www.thecarjury.com/reviews/tata/sierra/) — AI synthesis from India's top YouTube reviewers.
+
+## Methodology
+
+- 5 independent YouTube creators per car (no media outlets)
+- Full transcript analysis (100,000+ words per car)
+- Consensus vs disagreement mapping
+- Jury score across 6 dimensions: Design, Interior, Performance, Ride, Build Quality, Value
+
+## Contact
+
+hello@thecarjury.com

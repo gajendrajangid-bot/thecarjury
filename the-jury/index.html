@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Jury Panel | The Car Jury</title>
+<meta name="description" content="23 independent YouTube creators whose reviews The Car Jury synthesises into one verdict. No media outlets. No manufacturer relationships.">
+<link rel="canonical" href="https://www.thecarjury.com/the-jury/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0LV8GN0CD5');
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,400;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --red:#C8102E;
+  --red-dark:#8B0A1F;
+  --red-tint:#FBE8EB;
+  --ink:#1A1A1A;
+  --stone:#6B6B6B;
+  --paper:#FAF8F5;
+  --white:#FFFFFF;
+  --hairline:#E5E2DC;
+  --green:#0E6B3C;
+  --green-tint:#E6F2EC;
+  --amber:#B8860B;
+  --amber-tint:#FBF3DF;
+  --fd:'Playfair Display',Georgia,serif;
+  --fs:'Source Serif 4',Georgia,serif;
+  --fu:'Inter',-apple-system,sans-serif;
+}
+body{font-family:var(--fu);background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased}
+
+/* NAV */
+.nav{
+  background:var(--white);
+  border-bottom:1px solid var(--hairline);
+  padding:0 48px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:58px;
+  position:sticky;
+  top:0;
+  z-index:100;
+}
+.mast{display:flex;align-items:baseline;gap:5px;text-decoration:none}
+.mast-the{font:700 italic 15px/1 var(--fd);color:var(--red)}
+.mast-name{font:800 22px/1 var(--fd);color:var(--ink);letter-spacing:-0.02em}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{font:500 13px/1 var(--fu);color:var(--stone);text-decoration:none;letter-spacing:.01em}
+.nav-links a.active{color:var(--red)}
+.nav-links a:hover{color:var(--ink)}
+
+/* BREADCRUMB */
+.breadcrumb{padding:14px 48px;display:flex;align-items:center;gap:6px;font:400 12px/1 var(--fu);color:var(--stone);border-bottom:1px solid var(--hairline);background:var(--white)}
+.breadcrumb a{color:var(--stone);text-decoration:none}
+.breadcrumb a:hover{color:var(--red)}
+.breadcrumb-sep{color:var(--hairline)}
+.breadcrumb-current{color:var(--ink)}
+
+/* HERO */
+.hero{background:var(--ink);padding:80px 48px 64px;text-align:center}
+.hero-eyebrow{font:600 11px/1 var(--fu);color:var(--red);letter-spacing:.14em;text-transform:uppercase;margin-bottom:18px}
+.hero-title{font:800 54px/1.05 var(--fd);color:var(--white);letter-spacing:-0.025em;margin-bottom:22px}
+.hero-title em{font-style:italic;color:var(--red)}
+.hero-body{font:400 18px/1.75 var(--fs);color:rgba(255,255,255,.62);max-width:580px;margin:0 auto 44px}
+.hero-stats{display:flex;justify-content:center;gap:56px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.1);padding-top:40px}
+.hero-stat-n{font:700 36px/1 var(--fu);color:var(--white)}
+.hero-stat-l{font:500 12px/1 var(--fu);color:rgba(255,255,255,.4);margin-top:6px;letter-spacing:.02em}
+
+/* MAIN LAYOUT */
+.page-body{max-width:1160px;margin:0 auto;padding:52px 48px 96px}
+.section-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  padding-bottom:18px;
+  border-bottom:1px solid var(--hairline);
+  margin-bottom:36px;
+}
+.section-label{font:700 24px/1 var(--fd);color:var(--ink)}
+.section-meta{font:400 13px/1 var(--fu);color:var(--stone)}
+
+/* LIVING JURY NOTE */
+.living-jury-note{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  font:400 13px/1.6 var(--fs);
+  color:var(--stone);
+  background:var(--white);
+  border:1px solid var(--hairline);
+  border-left:3px solid var(--red);
+  border-radius:0 6px 6px 0;
+  padding:14px 18px;
+  margin-bottom:28px;
+}
+
+/* CREATOR GRID */
+.creator-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(340px,1fr));
+  gap:1px;
+  background:var(--hairline);
+  border:1px solid var(--hairline);
+  border-radius:8px;
+  overflow:hidden;
+  margin-bottom:72px;
+}
+.creator-card{
+  background:var(--white);
+  padding:32px;
+  transition:background .15s;
+  cursor:pointer;
+  text-decoration:none;
+  color:inherit;
+  display:block;
+}
+.creator-card:hover{background:var(--paper)}
+
+/* card top row */
+.card-top{display:flex;align-items:flex-start;gap:16px;margin-bottom:18px}
+.avatar{
+  width:52px;height:52px;
+  border-radius:50%;
+  border:2px solid var(--hairline);
+  background:var(--red-tint);
+  display:flex;align-items:center;justify-content:center;
+  font:700 18px/1 var(--fd);
+  color:var(--red);
+  flex-shrink:0;
+}
+.card-meta{flex:1}
+.creator-name{font:700 18px/1.2 var(--fd);color:var(--ink);margin-bottom:3px}
+.creator-handle{font:400 13px/1 var(--fu);color:var(--stone);margin-bottom:8px}
+.platform-pills{display:flex;gap:6px;flex-wrap:wrap}
+.pill{
+  display:inline-flex;align-items:center;
+  font:600 10px/1 var(--fu);
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  padding:3px 8px;
+  border-radius:3px;
+}
+.pill-yt{background:#fff0f0;color:#C8102E;border:1px solid #f5d5d8}
+.pill-web{background:var(--green-tint);color:var(--green);border:1px solid #c3dfc8}
+.pill-mix{background:var(--paper);color:var(--stone);border:1px solid var(--hairline)}
+.pill-ig{background:#f0f0ff;color:#5b4de0;border:1px solid #dddaff}
+
+/* bio */
+.card-bio{
+  font:400 14px/1.7 var(--fs);
+  color:#444;
+  margin-bottom:22px;
+  border-left:2px solid var(--hairline);
+  padding-left:14px;
+}
+
+/* stats row */
+.card-stats{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  border-top:1px solid var(--hairline);
+  padding-top:18px;
+  margin-bottom:18px;
+}
+.stat-item{text-align:center}
+.stat-item+.stat-item{border-left:1px solid var(--hairline)}
+.stat-n{font:700 16px/1 var(--fu);color:var(--ink);margin-bottom:4px}
+.stat-l{font:500 11px/1.3 var(--fu);color:var(--stone)}
+
+/* tag chips */
+.card-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px}
+.tag{
+  font:500 11px/1 var(--fu);
+  padding:4px 10px;
+  border-radius:12px;
+  background:var(--paper);
+  color:var(--stone);
+  border:1px solid var(--hairline);
+}
+.tag.red{background:var(--red-tint);color:var(--red);border-color:#f5d5d8}
+.tag.green{background:var(--green-tint);color:var(--green);border-color:#c3dfc8}
+.tag.amber{background:var(--amber-tint);color:var(--amber);border-color:#e8d9a0}
+
+/* verdict count footer */
+.card-footer{
+  display:flex;align-items:center;gap:8px;
+  padding-top:14px;
+  border-top:1px solid var(--hairline);
+  font:500 12px/1 var(--fu);
+  color:var(--stone);
+}
+.red-dot{width:6px;height:6px;border-radius:50%;background:var(--red);flex-shrink:0}
+
+/* HOW WE WORK */
+.how-section{background:var(--ink);padding:80px 48px;text-align:center;margin:0 -48px}
+.how-eyebrow{font:600 11px/1 var(--fu);color:var(--red);letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px}
+.how-title{font:700 38px/1.1 var(--fd);color:var(--white);margin-bottom:52px;letter-spacing:-0.02em}
+.how-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:48px;max-width:860px;margin:0 auto}
+.step-num{
+  width:38px;height:38px;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,.2);
+  display:flex;align-items:center;justify-content:center;
+  font:700 15px/1 var(--fu);
+  color:var(--red);
+  margin:0 auto 18px;
+}
+.step-title{font:700 18px/1.2 var(--fd);color:var(--white);margin-bottom:10px}
+.step-body{font:400 14px/1.7 var(--fs);color:rgba(255,255,255,.5)}
+
+/* MANY VOICES BLOCK */
+.many-voices{
+  border:1px solid var(--hairline);
+  border-radius:8px;
+  padding:36px 40px;
+  margin-top:48px;
+  background:var(--white);
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  gap:40px;
+  align-items:start;
+}
+.mv-label{font:700 11px/1 var(--fu);color:var(--red);text-transform:uppercase;letter-spacing:.1em;margin-bottom:12px}
+.mv-title{font:700 26px/1.2 var(--fd);color:var(--ink)}
+.mv-body{font:400 15px/1.75 var(--fs);color:#444}
+.mv-body p+p{margin-top:12px}
+.mv-pillars{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px}
+.mv-pillar{border-top:2px solid var(--red);padding-top:14px}
+.mv-pillar-title{font:600 13px/1 var(--fu);color:var(--ink);margin-bottom:6px}
+.mv-pillar-body{font:400 13px/1.6 var(--fs);color:var(--stone)}
+
+/* NOT ON THE JURY */
+.not-on{
+  background:var(--red-tint);
+  border:1px solid #f5d5d8;
+  border-radius:8px;
+  padding:32px 36px;
+  margin-top:48px;
+}
+.not-on-label{font:700 13px/1 var(--fu);color:var(--red);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px}
+.not-on-body{font:400 15px/1.7 var(--fs);color:var(--ink);max-width:680px}
+.not-on-body strong{font-weight:600}
+
+/* TRUST BAR */
+.trust-bar{
+  background:var(--red);
+  padding:22px 48px;
+  display:flex;justify-content:center;
+  gap:36px;flex-wrap:wrap;
+  margin:0 -48px;
+}
+.trust-item{font:600 13px/1 var(--fu);color:rgba(255,255,255,.92);letter-spacing:.02em}
+.trust-sep{color:rgba(255,255,255,.3)}
+
+/* FOOTER */
+footer{
+  background:var(--ink);
+  padding:40px 48px;
+  display:flex;align-items:center;
+  justify-content:space-between;
+  margin:0 -48px;
+}
+.footer-mast{display:flex;align-items:baseline;gap:5px;text-decoration:none}
+.footer-mast-the{font:700 italic 13px/1 var(--fd);color:var(--red)}
+.footer-mast-name{font:800 19px/1 var(--fd);color:var(--white)}
+.footer-note{font:400 13px/1 var(--fu);color:rgba(255,255,255,.3)}
+
+@media(max-width:768px){
+  .hero-title{font-size:38px}
+  .hero-stats{gap:32px}
+  .how-steps{grid-template-columns:1fr}
+  .creator-grid{grid-template-columns:1fr}
+  .page-body{padding:40px 24px 80px}
+  .nav,.breadcrumb{padding-left:24px;padding-right:24px}
+  .how-section{margin:0 -24px;padding:60px 24px}
+  .trust-bar{margin:0 -24px;padding:22px 24px}
+  footer{margin:0 -24px;padding:32px 24px;flex-direction:column;gap:12px}
+  .many-voices{grid-template-columns:1fr}
+  .mv-pillars{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <a class="mast" href="/">
+    <span class="mast-the">The</span>
+    <span class="mast-name">Car Jury</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/reviews/">Reviews</a></li>
+    <li><a href="/compare/">Compare</a></li>
+    <li><a href="/best/">Best Lists</a></li>
+    <li><a href="/the-jury/" class="active">The Jury</a></li>
+    <li><a href="/about/">About</a></li>
+  </ul>
+</nav>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="/">Home</a>
+  <span class="breadcrumb-sep">›</span>
+  <span class="breadcrumb-current">The Jury Panel</span>
+</div>
+
+<!-- HERO — VARIABLE: update stat numbers as jury grows -->
+<section class="hero">
+  <div class="hero-eyebrow">The Jury Panel</div>
+  <h1 class="hero-title">We don't have one opinion.<br><em>We have 23.</em></h1>
+  <p class="hero-body">Every verdict on The Car Jury is built from multiple independent creators, not one. Because no single reviewer is free of blind spots, preferences, or biases. The more voices we bring together, the closer we get to the truth about a car.</p>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="hero-stat-n">23</div><!-- VARIABLE: jury member count -->
+      <div class="hero-stat-l">Jury members</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-n">5M+</div><!-- VARIABLE: combined subscribers -->
+      <div class="hero-stat-l">Combined subscribers</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-n">40+</div><!-- VARIABLE: total verdicts rendered -->
+      <div class="hero-stat-l">Cars reviewed collectively</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-n">0</div><!-- STATIC: always zero -->
+      <div class="hero-stat-l">Sponsored reviews included</div>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<div class="page-body">
+
+  <div class="section-header">
+    <span class="section-label">Jury members</span>
+    <span class="section-meta">23 independent creators · sorted by verdicts contributed</span><!-- VARIABLE: count -->
+  </div>
+
+  <!-- LIVING JURY NOTE — STATIC -->
+  <div class="living-jury-note">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" style="flex-shrink:0;margin-top:1px"><circle cx="8" cy="8" r="7" stroke="#C8102E" stroke-width="1.5"/><path d="M8 5v3.5l2.5 1.5" stroke="#C8102E" stroke-width="1.5" stroke-linecap="round"/></svg>
+    <span>The jury panel is a living list. We continuously gather feedback, evaluate new voices, and revisit existing ones, so that our verdicts stay balanced, current, and free from over-reliance on any single perspective.</span>
+  </div>
+
+  <!-- CREATOR GRID — all data below is VARIABLE, sourced from live website -->
+  <div class="creator-grid">
+
+    <!-- 1. FAISAL KHAN — 7 verdicts -->
+    <a class="creator-card" href="/influencers/faisal-khan/">
+      <div class="card-top">
+        <div class="avatar">FK</div>
+        <div class="card-meta">
+          <div class="creator-name">Faisal Khan</div>
+          <div class="creator-handle">youtube.com/@FasBeam</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Blunt, no-nonsense takes on Indian cars. Calls out manufacturer spin and backs every claim with real-world data.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">7</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">1.2M</div><div class="stat-l">Subscribers</div></div>
+        <div class="stat-item"><div class="stat-n">EVs, SUVs</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag red">EV specialist</span>
+        <span class="tag">No-nonsense</span>
+        <span class="tag">Real-world data</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 7 verdicts on The Car Jury
+      </div>
+    </a>
+
+    <!-- 2. GAGAN CHOUDHARY — 6 verdicts -->
+    <a class="creator-card" href="/influencers/gagan-choudhary/">
+      <div class="card-top">
+        <div class="avatar">GC</div>
+        <div class="card-meta">
+          <div class="creator-name">Gagan Choudhary</div>
+          <div class="creator-handle">youtube.com/@GaganChoudhary</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Deep-dive reviews with a strong focus on ownership experience, what it's actually like to live with a car long after the press launch.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">6</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">Ownership</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag green">Ownership-first</span>
+        <span class="tag">Deep-dive</span>
+        <span class="tag">Long-form</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 6 verdicts on The Car Jury
+      </div>
+    </a>
+
+    <!-- 3. MOTOROCTANE — 4 verdicts -->
+    <a class="creator-card" href="/influencers/motoroctane/">
+      <div class="card-top">
+        <div class="avatar">MO</div>
+        <div class="card-meta">
+          <div class="creator-name">MotorOctane</div>
+          <div class="creator-handle">youtube.com/@MotorOctane</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+            <span class="pill pill-ig">Instagram</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Performance and tech-focused reviews from Pune. Goes beyond looks to stress-test real engineering, powertrain, handling, driving dynamics.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">4</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">860K</div><div class="stat-l">Subscribers</div></div>
+        <div class="stat-item"><div class="stat-n">Tech, Dynamics</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Technical depth</span>
+        <span class="tag">Comparisons</span>
+        <span class="tag red">Most-cited member</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 4 verdicts on The Car Jury
+      </div>
+    </a>
+
+    <!-- 4. V3CARS — 4 verdicts -->
+    <a class="creator-card" href="/influencers/v3cars/">
+      <div class="card-top">
+        <div class="avatar">V3</div>
+        <div class="card-meta">
+          <div class="creator-name">V3Cars</div>
+          <div class="creator-handle">youtube.com/@V3Cars</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Spec-driven, no-nonsense variant analysis, the go-to channel for buyers who want to cut through trim-level confusion.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">4</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">540K</div><div class="stat-l">Subscribers</div></div>
+        <div class="stat-item"><div class="stat-n">Value segment</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Buyer-first</span>
+        <span class="tag">Variant analysis</span>
+        <span class="tag">Budget-midrange</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 4 verdicts on The Car Jury
+      </div>
+    </a>
+
+    <!-- 5. V3 CARS — 3 verdicts -->
+    <a class="creator-card" href="/influencers/v3-cars/">
+      <div class="card-top">
+        <div class="avatar">V3</div>
+        <div class="card-meta">
+          <div class="creator-name">V3 Cars</div>
+          <div class="creator-handle">youtube.com/@V3Cars</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Independent car reviewer covering the Indian market with a focus on spec analysis and variant-level buying guidance.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">3</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">All segments</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Variant analysis</span>
+        <span class="tag">Buyer guidance</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 3 verdicts on The Car Jury
+      </div>
+    </a>
+
+    <!-- 6. MOTORINC — 2 verdicts -->
+    <a class="creator-card" href="/influencers/motorinc/">
+      <div class="card-top">
+        <div class="avatar">MI</div>
+        <div class="card-meta">
+          <div class="creator-name">MotorInc</div>
+          <div class="creator-handle">youtube.com/@MotorInc</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Sharp, no-frills car reviews focused on real-world performance and honest ownership assessments for the Indian market.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">2</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">Real-world</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">No-frills</span>
+        <span class="tag">Real-world</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 2 verdicts on The Car Jury
+      </div>
+    </a>
+
+    <!-- 7. TEAMBHP — 2 verdicts -->
+    <a class="creator-card" href="/influencers/teambhp/">
+      <div class="card-top">
+        <div class="avatar">TB</div>
+        <div class="card-meta">
+          <div class="creator-name">TeamBHP</div>
+          <div class="creator-handle">youtube.com/@teambhp</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+            <span class="pill pill-ig">Instagram</span>
+            <span class="pill pill-mix">Forum</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">India's most authoritative enthusiast forum, community-driven long-term testing and expert analysis since 2004.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">2</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">4M+</div><div class="stat-l">Monthly readers</div></div>
+        <div class="stat-item"><div class="stat-n">Ownership</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag green">Zero OEM advertising</span>
+        <span class="tag">Long-term tests</span>
+        <span class="tag">Community data</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 2 verdicts on The Car Jury
+      </div>
+    </a>
+
+    <!-- 8. MOTORBEAM — 2 verdicts -->
+    <a class="creator-card" href="/influencers/motorbeam/">
+      <div class="card-top">
+        <div class="avatar">MB</div>
+        <div class="card-meta">
+          <div class="creator-name">MotorBeam</div>
+          <div class="creator-handle">youtube.com/@MotorBeam</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">India's longest-running independent car review platform, founded by Faisal Khan, built on two decades of unsponsored analysis.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">2</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">All segments</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Legacy platform</span>
+        <span class="tag">Unsponsored</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 2 verdicts on The Car Jury
+      </div>
+    </a>
+
+    <!-- 9. POWERDRIFT — 1 verdict -->
+    <a class="creator-card" href="/influencers/powerdrift/">
+      <div class="card-top">
+        <div class="avatar">PD</div>
+        <div class="card-meta">
+          <div class="creator-name">PowerDrift</div>
+          <div class="creator-handle">youtube.com/@PowerDrift</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+            <span class="pill pill-ig">Instagram</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">India's most cinematic car review channel, where aesthetic production value meets substantive driving analysis.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">1.4M</div><div class="stat-l">Subscribers</div></div>
+        <div class="stat-item"><div class="stat-n">Dynamics</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Driving dynamics</span>
+        <span class="tag">Performance</span>
+        <span class="tag">Cinematic</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 10. AUTO YOGI — 1 verdict -->
+    <a class="creator-card" href="/influencers/auto-yogi/">
+      <div class="card-top">
+        <div class="avatar">AY</div>
+        <div class="card-meta">
+          <div class="creator-name">Auto Yogi</div>
+          <div class="creator-handle">youtube.com/@AutoYogi</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Detailed long-form reviews with an honest ownership perspective. The antidote to five-minute first-drive impressions.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">Ownership</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Long-form</span>
+        <span class="tag green">Ownership-first</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 11. RUSHLANE — 1 verdict -->
+    <a class="creator-card" href="/influencers/rushlane/">
+      <div class="card-top">
+        <div class="avatar">RL</div>
+        <div class="card-meta">
+          <div class="creator-name">RushLane</div>
+          <div class="creator-handle">youtube.com/@RushLane</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+            <span class="pill pill-ig">Instagram</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Fast-breaking India car news and detailed first-drive reports, comprehensive coverage from launch to ownership.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">Wide</div><div class="stat-l">Coverage</div></div>
+        <div class="stat-item"><div class="stat-n">Mass market</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Mass market</span>
+        <span class="tag">First drives</span>
+        <span class="tag">Broad coverage</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 12. REVLIMITS — 1 verdict -->
+    <a class="creator-card" href="/influencers/revlimits/">
+      <div class="card-top">
+        <div class="avatar">RV</div>
+        <div class="card-meta">
+          <div class="creator-name">RevLimits</div>
+          <div class="creator-handle">youtube.com/@RevLimits</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Enthusiast car reviews with a sharp focus on driving dynamics, for buyers who care how a car feels, not just how it looks.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">Dynamics</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Driving dynamics</span>
+        <span class="tag">Enthusiast</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 13. MANISH BHARDWAJ — 1 verdict -->
+    <a class="creator-card" href="/influencers/manish-bhardwaj/">
+      <div class="card-top">
+        <div class="avatar">MN</div>
+        <div class="card-meta">
+          <div class="creator-name">Manish Bhardwaj</div>
+          <div class="creator-handle">youtube.com/@ManishBhardwajOfficial</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Real-world EV ownership interviews and long-term usage reports, the voice of the actual buyer, not the press-launch attendee.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">310K</div><div class="stat-l">Subscribers</div></div>
+        <div class="stat-item"><div class="stat-n">EVs, Real-world</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Real India roads</span>
+        <span class="tag green">Ownership-first</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 14. MOTOR TREND (KARTHIKEYA SINGHEE) — 1 verdict -->
+    <a class="creator-card" href="/influencers/motor-trend-karthikeya-singhee/">
+      <div class="card-top">
+        <div class="avatar">MT</div>
+        <div class="card-meta">
+          <div class="creator-name">Motor Trend (Karthikeya Singhee)</div>
+          <div class="creator-handle">youtube.com/@MotorTrendIndia</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Independent car reviewer covering the Indian market, bringing structured test methodology to consumer-facing automotive journalism.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">All segments</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Structured testing</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 15. VISHAL AHLAWAT (WITH ASKAR GURU) — 1 verdict -->
+    <a class="creator-card" href="/influencers/vishal-ahlawat-with-askar-guru/">
+      <div class="card-top">
+        <div class="avatar">VA</div>
+        <div class="card-meta">
+          <div class="creator-name">Vishal Ahlawat</div>
+          <div class="creator-handle">youtube.com/@VishalAhlawat</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Independent car reviewer with a practical, buyer-oriented perspective on Indian market vehicles.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">All segments</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Buyer-oriented</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 16. MOTOR BEAM — 1 verdict -->
+    <a class="creator-card" href="/influencers/motor-beam/">
+      <div class="card-top">
+        <div class="avatar">MB</div>
+        <div class="card-meta">
+          <div class="creator-name">Motor Beam</div>
+          <div class="creator-handle">youtube.com/@MotorBeam</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">In-depth car reviews and ownership insights from one of India's established independent automotive platforms.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">All segments</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">In-depth reviews</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 17. AMAN AHMED — 1 verdict -->
+    <a class="creator-card" href="/influencers/aman-ahmed/">
+      <div class="card-top">
+        <div class="avatar">AA</div>
+        <div class="card-meta">
+          <div class="creator-name">Aman Ahmed</div>
+          <div class="creator-handle">youtube.com/@CarandBike</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Independent car and bike reviewer with a grounded, consumer-friendly approach to automotive coverage in India.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">All segments</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Consumer-friendly</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 18. MUDIT BHAMBRI — 1 verdict -->
+    <a class="creator-card" href="/influencers/mudit-bhambri/">
+      <div class="card-top">
+        <div class="avatar">MB</div>
+        <div class="card-meta">
+          <div class="creator-name">Mudit Bhambri</div>
+          <div class="creator-handle">youtube.com/@MuditBhambri</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Particularly sharp on interior quality, fit-and-finish, and the things that matter in daily ownership. A reliable contrarian voice on the jury.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">280K</div><div class="stat-l">Subscribers</div></div>
+        <div class="stat-item"><div class="stat-n">Interior, Build</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Interior quality</span>
+        <span class="tag">Build standards</span>
+        <span class="tag amber">Contrarian voice</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 19. NIKHIL RANA — 1 verdict -->
+    <a class="creator-card" href="/influencers/nikhil-rana/">
+      <div class="card-top">
+        <div class="avatar">NR</div>
+        <div class="card-meta">
+          <div class="creator-name">Nikhil Rana</div>
+          <div class="creator-handle">youtube.com/@MotorOctane</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Independent car reviewer with a focus on real-world driving impressions and practical buyer guidance for the Indian market.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">All segments</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Real-world</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 20. ASK CARGURU — 1 verdict -->
+    <a class="creator-card" href="/influencers/ask-carguru/">
+      <div class="card-top">
+        <div class="avatar">AC</div>
+        <div class="card-meta">
+          <div class="creator-name">Ask CarGuru</div>
+          <div class="creator-handle">youtube.com/@AskCarGuru</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">One-man buyer advisory channel. Cuts through manufacturer claims to tell you exactly what to buy and what to avoid.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">Buying advice</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Buying advice</span>
+        <span class="tag">No-nonsense</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 21. CAR BLOGGER — 1 verdict -->
+    <a class="creator-card" href="/influencers/car-blogger/">
+      <div class="card-top">
+        <div class="avatar">CB</div>
+        <div class="card-meta">
+          <div class="creator-name">Car Blogger</div>
+          <div class="creator-handle">youtube.com/@CarBlogger</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Independent car reviewer providing detailed first-drive impressions and ownership perspectives for Indian car buyers.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">All segments</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">First drives</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 22. GAGAN — 1 verdict -->
+    <a class="creator-card" href="/influencers/gagan/">
+      <div class="card-top">
+        <div class="avatar">G</div>
+        <div class="card-meta">
+          <div class="creator-name">Gagan</div>
+          <div class="creator-handle">youtube.com/@Gagan</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Independent car reviewer providing ground-level perspectives on Indian cars from an everyday buyer's standpoint.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">All segments</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Ground-level</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+    <!-- 23. HINDI AUTO REVIEWER — 1 verdict -->
+    <a class="creator-card" href="/influencers/hindi-auto-reviewer/">
+      <div class="card-top">
+        <div class="avatar">HA</div>
+        <div class="card-meta">
+          <div class="creator-name">Hindi Auto Reviewer</div>
+          <div class="creator-handle">youtube.com</div>
+          <div class="platform-pills">
+            <span class="pill pill-yt">YouTube</span>
+          </div>
+        </div>
+      </div>
+      <p class="card-bio">Independent car reviewer serving Hindi-speaking audiences with accessible, jargon-free automotive analysis for the mass Indian market.</p>
+      <div class="card-stats">
+        <div class="stat-item"><div class="stat-n">1</div><div class="stat-l">Verdicts used</div></div>
+        <div class="stat-item"><div class="stat-n">YouTube</div><div class="stat-l">Platform</div></div>
+        <div class="stat-item"><div class="stat-n">Mass market</div><div class="stat-l">Focus</div></div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">Hindi</span>
+        <span class="tag">Mass market</span>
+      </div>
+      <div class="card-footer">
+        <span class="red-dot"></span>
+        Contributed to 1 verdict on The Car Jury
+      </div>
+    </a>
+
+  </div><!-- .creator-grid -->
+
+  <!-- MANY VOICES — STATIC editorial content -->
+  <div class="many-voices">
+    <div>
+      <div class="mv-label">Our guiding principle</div>
+      <div class="mv-title">No single reviewer gets the final word.</div>
+    </div>
+    <div class="mv-body">
+      <p>Every reviewer brings something valuable, and every reviewer has blind spots. One creator might be excellent on driving dynamics but less rigorous on long-term reliability. Another might be a careful technical analyst who doesn't notice when a car's cabin feel is off. A third might be deeply attuned to what a family buyer needs, but less so for the enthusiast.</p>
+      <p>That's why we don't build verdicts from one voice. We deliberately bring together creators with different strengths, different audiences, and different ways of evaluating cars, so that each reviewer's perspective is balanced and checked by the others. The result is a verdict that is more complete, more neutral, and more reliable than any single review could be.</p>
+      <p>Where the jury agrees, we say so clearly. Where they disagree, we show you the split, and let you weigh it yourself.</p>
+      <div class="mv-pillars">
+        <div class="mv-pillar">
+          <div class="mv-pillar-title">Different strengths</div>
+          <div class="mv-pillar-body">Each jury member is selected for what they do best: dynamics, ownership data, EV range, budget value, real-world India conditions. No one reviewer covers all of it equally well.</div>
+        </div>
+        <div class="mv-pillar">
+          <div class="mv-pillar-title">Deliberate diversity of view</div>
+          <div class="mv-pillar-body">We intentionally include voices that sometimes disagree. Consensus is useful. Dissent is more useful. A jury that always agrees isn't really deliberating.</div>
+        </div>
+        <div class="mv-pillar">
+          <div class="mv-pillar-title">Weighted, not averaged</div>
+          <div class="mv-pillar-body">We don't just add up scores and divide. A reviewer's weight on a particular dimension is based on how closely that dimension matches their documented strength.</div>
+        </div>
+        <div class="mv-pillar">
+          <div class="mv-pillar-title">Splits shown, not hidden</div>
+          <div class="mv-pillar-body">When jury members genuinely disagree, we surface the split in the article. The reader sees where the jury landed and where it was divided, so the decision stays theirs.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOT ON JURY — STATIC -->
+  <div class="not-on">
+    <div class="not-on-label">A note on who is not on the jury</div>
+    <p class="not-on-body">We exclude any review where the creator attended a <strong>manufacturer-funded press drive</strong>, received a vehicle on loan with conditions attached, or where commercial relationships with the brand are disclosed or suspected but undisclosed. If a creator publishes both independent and sponsored content, only their independent reviews are included in our scoring. The jury is only as trustworthy as its independence.</p>
+  </div>
+
+  <!-- HOW WE WORK — STATIC -->
+  <div class="how-section">
+    <div class="how-eyebrow">Our methodology</div>
+    <h2 class="how-title">How the jury reaches its verdict</h2>
+    <div class="how-steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-title">We identify the jury</div>
+        <p class="step-body">For each car, we identify every independent creator who published a substantive review, excluding press-trip content, brand-commissioned pieces, and spec-sheet summaries.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-title">We balance across many voices</div>
+        <p class="step-body">Each review is read in full and scored across five dimensions. No single reviewer dominates the verdict: scores are weighted by each creator's documented strengths. Where creators disagree, the split is shown, not smoothed over.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-title">The verdict is rendered</div>
+        <p class="step-body">The aggregate findings become the verdict: a score, a Buy, Wait, or Skip recommendation, and the decisive factors a buyer should actually weigh. The jury speaks. You decide.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRUST BAR — STATIC -->
+  <div class="trust-bar">
+    <span class="trust-item">No sponsored reviews</span>
+    <span class="trust-sep">·</span>
+    <span class="trust-item">No manufacturer relationships</span>
+    <span class="trust-sep">·</span>
+    <span class="trust-item">Many voices, one verdict</span>
+    <span class="trust-sep">·</span>
+    <span class="trust-item">Splits shown, not hidden</span>
+    <span class="trust-sep">·</span>
+    <span class="trust-item">Methodology published</span>
+  </div>
+
+</div><!-- .page-body -->
+
+<!-- FOOTER -->
+<footer>
+  <a class="footer-mast" href="/">
+    <span class="footer-mast-the">The</span>
+    <span class="footer-mast-name">Car Jury</span>
+  </a>
+  <span class="footer-note">India's aggregated car verdict platform · No sponsored reviews</span>
+</footer>
+
+</body>
+</html>

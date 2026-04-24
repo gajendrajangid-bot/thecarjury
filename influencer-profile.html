@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Faisal Khan | The Car Jury</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ─── Reset ─────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; text-decoration: none; }
+
+    /* ─── Tokens ─────────────────────────────────────────── */
+    :root {
+      --red:         #C8102E;
+      --red-dark:    #8B0A1F;
+      --red-light:   #FBE8EB;
+      --ink:         #1A1A1A;
+      --paper:       #FAF8F5;
+      --white:       #FFFFFF;
+      --stone:       #6B6B6B;
+      --hairline:    #E5E2DC;
+      --green:       #0E6B3C;
+      --amber:       #B8860B;
+      --slate:       #3D3D3D;
+
+      --serif:       'Source Serif 4', Georgia, 'Times New Roman', serif;
+      --sans:        'Inter', -apple-system, 'Helvetica Neue', sans-serif;
+    }
+
+    /* ─── Base ───────────────────────────────────────────── */
+    html { font-size: 16px; }
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─── Nav ────────────────────────────────────────────── */
+    .nav {
+      border-bottom: 1px solid var(--hairline);
+      background: var(--white);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav__inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav__logo {
+      font-family: var(--serif);
+      font-weight: 600;
+      font-size: 18px;
+      color: var(--ink);
+      letter-spacing: -0.01em;
+    }
+    .nav__logo span { color: var(--red); font-weight: 300; font-size: 14px; display: block; line-height: 1; }
+    .nav__links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+    .nav__links a {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      color: var(--stone);
+      text-transform: uppercase;
+      transition: color 0.15s;
+    }
+    .nav__links a:hover { color: var(--ink); }
+    .nav__links a.active { color: var(--red); }
+
+    /* ─── Page wrapper ───────────────────────────────────── */
+    .page { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
+
+    /* ─── Breadcrumb ─────────────────────────────────────── */
+    .breadcrumb {
+      padding: 20px 0 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--stone);
+    }
+    .breadcrumb a { transition: color 0.15s; }
+    .breadcrumb a:hover { color: var(--red); }
+    .breadcrumb__sep { color: var(--hairline); }
+    .breadcrumb__current { color: var(--ink); }
+
+    /* ─── Profile hero ───────────────────────────────────── */
+    .profile-hero {
+      padding: 40px 0 48px;
+      border-bottom: 1px solid var(--hairline);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 32px;
+      align-items: start;
+    }
+    .profile-hero__left {}
+    .profile-hero__meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .profile-avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: var(--red-light);
+      color: var(--red);
+      font-family: var(--serif);
+      font-size: 30px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .profile-hero__eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 6px;
+    }
+    .profile-hero__name {
+      font-family: var(--serif);
+      font-size: 44px;
+      font-weight: 600;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      margin-bottom: 14px;
+    }
+    .profile-hero__tagline {
+      font-family: var(--serif);
+      font-size: 19px;
+      line-height: 1.6;
+      color: var(--stone);
+      max-width: 600px;
+      margin-bottom: 28px;
+      font-style: italic;
+    }
+    .profile-hero__links {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .profile-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--stone);
+      border: 1px solid var(--hairline);
+      border-radius: 6px;
+      padding: 7px 12px;
+      background: var(--white);
+      transition: all 0.15s;
+    }
+    .profile-link:hover {
+      color: var(--red);
+      border-color: var(--red-light);
+      background: var(--red-light);
+    }
+    .profile-link svg { flex-shrink: 0; }
+
+    /* ─── Stats sidebar ──────────────────────────────────── */
+    .profile-hero__stats {
+      background: var(--white);
+      border: 1px solid var(--hairline);
+      border-radius: 8px;
+      padding: 24px;
+      min-width: 200px;
+    }
+    .profile-hero__stats-title {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--stone);
+      margin-bottom: 20px;
+    }
+    .stat-row {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    .stat-row:last-child { margin-bottom: 0; }
+    .stat-row__num {
+      font-family: var(--sans);
+      font-size: 32px;
+      font-weight: 600;
+      color: var(--ink);
+      letter-spacing: -0.03em;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .stat-row__label {
+      font-size: 12px;
+      color: var(--stone);
+    }
+    .stat-row__divider {
+      border: none;
+      border-top: 1px solid var(--hairline);
+      margin: 16px 0;
+    }
+
+    /* ─── Two-col layout ─────────────────────────────────── */
+    .content-layout {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 48px;
+      padding: 48px 0 72px;
+      align-items: start;
+    }
+    .content-main {}
+    .content-sidebar {}
+
+    /* ─── Section heading ────────────────────────────────── */
+    .section-heading {
+      font-family: var(--serif);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--hairline);
+    }
+
+    /* ─── Verdict cards ──────────────────────────────────── */
+    .verdict-list { display: flex; flex-direction: column; gap: 1px; }
+    .verdict-card {
+      background: var(--white);
+      border: 1px solid var(--hairline);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: border-color 0.15s;
+    }
+    .verdict-card:hover { border-color: #C8D0C8; }
+    .verdict-card__stamp {
+      background: var(--red);
+      padding: 6px 16px;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--white);
+    }
+    .verdict-card__body {
+      padding: 20px 20px 16px;
+    }
+    .verdict-card__car {
+      font-family: var(--serif);
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+    .verdict-card__row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+    .verdict-score {
+      font-family: var(--sans);
+      font-size: 28px;
+      font-weight: 600;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+      line-height: 1;
+    }
+    .verdict-score__denom {
+      font-size: 14px;
+      color: var(--stone);
+      font-weight: 400;
+    }
+    .verdict-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border-radius: 20px;
+      padding: 5px 12px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+    .verdict-pill--buy   { background: #E8F5EE; color: var(--green); }
+    .verdict-pill--wait  { background: #FBF5E0; color: var(--amber); }
+    .verdict-pill--skip  { background: #EEEEED; color: var(--slate); }
+
+    .verdict-card__breakdown {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .breakdown-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .breakdown-row__label {
+      font-size: 12px;
+      color: var(--stone);
+      width: 80px;
+      flex-shrink: 0;
+    }
+    .breakdown-bar {
+      flex: 1;
+      height: 3px;
+      background: var(--hairline);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .breakdown-bar__fill {
+      height: 100%;
+      background: var(--red);
+      border-radius: 2px;
+    }
+    .breakdown-row__num {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--ink);
+      width: 24px;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .verdict-card__footer {
+      padding: 12px 20px;
+      border-top: 1px solid var(--hairline);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .verdict-card__jury-line {
+      font-size: 12px;
+      color: var(--stone);
+    }
+    .verdict-card__link {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--red);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: gap 0.15s;
+    }
+    .verdict-card:hover .verdict-card__link { gap: 7px; }
+
+    /* ─── About section ──────────────────────────────────── */
+    .about-section { margin-bottom: 40px; }
+    .about-body {
+      font-family: var(--serif);
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--ink);
+    }
+    .about-body p { margin-bottom: 16px; }
+    .about-body p:last-child { margin-bottom: 0; }
+
+    /* ─── Style tags ─────────────────────────────────────── */
+    .style-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 20px;
+    }
+    .style-tag {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--stone);
+      background: var(--white);
+      border: 1px solid var(--hairline);
+      border-radius: 20px;
+      padding: 5px 12px;
+    }
+
+    /* ─── Sidebar: Trust block ───────────────────────────── */
+    .trust-block {
+      background: var(--white);
+      border: 1px solid var(--hairline);
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+    .trust-block__heading {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 14px;
+    }
+    .trust-block__body {
+      font-family: var(--serif);
+      font-size: 14px;
+      line-height: 1.65;
+      color: var(--stone);
+    }
+
+    /* ─── Sidebar: Other jurors ──────────────────────────── */
+    .other-jurors-block {
+      background: var(--white);
+      border: 1px solid var(--hairline);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .other-jurors-block__heading {
+      padding: 16px 20px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--stone);
+      border-bottom: 1px solid var(--hairline);
+    }
+    .other-juror-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--hairline);
+      transition: background 0.15s;
+    }
+    .other-juror-row:last-child { border-bottom: none; }
+    .other-juror-row:hover { background: var(--paper); }
+    .other-juror-row__avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--red-light);
+      color: var(--red);
+      font-family: var(--serif);
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .other-juror-row__name {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--ink);
+      flex: 1;
+    }
+    .other-juror-row__arrow {
+      font-size: 14px;
+      color: var(--hairline);
+      transition: color 0.15s;
+    }
+    .other-juror-row:hover .other-juror-row__arrow { color: var(--red); }
+
+    /* ─── Back link ──────────────────────────────────────── */
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--stone);
+      padding: 8px 0;
+      margin-bottom: 28px;
+      transition: color 0.15s;
+    }
+    .back-link:hover { color: var(--red); }
+
+    /* ─── Footer ─────────────────────────────────────────── */
+    .footer {
+      border-top: 1px solid var(--hairline);
+      padding: 40px 0;
+    }
+    .footer__inner {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+    .footer__name {
+      font-family: var(--serif);
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--ink);
+      margin-bottom: 6px;
+    }
+    .footer__tagline {
+      font-size: 13px;
+      color: var(--stone);
+      max-width: 360px;
+      line-height: 1.6;
+    }
+    .footer__links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+      align-items: center;
+    }
+    .footer__links a {
+      font-size: 13px;
+      color: var(--stone);
+      transition: color 0.15s;
+    }
+    .footer__links a:hover { color: var(--ink); }
+
+    /* ─── Responsive ─────────────────────────────────────── */
+    @media (max-width: 960px) {
+      .content-layout { grid-template-columns: 1fr; }
+      .content-sidebar { display: none; }
+      .profile-hero { grid-template-columns: 1fr; }
+      .profile-hero__stats { display: flex; gap: 32px; flex-wrap: wrap; }
+      .stat-row { margin-bottom: 0; }
+      .stat-row__divider { display: none; }
+    }
+    @media (max-width: 600px) {
+      .profile-hero__name { font-size: 32px; }
+      .nav__links { display: none; }
+      .profile-hero { padding: 28px 0 36px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Nav ────────────────────────────────────────────────── -->
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="/" class="nav__logo">
+      <span>The</span>
+      Car Jury
+    </a>
+    <ul class="nav__links">
+      <li><a href="/reviews/">Verdicts</a></li>
+      <li><a href="/compare/">Compare</a></li>
+      <li><a href="/best/">Best Lists</a></li>
+      <li><a href="/influencers/" class="active">The Jury</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page">
+
+  <!-- ── Breadcrumb ──────────────────────────────────────── -->
+  <nav class="breadcrumb" aria-label="breadcrumb">
+    <a href="/">Home</a>
+    <span class="breadcrumb__sep">›</span>
+    <a href="/influencers/">The Jury</a>
+    <span class="breadcrumb__sep">›</span>
+    <span class="breadcrumb__current">Faisal Khan</span>
+  </nav>
+
+  <!-- ── Profile hero ────────────────────────────────────── -->
+  <div class="profile-hero">
+    <div class="profile-hero__left">
+      <div class="profile-hero__meta">
+        <div class="profile-avatar">F</div>
+        <div>
+          <p class="profile-hero__eyebrow">Independent Juror · YouTube</p>
+        </div>
+      </div>
+      <h1 class="profile-hero__name">Faisal Khan</h1>
+      <p class="profile-hero__tagline">
+        "Known for blunt, no-nonsense takes on Indian cars."
+      </p>
+      <div class="profile-hero__links">
+        <a href="https://youtube.com/@FaisalKhanOfficial" target="_blank" rel="noopener" class="profile-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.96-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+          @FaisalKhanOfficial
+        </a>
+        <a href="https://youtube.com/@FaisalKhanOfficial" target="_blank" rel="noopener" class="profile-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          Subscribe
+        </a>
+      </div>
+    </div>
+
+    <div class="profile-hero__stats">
+      <p class="profile-hero__stats-title">On The Jury</p>
+      <div class="stat-row">
+        <span class="stat-row__num">1</span>
+        <span class="stat-row__label">reviews analysed</span>
+      </div>
+      <hr class="stat-row__divider" />
+      <div class="stat-row">
+        <span class="stat-row__num">1</span>
+        <span class="stat-row__label">car verdicts contributed to</span>
+      </div>
+      <hr class="stat-row__divider" />
+      <div class="stat-row">
+        <span class="stat-row__num">Since</span>
+        <span class="stat-row__label">2026 · Active juror</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Content ─────────────────────────────────────────── -->
+  <div class="content-layout">
+
+    <!-- ── Main column ───────────────────────────────────── -->
+    <main class="content-main">
+
+      <!-- About -->
+      <section class="about-section">
+        <h2 class="section-heading">About this juror</h2>
+        <div class="about-body">
+          <p>
+            Faisal Khan is one of India's most direct automotive voices on YouTube. Where many
+            reviewers hedge, Faisal commits, his takes are plainspoken, evidence-backed, and
+            deliberately free of manufacturer influence. He has built an audience by saying
+            exactly what he thinks, even when it isn't what buyers (or manufacturers) want to hear.
+          </p>
+          <p>
+            His reviews tend to focus on the questions that matter to real buyers: reliability,
+            value, everyday ownership cost, and build quality over time. Less press-launch polish,
+            more long-term accountability.
+          </p>
+        </div>
+        <div class="style-tags">
+          <span class="style-tag">Blunt</span>
+          <span class="style-tag">No-nonsense</span>
+          <span class="style-tag">Ownership-focused</span>
+          <span class="style-tag">India-first</span>
+          <span class="style-tag">Independent</span>
+        </div>
+      </section>
+
+      <!-- Reviews analysed -->
+      <section>
+        <h2 class="section-heading">Reviews we've analysed</h2>
+        <div class="verdict-list">
+
+          <!-- Tata Sierra 2025 -->
+          <article class="verdict-card">
+            <div class="verdict-card__stamp">THE VERDICT</div>
+            <div class="verdict-card__body">
+              <h3 class="verdict-card__car">Tata Sierra 2025</h3>
+              <div class="verdict-card__row">
+                <div class="verdict-score">
+                  8.1<span class="verdict-score__denom">/10</span>
+                </div>
+                <span class="verdict-pill verdict-pill--buy">
+                  ● Buy
+                </span>
+              </div>
+              <div class="verdict-card__breakdown">
+                <div class="breakdown-row">
+                  <span class="breakdown-row__label">Design</span>
+                  <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:88%"></div></div>
+                  <span class="breakdown-row__num">8.8</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="breakdown-row__label">Interior</span>
+                  <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:79%"></div></div>
+                  <span class="breakdown-row__num">7.9</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="breakdown-row__label">Powertrain</span>
+                  <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:82%"></div></div>
+                  <span class="breakdown-row__num">8.2</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="breakdown-row__label">Build</span>
+                  <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:75%"></div></div>
+                  <span class="breakdown-row__num">7.5</span>
+                </div>
+                <div class="breakdown-row">
+                  <span class="breakdown-row__label">Value</span>
+                  <div class="breakdown-bar"><div class="breakdown-bar__fill" style="width:80%"></div></div>
+                  <span class="breakdown-row__num">8.0</span>
+                </div>
+              </div>
+            </div>
+            <div class="verdict-card__footer">
+              <span class="verdict-card__jury-line">Based on 5 independent creators</span>
+              <a href="/reviews/tata-sierra-2025/" class="verdict-card__link">
+                Read verdict →
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ── Sidebar ────────────────────────────────────────── -->
+    <aside class="content-sidebar">
+
+      <!-- Trust block -->
+      <div class="trust-block">
+        <p class="trust-block__heading">Why this juror</p>
+        <p class="trust-block__body">
+          Faisal Khan is included in The Jury because he operates entirely independently:
+          no manufacturer loans, no sponsored reviews, no media affiliation. His bluntness
+          is a feature, not a bug. Verdicts that include his view are stronger for it.
+        </p>
+      </div>
+
+      <!-- Other jurors -->
+      <div class="other-jurors-block">
+        <p class="other-jurors-block__heading">Other jurors</p>
+        <a href="/influencers/gagan-choudhary/" class="other-juror-row">
+          <div class="other-juror-row__avatar">G</div>
+          <span class="other-juror-row__name">Gagan Choudhary</span>
+          <span class="other-juror-row__arrow">→</span>
+        </a>
+        <a href="/influencers/motoroctane/" class="other-juror-row">
+          <div class="other-juror-row__avatar">M</div>
+          <span class="other-juror-row__name">MotorOctane</span>
+          <span class="other-juror-row__arrow">→</span>
+        </a>
+        <a href="/influencers/powerdrift/" class="other-juror-row">
+          <div class="other-juror-row__avatar">P</div>
+          <span class="other-juror-row__name">PowerDrift</span>
+          <span class="other-juror-row__arrow">→</span>
+        </a>
+        <a href="/influencers/auto-yogi/" class="other-juror-row">
+          <div class="other-juror-row__avatar">A</div>
+          <span class="other-juror-row__name">Auto Yogi</span>
+          <span class="other-juror-row__arrow">→</span>
+        </a>
+        <a href="/influencers/" class="other-juror-row" style="color:var(--red);">
+          <div class="other-juror-row__avatar" style="background:var(--paper);color:var(--stone);">↑</div>
+          <span class="other-juror-row__name" style="color:var(--red);">View all jurors</span>
+          <span class="other-juror-row__arrow" style="color:var(--red);">→</span>
+        </a>
+      </div>
+
+    </aside>
+  </div>
+
+  <!-- ── Back link ───────────────────────────────────────── -->
+  <a href="/influencers/" class="back-link">← Back to all jurors</a>
+
+</div><!-- /page -->
+
+<!-- ── Footer ─────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div>
+      <p class="footer__name">The Car Jury</p>
+      <p class="footer__tagline">We watch every expert so you don't have to, one clear verdict on every car.</p>
+      <p style="font-size:12px;color:#BBBAB5;margin-top:10px;">No sponsored reviews · No manufacturer relationships · India's aggregated car reviews</p>
+    </div>
+    <ul class="footer__links">
+      <li><a href="/reviews/">Verdicts</a></li>
+      <li><a href="/compare/">Compare</a></li>
+      <li><a href="/best/">Best Lists</a></li>
+      <li><a href="/influencers/">The Jury</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </div>
+  <div style="max-width:1120px;margin:16px auto 0;padding:0 24px;border-top:1px solid var(--hairline);padding-top:16px;">
+    <p style="font-size:12px;color:#BBBAB5;">© 2026 The Car Jury</p>
+  </div>
+</footer>
+
+</body>
+</html>
