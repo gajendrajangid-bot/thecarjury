@@ -115,7 +115,7 @@
 
     /* Verdict header */
     .verdict-header { background: var(--white); border-bottom: 1px solid var(--hairline); }
-    .verdict-header__inner { max-width: 1100px; margin: 0 auto; padding: 28px 40px 32px; }
+    .verdict-header__inner { max-width: 760px; margin: 0 auto; padding: 28px 24px 32px; }
     .verdict-header__kicker { font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--red); text-transform: uppercase; margin-bottom: 14px; }
     .verdict-header__row { display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; margin-bottom: 20px; }
     .verdict-header__title { font: 700 clamp(1.7rem,2.8vw,2.6rem)/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; flex: 1; margin-top: 4px; }
@@ -123,7 +123,7 @@
     .verdict-header__score .verdict-badge { display: block; margin-bottom: 10px; }
     .verdict-header__score .jury-score-big { display: block; }
     .verdict-header__score .jury-score-label { margin-top: 4px; }
-    .verdict-header__reason { font: 400 18px/1.65 var(--font-body); color: var(--stone-800); font-style: italic; border-top: 1px solid var(--hairline); padding-top: 18px; max-width: 820px; margin: 0; }
+    .verdict-header__reason { font: 400 18px/1.65 var(--font-body); color: var(--stone-800); font-style: italic; border-top: 1px solid var(--hairline); padding-top: 18px; max-width: 100%; margin: 0; }
     .verdict-badge { display: inline-block; padding: 10px 28px; border-radius: 4px; font: 800 14px/1 var(--font-ui); letter-spacing: 0.12em; text-transform: uppercase; color: #0E6B3C; background: #E6F2EC; border: 1.5px solid #0E6B3C; margin-bottom: 20px; }
     .verdict-reason { font: 400 18px/1.65 var(--font-body); color: var(--stone-800); font-style: italic; }
     .jury-score-big { font: 700 56px/1 var(--font-display); color: #0E6B3C; }
@@ -211,7 +211,7 @@
 
     @media (max-width: 900px) {
       .hero-banner__img { height: 54vw; max-height: 420px; }
-      .verdict-header__inner { padding: 24px 20px 28px; }
+      .verdict-header__inner { padding: 24px 20px 28px; max-width: 760px; }
       .verdict-header__row { gap: 20px; }
     }
     @media (max-width: 600px) {
@@ -313,7 +313,7 @@
 <span class="geo-verdict verdict-color-buy">BUY</span>
 <span class="geo-score">8.0<span class="geo-score-denom">/10</span></span>
 </div>
-<p class="geo-reason" data-geo="verdict-reason">A genuinely futuristic, fun-to-drive electric SUV that delivers sports-car dynamics, 450-500 km real-world range and segment-first features at a disruptive price , provided you can live with a firm ride and tight rear seat.</p>
+<p class="geo-reason" data-geo="verdict-reason">A genuinely futuristic, fun-to-drive <a href="/reviews/hyundai/creta-electric/">electric</a> SUV that delivers sports-car dynamics, 450-500 km real-world range and segment-first features at a disruptive price , provided you can live with a firm ride and tight rear seat.</p>
 <div class="geo-sources" data-geo="sources">
 <span class="geo-sources-label">Sourced from</span>
 <span class="geo-sources-list">MotorOctane, RevLimits, RushLane, Manish Bhardwaj, Faisal Khan</span>
@@ -329,7 +329,7 @@
 </div>
 <div class="section">
 <h2>Performance &amp; Powertrain</h2>
-<p>The tested 79 kWh variant makes 282 BHP and 380 Nm, going to the rear wheels only , a rarity in India's affordable car market. <a href="/influencers/rushlane/">RushLane</a> calls it a 'sports car for the masses' with 0-100 in 6.7 seconds and an electronically limited 202 km/h top speed. A Boost mode button on the steering unlocks 10 seconds of peak output. TeamBHP confirms the BE6 actually hit 200 km/h on Mahindra's high-speed track and feels faster than the heavier XEV 9e. Three drive modes (Range, Everyday, Race) meaningfully alter throttle sharpness and steering weight. Regen has three levels plus a one-pedal drive mode. Brake-by-wire seamlessly blends regen and friction braking, and <a href="/influencers/faisal-khan/">Faisal Khan</a> specifically praises the natural pedal feel. The smaller 59 kWh pack makes 228 BHP. Charging is strong: 20-80% in 20 minutes on a 175 kW DC fast charger, with 7.2 kW and 11 kW home chargers optional. Mahindra offers a lifetime battery warranty to first owners (10 years/2 lakh km if transferred).</p>
+<p>The tested 79 kWh variant makes 282 BHP and 380 Nm, going to the rear wheels only , a rarity in India's affordable car market. <a href="/influencers/rushlane/">RushLane</a> calls it a 'sports car for the masses' with 0-100 in 6.7 seconds and an electronically limited 202 km/h top speed. A Boost mode button on the steering unlocks 10 seconds of peak output. <a href="/influencers/teambhp/">TeamBHP</a> confirms the BE6 actually hit 200 km/h on Mahindra's high-speed track and feels faster than the heavier XEV 9e. Three drive modes (Range, Everyday, Race) meaningfully alter throttle sharpness and steering weight. Regen has three levels plus a one-pedal drive mode. Brake-by-wire seamlessly blends regen and friction braking, and <a href="/influencers/faisal-khan/">Faisal Khan</a> specifically praises the natural pedal feel. The smaller 59 kWh pack makes 228 BHP. Charging is strong: 20-80% in 20 minutes on a 175 kW DC fast charger, with 7.2 kW and 11 kW home chargers optional. Mahindra offers a lifetime battery warranty to first owners (10 years/2 lakh km if transferred).</p>
 </div>
 <div class="body-image-wrap">
 <img alt="Mahindra BE6 , The Jury's Verdict interior" height="720" loading="lazy" src="/reviews/mahindra/be6/interior.webp" width="1280"/>
@@ -345,15 +345,15 @@
 </div>
 <div class="section">
 <h2>Ride Quality &amp; Handling</h2>
-<p>This is where opinions diverge. The BE6 runs semi-active dampers with displacement and IMU sensors that adjust damping in real time , tech usually reserved for Rs 40 lakh+ German cars, as <a href="/influencers/motoroctane/">MotorOctane</a> points out. RushLane and <a href="/influencers/faisal-khan/">Faisal Khan</a> both praise the ride-handling balance, with Faisal noting 'even on the worst of roads, you don't have to slow down one bit' and RushLane calling the ride 'nothing short of exceptional' despite 20-inch wheels. TeamBHP, however, finds the setup firmly biased toward handling , small potholes register in the cabin, large ones hit sharply, and there is constant side-to-side movement on broken surfaces. Handling is universally praised: short overhangs, wide track, low CoG from the floor-mounted battery and a variable-gear-ratio steering deliver sharp turn-in and confident high-speed stability. The rear can step out playfully before traction control intervenes. The turning radius is a tight sub-10 metres. Steering is direct and connected , light in the city, properly weighted in Race mode.</p>
+<p>This is where opinions diverge. The BE6 runs semi-active dampers with displacement and IMU sensors that adjust damping in real time , tech usually reserved for Rs 40 lakh+ German cars, as <a href="/influencers/motoroctane/">MotorOctane</a> points out. <a href="/influencers/rushlane/">RushLane</a> and <a href="/influencers/faisal-khan/">Faisal Khan</a> both praise the ride-handling balance, with Faisal noting 'even on the worst of roads, you don't have to slow down one bit' and RushLane calling the ride 'nothing short of exceptional' despite 20-inch wheels. TeamBHP, however, finds the setup firmly biased toward handling , small potholes register in the cabin, large ones hit sharply, and there is constant side-to-side movement on broken surfaces. Handling is universally praised: short overhangs, wide track, low CoG from the floor-mounted battery and a variable-gear-ratio steering deliver sharp turn-in and confident high-speed stability. The rear can step out playfully before traction control intervenes. The turning radius is a tight sub-10 metres. Steering is direct and connected , light in the city, properly weighted in Race mode.</p>
 </div>
 <div class="section">
 <h2>Build Quality &amp; Technology</h2>
-<p><a href="/influencers/teambhp/">TeamBHP</a> describes the exterior build as solid with satisfactory paint quality, though the heavy piano black usage will be a maintenance headache. NVH is excellent , acoustic glass, foam-filled Goodyear ElectricDrive tyres and the silent EV drivetrain keep the cabin quiet until about 90 km/h when wind noise begins to creep in. <a href="/influencers/revlimits/">RevLimits</a> and Faisal Khan both comment on how composed and quiet the cabin is, even in heavy rain. However, TeamBHP raises a key red flag: 'this car is extremely complex , we have concerns over niggles and bugs in a freshly baked Mahindra, especially the early batches', noting Mahindra's hit-or-miss after-sales. <a href="/influencers/manish-bhardwaj/">Manish Bhardwaj</a>'s owner interview reinforces this , while the BE6 itself has been trouble-free over 6,000 km, the same owner describes four years of recurring software, suspension and engine-shutdown issues with his XUV700, now in legal dispute. Feature count is staggering: Level 2+ ADAS with 5 radars, 7 airbags, all-disc brakes, auto-park, Sentry mode, digital key, 360° dashcam, interior selfie camera and driver-attention monitoring.</p>
+<p><a href="/influencers/teambhp/">TeamBHP</a> describes the exterior build as solid with satisfactory paint quality, though the heavy piano black usage will be a maintenance headache. NVH is excellent , acoustic glass, foam-filled Goodyear ElectricDrive tyres and the silent EV drivetrain keep the cabin quiet until about 90 km/h when wind noise begins to creep in. <a href="/influencers/revlimits/">RevLimits</a> and <a href="/influencers/faisal-khan/">Faisal Khan</a> both comment on how composed and quiet the cabin is, even in heavy rain. However, TeamBHP raises a key red flag: 'this car is extremely complex , we have concerns over niggles and bugs in a freshly baked Mahindra, especially the early batches', noting Mahindra's hit-or-miss after-sales. <a href="/influencers/manish-bhardwaj/">Manish Bhardwaj</a>'s owner interview reinforces this , while the BE6 itself has been trouble-free over 6,000 km, the same owner describes four years of recurring software, suspension and engine-shutdown issues with his XUV700, now in legal dispute. Feature count is staggering: Level 2+ ADAS with 5 radars, 7 airbags, all-disc brakes, auto-park, Sentry mode, digital key, 360° dashcam, interior selfie camera and driver-attention monitoring.</p>
 </div>
 <div class="section">
 <h2>Price &amp; Value</h2>
-<p>This is the BE6's strongest card. Starting at Rs 18.90 lakh ex-showroom for the 59 kWh Pack 1 (228 BHP, ~410 km WLTP range), it undercuts an automatic <a href="/reviews/hyundai/creta/">Creta</a> by just Rs 1.2 lakh while offering EV running costs, far more power and segment-leading tech. The top Pack 3 with the 79 kWh battery comes in around Rs 26.90 lakh ex-showroom per owner data shared by <a href="/influencers/manish-bhardwaj/">Manish Bhardwaj</a>. MotorOctane makes the sharpest value case: Korean EVs like the Ioniq 5 and Kia EV6 cost Rs 50-60 lakh and their RWD versions are slower while offering similar real-world range. Features like semi-active dampers, reverse-tilt ORVMs and a 16-speaker Harman Kardon system typically appear only in Rs 60 lakh+ luxury cars. The lifetime battery warranty for the first owner further de-risks the purchase. Demand reflects the value proposition , the Batman edition's 999 units sold out in 135 seconds, and waiting periods have stretched to around two months.</p>
+<p>This is the BE6's strongest card. Starting at Rs 18.90 lakh ex-showroom for the 59 kWh Pack 1 (228 BHP, ~410 km WLTP range), it undercuts an automatic <a href="/reviews/hyundai/creta/">Creta</a> by just Rs 1.2 lakh while offering EV running costs, far more power and segment-leading tech. The top Pack 3 with the 79 kWh battery comes in around Rs 26.90 lakh ex-showroom per owner data shared by <a href="/influencers/manish-bhardwaj/">Manish Bhardwaj</a>. <a href="/influencers/motoroctane/">MotorOctane</a> makes the sharpest value case: Korean EVs like the Ioniq 5 and Kia EV6 cost Rs 50-60 lakh and their RWD versions are slower while offering similar real-world range. Features like semi-active dampers, reverse-tilt ORVMs and a 16-speaker Harman Kardon system typically appear only in Rs 60 lakh+ luxury cars. The lifetime battery warranty for the first owner further de-risks the purchase. Demand reflects the value proposition , the Batman edition's 999 units sold out in 135 seconds, and waiting periods have stretched to around two months.</p>
 </div>
 <div class="cons-box">
 <h3>Watch Out For</h3>
@@ -456,7 +456,7 @@
 <div class="faq-item" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
 <div class="faq-q" itemprop="name">How is the Mahindra BE6 mileage?</div>
 <div class="faq-a" itemprop="acceptedAnswer" itemscope="" itemtype="https://schema.org/Answer">
-<span itemprop="text">The 79 kWh battery has an ARAI range of 682 km and WLTP of 550 km. Real-world figures from reviewers and owners are consistent: 450-490 km on mixed driving (MotorOctane), 480-500 km on highways and up to 550-580 km in city use (owner Harry via Manish Bhardwaj).</span>
+<span itemprop="text">The 79 kWh battery has an ARAI range of 682 km and WLTP of 550 km. Real-world figures from reviewers and owners are consistent: 450-490 km on mixed driving (MotorOctane), 480-500 km on highways and up to 550-580 km in city use (owner Harry via <a href="/influencers/manish-bhardwaj/">Manish Bhardwaj</a>).</span>
 </div>
 </div>
 <div class="faq-item" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
