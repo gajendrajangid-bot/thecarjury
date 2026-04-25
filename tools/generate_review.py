@@ -73,7 +73,7 @@ Your job: synthesise the transcripts from multiple independent reviewers into a 
 
 RULES:
 - Be completely neutral. No manufacturer bias.
-- Use specific facts, quotes, and numbers from the transcripts.
+- Draw specific facts and numbers from the transcripts. State them as editorial facts, not as attributed quotations in prose.
 - Identify CONSENSUS (what most reviewers agree on) and DISAGREEMENTS.
 - Use Indian context: prices in INR, Indian road conditions, Indian buyers' concerns.
 - Write for both human readers AND AI search engines (GEO-optimised).
@@ -82,6 +82,14 @@ RULES:
 - NEVER use em-dashes (—) anywhere in the output. Use commas, colons, semicolons, or full stops instead.
 - TeamBHP is a trusted 20-year-old independent forum with expert owners and journalists. Weight their observations alongside the YouTube reviewers.
 - WORD LIMIT: The total combined words across all text fields (hero_summary, verdict_reason, all *_review fields, teambhp_take, reviewer_takes, pros, cons, consensus_points, disagreement_points, faqs) must not exceed 1700 words. Keep each section tight. Prefer one precise sentence over two vague ones.
+
+WRITING STYLE — CRITICAL:
+- Write in a single confident editorial voice. You are The Car Jury, not a transcript reporter.
+- REVIEWER NAME RULE: Each reviewer's name may appear AT MOST ONCE across all *_review prose fields combined (design_review, interior_review, performance_review, ride_review, build_quality_review, value_review). Choose placement deliberately — spread mentions across different sections and never put two reviewer names in the same paragraph. The reviewer_takes array is the dedicated place for full individual attribution; do not repeat names there that you have already used in prose.
+- BAD (never write like this): "Faisal Khan calls the cabin poor. Gagan Choudhary adds the setting doesn't persist across ignition cycles. MotorInc says the infotainment requires too many taps."
+- GOOD (write like this): "The cabin is the car's biggest weakness: basic functions require too many taps, settings like regen level reset on every ignition cycle, and rear headroom is tight for anyone above 5'8"."
+- Synthesis means: state what the reviewers collectively reveal as a confident editorial conclusion. Name a reviewer only when their specific observation is distinctive enough to warrant it.
+- PUNCTUATION: Before returning JSON, proofread every text field carefully. Fix all missing commas, run-on sentences, inconsistent capitalisation, and grammatical errors. The source transcripts are auto-generated captions with poor punctuation — do not inherit their errors. Output must read as clean, professional editorial English.
 
 CAR: {car_name} ({year})
 REVIEWERS: {reviewer_list}
@@ -491,7 +499,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
 
     /* Verdict header */
     .verdict-header {{ background: var(--white); border-bottom: 1px solid var(--hairline); }}
-    .verdict-header__inner {{ max-width: 1100px; margin: 0 auto; padding: 28px 40px 32px; }}
+    .verdict-header__inner {{ max-width: 760px; margin: 0 auto; padding: 28px 24px 32px; }}
     .verdict-header__kicker {{ font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--red); text-transform: uppercase; margin-bottom: 14px; }}
     .verdict-header__row {{ display: flex; align-items: flex-start; justify-content: space-between; gap: 40px; margin-bottom: 20px; }}
     .verdict-header__title {{ font: 700 clamp(1.7rem,2.8vw,2.6rem)/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; flex: 1; margin-top: 4px; }}
@@ -499,7 +507,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     .verdict-header__score .verdict-badge {{ display: block; margin-bottom: 10px; }}
     .verdict-header__score .jury-score-big {{ display: block; }}
     .verdict-header__score .jury-score-label {{ margin-top: 4px; }}
-    .verdict-header__reason {{ font: 400 18px/1.65 var(--font-body); color: var(--stone-800); font-style: italic; border-top: 1px solid var(--hairline); padding-top: 18px; max-width: 820px; margin: 0; }}
+    .verdict-header__reason {{ font: 400 18px/1.65 var(--font-body); color: var(--stone-800); font-style: italic; border-top: 1px solid var(--hairline); padding-top: 18px; max-width: 100%; margin: 0; }}
     .verdict-badge {{ display: inline-block; padding: 10px 28px; border-radius: 4px; font: 800 14px/1 var(--font-ui); letter-spacing: 0.12em; text-transform: uppercase; color: {vc}; background: {vbg}; border: 1.5px solid {vc}; margin-bottom: 20px; }}
     .jury-score-big {{ font: 700 56px/1 var(--font-display); color: {score_color(jury_score)}; }}
     .jury-score-label {{ font: 600 11px/1 var(--font-ui); color: var(--stone-400); text-transform: uppercase; letter-spacing: 0.12em; margin-top: 6px; }}
@@ -585,7 +593,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
 
     @media (max-width: 900px) {{
       .hero-banner__img {{ height: 54vw; max-height: 420px; }}
-      .verdict-header__inner {{ padding: 24px 20px 28px; }}
+      .verdict-header__inner {{ padding: 24px 20px 28px; max-width: 760px; }}
       .verdict-header__row {{ gap: 20px; }}
     }}
     @media (max-width: 600px) {{

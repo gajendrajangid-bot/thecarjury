@@ -13,6 +13,8 @@ CARJURY = Path(__file__).parent.parent
 INFLUENCERS_JSON = CARJURY / "influencers/influencers.json"
 TODAY_YEAR = date.today().year
 
+APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec"
+
 GA4_SNIPPET = """<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
 <script>
@@ -216,8 +218,30 @@ def generate_influencer_page(inf: dict) -> str:
         <span class="article-arrow">→</span>
       </a>"""
 
-    yt_btn = f'<a href="{inf["youtube_url"]}" class="btn-yt" target="_blank" rel="noopener noreferrer">YouTube @{inf["youtube_handle"]}</a>' if inf.get("youtube_url") else ""
-    ig_btn = f'<a href="{inf["instagram_url"]}" class="btn-ig" target="_blank" rel="noopener noreferrer">Instagram @{inf["instagram_handle"]}</a>' if inf.get("instagram_url") else ""
+    slug = inf["slug"]
+    yt_btn = (
+        f'<a href="{inf["youtube_url"]}" class="btn-yt" target="_blank" rel="noopener noreferrer"'
+        f" onclick=\"trackClick('{slug}','youtube','@{inf['youtube_handle']}')\""
+        f'>YouTube @{inf["youtube_handle"]}</a>'
+    ) if inf.get("youtube_url") else ""
+    ig_btn = (
+        f'<a href="{inf["instagram_url"]}" class="btn-ig" target="_blank" rel="noopener noreferrer"'
+        f" onclick=\"trackClick('{slug}','instagram','@{inf['instagram_handle']}')\""
+        f'>Instagram @{inf["instagram_handle"]}</a>'
+    ) if inf.get("instagram_url") else ""
+
+    click_script = (
+        '<script>\n'
+        f'var _TCJ_EP="{APPS_SCRIPT_URL}";\n'
+        'function trackClick(j,p,h){'
+        'var fd=new FormData();'
+        "fd.append('page',j);fd.append('vote','click');"
+        "fd.append('score','');fd.append('verdict','');"
+        "fd.append('feedback',p+'::'+h);"
+        "fetch(_TCJ_EP,{method:'POST',body:fd,mode:'no-cors'});"
+        '}\n'
+        '</script>'
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -297,6 +321,7 @@ def generate_influencer_page(inf: dict) -> str:
   <p class="back-link"><a href="/influencers/">← All Jurors</a></p>
 </div>
 {site_footer()}
+{click_script}
 </body>
 </html>"""
 
