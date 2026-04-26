@@ -257,8 +257,9 @@ body{font-family:var(--fu);background:var(--paper);color:var(--ink);-webkit-font
   gap:36px;flex-wrap:wrap;
   margin:0 -48px;
 }
-.trust-item{font:600 13px/1 var(--fu);color:rgba(255,255,255,.92);letter-spacing:.02em}
-.trust-sep{color:rgba(255,255,255,.3)}
+.trust-item{font:600 13px/1 var(--fu);color:#fff;letter-spacing:.02em;display:inline-flex;align-items:center;gap:6px}
+.trust-item::before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.7);flex-shrink:0}
+.trust-sep{display:none}
 
 /* FOOTER */
 footer{
@@ -1069,13 +1070,9 @@ footer{
   <!-- TRUST BAR — STATIC -->
   <div class="trust-bar">
     <span class="trust-item">No sponsored reviews</span>
-    <span class="trust-sep">·</span>
     <span class="trust-item">No manufacturer relationships</span>
-    <span class="trust-sep">·</span>
     <span class="trust-item">Many voices, one verdict</span>
-    <span class="trust-sep">·</span>
     <span class="trust-item">Splits shown, not hidden</span>
-    <span class="trust-sep">·</span>
     <span class="trust-item">Methodology published</span>
   </div>
 
