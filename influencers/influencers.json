@@ -31,7 +31,8 @@
       "maruti/e-vitara",
       "tata/punch",
       "hyundai/creta-electric",
-      "tata/tiago-ev"
+      "tata/tiago-ev",
+      "kia/seltos"
     ]
   },
   {
@@ -67,7 +68,8 @@
       "hyundai/creta",
       "tata/nexon-ev",
       "mg/windsor-ev",
-      "tata/tiago-ev"
+      "tata/tiago-ev",
+      "kia/seltos"
     ]
   },
   {
@@ -311,7 +313,8 @@
     ],
     "why": "Auto Yogi represents the buyer's perspective, not the reviewer's. His willingness to recommend against a car \u2014 even one with strong press reception \u2014 makes every verdict he contributes to more credible.",
     "articles": [
-      "tata/sierra"
+      "tata/sierra",
+      "kia/seltos"
     ]
   },
   {
@@ -605,6 +608,58 @@
     "subscriber_count": "",
     "articles": [
       "tata/tiago-ev"
+    ]
+  },
+  {
+    "slug": "biturbo-media",
+    "name": "Biturbo Media",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "BiturboMedia",
+    "youtube_url": "https://www.youtube.com/@BiturboMedia",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "kia/seltos"
+    ]
+  },
+  {
+    "slug": "pranay-kapoor",
+    "name": "Pranay Kapoor",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "PranayKapoor",
+    "youtube_url": "https://www.youtube.com/@PranayKapoor",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "kia/seltos"
+    ]
+  },
+  {
+    "slug": "drivespark",
+    "name": "DriveSpark",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "DriveSpark",
+    "youtube_url": "https://www.youtube.com/@DriveSpark",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "kia/seltos"
+    ]
+  },
+  {
+    "slug": "ashish-car-review",
+    "name": "Ashish Car Review",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "AshishCarReview",
+    "youtube_url": "https://www.youtube.com/@AshishCarReview",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "kia/seltos"
     ]
   }
 ]

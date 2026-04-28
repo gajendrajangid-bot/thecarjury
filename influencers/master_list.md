@@ -100,6 +100,10 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **Biturbo Media** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Pranay Kapoor** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **DriveSpark** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Ashish Car Review** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **CLASSIC GEARS** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Sachinn Rose** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **MotorBerg** | TBC | TBC | TBC | TBC | Auto-added from article |
