@@ -100,6 +100,20 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **Biturbo Media** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Pranay Kapoor** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **DriveSpark** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Ashish Car Review** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **CLASSIC GEARS** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Sachinn Rose** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **MotorBerg** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **EV Gyan** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Shyam Arora** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Vikram Rajera** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **King Indian** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Team Car Delight** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **MotorByte** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Rishabh Arora** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Hindi Auto Reviewer** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Car Blogger** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Gagan** | TBC | TBC | TBC | TBC | Auto-added from article |
