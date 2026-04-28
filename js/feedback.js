@@ -11,7 +11,6 @@
 
   var score   = document.body.getAttribute('data-score')   || '';
   var verdict = document.body.getAttribute('data-verdict') || '';
-  if (!score || !verdict) return;
 
   // ── Styles ────────────────────────────────────────────────
   var s = document.createElement('style');
@@ -98,9 +97,9 @@
     var fd = new FormData();
     fd.append('page', sanitize(page));
     fd.append('vote', vote === 'up' || vote === 'down' ? vote : 'down');
-    fd.append('score', score);
-    fd.append('verdict', verdict);
-    if (text) fd.append('feedback', sanitize(text));
+    if (score)   fd.append('score', score);
+    if (verdict) fd.append('verdict', verdict);
+    if (text)    fd.append('feedback', sanitize(text));
     fetch(ENDPOINT, { method: 'POST', body: fd, mode: 'no-cors' }).catch(function(e){
       console.warn('[TCJ] feedback submit failed', e);
     });
