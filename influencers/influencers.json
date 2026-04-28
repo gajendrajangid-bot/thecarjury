@@ -12,7 +12,7 @@
     "instagram_url": "",
     "instagram_handle": "",
     "about": [
-      "Faisal Khan is one of India's most direct automotive voices on YouTube. Where many reviewers hedge, Faisal commits \u2014 his takes are plainspoken, evidence-backed, and deliberately free of manufacturer influence. He has built an audience by saying exactly what he thinks, even when it isn't what buyers or manufacturers want to hear.",
+      "Faisal Khan is one of India's most direct automotive voices on YouTube. Where many reviewers hedge, Faisal commits — his takes are plainspoken, evidence-backed, and deliberately free of manufacturer influence. He has built an audience by saying exactly what he thinks, even when it isn't what buyers or manufacturers want to hear.",
       "His reviews focus on what matters to real buyers: reliability, value, everyday ownership cost, and build quality over time. Less press-launch polish, more long-term accountability."
     ],
     "style_tags": [
@@ -22,7 +22,7 @@
       "India-first",
       "Independent"
     ],
-    "why": "Faisal Khan is on The Jury because he operates entirely independently \u2014 no manufacturer loans, no sponsored reviews, no media affiliation. His bluntness is a feature, not a bug.",
+    "why": "Faisal Khan is on The Jury because he operates entirely independently — no manufacturer loans, no sponsored reviews, no media affiliation. His bluntness is a feature, not a bug.",
     "articles": [
       "tata/sierra",
       "mahindra/be6",
@@ -37,7 +37,7 @@
     "slug": "gagan-choudhary",
     "name": "Gagan Choudhary",
     "trusted": true,
-    "tagline": "Deep-dive reviews with a strong focus on ownership experience \u2014 what it's actually like to live with a car long after the press launch.",
+    "tagline": "Deep-dive reviews with a strong focus on ownership experience — what it's actually like to live with a car long after the press launch.",
     "platforms": [
       "YouTube"
     ],
@@ -46,7 +46,7 @@
     "instagram_url": "",
     "instagram_handle": "",
     "about": [
-      "Gagan Choudhary's reviews stand out for their attention to interior quality and cabin experience \u2014 the dimensions of a car that matter most to buyers who will spend years inside it. He is consistently more precise on material quality, ergonomics, and feature usability than most of his peers.",
+      "Gagan Choudhary's reviews stand out for their attention to interior quality and cabin experience — the dimensions of a car that matter most to buyers who will spend years inside it. He is consistently more precise on material quality, ergonomics, and feature usability than most of his peers.",
       "His takes are measured and fair, rarely sensational. When he praises something, it's earned. When he criticises, it's specific. This consistency makes him a reliable signal in The Jury's synthesis."
     ],
     "style_tags": [
@@ -56,21 +56,22 @@
       "Quality-conscious",
       "Balanced"
     ],
-    "why": "Gagan Choudhary is on The Jury for his precision on interior quality and cabin experience \u2014 an area where reviewers often make vague claims. His assessments are specific and traceable.",
+    "why": "Gagan Choudhary is on The Jury for his precision on interior quality and cabin experience — an area where reviewers often make vague claims. His assessments are specific and traceable.",
     "articles": [
       "tata/sierra",
       "renault/duster",
       "skoda/kushaq",
       "maruti/e-vitara",
       "tata/punch",
-      "hyundai/creta"
+      "hyundai/creta",
+      "tata/nexon-ev"
     ]
   },
   {
     "slug": "motoroctane",
     "name": "MotorOctane",
     "trusted": true,
-    "tagline": "Performance and tech-focused reviews from Pune. Goes beyond looks to stress-test real engineering \u2014 powertrain, handling, driving dynamics.",
+    "tagline": "Performance and tech-focused reviews from Pune. Goes beyond looks to stress-test real engineering — powertrain, handling, driving dynamics.",
     "platforms": [
       "YouTube",
       "Instagram"
@@ -80,7 +81,7 @@
     "instagram_url": "https://www.instagram.com/motoroctane",
     "instagram_handle": "motoroctane",
     "about": [
-      "MotorOctane approaches every car as an engineer would \u2014 numbers first, impressions second. Based in Pune, the channel has built a reputation for testing claims that other reviewers accept at face value: claimed mileage versus real-world figures, 0-100 times, charging speeds, and handling benchmarks.",
+      "MotorOctane approaches every car as an engineer would — numbers first, impressions second. Based in Pune, the channel has built a reputation for testing claims that other reviewers accept at face value: claimed mileage versus real-world figures, 0-100 times, charging speeds, and handling benchmarks.",
       "Their reviews are methodical and data-heavy, which makes them a crucial counterweight to more impressionistic takes. When MotorOctane says a car performs, it has been measured."
     ],
     "style_tags": [
@@ -95,7 +96,8 @@
       "tata/sierra",
       "mahindra/be6",
       "skoda/kushaq",
-      "hyundai/creta"
+      "hyundai/creta",
+      "hyundai/creta-electric"
     ]
   },
   {
@@ -112,7 +114,7 @@
     "instagram_handle": "",
     "about": [
       "MotorInc has established itself as a trusted voice in Indian automotive media through methodical, unsponsored reviews that prioritise the buyer's perspective over the manufacturer's narrative. Their work is grounded in real-world testing rather than press-launch impressions.",
-      "What distinguishes MotorInc is their consistency \u2014 the same rigour applied to every car regardless of brand, price point, or market hype. That kind of independent discipline is exactly what The Jury is built around."
+      "What distinguishes MotorInc is their consistency — the same rigour applied to every car regardless of brand, price point, or market hype. That kind of independent discipline is exactly what The Jury is built around."
     ],
     "style_tags": [
       "Independent",
@@ -131,7 +133,7 @@
     "slug": "teambhp",
     "name": "TeamBHP",
     "trusted": true,
-    "tagline": "India's most authoritative enthusiast forum \u2014 community-driven long-term testing and expert analysis since 2004.",
+    "tagline": "India's most authoritative enthusiast forum — community-driven long-term testing and expert analysis since 2004.",
     "platforms": [
       "YouTube",
       "Forum",
@@ -142,8 +144,8 @@
     "instagram_url": "https://www.instagram.com/teambhp",
     "instagram_handle": "teambhp",
     "about": [
-      "TeamBHP is India's largest and most respected automotive community, combining professional editorial reviews with decades of collective owner experience. Their forum threads \u2014 often running to hundreds of pages per car \u2014 represent the most comprehensive long-term ownership data available anywhere in Indian automotive media.",
-      "Their reviews are thorough, technically grounded, and never swayed by manufacturer access or advertising relationships. The community's collective intelligence catches things individual reviewers miss \u2014 which is why TeamBHP is the only forum source The Jury includes."
+      "TeamBHP is India's largest and most respected automotive community, combining professional editorial reviews with decades of collective owner experience. Their forum threads — often running to hundreds of pages per car — represent the most comprehensive long-term ownership data available anywhere in Indian automotive media.",
+      "Their reviews are thorough, technically grounded, and never swayed by manufacturer access or advertising relationships. The community's collective intelligence catches things individual reviewers miss — which is why TeamBHP is the only forum source The Jury includes."
     ],
     "style_tags": [
       "Long-term testing",
@@ -162,7 +164,7 @@
     "slug": "v3cars",
     "name": "V3Cars",
     "trusted": true,
-    "tagline": "Spec-driven, no-nonsense variant analysis \u2014 the go-to channel for buyers who want to cut through trim-level confusion.",
+    "tagline": "Spec-driven, no-nonsense variant analysis — the go-to channel for buyers who want to cut through trim-level confusion.",
     "platforms": [
       "YouTube"
     ],
@@ -172,7 +174,7 @@
     "instagram_handle": "",
     "about": [
       "V3Cars has carved out a distinct niche in Indian automotive media by focusing on what most reviewers gloss over: variant comparisons, value analysis, and the hard numbers behind every purchase decision. Their reviews are methodical and buyer-centric, with a strong emphasis on which trim is actually worth the money.",
-      "In a landscape crowded with first-drive impressions, V3Cars delivers the kind of structured analysis that helps real buyers make real decisions. No filler, no drama \u2014 just the data that matters."
+      "In a landscape crowded with first-drive impressions, V3Cars delivers the kind of structured analysis that helps real buyers make real decisions. No filler, no drama — just the data that matters."
     ],
     "style_tags": [
       "Spec-focused",
@@ -181,19 +183,22 @@
       "Buyer-first",
       "No-nonsense"
     ],
-    "why": "V3Cars earns their place on The Jury for their rigorous variant and value analysis \u2014 an area most reviewers skip entirely. Their structured approach to which trim is worth buying is genuinely useful in synthesis.",
+    "why": "V3Cars earns their place on The Jury for their rigorous variant and value analysis — an area most reviewers skip entirely. Their structured approach to which trim is worth buying is genuinely useful in synthesis.",
     "articles": [
       "renault/duster",
       "skoda/kushaq",
       "maruti/e-vitara",
-      "tata/nexon-ev"
+      "tata/nexon-ev",
+      "tata/punch",
+      "hyundai/creta-electric",
+      "hyundai/creta"
     ]
   },
   {
     "slug": "ask-carguru",
     "name": "Ask CarGuru",
     "trusted": true,
-    "tagline": "One-man buyer advisory channel \u2014 Amit Khare cuts through manufacturer claims to tell you exactly what to buy and what to avoid.",
+    "tagline": "One-man buyer advisory channel — Amit Khare cuts through manufacturer claims to tell you exactly what to buy and what to avoid.",
     "platforms": [
       "YouTube"
     ],
@@ -202,7 +207,7 @@
     "instagram_url": "",
     "instagram_handle": "",
     "about": [
-      "Ask CarGuru, run by Amit Khare, takes an explicitly advisory approach \u2014 his reviews are structured around the buyer's question, not the manufacturer's narrative. He is direct about recommending against overpriced variants and consistently flags where better alternatives exist.",
+      "Ask CarGuru, run by Amit Khare, takes an explicitly advisory approach — his reviews are structured around the buyer's question, not the manufacturer's narrative. He is direct about recommending against overpriced variants and consistently flags where better alternatives exist.",
       "His one-man format is a strength: there is no editorial committee softening his takes. Amit Khare says what he thinks, which is the foundational requirement for any voice on The Jury."
     ],
     "style_tags": [
@@ -212,7 +217,7 @@
       "Direct",
       "Alternative-aware"
     ],
-    "why": "Ask CarGuru is on The Jury for Amit Khare's explicitly buyer-first advisory stance. He is one of the few reviewers who consistently recommends alternatives when a car underdelivers \u2014 a perspective that strengthens any verdict.",
+    "why": "Ask CarGuru is on The Jury for Amit Khare's explicitly buyer-first advisory stance. He is one of the few reviewers who consistently recommends alternatives when a car underdelivers — a perspective that strengthens any verdict.",
     "articles": [
       "maruti/e-vitara"
     ]
@@ -221,7 +226,7 @@
     "slug": "motorbeam",
     "name": "MotorBeam",
     "trusted": true,
-    "tagline": "India's longest-running independent car review platform \u2014 founded by Faisal Khan, built on two decades of unsponsored analysis.",
+    "tagline": "India's longest-running independent car review platform — founded by Faisal Khan, built on two decades of unsponsored analysis.",
     "platforms": [
       "YouTube",
       "Website"
@@ -231,7 +236,7 @@
     "instagram_url": "",
     "instagram_handle": "",
     "about": [
-      "MotorBeam is the platform Faisal Khan built before his personal channel \u2014 one of India's oldest and most respected independent automotive review outlets. It combines video reviews with detailed written analysis, spec comparisons, and long-term ownership reports that go beyond what a single YouTube video can cover.",
+      "MotorBeam is the platform Faisal Khan built before his personal channel — one of India's oldest and most respected independent automotive review outlets. It combines video reviews with detailed written analysis, spec comparisons, and long-term ownership reports that go beyond what a single YouTube video can cover.",
       "The editorial independence that defines Faisal Khan's personal work applies equally to MotorBeam. No manufacturer relationships, no sponsored reviews, no soft-pedalling for access. The same rigour, with a wider team and longer track record."
     ],
     "style_tags": [
@@ -241,17 +246,18 @@
       "Established",
       "Comprehensive"
     ],
-    "why": "MotorBeam carries the same editorial independence as Faisal Khan's personal channel \u2014 it is his platform. Including MotorBeam gives The Jury access to their broader written analysis and long-term ownership reports, which complement video-first reviews.",
+    "why": "MotorBeam carries the same editorial independence as Faisal Khan's personal channel — it is his platform. Including MotorBeam gives The Jury access to their broader written analysis and long-term ownership reports, which complement video-first reviews.",
     "articles": [
       "skoda/kushaq",
-      "hyundai/creta"
+      "hyundai/creta",
+      "tata/punch"
     ]
   },
   {
     "slug": "powerdrift",
     "name": "PowerDrift",
     "trusted": false,
-    "tagline": "India's most cinematic car review channel \u2014 where aesthetic production value meets substantive driving analysis.",
+    "tagline": "India's most cinematic car review channel — where aesthetic production value meets substantive driving analysis.",
     "platforms": [
       "YouTube",
       "Instagram"
@@ -261,7 +267,7 @@
     "instagram_url": "https://www.instagram.com/powerdrift",
     "instagram_handle": "powerdrift",
     "about": [
-      "PowerDrift has redefined what a car review can look like \u2014 cinematic, considered, and never superficial. Their production quality is the highest on Indian automotive YouTube, but it never comes at the expense of substance. Behind the visuals is rigorous driving analysis.",
+      "PowerDrift has redefined what a car review can look like — cinematic, considered, and never superficial. Their production quality is the highest on Indian automotive YouTube, but it never comes at the expense of substance. Behind the visuals is rigorous driving analysis.",
       "Their strength is the driving experience: ride, handling, steering feedback, and the emotional weight of being behind the wheel. They capture aspects of a car that pure data cannot."
     ],
     "style_tags": [
@@ -289,7 +295,7 @@
     "instagram_url": "",
     "instagram_handle": "",
     "about": [
-      "Auto Yogi goes where most reviewers don't \u2014 beyond the press launch, into the reality of ownership. His reviews are long because cars are complicated and buyers deserve thorough answers. He drives hard, tests seriously, and reports back without softening the findings.",
+      "Auto Yogi goes where most reviewers don't — beyond the press launch, into the reality of ownership. His reviews are long because cars are complicated and buyers deserve thorough answers. He drives hard, tests seriously, and reports back without softening the findings.",
       "His particular strength is the value analysis: whether a car's price is justified by what you actually get to live with day to day. He regularly recommends waiting or looking elsewhere when better options exist."
     ],
     "style_tags": [
@@ -299,7 +305,7 @@
       "Thorough",
       "Honest"
     ],
-    "why": "Auto Yogi represents the buyer's perspective, not the reviewer's. His willingness to recommend against a car \u2014 even one with strong press reception \u2014 makes every verdict he contributes to more credible.",
+    "why": "Auto Yogi represents the buyer's perspective, not the reviewer's. His willingness to recommend against a car — even one with strong press reception — makes every verdict he contributes to more credible.",
     "articles": [
       "tata/sierra"
     ]
@@ -308,7 +314,7 @@
     "slug": "rushlane",
     "name": "RushLane",
     "trusted": false,
-    "tagline": "Fast-breaking India car news and detailed first-drive reports \u2014 comprehensive coverage from launch to ownership.",
+    "tagline": "Fast-breaking India car news and detailed first-drive reports — comprehensive coverage from launch to ownership.",
     "platforms": [
       "YouTube",
       "Instagram"
@@ -318,7 +324,7 @@
     "instagram_url": "https://www.instagram.com/rushlane",
     "instagram_handle": "rushlane",
     "about": [
-      "RushLane covers the Indian automotive market comprehensively \u2014 from launch scoops to detailed first drives. Their strength is breadth and speed: they cover more cars, more variants, and more market segments than almost any other independent outlet.",
+      "RushLane covers the Indian automotive market comprehensively — from launch scoops to detailed first drives. Their strength is breadth and speed: they cover more cars, more variants, and more market segments than almost any other independent outlet.",
       "Their reviews are direct and practical, focused on what buyers need to know. They are particularly strong on value-for-money assessments and variant comparisons."
     ],
     "style_tags": [
@@ -337,7 +343,7 @@
     "slug": "revlimits",
     "name": "RevLimits",
     "trusted": false,
-    "tagline": "Enthusiast car reviews with a sharp focus on driving dynamics \u2014 for buyers who care how a car feels, not just how it looks.",
+    "tagline": "Enthusiast car reviews with a sharp focus on driving dynamics — for buyers who care how a car feels, not just how it looks.",
     "platforms": [
       "YouTube"
     ],
@@ -346,7 +352,7 @@
     "instagram_url": "",
     "instagram_handle": "",
     "about": [
-      "RevLimits reviews are written for enthusiasts by enthusiasts. Their focus is the driving experience \u2014 throttle response, steering feel, suspension tuning, and the way a car communicates with its driver.",
+      "RevLimits reviews are written for enthusiasts by enthusiasts. Their focus is the driving experience — throttle response, steering feel, suspension tuning, and the way a car communicates with its driver.",
       "Their reviews are sharp and opinionated, which is precisely their value. On questions of dynamics and driver engagement, RevLimits provides a perspective that more mainstream reviewers rarely capture with the same precision."
     ],
     "style_tags": [
@@ -356,7 +362,7 @@
       "Driver-centric",
       "Sharp"
     ],
-    "why": "RevLimits is on The Jury for their depth on driving dynamics \u2014 an area where most Indian reviewers remain shallow.",
+    "why": "RevLimits is on The Jury for their depth on driving dynamics — an area where most Indian reviewers remain shallow.",
     "articles": [
       "mahindra/be6"
     ]
@@ -365,7 +371,7 @@
     "slug": "manish-bhardwaj",
     "name": "Manish Bhardwaj",
     "trusted": false,
-    "tagline": "Real-world EV ownership interviews and long-term usage reports \u2014 the voice of the actual buyer, not the press-launch attendee.",
+    "tagline": "Real-world EV ownership interviews and long-term usage reports — the voice of the actual buyer, not the press-launch attendee.",
     "platforms": [
       "YouTube"
     ],
@@ -374,7 +380,7 @@
     "instagram_url": "",
     "instagram_handle": "",
     "about": [
-      "Manish Bhardwaj does something rare in Indian automotive media: he talks to owners. His content is built on real-world interviews with people who have actually bought and lived with the cars \u2014 not press-loan recipients driving a car for 200 km before returning the keys.",
+      "Manish Bhardwaj does something rare in Indian automotive media: he talks to owners. His content is built on real-world interviews with people who have actually bought and lived with the cars — not press-loan recipients driving a car for 200 km before returning the keys.",
       "This gives his analysis a ground-truth quality that no first-drive review can match. On questions of long-term reliability, real-world range, service experience, and the honest cost of ownership, Manish Bhardwaj is often the most reliable voice available."
     ],
     "style_tags": [
@@ -392,7 +398,7 @@
   {
     "slug": "motor-trend-karthikeya-singhee",
     "name": "Motor Trend (Karthikeya Singhee)",
-    "tagline": "Independent car reviewer \u2014 Motor Trend India",
+    "tagline": "Independent car reviewer — Motor Trend India",
     "youtube_handle": "MotorTrendIndia",
     "youtube_url": "https://www.youtube.com/@MotorTrendIndia",
     "instagram_url": "",
@@ -405,7 +411,7 @@
   {
     "slug": "vishal-ahlawat-with-askar-guru",
     "name": "Vishal Ahlawat (with Askar Guru)",
-    "tagline": "Independent car reviewer \u2014 Vishal Ahlawat",
+    "tagline": "Independent car reviewer — Vishal Ahlawat",
     "youtube_handle": "VishalAhlawat",
     "youtube_url": "https://www.youtube.com/@VishalAhlawat",
     "instagram_url": "",
@@ -416,39 +422,11 @@
     ]
   },
   {
-    "slug": "motor-beam",
-    "name": "Motor Beam",
-    "tagline": "Independent car reviewer \u2014 Motor Beam (Y7RTEN4htW8)",
-    "youtube_handle": "MotorBeam(Y7RTEN4htW8)",
-    "youtube_url": "https://www.youtube.com/@MotorBeam(Y7RTEN4htW8)",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "tata/punch"
-    ]
-  },
-  {
-    "slug": "v3-cars",
-    "name": "V3 Cars",
-    "tagline": "Independent car reviewer \u2014 V3 Cars (u96eWTG1N40)",
-    "youtube_handle": "V3Cars(u96eWTG1N40)",
-    "youtube_url": "https://www.youtube.com/@V3Cars(u96eWTG1N40)",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "tata/punch",
-      "hyundai/creta-electric",
-      "hyundai/creta"
-    ]
-  },
-  {
     "slug": "aman-ahmed",
     "name": "Aman Ahmed",
-    "tagline": "Independent car reviewer \u2014 Car and Bike (aBDonkTJIoU)",
-    "youtube_handle": "CarandBike(aBDonkTJIoU)",
-    "youtube_url": "https://www.youtube.com/@CarandBike(aBDonkTJIoU)",
+    "tagline": "Independent car reviewer — Car and Bike",
+    "youtube_handle": "CarAndBike",
+    "youtube_url": "https://www.youtube.com/@CarAndBike",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
@@ -459,22 +437,9 @@
   {
     "slug": "mudit-bhambri",
     "name": "Mudit Bhambri",
-    "tagline": "Independent car reviewer \u2014 Mudit Bhambri (w0HX9r_tUII)",
-    "youtube_handle": "MuditBhambri(w0HX9r_tUII)",
-    "youtube_url": "https://www.youtube.com/@MuditBhambri(w0HX9r_tUII)",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "hyundai/creta-electric"
-    ]
-  },
-  {
-    "slug": "nikhil-rana",
-    "name": "Nikhil Rana",
-    "tagline": "Independent car reviewer \u2014 MotorOctane (M-EvNivlXwE)",
-    "youtube_handle": "MotorOctane(M-EvNivlXwE)",
-    "youtube_url": "https://www.youtube.com/@MotorOctane(M-EvNivlXwE)",
+    "tagline": "Independent car reviewer — Mudit Bhambri",
+    "youtube_handle": "MuditBhambri",
+    "youtube_url": "https://www.youtube.com/@MuditBhambri",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
@@ -485,22 +450,9 @@
   {
     "slug": "car-blogger",
     "name": "Car Blogger",
-    "tagline": "Independent car reviewer \u2014 SxT9u6gbwx8",
-    "youtube_handle": "SxT9u6gbwx8",
-    "youtube_url": "https://www.youtube.com/@SxT9u6gbwx8",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "tata/nexon-ev"
-    ]
-  },
-  {
-    "slug": "gagan",
-    "name": "Gagan",
-    "tagline": "Independent car reviewer \u2014 3G41vb-fV4c",
-    "youtube_handle": "3G41vb-fV4c",
-    "youtube_url": "https://www.youtube.com/@3G41vb-fV4c",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "",
+    "youtube_url": "",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
@@ -511,9 +463,9 @@
   {
     "slug": "hindi-auto-reviewer",
     "name": "Hindi Auto Reviewer",
-    "tagline": "Independent car reviewer \u2014 YouTube",
-    "youtube_handle": "YouTube",
-    "youtube_url": "https://www.youtube.com/@YouTube",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "",
+    "youtube_url": "",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
