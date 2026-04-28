@@ -171,6 +171,16 @@ def generate_index(influencers: list[dict]) -> str:
   <title>India's Top Independent Car Reviewers — The Car Jury</title>
   <meta name="description" content="The 5 independent YouTube creators whose reviews The Car Jury synthesises into one verdict. No media outlets. No manufacturer relationships." />
   <link rel="canonical" href="https://www.thecarjury.com/influencers/" />
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "India's Top Independent Car Reviewers — The Car Jury",
+    "description": "The independent YouTube creators whose reviews The Car Jury synthesises into one verdict. No media outlets. No manufacturer relationships.",
+    "url": "https://www.thecarjury.com/influencers/",
+    "publisher": {{"@type": "Organization", "name": "The Car Jury", "url": "https://www.thecarjury.com"}}
+  }}
+  </script>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   {FONTS_LINK}
   <style>
@@ -252,6 +262,20 @@ def generate_influencer_page(inf: dict) -> str:
   <title>{inf['name']} — Independent Car Reviewer | The Car Jury</title>
   <meta name="description" content="{inf['name']} is one of India's top independent car reviewers. The Car Jury has synthesised their analysis across {article_count} car review{'s' if article_count != 1 else ''}." />
   <link rel="canonical" href="https://www.thecarjury.com/influencers/{inf['slug']}/" />
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "{inf['name']} — Independent Car Reviewer | The Car Jury",
+    "url": "https://www.thecarjury.com/influencers/{inf['slug']}/",
+    "mainEntity": {{
+      "@type": "Person",
+      "name": "{inf['name']}",
+      "description": "{inf.get('tagline', '')}",
+      "url": "https://www.thecarjury.com/influencers/{inf['slug']}/"
+    }}
+  }}
+  </script>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   {FONTS_LINK}
   <style>

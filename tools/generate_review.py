@@ -187,11 +187,24 @@ def synthesise_with_claude(car_name: str, year: int,
 
 # ── Influencer Registry Sync ───────────────────────────────────────────────────
 
+# YouTube video ID pattern: 11-char alphanumeric+dash+underscore in parens
+_VIDEO_ID_RE = re.compile(r"\s*\([a-zA-Z0-9_-]{11}\)\s*")
+
+def _normalize(s: str) -> str:
+    """Strip all non-alphanumeric chars and lowercase for fuzzy matching."""
+    return re.sub(r"[^a-z0-9]", "", s.lower())
+
+def _strip_video_id(s: str) -> str:
+    """Remove YouTube video ID patterns like (Y7RTEN4htW8) from strings."""
+    return _VIDEO_ID_RE.sub("", s).strip()
+
 def sync_influencers(brand: str, model: str, reviewer_takes: list[dict]) -> bool:
     """
     After a review is published, ensure every cited reviewer exists in influencers.json.
     - New reviewer → add entry with basic info derived from synthesis output
     - Existing reviewer → append this article to their articles[] if missing
+    Matching uses normalized names (no spaces/punctuation) to prevent near-duplicates
+    like "Motor Beam" vs "MotorBeam" or "Gagan" vs "Gagan Choudhary".
     Also appends new entries to master_list.md under an "Unranked / New" section.
     Returns True if influencers.json was modified.
     """
@@ -200,40 +213,59 @@ def sync_influencers(brand: str, model: str, reviewer_takes: list[dict]) -> bool
     article_slug = f"{brand}/{model}"
 
     influencers = json.loads(json_path.read_text()) if json_path.exists() else []
+    # Build both exact-name and normalized-name lookup tables
     by_name = {inf["name"].lower(): inf for inf in influencers}
+    by_norm = {_normalize(inf["name"]): inf for inf in influencers}
+    by_slug = {inf["slug"]: inf for inf in influencers}
 
     changed = False
     newly_added = []
 
     for r in reviewer_takes:
         name = r.get("name", "").strip()
-        channel = r.get("channel", "").strip()
+        channel = _strip_video_id(r.get("channel", "").strip())
         if not name:
             continue
 
-        key = name.lower()
-        if key in by_name:
-            inf = by_name[key]
+        # Skip entries where name looks like a raw YouTube video ID
+        if re.fullmatch(r"[a-zA-Z0-9_-]{11}", name):
+            print(f"  [skip] Ignoring video-ID reviewer name: {name!r}")
+            continue
+
+        name_clean = _strip_video_id(name)
+        norm_key = _normalize(name_clean)
+        slug_key = re.sub(r"[^a-z0-9]+", "-", name_clean.lower()).strip("-")
+
+        # Match: exact name → normalized name → slug → normalized slug of channel
+        inf = (
+            by_name.get(name_clean.lower())
+            or by_norm.get(norm_key)
+            or by_slug.get(slug_key)
+            or (by_norm.get(_normalize(channel)) if channel and channel != name_clean else None)
+        )
+
+        if inf:
             if article_slug not in inf.get("articles", []):
                 inf.setdefault("articles", []).append(article_slug)
                 changed = True
         else:
-            slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
-            handle = channel.replace(" ", "") if channel and channel != name else name.replace(" ", "")
+            handle = channel.replace(" ", "") if channel and channel != name_clean else name_clean.replace(" ", "")
             new_inf = {
-                "slug": slug,
-                "name": name,
-                "tagline": f"Independent car reviewer — {channel}" if channel and channel != name else "Independent car reviewer on YouTube",
+                "slug": slug_key,
+                "name": name_clean,
+                "tagline": f"Independent car reviewer — {channel}" if channel and channel != name_clean else "Independent car reviewer on YouTube",
                 "youtube_handle": handle,
-                "youtube_url": f"https://www.youtube.com/@{handle}",
+                "youtube_url": f"https://www.youtube.com/@{handle}" if handle else "",
                 "instagram_url": "",
                 "instagram_handle": "",
                 "subscriber_count": "",
                 "articles": [article_slug],
             }
             influencers.append(new_inf)
-            by_name[key] = new_inf
-            newly_added.append(name)
+            by_name[name_clean.lower()] = new_inf
+            by_norm[norm_key] = new_inf
+            by_slug[slug_key] = new_inf
+            newly_added.append(name_clean)
             changed = True
 
     if changed:
@@ -821,9 +853,11 @@ def main():
         title, author = fetch_video_title(vid)
         text = fetch_transcript(vid)
         if text:
-            key = author or vid
+            # Use author name as key; fall back to "Unknown Reviewer (vid)" so
+            # the video ID never leaks into Claude as a reviewer name.
+            key = author if author else f"Unknown Reviewer ({vid})"
             transcripts[key] = text
-            print(f"    {len(text):,} chars from {author or vid}")
+            print(f"    {len(text):,} chars from {key}")
         else:
             print(f"    No transcript available")
 
@@ -873,6 +907,7 @@ def main():
     sync_influencers(args.brand, args.model, data.get("reviewer_takes", []))
 
     # 6. Update sitemap + llms.txt + influencer pages
+    sys.path.insert(0, str(ROOT))
     sys.path.insert(0, str(ROOT / "agents"))
     import carjury_manager
     carjury_manager.update_sitemap()

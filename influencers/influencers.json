@@ -30,7 +30,8 @@
       "skoda/kushaq",
       "maruti/e-vitara",
       "tata/punch",
-      "hyundai/creta-electric"
+      "hyundai/creta-electric",
+      "tata/tiago-ev"
     ]
   },
   {
@@ -63,7 +64,10 @@
       "skoda/kushaq",
       "maruti/e-vitara",
       "tata/punch",
-      "hyundai/creta"
+      "hyundai/creta",
+      "tata/nexon-ev",
+      "mg/windsor-ev",
+      "tata/tiago-ev"
     ]
   },
   {
@@ -95,7 +99,8 @@
       "tata/sierra",
       "mahindra/be6",
       "skoda/kushaq",
-      "hyundai/creta"
+      "hyundai/creta",
+      "hyundai/creta-electric"
     ]
   },
   {
@@ -186,7 +191,11 @@
       "renault/duster",
       "skoda/kushaq",
       "maruti/e-vitara",
-      "tata/nexon-ev"
+      "tata/nexon-ev",
+      "tata/punch",
+      "hyundai/creta-electric",
+      "hyundai/creta",
+      "mg/windsor-ev"
     ]
   },
   {
@@ -244,7 +253,8 @@
     "why": "MotorBeam carries the same editorial independence as Faisal Khan's personal channel \u2014 it is his platform. Including MotorBeam gives The Jury access to their broader written analysis and long-term ownership reports, which complement video-first reviews.",
     "articles": [
       "skoda/kushaq",
-      "hyundai/creta"
+      "hyundai/creta",
+      "tata/punch"
     ]
   },
   {
@@ -416,39 +426,11 @@
     ]
   },
   {
-    "slug": "motor-beam",
-    "name": "Motor Beam",
-    "tagline": "Independent car reviewer \u2014 Motor Beam (Y7RTEN4htW8)",
-    "youtube_handle": "MotorBeam(Y7RTEN4htW8)",
-    "youtube_url": "https://www.youtube.com/@MotorBeam(Y7RTEN4htW8)",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "tata/punch"
-    ]
-  },
-  {
-    "slug": "v3-cars",
-    "name": "V3 Cars",
-    "tagline": "Independent car reviewer \u2014 V3 Cars (u96eWTG1N40)",
-    "youtube_handle": "V3Cars(u96eWTG1N40)",
-    "youtube_url": "https://www.youtube.com/@V3Cars(u96eWTG1N40)",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "tata/punch",
-      "hyundai/creta-electric",
-      "hyundai/creta"
-    ]
-  },
-  {
     "slug": "aman-ahmed",
     "name": "Aman Ahmed",
-    "tagline": "Independent car reviewer \u2014 Car and Bike (aBDonkTJIoU)",
-    "youtube_handle": "CarandBike(aBDonkTJIoU)",
-    "youtube_url": "https://www.youtube.com/@CarandBike(aBDonkTJIoU)",
+    "tagline": "Independent car reviewer \u2014 Car and Bike",
+    "youtube_handle": "CarAndBike",
+    "youtube_url": "https://www.youtube.com/@CarAndBike",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
@@ -459,22 +441,9 @@
   {
     "slug": "mudit-bhambri",
     "name": "Mudit Bhambri",
-    "tagline": "Independent car reviewer \u2014 Mudit Bhambri (w0HX9r_tUII)",
-    "youtube_handle": "MuditBhambri(w0HX9r_tUII)",
-    "youtube_url": "https://www.youtube.com/@MuditBhambri(w0HX9r_tUII)",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "hyundai/creta-electric"
-    ]
-  },
-  {
-    "slug": "nikhil-rana",
-    "name": "Nikhil Rana",
-    "tagline": "Independent car reviewer \u2014 MotorOctane (M-EvNivlXwE)",
-    "youtube_handle": "MotorOctane(M-EvNivlXwE)",
-    "youtube_url": "https://www.youtube.com/@MotorOctane(M-EvNivlXwE)",
+    "tagline": "Independent car reviewer \u2014 Mudit Bhambri",
+    "youtube_handle": "MuditBhambri",
+    "youtube_url": "https://www.youtube.com/@MuditBhambri",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
@@ -485,22 +454,9 @@
   {
     "slug": "car-blogger",
     "name": "Car Blogger",
-    "tagline": "Independent car reviewer \u2014 SxT9u6gbwx8",
-    "youtube_handle": "SxT9u6gbwx8",
-    "youtube_url": "https://www.youtube.com/@SxT9u6gbwx8",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "tata/nexon-ev"
-    ]
-  },
-  {
-    "slug": "gagan",
-    "name": "Gagan",
-    "tagline": "Independent car reviewer \u2014 3G41vb-fV4c",
-    "youtube_handle": "3G41vb-fV4c",
-    "youtube_url": "https://www.youtube.com/@3G41vb-fV4c",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "",
+    "youtube_url": "",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
@@ -511,14 +467,144 @@
   {
     "slug": "hindi-auto-reviewer",
     "name": "Hindi Auto Reviewer",
-    "tagline": "Independent car reviewer \u2014 YouTube",
-    "youtube_handle": "YouTube",
-    "youtube_url": "https://www.youtube.com/@YouTube",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "",
+    "youtube_url": "",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
     "articles": [
       "hyundai/creta"
+    ]
+  },
+  {
+    "slug": "king-indian",
+    "name": "King Indian",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "KingIndian",
+    "youtube_url": "https://www.youtube.com/@KingIndian",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "mg/windsor-ev"
+    ]
+  },
+  {
+    "slug": "team-car-delight",
+    "name": "Team Car Delight",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "TeamCarDelight",
+    "youtube_url": "https://www.youtube.com/@TeamCarDelight",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "mg/windsor-ev"
+    ]
+  },
+  {
+    "slug": "motorbyte",
+    "name": "MotorByte",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "MotorByte",
+    "youtube_url": "https://www.youtube.com/@MotorByte",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "mg/windsor-ev"
+    ]
+  },
+  {
+    "slug": "rishabh-arora",
+    "name": "Rishabh Arora",
+    "tagline": "Independent car reviewer \u2014 The Car Guide",
+    "youtube_handle": "TheCarGuide",
+    "youtube_url": "https://www.youtube.com/@TheCarGuide",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "mg/windsor-ev"
+    ]
+  },
+  {
+    "slug": "classic-gears",
+    "name": "CLASSIC GEARS",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "CLASSICGEARS",
+    "youtube_url": "https://www.youtube.com/@CLASSICGEARS",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/tiago-ev"
+    ]
+  },
+  {
+    "slug": "sachinn-rose",
+    "name": "Sachinn Rose",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "SachinnRose",
+    "youtube_url": "https://www.youtube.com/@SachinnRose",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/tiago-ev"
+    ]
+  },
+  {
+    "slug": "motorberg",
+    "name": "MotorBerg",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "MotorBerg",
+    "youtube_url": "https://www.youtube.com/@MotorBerg",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/tiago-ev"
+    ]
+  },
+  {
+    "slug": "ev-gyan",
+    "name": "EV Gyan",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "EVGyan",
+    "youtube_url": "https://www.youtube.com/@EVGyan",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/tiago-ev"
+    ]
+  },
+  {
+    "slug": "shyam-arora",
+    "name": "Shyam Arora",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "ShyamArora",
+    "youtube_url": "https://www.youtube.com/@ShyamArora",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/tiago-ev"
+    ]
+  },
+  {
+    "slug": "vikram-rajera",
+    "name": "Vikram Rajera",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "VikramRajera",
+    "youtube_url": "https://www.youtube.com/@VikramRajera",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/tiago-ev"
     ]
   }
 ]
