@@ -343,6 +343,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     scores = data["scores"]
     jury_score = data["jury_score"]
     verdict = data["verdict"]
+    feedback_endpoint = os.environ.get("FEEDBACK_ENDPOINT", "https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec")
     brand_display = brand.capitalize()
     canonical_url = f"https://www.thecarjury.com/reviews/{brand}/{model}/"
     vc = verdict_color(verdict)
@@ -647,7 +648,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     }}
   </style>
 </head>
-<body>
+<body data-feedback-endpoint="{feedback_endpoint}" data-score="{jury_score}" data-verdict="{verdict}">
 
 <header class="site-header">
   <div class="site-header__inner">
@@ -795,6 +796,8 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
   </div>
 </footer>
 
+
+<script src="/js/feedback.js"></script>
 </body>
 </html>"""
 
