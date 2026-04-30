@@ -33,7 +33,8 @@
       "hyundai/creta-electric",
       "tata/tiago-ev",
       "kia/seltos",
-      "mahindra/xuv700"
+      "mahindra/xuv700",
+      "tata/punch-ev"
     ]
   },
   {
@@ -71,7 +72,8 @@
       "mg/windsor-ev",
       "tata/tiago-ev",
       "kia/seltos",
-      "mahindra/xuv700"
+      "mahindra/xuv700",
+      "tata/punch-ev"
     ]
   },
   {
@@ -687,7 +689,21 @@
     "instagram_handle": "",
     "subscriber_count": "",
     "articles": [
-      "mahindra/xuv700"
+      "mahindra/xuv700",
+      "tata/punch-ev"
+    ]
+  },
+  {
+    "slug": "arun-panwar",
+    "name": "Arun Panwar",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "ArunPanwar",
+    "youtube_url": "https://www.youtube.com/@ArunPanwar",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/punch-ev"
     ]
   }
 ]

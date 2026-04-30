@@ -100,6 +100,7 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **Arun Panwar** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **MotoWagon** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Namaste Car** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Biturbo Media** | TBC | TBC | TBC | TBC | Auto-added from article |
