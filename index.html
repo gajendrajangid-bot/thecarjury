@@ -105,10 +105,10 @@
       z-index: 200;
     }
     .site-header__inner {
-      max-width: 1200px;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 0 40px;
-      height: 68px;
+      padding: 0 32px;
+      height: 64px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -352,96 +352,52 @@
     .segment-tag:hover { border-color: var(--red); color: var(--red); }
     .segment-tag.active { border-color: var(--red); color: var(--red); background: var(--red-50); }
 
-    /* ── Verdicts Grid ──────────────────────────────────────── */
-    .verdicts-grid {
+    /* ── Verdict Card Grid ──────────────────────────────────── */
+    .verdicts-card-grid {
       display: grid;
-      grid-template-columns: 2fr 1fr;
-      gap: 2px;
-      background: var(--hairline);
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .verdict-card {
+      display: flex;
+      flex-direction: column;
+      background: var(--white);
       border: 1px solid var(--hairline);
-      border-radius: 8px;
+      border-radius: 12px;
       overflow: hidden;
+      position: relative;
+      transition: box-shadow 0.15s, border-color 0.15s;
+      text-decoration: none;
+      color: inherit;
     }
-    .verdict-featured {
-      background: var(--white);
-      padding: 40px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
+    .verdict-card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+      border-color: var(--stone-300);
     }
-    .verdict-list {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-      background: var(--hairline);
-    }
-    .verdict-list-item {
-      background: var(--white);
-      padding: 28px;
+    .verdict-card__accent { height: 4px; }
+    .verdict-card__accent--buy  { background: var(--green); }
+    .verdict-card__accent--wait { background: var(--amber); }
+    .verdict-card__accent--skip { background: var(--slate); }
+    .verdict-card__body {
+      padding: 22px 24px 24px;
       display: flex;
       flex-direction: column;
       gap: 10px;
       flex: 1;
     }
-    .verdict-coming {
-      background: var(--paper);
+    .verdict-card__top {
       display: flex;
-      flex-direction: column;
-      justify-content: center;
       align-items: center;
-      gap: 8px;
-      padding: 28px;
-      flex: 1;
+      justify-content: space-between;
     }
-    .verdict-coming__label {
-      font: 600 11px/1 var(--font-ui);
-      letter-spacing: 0.12em;
+    .verdict-card__score {
+      font: 700 32px/1 var(--font-display);
+      color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+    .verdict-card__score span {
+      font: 500 15px/1 var(--font-ui);
       color: var(--stone-400);
-      text-transform: uppercase;
-    }
-    .verdict-coming__text {
-      font: 500 14px/1.4 var(--font-ui);
-      color: var(--stone-600);
-      text-align: center;
-    }
-
-    /* Verdict card internals */
-    .vc-stamp {
-      font: 600 11px/1 var(--font-ui);
-      letter-spacing: 0.14em;
-      color: var(--red);
-      text-transform: uppercase;
-    }
-    .vc-meta {
-      font: 500 12px/1.4 var(--font-ui);
-      letter-spacing: 0.02em;
-      color: var(--stone-600);
-    }
-    .vc-title {
-      font: 700 28px/1.2 var(--font-display);
-      color: var(--ink);
-      letter-spacing: -0.01em;
-    }
-    .vc-dek {
-      font: 400 16px/1.55 var(--font-body);
-      color: var(--stone-800);
-    }
-    .vc-score-row {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      margin-top: 4px;
-    }
-    .vc-score {
-      font: 700 44px/1 var(--font-ui);
-      color: var(--ink);
-      letter-spacing: -0.03em;
-    }
-    .vc-score-denom {
-      font: 500 18px/1 var(--font-ui);
-      color: var(--stone-600);
-      align-self: flex-end;
-      margin-bottom: 4px;
     }
     .verdict-pill {
       display: inline-flex;
@@ -450,7 +406,7 @@
       font: 600 11px/1 var(--font-ui);
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      padding: 6px 12px;
+      padding: 5px 10px;
       border-radius: 3px;
     }
     .verdict-pill::before {
@@ -465,34 +421,42 @@
     .verdict-pill--wait::before  { background: var(--amber); }
     .verdict-pill--skip  { background: var(--slate-tint); color: var(--slate); }
     .verdict-pill--skip::before  { background: var(--slate); }
-    .vc-jury-line {
-      font: 500 12px/1.4 var(--font-ui);
+    .verdict-card__meta {
+      font: 400 12px/1.4 var(--font-ui);
       color: var(--stone-400);
     }
-    .vc-breakdown {
-      list-style: none;
-      border-top: 1px solid var(--hairline);
-      margin-top: 8px;
+    .verdict-card__title {
+      font: 700 17px/1.3 var(--font-display);
+      color: var(--ink);
+      letter-spacing: -0.01em;
     }
-    .vc-breakdown li {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px 0;
-      border-bottom: 1px solid var(--hairline);
-      font: 500 14px/1.4 var(--font-ui);
-      color: var(--stone-800);
-    }
-    .vc-breakdown b { font-weight: 700; color: var(--ink); }
-
-    .read-more {
+    .verdict-card__read {
       font: 600 13px/1 var(--font-ui);
       color: var(--red);
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      margin-top: 8px;
+      margin-top: auto;
+      padding-top: 12px;
     }
-    .read-more:hover { color: var(--red-dark); }
+    .verdict-card__pick {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      font: 600 9px/1 var(--font-ui);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: var(--red);
+      color: var(--white);
+      padding: 4px 8px;
+      border-radius: 100px;
+    }
+    .verdicts-empty {
+      display: none;
+      text-align: center;
+      padding: 56px 24px;
+      color: var(--stone-400);
+      font: 400 15px/1.6 var(--font-ui);
+      grid-column: 1 / -1;
+    }
+    .verdicts-empty a { color: var(--red); }
 
     /* ── Belief Section ─────────────────────────────────────── */
     .belief-section {
