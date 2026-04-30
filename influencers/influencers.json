@@ -32,7 +32,8 @@
       "tata/punch",
       "hyundai/creta-electric",
       "tata/tiago-ev",
-      "kia/seltos"
+      "kia/seltos",
+      "mahindra/xuv700"
     ]
   },
   {
@@ -69,7 +70,8 @@
       "tata/nexon-ev",
       "mg/windsor-ev",
       "tata/tiago-ev",
-      "kia/seltos"
+      "kia/seltos",
+      "mahindra/xuv700"
     ]
   },
   {
@@ -660,6 +662,32 @@
     "subscriber_count": "",
     "articles": [
       "kia/seltos"
+    ]
+  },
+  {
+    "slug": "motowagon",
+    "name": "MotoWagon",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "MotoWagon",
+    "youtube_url": "https://www.youtube.com/@MotoWagon",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "mahindra/xuv700"
+    ]
+  },
+  {
+    "slug": "namaste-car",
+    "name": "Namaste Car",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "NamasteCar",
+    "youtube_url": "https://www.youtube.com/@NamasteCar",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "mahindra/xuv700"
     ]
   }
 ]

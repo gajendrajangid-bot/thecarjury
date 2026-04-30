@@ -100,6 +100,8 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **MotoWagon** | TBC | TBC | TBC | TBC | Auto-added from article |
+| — | **Namaste Car** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Biturbo Media** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Pranay Kapoor** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **DriveSpark** | TBC | TBC | TBC | TBC | Auto-added from article |
