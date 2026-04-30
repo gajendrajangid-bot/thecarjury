@@ -81,7 +81,7 @@ RULES:
 - Never make up specs or prices. Only use what's in the transcripts.
 - NEVER use em-dashes (—) anywhere in the output. Use commas, colons, semicolons, or full stops instead.
 - TeamBHP is a trusted 20-year-old independent forum with expert owners and journalists. Weight their observations alongside the YouTube reviewers.
-- WORD LIMIT: The total combined words across all text fields (hero_summary, verdict_reason, all *_review fields, teambhp_take, reviewer_takes, pros, cons, consensus_points, disagreement_points, faqs) must not exceed 1700 words. Keep each section tight. Prefer one precise sentence over two vague ones.
+- WORD LIMIT: The total combined words across all text fields (hero_summary, verdict_reason, all *_review fields, teambhp_take, reviewer_takes, pros, cons, consensus_points, disagreement_points, faqs) must be between 1500 and 1800 words. The rendered HTML article will be longer due to UI chrome; target 1500-1800 here so the final page lands in the 1800-2000 word range. Keep each section tight. Prefer one precise sentence over two vague ones.
 
 WRITING STYLE — CRITICAL:
 - Write in a single confident editorial voice. You are The Car Jury, not a transcript reporter.
@@ -647,6 +647,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
       .site-footer__top {{ flex-direction: column; }}
     }}
   </style>
+<script src="/js/nav.js"></script>
 </head>
 <body data-feedback-endpoint="{feedback_endpoint}" data-score="{jury_score}" data-verdict="{verdict}">
 
@@ -656,13 +657,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
       <span class="tcj-mast__the">The</span>
       <span class="tcj-mast__name">Car Jury</span>
     </a>
-    <nav class="site-nav">
-      <a href="/reviews/" style="color:var(--ink);font-weight:600">Reviews</a>
-      <a href="/compare/">Compare</a>
-      <a href="/best/">Best Lists</a>
-      <a href="/influencers/">Influencers</a>
-      <a href="/about/">About</a>
-    </nav>
+    <nav class="site-nav" id="tcj-nav"></nav>
   </div>
 </header>
 
@@ -902,9 +897,11 @@ def main():
     _text = _re.sub(r'<[^>]+>', ' ', _text)
     _wc = len([w for w in _text.split() if len(w) > 1])
     if _wc > 2000:
-        print(f"  ⚠️  Word count {_wc} exceeds 2000 limit — review the content or tighten the prompt.")
+        print(f"  ⚠️  Word count {_wc} exceeds 2000 limit — tighten the prompt or trim sections.")
+    elif _wc < 1800:
+        print(f"  ⚠️  Word count {_wc} is below 1800 minimum — expand key sections.")
     else:
-        print(f"  ✓  Word count: {_wc} words (under 2000 limit)")
+        print(f"  ✓  Word count: {_wc} words (within 1800-2000 target)")
 
     # 5. Sync new reviewers into influencers.json + master_list.md
     sync_influencers(args.brand, args.model, data.get("reviewer_takes", []))

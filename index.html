@@ -698,6 +698,7 @@
       .footer-top { grid-template-columns: 1fr; }
     }
   </style>
+<script src="/js/nav.js"></script>
 </head>
 <body>
 
@@ -708,13 +709,7 @@
         <span class="tcj-mast__the">The</span>
         <span class="tcj-mast__name">Car Jury</span>
       </a>
-      <nav class="site-nav">
-        <a href="/reviews/">Verdicts</a>
-        <a href="/compare/">Comparisons</a>
-        <a href="/influencers/">The Jury</a>
-        <a href="/about/">About</a>
-        <a href="#newsletter" class="btn-subscribe">Get verdicts →</a>
-      </nav>
+      <nav class="site-nav" id="tcj-nav"></nav>
       <button class="nav-hamburger" onclick="document.getElementById('mobileNav').classList.toggle('open')" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -722,7 +717,7 @@
   </header>
 
   <div class="mobile-nav" id="mobileNav">
-    <a href="/reviews/">Verdicts</a>
+    <a href="/reviews/">Reviews</a>
     <a href="/compare/">Comparisons</a>
     <a href="/influencers/">The Jury</a>
     <a href="/best/">Best Lists</a>
