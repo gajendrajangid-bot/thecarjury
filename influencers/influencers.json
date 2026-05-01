@@ -35,7 +35,8 @@
       "kia/seltos",
       "mahindra/xuv700",
       "tata/punch-ev",
-      "tata/curvv-ev"
+      "tata/curvv-ev",
+      "mahindra/xev-9e"
     ]
   },
   {
@@ -77,7 +78,8 @@
       "tata/punch-ev",
       "mahindra/scorpio-n",
       "maruti/brezza",
-      "tata/curvv-ev"
+      "tata/curvv-ev",
+      "mahindra/xev-9e"
     ]
   },
   {
@@ -206,7 +208,8 @@
       "hyundai/creta-electric",
       "hyundai/creta",
       "mg/windsor-ev",
-      "tata/curvv-ev"
+      "tata/curvv-ev",
+      "mahindra/xev-9e"
     ]
   },
   {
@@ -701,7 +704,8 @@
       "tata/punch-ev",
       "mahindra/scorpio-n",
       "maruti/brezza",
-      "tata/curvv-ev"
+      "tata/curvv-ev",
+      "mahindra/xev-9e"
     ]
   },
   {
