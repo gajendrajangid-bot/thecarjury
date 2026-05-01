@@ -36,7 +36,8 @@
       "mahindra/xuv700",
       "tata/punch-ev",
       "tata/curvv-ev",
-      "mahindra/xev-9e"
+      "mahindra/xev-9e",
+      "mahindra/thar-roxx"
     ]
   },
   {
@@ -80,7 +81,8 @@
       "maruti/brezza",
       "tata/curvv-ev",
       "mahindra/xev-9e",
-      "tata/harrier-ev"
+      "tata/harrier-ev",
+      "mahindra/thar-roxx"
     ]
   },
   {
@@ -710,7 +712,8 @@
       "maruti/brezza",
       "tata/curvv-ev",
       "mahindra/xev-9e",
-      "tata/harrier-ev"
+      "tata/harrier-ev",
+      "mahindra/thar-roxx"
     ]
   },
   {
@@ -725,7 +728,8 @@
     "articles": [
       "tata/punch-ev",
       "mahindra/scorpio-n",
-      "maruti/brezza"
+      "maruti/brezza",
+      "mahindra/thar-roxx"
     ]
   },
   {
