@@ -352,52 +352,66 @@
     .segment-tag:hover { border-color: var(--red); color: var(--red); }
     .segment-tag.active { border-color: var(--red); color: var(--red); background: var(--red-50); }
 
-    /* ── Verdict Card Grid ──────────────────────────────────── */
-    .verdicts-card-grid {
+    /* ── Verdicts Layout ────────────────────────────────────── */
+    .verdicts-layout {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 16px;
-    }
-    .verdict-card {
-      display: flex;
-      flex-direction: column;
-      background: var(--white);
+      grid-template-columns: 3fr 2fr;
+      gap: 2px;
+      background: var(--hairline);
       border: 1px solid var(--hairline);
       border-radius: 12px;
       overflow: hidden;
-      position: relative;
-      transition: box-shadow 0.15s, border-color 0.15s;
-      text-decoration: none;
-      color: inherit;
     }
-    .verdict-card:hover {
-      box-shadow: 0 4px 20px rgba(0,0,0,0.07);
-      border-color: var(--stone-300);
-    }
-    .verdict-card__accent { height: 4px; }
-    .verdict-card__accent--buy  { background: var(--green); }
-    .verdict-card__accent--wait { background: var(--amber); }
-    .verdict-card__accent--skip { background: var(--slate); }
-    .verdict-card__body {
-      padding: 22px 24px 24px;
+
+    /* Featured card (left) */
+    .verdict-featured {
+      background: var(--white);
+      padding: 40px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      flex: 1;
+      gap: 20px;
+      position: relative;
     }
-    .verdict-card__top {
+    .vc-pick {
+      display: inline-block;
+      font: 600 9px/1 var(--font-ui);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      background: var(--red);
+      color: var(--white);
+      padding: 4px 10px;
+      border-radius: 100px;
+      margin-bottom: -8px;
+    }
+    .vc-meta {
+      font: 500 12px/1.4 var(--font-ui);
+      letter-spacing: 0.02em;
+      color: var(--stone-600);
+    }
+    .vc-title {
+      font: 700 28px/1.2 var(--font-display);
+      color: var(--ink);
+      letter-spacing: -0.01em;
+    }
+    .vc-dek {
+      font: 400 15px/1.6 var(--font-body);
+      color: var(--stone-800);
+    }
+    .vc-score-row {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      gap: 14px;
     }
-    .verdict-card__score {
-      font: 700 32px/1 var(--font-display);
+    .vc-score {
+      font: 700 44px/1 var(--font-ui);
       color: var(--ink);
-      letter-spacing: -0.02em;
+      letter-spacing: -0.03em;
     }
-    .verdict-card__score span {
-      font: 500 15px/1 var(--font-ui);
-      color: var(--stone-400);
+    .vc-score-denom {
+      font: 500 18px/1 var(--font-ui);
+      color: var(--stone-600);
+      align-self: flex-end;
+      margin-bottom: 4px;
     }
     .verdict-pill {
       display: inline-flex;
@@ -406,7 +420,7 @@
       font: 600 11px/1 var(--font-ui);
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      padding: 5px 10px;
+      padding: 6px 12px;
       border-radius: 3px;
     }
     .verdict-pill::before {
@@ -421,42 +435,85 @@
     .verdict-pill--wait::before  { background: var(--amber); }
     .verdict-pill--skip  { background: var(--slate-tint); color: var(--slate); }
     .verdict-pill--skip::before  { background: var(--slate); }
-    .verdict-card__meta {
-      font: 400 12px/1.4 var(--font-ui);
+    .vc-jury-line {
+      font: 500 12px/1.4 var(--font-ui);
       color: var(--stone-400);
     }
-    .verdict-card__title {
-      font: 700 17px/1.3 var(--font-display);
-      color: var(--ink);
-      letter-spacing: -0.01em;
+    .vc-breakdown {
+      list-style: none;
+      border-top: 1px solid var(--hairline);
     }
-    .verdict-card__read {
+    .vc-breakdown li {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--hairline);
+      font: 500 13px/1.4 var(--font-ui);
+      color: var(--stone-800);
+    }
+    .vc-breakdown b { font-weight: 700; color: var(--ink); }
+    .read-more {
       font: 600 13px/1 var(--font-ui);
       color: var(--red);
-      margin-top: auto;
-      padding-top: 12px;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
     }
-    .verdict-card__pick {
-      position: absolute;
-      top: 14px;
-      right: 14px;
-      font: 600 9px/1 var(--font-ui);
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      background: var(--red);
-      color: var(--white);
-      padding: 4px 8px;
-      border-radius: 100px;
+    .read-more:hover { color: var(--red-dark); }
+
+    /* Sidebar (right) — uniform compact cards */
+    .verdict-sidebar {
+      display: flex;
+      flex-direction: column;
+      background: var(--hairline);
+      gap: 2px;
+      overflow-y: auto;
+      max-height: 580px;
     }
-    .verdicts-empty {
-      display: none;
-      text-align: center;
-      padding: 56px 24px;
+    .verdict-sidebar-item {
+      background: var(--white);
+      padding: 20px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.12s;
+      flex-shrink: 0;
+    }
+    .verdict-sidebar-item:hover { background: var(--paper); }
+    .vsi-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .vsi-score {
+      font: 700 22px/1 var(--font-display);
+      color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+    .vsi-meta {
+      font: 400 11px/1.4 var(--font-ui);
       color: var(--stone-400);
-      font: 400 15px/1.6 var(--font-ui);
-      grid-column: 1 / -1;
     }
-    .verdicts-empty a { color: var(--red); }
+    .vsi-title {
+      font: 700 14px/1.3 var(--font-display);
+      color: var(--ink);
+    }
+    .vsi-read {
+      font: 500 12px/1 var(--font-ui);
+      color: var(--red);
+    }
+    .verdict-sidebar-empty {
+      display: none;
+      background: var(--white);
+      padding: 40px 24px;
+      font: 400 14px/1.6 var(--font-ui);
+      color: var(--stone-400);
+      text-align: center;
+      flex: 1;
+    }
+    .verdict-sidebar-empty a { color: var(--red); }
 
     /* ── Belief Section ─────────────────────────────────────── */
     .belief-section {
@@ -638,7 +695,8 @@
     @media (max-width: 900px) {
       .hero { padding: 64px 24px 56px; }
       .hero__headline { font-size: 48px; }
-      .verdicts-card-grid { grid-template-columns: 1fr 1fr; }
+      .verdicts-layout { grid-template-columns: 1fr; }
+      .verdict-sidebar { max-height: none; }
       .steps-grid { grid-template-columns: 1fr; }
       .trust-grid { grid-template-columns: 1fr 1fr; }
       .trust-item { border-bottom: 1px solid var(--hairline); }
@@ -660,7 +718,7 @@
       .site-footer { padding: 48px 24px 32px; }
       .trust-grid { grid-template-columns: 1fr 1fr; }
       .footer-top { grid-template-columns: 1fr; }
-      .verdicts-card-grid { grid-template-columns: 1fr; }
+      .verdict-featured { padding: 28px 24px; }
     }
   </style>
 <script src="/js/nav.js"></script>
@@ -753,20 +811,20 @@
 
       <div class="segments-row">
         <span class="segment-tag active">All</span>
-        <span class="segment-tag">Mid-size SUV</span>
         <span class="segment-tag">Compact SUV</span>
+        <span class="segment-tag">Mid-size SUV</span>
         <span class="segment-tag">Electric</span>
         <span class="segment-tag">Under ₹15L</span>
         <span class="segment-tag">Premium</span>
       </div>
 
-      <div class="verdicts-grid">
+      <div class="verdicts-layout">
         <!-- Featured -->
         <div class="verdict-featured" data-segments="Compact SUV">
-          <span class="vc-stamp">The Verdict · Featured</span>
+          <span class="vc-pick">Jury's Pick</span>
           <div>
-            <p class="vc-meta">Kia · Compact SUV · ₹10.9 – 21.0L · April 2026</p>
-            <h3 class="vc-title">Kia Seltos 2025 Review</h3>
+            <p class="vc-meta">Kia · Compact SUV · ₹10.9–21.0L · April 2026</p>
+            <h3 class="vc-title">Kia Seltos</h3>
           </div>
           <div class="vc-score-row">
             <span class="vc-score">7.8</span>
@@ -774,51 +832,140 @@
             <span class="verdict-pill verdict-pill--buy">Recommended</span>
           </div>
           <p class="vc-dek">A comprehensively updated, feature-loaded urban SUV with proven powertrains and significantly improved ride quality, though it commands a premium price.</p>
-          <ul class="vc-breakdown"><li><span>Design</span><b>7.8</b></li><li><span>Interior</span><b>8.0</b></li><li><span>Performance</span><b>7.5</b></li><li><span>Ride Quality</span><b>7.8</b></li><li><span>Build Quality</span><b>8.5</b></li></ul>
+          <ul class="vc-breakdown">
+            <li><span>Design</span><b>7.8</b></li>
+            <li><span>Interior</span><b>8.0</b></li>
+            <li><span>Performance</span><b>7.5</b></li>
+            <li><span>Ride Quality</span><b>7.8</b></li>
+            <li><span>Build Quality</span><b>8.5</b></li>
+          </ul>
           <p class="vc-jury-line">Based on 8 independent creators</p>
           <a href="/reviews/kia/seltos/" class="read-more">Read the full verdict →</a>
         </div>
 
-        <!-- Sidebar -->
-        <div class="verdict-list">
-          <a href="/reviews/mg/windsor-ev/" class="verdict-list-item" style="text-decoration:none;color:inherit" data-segments="Electric,Under ₹15L">
-            <span style="font:600 10px/1 var(--font-ui);letter-spacing:.14em;color:var(--red);text-transform:uppercase">Published Verdict</span>
-            <span style="font:700 15px/1.25 var(--font-display);color:var(--ink)">MG Windsor EV: The Jury's Verdict</span>
-            <div style="display:flex;align-items:center;gap:8px;margin-top:4px">
-              <span style="font:700 22px/1 var(--font-ui);color:var(--ink)">7.8</span>
-              <span class="verdict-pill verdict-pill--buy">Recommended</span>
+        <!-- Sidebar: all published reviews except featured, uniform card format -->
+        <div class="verdict-sidebar" id="verdict-sidebar">
+
+          <a href="/reviews/mg/windsor-ev/" class="verdict-sidebar-item" data-segments="Electric,Under ₹15L">
+            <div class="vsi-top">
+              <span class="vsi-score">7.8</span>
+              <span class="verdict-pill verdict-pill--buy">BUY</span>
             </div>
+            <div class="vsi-meta">MG · Electric · ₹13.5–15.5L</div>
+            <div class="vsi-title">MG Windsor EV</div>
+            <div class="vsi-read">Read verdict →</div>
           </a>
-          <a href="/reviews/tata/tiago-ev/" class="verdict-list-item" style="text-decoration:none;color:inherit" data-segments="Electric,Under ₹15L">
-            <span style="font:600 10px/1 var(--font-ui);letter-spacing:.14em;color:var(--red);text-transform:uppercase">Published Verdict</span>
-            <span style="font:700 15px/1.25 var(--font-display);color:var(--ink)">Tata Tiago EV: The Jury's Verdict</span>
-            <div style="display:flex;align-items:center;gap:8px;margin-top:4px">
-              <span style="font:700 22px/1 var(--font-ui);color:var(--ink)">6.8</span>
-              <span class="verdict-pill verdict-pill--wait">Consider waiting</span>
+
+          <a href="/reviews/tata/tiago-ev/" class="verdict-sidebar-item" data-segments="Electric,Under ₹15L">
+            <div class="vsi-top">
+              <span class="vsi-score">6.8</span>
+              <span class="verdict-pill verdict-pill--wait">WAIT</span>
             </div>
+            <div class="vsi-meta">Tata · Electric · ₹8.7–12.0L</div>
+            <div class="vsi-title">Tata Tiago EV</div>
+            <div class="vsi-read">Read verdict →</div>
           </a>
-          <a href="/reviews/maruti/e-vitara/" class="verdict-list-item" style="text-decoration:none;color:inherit" data-segments="Electric">
-            <span style="font:600 10px/1 var(--font-ui);letter-spacing:.14em;color:var(--red);text-transform:uppercase">Published Verdict</span>
-            <span style="font:700 15px/1.25 var(--font-display);color:var(--ink)">Maruti Suzuki e Vitara: The Jury's Verdict</span>
-            <div style="display:flex;align-items:center;gap:8px;margin-top:4px">
-              <span style="font:700 22px/1 var(--font-ui);color:var(--ink)">6.8</span>
-              <span class="verdict-pill verdict-pill--wait">Consider waiting</span>
+
+          <a href="/reviews/maruti/e-vitara/" class="verdict-sidebar-item" data-segments="Electric">
+            <div class="vsi-top">
+              <span class="vsi-score">6.8</span>
+              <span class="verdict-pill verdict-pill--wait">WAIT</span>
             </div>
+            <div class="vsi-meta">Maruti Suzuki · Electric · ₹17.5–22.0L</div>
+            <div class="vsi-title">Maruti e Vitara</div>
+            <div class="vsi-read">Read verdict →</div>
           </a>
-          <a href="/reviews/hyundai/creta/" class="verdict-list-item" style="text-decoration:none;color:inherit" data-segments="Compact SUV">
-            <span style="font:600 10px/1 var(--font-ui);letter-spacing:.14em;color:var(--red);text-transform:uppercase">Published Verdict</span>
-            <span style="font:700 15px/1.25 var(--font-display);color:var(--ink)">Hyundai Creta, The Jury's Verdict</span>
-            <div style="display:flex;align-items:center;gap:8px;margin-top:4px">
-              <span style="font:700 22px/1 var(--font-ui);color:var(--ink)">7.8</span>
-              <span class="verdict-pill verdict-pill--buy">Recommended</span>
+
+          <a href="/reviews/tata/nexon-ev/" class="verdict-sidebar-item" data-segments="Electric,Compact SUV">
+            <div class="vsi-top">
+              <span class="vsi-score">7.8</span>
+              <span class="verdict-pill verdict-pill--buy">BUY</span>
             </div>
+            <div class="vsi-meta">Tata · Electric · ₹14.5–19.5L</div>
+            <div class="vsi-title">Tata Nexon EV</div>
+            <div class="vsi-read">Read verdict →</div>
           </a>
+
+          <a href="/reviews/tata/punch/" class="verdict-sidebar-item" data-segments="Compact SUV,Under ₹15L">
+            <div class="vsi-top">
+              <span class="vsi-score">7.6</span>
+              <span class="verdict-pill verdict-pill--buy">BUY</span>
+            </div>
+            <div class="vsi-meta">Tata · Compact SUV · ₹6.1–10.5L</div>
+            <div class="vsi-title">Tata Punch</div>
+            <div class="vsi-read">Read verdict →</div>
+          </a>
+
+          <a href="/reviews/hyundai/creta/" class="verdict-sidebar-item" data-segments="Compact SUV">
+            <div class="vsi-top">
+              <span class="vsi-score">7.8</span>
+              <span class="verdict-pill verdict-pill--buy">BUY</span>
+            </div>
+            <div class="vsi-meta">Hyundai · Compact SUV · ₹11.1–20.1L</div>
+            <div class="vsi-title">Hyundai Creta</div>
+            <div class="vsi-read">Read verdict →</div>
+          </a>
+
+          <a href="/reviews/hyundai/creta-electric/" class="verdict-sidebar-item" data-segments="Electric,Compact SUV">
+            <div class="vsi-top">
+              <span class="vsi-score">7.8</span>
+              <span class="verdict-pill verdict-pill--buy">BUY</span>
+            </div>
+            <div class="vsi-meta">Hyundai · Electric · ₹17.7–23.7L</div>
+            <div class="vsi-title">Hyundai Creta Electric</div>
+            <div class="vsi-read">Read verdict →</div>
+          </a>
+
+          <a href="/reviews/renault/duster/" class="verdict-sidebar-item" data-segments="Mid-size SUV">
+            <div class="vsi-top">
+              <span class="vsi-score">7.8</span>
+              <span class="verdict-pill verdict-pill--buy">BUY</span>
+            </div>
+            <div class="vsi-meta">Renault · Mid-size SUV · ₹10.5–20.4L</div>
+            <div class="vsi-title">Renault Duster</div>
+            <div class="vsi-read">Read verdict →</div>
+          </a>
+
+          <a href="/reviews/tata/sierra/" class="verdict-sidebar-item" data-segments="Mid-size SUV,Premium">
+            <div class="vsi-top">
+              <span class="vsi-score">7.8</span>
+              <span class="verdict-pill verdict-pill--wait">WAIT</span>
+            </div>
+            <div class="vsi-meta">Tata · Mid-size SUV · ₹16.9–25.7L</div>
+            <div class="vsi-title">Tata Sierra</div>
+            <div class="vsi-read">Read verdict →</div>
+          </a>
+
+          <a href="/reviews/skoda/kushaq/" class="verdict-sidebar-item" data-segments="Compact SUV">
+            <div class="vsi-top">
+              <span class="vsi-score">7.6</span>
+              <span class="verdict-pill verdict-pill--buy">BUY</span>
+            </div>
+            <div class="vsi-meta">Skoda · Compact SUV · ₹11.9–19.5L</div>
+            <div class="vsi-title">Skoda Kushaq</div>
+            <div class="vsi-read">Read verdict →</div>
+          </a>
+
+          <a href="/reviews/mahindra/be6/" class="verdict-sidebar-item" data-segments="Electric,Premium">
+            <div class="vsi-top">
+              <span class="vsi-score">8.0</span>
+              <span class="verdict-pill verdict-pill--buy">BUY</span>
+            </div>
+            <div class="vsi-meta">Mahindra · Electric · ₹18.9–26.9L</div>
+            <div class="vsi-title">Mahindra BE6</div>
+            <div class="vsi-read">Read verdict →</div>
+          </a>
+
+          <div class="verdict-sidebar-empty" id="sidebar-empty">No other reviews in this segment yet. <a href="/reviews/">See all →</a></div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── Comparisons ──────────────────────────────────────────── -->
+
+
+    <!-- ── Comparisons ──────────────────────────────────────────── -->
   <section id="comparisons">
     <div class="section">
       <p class="section-label">Head-to-head</p>
@@ -958,21 +1105,21 @@
         document.querySelectorAll('.segment-tag').forEach(b => b.classList.remove('active'));
         this.classList.add('active');
         const filter = this.textContent.trim();
-        const featured = document.querySelector('.verdict-featured');
-        if (featured) {
-          if (filter === 'All') { featured.style.display = ''; }
-          else {
-            const segs = (featured.dataset.segments || '').split(',').map(s => s.trim());
-            featured.style.display = segs.includes(filter) ? '' : 'none';
-          }
-        }
-        document.querySelectorAll('.verdict-list-item').forEach(item => {
-          if (filter === 'All') { item.style.display = ''; }
-          else {
-            const segs = (item.dataset.segments || '').split(',').map(s => s.trim());
-            item.style.display = segs.includes(filter) ? '' : 'none';
-          }
+
+        /* Sidebar items — show/hide based on segment */
+        let visible = 0;
+        document.querySelectorAll('#verdict-sidebar .verdict-sidebar-item').forEach(item => {
+          const segs = (item.dataset.segments || '').split(',').map(s => s.trim());
+          const show = filter === 'All' || segs.includes(filter);
+          item.style.display = show ? '' : 'none';
+          if (show) visible++;
         });
+        const empty = document.getElementById('sidebar-empty');
+        if (empty) empty.style.display = visible === 0 ? 'block' : 'none';
+
+        /* Comparisons section — only show on All */
+        const comparisons = document.getElementById('comparisons');
+        if (comparisons) comparisons.style.display = filter === 'All' ? '' : 'none';
       });
     });
   </script>

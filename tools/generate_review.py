@@ -426,7 +426,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     )
 
     meta_description = data.get("meta_description", f"The Car Jury's verdict on the {year} {car_name}.")
-    og_title = data.get("og_title", f"{car_name} Review {year} — The Car Jury")
+    og_title = data.get("og_title", f"{car_name} Review {year}: The Car Jury Verdict")
     num_reviewers = len(data.get("reviewer_takes", []))
     if teambhp_take:
         num_reviewers += 1

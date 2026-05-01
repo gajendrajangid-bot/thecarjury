@@ -106,15 +106,11 @@ SITE_HEADER = """<header class="site-header">
       <span class="tcj-mast__the">The</span>
       <span class="tcj-mast__name">Car Jury</span>
     </a>
-    <nav class="site-nav">
-      <a href="/reviews/">Reviews</a>
-      <a href="/compare/">Compare</a>
-      <a href="/best/">Best Lists</a>
-      <a href="/influencers/" class="active">Influencers</a>
-      <a href="/about/">About</a>
-    </nav>
+    <nav class="site-nav" id="tcj-nav"></nav>
   </div>
 </header>"""
+
+NAV_SCRIPT = '<script src="/js/nav.js"></script>'
 
 
 def site_footer() -> str:
@@ -201,6 +197,7 @@ def generate_index(influencers: list[dict]) -> str:
       .page-title {{ font-size: 28px; }}
     }}
   </style>
+{NAV_SCRIPT}
 </head>
 <body>
 {SITE_HEADER}
@@ -310,6 +307,7 @@ def generate_influencer_page(inf: dict) -> str:
       .profile-header {{ flex-direction: column; gap: 16px; }}
     }}
   </style>
+{NAV_SCRIPT}
 </head>
 <body>
 {SITE_HEADER}
@@ -516,24 +514,16 @@ footer{{background:var(--ink);padding:40px 48px;display:flex;align-items:center;
   .how-steps{{grid-template-columns:1fr}}
   .creator-grid{{grid-template-columns:1fr}}
   .page-body{{padding:40px 24px 80px}}
-  .nav,.breadcrumb{{padding-left:24px;padding-right:24px}}
+  .breadcrumb{{padding-left:24px;padding-right:24px}}
   .how-section{{margin:0 -24px;padding:60px 24px}}
   .trust-bar{{margin:0 -24px;padding:22px 24px}}
   footer{{margin:0 -24px;padding:32px 24px;flex-direction:column;gap:12px}}
 }}
 </style>
+<script src="/js/nav.js"></script>
 </head>
 <body>
-<nav class="nav">
-  <a class="mast" href="/"><span class="mast-the">The</span><span class="mast-name">Car Jury</span></a>
-  <ul class="nav-links">
-    <li><a href="/reviews/">Reviews</a></li>
-    <li><a href="/compare/">Compare</a></li>
-    <li><a href="/best/">Best Lists</a></li>
-    <li><a href="/the-jury/" class="active">The Jury</a></li>
-    <li><a href="/about/">About</a></li>
-  </ul>
-</nav>
+<header class="site-header"><div class="site-header__inner"><a href="/" class="tcj-mast"><span class="tcj-mast__the">The</span><span class="tcj-mast__name">Car Jury</span></a><nav class="site-nav" id="tcj-nav"></nav></div></header>
 <div class="breadcrumb">
   <a href="/">Home</a><span class="breadcrumb-sep">›</span><span class="breadcrumb-current">The Jury Panel</span>
 </div>

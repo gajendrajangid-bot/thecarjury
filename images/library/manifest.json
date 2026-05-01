@@ -1,0 +1,174 @@
+{
+  "updated": "2026-04-30",
+  "total": 15,
+  "ok": 9,
+  "missing": 0,
+  "undersized": 6,
+  "images": [
+    {
+      "slug": "hyundai/creta",
+      "brand": "hyundai",
+      "model": "creta",
+      "hero": "/reviews/hyundai/creta/hero.webp",
+      "width": 1920,
+      "height": 1080,
+      "size_kb": 256,
+      "format": "webp",
+      "ok": true
+    },
+    {
+      "slug": "hyundai/creta-electric",
+      "brand": "hyundai",
+      "model": "creta-electric",
+      "hero": "/reviews/hyundai/creta-electric/hero.webp",
+      "width": 1920,
+      "height": 1080,
+      "size_kb": 144,
+      "format": "webp",
+      "ok": true
+    },
+    {
+      "slug": "kia/seltos",
+      "brand": "kia",
+      "model": "seltos",
+      "hero": "/reviews/kia/seltos/hero.webp",
+      "width": 930,
+      "height": 620,
+      "size_kb": 32,
+      "format": "webp",
+      "ok": false
+    },
+    {
+      "slug": "mahindra/be6",
+      "brand": "mahindra",
+      "model": "be6",
+      "hero": "/reviews/mahindra/be6/hero.webp",
+      "width": 1529,
+      "height": 911,
+      "size_kb": 39,
+      "format": "webp",
+      "ok": true
+    },
+    {
+      "slug": "mahindra/scorpio-n",
+      "brand": "mahindra",
+      "model": "scorpio-n",
+      "hero": "/reviews/mahindra/scorpio-n/hero.webp",
+      "width": 930,
+      "height": 620,
+      "size_kb": 35,
+      "format": "webp",
+      "ok": false
+    },
+    {
+      "slug": "mahindra/xuv700",
+      "brand": "mahindra",
+      "model": "xuv700",
+      "hero": "/reviews/mahindra/xuv700/hero.webp",
+      "width": 930,
+      "height": 620,
+      "size_kb": 33,
+      "format": "webp",
+      "ok": false
+    },
+    {
+      "slug": "maruti/e-vitara",
+      "brand": "maruti",
+      "model": "e-vitara",
+      "hero": "/reviews/maruti/e-vitara/hero.webp",
+      "width": 1920,
+      "height": 1280,
+      "size_kb": 74,
+      "format": "webp",
+      "ok": true
+    },
+    {
+      "slug": "mg/windsor-ev",
+      "brand": "mg",
+      "model": "windsor-ev",
+      "hero": "/reviews/mg/windsor-ev/hero.webp",
+      "width": 930,
+      "height": 620,
+      "size_kb": 36,
+      "format": "webp",
+      "ok": false
+    },
+    {
+      "slug": "renault/duster",
+      "brand": "renault",
+      "model": "duster",
+      "hero": "/reviews/renault/duster/hero.webp",
+      "width": 1920,
+      "height": 1280,
+      "size_kb": 181,
+      "format": "webp",
+      "ok": true
+    },
+    {
+      "slug": "skoda/kushaq",
+      "brand": "skoda",
+      "model": "kushaq",
+      "hero": "/reviews/skoda/kushaq/hero.webp",
+      "width": 1920,
+      "height": 1280,
+      "size_kb": 70,
+      "format": "webp",
+      "ok": true
+    },
+    {
+      "slug": "tata/nexon-ev",
+      "brand": "tata",
+      "model": "nexon-ev",
+      "hero": "/reviews/tata/nexon-ev/hero.webp",
+      "width": 1920,
+      "height": 1080,
+      "size_kb": 152,
+      "format": "webp",
+      "ok": true
+    },
+    {
+      "slug": "tata/punch",
+      "brand": "tata",
+      "model": "punch",
+      "hero": "/reviews/tata/punch/hero.webp",
+      "width": 1920,
+      "height": 1080,
+      "size_kb": 86,
+      "format": "webp",
+      "ok": true
+    },
+    {
+      "slug": "tata/punch-ev",
+      "brand": "tata",
+      "model": "punch-ev",
+      "hero": "/reviews/tata/punch-ev/hero.webp",
+      "width": 930,
+      "height": 620,
+      "size_kb": 24,
+      "format": "webp",
+      "ok": false
+    },
+    {
+      "slug": "tata/sierra",
+      "brand": "tata",
+      "model": "sierra",
+      "hero": "/reviews/tata/sierra/hero.webp",
+      "width": 1920,
+      "height": 1280,
+      "size_kb": 74,
+      "format": "webp",
+      "ok": true
+    },
+    {
+      "slug": "tata/tiago-ev",
+      "brand": "tata",
+      "model": "tiago-ev",
+      "hero": "/reviews/tata/tiago-ev/hero.webp",
+      "width": 930,
+      "height": 620,
+      "size_kb": 34,
+      "format": "webp",
+      "ok": false
+    }
+  ]
+}
