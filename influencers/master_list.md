@@ -100,6 +100,7 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **My Country My Ride** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Arun Panwar** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **MotoWagon** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Namaste Car** | TBC | TBC | TBC | TBC | Auto-added from article |

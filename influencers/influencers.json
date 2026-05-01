@@ -73,7 +73,8 @@
       "tata/tiago-ev",
       "kia/seltos",
       "mahindra/xuv700",
-      "tata/punch-ev"
+      "tata/punch-ev",
+      "mahindra/scorpio-n"
     ]
   },
   {
@@ -624,7 +625,8 @@
     "instagram_handle": "",
     "subscriber_count": "",
     "articles": [
-      "kia/seltos"
+      "kia/seltos",
+      "mahindra/scorpio-n"
     ]
   },
   {
@@ -676,7 +678,8 @@
     "instagram_handle": "",
     "subscriber_count": "",
     "articles": [
-      "mahindra/xuv700"
+      "mahindra/xuv700",
+      "mahindra/scorpio-n"
     ]
   },
   {
@@ -690,7 +693,8 @@
     "subscriber_count": "",
     "articles": [
       "mahindra/xuv700",
-      "tata/punch-ev"
+      "tata/punch-ev",
+      "mahindra/scorpio-n"
     ]
   },
   {
@@ -703,7 +707,21 @@
     "instagram_handle": "",
     "subscriber_count": "",
     "articles": [
-      "tata/punch-ev"
+      "tata/punch-ev",
+      "mahindra/scorpio-n"
+    ]
+  },
+  {
+    "slug": "my-country-my-ride",
+    "name": "My Country My Ride",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "MyCountryMyRide",
+    "youtube_url": "https://www.youtube.com/@MyCountryMyRide",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "mahindra/scorpio-n"
     ]
   }
 ]
