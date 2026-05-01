@@ -145,6 +145,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/influencers/my-country-my-ride/</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/influencers/namaste-car/</loc>
     <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
