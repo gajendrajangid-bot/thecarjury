@@ -2,11 +2,11 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>https://www.thecarjury.com/sitemap-core.xml</loc>
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-03</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.thecarjury.com/sitemap-reviews.xml</loc>
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-03</lastmod>
   </sitemap>
   <sitemap>
     <loc>https://www.thecarjury.com/sitemap-compare.xml</loc>
@@ -14,6 +14,6 @@
   </sitemap>
   <sitemap>
     <loc>https://www.thecarjury.com/sitemap-influencers.xml</loc>
-    <lastmod>2026-05-02</lastmod>
+    <lastmod>2026-05-03</lastmod>
   </sitemap>
 </sitemapindex>

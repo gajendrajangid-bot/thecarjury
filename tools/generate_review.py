@@ -14,6 +14,79 @@ from datetime import date
 ROOT = Path(__file__).parent.parent.parent
 CARJURY = ROOT / "carjury"
 
+
+# ── Interlinking Context ───────────────────────────────────────────────────────
+
+def get_link_context(brand: str, model: str) -> dict:
+    seg_path = Path(__file__).parent / "segments.json"
+    if not seg_path.exists():
+        return {"segment": None, "segment_peers": [], "brand_siblings": [], "compare_pages": []}
+    data = json.loads(seg_path.read_text())
+    car_key = f"{brand}/{model}"
+    car_segment, segment_peers = None, []
+    for slug, info in data["segments"].items():
+        if car_key in info["cars"]:
+            car_segment = slug
+            segment_peers = [c for c in info["cars"] if c != car_key][:3]
+            break
+    siblings = [f"{brand}/{m}" for m in data["brands"].get(brand, []) if m != model][:2]
+    compares = data["compare_pages"].get(car_key, [])
+
+    def enrich(key):
+        return {
+            "key": key,
+            "url": f"/reviews/{key}/",
+            "name": data["display_names"].get(key, key),
+            "score": data["jury_scores"].get(key, {}).get("score", ""),
+            "verdict": data["jury_scores"].get(key, {}).get("verdict", ""),
+        }
+
+    return {
+        "segment": car_segment,
+        "segment_peers": [enrich(k) for k in segment_peers],
+        "brand_siblings": [enrich(k) for k in siblings],
+        "compare_pages": [{"url": f"/{c}/", "slug": c} for c in compares],
+    }
+
+
+def _build_related_cars_html(link_context: dict) -> str:
+    peers = link_context.get("segment_peers", [])
+    siblings = link_context.get("brand_siblings", [])
+    compares = link_context.get("compare_pages", [])
+    seen, all_cards = set(), []
+    for car in (peers + siblings):
+        if car["key"] not in seen and len(all_cards) < 4:
+            all_cards.append(car)
+            seen.add(car["key"])
+    if not all_cards and not compares:
+        return ""
+    cards_html = ""
+    for car in all_cards:
+        score_bit = f'<div class="rc-score">{car["score"]}/10</div>' if car.get("score") else ""
+        verdict_bit = f'<div class="rc-verdict">{car["verdict"]}</div>' if car.get("verdict") else ""
+        cards_html += (
+            f'    <a href="{car["url"]}" class="related-card">'
+            f'<div class="rc-name">{car["name"]}</div>{score_bit}{verdict_bit}</a>\n'
+        )
+    compares_html = ""
+    if compares:
+        links = ""
+        for c in compares:
+            slug = c["slug"].replace("compare/", "")
+            parts = slug.split("-vs-")
+            label = " vs ".join(p.replace("-", " ").title() for p in parts) + " →"
+            links += f'    <a href="{c["url"]}">{label}</a>\n'
+        compares_html = (
+            f'  <div class="related-compares">'
+            f'<span class="eyebrow-sm">Head-to-head:</span>\n{links}  </div>\n'
+        )
+    return (
+        f'<div class="related-cars">\n'
+        f'  <div class="eyebrow">Also in the running</div>\n'
+        f'  <div class="related-grid">\n{cards_html}  </div>\n'
+        f'{compares_html}</div>\n'
+    )
+
 GA4_SNIPPET = """<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
 <script>
@@ -148,7 +221,8 @@ Return ONLY the JSON object. No markdown fences. No explanation."""
 
 def synthesise_with_claude(car_name: str, year: int,
                            transcripts: dict[str, str],
-                           teambhp_content: str = "") -> dict:
+                           teambhp_content: str = "",
+                           brand: str = "", model: str = "") -> dict:
     import anthropic
 
     reviewer_list = ", ".join(transcripts.keys())
@@ -163,6 +237,15 @@ def synthesise_with_claude(car_name: str, year: int,
     else:
         teambhp_section = ""
 
+    link_context = get_link_context(brand, model) if (brand and model) else {}
+    interlinking_note = ""
+    if link_context.get("segment_peers") or link_context.get("brand_siblings"):
+        interlinking_note = (
+            "\n\nINTERLINKING CONTEXT — reference these rivals naturally in relevant prose sections "
+            "(e.g. 'compared to the [rival]...' or '[Brand] also makes the [sibling]...'):\n"
+            + json.dumps(link_context, indent=2)
+        )
+
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     message = client.messages.create(
         model="claude-opus-4-7",
@@ -175,7 +258,7 @@ def synthesise_with_claude(car_name: str, year: int,
                 reviewer_list=reviewer_list,
                 transcripts=combined,
                 teambhp_section=teambhp_section,
-            )
+            ) + interlinking_note
         }]
     )
 
@@ -338,8 +421,9 @@ def estimate_content_words(data: dict) -> tuple[int, int]:
 def generate_html(brand: str, model: str, car_name: str, year: int,
                   data: dict, video_ids: list[str],
                   teambhp_url: str = "", teambhp_title: str = "",
-                  hero_image: str = "") -> str:
-    today = date.today().isoformat()
+                  hero_image: str = "", link_context: dict = None) -> str:
+    today_iso = date.today().isoformat()
+    today_display = date.today().strftime("%-d %B %Y")
     scores = data["scores"]
     jury_score = data["jury_score"]
     verdict = data["verdict"]
@@ -432,6 +516,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
         num_reviewers += 1
     sources_label = f"{num_reviewers} independent sources"
     word_count, reading_time = estimate_content_words(data)
+    related_cars_html = _build_related_cars_html(link_context) if link_context else ""
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -463,7 +548,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
         "reviewRating": {{"@type": "Rating", "ratingValue": "{jury_score}", "bestRating": "10", "worstRating": "1"}},
         "author": {{"@type": "Organization", "name": "The Car Jury"}},
         "publisher": {{"@type": "Organization", "name": "The Car Jury", "url": "https://www.thecarjury.com"}},
-        "datePublished": "{today}",
+        "datePublished": "{today_iso}",
         "url": "{canonical_url}",
         "itemReviewed": {{
           "@type": "Car",
@@ -609,6 +694,19 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
     /* YouTube embeds */
     .yt-embed {{ width: 100%; aspect-ratio: 16/9; border: none; border-radius: 8px; margin-bottom: 16px; }}
 
+    /* Also in the running */
+    .related-cars {{ margin: 40px 0; }}
+    .eyebrow {{ font: 700 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--stone-600); text-transform: uppercase; margin-bottom: 16px; }}
+    .related-grid {{ display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }}
+    .related-card {{ display: block; background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 16px 18px; text-decoration: none; color: inherit; min-width: 140px; flex: 1; transition: border-color 0.15s; }}
+    .related-card:hover {{ border-color: var(--stone-200); color: inherit; }}
+    .rc-name {{ font: 600 14px/1.3 var(--font-ui); color: var(--ink); margin-bottom: 6px; }}
+    .rc-score {{ font: 700 13px/1 var(--font-ui); color: var(--stone-600); margin-bottom: 4px; }}
+    .rc-verdict {{ font: 600 11px/1 var(--font-ui); letter-spacing: 0.08em; text-transform: uppercase; color: var(--red); }}
+    .related-compares {{ font: 500 13px/1.6 var(--font-ui); color: var(--stone-600); }}
+    .related-compares a {{ color: var(--red); margin-right: 12px; }}
+    .eyebrow-sm {{ font: 700 11px/1 var(--font-ui); letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone-400); margin-right: 8px; }}
+
     /* Breadcrumb */
     .breadcrumb {{ margin-top: 48px; font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); }}
     .breadcrumb a {{ color: var(--stone-400); }}
@@ -684,7 +782,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
 
   <div class="byline">
     <span>By The Car Jury Editorial</span>
-    <span>Published {today}</span>
+    <span>Published {today_display}</span>
     <span>Synthesis of {sources_label}</span>
     <span>{word_count:,} words · {reading_time} min read</span>
   </div>
@@ -747,6 +845,7 @@ def generate_html(brand: str, model: str, car_name: str, year: int,
 
 {teambhp_block}
 
+  {related_cars_html}
   <div class="section">
     <h2>Individual Reviewer Verdicts</h2>
     <div class="reviewer-grid">
@@ -865,7 +964,8 @@ def main():
 
     # 2. Synthesise
     print(f"\n  Synthesising with Claude ({len(transcripts)} reviewers{' + TeamBHP' if teambhp_content else ''})...")
-    data = synthesise_with_claude(args.name, args.year, transcripts, teambhp_content)
+    data = synthesise_with_claude(args.name, args.year, transcripts, teambhp_content,
+                                  brand=args.brand, model=args.model)
     print(f"  Jury score: {data['jury_score']} | Verdict: {data['verdict']}")
 
     # 3. Generate HTML — check for hero image in review folder
@@ -876,9 +976,11 @@ def main():
             hero_image = f"/reviews/{args.brand}/{args.model}/{ext}"
             break
 
+    link_context = get_link_context(args.brand, args.model)
     html = generate_html(
         args.brand, args.model, args.name, args.year,
-        data, args.videos, teambhp_url, teambhp_title, hero_image
+        data, args.videos, teambhp_url, teambhp_title, hero_image,
+        link_context=link_context,
     )
 
     if args.dry_run:

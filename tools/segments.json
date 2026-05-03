@@ -1,0 +1,250 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-05-03",
+  "segments": {
+    "entry-ev": {
+      "label": "Entry EVs (under \u20b915L)",
+      "budget_band": "under-15L",
+      "cars": [
+        "tata/punch-ev",
+        "tata/tiago-ev",
+        "mg/windsor-ev"
+      ]
+    },
+    "mid-ev": {
+      "label": "Mid EVs (\u20b915\u201322L)",
+      "budget_band": "15L-22L",
+      "cars": [
+        "tata/nexon-ev",
+        "tata/curvv-ev",
+        "hyundai/creta-electric",
+        "maruti/e-vitara"
+      ]
+    },
+    "premium-ev": {
+      "label": "Premium EVs (\u20b922\u201335L)",
+      "budget_band": "22L-35L",
+      "cars": [
+        "mahindra/be6",
+        "mahindra/xev-9e",
+        "tata/harrier-ev"
+      ]
+    },
+    "compact-suv": {
+      "label": "Compact ICE SUVs (\u20b98\u201315L)",
+      "budget_band": "8L-15L",
+      "cars": [
+        "maruti/brezza",
+        "tata/punch"
+      ]
+    },
+    "mid-suv": {
+      "label": "Mid-Size ICE SUVs (\u20b912\u201322L)",
+      "budget_band": "12L-22L",
+      "cars": [
+        "hyundai/creta",
+        "kia/seltos",
+        "skoda/kushaq",
+        "renault/duster"
+      ]
+    },
+    "premium-suv": {
+      "label": "Premium Full-Size SUVs (\u20b920\u201335L)",
+      "budget_band": "20L-35L",
+      "cars": [
+        "tata/sierra",
+        "mahindra/scorpio-n",
+        "mahindra/xuv700",
+        "mahindra/thar-roxx"
+      ]
+    }
+  },
+  "brands": {
+    "tata": [
+      "sierra",
+      "harrier-ev",
+      "curvv-ev",
+      "nexon-ev",
+      "punch-ev",
+      "punch",
+      "tiago-ev"
+    ],
+    "mahindra": [
+      "be6",
+      "xev-9e",
+      "scorpio-n",
+      "thar-roxx",
+      "xuv700"
+    ],
+    "hyundai": [
+      "creta",
+      "creta-electric"
+    ],
+    "maruti": [
+      "e-vitara",
+      "brezza"
+    ],
+    "kia": [
+      "seltos"
+    ],
+    "skoda": [
+      "kushaq"
+    ],
+    "renault": [
+      "duster"
+    ],
+    "mg": [
+      "windsor-ev"
+    ]
+  },
+  "display_names": {
+    "tata/sierra": "Tata Sierra",
+    "tata/harrier-ev": "Tata Harrier EV",
+    "tata/curvv-ev": "Tata Curvv EV",
+    "tata/nexon-ev": "Tata Nexon EV",
+    "tata/punch-ev": "Tata Punch EV",
+    "tata/punch": "Tata Punch",
+    "tata/tiago-ev": "Tata Tiago EV",
+    "mahindra/be6": "Mahindra BE6",
+    "mahindra/xev-9e": "Mahindra XEV 9E",
+    "mahindra/scorpio-n": "Mahindra Scorpio N",
+    "mahindra/thar-roxx": "Mahindra Thar Roxx",
+    "mahindra/xuv700": "Mahindra XUV700",
+    "hyundai/creta": "Hyundai Creta",
+    "hyundai/creta-electric": "Hyundai Creta Electric",
+    "maruti/e-vitara": "Maruti e-Vitara",
+    "maruti/brezza": "Maruti Brezza",
+    "kia/seltos": "Kia Seltos",
+    "skoda/kushaq": "Skoda Kushaq",
+    "renault/duster": "Renault Duster",
+    "mg/windsor-ev": "MG Windsor EV"
+  },
+  "jury_scores": {
+    "tata/sierra": {
+      "score": "7.8",
+      "verdict": "WAIT"
+    },
+    "tata/harrier-ev": {
+      "score": "7.5",
+      "verdict": "BUY"
+    },
+    "tata/curvv-ev": {
+      "score": "7.4",
+      "verdict": "BUY"
+    },
+    "tata/nexon-ev": {
+      "score": "7.8",
+      "verdict": "BUY"
+    },
+    "tata/punch-ev": {
+      "score": "7.4",
+      "verdict": "BUY"
+    },
+    "tata/punch": {
+      "score": "7.6",
+      "verdict": "BUY"
+    },
+    "tata/tiago-ev": {
+      "score": "6.8",
+      "verdict": "WAIT"
+    },
+    "mahindra/be6": {
+      "score": "8.0",
+      "verdict": "BUY"
+    },
+    "mahindra/xev-9e": {
+      "score": "7.5",
+      "verdict": "WAIT"
+    },
+    "mahindra/scorpio-n": {
+      "score": "7.8",
+      "verdict": "BUY"
+    },
+    "mahindra/thar-roxx": {
+      "score": "8.0",
+      "verdict": "BUY"
+    },
+    "mahindra/xuv700": {
+      "score": "7.8",
+      "verdict": "BUY"
+    },
+    "hyundai/creta": {
+      "score": "7.8",
+      "verdict": "BUY"
+    },
+    "hyundai/creta-electric": {
+      "score": "7.8",
+      "verdict": "BUY"
+    },
+    "maruti/e-vitara": {
+      "score": "6.8",
+      "verdict": "WAIT"
+    },
+    "maruti/brezza": {
+      "score": "7.4",
+      "verdict": "BUY"
+    },
+    "kia/seltos": {
+      "score": "7.8",
+      "verdict": "BUY"
+    },
+    "skoda/kushaq": {
+      "score": "7.6",
+      "verdict": "BUY"
+    },
+    "renault/duster": {
+      "score": "7.8",
+      "verdict": "BUY"
+    },
+    "mg/windsor-ev": {
+      "score": "7.8",
+      "verdict": "BUY"
+    }
+  },
+  "compare_pages": {
+    "tata/nexon-ev": [
+      "compare/creta-electric-vs-nexon-ev",
+      "compare/be6-vs-nexon-ev",
+      "compare/nexon-ev-vs-e-vitara"
+    ],
+    "hyundai/creta-electric": [
+      "compare/creta-electric-vs-nexon-ev",
+      "compare/creta-electric-vs-e-vitara"
+    ],
+    "hyundai/creta": [
+      "compare/creta-vs-seltos",
+      "compare/creta-vs-duster",
+      "compare/creta-vs-kushaq"
+    ],
+    "maruti/e-vitara": [
+      "compare/creta-electric-vs-e-vitara",
+      "compare/nexon-ev-vs-e-vitara"
+    ],
+    "kia/seltos": [
+      "compare/creta-vs-seltos"
+    ],
+    "skoda/kushaq": [
+      "compare/creta-vs-kushaq",
+      "compare/kushaq-vs-duster"
+    ],
+    "renault/duster": [
+      "compare/creta-vs-duster",
+      "compare/kushaq-vs-duster"
+    ],
+    "mahindra/be6": [
+      "compare/be6-vs-nexon-ev"
+    ],
+    "tata/punch-ev": [],
+    "tata/punch": [],
+    "tata/sierra": [],
+    "mahindra/scorpio-n": [],
+    "mahindra/xuv700": [],
+    "mahindra/thar-roxx": [],
+    "mahindra/xev-9e": [],
+    "tata/curvv-ev": [],
+    "tata/harrier-ev": [],
+    "tata/tiago-ev": [],
+    "mg/windsor-ev": [],
+    "maruti/brezza": []
+  }
+}
