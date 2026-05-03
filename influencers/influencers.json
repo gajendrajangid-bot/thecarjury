@@ -39,7 +39,8 @@
       "mahindra/xev-9e",
       "mahindra/thar-roxx",
       "mercedes/glc",
-      "bmw/x3"
+      "bmw/x3",
+      "bmw/x1"
     ]
   },
   {
@@ -279,7 +280,8 @@
       "maruti/brezza",
       "tata/harrier-ev",
       "mercedes/glc",
-      "bmw/x3"
+      "bmw/x3",
+      "bmw/x1"
     ]
   },
   {
@@ -720,7 +722,8 @@
       "tata/harrier-ev",
       "mahindra/thar-roxx",
       "mercedes/glc",
-      "bmw/x3"
+      "bmw/x3",
+      "bmw/x1"
     ]
   },
   {
@@ -750,7 +753,8 @@
     "subscriber_count": "",
     "articles": [
       "mahindra/scorpio-n",
-      "mercedes/glc"
+      "mercedes/glc",
+      "bmw/x1"
     ]
   }
 ]
