@@ -100,7 +100,13 @@ def inject_inline_links(html: str, brand: str, model: str) -> str:
         return html
     data = json.loads(seg_path.read_text())
     page_slug = f"{brand}/{model}"
-    name_to_url = {v: f"/reviews/{k}/" for k, v in data["display_names"].items()}
+    site_root = seg_path.parent.parent
+    # Only link to review pages that actually exist on disk
+    name_to_url = {
+        v: f"/reviews/{k}/"
+        for k, v in data["display_names"].items()
+        if (site_root / "reviews" / k / "index.html").exists()
+    }
     # Longest names first so "Hyundai Creta Electric" matches before "Hyundai Creta"
     sorted_names = sorted(name_to_url.keys(), key=len, reverse=True)
 
