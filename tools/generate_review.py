@@ -87,6 +87,61 @@ def _build_related_cars_html(link_context: dict) -> str:
         f'{compares_html}</div>\n'
     )
 
+
+def inject_inline_links(html: str, brand: str, model: str) -> str:
+    """
+    Wrap the first mention of each rival car name in <p> tags within .section
+    and .faq-a divs with an <a href> link. First mention only, never self-links,
+    never inside existing anchors. Reads display_names from segments.json.
+    """
+    from bs4 import BeautifulSoup
+    seg_path = Path(__file__).parent / "segments.json"
+    if not seg_path.exists():
+        return html
+    data = json.loads(seg_path.read_text())
+    page_slug = f"{brand}/{model}"
+    name_to_url = {v: f"/reviews/{k}/" for k, v in data["display_names"].items()}
+    # Longest names first so "Hyundai Creta Electric" matches before "Hyundai Creta"
+    sorted_names = sorted(name_to_url.keys(), key=len, reverse=True)
+
+    soup = BeautifulSoup(html, "html.parser")
+    linked = set()
+
+    for section in soup.find_all(class_=["section", "faq-a"]):
+        for el in section.find_all(["p", "div", "li"]):
+            if el.find_parent("a"):
+                continue
+            el_text = el.get_text()
+            for car_name in sorted_names:
+                url = name_to_url[car_name]
+                target_slug = url.strip("/").replace("reviews/", "", 1)
+                if target_slug == page_slug or car_name in linked:
+                    continue
+                if car_name not in el_text:
+                    continue
+                inner = el.decode_contents()
+                parts = re.split(r"(<a[\s\S]*?</a>)", inner)
+                new_parts, replaced = [], False
+                for part in parts:
+                    if part.startswith("<a") or replaced:
+                        new_parts.append(part)
+                    else:
+                        new_part, n = re.subn(
+                            re.escape(car_name),
+                            f'<a href="{url}">{car_name}</a>',
+                            part, count=1,
+                        )
+                        if n:
+                            replaced = True
+                            linked.add(car_name)
+                        new_parts.append(new_part)
+                if replaced:
+                    el.clear()
+                    el.append(BeautifulSoup("".join(new_parts), "html.parser"))
+
+    return str(soup)
+
+
 GA4_SNIPPET = """<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
 <script>
@@ -982,6 +1037,9 @@ def main():
         data, args.videos, teambhp_url, teambhp_title, hero_image,
         link_context=link_context,
     )
+
+    # Inject inline contextual links (Type D — first mention of each rival in body)
+    html = inject_inline_links(html, args.brand, args.model)
 
     if args.dry_run:
         print("\n  [dry-run] Skipping file write and push.")

@@ -45,7 +45,25 @@ Look for a function called `refresh_compare_pages_in_segments`. If it does not e
 1. Add the function from `INTERLINKING_AGENT_INTEGRATION.md → PROMPT 5`
 2. Call it as Step 4b — after content rebuilds, before the sitemap regeneration step
 
-After implementing all 5 checks, report a summary: which files were modified, what was added, and confirm that `get_link_context` is wired into `generate_review.py` correctly by running a dry-run import check.
+### Check 6 — Inline contextual links (Type D) on existing pages
+
+Look for `inject_inline_links` in `tools/generate_review.py`. If it exists (already wired for future articles), also run a one-time back-fill pass on all existing review pages:
+
+For each `reviews/[brand]/[model]/index.html`:
+1. Load `tools/segments.json → display_names` to get all car name → URL mappings
+2. Scan `.section p` tags and `.faq-a` divs for the first mention of each rival car name that is NOT already inside an `<a>` tag
+3. Wrap that first mention with `<a href="/reviews/brand/model/">Car Name</a>`
+4. Never link the same car twice per page, never link in headings, never self-link
+
+### Check 7 — Influencer first-mention links (Type E) on all pages
+
+Look for `check_duplicate_influencer_links` in `agents/carjury/qa_agent.py`. If it does not exist, add it (see Interlinking Strategy → Type E rule above). Then run a site-wide dedup pass:
+
+1. For each review page: verify `seo_agent.py → _add_interlinking()` pre-populates `linked_urls` from existing article links before the paragraph scan (already implemented — confirm the pre-population block exists).
+2. For each compare page: verify `generate_compare.py → render_sources_col()` accepts a `seen` set and threads it across both car columns (already implemented — confirm).
+3. For any page where an influencer URL appears more than once as a `<a href="/influencers/...">`, strip all but the first occurrence (keep the first link, replace subsequent ones with plain text).
+
+After implementing all 7 checks, report a summary: which files were modified, what was added, and confirm that `get_link_context` and `inject_inline_links` are both wired into `generate_review.py` correctly by running a dry-run import check.
 
 ---
 
@@ -211,6 +229,14 @@ Benchmarking vs CarDekho/CarWale: `INTERLINKING_BENCHMARK.md`
 **Type B — Brand siblings** (1–2 links): other cars from the same manufacturer. Source: `segments.json → brands[brand]`
 
 **Type C — Compare handoff** (all applicable): every compare page that features this car. Source: `segments.json → compare_pages[brand/model]`
+
+**Type D — Inline contextual links** (first mention per rival): wherever a rival car's name appears in the article body prose (`.section p`, `.faq-a` content), wrap the **first mention only** with `<a href="/reviews/brand/model/">Car Name</a>`. Never link the same car twice. Never link in headings or inside existing anchors. Source: `segments.json → display_names`. This is handled automatically by `inject_inline_links()` in `generate_review.py`.
+
+**Type E — Influencer first-mention links** (applies to ALL page types): wherever a reviewer/creator name appears — in review prose, FAQ sections, compare page sources columns, or any landing page body — wrap the **first mention only** with `<a href="/influencers/[slug]/">Name</a>`. Never link the same influencer twice per page. The source of truth for name→URL mapping is `INFLUENCER_MAP` in `seo_agent.py` (and `_INFLUENCER_URLS` in `generate_compare.py`). Enforced by:
+- **Reviews** (prose): `seo_agent.py → _add_interlinking()` — pre-populates `linked_urls` from existing article links before scanning, preventing duplicates across runs.
+- **Compare pages** (sources columns): `generate_compare.py → render_sources_col()` — threads a shared `seen` set across both car columns at generation time.
+- **Landing pages**: When creating any new landing page that mentions reviewer/creator names, manually link the first mention to `/influencers/[slug]/`. QA agent will flag any duplicate links.
+- **QA gate**: `qa_agent.py → check_duplicate_influencer_links()` runs on reviews, compare pages, and all other pages during `run_site_qa()` — FAILs if any influencer URL appears more than once as a link.
 
 **Minimum standard:** Every review page must have at least 4 specific internal links to `/reviews/` or `/compare/` pages. Links to index pages (`/reviews/`, `/compare/`) do not count toward this minimum.
 

@@ -1,9 +1,9 @@
 {
-  "version": "1.0",
-  "last_updated": "2026-05-03",
+  "version": "1.1",
+  "last_updated": "2026-05-04",
   "segments": {
     "entry-ev": {
-      "label": "Entry EVs (under \u20b915L)",
+      "label": "Entry EVs (under ₹15L)",
       "budget_band": "under-15L",
       "cars": [
         "tata/punch-ev",
@@ -12,7 +12,7 @@
       ]
     },
     "mid-ev": {
-      "label": "Mid EVs (\u20b915\u201322L)",
+      "label": "Mid EVs (₹15–22L)",
       "budget_band": "15L-22L",
       "cars": [
         "tata/nexon-ev",
@@ -22,7 +22,7 @@
       ]
     },
     "premium-ev": {
-      "label": "Premium EVs (\u20b922\u201335L)",
+      "label": "Premium EVs (₹22–35L)",
       "budget_band": "22L-35L",
       "cars": [
         "mahindra/be6",
@@ -30,32 +30,94 @@
         "tata/harrier-ev"
       ]
     },
+    "hatchback": {
+      "label": "Hatchbacks (₹6–10L)",
+      "budget_band": "6L-10L",
+      "cars": [
+        "maruti/swift"
+      ]
+    },
+    "sub-compact-suv": {
+      "label": "Sub-Compact SUVs (₹8–14L)",
+      "budget_band": "8L-14L",
+      "cars": [
+        "hyundai/venue",
+        "kia/sonet",
+        "mahindra/xuv-3xo"
+      ]
+    },
     "compact-suv": {
-      "label": "Compact ICE SUVs (\u20b98\u201315L)",
+      "label": "Compact ICE SUVs (₹8–15L)",
       "budget_band": "8L-15L",
       "cars": [
         "maruti/brezza",
-        "tata/punch"
+        "tata/punch",
+        "tata/nexon",
+        "maruti/jimny"
       ]
     },
     "mid-suv": {
-      "label": "Mid-Size ICE SUVs (\u20b912\u201322L)",
+      "label": "Mid-Size ICE SUVs (₹12–22L)",
       "budget_band": "12L-22L",
       "cars": [
         "hyundai/creta",
         "kia/seltos",
         "skoda/kushaq",
-        "renault/duster"
+        "renault/duster",
+        "honda/elevate",
+        "maruti/grand-vitara",
+        "volkswagen/taigun"
+      ]
+    },
+    "large-suv": {
+      "label": "Large Family SUVs (₹15–23L)",
+      "budget_band": "15L-23L",
+      "cars": [
+        "tata/safari",
+        "mg/hector",
+        "hyundai/alcazar"
       ]
     },
     "premium-suv": {
-      "label": "Premium Full-Size SUVs (\u20b920\u201335L)",
+      "label": "Premium Full-Size SUVs (₹20–35L)",
       "budget_band": "20L-35L",
       "cars": [
         "tata/sierra",
         "mahindra/scorpio-n",
         "mahindra/xuv700",
         "mahindra/thar-roxx"
+      ]
+    },
+    "ladder-suv": {
+      "label": "Ladder-Frame SUVs (₹30–55L)",
+      "budget_band": "30L-55L",
+      "cars": [
+        "toyota/fortuner"
+      ]
+    },
+    "mpv": {
+      "label": "MPV / Crossovers (₹19–30L)",
+      "budget_band": "19L-30L",
+      "cars": [
+        "toyota/innova-hycross"
+      ]
+    },
+    "sedan": {
+      "label": "Sedans (₹12–18L)",
+      "budget_band": "12L-18L",
+      "cars": [
+        "skoda/slavia",
+        "volkswagen/virtus",
+        "honda/city"
+      ]
+    },
+    "luxury-suv": {
+      "label": "Luxury SUVs (₹50–90L)",
+      "budget_band": "50L-90L",
+      "cars": [
+        "bmw/x1",
+        "bmw/x3",
+        "mercedes/glc"
       ]
     }
   },
@@ -65,36 +127,66 @@
       "harrier-ev",
       "curvv-ev",
       "nexon-ev",
+      "nexon",
       "punch-ev",
       "punch",
-      "tiago-ev"
+      "tiago-ev",
+      "safari"
     ],
     "mahindra": [
       "be6",
       "xev-9e",
       "scorpio-n",
       "thar-roxx",
-      "xuv700"
+      "xuv700",
+      "xuv-3xo"
     ],
     "hyundai": [
       "creta",
-      "creta-electric"
+      "creta-electric",
+      "venue",
+      "alcazar"
     ],
     "maruti": [
       "e-vitara",
-      "brezza"
+      "brezza",
+      "swift",
+      "jimny",
+      "grand-vitara"
     ],
     "kia": [
-      "seltos"
+      "seltos",
+      "sonet"
     ],
     "skoda": [
-      "kushaq"
+      "kushaq",
+      "slavia"
     ],
     "renault": [
       "duster"
     ],
     "mg": [
-      "windsor-ev"
+      "windsor-ev",
+      "hector"
+    ],
+    "honda": [
+      "elevate",
+      "city"
+    ],
+    "toyota": [
+      "fortuner",
+      "innova-hycross"
+    ],
+    "volkswagen": [
+      "taigun",
+      "virtus"
+    ],
+    "bmw": [
+      "x1",
+      "x3"
+    ],
+    "mercedes": [
+      "glc"
     ]
   },
   "display_names": {
@@ -102,22 +194,42 @@
     "tata/harrier-ev": "Tata Harrier EV",
     "tata/curvv-ev": "Tata Curvv EV",
     "tata/nexon-ev": "Tata Nexon EV",
+    "tata/nexon": "Tata Nexon",
     "tata/punch-ev": "Tata Punch EV",
     "tata/punch": "Tata Punch",
     "tata/tiago-ev": "Tata Tiago EV",
+    "tata/safari": "Tata Safari",
     "mahindra/be6": "Mahindra BE6",
     "mahindra/xev-9e": "Mahindra XEV 9E",
     "mahindra/scorpio-n": "Mahindra Scorpio N",
     "mahindra/thar-roxx": "Mahindra Thar Roxx",
     "mahindra/xuv700": "Mahindra XUV700",
+    "mahindra/xuv-3xo": "Mahindra XUV 3XO",
     "hyundai/creta": "Hyundai Creta",
     "hyundai/creta-electric": "Hyundai Creta Electric",
+    "hyundai/venue": "Hyundai Venue",
+    "hyundai/alcazar": "Hyundai Alcazar",
     "maruti/e-vitara": "Maruti e-Vitara",
     "maruti/brezza": "Maruti Brezza",
+    "maruti/swift": "Maruti Swift",
+    "maruti/jimny": "Maruti Jimny",
+    "maruti/grand-vitara": "Maruti Grand Vitara",
     "kia/seltos": "Kia Seltos",
+    "kia/sonet": "Kia Sonet",
     "skoda/kushaq": "Skoda Kushaq",
+    "skoda/slavia": "Skoda Slavia",
     "renault/duster": "Renault Duster",
-    "mg/windsor-ev": "MG Windsor EV"
+    "mg/windsor-ev": "MG Windsor EV",
+    "mg/hector": "MG Hector",
+    "honda/elevate": "Honda Elevate",
+    "honda/city": "Honda City",
+    "toyota/fortuner": "Toyota Fortuner",
+    "toyota/innova-hycross": "Toyota Innova HyCross",
+    "volkswagen/taigun": "Volkswagen Taigun",
+    "volkswagen/virtus": "Volkswagen Virtus",
+    "bmw/x1": "BMW X1",
+    "bmw/x3": "BMW X3",
+    "mercedes/glc": "Mercedes GLC"
   },
   "jury_scores": {
     "tata/sierra": {
@@ -136,6 +248,10 @@
       "score": "7.8",
       "verdict": "BUY"
     },
+    "tata/nexon": {
+      "score": "",
+      "verdict": ""
+    },
     "tata/punch-ev": {
       "score": "7.4",
       "verdict": "BUY"
@@ -147,6 +263,10 @@
     "tata/tiago-ev": {
       "score": "6.8",
       "verdict": "WAIT"
+    },
+    "tata/safari": {
+      "score": "",
+      "verdict": ""
     },
     "mahindra/be6": {
       "score": "8.0",
@@ -168,6 +288,10 @@
       "score": "7.8",
       "verdict": "BUY"
     },
+    "mahindra/xuv-3xo": {
+      "score": "",
+      "verdict": ""
+    },
     "hyundai/creta": {
       "score": "7.8",
       "verdict": "BUY"
@@ -175,6 +299,14 @@
     "hyundai/creta-electric": {
       "score": "7.8",
       "verdict": "BUY"
+    },
+    "hyundai/venue": {
+      "score": "",
+      "verdict": ""
+    },
+    "hyundai/alcazar": {
+      "score": "",
+      "verdict": ""
     },
     "maruti/e-vitara": {
       "score": "6.8",
@@ -184,13 +316,33 @@
       "score": "7.4",
       "verdict": "BUY"
     },
+    "maruti/swift": {
+      "score": "",
+      "verdict": ""
+    },
+    "maruti/jimny": {
+      "score": "",
+      "verdict": ""
+    },
+    "maruti/grand-vitara": {
+      "score": "",
+      "verdict": ""
+    },
     "kia/seltos": {
       "score": "7.8",
       "verdict": "BUY"
     },
+    "kia/sonet": {
+      "score": "",
+      "verdict": ""
+    },
     "skoda/kushaq": {
       "score": "7.6",
       "verdict": "BUY"
+    },
+    "skoda/slavia": {
+      "score": "",
+      "verdict": ""
     },
     "renault/duster": {
       "score": "7.8",
@@ -198,6 +350,46 @@
     },
     "mg/windsor-ev": {
       "score": "7.8",
+      "verdict": "BUY"
+    },
+    "mg/hector": {
+      "score": "",
+      "verdict": ""
+    },
+    "honda/elevate": {
+      "score": "",
+      "verdict": ""
+    },
+    "honda/city": {
+      "score": "",
+      "verdict": ""
+    },
+    "toyota/fortuner": {
+      "score": "",
+      "verdict": ""
+    },
+    "toyota/innova-hycross": {
+      "score": "",
+      "verdict": ""
+    },
+    "volkswagen/taigun": {
+      "score": "",
+      "verdict": ""
+    },
+    "volkswagen/virtus": {
+      "score": "",
+      "verdict": ""
+    },
+    "bmw/x1": {
+      "score": "7.4",
+      "verdict": "BUY"
+    },
+    "bmw/x3": {
+      "score": "7.8",
+      "verdict": "BUY"
+    },
+    "mercedes/glc": {
+      "score": "8.0",
       "verdict": "BUY"
     }
   },
@@ -207,6 +399,10 @@
       "compare/be6-vs-nexon-ev",
       "compare/nexon-ev-vs-e-vitara"
     ],
+    "tata/nexon": [],
+    "tata/safari": [
+      "compare/safari-vs-xuv700"
+    ],
     "hyundai/creta-electric": [
       "compare/creta-electric-vs-nexon-ev",
       "compare/creta-electric-vs-e-vitara"
@@ -214,18 +410,34 @@
     "hyundai/creta": [
       "compare/creta-vs-seltos",
       "compare/creta-vs-duster",
-      "compare/creta-vs-kushaq"
+      "compare/creta-vs-kushaq",
+      "compare/elevate-vs-creta"
     ],
+    "hyundai/venue": [
+      "compare/venue-vs-sonet"
+    ],
+    "hyundai/alcazar": [],
     "maruti/e-vitara": [
       "compare/creta-electric-vs-e-vitara",
       "compare/nexon-ev-vs-e-vitara"
     ],
+    "maruti/jimny": [
+      "compare/thar-roxx-vs-jimny"
+    ],
+    "maruti/swift": [],
+    "maruti/grand-vitara": [],
     "kia/seltos": [
       "compare/creta-vs-seltos"
+    ],
+    "kia/sonet": [
+      "compare/venue-vs-sonet"
     ],
     "skoda/kushaq": [
       "compare/creta-vs-kushaq",
       "compare/kushaq-vs-duster"
+    ],
+    "skoda/slavia": [
+      "compare/slavia-vs-virtus"
     ],
     "renault/duster": [
       "compare/creta-vs-duster",
@@ -234,17 +446,36 @@
     "mahindra/be6": [
       "compare/be6-vs-nexon-ev"
     ],
+    "mahindra/thar-roxx": [
+      "compare/thar-roxx-vs-jimny"
+    ],
+    "mahindra/xuv700": [
+      "compare/safari-vs-xuv700"
+    ],
+    "mahindra/xuv-3xo": [],
+    "honda/elevate": [
+      "compare/elevate-vs-creta"
+    ],
+    "honda/city": [],
+    "toyota/fortuner": [],
+    "toyota/innova-hycross": [],
+    "volkswagen/taigun": [],
+    "volkswagen/virtus": [
+      "compare/slavia-vs-virtus"
+    ],
+    "mg/hector": [],
     "tata/punch-ev": [],
     "tata/punch": [],
     "tata/sierra": [],
     "mahindra/scorpio-n": [],
-    "mahindra/xuv700": [],
-    "mahindra/thar-roxx": [],
     "mahindra/xev-9e": [],
     "tata/curvv-ev": [],
     "tata/harrier-ev": [],
     "tata/tiago-ev": [],
     "mg/windsor-ev": [],
-    "maruti/brezza": []
+    "maruti/brezza": [],
+    "bmw/x1": [],
+    "bmw/x3": [],
+    "mercedes/glc": []
   }
 }
