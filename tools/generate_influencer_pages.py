@@ -11,9 +11,49 @@ from datetime import date
 
 CARJURY = Path(__file__).parent.parent
 INFLUENCERS_JSON = CARJURY / "influencers/influencers.json"
+SEGMENTS_JSON    = CARJURY / "tools/segments.json"
 TODAY_YEAR = date.today().year
 
+
+def _load_segments() -> dict:
+    if SEGMENTS_JSON.exists():
+        return json.loads(SEGMENTS_JSON.read_text())
+    return {}
+
+
+def _jury_scores(segments: dict) -> dict:
+    """Return {car_key: {score, verdict}} from segments.json."""
+    return segments.get("jury_scores", {})
+
+
+def _verdict_stats(articles: list[str], scores: dict) -> dict:
+    """Return buy/wait/skip counts, avg score, top score + car for an influencer."""
+    buy = wait = skip = 0
+    total = 0.0
+    counted = 0
+    top_score = 0.0
+    top_car = ""
+    for slug in articles:
+        s = scores.get(slug, {})
+        v = s.get("verdict", "")
+        sc = float(s.get("score") or 0)
+        if v == "BUY":   buy  += 1
+        elif v == "WAIT": wait += 1
+        elif v == "SKIP": skip += 1
+        if sc:
+            total   += sc
+            counted += 1
+            if sc > top_score:
+                top_score = sc
+                top_car   = slug
+    avg = round(total / counted, 1) if counted else 0.0
+    return {"buy": buy, "wait": wait, "skip": skip,
+            "avg": avg, "top_score": top_score, "top_car": top_car}
+
 APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec"
+
+_YT_SVG = '<svg width="26" height="18" viewBox="0 0 26 18" fill="currentColor"><path d="M25.4 2.8a3.2 3.2 0 0 0-2.3-2.3C21.1 0 13 0 13 0S4.9 0 2.9.5A3.2 3.2 0 0 0 .6 2.8C0 4.8 0 9 0 9s0 4.2.6 6.2a3.2 3.2 0 0 0 2.3 2.3C4.9 18 13 18 13 18s8.1 0 10.1-.5a3.2 3.2 0 0 0 2.3-2.3C26 13.2 26 9 26 9s0-4.2-.6-6.2zM10.4 12.9V5.1L17.1 9l-6.7 3.9z"/></svg>'
+_YT_SVG_SM = '<svg width="15" height="11" viewBox="0 0 26 18" fill="currentColor"><path d="M25.4 2.8a3.2 3.2 0 0 0-2.3-2.3C21.1 0 13 0 13 0S4.9 0 2.9.5A3.2 3.2 0 0 0 .6 2.8C0 4.8 0 9 0 9s0 4.2.6 6.2a3.2 3.2 0 0 0 2.3 2.3C4.9 18 13 18 13 18s8.1 0 10.1-.5a3.2 3.2 0 0 0 2.3-2.3C26 13.2 26 9 26 9s0-4.2-.6-6.2zM10.4 12.9V5.1L17.1 9l-6.7 3.9z"/></svg>'
 
 GA4_SNIPPET = """<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
@@ -212,41 +252,182 @@ def generate_index(influencers: list[dict]) -> str:
 </html>"""
 
 
-def generate_influencer_page(inf: dict) -> str:
-    articles = inf.get("articles", [])
+def generate_influencer_page(inf: dict, all_influencers: list[dict] | None = None) -> str:  # noqa: C901
+    # Verdict counts, scores, and badges are always derived live from segments.json —
+    # never stored in influencers.json. Rerunning this script after a verdict change
+    # automatically reflects the new verdicts on every influencer page.
+    segments  = _load_segments()
+    scores    = _jury_scores(segments)
+    articles  = inf.get("articles", [])
     article_count = len(articles)
+    slug      = inf["slug"]
+    name      = inf["name"]
+    initial   = name[0].upper()
 
+    # ── Verdict stats ────────────────────────────────────────────────────────
+    vstats = _verdict_stats(articles, scores)
+
+    # ── Portrait / avatar ────────────────────────────────────────────────────
+    # CSS layering: initial span always rendered behind; img sits on top when loaded.
+    # Avoids onerror-in-double-quoted-attribute HTML parsing issues entirely.
+    photo_url = inf.get("photo_url", "")
+    img_tag = (
+        f'<img class="portrait-img" src="{photo_url}" alt="{name}" />'
+        if photo_url else ""
+    )
+    portrait_inner = f'<span class="portrait-init">{initial}</span>{img_tag}'
+
+    # ── Subscriber badge (YouTube only) ──────────────────────────────────────
+    sub_count   = inf.get("subscriber_count", "")
+    sub_fetched = inf.get("subscribers_fetched", "")
+    yt_url      = inf.get("youtube_url", "")
+    yt_handle   = inf.get("youtube_handle", "")
+
+    if sub_count and yt_url:
+        sub_fetched_str = ""
+        if sub_fetched:
+            from datetime import datetime
+            try:
+                d = datetime.strptime(sub_fetched, "%Y-%m-%d")
+                sub_fetched_str = d.strftime("%b %-d, %Y")
+            except Exception:
+                sub_fetched_str = sub_fetched
+        sub_badge = f"""<div class="platform-sub">
+          <div class="platform-sub__icon yt-icon">{_YT_SVG}</div>
+          <div>
+            <div class="platform-sub__count">{sub_count}</div>
+            <div class="platform-sub__meta">YouTube subscribers{f'<br>Fetched {sub_fetched_str}' if sub_fetched_str else ''}</div>
+          </div>
+        </div>"""
+    else:
+        sub_badge = ""
+
+    # ── Watch button ─────────────────────────────────────────────────────────
+    yt_btn = ""
+    if yt_url:
+        handle_display = f"@{yt_handle}" if yt_handle else yt_url
+        yt_btn = (
+            f'<a href="{yt_url}" class="btn-yt" target="_blank" rel="noopener noreferrer" '
+            f"onclick=\"trackClick('{slug}','youtube','{handle_display}')\">"
+            f"{_YT_SVG_SM} Watch on YouTube</a>"
+        )
+
+    # ── Style + language pills ────────────────────────────────────────────────
+    style_pills = "".join(f'<span class="pill pill-style">{t}</span>' for t in inf.get("style_tags", []))
+    lang_pills  = "".join(f'<span class="pill pill-lang">&#128483; {l}</span>' for l in inf.get("languages", []))
+
+    # ── Car types ─────────────────────────────────────────────────────────────
+    ICONS = {"Electric Vehicles": "⚡", "Premium & Luxury": "🏎", "SUVs & Crossovers": "🚙",
+             "Hatchbacks": "🚗", "Indian Market Cars": "🇮🇳"}
+    car_types_html = "".join(
+        f'<div class="cartype-pill"><span>{ICONS.get(t,"🚘")}</span> {t}</div>'
+        for t in inf.get("car_types", [])
+    )
+
+    # ── About paragraphs ──────────────────────────────────────────────────────
+    about_html = "".join(f"<p>{p}</p>" for p in inf.get("about", []))
+    if not about_html:
+        about_html = f"<p>{inf.get('tagline','')}</p>"
+
+    # ── Why on the jury ───────────────────────────────────────────────────────
+    why_html = inf.get("why", "")
+
+    # ── Bias assessment ───────────────────────────────────────────────────────
+    bias = inf.get("bias_assessment", {})
+    bias_score  = bias.get("score", "Low")
+    bias_badge_cls = "bias-badge-low" if bias_score == "Low" else "bias-badge-med" if bias_score == "Medium" else "bias-badge-high"
+    bias_method = bias.get("methodology", "")
+    bias_findings_html = "".join(
+        f'<div class="bias-finding"><div class="bias-dot"></div>'
+        f'<div class="bias-finding__text">{e}</div></div>'
+        for e in bias.get("evidence", [])
+    )
+    bias_date = bias.get("last_assessed", "")
+
+    # ── Articles list — sorted by score desc ─────────────────────────────────
+    def sort_key(s):
+        return -float(scores.get(s, {}).get("score") or 0)
+
+    sorted_articles = sorted(articles, key=sort_key)
     articles_html = ""
-    for slug in articles:
-        display, url = article_display(slug)
-        articles_html += f"""
-      <a href="{url}" class="article-item">
-        <span class="article-name">{display}</span>
-        <span class="article-arrow">→</span>
-      </a>"""
+    for s in sorted_articles:
+        display, url = article_display(s)
+        sc = scores.get(s, {})
+        score_val = sc.get("score", "")
+        verdict   = sc.get("verdict", "")
+        badge = f'<span class="verdict-badge verdict-{verdict.lower()}">{verdict}</span>' if verdict else ""
+        score_str = f'<span class="article-score">{score_val}/10</span>' if score_val else ""
+        articles_html += (
+            f'<a href="{url}" class="article-item">'
+            f'<span class="article-name">{display}</span>'
+            f'<div class="article-right">{badge}{score_str}'
+            f'<span class="article-arrow">&#8594;</span></div></a>\n'
+        )
 
-    slug = inf["slug"]
-    yt_btn = (
-        f'<a href="{inf["youtube_url"]}" class="btn-yt" target="_blank" rel="noopener noreferrer"'
-        f" onclick=\"trackClick('{slug}','youtube','@{inf['youtube_handle']}')\""
-        f'>YouTube @{inf["youtube_handle"]}</a>'
-    ) if inf.get("youtube_url") else ""
-    ig_btn = (
-        f'<a href="{inf["instagram_url"]}" class="btn-ig" target="_blank" rel="noopener noreferrer"'
-        f" onclick=\"trackClick('{slug}','instagram','@{inf['instagram_handle']}')\""
-        f'>Instagram @{inf["instagram_handle"]}</a>'
-    ) if inf.get("instagram_url") else ""
+    # ── Sidebar quick stats ───────────────────────────────────────────────────
+    since_year = inf.get("reviewing_since", "")
+    years_active = f"{TODAY_YEAR - since_year}+" if since_year else ""
 
+    top_car_display = ""
+    if vstats["top_car"]:
+        disp, _ = article_display(vstats["top_car"])
+        top_car_display = disp
+
+    platforms_str = ", ".join(inf.get("platforms", ["YouTube"]))
+    langs_str     = ", ".join(inf.get("languages", []))
+    focus_str     = (inf.get("style_tags", []) + ["Independent"])[0]
+
+    # ── Other jurors (up to 4, most reviews, excluding self) ─────────────────
+    others_html = ""
+    if all_influencers:
+        others = sorted(
+            [x for x in all_influencers if x["slug"] != slug and x.get("articles")],
+            key=lambda x: -len(x.get("articles", []))
+        )[:4]
+        for o in others:
+            o_initial = o["name"][0].upper()
+            o_photo   = o.get("photo_url", "")
+            if o_photo:
+                o_avatar = (
+                    f'<div class="juror-avatar">'
+                    f'<img src="{o_photo}" alt="{o["name"]}" '
+                    f'onerror="this.style.display=\'none\';this.parentElement.innerHTML=\'{o_initial}\'" />'
+                    f'</div>'
+                )
+            else:
+                o_avatar = f'<div class="juror-avatar">{o_initial}</div>'
+            n_reviews = len(o.get("articles", []))
+            others_html += (
+                f'<a href="/influencers/{o["slug"]}/" class="juror-card">'
+                f'{o_avatar}'
+                f'<div class="juror-name">{o["name"]}</div>'
+                f'<div class="juror-tagline">{o.get("tagline","")[:72]}</div>'
+                f'<div class="juror-reviews">{n_reviews} verdict{"s" if n_reviews != 1 else ""} &#8594;</div>'
+                f'</a>'
+            )
+
+    other_jurors_section = ""
+    if others_html:
+        other_jurors_section = f"""
+  <div class="other-jurors">
+    <div class="other-jurors__heading">Meet the rest of The Jury</div>
+    <div class="other-jurors__sub">Independent reviewers. One verdict per car.</div>
+    <div class="jurors-grid">{others_html}</div>
+  </div>"""
+
+    # ── Schema ────────────────────────────────────────────────────────────────
+    same_as = f',"sameAs":"{yt_url}"' if yt_url else ""
+    schema_image = f',"image":"{photo_url}"' if photo_url else ""
+
+    # ── Click tracking script ─────────────────────────────────────────────────
     click_script = (
         '<script>\n'
         f'var _TCJ_EP="{APPS_SCRIPT_URL}";\n'
         'function trackClick(j,p,h){'
-        'var fd=new FormData();'
-        "fd.append('page',j);fd.append('vote','click');"
-        "fd.append('score','');fd.append('verdict','');"
-        "fd.append('feedback',p+'::'+h);"
-        "fetch(_TCJ_EP,{method:'POST',body:fd,mode:'no-cors'});"
-        '}\n'
+        'var fd=new FormData();fd.append(\'page\',j);fd.append(\'vote\',\'click\');'
+        'fd.append(\'score\',\'\');fd.append(\'verdict\',\'\');'
+        'fd.append(\'feedback\',p+\'::\'+ h);'
+        'fetch(_TCJ_EP,{method:\'POST\',body:fd,mode:\'no-cors\'});}\n'
         '</script>'
     )
 
@@ -256,20 +437,20 @@ def generate_influencer_page(inf: dict) -> str:
 {GA4_SNIPPET}
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{inf['name']} — Independent Car Reviewer | The Car Jury</title>
-  <meta name="description" content="{inf['name']} is one of India's top independent car reviewers. The Car Jury has synthesised their analysis across {article_count} car review{'s' if article_count != 1 else ''}." />
-  <link rel="canonical" href="https://www.thecarjury.com/influencers/{inf['slug']}/" />
+  <title>{name} — Independent Car Reviewer | The Car Jury</title>
+  <meta name="description" content="{name} is one of India's top independent car reviewers. The Car Jury has synthesised their analysis across {article_count} car review{'s' if article_count != 1 else ''}." />
+  <link rel="canonical" href="https://www.thecarjury.com/influencers/{slug}/" />
   <script type="application/ld+json">
   {{
     "@context": "https://schema.org",
     "@type": "ProfilePage",
-    "name": "{inf['name']} — Independent Car Reviewer | The Car Jury",
-    "url": "https://www.thecarjury.com/influencers/{inf['slug']}/",
+    "name": "{name} — Independent Car Reviewer | The Car Jury",
+    "url": "https://www.thecarjury.com/influencers/{slug}/",
     "mainEntity": {{
       "@type": "Person",
-      "name": "{inf['name']}",
-      "description": "{inf.get('tagline', '')}",
-      "url": "https://www.thecarjury.com/influencers/{inf['slug']}/"
+      "name": "{name}",
+      "description": "{inf.get('tagline','').replace(chr(34), '')}"
+      {same_as}{schema_image}
     }}
   }}
   </script>
@@ -277,35 +458,143 @@ def generate_influencer_page(inf: dict) -> str:
   {FONTS_LINK}
   <style>
     {SHARED_CSS}
-    .breadcrumb {{ font: 500 12px/1 var(--font-ui); color: var(--stone-400); margin-bottom: 32px; display: flex; gap: 8px; align-items: center; }}
-    .breadcrumb a {{ color: var(--stone-600); }}
-    .breadcrumb a:hover {{ color: var(--red); }}
-    .breadcrumb__sep {{ color: var(--stone-200); }}
-    .profile-header {{ display: flex; gap: 28px; align-items: flex-start; margin-bottom: 40px; flex-wrap: wrap; }}
-    .profile-avatar {{ width: 80px; height: 80px; border-radius: 50%; background: var(--red); color: var(--white); font: 700 32px/1 var(--font-display); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
-    .profile-name {{ font: 700 clamp(1.6rem,4vw,2.4rem)/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 6px; }}
-    .profile-tagline {{ font: 400 15px/1.5 var(--font-body); color: var(--stone-600); margin-bottom: 16px; font-style: italic; }}
-    .btn-yt, .btn-ig {{ display: inline-block; padding: 8px 16px; border-radius: 4px; font: 600 13px/1 var(--font-ui); margin-right: 8px; margin-bottom: 8px; }}
-    .btn-yt {{ background: #C8102E; color: #fff; }}
-    .btn-yt:hover {{ background: #a30c24; color: #fff; }}
-    .btn-ig {{ background: var(--ink); color: var(--white); }}
-    .btn-ig:hover {{ background: var(--stone-800); color: var(--white); }}
-    .stat-row {{ display: flex; gap: 16px; margin-bottom: 48px; flex-wrap: wrap; }}
-    .stat {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 20px 28px; text-align: center; }}
-    .stat-num {{ font: 700 36px/1 var(--font-ui); color: var(--red); letter-spacing: -0.02em; }}
-    .stat-label {{ font: 500 11px/1 var(--font-ui); letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone-600); margin-top: 6px; }}
-    .section-label {{ font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }}
-    .articles-list {{ display: grid; gap: 10px; }}
-    .article-item {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 6px; padding: 16px 20px; display: flex; justify-content: space-between; align-items: center; transition: border-color 0.15s; }}
-    .article-item:hover {{ border-color: var(--stone-200); text-decoration: none; }}
-    .article-name {{ font: 500 15px/1.4 var(--font-ui); color: var(--ink); }}
-    .article-arrow {{ font: 400 16px/1 var(--font-ui); color: var(--red); flex-shrink: 0; }}
-    .back-link {{ margin-top: 40px; font: 500 13px/1 var(--font-ui); }}
-    .back-link a {{ color: var(--stone-600); }}
-    .back-link a:hover {{ color: var(--red); }}
-    @media (max-width: 600px) {{
-      .profile-header {{ flex-direction: column; gap: 16px; }}
+    :root {{
+      --amber: #92400E; --amber-tint: #FEF3C7;
+      --blue:  #1D4ED8; --blue-tint:  #EFF6FF;
+      --stone-100: #F0EDE8;
     }}
+    .wrap {{ max-width: 980px; }}
+    .breadcrumb {{ font: 500 12px/1 var(--font-ui); color: var(--stone-400); margin-bottom: 36px; display: flex; gap: 8px; align-items: center; }}
+    .breadcrumb a {{ color: var(--stone-600); }} .breadcrumb a:hover {{ color: var(--red); }}
+    .breadcrumb__sep {{ color: var(--stone-200); }}
+
+    /* portrait — layered: initial always behind, img floats on top when loaded */
+    .profile-hero {{ display: flex; gap: 36px; align-items: flex-start; margin-bottom: 36px; flex-wrap: wrap; }}
+    .profile-portrait {{ position: relative; flex-shrink: 0; width: 148px; height: 192px; border-radius: 12px;
+      overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,.14); background: var(--red); }}
+    .portrait-init {{ position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+      font: 700 56px/1 var(--font-display); color: var(--white); background: var(--red); z-index: 1; }}
+    .portrait-img {{ position: absolute; inset: 0; width: 100%; height: 100%;
+      object-fit: cover; object-position: 62% 6%; display: block; z-index: 2; }}
+    .profile-meta {{ flex: 1; min-width: 0; }}
+    .profile-name {{ font: 700 clamp(1.8rem,4vw,2.5rem)/1.1 var(--font-display); color: var(--ink); letter-spacing: -0.025em; margin-bottom: 8px; }}
+    .profile-tagline {{ font: 400 italic 15px/1.65 var(--font-body); color: var(--stone-600); margin-bottom: 14px; max-width: 560px; }}
+
+    /* pills */
+    .pill-row {{ display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 11px; }}
+    .pill {{ font: 600 10px/1 var(--font-ui); letter-spacing: .08em; text-transform: uppercase; padding: 5px 11px; border-radius: 20px; }}
+    .pill-style {{ color: var(--stone-600); background: var(--white); border: 1px solid var(--hairline); }}
+    .pill-lang  {{ color: var(--blue); background: var(--blue-tint); border: 1px solid #BFDBFE; }}
+
+    /* subscriber badge */
+    .platform-subs {{ margin-bottom: 16px; }}
+    .platform-sub {{ display: inline-flex; align-items: center; gap: 10px; background: var(--white);
+      border: 1px solid var(--hairline); border-radius: 8px; padding: 10px 16px; }}
+    .platform-sub__icon {{ flex-shrink: 0; }}
+    .yt-icon {{ color: #FF0000; }}
+    .platform-sub__count {{ font: 700 18px/1 var(--font-ui); color: var(--ink); letter-spacing: -0.02em; }}
+    .platform-sub__meta {{ font: 400 10px/1.4 var(--font-ui); color: var(--stone-400); margin-top: 2px; }}
+
+    /* watch btn */
+    .btn-yt {{ display: inline-flex; align-items: center; gap: 7px; padding: 9px 18px; border-radius: 5px;
+      font: 600 13px/1 var(--font-ui); background: #C8102E; color: #fff; }}
+    .btn-yt:hover {{ background: #a30c24; color: #fff; }}
+
+    /* stats */
+    .stat-row {{ display: flex; gap: 12px; margin-bottom: 48px; flex-wrap: wrap; }}
+    .stat {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 10px; padding: 18px 22px; text-align: center; flex: 1; min-width: 110px; }}
+    .stat-num {{ font: 700 32px/1 var(--font-ui); color: var(--red); letter-spacing: -0.03em; }}
+    .stat-label {{ font: 500 10px/1.4 var(--font-ui); letter-spacing: .1em; text-transform: uppercase; color: var(--stone-600); margin-top: 6px; }}
+    .stat-note  {{ font: 400 10px/1.3 var(--font-ui); color: var(--stone-400); margin-top: 4px; }}
+
+    /* two-column */
+    .content-cols {{ display: grid; grid-template-columns: 1fr 296px; gap: 44px; align-items: start; }}
+    @media (max-width: 800px) {{ .content-cols {{ grid-template-columns: 1fr; }} }}
+
+    /* sections */
+    .section-block {{ margin-bottom: 46px; }}
+    .section-label {{ font: 600 11px/1 var(--font-ui); letter-spacing: .14em; text-transform: uppercase; color: var(--red); margin-bottom: 16px; }}
+    .about-body p {{ font: 400 16px/1.78 var(--font-body); color: var(--stone-800); margin-bottom: 14px; }}
+    .about-body p:last-child {{ margin-bottom: 0; }}
+
+    /* car types */
+    .cartypes-block {{ display: flex; flex-wrap: wrap; gap: 10px; }}
+    .cartype-pill {{ display: inline-flex; align-items: center; gap: 8px; font: 500 13px/1 var(--font-ui);
+      color: var(--ink); background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 10px 16px; }}
+
+    /* jury trust */
+    .jury-trust {{ background: var(--green-tint); border-left: 3px solid var(--green); border-radius: 0 8px 8px 0; padding: 20px 24px; }}
+    .jury-trust__label {{ font: 700 10px/1 var(--font-ui); letter-spacing: .15em; text-transform: uppercase; color: var(--green); margin-bottom: 10px; }}
+    .jury-trust__text  {{ font: 400 15px/1.68 var(--font-body); color: var(--ink); }}
+
+    /* bias card */
+    .bias-card {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 10px; overflow: hidden; }}
+    .bias-header {{ display: flex; align-items: center; justify-content: space-between; padding: 18px 22px; border-bottom: 1px solid var(--hairline); flex-wrap: wrap; gap: 12px; }}
+    .bias-header__title {{ font: 700 14px/1 var(--font-ui); color: var(--ink); margin-bottom: 4px; }}
+    .bias-header__sub   {{ font: 400 12px/1.4 var(--font-ui); color: var(--stone-600); }}
+    .bias-badge {{ font: 700 11px/1 var(--font-ui); letter-spacing: .08em; padding: 6px 14px; border-radius: 20px; white-space: nowrap; }}
+    .bias-badge-low  {{ background: var(--green-tint); color: var(--green); border: 1px solid #A7D9BF; }}
+    .bias-badge-med  {{ background: var(--amber-tint); color: var(--amber); border: 1px solid #FDE68A; }}
+    .bias-badge-high {{ background: #FEE2E2; color: #B91C1C; border: 1px solid #FCA5A5; }}
+    .bias-body {{ padding: 20px 22px; display: flex; flex-direction: column; gap: 14px; }}
+    .bias-method {{ font: 400 13px/1.6 var(--font-ui); color: var(--stone-600); font-style: italic; padding-bottom: 14px; border-bottom: 1px solid var(--hairline); }}
+    .bias-finding {{ display: flex; align-items: flex-start; gap: 10px; }}
+    .bias-dot {{ width: 6px; height: 6px; border-radius: 50%; background: var(--green); flex-shrink: 0; margin-top: 7px; }}
+    .bias-finding__text {{ font: 400 13px/1.6 var(--font-ui); color: var(--stone-800); }}
+    .bias-footer {{ padding: 11px 22px; border-top: 1px solid var(--hairline); background: var(--stone-100); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }}
+    .bias-footer span {{ font: 400 11px/1.4 var(--font-ui); color: var(--stone-600); }}
+    .bias-footer strong {{ font-weight: 600; }}
+
+    /* articles */
+    .articles-list {{ display: grid; gap: 8px; }}
+    .article-item {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 13px 18px;
+      display: flex; justify-content: space-between; align-items: center; gap: 12px; transition: border-color .15s, box-shadow .15s; }}
+    .article-item:hover {{ border-color: var(--stone-200); box-shadow: 0 2px 8px rgba(0,0,0,.05); text-decoration: none; }}
+    .article-name {{ font: 500 14px/1.3 var(--font-ui); color: var(--ink); }}
+    .article-right {{ display: flex; align-items: center; gap: 10px; flex-shrink: 0; }}
+    .verdict-badge {{ font: 700 10px/1 var(--font-ui); letter-spacing: .1em; padding: 4px 8px; border-radius: 4px; }}
+    .verdict-buy  {{ background: var(--green-tint); color: var(--green); }}
+    .verdict-wait {{ background: var(--amber-tint); color: var(--amber); }}
+    .verdict-skip {{ background: #FEE2E2; color: #B91C1C; }}
+    .article-score {{ font: 700 12px/1 var(--font-ui); color: var(--stone-600); }}
+    .article-arrow {{ font-size: 14px; color: var(--red); }}
+
+    /* sidebar */
+    .sidebar {{ display: flex; flex-direction: column; gap: 18px; }}
+    .sidebar-card {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 10px; padding: 20px; }}
+    .sidebar-card__title {{ font: 700 10px/1 var(--font-ui); letter-spacing: .14em; text-transform: uppercase; color: var(--stone-600); margin-bottom: 14px; }}
+    .sidebar-row {{ display: flex; justify-content: space-between; align-items: flex-start; padding: 9px 0; border-bottom: 1px solid var(--hairline); gap: 8px; }}
+    .sidebar-row:last-child {{ border-bottom: none; padding-bottom: 0; }}
+    .sidebar-row__key {{ font: 400 13px/1.3 var(--font-ui); color: var(--stone-600); }}
+    .sidebar-row__val {{ font: 600 13px/1.3 var(--font-ui); color: var(--ink); text-align: right; }}
+    .sidebar-row__sub {{ font: 400 10px/1.3 var(--font-ui); color: var(--stone-400); text-align: right; margin-top: 2px; }}
+    .col-green {{ color: var(--green) !important; }}
+    .col-amber {{ color: var(--amber) !important; }}
+    .col-red   {{ color: var(--red)   !important; }}
+
+    /* other jurors */
+    .other-jurors {{ margin-top: 56px; padding-top: 44px; border-top: 1px solid var(--hairline); }}
+    .other-jurors__heading {{ font: 700 1.3rem/1.2 var(--font-display); color: var(--ink); margin-bottom: 6px; }}
+    .other-jurors__sub {{ font: 400 14px/1.5 var(--font-ui); color: var(--stone-600); margin-bottom: 22px; }}
+    .jurors-grid {{ display: grid; grid-template-columns: repeat(auto-fill,minmax(196px,1fr)); gap: 12px; }}
+    .juror-card {{ background: var(--white); border: 1px solid var(--hairline); border-radius: 10px; padding: 18px;
+      display: flex; flex-direction: column; gap: 5px; transition: border-color .15s, box-shadow .15s; }}
+    .juror-card:hover {{ border-color: var(--stone-200); box-shadow: 0 2px 8px rgba(0,0,0,.06); text-decoration: none; }}
+    .juror-avatar {{ width: 40px; height: 40px; border-radius: 50%; overflow: hidden; background: var(--red); color: var(--white);
+      font: 700 16px/1 var(--font-display); display: flex; align-items: center; justify-content: center; margin-bottom: 4px; }}
+    .juror-avatar img {{ width: 100%; height: 100%; object-fit: cover; object-position: 50% 5%; display: block; }}
+    .juror-name {{ font: 600 14px/1.2 var(--font-ui); color: var(--ink); }}
+    .juror-tagline {{ font: 400 11px/1.5 var(--font-ui); color: var(--stone-600); }}
+    .juror-reviews {{ font: 600 11px/1 var(--font-ui); color: var(--red); margin-top: 5px; }}
+
+    .back-link {{ margin-top: 40px; font: 500 13px/1 var(--font-ui); }}
+    .back-link a {{ color: var(--stone-600); }} .back-link a:hover {{ color: var(--red); }}
+
+    @media (max-width: 768px) {{
+      .profile-portrait {{ width: 120px; height: 156px; }}
+      .stat-num {{ font-size: 26px; }} .stat {{ padding: 14px 16px; }}
+    }}
+    @media (max-width: 520px) {{ .profile-hero {{ flex-direction: column; }} }}
   </style>
 {NAV_SCRIPT}
 </head>
@@ -313,34 +602,130 @@ def generate_influencer_page(inf: dict) -> str:
 {SITE_HEADER}
 <div class="wrap">
   <nav class="breadcrumb" aria-label="Breadcrumb">
-    <a href="/">Home</a>
-    <span class="breadcrumb__sep">›</span>
-    <a href="/influencers/">The Jury</a>
-    <span class="breadcrumb__sep">›</span>
-    <span>{inf['name']}</span>
+    <a href="/">Home</a><span class="breadcrumb__sep">›</span>
+    <a href="/influencers/">The Jury</a><span class="breadcrumb__sep">›</span>
+    <span>{name}</span>
   </nav>
 
-  <div class="profile-header">
-    <div class="profile-avatar">{inf['name'][0]}</div>
-    <div>
-      <div class="profile-name">{inf['name']}</div>
-      <div class="profile-tagline">{inf['tagline']}</div>
-      <div>{yt_btn}{ig_btn}</div>
+  <!-- HERO -->
+  <div class="profile-hero">
+    <div class="profile-portrait">{portrait_inner}</div>
+    <div class="profile-meta">
+      <div class="profile-name">{name}</div>
+      <div class="profile-tagline">{inf.get('tagline','')}</div>
+      <div class="pill-row">{style_pills}</div>
+      <div class="pill-row">{lang_pills}</div>
+      {'<div class="platform-subs">' + sub_badge + '</div>' if sub_badge else ''}
+      <div>{yt_btn}</div>
     </div>
   </div>
 
+  <!-- STATS -->
   <div class="stat-row">
     <div class="stat">
       <div class="stat-num">{article_count}</div>
-      <div class="stat-label">Review{'s' if article_count != 1 else ''} Analysed</div>
+      <div class="stat-label">Verdicts analysed</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">{years_active or "—"}</div>
+      <div class="stat-label">Years reviewing</div>
+      {'<div class="stat-note">Active since ' + str(since_year) + '</div>' if since_year else ''}
+    </div>
+    <div class="stat">
+      <div class="stat-num">{vstats['top_score'] or "—"}</div>
+      <div class="stat-label">Top jury score</div>
+      {'<div class="stat-note">' + top_car_display + '</div>' if top_car_display else ''}
+    </div>
+    <div class="stat">
+      <div class="stat-num">{vstats['avg'] or "—"}</div>
+      <div class="stat-label">Avg jury score</div>
+      {'<div class="stat-note">Across ' + str(article_count) + ' reviews</div>' if article_count else ''}
     </div>
   </div>
 
-  <p class="section-label">Reviews featuring {inf['name']}</p>
-  <div class="articles-list">{articles_html if articles_html else '<p style="color:var(--stone-400);font-size:14px;padding:16px 0">Reviews coming soon — check back after the next verdict is published.</p>'}
+  <!-- MAIN + SIDEBAR -->
+  <div class="content-cols">
+    <div>
+
+      {'<div class="section-block"><p class="section-label">About this reviewer</p><div class="about-body">' + about_html + '</div></div>' if about_html else ''}
+
+      {'<div class="section-block"><p class="section-label">Car types reviewed</p><div class="cartypes-block">' + car_types_html + '</div></div>' if car_types_html else ''}
+
+      {'<div class="section-block"><p class="section-label">Why on The Jury</p><div class="jury-trust"><div class="jury-trust__label">Our editorial rationale</div><div class="jury-trust__text">' + why_html + '</div></div></div>' if why_html else ''}
+
+      <div class="section-block">
+        <p class="section-label">Independence &amp; bias check</p>
+        <div class="bias-card">
+          <div class="bias-header">
+            <div>
+              <div class="bias-header__title">Bias risk assessment</div>
+              <div class="bias-header__sub">We read comments and analyse engagement across platforms — not declared conflicts alone.</div>
+            </div>
+            <span class="bias-badge {bias_badge_cls}">{bias_score.upper()} BIAS RISK</span>
+          </div>
+          <div class="bias-body">
+            {'<div class="bias-method">' + bias_method + '</div>' if bias_method else ''}
+            <div class="bias-findings">{bias_findings_html}</div>
+          </div>
+          <div class="bias-footer">
+            <span>Based on YouTube comment and engagement analysis. Not a guarantee of independence.</span>
+            {'<span><strong>Last assessed:</strong> ' + bias_date + '</span>' if bias_date else ''}
+          </div>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <p class="section-label">{article_count} verdict{"s" if article_count != 1 else ""} featuring {name}</p>
+        <div class="articles-list">
+          {articles_html if articles_html else '<p style="color:var(--stone-400);font-size:14px;padding:16px 0">Reviews coming soon.</p>'}
+        </div>
+      </div>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+      <div class="sidebar-card">
+        <div class="sidebar-card__title">Quick Profile</div>
+        <div class="sidebar-row">
+          <span class="sidebar-row__key">Platform</span>
+          <span class="sidebar-row__val">{platforms_str}</span>
+        </div>
+        <div class="sidebar-row">
+          <span class="sidebar-row__key">Language{'s' if len(inf.get('languages',[])) > 1 else ''}</span>
+          <span class="sidebar-row__val">{langs_str}</span>
+        </div>
+        {'<div class="sidebar-row"><span class="sidebar-row__key">Active since</span><span class="sidebar-row__val">' + str(since_year) + '</span></div>' if since_year else ''}
+        {'<div class="sidebar-row"><div><div class="sidebar-row__key">YT subscribers</div><div class="sidebar-row__sub">Fetched ' + (sub_fetched or '') + '</div></div><div class="sidebar-row__val">' + sub_count + '</div></div>' if sub_count else ''}
+        <div class="sidebar-row">
+          <span class="sidebar-row__key">Focus</span>
+          <span class="sidebar-row__val">{focus_str}</span>
+        </div>
+      </div>
+
+      {'<div class="sidebar-card"><div class="sidebar-card__title">Verdict breakdown</div><div class="sidebar-row"><span class="sidebar-row__key">BUY</span><span class="sidebar-row__val col-green">' + str(vstats["buy"]) + ' of ' + str(article_count) + '</span></div><div class="sidebar-row"><span class="sidebar-row__key">WAIT</span><span class="sidebar-row__val col-amber">' + str(vstats["wait"]) + ' of ' + str(article_count) + '</span></div><div class="sidebar-row"><span class="sidebar-row__key">SKIP</span><span class="sidebar-row__val">' + str(vstats["skip"]) + ' of ' + str(article_count) + '</span></div><div class="sidebar-row"><span class="sidebar-row__key">Avg score</span><span class="sidebar-row__val col-red">' + str(vstats["avg"]) + '/10</span></div>' + ('<div class="sidebar-row"><span class="sidebar-row__key">Top score</span><span class="sidebar-row__val col-red">' + str(vstats["top_score"]) + ' — ' + top_car_display + '</span></div>' if top_car_display else '') + '</div>' if article_count else ''}
+
+      <div class="sidebar-card">
+        <div class="sidebar-card__title">Jury standing</div>
+        <div class="sidebar-row">
+          <span class="sidebar-row__key">Status</span>
+          <span class="sidebar-row__val col-green">&#10003; Trusted</span>
+        </div>
+        <div class="sidebar-row">
+          <span class="sidebar-row__key">Bias risk</span>
+          <span class="sidebar-row__val col-green">{bias_score}</span>
+        </div>
+        <div class="sidebar-row">
+          <span class="sidebar-row__key">Sponsored</span>
+          <span class="sidebar-row__val">None declared</span>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <p class="back-link"><a href="/influencers/">← All Jurors</a></p>
+  {other_jurors_section}
+
+  <p class="back-link"><a href="/influencers/">&#8592; All Jurors</a></p>
 </div>
 {site_footer()}
 {click_script}
@@ -589,7 +974,7 @@ def build_all(log_fn=print):
     for inf in influencers:
         out_dir = CARJURY / "influencers" / inf["slug"]
         out_dir.mkdir(parents=True, exist_ok=True)
-        (out_dir / "index.html").write_text(generate_influencer_page(inf))
+        (out_dir / "index.html").write_text(generate_influencer_page(inf, all_influencers=influencers))
 
     log_fn(f"Influencer pages built: {len(influencers)} jurors")
     return len(influencers)
