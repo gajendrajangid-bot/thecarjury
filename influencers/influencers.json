@@ -41,7 +41,8 @@
       "mercedes/glc",
       "bmw/x3",
       "bmw/x1",
-      "maruti/swift"
+      "maruti/swift",
+      "toyota/fortuner"
     ]
   },
   {
@@ -87,7 +88,8 @@
       "mahindra/xev-9e",
       "tata/harrier-ev",
       "mahindra/thar-roxx",
-      "mercedes/glc"
+      "mercedes/glc",
+      "toyota/fortuner"
     ]
   },
   {
@@ -283,7 +285,8 @@
       "mercedes/glc",
       "bmw/x3",
       "bmw/x1",
-      "maruti/swift"
+      "maruti/swift",
+      "toyota/fortuner"
     ]
   },
   {
@@ -649,7 +652,8 @@
     "articles": [
       "kia/seltos",
       "mahindra/scorpio-n",
-      "tata/harrier-ev"
+      "tata/harrier-ev",
+      "toyota/fortuner"
     ]
   },
   {

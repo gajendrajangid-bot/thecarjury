@@ -20,7 +20,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Mahindra XUV700 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/mahindra/xuv700/) — AI synthesis from India's top YouTube reviewers.
 - [Maruti Brezza 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/maruti/brezza/) — AI synthesis from India's top YouTube reviewers.
 - [Maruti Suzuki e Vitara 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/maruti/e-vitara/) — AI synthesis from India's top YouTube reviewers.
-- [Maruti Swift 2024 Review: Jury Verdict, Price &amp; Mileage | The Car Jury](https://www.thecarjury.com/reviews/maruti/swift/) — AI synthesis from India's top YouTube reviewers.
+- [Maruti Swift 2024 Review | The Car Jury](https://www.thecarjury.com/reviews/maruti/swift/) — AI synthesis from India's top YouTube reviewers.
 - [Mercedes GLC 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/glc/) — AI synthesis from India's top YouTube reviewers.
 - [MG Windsor EV Review 2025: The Car Jury Verdict | The Car Jury](https://www.thecarjury.com/reviews/mg/windsor-ev/) — AI synthesis from India's top YouTube reviewers.
 - [Renault Duster 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/renault/duster/) — AI synthesis from India's top YouTube reviewers.
@@ -32,6 +32,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Tata Punch EV 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/tata/punch-ev/) — AI synthesis from India's top YouTube reviewers.
 - [Tata Sierra 2025 Review , The Car Jury](https://www.thecarjury.com/reviews/tata/sierra/) — AI synthesis from India's top YouTube reviewers.
 - [Tata Tiago EV 2025 Review: Buy, Wait or Skip? | The Car Jury](https://www.thecarjury.com/reviews/tata/tiago-ev/) — AI synthesis from India's top YouTube reviewers.
+- [Toyota Fortuner 2024 Review: Worth Rs 62 Lakh? Jury Verdict | The Car Jury](https://www.thecarjury.com/reviews/toyota/fortuner/) — AI synthesis from India's top YouTube reviewers.
 
 ## Methodology
 
