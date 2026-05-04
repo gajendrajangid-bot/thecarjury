@@ -89,7 +89,8 @@
       "tata/harrier-ev",
       "mahindra/thar-roxx",
       "mercedes/glc",
-      "toyota/fortuner"
+      "toyota/fortuner",
+      "tata/safari"
     ]
   },
   {
@@ -730,7 +731,8 @@
       "mercedes/glc",
       "bmw/x3",
       "bmw/x1",
-      "maruti/swift"
+      "maruti/swift",
+      "tata/safari"
     ]
   },
   {
@@ -762,6 +764,19 @@
       "mahindra/scorpio-n",
       "mercedes/glc",
       "bmw/x1"
+    ]
+  },
+  {
+    "slug": "carwale",
+    "name": "CarWale",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "CarWale",
+    "youtube_url": "https://www.youtube.com/@CarWale",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/safari"
     ]
   }
 ]
