@@ -1030,12 +1030,23 @@ def main():
     print(f"  Jury score: {data['jury_score']} | Verdict: {data['verdict']}")
 
     # 3. Generate HTML — check for hero image in review folder
+    # IMAGE SOURCING PRIORITY (must follow this order before running generate_review.py):
+    #   1. OEM press room / product page (marutisuzuki.com, tatamotors.com/scene7, toyotabharat.com/static3)
+    #   2. OEM global press site (global.suzuki, toyota-global.com, etc.)
+    #   3. Authoritative aggregators (netcarshow.com — sources from OEM press kits)
+    #   4. OEM-licensed CDN (imgd.aeplcdn.com via carwale.com) — acceptable fallback for clean front 3/4 shots
+    #   NEVER use: random third-party, user-generated, or watermarked images
+    #   Note: Indian OEM product pages often embed marketing text — check clean colour-picker/gallery pages first.
+    #   Place the chosen image as hero.webp in carjury/reviews/brand/model/ before running this script.
     out_dir = CARJURY / "reviews" / args.brand / args.model
     hero_image = ""
     for ext in ["hero.jpg", "hero.png", "hero.webp"]:
         if (out_dir / ext).exists():
             hero_image = f"/reviews/{args.brand}/{args.model}/{ext}"
             break
+    if not hero_image:
+        print(f"  WARNING: No hero image found in {out_dir} — review will publish without a hero image.")
+        print(f"  Follow image sourcing priority above before publishing.")
 
     link_context = get_link_context(args.brand, args.model)
     html = generate_html(
