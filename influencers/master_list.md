@@ -100,6 +100,7 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **Comparison Reviewer** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **MotorInc / The Nice Guy** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **CarWale** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **My Country My Ride** | TBC | TBC | TBC | TBC | Auto-added from article |

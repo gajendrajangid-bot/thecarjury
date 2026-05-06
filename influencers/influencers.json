@@ -454,7 +454,8 @@
       "bmw/x1",
       "maruti/swift",
       "toyota/fortuner",
-      "hyundai/venue"
+      "hyundai/venue",
+      "tata/nexon"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_mu40JTN1DQGqXZymLyprzsMLC_haETCahwc4nagwrcxh2Z=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "253K",
@@ -1477,7 +1478,8 @@
       "maruti/swift",
       "tata/safari",
       "hyundai/venue",
-      "maruti/jimny"
+      "maruti/jimny",
+      "tata/nexon"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1624,6 +1626,19 @@
     "subscriber_count": "",
     "articles": [
       "hyundai/venue"
+    ]
+  },
+  {
+    "slug": "comparison-reviewer",
+    "name": "Comparison Reviewer",
+    "tagline": "Independent car reviewer \u2014 YouTube",
+    "youtube_handle": "YouTube",
+    "youtube_url": "https://www.youtube.com/@YouTube",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "tata/nexon"
     ]
   }
 ]
