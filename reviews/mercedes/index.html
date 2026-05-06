@@ -36,14 +36,27 @@
     body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
     a { color: var(--red); text-decoration: none; }
     a:hover { color: var(--red-dark); }
-    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline); position: sticky; top: 0; z-index: 100; }
-    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; }
-    .tcj-mast { display: flex; align-items: baseline; gap: 4px; color: var(--ink); }
-    .tcj-mast__the { font: italic 400 14px/1 "Fraunces", serif; color: var(--stone-600); }
-    .tcj-mast__name { font: 700 18px/1 var(--font-ui); color: var(--ink); letter-spacing: -0.5px; }
-    .site-nav { display: flex; gap: 28px; }
-    .site-nav a { font: 500 14px/1 var(--font-ui); color: var(--stone-600); }
-    .site-nav a:hover, .site-nav a.active { color: var(--red); }
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline, #E5E2DC); position: sticky; top: 0; z-index: 200; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display, Georgia, serif); color: var(--red, #C8102E); }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display, Georgia, serif); color: var(--ink, #1A1A1A); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui, sans-serif); color: var(--stone-600, #6B6B6B); text-decoration: none; transition: color .15s; }
+    .site-nav a:hover, .site-nav a.active { color: var(--ink, #1A1A1A); font-weight: 600; }
+    #tcj-hamburger { display: none; flex-direction: column; justify-content: space-between; width: 22px; height: 16px; background: none; border: none; cursor: pointer; padding: 0; flex-shrink: 0; }
+    #tcj-hamburger span { display: block; height: 2px; background: var(--ink, #1A1A1A); border-radius: 2px; }
+    #tcj-mobile-nav { display: none; position: fixed; top: 0; left: 0; right: 0; background: #fff; z-index: 9999; padding: 64px 0 24px; border-bottom: 1px solid #e5e7eb; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+    #tcj-mobile-nav.open { display: block; }
+    #tcj-mobile-nav a { display: block; padding: 14px 24px; font: 500 15px/1 var(--font-ui, sans-serif); color: #374151; text-decoration: none; border-bottom: 1px solid #f3f4f6; }
+    #tcj-mobile-nav a:last-child { border-bottom: none; }
+    #tcj-mobile-nav a:hover, #tcj-mobile-nav a.active { color: var(--red, #C8102E); }
+    .tcj-panel-close { position: absolute; top: 16px; right: 20px; background: none; border: none; cursor: pointer; font-size: 24px; color: #6b7280; line-height: 1; }
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; }
+      .site-nav { display: none; }
+      #tcj-hamburger { display: flex; }
+    }
     .breadcrumb { margin: 32px auto 0; max-width: 1100px; padding: 0 32px; font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); }
     .breadcrumb a { color: var(--stone-400); }
     .breadcrumb a:hover { color: var(--red); }
@@ -74,8 +87,6 @@
     .site-footer__links a:hover { color: var(--red); }
     .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
     @media (max-width: 768px) {
-      .site-header__inner { padding: 0 20px; }
-      .site-nav a:not(.active) { display: none; }
       .wrap { padding: 32px 20px 80px; }
       .page-title { font-size: 28px; }
       .breadcrumb { padding: 0 20px; }
@@ -85,21 +96,33 @@
   </style>
 </head>
 <body>
+<script src="/js/nav.js" defer></script>
 <header class="site-header">
   <div class="site-header__inner">
     <a href="/" class="tcj-mast">
       <span class="tcj-mast__the">The</span>
       <span class="tcj-mast__name">Car Jury</span>
     </a>
-    <nav class="site-nav">
-      <a href="/reviews/" class="active">Reviews</a>
+    <nav class="site-nav" id="tcj-nav">
+      <a href="/reviews/">Reviews</a>
       <a href="/compare/">Compare</a>
+      <a href="/the-jury/">The Jury</a>
       <a href="/best/">Best Lists</a>
-      <a href="/influencers/">Influencers</a>
       <a href="/about/">About</a>
     </nav>
+    <button id="tcj-hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
+<div id="tcj-mobile-nav">
+  <button class="tcj-panel-close" aria-label="Close menu">&#215;</button>
+  <a href="/reviews/">Reviews</a>
+  <a href="/compare/">Compare</a>
+  <a href="/the-jury/">The Jury</a>
+  <a href="/best/">Best Lists</a>
+  <a href="/about/">About</a>
+</div>
 <nav class="breadcrumb" aria-label="breadcrumb">
   <a href="/">Home</a> → <a href="/reviews/">Reviews</a> → Mercedes
 </nav>

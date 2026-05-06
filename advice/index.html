@@ -19,12 +19,29 @@
   </script>
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <style>
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline, #E5E2DC); position: sticky; top: 0; z-index: 200; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display, Georgia, serif); color: var(--red, #C8102E); }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display, Georgia, serif); color: var(--ink, #1A1A1A); letter-spacing: -0.02em; }
+    .site-nav { display: flex; align-items: center; gap: 28px; }
+    .site-nav a { font: 500 14px/1 var(--font-ui, sans-serif); color: var(--stone-600, #6B6B6B); text-decoration: none; transition: color .15s; }
+    .site-nav a:hover, .site-nav a.active { color: var(--ink, #1A1A1A); font-weight: 600; }
+    #tcj-hamburger { display: none; flex-direction: column; justify-content: space-between; width: 22px; height: 16px; background: none; border: none; cursor: pointer; padding: 0; flex-shrink: 0; }
+    #tcj-hamburger span { display: block; height: 2px; background: var(--ink, #1A1A1A); border-radius: 2px; }
+    #tcj-mobile-nav { display: none; position: fixed; top: 0; left: 0; right: 0; background: #fff; z-index: 9999; padding: 64px 0 24px; border-bottom: 1px solid #e5e7eb; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+    #tcj-mobile-nav.open { display: block; }
+    #tcj-mobile-nav a { display: block; padding: 14px 24px; font: 500 15px/1 var(--font-ui, sans-serif); color: #374151; text-decoration: none; border-bottom: 1px solid #f3f4f6; }
+    #tcj-mobile-nav a:last-child { border-bottom: none; }
+    #tcj-mobile-nav a:hover, #tcj-mobile-nav a.active { color: var(--red, #C8102E); }
+    .tcj-panel-close { position: absolute; top: 16px; right: 20px; background: none; border: none; cursor: pointer; font-size: 24px; color: #6b7280; line-height: 1; }
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; }
+      .site-nav { display: none; }
+      #tcj-hamburger { display: flex; }
+    }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0a0a0a; color: #e8e8e8; }
-    nav { background: #111; border-bottom: 1px solid #222; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 56px; }
-    .nav-logo { font-family: Georgia, serif; font-size: 1.1rem; font-weight: bold; color: #D4A017; text-decoration: none; }
-    .nav-links { display: flex; gap: 24px; font-size: 0.85rem; }
-    .nav-links a { color: #999; text-decoration: none; }
     .hero { padding: 80px 24px; text-align: center; }
     .hero h1 { font-family: Georgia, serif; font-size: clamp(1.8rem, 4vw, 2.6rem); color: #fff; margin-bottom: 16px; }
     .hero p { color: #999; max-width: 500px; margin: 0 auto 32px; font-size: 1rem; line-height: 1.6; }
@@ -35,18 +52,33 @@
     a { color: #D4A017; text-decoration: none; }
     footer { border-top: 1px solid #1e1e1e; padding: 24px; text-align: center; color: #555; font-size: 0.8rem; margin-top: 60px; }
   </style>
+<script src="/js/nav.js" defer></script>
 </head>
 <body>
-<nav>
-  <a class="nav-logo" href="/">The Car Jury</a>
-  <div class="nav-links">
-    <a href="/reviews/">Reviews</a>
-    <a href="/compare/">Compare</a>
-    <a href="/best/">Best Lists</a>
-    <a href="/influencers/">Influencers</a>
-    <a href="/about/">About</a>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
+    </a>
+    <nav class="site-nav" id="tcj-nav">
+      <a href="/reviews/">Reviews</a>
+      <a href="/compare/">Compare</a>
+      <a href="/the-jury/">The Jury</a>
+      <a href="/best/">Best Lists</a>
+      <a href="/about/">About</a>
+    </nav>
+    <button id="tcj-hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
-</nav>
+</header>
+<div id="tcj-mobile-nav">
+  <button class="tcj-panel-close" aria-label="Close menu">&#215;</button>
+  <a href="/reviews/">Reviews</a>
+  <a href="/compare/">Compare</a>
+  <a href="/the-jury/">The Jury</a>
+  <a href="/best/">Best Lists</a>
+  <a href="/about/">About</a>
+</div>
 <div class="hero">
   <div class="coming-soon">Coming Soon</div>
   <h1>Car Buying Advice</h1>
