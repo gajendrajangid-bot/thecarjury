@@ -43,7 +43,7 @@
       "bmw/x1",
       "maruti/swift",
       "toyota/fortuner",
-      "tata/nexon"
+      "hyundai/venue"
     ],
     "photo_url": "https://yt3.googleusercontent.com/0eCXYHGi6AS7elexG2WrgGTyUd794KKa77GyOK4QYAHfMF-secKfWPggiykuAaVqcVRIEw2chcc=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "21.2L",
@@ -117,8 +117,7 @@
       "mercedes/glc",
       "toyota/fortuner",
       "tata/safari",
-      "kia/sonet",
-      "tata/nexon"
+      "hyundai/venue"
     ],
     "photo_url": "https://yt3.googleusercontent.com/KojhQpxOWF17GlgsBC-QlZ-YeNZv78d04Y5dCxlFPrupK-rC8si9qX3i9iU4y_XpkGprVNEJrg=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "21.2L",
@@ -281,7 +280,8 @@
     "why": "TeamBHP's inclusion is non-negotiable for any serious Indian car verdict. Their combination of professional review and community ownership data is unmatched. They are the only forum source on The Jury.",
     "articles": [
       "tata/sierra",
-      "mahindra/be6"
+      "mahindra/be6",
+      "hyundai/venue"
     ],
     "photo_url": "https://yt3.googleusercontent.com/XnyzNHk1aZWWuVPuzh9t6roYur3KpFHEo7mqVAYPz1RHB-N_Xwz7XPN-_YXp6b4nLDeOJaWc4w=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "895K",
@@ -340,8 +340,7 @@
       "mg/windsor-ev",
       "tata/curvv-ev",
       "mahindra/xev-9e",
-      "tata/harrier-ev",
-      "maruti/jimny"
+      "tata/harrier-ev"
     ],
     "photo_url": "",
     "subscriber_count": "24L",
@@ -454,8 +453,7 @@
       "bmw/x1",
       "maruti/swift",
       "toyota/fortuner",
-      "kia/sonet",
-      "tata/nexon"
+      "hyundai/venue"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_mu40JTN1DQGqXZymLyprzsMLC_haETCahwc4nagwrcxh2Z=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "253K",
@@ -1295,9 +1293,7 @@
       "kia/seltos",
       "mahindra/scorpio-n",
       "tata/harrier-ev",
-      "toyota/fortuner",
-      "kia/sonet",
-      "tata/nexon"
+      "toyota/fortuner"
     ],
     "photo_url": "https://yt3.googleusercontent.com/1lBPxVTf5xTFdnPe1iqZ3gtmOHzyEIfiZsQzDQwfxKttK0sR1959CuYVdgPN_BmCTLeRhx9lkA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1479,9 +1475,7 @@
       "bmw/x1",
       "maruti/swift",
       "tata/safari",
-      "kia/sonet",
-      "maruti/jimny",
-      "tata/nexon"
+      "hyundai/venue"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1521,9 +1515,7 @@
       "mahindra/scorpio-n",
       "maruti/brezza",
       "mahindra/thar-roxx",
-      "kia/sonet",
-      "maruti/jimny",
-      "tata/nexon"
+      "hyundai/venue"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_n8bQzZq7_cV8vpzftjz58qHw0J1CRyT26IgXg93fvDCnU=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "2026-05-04",
@@ -1561,8 +1553,7 @@
     "articles": [
       "mahindra/scorpio-n",
       "mercedes/glc",
-      "bmw/x1",
-      "tata/nexon"
+      "bmw/x1"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l7wzLzS0nfHakie0U8QKsMyOe-UVCHGZiyKAwjbFT3D6c=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "2026-05-04",
@@ -1621,30 +1612,16 @@
     }
   },
   {
-    "slug": "unknown-reviewer",
-    "name": "Unknown Reviewer",
-    "tagline": "Independent car reviewer \u2014 YouTube",
-    "youtube_handle": "YouTube",
-    "youtube_url": "https://www.youtube.com/@YouTube",
+    "slug": "motorinc-the-nice-guy",
+    "name": "MotorInc / The Nice Guy",
+    "tagline": "Independent car reviewer \u2014 MotorInc Podcast",
+    "youtube_handle": "MotorIncPodcast",
+    "youtube_url": "https://www.youtube.com/@MotorIncPodcast",
     "instagram_url": "",
     "instagram_handle": "",
     "subscriber_count": "",
     "articles": [
-      "kia/sonet",
-      "tata/nexon"
-    ]
-  },
-  {
-    "slug": "motoring-first",
-    "name": "Motoring First",
-    "tagline": "Independent car reviewer on YouTube",
-    "youtube_handle": "MotoringFirst",
-    "youtube_url": "https://www.youtube.com/@MotoringFirst",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "maruti/jimny"
+      "hyundai/venue"
     ]
   }
 ]
