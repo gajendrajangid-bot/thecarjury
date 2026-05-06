@@ -338,7 +338,8 @@
       "mg/windsor-ev",
       "tata/curvv-ev",
       "mahindra/xev-9e",
-      "tata/harrier-ev"
+      "tata/harrier-ev",
+      "maruti/jimny"
     ],
     "photo_url": "",
     "subscriber_count": "24L",
@@ -1474,7 +1475,8 @@
       "bmw/x1",
       "maruti/swift",
       "tata/safari",
-      "kia/sonet"
+      "kia/sonet",
+      "maruti/jimny"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1514,7 +1516,8 @@
       "mahindra/scorpio-n",
       "maruti/brezza",
       "mahindra/thar-roxx",
-      "kia/sonet"
+      "kia/sonet",
+      "maruti/jimny"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_n8bQzZq7_cV8vpzftjz58qHw0J1CRyT26IgXg93fvDCnU=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "2026-05-04",
@@ -1621,6 +1624,19 @@
     "subscriber_count": "",
     "articles": [
       "kia/sonet"
+    ]
+  },
+  {
+    "slug": "motoring-first",
+    "name": "Motoring First",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "MotoringFirst",
+    "youtube_url": "https://www.youtube.com/@MotoringFirst",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "maruti/jimny"
     ]
   }
 ]
