@@ -227,8 +227,7 @@
     "why": "MotorInc is on The Jury because their reviews are consistently independent and methodical. They bring the same standard of scrutiny to every car they test, which is the baseline requirement for contributing to a credible verdict.",
     "articles": [
       "skoda/kushaq",
-      "maruti/e-vitara",
-      "maruti/jimny"
+      "maruti/e-vitara"
     ],
     "photo_url": "https://yt3.googleusercontent.com/9yS2wqU9cshebRteSxVJCa82zqg35nZFhFuuwb4ct0U7w5xSsosO0FxNIw5xIoBDmpoUryc6ow=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "4L",
@@ -455,7 +454,7 @@
       "maruti/swift",
       "toyota/fortuner",
       "hyundai/venue",
-      "tata/nexon"
+      "kia/sonet"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_mu40JTN1DQGqXZymLyprzsMLC_haETCahwc4nagwrcxh2Z=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "253K",
@@ -1295,7 +1294,8 @@
       "kia/seltos",
       "mahindra/scorpio-n",
       "tata/harrier-ev",
-      "toyota/fortuner"
+      "toyota/fortuner",
+      "kia/sonet"
     ],
     "photo_url": "https://yt3.googleusercontent.com/1lBPxVTf5xTFdnPe1iqZ3gtmOHzyEIfiZsQzDQwfxKttK0sR1959CuYVdgPN_BmCTLeRhx9lkA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1430,7 +1430,8 @@
     "subscriber_count": "",
     "articles": [
       "mahindra/xuv700",
-      "mahindra/scorpio-n"
+      "mahindra/scorpio-n",
+      "kia/sonet"
     ],
     "photo_url": "https://yt3.googleusercontent.com/NfycnrBqnp82qfeClTE55x2I-ylYXBt7EgFAFGs5jwlZ9-SyYkKUDodj5nHpT0AOVdt-9kT-jA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1478,8 +1479,7 @@
       "maruti/swift",
       "tata/safari",
       "hyundai/venue",
-      "maruti/jimny",
-      "tata/nexon"
+      "kia/sonet"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1626,19 +1626,6 @@
     "subscriber_count": "",
     "articles": [
       "hyundai/venue"
-    ]
-  },
-  {
-    "slug": "comparison-reviewer",
-    "name": "Comparison Reviewer",
-    "tagline": "Independent car reviewer \u2014 YouTube",
-    "youtube_handle": "YouTube",
-    "youtube_url": "https://www.youtube.com/@YouTube",
-    "instagram_url": "",
-    "instagram_handle": "",
-    "subscriber_count": "",
-    "articles": [
-      "tata/nexon"
     ]
   }
 ]
