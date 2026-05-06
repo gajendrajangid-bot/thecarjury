@@ -3,7 +3,7 @@
   "last_updated": "2026-05-04",
   "segments": {
     "entry-ev": {
-      "label": "Entry EVs (under \u20b915L)",
+      "label": "Entry EVs (under ₹15L)",
       "budget_band": "under-15L",
       "cars": [
         "tata/punch-ev",
@@ -12,7 +12,7 @@
       ]
     },
     "mid-ev": {
-      "label": "Mid EVs (\u20b915\u201322L)",
+      "label": "Mid EVs (₹15–22L)",
       "budget_band": "15L-22L",
       "cars": [
         "tata/nexon-ev",
@@ -22,7 +22,7 @@
       ]
     },
     "premium-ev": {
-      "label": "Premium EVs (\u20b922\u201335L)",
+      "label": "Premium EVs (₹22–35L)",
       "budget_band": "22L-35L",
       "cars": [
         "mahindra/be6",
@@ -31,14 +31,14 @@
       ]
     },
     "hatchback": {
-      "label": "Hatchbacks (\u20b96\u201310L)",
+      "label": "Hatchbacks (₹6–10L)",
       "budget_band": "6L-10L",
       "cars": [
         "maruti/swift"
       ]
     },
     "sub-compact-suv": {
-      "label": "Sub-Compact SUVs (\u20b98\u201314L)",
+      "label": "Sub-Compact SUVs (₹8–14L)",
       "budget_band": "8L-14L",
       "cars": [
         "hyundai/venue",
@@ -47,7 +47,7 @@
       ]
     },
     "compact-suv": {
-      "label": "Compact ICE SUVs (\u20b98\u201315L)",
+      "label": "Compact ICE SUVs (₹8–15L)",
       "budget_band": "8L-15L",
       "cars": [
         "maruti/brezza",
@@ -57,7 +57,7 @@
       ]
     },
     "mid-suv": {
-      "label": "Mid-Size ICE SUVs (\u20b912\u201322L)",
+      "label": "Mid-Size ICE SUVs (₹12–22L)",
       "budget_band": "12L-22L",
       "cars": [
         "hyundai/creta",
@@ -70,7 +70,7 @@
       ]
     },
     "large-suv": {
-      "label": "Large Family SUVs (\u20b915\u201323L)",
+      "label": "Large Family SUVs (₹15–23L)",
       "budget_band": "15L-23L",
       "cars": [
         "tata/safari",
@@ -79,7 +79,7 @@
       ]
     },
     "premium-suv": {
-      "label": "Premium Full-Size SUVs (\u20b920\u201335L)",
+      "label": "Premium Full-Size SUVs (₹20–35L)",
       "budget_band": "20L-35L",
       "cars": [
         "tata/sierra",
@@ -89,21 +89,21 @@
       ]
     },
     "ladder-suv": {
-      "label": "Ladder-Frame SUVs (\u20b930\u201355L)",
+      "label": "Ladder-Frame SUVs (₹30–55L)",
       "budget_band": "30L-55L",
       "cars": [
         "toyota/fortuner"
       ]
     },
     "mpv": {
-      "label": "MPV / Crossovers (\u20b919\u201330L)",
+      "label": "MPV / Crossovers (₹19–30L)",
       "budget_band": "19L-30L",
       "cars": [
         "toyota/innova-hycross"
       ]
     },
     "sedan": {
-      "label": "Sedans (\u20b912\u201318L)",
+      "label": "Sedans (₹12–18L)",
       "budget_band": "12L-18L",
       "cars": [
         "skoda/slavia",
@@ -112,7 +112,7 @@
       ]
     },
     "luxury-suv": {
-      "label": "Luxury SUVs (\u20b950\u201390L)",
+      "label": "Luxury SUVs (₹50–90L)",
       "budget_band": "50L-90L",
       "cars": [
         "bmw/x1",
@@ -249,8 +249,8 @@
       "verdict": "BUY"
     },
     "tata/nexon": {
-      "score": "",
-      "verdict": ""
+      "score": "7.6",
+      "verdict": "BUY"
     },
     "tata/punch-ev": {
       "score": "7.4",
@@ -301,8 +301,8 @@
       "verdict": "BUY"
     },
     "hyundai/venue": {
-      "score": "",
-      "verdict": ""
+      "score": "7.5",
+      "verdict": "BUY"
     },
     "hyundai/alcazar": {
       "score": "",
@@ -321,8 +321,8 @@
       "verdict": "BUY"
     },
     "maruti/jimny": {
-      "score": "",
-      "verdict": ""
+      "score": "7.2",
+      "verdict": "WAIT"
     },
     "maruti/grand-vitara": {
       "score": "",
@@ -333,8 +333,8 @@
       "verdict": "BUY"
     },
     "kia/sonet": {
-      "score": "",
-      "verdict": ""
+      "score": "7.6",
+      "verdict": "BUY"
     },
     "skoda/kushaq": {
       "score": "7.6",
@@ -412,19 +412,25 @@
       "compare/creta-vs-duster",
       "compare/creta-vs-kushaq"
     ],
-    "hyundai/venue": [],
+    "hyundai/venue": [
+      "compare/venue-vs-sonet"
+    ],
     "hyundai/alcazar": [],
     "maruti/e-vitara": [
       "compare/creta-electric-vs-e-vitara",
       "compare/nexon-ev-vs-e-vitara"
     ],
-    "maruti/jimny": [],
+    "maruti/jimny": [
+      "compare/thar-roxx-vs-jimny"
+    ],
     "maruti/swift": [],
     "maruti/grand-vitara": [],
     "kia/seltos": [
       "compare/creta-vs-seltos"
     ],
-    "kia/sonet": [],
+    "kia/sonet": [
+      "compare/venue-vs-sonet"
+    ],
     "skoda/kushaq": [
       "compare/creta-vs-kushaq",
       "compare/kushaq-vs-duster"
@@ -437,7 +443,9 @@
     "mahindra/be6": [
       "compare/be6-vs-nexon-ev"
     ],
-    "mahindra/thar-roxx": [],
+    "mahindra/thar-roxx": [
+      "compare/thar-roxx-vs-jimny"
+    ],
     "mahindra/xuv700": [
       "compare/safari-vs-xuv700"
     ],
