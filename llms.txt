@@ -11,6 +11,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [BMW X1 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x1/) — AI synthesis from India's top YouTube reviewers.
 - [BMW X3 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x3/) — AI synthesis from India's top YouTube reviewers.
 - [Honda Elevate 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/honda/elevate/) — AI synthesis from India's top YouTube reviewers.
+- [Hyundai Alcazar 2025 Review: Verdict from 6 Expert Reviews | The Car Jury](https://www.thecarjury.com/reviews/hyundai/alcazar/) — AI synthesis from India's top YouTube reviewers.
 - [Hyundai Creta 2024 Review | The Car Jury](https://www.thecarjury.com/reviews/hyundai/creta/) — AI synthesis from India's top YouTube reviewers.
 - [Hyundai Creta Electric 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/hyundai/creta-electric/) — AI synthesis from India's top YouTube reviewers.
 - [Hyundai Venue 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/hyundai/venue/) — AI synthesis from India's top YouTube reviewers.
@@ -40,7 +41,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Tata Sierra 2025 Review , The Car Jury](https://www.thecarjury.com/reviews/tata/sierra/) — AI synthesis from India's top YouTube reviewers.
 - [Tata Tiago EV 2025 Review: Buy, Wait or Skip? | The Car Jury](https://www.thecarjury.com/reviews/tata/tiago-ev/) — AI synthesis from India's top YouTube reviewers.
 - [Toyota Fortuner 2024 Review | The Car Jury](https://www.thecarjury.com/reviews/toyota/fortuner/) — AI synthesis from India's top YouTube reviewers.
-- [Toyota Innova HyCross Review 2025: The Jury's Verdict | The Car Jury](https://www.thecarjury.com/reviews/toyota/innova-hycross/) — AI synthesis from India's top YouTube reviewers.
+- [Toyota Innova HyCross 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/toyota/innova-hycross/) — AI synthesis from India's top YouTube reviewers.
 
 ## Methodology
 
