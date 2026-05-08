@@ -39,14 +39,15 @@
   --fu:'Inter',-apple-system,sans-serif;
 }
 body{font-family:var(--fu);background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased}
-.nav{background:var(--white);border-bottom:1px solid var(--hairline);padding:0 48px;display:flex;align-items:center;justify-content:space-between;height:58px;position:sticky;top:0;z-index:100}
-.mast{display:flex;align-items:baseline;gap:5px;text-decoration:none}
-.mast-the{font:700 italic 15px/1 var(--fd);color:var(--red)}
-.mast-name{font:800 22px/1 var(--fd);color:var(--ink);letter-spacing:-0.02em}
-.nav-links{display:flex;gap:28px;list-style:none}
-.nav-links a{font:500 13px/1 var(--fu);color:var(--stone);text-decoration:none;letter-spacing:.01em}
-.nav-links a.active{color:var(--red)}
-.nav-links a:hover{color:var(--ink)}
+.site-header{background:var(--white);border-bottom:1px solid var(--hairline);position:sticky;top:0;z-index:100}
+.site-header__inner{max-width:1200px;margin:0 auto;padding:0 48px;height:58px;display:flex;align-items:center;justify-content:space-between}
+.tcj-mast{display:inline-flex;align-items:baseline;gap:5px;text-decoration:none}
+.tcj-mast__the{font:700 italic 15px/1 var(--fd);color:var(--red)}
+.tcj-mast__name{font:800 22px/1 var(--fd);color:var(--ink);letter-spacing:-0.02em}
+.site-nav{display:flex;align-items:center;gap:28px}
+.site-nav a{font:500 13px/1 var(--fu);color:var(--stone);text-decoration:none;letter-spacing:.01em}
+.site-nav a.active{color:var(--red)}
+.site-nav a:hover{color:var(--ink)}
 .breadcrumb{padding:14px 48px;display:flex;align-items:center;gap:6px;font:400 12px/1 var(--fu);color:var(--stone);border-bottom:1px solid var(--hairline);background:var(--white)}
 .breadcrumb a{color:var(--stone);text-decoration:none}
 .breadcrumb a:hover{color:var(--red)}
@@ -108,6 +109,7 @@ footer{background:var(--ink);padding:40px 48px;display:flex;align-items:center;j
 .footer-mast-name{font:800 19px/1 var(--fd);color:var(--white)}
 .footer-note{font:400 13px/1 var(--fu);color:rgba(255,255,255,.3)}
 @media(max-width:768px){
+  .site-header__inner{padding:0 24px}
   .hero-title{font-size:38px}
   .hero-stats{gap:32px}
   .how-steps{grid-template-columns:1fr}
