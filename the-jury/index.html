@@ -107,17 +107,7 @@ footer{background:var(--ink);padding:40px 48px;display:flex;align-items:center;j
 .footer-mast-the{font:700 italic 13px/1 var(--fd);color:var(--red)}
 .footer-mast-name{font:800 19px/1 var(--fd);color:var(--white)}
 .footer-note{font:400 13px/1 var(--fu);color:rgba(255,255,255,.3)}
-#tcj-hamburger{display:none;flex-direction:column;justify-content:space-between;width:22px;height:16px;background:none;border:none;cursor:pointer;padding:0;flex-shrink:0}
-#tcj-hamburger span{display:block;height:2px;background:var(--ink);border-radius:2px}
-#tcj-mobile-nav{display:none;position:fixed;top:0;left:0;right:0;background:#fff;z-index:9999;padding:64px 0 24px;border-bottom:1px solid #e5e7eb;box-shadow:0 4px 16px rgba(0,0,0,.08)}
-#tcj-mobile-nav.open{display:block}
-#tcj-mobile-nav a{display:block;padding:14px 24px;font:500 15px/1 var(--fu);color:#374151;text-decoration:none;border-bottom:1px solid #f3f4f6}
-#tcj-mobile-nav a:last-child{border-bottom:none}
-#tcj-mobile-nav a:hover,#tcj-mobile-nav a.active{color:var(--red)}
-.tcj-panel-close{position:absolute;top:16px;right:20px;background:none;border:none;cursor:pointer;font-size:24px;color:#6b7280;line-height:1}
 @media(max-width:768px){
-  .nav-links{display:none}
-  #tcj-hamburger{display:flex}
   .hero-title{font-size:38px}
   .hero-stats{gap:32px}
   .how-steps{grid-template-columns:1fr}
@@ -132,25 +122,7 @@ footer{background:var(--ink);padding:40px 48px;display:flex;align-items:center;j
 <script src="/js/nav.js"></script>
 </head>
 <body>
-<nav class="nav">
-  <a href="/" class="mast"><span class="mast-the">The</span><span class="mast-name">Car Jury</span></a>
-  <ul class="nav-links" id="tcj-nav">
-    <li><a href="/reviews/">Reviews</a></li>
-    <li><a href="/compare/">Compare</a></li>
-    <li><a href="/the-jury/">The Jury</a></li>
-    <li><a href="/best/">Best Lists</a></li>
-    <li><a href="/about/">About</a></li>
-  </ul>
-  <button id="tcj-hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
-</nav>
-<div id="tcj-mobile-nav">
-  <button class="tcj-panel-close" aria-label="Close menu">&#215;</button>
-  <a href="/reviews/">Reviews</a>
-  <a href="/compare/">Compare</a>
-  <a href="/the-jury/">The Jury</a>
-  <a href="/best/">Best Lists</a>
-  <a href="/about/">About</a>
-</div>
+<header class="site-header"><div class="site-header__inner"><a href="/" class="tcj-mast"><span class="tcj-mast__the">The</span><span class="tcj-mast__name">Car Jury</span></a><nav class="site-nav" id="tcj-nav"></nav></div></header>
 <div class="breadcrumb">
   <a href="/">Home</a><span class="breadcrumb-sep">›</span><span class="breadcrumb-current">The Jury Panel</span>
 </div>
