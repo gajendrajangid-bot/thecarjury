@@ -100,6 +100,7 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **The Unknown Reviewer** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Unknown Reviewer** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Car Blog India** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **MotorInc / The Nice Guy** | TBC | TBC | TBC | TBC | Auto-added from article |
