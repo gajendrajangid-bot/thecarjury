@@ -39,15 +39,7 @@
   --fu:'Inter',-apple-system,sans-serif;
 }
 body{font-family:var(--fu);background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased}
-.site-header{background:var(--white);border-bottom:1px solid var(--hairline);position:sticky;top:0;z-index:100}
-.site-header__inner{max-width:1200px;margin:0 auto;padding:0 48px;height:58px;display:flex;align-items:center;justify-content:space-between}
-.tcj-mast{display:inline-flex;align-items:baseline;gap:5px;text-decoration:none}
-.tcj-mast__the{font:700 italic 15px/1 var(--fd);color:var(--red)}
-.tcj-mast__name{font:800 22px/1 var(--fd);color:var(--ink);letter-spacing:-0.02em}
-.site-nav{display:flex;align-items:center;gap:28px}
-.site-nav a{font:500 13px/1 var(--fu);color:var(--stone);text-decoration:none;letter-spacing:.01em}
-.site-nav a.active{color:var(--red)}
-.site-nav a:hover{color:var(--ink)}
+.site-header{background:var(--white);border-bottom:1px solid var(--hairline);position:sticky;top:0;z-index:100}.site-header__inner{max-width:1200px;margin:0 auto;padding:0 48px;height:58px;display:flex;align-items:center;justify-content:space-between}.tcj-mast{display:inline-flex;align-items:baseline;gap:5px;text-decoration:none}.tcj-mast__the{font:700 italic 15px/1 var(--fd);color:var(--red)}.tcj-mast__name{font:800 22px/1 var(--fd);color:var(--ink);letter-spacing:-0.02em}.site-nav{display:flex;align-items:center;gap:28px}.site-nav a{font:500 13px/1 var(--fu);color:var(--stone);text-decoration:none;letter-spacing:.01em}.site-nav a.active{color:var(--red)}.site-nav a:hover{color:var(--ink)}#tcj-hamburger{display:none;flex-direction:column;justify-content:space-between;width:22px;height:16px;background:none;border:none;cursor:pointer;padding:0;flex-shrink:0}#tcj-hamburger span{display:block;height:2px;background:var(--ink,#1A1A1A);border-radius:2px}#tcj-mobile-nav{display:none;position:fixed;top:0;left:0;right:0;background:#fff;z-index:9999;padding:64px 0 24px;border-bottom:1px solid #e5e7eb;box-shadow:0 4px 16px rgba(0,0,0,.08)}#tcj-mobile-nav.open{display:block}#tcj-mobile-nav a{display:block;padding:14px 24px;font:500 15px/1 var(--fu);color:#374151;text-decoration:none;border-bottom:1px solid #f3f4f6}#tcj-mobile-nav a:last-child{border-bottom:none}#tcj-mobile-nav a:hover,#tcj-mobile-nav a.active{color:var(--red,#C8102E)}.tcj-panel-close{position:absolute;top:16px;right:20px;background:none;border:none;cursor:pointer;font-size:24px;color:#6b7280;line-height:1}
 .breadcrumb{padding:14px 48px;display:flex;align-items:center;gap:6px;font:400 12px/1 var(--fu);color:var(--stone);border-bottom:1px solid var(--hairline);background:var(--white)}
 .breadcrumb a{color:var(--stone);text-decoration:none}
 .breadcrumb a:hover{color:var(--red)}
@@ -108,10 +100,8 @@ footer{background:var(--ink);padding:40px 48px;display:flex;align-items:center;j
 .footer-mast-the{font:700 italic 13px/1 var(--fd);color:var(--red)}
 .footer-mast-name{font:800 19px/1 var(--fd);color:var(--white)}
 .footer-note{font:400 13px/1 var(--fu);color:rgba(255,255,255,.3)}
-#tcj-hamburger{display:none;flex-direction:column;justify-content:space-between;width:22px;height:16px;background:none;border:none;cursor:pointer;padding:0;flex-shrink:0}
-#tcj-hamburger span{display:block;height:2px;background:var(--ink,#1A1A1A);border-radius:2px}
 @media(max-width:768px){
-  .site-header__inner{padding:0 24px}
+  .site-header__inner{padding:0 24px}.site-nav{display:none}#tcj-hamburger{display:flex}
   .hero-title{font-size:38px}
   .hero-stats{gap:32px}
   .how-steps{grid-template-columns:1fr}
@@ -121,15 +111,7 @@ footer{background:var(--ink);padding:40px 48px;display:flex;align-items:center;j
   .how-section{margin:0 -24px;padding:60px 24px}
   .trust-bar{margin:0 -24px;padding:22px 24px}
   footer{margin:0 -24px;padding:32px 24px;flex-direction:column;gap:12px}
-  .site-nav{display:none}
-  #tcj-hamburger{display:flex}
 }
-#tcj-mobile-nav{display:none;position:fixed;top:0;left:0;right:0;background:#fff;z-index:9999;padding:64px 0 24px;border-bottom:1px solid #e5e7eb;box-shadow:0 4px 16px rgba(0,0,0,.08)}
-#tcj-mobile-nav.open{display:block}
-#tcj-mobile-nav a{display:block;padding:14px 24px;font:500 15px/1 var(--fu);color:#374151;text-decoration:none;border-bottom:1px solid #f3f4f6}
-#tcj-mobile-nav a:last-child{border-bottom:none}
-#tcj-mobile-nav a:hover,#tcj-mobile-nav a.active{color:var(--red,#C8102E)}
-.tcj-panel-close{position:absolute;top:16px;right:20px;background:none;border:none;cursor:pointer;font-size:24px;color:#6b7280;line-height:1}
 </style>
 <script src="/js/nav.js"></script>
 </head>
