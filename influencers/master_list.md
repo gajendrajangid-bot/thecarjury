@@ -100,7 +100,6 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
-| — | **Motoring World** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Independent Reviewer** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **The Driving Diary** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **The Unknown Reviewer** | TBC | TBC | TBC | TBC | Auto-added from article |
