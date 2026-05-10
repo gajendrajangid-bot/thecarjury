@@ -42,7 +42,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Renault Duster 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/renault/duster/) — AI synthesis from India's top YouTube reviewers.
 - [Skoda Kushaq 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/skoda/kushaq/) — AI synthesis from India's top YouTube reviewers.
 - [Skoda Slavia 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/skoda/slavia/) — AI synthesis from India's top YouTube reviewers.
-- [Tata Altroz 2025 Review: The Car Jury's Verdict | The Car Jury](https://www.thecarjury.com/reviews/tata/altroz/) — AI synthesis from India's top YouTube reviewers.
+- [Tata Altroz 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/tata/altroz/) — AI synthesis from India's top YouTube reviewers.
 - [Tata Curvv EV 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/tata/curvv-ev/) — AI synthesis from India's top YouTube reviewers.
 - [Tata Harrier EV 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/tata/harrier-ev/) — AI synthesis from India's top YouTube reviewers.
 - [Tata Nexon 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/tata/nexon/) — AI synthesis from India's top YouTube reviewers.
@@ -53,6 +53,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Tata Sierra 2025 Review , The Car Jury](https://www.thecarjury.com/reviews/tata/sierra/) — AI synthesis from India's top YouTube reviewers.
 - [Tata Tiago EV 2025 Review: Buy, Wait or Skip? | The Car Jury](https://www.thecarjury.com/reviews/tata/tiago-ev/) — AI synthesis from India's top YouTube reviewers.
 - [Toyota Fortuner 2024 Review | The Car Jury](https://www.thecarjury.com/reviews/toyota/fortuner/) — AI synthesis from India's top YouTube reviewers.
+- [Toyota Hyryder Review 2025: Hybrid Mileage King? | Car Jury | The Car Jury](https://www.thecarjury.com/reviews/toyota/hyryder/) — AI synthesis from India's top YouTube reviewers.
 - [Toyota Innova HyCross 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/toyota/innova-hycross/) — AI synthesis from India's top YouTube reviewers.
 - [Volkswagen Taigun 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/volkswagen/taigun/) — AI synthesis from India's top YouTube reviewers.
 - [Volkswagen Virtus 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/volkswagen/virtus/) — AI synthesis from India's top YouTube reviewers.
