@@ -13,44 +13,74 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/reviews/honda/amaze/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/reviews/honda/city/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/honda/elevate/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/hyundai/alcazar/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/hyundai/creta/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/hyundai/creta-electric/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/reviews/hyundai/exter/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/reviews/hyundai/i20/</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/hyundai/venue/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/reviews/hyundai/verna/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/reviews/kia/carens/</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/kia/seltos/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -62,19 +92,19 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/mahindra/be6/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/mahindra/scorpio-n/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/mahindra/thar-roxx/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -92,43 +122,61 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/mahindra/xuv700/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/maruti/baleno/</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/maruti/brezza/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/reviews/maruti/dzire/</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/maruti/e-vitara/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/reviews/maruti/ertiga/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/reviews/maruti/fronx/</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/maruti/grand-vitara/</loc>
-    <lastmod>2026-05-08</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/maruti/jimny/</loc>
-    <lastmod>2026-05-07</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/maruti/swift/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -146,31 +194,37 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/mg/windsor-ev/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/renault/duster/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/skoda/kushaq/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/skoda/slavia/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/reviews/tata/altroz/</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/tata/curvv-ev/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -188,19 +242,19 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/tata/nexon-ev/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/tata/punch/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/tata/punch-ev/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -212,19 +266,25 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/tata/sierra/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/tata/tiago-ev/</loc>
-    <lastmod>2026-05-06</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/toyota/fortuner/</loc>
     <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/reviews/toyota/hyryder/</loc>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -242,7 +302,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/reviews/volkswagen/virtus/</loc>
-    <lastmod>2026-05-09</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
