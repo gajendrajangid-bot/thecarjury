@@ -489,7 +489,8 @@
       "honda/city",
       "mahindra/xuv-3xo",
       "mahindra/xuv400",
-      "nissan/magnite"
+      "nissan/magnite",
+      "jeep/compass"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_mu40JTN1DQGqXZymLyprzsMLC_haETCahwc4nagwrcxh2Z=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "253K",
@@ -1472,7 +1473,8 @@
       "maruti/grand-vitara",
       "mg/hector",
       "volkswagen/virtus",
-      "nissan/magnite"
+      "nissan/magnite",
+      "jeep/compass"
     ],
     "photo_url": "https://yt3.googleusercontent.com/NfycnrBqnp82qfeClTE55x2I-ylYXBt7EgFAFGs5jwlZ9-SyYkKUDodj5nHpT0AOVdt-9kT-jA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1532,7 +1534,8 @@
       "maruti/baleno",
       "volvo/xc60",
       "mahindra/xuv400",
-      "nissan/magnite"
+      "nissan/magnite",
+      "jeep/compass"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1753,6 +1756,19 @@
     "subscriber_count": "",
     "articles": [
       "maruti/baleno"
+    ]
+  },
+  {
+    "slug": "highway-test",
+    "name": "Highway Test",
+    "tagline": "Independent car reviewer \u2014 Independent Review",
+    "youtube_handle": "IndependentReview",
+    "youtube_url": "https://www.youtube.com/@IndependentReview",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "jeep/compass"
     ]
   }
 ]
