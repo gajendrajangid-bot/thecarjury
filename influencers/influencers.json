@@ -1772,5 +1772,18 @@
     "articles": [
       "jeep/compass"
     ]
+  },
+  {
+    "slug": "car-jury-editorial",
+    "name": "Car Jury Editorial",
+    "tagline": "Independent car reviewer \u2014 The Car Jury",
+    "youtube_handle": "TheCarJury",
+    "youtube_url": "https://www.youtube.com/@TheCarJury",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "nissan/magnite"
+    ]
   }
 ]
