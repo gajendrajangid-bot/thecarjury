@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Car Jury, News</title>
+    <link>https://www.thecarjury.com/news/</link>
+    <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
+    <description>News and verdicts on the Indian car market from The Car Jury.</description>
+    <language>en-IN</language>
+    <lastBuildDate>Sun, 17 May 2026 17:51:27 +0530</lastBuildDate>
+    <item>
+      <title>Tata's Sierra EV bet is the moment the mid-size electric SUV fight gets real</title>
+      <link>https://www.thecarjury.com/news/tata-sierra-ev-launch-q2-fy27/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-launch-q2-fy27/</guid>
+      <pubDate>Sun, 17 May 2026 10:30:00 +0530</pubDate>
+      <description>Tata confirms Sierra EV launch for Q2 FY2026-27. The Car Jury verdict on what this means for the Creta Electric, BE6, and the segment buyer&amp;#x27;s calculus.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
+  </channel>
+</rss>

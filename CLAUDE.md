@@ -398,7 +398,7 @@ When building new page types, always use these slugs. Do not invent new patterns
 
 | Type | Pattern | Example |
 |------|---------|---------|
-| News article | `/news/[brand-or-topic]/[slug]/` | `/news/tata/sierra-facelift-2027/` |
+| News article | `/news/[slug]/` (flat — no brand/topic prefix) | `/news/tata-sierra-ev-launch-q2-fy27/` |
 | Best list | `/best/[segment-or-use-case]/` | `/best/evs/` |
 | Advice guide | `/advice/[topic]/` | `/advice/ev-guide/` |
 | Brand hub | `/[brand]/` | `/tata/` |
