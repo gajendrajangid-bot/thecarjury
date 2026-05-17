@@ -90,14 +90,14 @@
     #tcj-search-results.open { display: block; }
     .tcj-search-list { list-style: none; margin: 0; padding: 6px 0; }
     .tcj-search-list a { display: flex; align-items: center; gap: 10px; padding: 10px 14px; text-decoration: none; color: var(--ink, #1A1A1A); font: 500 14px/1.3 var(--font-ui, sans-serif); }
-    .tcj-search-list a:hover { background: #F7F5F1; }
+    .tcj-search-list a:hover, .tcj-search-list a.tcj-search-active { background: #F1EFE9; }
     .tcj-search-badge { font: 700 10px/1 var(--font-ui, sans-serif); letter-spacing: 0.06em; padding: 4px 7px; border-radius: 4px; flex-shrink: 0; }
     .tcj-search-badge--review { background: #1A1A1A; color: #fff; }
     .tcj-search-badge--compare { background: #C8102E; color: #fff; }
     .tcj-search-title mark { background: #FFE9A8; color: inherit; padding: 0 1px; border-radius: 2px; }
     .tcj-search-empty { padding: 14px; font: 400 13px/1.4 var(--font-ui, sans-serif); color: #6B6B6B; }
     .tcj-search-all { display: block; padding: 10px 14px; border-top: 1px solid var(--hairline, #E5E2DC); font: 500 13px/1 var(--font-ui, sans-serif); color: var(--red, #C8102E); text-decoration: none; }
-    .tcj-search-all:hover { background: #F7F5F1; }
+    .tcj-search-all:hover, .tcj-search-all.tcj-search-active { background: #F1EFE9; }
     .site-nav { display: flex; align-items: center; gap: 28px; flex-shrink: 0; }
     .site-nav a { font: 500 14px/1 var(--font-ui, sans-serif); color: var(--stone-600, #6B6B6B); text-decoration: none; transition: color .15s; }
     .site-nav a:hover, .site-nav a.active { color: var(--ink, #1A1A1A); font-weight: 600; }
@@ -409,6 +409,7 @@
 
 
 
+
 <script src="/js/nav.js" defer></script>
 </head>
 <body data-feedback-endpoint="https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec" data-score="7.8" data-verdict="BUY">
@@ -441,6 +442,7 @@
   <a href="/best/">Best Lists</a>
   <a href="/about/">About</a>
 </div>
+
 
 
 

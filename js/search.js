@@ -125,26 +125,56 @@
       for (var i = 0; i < results.length; i++) {
         var r = results[i];
         var badge = r.t === 'compare' ? 'COMPARE' : 'REVIEW';
-        html += '<li><a href="' + escapeHtml(r.url) + '">' +
+        html += '<li data-idx="' + i + '"><a href="' + escapeHtml(r.url) + '">' +
                 '<span class="tcj-search-badge tcj-search-badge--' + r.t + '">' + badge + '</span>' +
                 '<span class="tcj-search-title">' + highlightTitle(r.title, tokens) + '</span>' +
                 '</a></li>';
       }
       html += '</ul>';
     }
-    html += '<a class="tcj-search-all" href="/search/?q=' + encodeURIComponent(raw) + '">' +
+    html += '<a class="tcj-search-all" data-idx="all" href="/search/?q=' + encodeURIComponent(raw) + '">' +
             'See all results for &ldquo;' + escapeHtml(raw) + '&rdquo;</a>';
     dropdown.innerHTML = html;
     dropdown.classList.add('open');
+  }
+
+  // Return the navigable items in dropdown order: each result row's anchor,
+  // followed by the "See all results" anchor.
+  function getNavItems(dropdown) {
+    if (!dropdown) return [];
+    var items = [];
+    var rows = dropdown.querySelectorAll('.tcj-search-list li > a');
+    for (var i = 0; i < rows.length; i++) items.push(rows[i]);
+    var all = dropdown.querySelector('.tcj-search-all');
+    if (all) items.push(all);
+    return items;
+  }
+
+  function setActive(items, idx) {
+    for (var i = 0; i < items.length; i++) {
+      if (i === idx) {
+        items[i].classList.add('tcj-search-active');
+        items[i].setAttribute('aria-selected', 'true');
+        // Keep into view when navigating long lists
+        if (items[i].scrollIntoView) {
+          items[i].scrollIntoView({ block: 'nearest' });
+        }
+      } else {
+        items[i].classList.remove('tcj-search-active');
+        items[i].removeAttribute('aria-selected');
+      }
+    }
   }
 
   function init() {
     var input = document.getElementById(INPUT_ID);
     if (!input) return;
     var dropdown = document.getElementById(DROPDOWN_ID);
+    var activeIdx = -1;  // -1 = nothing highlighted, input has focus
 
     function update() {
       var v = input.value || '';
+      activeIdx = -1;  // reset on every fresh result set
       if (!v.trim()) { render([], ''); return; }
       loadIndex().then(function (idx) { render(rank(idx, v), v); });
     }
@@ -152,25 +182,69 @@
     input.addEventListener('focus', function () { loadIndex().then(update); });
     input.addEventListener('input', update);
 
-    // Enter submits to results page
     input.addEventListener('keydown', function (e) {
+      var items = getNavItems(dropdown);
+
+      if (e.key === 'ArrowDown') {
+        if (!items.length) return;
+        e.preventDefault();
+        activeIdx = (activeIdx + 1) % items.length;
+        setActive(items, activeIdx);
+        return;
+      }
+      if (e.key === 'ArrowUp') {
+        if (!items.length) return;
+        e.preventDefault();
+        activeIdx = activeIdx <= 0 ? items.length - 1 : activeIdx - 1;
+        setActive(items, activeIdx);
+        return;
+      }
       if (e.key === 'Enter') {
+        if (activeIdx >= 0 && items[activeIdx]) {
+          e.preventDefault();
+          location.href = items[activeIdx].getAttribute('href');
+          return;
+        }
         var v = (input.value || '').trim();
         if (v) {
           e.preventDefault();
           location.href = '/search/?q=' + encodeURIComponent(v);
         }
-      } else if (e.key === 'Escape') {
+        return;
+      }
+      if (e.key === 'Escape') {
         input.blur();
         if (dropdown) { dropdown.classList.remove('open'); dropdown.innerHTML = ''; }
+        activeIdx = -1;
+        return;
+      }
+      // Any other key clears highlight so user typing always reaches input first
+      if (activeIdx !== -1) {
+        activeIdx = -1;
+        setActive(items, -1);
       }
     });
+
+    // Hover syncs activeIdx so keyboard + mouse don't fight each other
+    if (dropdown) {
+      dropdown.addEventListener('mousemove', function (e) {
+        var a = e.target.closest && e.target.closest('a');
+        if (!a) return;
+        var items = getNavItems(dropdown);
+        var idx = items.indexOf(a);
+        if (idx !== -1 && idx !== activeIdx) {
+          activeIdx = idx;
+          setActive(items, activeIdx);
+        }
+      });
+    }
 
     // Close on outside click
     document.addEventListener('click', function (e) {
       if (!dropdown) return;
       if (e.target === input || (dropdown.contains && dropdown.contains(e.target))) return;
       dropdown.classList.remove('open');
+      activeIdx = -1;
     });
   }
 
