@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0LV8GN0CD5');
+</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search | The Car Jury</title>
+  <meta name="description" content="Search car reviews and head-to-head comparisons on The Car Jury." />
+  <meta name="robots" content="noindex,follow" />
+  <link rel="canonical" href="https://www.thecarjury.com/search/" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"Search | The Car Jury","url":"https://www.thecarjury.com/search/","publisher":{"@type":"Organization","name":"The Car Jury","url":"https://www.thecarjury.com"}}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    .site-header { background: var(--white); border-bottom: 1px solid var(--hairline, #E5E2DC); position: sticky; top: 0; z-index: 200; }
+    .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; flex-shrink: 0; }
+    .tcj-mast__the { font: 700 italic 16px/1 var(--font-display, Georgia, serif); color: var(--red, #C8102E); }
+    .tcj-mast__name { font: 700 24px/1 var(--font-display, Georgia, serif); color: var(--ink, #1A1A1A); letter-spacing: -0.02em; }
+    .tcj-search-wrap { position: relative; flex: 1 1 auto; max-width: 380px; }
+    .tcj-search-input { width: 100%; height: 38px; padding: 0 14px 0 38px; border: 1px solid var(--hairline, #E5E2DC); border-radius: 999px; background: #F7F5F1 url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6B6B%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><circle cx=%2211%22 cy=%2211%22 r=%228%22/><path d=%22m21 21-4.3-4.3%22/></svg>') 14px 50% no-repeat; font: 400 14px/1 var(--font-ui, sans-serif); color: var(--ink, #1A1A1A); outline: none; transition: border-color .15s, background-color .15s; }
+    .tcj-search-input::placeholder { color: #9A9A9A; }
+    .tcj-search-input:focus { border-color: var(--ink, #1A1A1A); background-color: #fff; }
+    #tcj-search-results { display: none; position: absolute; top: calc(100% + 6px); left: 0; right: 0; background: #fff; border: 1px solid var(--hairline, #E5E2DC); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.08); max-height: 70vh; overflow-y: auto; z-index: 300; }
+    #tcj-search-results.open { display: block; }
+    .tcj-search-list { list-style: none; margin: 0; padding: 6px 0; }
+    .tcj-search-list a { display: flex; align-items: center; gap: 10px; padding: 10px 14px; text-decoration: none; color: var(--ink, #1A1A1A); font: 500 14px/1.3 var(--font-ui, sans-serif); }
+    .tcj-search-list a:hover { background: #F7F5F1; }
+    .tcj-search-badge { font: 700 10px/1 var(--font-ui, sans-serif); letter-spacing: 0.06em; padding: 4px 7px; border-radius: 4px; flex-shrink: 0; }
+    .tcj-search-badge--review { background: #1A1A1A; color: #fff; }
+    .tcj-search-badge--compare { background: #C8102E; color: #fff; }
+    .tcj-search-title mark { background: #FFE9A8; color: inherit; padding: 0 1px; border-radius: 2px; }
+    .tcj-search-empty { padding: 14px; font: 400 13px/1.4 var(--font-ui, sans-serif); color: #6B6B6B; }
+    .tcj-search-all { display: block; padding: 10px 14px; border-top: 1px solid var(--hairline, #E5E2DC); font: 500 13px/1 var(--font-ui, sans-serif); color: var(--red, #C8102E); text-decoration: none; }
+    .tcj-search-all:hover { background: #F7F5F1; }
+    .site-nav { display: flex; align-items: center; gap: 28px; flex-shrink: 0; }
+    .site-nav a { font: 500 14px/1 var(--font-ui, sans-serif); color: var(--stone-600, #6B6B6B); text-decoration: none; transition: color .15s; }
+    .site-nav a:hover, .site-nav a.active { color: var(--ink, #1A1A1A); font-weight: 600; }
+    #tcj-hamburger { display: none; flex-direction: column; justify-content: space-between; width: 22px; height: 16px; background: none; border: none; cursor: pointer; padding: 0; flex-shrink: 0; }
+    #tcj-hamburger span { display: block; height: 2px; background: var(--ink, #1A1A1A); border-radius: 2px; }
+    #tcj-mobile-nav { display: none; position: fixed; top: 0; left: 0; right: 0; background: #fff; z-index: 9999; padding: 64px 0 24px; border-bottom: 1px solid #e5e7eb; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+    #tcj-mobile-nav.open { display: block; }
+    #tcj-mobile-nav a { display: block; padding: 14px 24px; font: 500 15px/1 var(--font-ui, sans-serif); color: #374151; text-decoration: none; border-bottom: 1px solid #f3f4f6; }
+    #tcj-mobile-nav a:last-child { border-bottom: none; }
+    #tcj-mobile-nav a:hover, #tcj-mobile-nav a.active { color: var(--red, #C8102E); }
+    .tcj-panel-close { position: absolute; top: 16px; right: 20px; background: none; border: none; cursor: pointer; font-size: 24px; color: #6b7280; line-height: 1; }
+    @media (max-width: 920px) {
+      .tcj-search-wrap { max-width: 260px; }
+    }
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; gap: 12px; flex-wrap: wrap; height: auto; min-height: 64px; padding-top: 12px; padding-bottom: 12px; }
+      .site-nav { display: none; }
+      #tcj-hamburger { display: flex; }
+      .tcj-search-wrap { order: 3; flex: 1 1 100%; max-width: none; margin-top: 4px; }
+    }
+    :root {
+      --font-display: "Fraunces", Georgia, serif;
+      --font-ui:      "Inter", -apple-system, Arial, sans-serif;
+      --red:   #C8102E; --red-dark: #A30C24;
+      --paper: #FAF8F5; --white: #FFFFFF; --ink: #1A1A1A;
+      --hairline: #E5E2DC; --stone-200: #D6D2CC;
+      --stone-400: #9E9A93; --stone-600: #6B6B6B; --stone-800: #3D3D3D;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
+    .tcj-search-wrap { position: relative; flex: 1 1 auto; max-width: 380px; }
+    .tcj-search-input { width: 100%; height: 38px; padding: 0 14px 0 38px; border: 1px solid var(--hairline, #E5E2DC); border-radius: 999px; background: #F7F5F1 url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2216%22 height=%2216%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%236B6B6B%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><circle cx=%2211%22 cy=%2211%22 r=%228%22/><path d=%22m21 21-4.3-4.3%22/></svg>') 14px 50% no-repeat; font: 400 14px/1 var(--font-ui, sans-serif); color: var(--ink, #1A1A1A); outline: none; transition: border-color .15s, background-color .15s; }
+    .tcj-search-input::placeholder { color: #9A9A9A; }
+    .tcj-search-input:focus { border-color: var(--ink, #1A1A1A); background-color: #fff; }
+    #tcj-search-results { display: none; position: absolute; top: calc(100% + 6px); left: 0; right: 0; background: #fff; border: 1px solid var(--hairline, #E5E2DC); border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.08); max-height: 70vh; overflow-y: auto; z-index: 300; }
+    #tcj-search-results.open { display: block; }
+    .tcj-search-list { list-style: none; margin: 0; padding: 6px 0; }
+    .tcj-search-list a { display: flex; align-items: center; gap: 10px; padding: 10px 14px; text-decoration: none; color: var(--ink, #1A1A1A); font: 500 14px/1.3 var(--font-ui, sans-serif); }
+    .tcj-search-list a:hover { background: #F7F5F1; }
+    .tcj-search-badge { font: 700 10px/1 var(--font-ui, sans-serif); letter-spacing: 0.06em; padding: 4px 7px; border-radius: 4px; flex-shrink: 0; }
+    .tcj-search-badge--review { background: #1A1A1A; color: #fff; }
+    .tcj-search-badge--compare { background: #C8102E; color: #fff; }
+    .tcj-search-title mark { background: #FFE9A8; color: inherit; padding: 0 1px; border-radius: 2px; }
+    .tcj-search-empty { padding: 14px; font: 400 13px/1.4 var(--font-ui, sans-serif); color: #6B6B6B; }
+    .tcj-search-all { display: block; padding: 10px 14px; border-top: 1px solid var(--hairline, #E5E2DC); font: 500 13px/1 var(--font-ui, sans-serif); color: var(--red, #C8102E); text-decoration: none; }
+    .tcj-search-all:hover { background: #F7F5F1; }
+    .site-nav { display: flex; align-items: center; gap: 28px; flex-shrink: 0; }
+    .site-nav a { font: 500 14px/1 var(--font-ui, sans-serif); color: var(--stone-600, #6B6B6B); text-decoration: none; transition: color .15s; }
+    .site-nav a:hover, .site-nav a.active { color: var(--ink, #1A1A1A); font-weight: 600; }
+    #tcj-hamburger span { display: block; height: 2px; background: var(--ink, #1A1A1A); border-radius: 2px; }
+    #tcj-mobile-nav { display: none; position: fixed; top: 0; left: 0; right: 0; background: #fff; z-index: 9999; padding: 64px 0 24px; border-bottom: 1px solid #e5e7eb; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+    #tcj-mobile-nav.open { display: block; }
+    #tcj-mobile-nav a { display: block; padding: 14px 24px; font: 500 15px/1 var(--font-ui, sans-serif); color: #374151; text-decoration: none; border-bottom: 1px solid #f3f4f6; }
+    #tcj-mobile-nav a:last-child { border-bottom: none; }
+    #tcj-mobile-nav a:hover, #tcj-mobile-nav a.active { color: var(--red, #C8102E); }
+    .tcj-panel-close { position: absolute; top: 16px; right: 20px; background: none; border: none; cursor: pointer; font-size: 24px; color: #6b7280; line-height: 1; }
+
+    .search-page { max-width: 1100px; margin: 0 auto; padding: 48px 32px 80px; }
+    .search-page__title { font: 600 32px/1.2 var(--font-display); color: var(--ink); margin-bottom: 8px; }
+    .search-page__meta { font: 400 15px/1.5 var(--font-ui); color: var(--stone-600); margin-bottom: 32px; }
+    .search-page__query { color: var(--ink); font-weight: 600; }
+    .search-section { margin-bottom: 40px; }
+    .search-section__head { font: 700 12px/1 var(--font-ui); letter-spacing: 0.08em; color: var(--stone-600); text-transform: uppercase; padding-bottom: 12px; border-bottom: 1px solid var(--hairline); margin-bottom: 16px; }
+    .search-card { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--hairline); text-decoration: none; color: inherit; }
+    .search-card:last-child { border-bottom: none; }
+    .search-card:hover .search-card__title { color: var(--red); }
+    .search-card__img { width: 120px; height: 80px; flex-shrink: 0; border-radius: 8px; object-fit: cover; background: #F7F5F1; }
+    .search-card__body { flex: 1; min-width: 0; }
+    .search-card__badge { display: inline-block; font: 700 10px/1 var(--font-ui); letter-spacing: 0.06em; padding: 4px 7px; border-radius: 4px; margin-bottom: 6px; }
+    .search-card__badge--review { background: #1A1A1A; color: #fff; }
+    .search-card__badge--compare { background: #C8102E; color: #fff; }
+    .search-card__title { font: 600 18px/1.3 var(--font-display); color: var(--ink); transition: color .15s; }
+    .search-card__title mark { background: #FFE9A8; color: inherit; padding: 0 2px; border-radius: 2px; }
+    .search-card__meta { font: 400 13px/1.4 var(--font-ui); color: var(--stone-600); margin-top: 4px; }
+    .search-empty { padding: 48px 0; text-align: center; color: var(--stone-600); }
+    .search-empty__title { font: 600 22px/1.3 var(--font-display); color: var(--ink); margin-bottom: 8px; }
+    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; }
+    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; flex-wrap: wrap; }
+    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
+    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
+    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
+    .site-footer__bottom { font: 400 12px/1.5 var(--font-ui); color: var(--stone-400); padding-top: 24px; border-top: 1px solid var(--hairline); }
+    @media (max-width: 920px) { .tcj-search-wrap { max-width: 260px; } }
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 0 20px; gap: 12px; flex-wrap: wrap; height: auto; min-height: 64px; padding-top: 12px; padding-bottom: 12px; }
+      .site-nav { display: none; }
+      .tcj-search-wrap { order: 3; flex: 1 1 100%; max-width: none; margin-top: 4px; }
+      .search-page { padding: 32px 20px 60px; }
+      .search-page__title { font-size: 26px; }
+      .search-card__img { width: 88px; height: 60px; }
+      .search-card__title { font-size: 16px; }
+      .site-footer { padding: 32px 20px; }
+    }
+  </style>
+
+<script src="/js/search.js" defer></script>
+<script src="/js/nav.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="/" class="tcj-mast">
+      <span class="tcj-mast__the">The</span>
+      <span class="tcj-mast__name">Car Jury</span>
+    </a>
+    <div class="tcj-search-wrap">
+      <input id="tcj-search" class="tcj-search-input" type="search"
+             placeholder="Search reviews and comparisons…"
+             autocomplete="off" aria-label="Search reviews and comparisons" />
+      <div id="tcj-search-results" role="listbox" aria-label="Search results"></div>
+    </div>
+    <nav class="site-nav" id="tcj-nav">
+      <a href="/reviews/">Reviews</a>
+      <a href="/compare/">Compare</a>
+      <a href="/the-jury/">The Jury</a>
+      <a href="/best/">Best Lists</a>
+      <a href="/about/">About</a>
+    </nav>
+    <button id="tcj-hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button id="tcj-hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div id="tcj-mobile-nav">
+  <button class="tcj-panel-close" aria-label="Close menu">&#215;</button>
+  <a href="/reviews/">Reviews</a>
+  <a href="/compare/">Compare</a>
+  <a href="/the-jury/">The Jury</a>
+  <a href="/best/">Best Lists</a>
+  <a href="/about/">About</a>
+</div>
+
+
+<main class="search-page">
+  <h1 class="search-page__title">Search</h1>
+  <p class="search-page__meta" id="search-meta">Loading…</p>
+  <div id="search-results"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div class="site-footer__top">
+      <div>
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
+      </div>
+      <div class="site-footer__links">
+        <a href="/reviews/">Reviews</a>
+        <a href="/compare/">Compare</a>
+        <a href="/best/">Best Lists</a>
+        <a href="/influencers/">Influencers</a>
+        <a href="/about/">About</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      © 2026 The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
+    </div>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var INDEX_URL = '/js/search-index.json';
+
+  function normalize(s) { return (s || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(); }
+
+  function escapeHtml(s) {
+    return (s || '').replace(/[&<>"']/g, function (c) {
+      return ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c];
+    });
+  }
+
+  function highlight(title, tokens) {
+    if (!tokens.length) return escapeHtml(title);
+    var sorted = tokens.slice().sort(function (a, b) { return b.length - a.length; });
+    var re = new RegExp('(' + sorted.map(function (t) {
+      return t.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    }).join('|') + ')', 'gi');
+    return escapeHtml(title).replace(re, '<mark>$1</mark>');
+  }
+
+  var SYNONYMS = {
+    'ev': ['electric'], 'electric': ['ev'],
+    'auto': ['automatic'], 'automatic': ['auto'],
+  };
+  function tokenHits(token, hayWords) {
+    var variants = [token].concat(SYNONYMS[token] || []);
+    for (var i = 0; i < hayWords.length; i++) {
+      for (var v = 0; v < variants.length; v++) {
+        if (hayWords[i] === variants[v]) return 2;
+        if (hayWords[i].indexOf(variants[v]) === 0) return 1;
+      }
+    }
+    return 0;
+  }
+
+  function score(entry, q, tokens) {
+    var hayTitle = normalize(entry.title);
+    var hayBrand = normalize(entry.brand);
+    var hayModels = normalize((entry.models || []).join(' '));
+    var titleWords  = hayTitle.split(' ').filter(Boolean);
+    var brandWords  = hayBrand.split(' ').filter(Boolean);
+    var modelWords  = hayModels.split(' ').filter(Boolean);
+    var allWords    = titleWords.concat(brandWords).concat(modelWords);
+    if (!allWords.length) return 0;
+    for (var i = 0; i < tokens.length; i++) {
+      if (!tokenHits(tokens[i], allWords)) return 0;
+    }
+    var s = 0;
+    if (q && hayTitle.indexOf(q) !== -1) s += 30;
+    if (titleWords.length && titleWords[0].indexOf(tokens[0]) === 0) s += 15;
+    for (var j = 0; j < tokens.length; j++) {
+      var t = tokens[j];
+      var inTitle = tokenHits(t, titleWords);
+      if (inTitle) { s += inTitle === 2 ? 8 : 6; continue; }
+      var inBrand = tokenHits(t, brandWords);
+      if (inBrand) { s += 3; continue; }
+      s += 1;
+    }
+    var wantsCompare = q.indexOf(' vs ') !== -1 || tokens.indexOf('vs') !== -1;
+    if (wantsCompare && entry.t === 'compare') s += 12;
+    if (!wantsCompare && entry.t === 'review')  s += 2;
+    return s;
+  }
+
+  function rank(index, raw) {
+    var q = normalize(raw);
+    if (!q) return [];
+    var tokens = q.split(' ').filter(Boolean);
+    var scored = [];
+    for (var i = 0; i < index.length; i++) {
+      var s = score(index[i], q, tokens);
+      if (s > 0) scored.push({ e: index[i], s: s });
+    }
+    scored.sort(function (a, b) {
+      if (b.s !== a.s) return b.s - a.s;
+      return (b.e.date || '').localeCompare(a.e.date || '');
+    });
+    return scored.map(function (r) { return r.e; });
+  }
+
+  function renderCard(entry, tokens) {
+    var badge = entry.t === 'compare' ? 'COMPARE' : 'REVIEW';
+    var imgHtml = entry.img
+      ? '<img class="search-card__img" src="' + escapeHtml(entry.img) + '" alt="" loading="lazy" />'
+      : '<div class="search-card__img"></div>';
+    var datePretty = '';
+    if (entry.date) {
+      var d = new Date(entry.date + 'T00:00:00');
+      if (!isNaN(d)) {
+        datePretty = d.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+      }
+    }
+    var meta = entry.t === 'compare'
+      ? 'Head-to-head comparison' + (datePretty ? ' · ' + datePretty : '')
+      : (entry.brand || '') + (datePretty ? ' · ' + datePretty : '');
+    return '<a class="search-card" href="' + escapeHtml(entry.url) + '">' +
+           imgHtml +
+           '<div class="search-card__body">' +
+           '<span class="search-card__badge search-card__badge--' + entry.t + '">' + badge + '</span>' +
+           '<div class="search-card__title">' + highlight(entry.title, tokens) + '</div>' +
+           '<div class="search-card__meta">' + escapeHtml(meta) + '</div>' +
+           '</div></a>';
+  }
+
+  function run() {
+    var qs = new URLSearchParams(location.search);
+    var q = qs.get('q') || '';
+    var meta = document.getElementById('search-meta');
+    var box  = document.getElementById('search-results');
+    var input = document.getElementById('tcj-search');
+    if (input && q) input.value = q;
+
+    if (!q.trim()) {
+      meta.textContent = 'Type a car name, brand, or “X vs Y” in the search box above.';
+      return;
+    }
+
+    fetch(INDEX_URL, { credentials: 'same-origin' })
+      .then(function (r) { return r.ok ? r.json() : []; })
+      .then(function (index) {
+        var results = rank(index, q);
+        var tokens = normalize(q).split(' ').filter(Boolean);
+        meta.innerHTML = results.length + ' result' + (results.length === 1 ? '' : 's') +
+                        ' for <span class="search-page__query">&ldquo;' + escapeHtml(q) + '&rdquo;</span>';
+        if (results.length === 0) {
+          box.innerHTML = '<div class="search-empty">' +
+            '<div class="search-empty__title">No matches</div>' +
+            '<p>Try a different spelling, or browse <a href="/reviews/">all reviews</a> or <a href="/compare/">comparisons</a>.</p>' +
+            '</div>';
+          return;
+        }
+        var reviews  = results.filter(function (r) { return r.t === 'review'; });
+        var compares = results.filter(function (r) { return r.t === 'compare'; });
+        var html = '';
+        if (reviews.length) {
+          html += '<section class="search-section"><div class="search-section__head">Reviews · ' + reviews.length + '</div>';
+          reviews.forEach(function (r) { html += renderCard(r, tokens); });
+          html += '</section>';
+        }
+        if (compares.length) {
+          html += '<section class="search-section"><div class="search-section__head">Comparisons · ' + compares.length + '</div>';
+          compares.forEach(function (r) { html += renderCard(r, tokens); });
+          html += '</section>';
+        }
+        box.innerHTML = html;
+      })
+      .catch(function () {
+        meta.textContent = 'Could not load search results. Please try again.';
+      });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', run);
+  } else {
+    run();
+  }
+}());
+</script>
+</body>
+</html>
