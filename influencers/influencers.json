@@ -366,7 +366,8 @@
       "tata/curvv-ev",
       "mahindra/xev-9e",
       "tata/harrier-ev",
-      "hyundai/alcazar"
+      "hyundai/alcazar",
+      "audi/q3"
     ],
     "photo_url": "",
     "subscriber_count": "24L",
@@ -491,7 +492,8 @@
       "mahindra/xuv400",
       "nissan/magnite",
       "jeep/compass",
-      "mercedes/gla"
+      "mercedes/gla",
+      "audi/q3"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_mu40JTN1DQGqXZymLyprzsMLC_haETCahwc4nagwrcxh2Z=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "253K",
@@ -1334,7 +1336,8 @@
       "toyota/fortuner",
       "kia/sonet",
       "skoda/slavia",
-      "maruti/baleno"
+      "maruti/baleno",
+      "audi/q3"
     ],
     "photo_url": "https://yt3.googleusercontent.com/1lBPxVTf5xTFdnPe1iqZ3gtmOHzyEIfiZsQzDQwfxKttK0sR1959CuYVdgPN_BmCTLeRhx9lkA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1475,7 +1478,8 @@
       "mg/hector",
       "volkswagen/virtus",
       "nissan/magnite",
-      "jeep/compass"
+      "jeep/compass",
+      "audi/q3"
     ],
     "photo_url": "https://yt3.googleusercontent.com/NfycnrBqnp82qfeClTE55x2I-ylYXBt7EgFAFGs5jwlZ9-SyYkKUDodj5nHpT0AOVdt-9kT-jA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1537,7 +1541,8 @@
       "mahindra/xuv400",
       "nissan/magnite",
       "jeep/compass",
-      "mercedes/gla"
+      "mercedes/gla",
+      "audi/q3"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1707,7 +1712,8 @@
       "honda/elevate",
       "skoda/slavia",
       "mahindra/xuv400",
-      "jeep/compass"
+      "jeep/compass",
+      "audi/q3"
     ]
   },
   {
