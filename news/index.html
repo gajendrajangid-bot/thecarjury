@@ -65,14 +65,20 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "url": "https://www.thecarjury.com/news/tata-sierra-ev-launch-q2-fy27-confirmed/",
-          "name": "Tata Sierra EV Confirmed For July-September 2026: The BE6 Finally Has A Rival"
+          "url": "https://www.thecarjury.com/news/ethanol-flex-fuel-rollout-gradual-careedge-india/",
+          "name": "Ethanol Surplus Is Real, Flex-Fuel Cars Are Not: Why India's Blending Win Has a Hangover"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "url": "https://www.thecarjury.com/news/tata-sierra-ev-launch-q2-fy27/",
-          "name": "Tata's Sierra EV bet is the moment the mid-size electric SUV fight gets real"
+          "url": "https://www.thecarjury.com/news/flex-fuel-rollout-gradual-careedge-ethanol-surplus-2026/",
+          "name": "Ethanol Surplus Is Real, Flex-Fuel Cars Are Not: CareEdge Calls It"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://www.thecarjury.com/news/tata-sierra-ev-launch-q2-fy27-confirmed/",
+          "name": "Tata Sierra EV Confirmed For July-September 2026: The BE6 Finally Has A Rival"
         }
       ]
     }
@@ -83,6 +89,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <style>
+/* TCJ_NAV_CSS:START */
     /* TCJ_NAV_CSS:START */
     .site-header { background: var(--white); border-bottom: 1px solid var(--hairline, #E5E2DC); position: sticky; top: 0; z-index: 200; }
     .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
@@ -170,12 +177,15 @@ main.news-index { max-width: 880px; margin: 0 auto; padding: 36px 24px 72px; }
   .news-row { padding: 18px 18px; }
   .news-row__title { font-size: 19px; }
 }
-    
+    @media (max-width: 768px) {
+      .site-header__inner { padding: 12px 20px 16px; gap: 12px; flex-wrap: wrap; height: auto; min-height: 64px; }
+      .site-nav { display: none; }
+      #tcj-hamburger { display: flex; }
+    }
 </style>
-<script src="/js/nav.js" defer></script>
 </head>
 <body>
-
+<script src="/js/nav.js" defer></script>
 <script src="/js/search.js" defer></script>
 <header class="site-header">
   <div class="site-header__inner">
@@ -197,7 +207,9 @@ main.news-index { max-width: 880px; margin: 0 auto; padding: 36px 24px 72px; }
       <a href="/best/">Best Lists</a>
       <a href="/about/">About</a>
     </nav>
-    <button id="tcj-hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button id="tcj-hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 <div id="tcj-mobile-nav">
@@ -209,7 +221,6 @@ main.news-index { max-width: 880px; margin: 0 auto; padding: 36px 24px 72px; }
   <a href="/best/">Best Lists</a>
   <a href="/about/">About</a>
 </div>
-
 <main class="news-index" role="main">
   <header class="idx-header">
     <div class="idx-eyebrow">The Car Jury</div>
@@ -217,21 +228,27 @@ main.news-index { max-width: 880px; margin: 0 auto; padding: 36px 24px 72px; }
     <p class="idx-sub">Launches, price moves, policy, and recalls, each paired with a clear verdict on what it means for buyers. <a href="/news/rss.xml">RSS</a>.</p>
   </header>
   <div class="news-grid">
+    <a href="/news/ethanol-flex-fuel-rollout-gradual-careedge-india/" class="news-row">
+      <span class="news-row__tag">News brief</span>
+      <h2 class="news-row__title">Ethanol Surplus Is Real, Flex-Fuel Cars Are Not: Why India&#x27;s Blending Win Has a Hangover</h2>
+      <p class="news-row__desc">CareEdge says India&amp;#x27;s ethanol capacity sits idle at 60% while flex-fuel vehicles, cars that run on high-ethanol blends, remain years away.</p>
+      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-18T10:37:31+05:30">18 May 2026</time></div>
+    </a>
+    <a href="/news/flex-fuel-rollout-gradual-careedge-ethanol-surplus-2026/" class="news-row">
+      <span class="news-row__tag">News brief</span>
+      <h2 class="news-row__title">Ethanol Surplus Is Real, Flex-Fuel Cars Are Not: CareEdge Calls It</h2>
+      <p class="news-row__desc">CareEdge says India&amp;#x27;s ethanol capacity is running at 60% utilisation and flex-fuel vehicle adoption will stay slow for at least three years.</p>
+      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-18T09:00:41+05:30">18 May 2026</time></div>
+    </a>
     <a href="/news/tata-sierra-ev-launch-q2-fy27-confirmed/" class="news-row">
       <span class="news-row__tag">News brief</span>
       <h2 class="news-row__title">Tata Sierra EV Confirmed For July-September 2026: The BE6 Finally Has A Rival</h2>
       <p class="news-row__desc">Tata confirms Sierra EV for Q2 FY2026-27, targeting under Rs 18 lakh and 450 km range to take on the Mahindra BE6. Here are the facts.</p>
       <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-17T20:35:44+05:30">17 May 2026</time></div>
     </a>
-    <a href="/news/tata-sierra-ev-launch-q2-fy27/" class="news-row">
-      <span class="news-row__tag">Opinion + News</span>
-      <h2 class="news-row__title">Tata&#x27;s Sierra EV bet is the moment the mid-size electric SUV fight gets real</h2>
-      <p class="news-row__desc">Tata confirms Sierra EV launch for Q2 FY2026-27. The Car Jury verdict on what this means for the Creta Electric, BE6, and the segment buyer&amp;#x27;s calculus.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-17T10:30:00+05:30">17 May 2026</time></div>
-    </a>
   </div>
 </main>
-
+<script src="/js/nav.js" defer></script>
 <script src="/js/search.js" defer></script>
 </body>
 </html>

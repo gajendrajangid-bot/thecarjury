@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/ethanol-flex-fuel-rollout-gradual-careedge-india/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T10:37:31+05:30</news:publication_date>
+      <news:title>Ethanol Surplus Is Real, Flex-Fuel Cars Are Not: Why India's Blending Win Has a Hangover</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/flex-fuel-rollout-gradual-careedge-ethanol-surplus-2026/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-18T09:00:41+05:30</news:publication_date>
+      <news:title>Ethanol Surplus Is Real, Flex-Fuel Cars Are Not: CareEdge Calls It</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-launch-q2-fy27-confirmed/</loc>
     <lastmod>2026-05-18</lastmod>
     <news:news>
