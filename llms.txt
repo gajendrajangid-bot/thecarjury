@@ -8,7 +8,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 
 ## Content
 
-- [Audi Q3 Review India 2026: The Car Jury Verdict | The Car Jury](https://www.thecarjury.com/reviews/audi/q3/) — AI synthesis from India's top YouTube reviewers.
+- [Audi Q3 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/audi/q3/) — AI synthesis from India's top YouTube reviewers.
 - [BMW X1 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x1/) — AI synthesis from India's top YouTube reviewers.
 - [BMW X3 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x3/) — AI synthesis from India's top YouTube reviewers.
 - [Honda Amaze 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/honda/amaze/) — AI synthesis from India's top YouTube reviewers.
@@ -64,6 +64,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Toyota Innova HyCross 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/toyota/innova-hycross/) — AI synthesis from India's top YouTube reviewers.
 - [Volkswagen Taigun 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/volkswagen/taigun/) — AI synthesis from India's top YouTube reviewers.
 - [Volkswagen Virtus 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/volkswagen/virtus/) — AI synthesis from India's top YouTube reviewers.
+- [Volvo XC40 2026 Review: Jury Verdict, Price &amp; Rivals | The Car Jury](https://www.thecarjury.com/reviews/volvo/xc40/) — AI synthesis from India's top YouTube reviewers.
 - [Volvo XC60 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/volvo/xc60/) — AI synthesis from India's top YouTube reviewers.
 
 ## Methodology
