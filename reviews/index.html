@@ -22,6 +22,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
+    :root {
+      --font-display: "Fraunces", Georgia, serif;
+      --font-ui:      "Inter", -apple-system, Arial, sans-serif;
+      --red:   #C8102E; --red-dark: #A30C24;
+      --paper: #FAF8F5; --white: #FFFFFF; --ink: #1A1A1A;
+      --hairline: #E5E2DC; --stone-200: #D6D2CC;
+      --stone-400: #9E9A93; --stone-600: #6B6B6B; --stone-800: #3D3D3D;
+      --green: #0E6B3C; --green-tint: #E6F2EC;
+      --amber: #B8860B; --amber-tint: #FBF3DF;
+      --slate: #3D3D3D; --slate-tint: #EFEEEB;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
     /* TCJ_NAV_CSS:START */
     .site-header { background: var(--white); border-bottom: 1px solid var(--hairline, #E5E2DC); position: sticky; top: 0; z-index: 200; }
     .site-header__inner { max-width: 1100px; margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
@@ -65,147 +80,6 @@
       .tcj-search-wrap { order: 3; flex: 1 1 100%; max-width: none; margin-top: 6px; margin-bottom: 4px; }
     }
     /* TCJ_NAV_CSS:END */
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    :root {
-      --font-display: "Fraunces", Georgia, serif;
-      --font-ui:      "Inter", -apple-system, Arial, sans-serif;
-      --red:   #C8102E; --red-dark: #A30C24;
-      --paper: #FAF8F5; --white: #FFFFFF; --ink: #1A1A1A;
-      --hairline: #E5E2DC; --stone-200: #D6D2CC;
-      --stone-400: #9E9A93; --stone-600: #6B6B6B; --stone-800: #3D3D3D;
-      --green: #0E6B3C; --green-tint: #E6F2EC;
-      --amber: #B8860B; --amber-tint: #FBF3DF;
-      --slate: #3D3D3D; --slate-tint: #EFEEEB;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; }
-    a { color: var(--red); text-decoration: none; }
-    a:hover { color: var(--red-dark); }
-    
-    
-    
-    
-    
-    
-    
-    
     .wrap { max-width: 1100px; margin: 0 auto; padding: 56px 32px 100px; }
     .page-title { font: 700 40px/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 10px; }
     .page-sub { font: 400 16px/1.6 var(--font-ui); color: var(--stone-600); margin-bottom: 8px; }
@@ -240,26 +114,20 @@
       .site-footer__top { flex-direction: column; }
     }
   </style>
-
-<script src="/js/search.js" defer></script>
-
-
-
-
-
-<script src="/js/nav.js" defer></script>
 </head>
 <body>
-
+<script src="/js/nav.js" defer></script>
+<script src="/js/search.js" defer></script>
 <header class="site-header">
   <div class="site-header__inner">
     <a href="/" class="tcj-mast">
       <span class="tcj-mast__the">The</span>
       <span class="tcj-mast__name">Car Jury</span>
     </a>
-    
     <div class="tcj-search-wrap">
-      <input id="tcj-search" class="tcj-search-input" type="search" placeholder="Search reviews and comparisons…" autocomplete="off" aria-label="Search reviews and comparisons" />
+      <input id="tcj-search" class="tcj-search-input" type="search"
+             placeholder="Search reviews and comparisons…"
+             autocomplete="off" aria-label="Search reviews and comparisons" />
       <div id="tcj-search-results" role="listbox" aria-label="Search results"></div>
     </div>
     <nav class="site-nav" id="tcj-nav">
@@ -270,7 +138,9 @@
       <a href="/best/">Best Lists</a>
       <a href="/about/">About</a>
     </nav>
-    <button id="tcj-hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button id="tcj-hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
 <div id="tcj-mobile-nav">
@@ -282,13 +152,6 @@
   <a href="/best/">Best Lists</a>
   <a href="/about/">About</a>
 </div>
-
-
-
-
-
-
-
 <div class="wrap">
   <h1 class="page-title">All Reviews</h1>
   <p class="page-sub">Every verdict built from 5+ independent voices. No manufacturer money. No single reviewer's bias.</p>
