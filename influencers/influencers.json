@@ -372,7 +372,8 @@
       "mahindra/xev-9e",
       "tata/harrier-ev",
       "hyundai/alcazar",
-      "audi/q3"
+      "audi/q3",
+      "audi/q5"
     ],
     "photo_url": "",
     "subscriber_count": "24L",
@@ -1489,7 +1490,8 @@
       "jeep/compass",
       "audi/q3",
       "bmw/3-series",
-      "bmw/5-series"
+      "bmw/5-series",
+      "audi/q5"
     ],
     "photo_url": "https://yt3.googleusercontent.com/NfycnrBqnp82qfeClTE55x2I-ylYXBt7EgFAFGs5jwlZ9-SyYkKUDodj5nHpT0AOVdt-9kT-jA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1556,7 +1558,8 @@
       "volvo/xc40",
       "mercedes/e-class",
       "bmw/3-series",
-      "bmw/5-series"
+      "bmw/5-series",
+      "audi/q5"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1602,7 +1605,8 @@
       "maruti/baleno",
       "jeep/compass",
       "mercedes/gla",
-      "bmw/5-series"
+      "bmw/5-series",
+      "audi/q5"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_n8bQzZq7_cV8vpzftjz58qHw0J1CRyT26IgXg93fvDCnU=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "2026-05-04",
@@ -1743,7 +1747,8 @@
     "subscriber_count": "",
     "articles": [
       "honda/elevate",
-      "volkswagen/virtus"
+      "volkswagen/virtus",
+      "audi/q5"
     ]
   },
   {
