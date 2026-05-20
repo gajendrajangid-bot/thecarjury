@@ -53,7 +53,8 @@
       "volvo/xc60",
       "mahindra/xuv400",
       "mercedes/e-class",
-      "bmw/5-series"
+      "bmw/5-series",
+      "bmw/x5"
     ],
     "photo_url": "https://yt3.googleusercontent.com/0eCXYHGi6AS7elexG2WrgGTyUd794KKa77GyOK4QYAHfMF-secKfWPggiykuAaVqcVRIEw2chcc=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "21.2L",
@@ -142,7 +143,8 @@
       "nissan/magnite",
       "volvo/xc40",
       "mercedes/e-class",
-      "bmw/3-series"
+      "bmw/3-series",
+      "bmw/x5"
     ],
     "photo_url": "https://yt3.googleusercontent.com/KojhQpxOWF17GlgsBC-QlZ-YeNZv78d04Y5dCxlFPrupK-rC8si9qX3i9iU4y_XpkGprVNEJrg=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "21.2L",
@@ -1559,7 +1561,8 @@
       "mercedes/e-class",
       "bmw/3-series",
       "bmw/5-series",
-      "audi/q5"
+      "audi/q5",
+      "bmw/x5"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1647,7 +1650,8 @@
       "bmw/x1",
       "toyota/innova-hycross",
       "mg/hector",
-      "bmw/3-series"
+      "bmw/3-series",
+      "bmw/x5"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l7wzLzS0nfHakie0U8QKsMyOe-UVCHGZiyKAwjbFT3D6c=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "2026-05-04",
@@ -1827,6 +1831,19 @@
     "subscriber_count": "",
     "articles": [
       "mahindra/xuv400"
+    ]
+  },
+  {
+    "slug": "driven-plus",
+    "name": "Driven Plus",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "DrivenPlus",
+    "youtube_url": "https://www.youtube.com/@DrivenPlus",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "bmw/x5"
     ]
   }
 ]
