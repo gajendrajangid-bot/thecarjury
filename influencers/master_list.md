@@ -100,6 +100,7 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **ASHWIN SINGH TAKIAR** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Driven Plus** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **The Car Jury Review Desk** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Car Jury Editorial** | TBC | TBC | TBC | TBC | Auto-added from article |

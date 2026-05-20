@@ -12,7 +12,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Audi Q5 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/audi/q5/) — AI synthesis from India's top YouTube reviewers.
 - [BMW 3 Series Gran Limousine 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/3-series/) — AI synthesis from India's top YouTube reviewers.
 - [BMW 5 Series LWB &amp; i5 M60 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/5-series/) — AI synthesis from India's top YouTube reviewers.
-- [BMW 7 Series &amp; i7 Review 2026: The Car Jury Verdict | The Car Jury](https://www.thecarjury.com/reviews/bmw/7-series/) — AI synthesis from India's top YouTube reviewers.
+- [BMW 7 Series &amp; i7 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/7-series/) — AI synthesis from India's top YouTube reviewers.
 - [BMW X1 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x1/) — AI synthesis from India's top YouTube reviewers.
 - [BMW X3 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x3/) — AI synthesis from India's top YouTube reviewers.
 - [BMW X5 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x5/) — AI synthesis from India's top YouTube reviewers.
@@ -30,6 +30,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Kia Carens 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/kia/carens/) — AI synthesis from India's top YouTube reviewers.
 - [Kia Seltos 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/kia/seltos/) — AI synthesis from India's top YouTube reviewers.
 - [Kia Sonet 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/kia/sonet/) — AI synthesis from India's top YouTube reviewers.
+- [Range Rover Sport 2026 Review: The Jury's Verdict | The Car Jury](https://www.thecarjury.com/reviews/land-rover/range-rover-sport/) — AI synthesis from India's top YouTube reviewers.
 - [Mahindra BE6 Review 2025 , The Car Jury](https://www.thecarjury.com/reviews/mahindra/be6/) — AI synthesis from India's top YouTube reviewers.
 - [Mahindra Scorpio N 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/mahindra/scorpio-n/) — AI synthesis from India's top YouTube reviewers.
 - [Mahindra Thar Roxx 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/mahindra/thar-roxx/) — AI synthesis from India's top YouTube reviewers.

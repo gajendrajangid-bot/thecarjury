@@ -1351,7 +1351,8 @@
       "skoda/slavia",
       "maruti/baleno",
       "audi/q3",
-      "bmw/3-series"
+      "bmw/3-series",
+      "land-rover/range-rover-sport"
     ],
     "photo_url": "https://yt3.googleusercontent.com/1lBPxVTf5xTFdnPe1iqZ3gtmOHzyEIfiZsQzDQwfxKttK0sR1959CuYVdgPN_BmCTLeRhx9lkA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1496,7 +1497,8 @@
       "audi/q3",
       "bmw/3-series",
       "bmw/5-series",
-      "audi/q5"
+      "audi/q5",
+      "land-rover/range-rover-sport"
     ],
     "photo_url": "https://yt3.googleusercontent.com/NfycnrBqnp82qfeClTE55x2I-ylYXBt7EgFAFGs5jwlZ9-SyYkKUDodj5nHpT0AOVdt-9kT-jA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1566,7 +1568,8 @@
       "bmw/5-series",
       "audi/q5",
       "bmw/x5",
-      "bmw/7-series"
+      "bmw/7-series",
+      "land-rover/range-rover-sport"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1655,7 +1658,8 @@
       "toyota/innova-hycross",
       "mg/hector",
       "bmw/3-series",
-      "bmw/x5"
+      "bmw/x5",
+      "land-rover/range-rover-sport"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l7wzLzS0nfHakie0U8QKsMyOe-UVCHGZiyKAwjbFT3D6c=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "2026-05-04",
@@ -1848,6 +1852,19 @@
     "subscriber_count": "",
     "articles": [
       "bmw/x5"
+    ]
+  },
+  {
+    "slug": "ashwin-singh-takiar",
+    "name": "ASHWIN SINGH TAKIAR",
+    "tagline": "Independent car reviewer \u2014 Ashwin Singh Takiar",
+    "youtube_handle": "AshwinSinghTakiar",
+    "youtube_url": "https://www.youtube.com/@AshwinSinghTakiar",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "land-rover/range-rover-sport"
     ]
   }
 ]
