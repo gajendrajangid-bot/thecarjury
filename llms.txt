@@ -10,7 +10,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 
 - [Audi Q3 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/audi/q3/) — AI synthesis from India's top YouTube reviewers.
 - [Audi Q5 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/audi/q5/) — AI synthesis from India's top YouTube reviewers.
-- [Audi Q7 2026 Review: Jury Verdict, Price &amp; Mileage | The Car Jury](https://www.thecarjury.com/reviews/audi/q7/) — AI synthesis from India's top YouTube reviewers.
+- [Audi Q7 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/audi/q7/) — AI synthesis from India's top YouTube reviewers.
 - [BMW 3 Series Gran Limousine 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/3-series/) — AI synthesis from India's top YouTube reviewers.
 - [BMW 5 Series LWB &amp; i5 M60 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/5-series/) — AI synthesis from India's top YouTube reviewers.
 - [BMW 7 Series &amp; i7 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/7-series/) — AI synthesis from India's top YouTube reviewers.
@@ -54,6 +54,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [MG Hector 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/mg/hector/) — AI synthesis from India's top YouTube reviewers.
 - [MG Windsor EV Review 2025: The Car Jury Verdict | The Car Jury](https://www.thecarjury.com/reviews/mg/windsor-ev/) — AI synthesis from India's top YouTube reviewers.
 - [Nissan Magnite 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/nissan/magnite/) — AI synthesis from India's top YouTube reviewers.
+- [Porsche Macan 2026 Review: Petrol vs Electric Verdict | The Car Jury](https://www.thecarjury.com/reviews/porsche/macan/) — AI synthesis from India's top YouTube reviewers.
 - [Renault Duster 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/renault/duster/) — AI synthesis from India's top YouTube reviewers.
 - [Skoda Kushaq 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/skoda/kushaq/) — AI synthesis from India's top YouTube reviewers.
 - [Skoda Slavia 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/skoda/slavia/) — AI synthesis from India's top YouTube reviewers.
