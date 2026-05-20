@@ -54,7 +54,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [MG Hector 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/mg/hector/) — AI synthesis from India's top YouTube reviewers.
 - [MG Windsor EV Review 2025: The Car Jury Verdict | The Car Jury](https://www.thecarjury.com/reviews/mg/windsor-ev/) — AI synthesis from India's top YouTube reviewers.
 - [Nissan Magnite 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/nissan/magnite/) — AI synthesis from India's top YouTube reviewers.
-- [Porsche Macan 2026 Review: Petrol vs Electric Verdict | The Car Jury](https://www.thecarjury.com/reviews/porsche/macan/) — AI synthesis from India's top YouTube reviewers.
+- [Porsche Macan 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/porsche/macan/) — AI synthesis from India's top YouTube reviewers.
 - [Renault Duster 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/renault/duster/) — AI synthesis from India's top YouTube reviewers.
 - [Skoda Kushaq 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/skoda/kushaq/) — AI synthesis from India's top YouTube reviewers.
 - [Skoda Slavia 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/skoda/slavia/) — AI synthesis from India's top YouTube reviewers.
@@ -75,6 +75,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Volkswagen Virtus 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/volkswagen/virtus/) — AI synthesis from India's top YouTube reviewers.
 - [Volvo XC40 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/volvo/xc40/) — AI synthesis from India's top YouTube reviewers.
 - [Volvo XC60 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/volvo/xc60/) — AI synthesis from India's top YouTube reviewers.
+- [Volvo XC90 2026 Review: The Safe, Understated Rs 1 Crore SUV | The Car Jury](https://www.thecarjury.com/reviews/volvo/xc90/) — AI synthesis from India's top YouTube reviewers.
 
 ## Methodology
 
