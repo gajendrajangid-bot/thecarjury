@@ -15,7 +15,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [BMW 3 Series Gran Limousine 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/3-series/) — AI synthesis from India's top YouTube reviewers.
 - [BMW 5 Series LWB &amp; i5 M60 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/5-series/) — AI synthesis from India's top YouTube reviewers.
 - [BMW 7 Series &amp; i7 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/7-series/) — AI synthesis from India's top YouTube reviewers.
-- [BMW iX1 L 2026 Review: Cheapest BMW EV Worth It? | The Car Jury](https://www.thecarjury.com/reviews/bmw/ix/) — AI synthesis from India's top YouTube reviewers.
+- [BMW iX1 L 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/ix/) — AI synthesis from India's top YouTube reviewers.
 - [BMW X1 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x1/) — AI synthesis from India's top YouTube reviewers.
 - [BMW X3 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x3/) — AI synthesis from India's top YouTube reviewers.
 - [BMW X5 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/bmw/x5/) — AI synthesis from India's top YouTube reviewers.
@@ -52,6 +52,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Maruti Jimny 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/maruti/jimny/) — AI synthesis from India's top YouTube reviewers.
 - [Maruti Swift 2024 Review | The Car Jury](https://www.thecarjury.com/reviews/maruti/swift/) — AI synthesis from India's top YouTube reviewers.
 - [Mercedes-Benz E-Class 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/e-class/) — AI synthesis from India's top YouTube reviewers.
+- [Mercedes-Benz EQS Review: Made-in-India Electric S-Class | The Car Jury](https://www.thecarjury.com/reviews/mercedes/eqs/) — AI synthesis from India's top YouTube reviewers.
 - [Mercedes-Benz GLA 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/gla/) — AI synthesis from India's top YouTube reviewers.
 - [Mercedes GLC 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/glc/) — AI synthesis from India's top YouTube reviewers.
 - [Mercedes-Benz GLS 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/gls/) — AI synthesis from India's top YouTube reviewers.
