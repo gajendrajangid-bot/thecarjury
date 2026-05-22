@@ -1524,7 +1524,8 @@
       "porsche/macan",
       "porsche/cayenne",
       "bmw/ix",
-      "porsche/taycan"
+      "porsche/taycan",
+      "bmw/x5"
     ],
     "photo_url": "https://yt3.googleusercontent.com/NfycnrBqnp82qfeClTE55x2I-ylYXBt7EgFAFGs5jwlZ9-SyYkKUDodj5nHpT0AOVdt-9kT-jA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1904,6 +1905,19 @@
     "subscriber_count": "",
     "articles": [
       "land-rover/range-rover-sport"
+    ]
+  },
+  {
+    "slug": "max-haft-davani",
+    "name": "Max Haft Davani",
+    "tagline": "Independent car reviewer \u2014 Driven+",
+    "youtube_handle": "Driven+",
+    "youtube_url": "https://www.youtube.com/@Driven+",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "bmw/x5"
     ]
   }
 ]
