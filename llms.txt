@@ -52,7 +52,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Maruti Jimny 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/maruti/jimny/) — AI synthesis from India's top YouTube reviewers.
 - [Maruti Swift 2024 Review | The Car Jury](https://www.thecarjury.com/reviews/maruti/swift/) — AI synthesis from India's top YouTube reviewers.
 - [Mercedes-Benz E-Class 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/e-class/) — AI synthesis from India's top YouTube reviewers.
-- [Mercedes-Benz EQS Review: Made-in-India Electric S-Class | The Car Jury](https://www.thecarjury.com/reviews/mercedes/eqs/) — AI synthesis from India's top YouTube reviewers.
+- [Mercedes-Benz EQS 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/eqs/) — AI synthesis from India's top YouTube reviewers.
 - [Mercedes-Benz GLA 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/gla/) — AI synthesis from India's top YouTube reviewers.
 - [Mercedes GLC 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/glc/) — AI synthesis from India's top YouTube reviewers.
 - [Mercedes-Benz GLS 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/mercedes/gls/) — AI synthesis from India's top YouTube reviewers.
@@ -61,6 +61,7 @@ The Car Jury watches every major Indian car review on YouTube, extracts transcri
 - [Nissan Magnite 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/nissan/magnite/) — AI synthesis from India's top YouTube reviewers.
 - [Porsche Cayenne 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/porsche/cayenne/) — AI synthesis from India's top YouTube reviewers.
 - [Porsche Macan 2026 Review | The Car Jury](https://www.thecarjury.com/reviews/porsche/macan/) — AI synthesis from India's top YouTube reviewers.
+- [Porsche Taycan 2026 Review: India's Fastest EV Tested | The Car Jury](https://www.thecarjury.com/reviews/porsche/taycan/) — AI synthesis from India's top YouTube reviewers.
 - [Renault Duster 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/renault/duster/) — AI synthesis from India's top YouTube reviewers.
 - [Skoda Kushaq 2026 Review , The Car Jury](https://www.thecarjury.com/reviews/skoda/kushaq/) — AI synthesis from India's top YouTube reviewers.
 - [Skoda Slavia 2025 Review | The Car Jury](https://www.thecarjury.com/reviews/skoda/slavia/) — AI synthesis from India's top YouTube reviewers.
