@@ -38,6 +38,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/mg-cyberster-review-electric-convertible-india-verdict/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T09:07:18+05:30</news:publication_date>
+      <news:title>MG Cyberster Verdict: At Rs 77.49 Lakh, It's the Cheapest Way to Feel Like a Supercar Owner</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-mid-size-suv-india-debut-july-9-2026/</loc>
     <lastmod>2026-05-22</lastmod>
     <news:news>
@@ -47,18 +59,6 @@
       </news:publication>
       <news:publication_date>2026-05-21T09:00:39+05:30</news:publication_date>
       <news:title>Nissan Tekton Debut Set for July 9: Duster Twin Walks Into India's Toughest Segment</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-tiago-facelift-launch-date-28-may-2026/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T09:00:42+05:30</news:publication_date>
-      <news:title>Tata Tiago Facelift Lands 28 May: Mild Refresh, Not a Reinvention</news:title>
     </news:news>
   </url>
 </urlset>
