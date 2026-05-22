@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-mercedes-amg-gt-4-door-coupe-ev-debut/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T14:00:44+05:30</news:publication_date>
-      <news:title>2026 Mercedes-AMG GT 4-Door Coupe Goes Electric: 1,169 bhp, 2.1s to 100</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/2027-hyundai-creta-spied-seltos-hybrid-powertrain/</loc>
     <lastmod>2026-05-22</lastmod>
     <news:news>
@@ -23,6 +11,18 @@
       </news:publication>
       <news:publication_date>2026-05-21T17:05:26+05:30</news:publication_date>
       <news:title>2027 Hyundai Creta Spied Again: Seltos Hybrid Hardware Is The Real Story</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/honda-zr-v-ehev-hybrid-india-launch-bookings-open/</loc>
+    <lastmod>2026-05-22</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-22T14:00:34+05:30</news:publication_date>
+      <news:title>Honda ZR-V e:HEV Is Honda's Premium Reset, But CBU Pricing Will Decide Its Fate</news:title>
     </news:news>
   </url>
   <url>
