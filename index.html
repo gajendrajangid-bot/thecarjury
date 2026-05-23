@@ -677,69 +677,6 @@
       color: var(--stone-600);
     }
 
-    /* ── Newsletter ─────────────────────────────────────────── */
-    .newsletter-section {
-      background: var(--white);
-      border-top: 1px solid var(--hairline);
-      border-bottom: 1px solid var(--hairline);
-    }
-    .newsletter-inner {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 80px 40px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 80px;
-      align-items: center;
-    }
-    .newsletter-label {
-      font: 600 11px/1 var(--font-ui);
-      letter-spacing: 0.14em;
-      color: var(--red);
-      text-transform: uppercase;
-      margin-bottom: 16px;
-    }
-    .newsletter-headline {
-      font: 700 34px/1.2 var(--font-display);
-      color: var(--ink);
-      letter-spacing: -0.02em;
-      margin-bottom: 16px;
-    }
-    .newsletter-body {
-      font: 400 16px/1.6 var(--font-body);
-      color: var(--stone-800);
-    }
-    .newsletter-form { display: flex; flex-direction: column; gap: 12px; }
-    .newsletter-form input[type="email"] {
-      font: 400 15px/1 var(--font-ui);
-      color: var(--ink);
-      background: var(--paper);
-      border: 1px solid var(--hairline);
-      border-radius: 4px;
-      padding: 14px 18px;
-      outline: none;
-      transition: border-color 0.15s;
-      width: 100%;
-    }
-    .newsletter-form input[type="email"]::placeholder { color: var(--stone-400); }
-    .newsletter-form input[type="email"]:focus { border-color: var(--red); }
-    .newsletter-form button {
-      background: var(--red);
-      color: var(--white);
-      font: 600 14px/1 var(--font-ui);
-      padding: 14px 24px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background 0.15s;
-      width: 100%;
-    }
-    .newsletter-form button:hover { background: var(--red-dark); }
-    .newsletter-disclaimer {
-      font: 400 12px/1.5 var(--font-ui);
-      color: var(--stone-400);
-    }
-
     /* ── Footer ─────────────────────────────────────────────── */
     .site-footer {
       background: var(--ink);
@@ -805,7 +742,6 @@
       .trust-item:nth-child(2n) { border-right: none; }
       .trust-item:nth-child(3), .trust-item:nth-child(4) { border-bottom: none; }
       .mission-strip__inner { grid-template-columns: 1fr; gap: 40px; }
-      .newsletter-inner { grid-template-columns: 1fr; gap: 40px; }
       .footer-top { grid-template-columns: 1fr 1fr; gap: 32px; }
       .belief-section__quote { font-size: 30px; }
       .section-heading { font-size: 28px; }
@@ -814,7 +750,6 @@
       .hero__headline { font-size: 36px; }
       .section { padding: 60px 24px; }
       .mission-strip { padding: 48px 24px; }
-      .newsletter-inner { padding: 60px 24px; }
       .site-footer { padding: 48px 24px 32px; }
       .trust-grid { grid-template-columns: 1fr 1fr; }
       .footer-top { grid-template-columns: 1fr; }
@@ -1271,24 +1206,6 @@
     </div>
   </section>
 
-  <!-- ── Newsletter ─────────────────────────────────────────── -->
-  <section class="newsletter-section" id="newsletter">
-    <div class="newsletter-inner">
-      <div>
-        <p class="newsletter-label">The Jury, Newsletter</p>
-        <h2 class="newsletter-headline">The verdict, in your inbox.</h2>
-        <p class="newsletter-body">One verdict per car. The hours of watching so you read for 5 minutes. Subscribe and get the next one before you step into a showroom.</p>
-      </div>
-      <div>
-        <form class="newsletter-form" onsubmit="return false;">
-          <input type="email" placeholder="your@email.com" />
-          <button type="submit">Subscribe, it's free</button>
-          <p class="newsletter-disclaimer">No spam. No manufacturer partnerships. Unsubscribe anytime.<br>Sent when a new verdict lands, not on a schedule.</p>
-        </form>
-      </div>
-    </div>
-  </section>
-
   <!-- ── Footer ────────────────────────────────────────────── -->
   <footer class="site-footer">
     <div class="site-footer__inner">
@@ -1312,7 +1229,6 @@
           <p class="footer-col-label">The Jury</p>
           <a href="/about/">Methodology</a>
           <a href="/influencers/">The creators</a>
-          <a href="#newsletter">Newsletter</a>
           <a href="/advice/">Buying advice</a>
         </div>
         <div class="footer-col">
