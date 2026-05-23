@@ -222,10 +222,22 @@ main.news-index { max-width: 880px; margin: 0 auto; padding: 36px 24px 72px; }
               margin: 0 0 8px; color: var(--ink); }
 .idx-sub { font: 400 16px/1.55 var(--font-body); color: var(--stone-600); margin: 0; }
 .news-grid { display: grid; gap: 20px; }
-.news-row { display: block; padding: 22px 24px; background: #fff;
-             border: 1px solid var(--hairline); border-radius: 10px;
-             transition: border-color 0.15s; }
+.news-row { display: flex; gap: 22px; align-items: stretch; padding: 18px;
+             background: #fff; border: 1px solid var(--hairline);
+             border-radius: 10px; transition: border-color 0.15s; }
 .news-row:hover { border-color: var(--ink); text-decoration: none; }
+.news-row__thumb { flex: 0 0 208px; }
+.news-row__img { display: block; width: 208px; height: 132px; object-fit: cover;
+                  border-radius: 8px; background: var(--paper); }
+.news-row__ph { width: 208px; height: 132px; border-radius: 8px;
+                 background: linear-gradient(135deg, var(--red) 0%, #8d0b20 100%);
+                 display: flex; flex-direction: column; align-items: center;
+                 justify-content: center; gap: 8px; text-align: center; padding: 12px; }
+.news-row__ph-mark { font: 700 19px/1 var(--font-display); letter-spacing: 0.04em;
+                      color: #fff; }
+.news-row__ph-tag { font: 600 9px/1.3 var(--font-ui); letter-spacing: 0.16em;
+                     text-transform: uppercase; color: rgba(255,255,255,0.82); }
+.news-row__body { flex: 1 1 auto; min-width: 0; }
 .news-row__tag { display: inline-block; font: 600 10px/1 var(--font-ui);
                   letter-spacing: 0.12em; text-transform: uppercase; color: var(--red);
                   margin-bottom: 10px; }
@@ -240,7 +252,9 @@ main.news-index { max-width: 880px; margin: 0 auto; padding: 36px 24px 72px; }
 @media (max-width: 768px) {
   main.news-index { padding: 24px 18px 56px; }
   .idx-title { font-size: 28px; }
-  .news-row { padding: 18px 18px; }
+  .news-row { flex-direction: column; gap: 14px; padding: 14px; }
+  .news-row__thumb { flex: none; }
+  .news-row__img, .news-row__ph { width: 100%; height: 180px; }
   .news-row__title { font-size: 19px; }
 }
     @media (max-width: 768px) {
@@ -295,88 +309,130 @@ main.news-index { max-width: 880px; margin: 0 auto; padding: 36px 24px 72px; }
   </header>
   <div class="news-grid">
     <a href="/news/honda-city-facelift-2026-variants-features-verdict/" class="news-row">
-      <span class="news-row__tag">Opinion + News</span>
-      <h2 class="news-row__title">2026 Honda City Facelift Is Still The Thinking Sedan Buyer&#x27;s Best Bet At Rs 12-21 Lakh</h2>
-      <p class="news-row__desc">The 2026 Honda City facelift starts at Rs 12 lakh with the ZX+ e:HEV hybrid at Rs 21 lakh. TCJ&#x27;s verdict on whether the variant spread makes sense.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-23T12:26:10+05:30">23 May 2026</time></div>
+      <div class="news-row__thumb"><img class="news-row__img" src="/news/honda-city-facelift-2026-variants-features-verdict/hero.webp" alt="2026 Honda City Facelift Is Still The Thinking Sedan Buyer&#x27;s Best Bet At Rs 12-21 Lakh" loading="lazy" width="208" height="132" /></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">Opinion + News</span>
+        <h2 class="news-row__title">2026 Honda City Facelift Is Still The Thinking Sedan Buyer&#x27;s Best Bet At Rs 12-21 Lakh</h2>
+        <p class="news-row__desc">The 2026 Honda City facelift starts at Rs 12 lakh with the ZX+ e:HEV hybrid at Rs 21 lakh. TCJ&#x27;s verdict on whether the variant spread makes sense.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-23T12:26:10+05:30">23 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/mid-size-suv-sales-april-2026-creta-victoris-seltos-sierra/" class="news-row">
-      <span class="news-row__tag">Opinion + News</span>
-      <h2 class="news-row__title">Mid-Size SUV Sales April 2026: Creta Holds, Victoris Storms In, Sierra Arrives</h2>
-      <p class="news-row__desc">Mid-size SUV sales jumped 72% YoY in April 2026 as Creta led, Victoris debuted at No.2 and Sierra entered. The Car Jury&#x27;s verdict on what to buy.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-23T12:25:41+05:30">23 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">Opinion + News</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">Opinion + News</span>
+        <h2 class="news-row__title">Mid-Size SUV Sales April 2026: Creta Holds, Victoris Storms In, Sierra Arrives</h2>
+        <p class="news-row__desc">Mid-size SUV sales jumped 72% YoY in April 2026 as Creta led, Victoris debuted at No.2 and Sierra entered. The Car Jury&#x27;s verdict on what to buy.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-23T12:25:41+05:30">23 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/hyundai-creta-3rd-gen-pleos-connect-spied-india/" class="news-row">
-      <span class="news-row__tag">Opinion + News</span>
-      <h2 class="news-row__title">Next Creta With Pleos Connect: Hyundai Is About To Out-Tech Every Mid-Size SUV</h2>
-      <p class="news-row__desc">The 3rd-gen Hyundai Creta spied with Pleos Connect single-screen cockpit signals a tech lead over Seltos, Taigun and Grand Vitara in India.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-23T12:11:47+05:30">23 May 2026</time></div>
+      <div class="news-row__thumb"><img class="news-row__img" src="/news/hyundai-creta-3rd-gen-pleos-connect-spied-india/hero.webp" alt="Next Creta With Pleos Connect: Hyundai Is About To Out-Tech Every Mid-Size SUV" loading="lazy" width="208" height="132" /></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">Opinion + News</span>
+        <h2 class="news-row__title">Next Creta With Pleos Connect: Hyundai Is About To Out-Tech Every Mid-Size SUV</h2>
+        <p class="news-row__desc">The 3rd-gen Hyundai Creta spied with Pleos Connect single-screen cockpit signals a tech lead over Seltos, Taigun and Grand Vitara in India.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-23T12:11:47+05:30">23 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/honda-zr-v-ehev-hybrid-india-launch-bookings-open/" class="news-row">
-      <span class="news-row__tag">Opinion + News</span>
-      <h2 class="news-row__title">Honda ZR-V e:HEV Is Honda&#x27;s Premium Reset, But CBU Pricing Will Decide Its Fate</h2>
-      <p class="news-row__desc">Honda ZR-V e:HEV bookings open in India with 22.8 km/l claimed mileage, Level-2 ADAS and CBU import route. The Car Jury&#x27;s verdict on what it means.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-22T14:00:34+05:30">22 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">Opinion + News</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">Opinion + News</span>
+        <h2 class="news-row__title">Honda ZR-V e:HEV Is Honda&#x27;s Premium Reset, But CBU Pricing Will Decide Its Fate</h2>
+        <p class="news-row__desc">Honda ZR-V e:HEV bookings open in India with 22.8 km/l claimed mileage, Level-2 ADAS and CBU import route. The Car Jury&#x27;s verdict on what it means.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-22T14:00:34+05:30">22 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/mg-cyberster-review-electric-convertible-india-verdict/" class="news-row">
-      <span class="news-row__tag">Opinion + News</span>
-      <h2 class="news-row__title">MG Cyberster Verdict: At Rs 77.49 Lakh, It&#x27;s the Cheapest Way to Feel Like a Supercar Owner</h2>
-      <p class="news-row__desc">MG Cyberster review verdict: at Rs 77.49 lakh ex-showroom, this electric convertible with scissor doors is India&#x27;s best value drama buy.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-22T09:07:18+05:30">22 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">Opinion + News</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">Opinion + News</span>
+        <h2 class="news-row__title">MG Cyberster Verdict: At Rs 77.49 Lakh, It&#x27;s the Cheapest Way to Feel Like a Supercar Owner</h2>
+        <p class="news-row__desc">MG Cyberster review verdict: at Rs 77.49 lakh ex-showroom, this electric convertible with scissor doors is India&#x27;s best value drama buy.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-22T09:07:18+05:30">22 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/mercedes-gle-gls-night-edition-india-price-2026/" class="news-row">
-      <span class="news-row__tag">Opinion + News</span>
-      <h2 class="news-row__title">Mercedes GLE and GLS Night Editions: Black Paint, Big Markup, Limited Logic</h2>
-      <p class="news-row__desc">Mercedes GLE and GLS Night Editions launched in India from Rs 1.05 crore ex-showroom. The Car Jury&#x27;s verdict on the cosmetic markup of up to Rs 5 lakh.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-21T18:45:18+05:30">21 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">Opinion + News</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">Opinion + News</span>
+        <h2 class="news-row__title">Mercedes GLE and GLS Night Editions: Black Paint, Big Markup, Limited Logic</h2>
+        <p class="news-row__desc">Mercedes GLE and GLS Night Editions launched in India from Rs 1.05 crore ex-showroom. The Car Jury&#x27;s verdict on the cosmetic markup of up to Rs 5 lakh.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-21T18:45:18+05:30">21 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/2027-hyundai-creta-spied-seltos-hybrid-powertrain/" class="news-row">
-      <span class="news-row__tag">Opinion + News</span>
-      <h2 class="news-row__title">2027 Hyundai Creta Spied Again: Seltos Hybrid Hardware Is The Real Story</h2>
-      <p class="news-row__desc">The 2027 Hyundai Creta has been spied in Jaipur sharing test hardware with the new Kia Seltos hybrid. Here is what it means for Indian buyers.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-21T17:05:26+05:30">21 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">Opinion + News</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">Opinion + News</span>
+        <h2 class="news-row__title">2027 Hyundai Creta Spied Again: Seltos Hybrid Hardware Is The Real Story</h2>
+        <p class="news-row__desc">The 2027 Hyundai Creta has been spied in Jaipur sharing test hardware with the new Kia Seltos hybrid. Here is what it means for Indian buyers.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-21T17:05:26+05:30">21 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/nissan-tekton-mid-size-suv-india-debut-july-9-2026/" class="news-row">
-      <span class="news-row__tag">News brief</span>
-      <h2 class="news-row__title">Nissan Tekton Debut Set for July 9: Duster Twin Walks Into India&#x27;s Toughest Segment</h2>
-      <p class="news-row__desc">Nissan Tekton, the badge-engineered Renault Duster, will debut in India on July 9, 2026 with petrol and hybrid options in the mid-size SUV segment.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-21T09:00:39+05:30">21 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">News brief</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">News brief</span>
+        <h2 class="news-row__title">Nissan Tekton Debut Set for July 9: Duster Twin Walks Into India&#x27;s Toughest Segment</h2>
+        <p class="news-row__desc">Nissan Tekton, the badge-engineered Renault Duster, will debut in India on July 9, 2026 with petrol and hybrid options in the mid-size SUV segment.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-21T09:00:39+05:30">21 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/2026-mercedes-amg-gt-4-door-coupe-ev-debut/" class="news-row">
-      <span class="news-row__tag">News brief</span>
-      <h2 class="news-row__title">2026 Mercedes-AMG GT 4-Door Coupe Goes Electric: 1,169 bhp, 2.1s to 100</h2>
-      <p class="news-row__desc">The 2026 Mercedes-AMG GT 4-Door Coupe ditches the V8 for an 800V electric setup, with 1,169 bhp in GT 63 trim and 700 km of claimed range.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-20T14:00:44+05:30">20 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">News brief</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">News brief</span>
+        <h2 class="news-row__title">2026 Mercedes-AMG GT 4-Door Coupe Goes Electric: 1,169 bhp, 2.1s to 100</h2>
+        <p class="news-row__desc">The 2026 Mercedes-AMG GT 4-Door Coupe ditches the V8 for an 800V electric setup, with 1,169 bhp in GT 63 trim and 700 km of claimed range.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-20T14:00:44+05:30">20 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/tata-tiago-facelift-launch-date-28-may-2026/" class="news-row">
-      <span class="news-row__tag">News brief</span>
-      <h2 class="news-row__title">Tata Tiago Facelift Lands 28 May: Mild Refresh, Not a Reinvention</h2>
-      <p class="news-row__desc">Tata confirms the 2026 Tiago facelift for 28 May with revised styling and more equipment. Here is what buyers should actually expect.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-20T09:00:42+05:30">20 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">News brief</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">News brief</span>
+        <h2 class="news-row__title">Tata Tiago Facelift Lands 28 May: Mild Refresh, Not a Reinvention</h2>
+        <p class="news-row__desc">Tata confirms the 2026 Tiago facelift for 28 May with revised styling and more equipment. Here is what buyers should actually expect.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-20T09:00:42+05:30">20 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/maruti-ymc-brezza-baleno-facelift-spied-together/" class="news-row">
-      <span class="news-row__tag">News brief</span>
-      <h2 class="news-row__title">Maruti&#x27;s Triple Test: YMC EV, Brezza and Baleno Facelifts Spied Together</h2>
-      <p class="news-row__desc">Maruti&#x27;s YMC electric MPV was spotted testing alongside the Brezza and Baleno facelifts, signalling a packed 2026-27 product run for the brand.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-19T09:00:43+05:30">19 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">News brief</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">News brief</span>
+        <h2 class="news-row__title">Maruti&#x27;s Triple Test: YMC EV, Brezza and Baleno Facelifts Spied Together</h2>
+        <p class="news-row__desc">Maruti&#x27;s YMC electric MPV was spotted testing alongside the Brezza and Baleno facelifts, signalling a packed 2026-27 product run for the brand.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-19T09:00:43+05:30">19 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/maruti-kharkhoda-plant-2-brezza-victoris-production/" class="news-row">
-      <span class="news-row__tag">News brief</span>
-      <h2 class="news-row__title">Maruti&#x27;s Second Kharkhoda Plant Goes Live: Brezza, Victoris Output Hits Top Gear</h2>
-      <p class="news-row__desc">Maruti Suzuki begins production at its second Kharkhoda plant, taking total India capacity to 26.5 lakh units annually across four facilities.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-18T14:00:41+05:30">18 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">News brief</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">News brief</span>
+        <h2 class="news-row__title">Maruti&#x27;s Second Kharkhoda Plant Goes Live: Brezza, Victoris Output Hits Top Gear</h2>
+        <p class="news-row__desc">Maruti Suzuki begins production at its second Kharkhoda plant, taking total India capacity to 26.5 lakh units annually across four facilities.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-18T14:00:41+05:30">18 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/flex-fuel-rollout-gradual-careedge-ethanol-surplus-2026/" class="news-row">
-      <span class="news-row__tag">News brief</span>
-      <h2 class="news-row__title">Ethanol Surplus Is Real, Flex-Fuel Cars Are Not: CareEdge Calls It</h2>
-      <p class="news-row__desc">CareEdge says India&#x27;s ethanol capacity is running at 60% utilisation and flex-fuel vehicle adoption will stay slow for at least three years.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-18T09:00:41+05:30">18 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">News brief</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">News brief</span>
+        <h2 class="news-row__title">Ethanol Surplus Is Real, Flex-Fuel Cars Are Not: CareEdge Calls It</h2>
+        <p class="news-row__desc">CareEdge says India&#x27;s ethanol capacity is running at 60% utilisation and flex-fuel vehicle adoption will stay slow for at least three years.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-18T09:00:41+05:30">18 May 2026</time></div>
+      </div>
     </a>
     <a href="/news/tata-sierra-ev-launch-q2-fy27-confirmed/" class="news-row">
-      <span class="news-row__tag">News brief</span>
-      <h2 class="news-row__title">Tata Sierra EV Confirmed For July-September 2026: The BE6 Finally Has A Rival</h2>
-      <p class="news-row__desc">Tata confirms Sierra EV for Q2 FY2026-27, targeting under Rs 18 lakh and 450 km range to take on the Mahindra BE6. Here are the facts.</p>
-      <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-17T20:35:44+05:30">17 May 2026</time></div>
+      <div class="news-row__thumb"><div class="news-row__ph"><span class="news-row__ph-mark">The Car Jury</span><span class="news-row__ph-tag">News brief</span></div></div>
+      <div class="news-row__body">
+        <span class="news-row__tag">News brief</span>
+        <h2 class="news-row__title">Tata Sierra EV Confirmed For July-September 2026: The BE6 Finally Has A Rival</h2>
+        <p class="news-row__desc">Tata confirms Sierra EV for Q2 FY2026-27, targeting under Rs 18 lakh and 450 km range to take on the Mahindra BE6. Here are the facts.</p>
+        <div class="news-row__meta">By <strong>Rajat Dewasi</strong> &middot; <time datetime="2026-05-17T20:35:44+05:30">17 May 2026</time></div>
+      </div>
     </a>
   </div>
 </main>
