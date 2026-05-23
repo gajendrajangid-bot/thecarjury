@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2027-hyundai-creta-spied-seltos-hybrid-powertrain/</loc>
-    <lastmod>2026-05-22</lastmod>
+    <loc>https://www.thecarjury.com/news/4-5m-4-8m-suv-sales-april-2026-mahindra-dominance/</loc>
+    <lastmod>2026-05-23</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-05-21T17:05:26+05:30</news:publication_date>
-      <news:title>2027 Hyundai Creta Spied Again: Seltos Hybrid Hardware Is The Real Story</news:title>
+      <news:publication_date>2026-05-23T20:27:18+05:30</news:publication_date>
+      <news:title>Mahindra Owns The 4.5-4.8m SUV Segment: Scorpio And XUV7XO Bury The Competition In April 2026</news:title>
     </news:news>
   </url>
   <url>
@@ -50,18 +50,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mercedes-gle-gls-night-edition-india-price-2026/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-21T18:45:18+05:30</news:publication_date>
-      <news:title>Mercedes GLE and GLS Night Editions: Black Paint, Big Markup, Limited Logic</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mg-cyberster-review-electric-convertible-india-verdict/</loc>
     <lastmod>2026-05-22</lastmod>
     <news:news>
@@ -83,6 +71,18 @@
       </news:publication>
       <news:publication_date>2026-05-23T12:25:41+05:30</news:publication_date>
       <news:title>Mid-Size SUV Sales April 2026: Creta Holds, Victoris Storms In, Sierra Arrives</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mid-suv-sales-april-2026-scorpio-xuv7xo-mahindra-dominance/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T20:10:15+05:30</news:publication_date>
+      <news:title>Mahindra Owns the 4.5-4.8m SUV Segment, and Tata's Answer Isn't Ready Yet</news:title>
     </news:news>
   </url>
 </urlset>
