@@ -26,6 +26,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-creta-3rd-gen-pleos-connect-spied-india/</loc>
+    <lastmod>2026-05-23</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-23T12:11:47+05:30</news:publication_date>
+      <news:title>Next Creta With Pleos Connect: Hyundai Is About To Out-Tech Every Mid-Size SUV</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mercedes-gle-gls-night-edition-india-price-2026/</loc>
     <lastmod>2026-05-22</lastmod>
     <news:news>
@@ -47,18 +59,6 @@
       </news:publication>
       <news:publication_date>2026-05-22T09:07:18+05:30</news:publication_date>
       <news:title>MG Cyberster Verdict: At Rs 77.49 Lakh, It's the Cheapest Way to Feel Like a Supercar Owner</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/nissan-tekton-mid-size-suv-india-debut-july-9-2026/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-21T09:00:39+05:30</news:publication_date>
-      <news:title>Nissan Tekton Debut Set for July 9: Duster Twin Walks Into India's Toughest Segment</news:title>
     </news:news>
   </url>
 </urlset>
