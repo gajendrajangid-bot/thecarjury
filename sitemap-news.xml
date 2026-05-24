@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/4-5m-4-8m-suv-sales-april-2026-mahindra-dominance/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/honda-city-facelift-2026-variants-features-verdict/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -26,20 +26,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/honda-zr-v-ehev-hybrid-india-launch-bookings-open/</loc>
-    <lastmod>2026-05-22</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T14:00:34+05:30</news:publication_date>
-      <news:title>Honda ZR-V e:HEV Is Honda's Premium Reset, But CBU Pricing Will Decide Its Fate</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-creta-3rd-gen-pleos-connect-spied-india/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -50,8 +38,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/maruti-suzuki-price-hike-june-2026-up-to-30000/</loc>
+    <lastmod>2026-05-24</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T15:06:17+05:30</news:publication_date>
+      <news:title>Maruti's Up To Rs 30,000 June Hike: Book Now If You're Near The Showroom</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mid-size-suv-sales-april-2026-creta-victoris-seltos-sierra/</loc>
-    <lastmod>2026-05-23</lastmod>
+    <lastmod>2026-05-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
