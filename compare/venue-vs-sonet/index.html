@@ -8,6 +8,7 @@
 <meta property="og:title" content="Hyundai Venue vs Kia Sonet | The Car Jury">
 <meta property="og:description" content="Venue brings more engine options; Sonet brings a more polished, driver-focused package.">
 <meta property="og:type" content="article">
+<meta property="og:image" content="https://www.thecarjury.com/reviews/hyundai/venue/hero.webp">
 <link rel="canonical" href="https://www.thecarjury.com/compare/venue-vs-sonet/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <script type="application/ld+json">
@@ -321,6 +322,31 @@ body { font-family:var(--fu); background:var(--paper); color:var(--ink); -webkit
   .site-footer { padding:32px 20px; }
   .site-footer__top { flex-direction:column; }
 }
+
+/* compare versus hero (compare_hero.py) */
+.vs-hero{position:relative;height:340px;background:var(--ink);overflow:hidden;border-bottom:1px solid var(--hair);}
+.vsh-b{position:absolute;top:0;right:0;height:100%;width:62%;}
+.vsh-a{position:absolute;top:0;left:0;height:100%;width:62%;-webkit-mask-image:linear-gradient(90deg,#000 50%,transparent 92%);mask-image:linear-gradient(90deg,#000 50%,transparent 92%);}
+.vsh-a img,.vsh-b img{width:100%;height:100%;object-fit:cover;display:block;}
+.vsh-fallback{width:100%;height:100%;background:linear-gradient(135deg,#2a2a2a,#454545);}
+.vsh-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.10),rgba(0,0,0,.62));z-index:2;}
+.vsh-cap{position:absolute;left:0;right:0;bottom:0;z-index:3;display:flex;align-items:flex-end;justify-content:space-between;padding:0 40px 22px;}
+.vsh-nm{display:flex;flex-direction:column;}
+.vsh-nm.vsh-r{align-items:flex-end;text-align:right;}
+.vsh-brand{font:600 11px/1 var(--fu);letter-spacing:.12em;text-transform:uppercase;color:#fff;opacity:.9;margin-bottom:5px;}
+.vsh-model{font:800 28px/1 var(--fd);color:#fff;text-shadow:0 2px 14px rgba(0,0,0,.55);}
+.vsh-sc{font:700 13px/1 var(--fu);margin-top:7px;}
+.vsh-sc-a{color:#ffd0d6;}
+.vsh-sc-b{color:#cfe0ff;}
+.vsh-vs{flex-shrink:0;width:54px;height:54px;border-radius:50%;background:#fff;border:3px solid var(--ink);display:flex;align-items:center;justify-content:center;font:800 17px/1 var(--fd);color:var(--ink);box-shadow:0 5px 20px rgba(0,0,0,.4);margin:0 16px 4px;}
+@media(max-width:768px){
+  .vs-hero{height:208px;}
+  .vsh-cap{padding:0 18px 14px;}
+  .vsh-model{font-size:19px;}
+  .vsh-brand{font-size:10px;}
+  .vsh-vs{width:40px;height:40px;font-size:13px;border-width:2px;margin:0 10px 2px;}
+}
+
 </style>
 
 <script src="/js/search.js" defer></script>
@@ -373,6 +399,26 @@ body { font-family:var(--fu); background:var(--paper); color:var(--ink); -webkit
 
 
 <div class="page">
+
+  <!-- VERSUS HERO -->
+  <div class="vs-hero">
+    <div class="vsh-b"><img src="/reviews/kia/sonet/hero.webp" alt="Kia Sonet" loading="lazy"></div>
+    <div class="vsh-a"><img src="/reviews/hyundai/venue/hero.webp" alt="Hyundai Venue" loading="lazy"></div>
+    <div class="vsh-shade"></div>
+    <div class="vsh-cap">
+      <div class="vsh-nm vsh-l">
+        <span class="vsh-brand">Hyundai</span>
+        <span class="vsh-model">Venue</span>
+        <span class="vsh-sc vsh-sc-a">7.6 / 10</span>
+      </div>
+      <div class="vsh-vs">VS</div>
+      <div class="vsh-nm vsh-r">
+        <span class="vsh-brand">Kia</span>
+        <span class="vsh-model">Sonet</span>
+        <span class="vsh-sc vsh-sc-b">7.6 / 10</span>
+      </div>
+    </div>
+  </div>
 
   <!-- HEADER -->
   <div class="compare-header">

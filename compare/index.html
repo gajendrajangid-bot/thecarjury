@@ -210,6 +210,12 @@
     .compare-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
     .compare-card { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; overflow: hidden; transition: border-color 0.15s; display: block; color: inherit; }
     .compare-card:hover { border-color: var(--stone-200); }
+    .cc-thumb { position: relative; aspect-ratio: 16/9; display: flex; overflow: hidden; background: var(--ink); }
+    .cc-thumb .cc-half { position: relative; width: 50%; height: 100%; overflow: hidden; }
+    .cc-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .cc-thumb .cc-fallback { width: 100%; height: 100%; background: linear-gradient(135deg,#2a2a2a,#454545); }
+    .cc-thumb .cc-div { position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 2px; height: 100%; background: var(--white); z-index: 2; }
+    .cc-thumb .cc-vs { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); z-index: 3; width: 32px; height: 32px; border-radius: 50%; background: var(--white); border: 2px solid var(--ink); display: flex; align-items: center; justify-content: center; font: 800 10px/1 var(--font-display); color: var(--ink); box-shadow: 0 3px 10px rgba(0,0,0,.3); }
     .card-body { padding: 18px 20px; }
     .card-label { font: 600 11px/1 var(--font-ui); letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); margin-bottom: 8px; }
     .card-title { font: 700 17px/1.3 var(--font-display); color: var(--ink); margin-bottom: 8px; }
@@ -290,14 +296,15 @@
 <div class="wrap">
   <h1 class="page-title">Head to Head</h1>
   <p class="page-sub">Same jury methodology applied to India's most-considered car pairs. No bias, no sponsored comparisons.</p>
-  <p class="page-meta">33 comparisons live</p>
+  <p class="page-meta">34 comparisons live</p>
   <div class="compare-grid">
 
     <a href="/compare/creta-vs-kushaq/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/hyundai/creta/hero.webp" alt="Hyundai Creta" loading="lazy"></div><div class="cc-half"><img src="/reviews/skoda/kushaq/hero.webp" alt="Skoda Kushaq" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Hyundai Creta vs Skoda Kushaq</div>
-        <div class="card-date">17 May 2026</div>
+        <div class="card-date">24 May 2026</div>
         <div class="card-scores">
           <div class="score-block">
             <span class="score-num">7.8</span>
@@ -313,10 +320,11 @@
     </a>
 
     <a href="/compare/kushaq-vs-duster/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/skoda/kushaq/hero.webp" alt="Skoda Kushaq" loading="lazy"></div><div class="cc-half"><img src="/reviews/renault/duster/hero.webp" alt="Renault Duster" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Skoda Kushaq vs Renault Duster</div>
-        <div class="card-date">17 May 2026</div>
+        <div class="card-date">24 May 2026</div>
         <div class="card-scores">
           <div class="score-block">
             <span class="score-num">7.6</span>
@@ -331,7 +339,28 @@
       </div>
     </a>
 
+    <a href="/compare/venue-vs-xuv-3xo/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/hyundai/venue/hero.webp" alt="Hyundai Venue" loading="lazy"></div><div class="cc-half"><img src="/reviews/mahindra/xuv-3xo/hero.webp" alt="Mahindra XUV 3XO" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
+      <div class="card-body">
+        <div class="card-label">Head to Head</div>
+        <div class="card-title">Hyundai Venue vs Mahindra XUV 3XO</div>
+        <div class="card-date">24 May 2026</div>
+        <div class="card-scores">
+          <div class="score-block">
+            <span class="score-num">7.6</span>
+            <span class="score-name">Venue</span>
+          </div>
+          <span class="score-vs">vs</span>
+          <div class="score-block">
+            <span class="score-num">7.6</span>
+            <span class="score-name">3XO</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
     <a href="/compare/venue-vs-sonet/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/hyundai/venue/hero.webp" alt="Hyundai Venue" loading="lazy"></div><div class="cc-half"><img src="/reviews/kia/sonet/hero.webp" alt="Kia Sonet" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Hyundai Venue vs Kia Sonet</div>
@@ -351,6 +380,7 @@
     </a>
 
     <a href="/compare/altroz-vs-baleno/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/tata/altroz/hero.webp" alt="Tata Altroz" loading="lazy"></div><div class="cc-half"><img src="/reviews/maruti/baleno/hero.webp" alt="Maruti Baleno" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Tata Altroz vs Maruti Baleno</div>
@@ -370,6 +400,7 @@
     </a>
 
     <a href="/compare/brezza-vs-venue/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/maruti/brezza/hero.webp" alt="Maruti Brezza" loading="lazy"></div><div class="cc-half"><img src="/reviews/hyundai/venue/hero.webp" alt="Hyundai Venue" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Maruti Brezza vs Hyundai Venue</div>
@@ -389,6 +420,7 @@
     </a>
 
     <a href="/compare/innova-hycross-vs-carens/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/toyota/innova-hycross/hero.webp" alt="Toyota Innova HyCross" loading="lazy"></div><div class="cc-half"><img src="/reviews/kia/carens/hero.webp" alt="Kia Carens" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Toyota Innova HyCross vs Kia Carens</div>
@@ -408,6 +440,7 @@
     </a>
 
     <a href="/compare/punch-ev-vs-tiago-ev/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/tata/punch-ev/hero.webp" alt="Tata Punch EV" loading="lazy"></div><div class="cc-half"><img src="/reviews/tata/tiago-ev/hero.webp" alt="Tata Tiago EV" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Tata Punch EV vs Tata Tiago EV</div>
@@ -427,6 +460,7 @@
     </a>
 
     <a href="/compare/punch-vs-exter/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/tata/punch/hero.webp" alt="Tata Punch" loading="lazy"></div><div class="cc-half"><img src="/reviews/hyundai/exter/hero.webp" alt="Hyundai Exter" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Tata Punch vs Hyundai Exter</div>
@@ -446,6 +480,7 @@
     </a>
 
     <a href="/compare/be6-vs-nexon-ev/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/mahindra/be6/hero.webp" alt="Mahindra BE6" loading="lazy"></div><div class="cc-half"><img src="/reviews/tata/nexon-ev/hero.webp" alt="Tata Nexon EV" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Mahindra BE6 vs Tata Nexon EV</div>
@@ -465,6 +500,7 @@
     </a>
 
     <a href="/compare/be6-vs-xev-9e/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/mahindra/be6/hero.webp" alt="Mahindra BE6" loading="lazy"></div><div class="cc-half"><img src="/reviews/mahindra/xev-9e/hero.webp" alt="Mahindra XEV 9e" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Mahindra BE6 vs Mahindra XEV 9e</div>
@@ -484,6 +520,7 @@
     </a>
 
     <a href="/compare/brezza-vs-nexon/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/maruti/brezza/hero.webp" alt="Maruti Brezza" loading="lazy"></div><div class="cc-half"><img src="/reviews/tata/nexon/hero.webp" alt="Tata Nexon" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Maruti Brezza vs Tata Nexon</div>
@@ -503,6 +540,7 @@
     </a>
 
     <a href="/compare/city-vs-virtus/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/honda/city/hero.webp" alt="Honda City 2024" loading="lazy"></div><div class="cc-half"><img src="/reviews/volkswagen/virtus/hero.webp" alt="Volkswagen Virtus" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Honda City 2024 vs Volkswagen Virtus</div>
@@ -522,6 +560,7 @@
     </a>
 
     <a href="/compare/creta-electric-vs-nexon-ev/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/hyundai/creta-electric/hero.webp" alt="Hyundai Creta Electric" loading="lazy"></div><div class="cc-half"><img src="/reviews/tata/nexon-ev/hero.webp" alt="Tata Nexon EV" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Hyundai Creta Electric vs Tata Nexon EV</div>
@@ -541,6 +580,7 @@
     </a>
 
     <a href="/compare/creta-vs-duster/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/hyundai/creta/hero.webp" alt="Hyundai Creta" loading="lazy"></div><div class="cc-half"><img src="/reviews/renault/duster/hero.webp" alt="Renault Duster" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Hyundai Creta vs Renault Duster</div>
@@ -560,6 +600,7 @@
     </a>
 
     <a href="/compare/curvv-ev-vs-nexon-ev/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/tata/curvv-ev/hero.webp" alt="Tata Curvv EV" loading="lazy"></div><div class="cc-half"><img src="/reviews/tata/nexon-ev/hero.webp" alt="Tata Nexon EV" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Tata Curvv EV vs Tata Nexon EV</div>
@@ -579,6 +620,7 @@
     </a>
 
     <a href="/compare/fortuner-vs-scorpio-n/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/toyota/fortuner/hero.webp" alt="Toyota Fortuner" loading="lazy"></div><div class="cc-half"><img src="/reviews/mahindra/scorpio-n/hero.webp" alt="Mahindra Scorpio N" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Toyota Fortuner vs Mahindra Scorpio N</div>
@@ -598,6 +640,7 @@
     </a>
 
     <a href="/compare/grand-vitara-vs-creta/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/maruti/grand-vitara/hero.webp" alt="Maruti Grand Vitara" loading="lazy"></div><div class="cc-half"><img src="/reviews/hyundai/creta/hero.webp" alt="Hyundai Creta" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Maruti Grand Vitara vs Hyundai Creta</div>
@@ -617,6 +660,7 @@
     </a>
 
     <a href="/compare/harrier-ev-vs-be6/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/tata/harrier-ev/hero.webp" alt="Tata Harrier EV" loading="lazy"></div><div class="cc-half"><img src="/reviews/mahindra/be6/hero.webp" alt="Mahindra BE6" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Tata Harrier EV vs Mahindra BE6</div>
@@ -636,6 +680,7 @@
     </a>
 
     <a href="/compare/harrier-ev-vs-curvv-ev/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/tata/harrier-ev/hero.webp" alt="Tata Harrier EV" loading="lazy"></div><div class="cc-half"><img src="/reviews/tata/curvv-ev/hero.webp" alt="Tata Curvv EV" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Tata Harrier EV vs Tata Curvv EV</div>
@@ -655,6 +700,7 @@
     </a>
 
     <a href="/compare/innova-hycross-vs-fortuner/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/toyota/innova-hycross/hero.webp" alt="Toyota Innova HyCross" loading="lazy"></div><div class="cc-half"><img src="/reviews/toyota/fortuner/hero.webp" alt="Toyota Fortuner" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Toyota Innova HyCross vs Toyota Fortuner</div>
@@ -674,6 +720,7 @@
     </a>
 
     <a href="/compare/nexon-ev-vs-e-vitara/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/tata/nexon-ev/hero.webp" alt="Tata Nexon EV" loading="lazy"></div><div class="cc-half"><img src="/reviews/maruti/e-vitara/hero.webp" alt="Maruti Suzuki e Vitara" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Tata Nexon EV vs Maruti Suzuki e Vitara</div>
@@ -693,6 +740,7 @@
     </a>
 
     <a href="/compare/nexon-vs-punch/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/tata/nexon/hero.webp" alt="Tata Nexon" loading="lazy"></div><div class="cc-half"><img src="/reviews/tata/punch/hero.webp" alt="Tata Punch" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Tata Nexon vs Tata Punch</div>
@@ -712,6 +760,7 @@
     </a>
 
     <a href="/compare/scorpio-n-vs-xuv700/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/mahindra/scorpio-n/hero.webp" alt="Mahindra Scorpio N" loading="lazy"></div><div class="cc-half"><img src="/reviews/mahindra/xuv700/hero.webp" alt="Mahindra XUV700" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Mahindra Scorpio N vs Mahindra XUV700</div>
@@ -731,6 +780,7 @@
     </a>
 
     <a href="/compare/slavia-vs-city/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/skoda/slavia/hero.webp" alt="Skoda Slavia" loading="lazy"></div><div class="cc-half"><img src="/reviews/honda/city/hero.webp" alt="Honda City 2024" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Skoda Slavia vs Honda City 2024</div>
@@ -750,6 +800,7 @@
     </a>
 
     <a href="/compare/slavia-vs-virtus/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/skoda/slavia/hero.webp" alt="Skoda Slavia" loading="lazy"></div><div class="cc-half"><img src="/reviews/volkswagen/virtus/hero.webp" alt="Volkswagen Virtus" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Skoda Slavia vs Volkswagen Virtus</div>
@@ -769,6 +820,7 @@
     </a>
 
     <a href="/compare/sonet-vs-xuv-3xo/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/kia/sonet/hero.webp" alt="Kia Sonet" loading="lazy"></div><div class="cc-half"><img src="/reviews/mahindra/xuv-3xo/hero.webp" alt="Mahindra XUV 3XO" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Kia Sonet vs Mahindra XUV 3XO</div>
@@ -788,6 +840,7 @@
     </a>
 
     <a href="/compare/thar-roxx-vs-scorpio-n/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/mahindra/thar-roxx/hero.webp" alt="Mahindra Thar Roxx" loading="lazy"></div><div class="cc-half"><img src="/reviews/mahindra/scorpio-n/hero.webp" alt="Mahindra Scorpio N" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Mahindra Thar Roxx vs Mahindra Scorpio N</div>
@@ -807,6 +860,7 @@
     </a>
 
     <a href="/compare/xuv-3xo-vs-brezza/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/mahindra/xuv-3xo/hero.webp" alt="Mahindra XUV 3XO" loading="lazy"></div><div class="cc-half"><img src="/reviews/maruti/brezza/hero.webp" alt="Maruti Brezza" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Mahindra XUV 3XO vs Maruti Brezza</div>
@@ -826,6 +880,7 @@
     </a>
 
     <a href="/compare/elevate-vs-creta/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/honda/elevate/hero.webp" alt="Honda Elevate" loading="lazy"></div><div class="cc-half"><img src="/reviews/hyundai/creta/hero.webp" alt="Hyundai Creta" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Honda Elevate vs Hyundai Creta</div>
@@ -845,6 +900,7 @@
     </a>
 
     <a href="/compare/thar-roxx-vs-jimny/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/mahindra/thar-roxx/hero.webp" alt="Mahindra Thar Roxx" loading="lazy"></div><div class="cc-half"><img src="/reviews/maruti/jimny/hero.webp" alt="Maruti Jimny" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Mahindra Thar Roxx vs Maruti Jimny</div>
@@ -864,6 +920,7 @@
     </a>
 
     <a href="/compare/safari-vs-xuv700/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/tata/safari/hero.webp" alt="Tata Safari" loading="lazy"></div><div class="cc-half"><img src="/reviews/mahindra/xuv700/hero.webp" alt="Mahindra XUV700" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Tata Safari vs Mahindra XUV700</div>
@@ -883,6 +940,7 @@
     </a>
 
     <a href="/compare/creta-electric-vs-e-vitara/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/hyundai/creta-electric/hero.webp" alt="Hyundai Creta Electric" loading="lazy"></div><div class="cc-half"><img src="/reviews/maruti/e-vitara/hero.webp" alt="Maruti Suzuki e Vitara" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Hyundai Creta Electric vs Maruti Suzuki e Vitara</div>
@@ -902,6 +960,7 @@
     </a>
 
     <a href="/compare/creta-vs-seltos/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-half"><img src="/reviews/hyundai/creta/hero.webp" alt="Hyundai Creta" loading="lazy"></div><div class="cc-half"><img src="/reviews/kia/seltos/hero.webp" alt="Kia Seltos" loading="lazy"></div><div class="cc-div"></div><div class="cc-vs">VS</div></div>
       <div class="card-body">
         <div class="card-label">Head to Head</div>
         <div class="card-title">Hyundai Creta vs Kia Seltos</div>
