@@ -33,6 +33,34 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
+    /* TCJ_FOOTER_CSS:START */
+    .tcj-footer { background: #141414; padding: 64px 40px 40px; }
+    .tcj-footer__inner { max-width: 1200px; margin: 0 auto; }
+    .tcj-footer__top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 40px; border-bottom: 1px solid #2A2A2A; }
+    .tcj-footer__brand { max-width: 320px; }
+    .tcj-footer .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-footer .tcj-mast__the { font: 700 italic 16px/1 var(--font-display, Georgia, serif); color: var(--red, #C8102E); }
+    .tcj-footer .tcj-mast__name { font: 700 24px/1 var(--font-display, Georgia, serif); color: #FFFFFF; letter-spacing: -0.02em; }
+    .tcj-footer__tagline { font: 400 italic 14px/1.6 var(--font-body, Georgia, serif); color: #9A968D; margin: 12px 0 0; }
+    .tcj-footer__trust { margin: 18px 0 0; font: 500 12px/1.5 var(--font-ui, system-ui, sans-serif); color: #6E6A62; }
+    .tcj-footer__col-label { font: 600 11px/1 var(--font-ui, system-ui, sans-serif); letter-spacing: 0.12em; color: #6E6A62; text-transform: uppercase; margin: 0 0 16px; }
+    .tcj-footer__col a { display: block; font: 400 14px/1 var(--font-ui, system-ui, sans-serif); color: #B8B4AC; margin-bottom: 12px; text-decoration: none; transition: color .15s; }
+    .tcj-footer__col a:hover { color: #FFFFFF; }
+    .tcj-footer__social { display: flex; gap: 16px; align-items: center; }
+    .tcj-footer__social a { display: inline-flex; margin: 0; color: #B8B4AC; }
+    .tcj-footer__social a:hover { color: #FFFFFF; }
+    .tcj-footer__social svg { width: 19px; height: 19px; fill: currentColor; display: block; }
+    .tcj-footer__bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 28px; font: 500 12px/1.5 var(--font-ui, system-ui, sans-serif); color: #6E6A62; }
+    @media (max-width: 920px) {
+      .tcj-footer__top { grid-template-columns: 1fr 1fr 1fr; gap: 32px 24px; }
+      .tcj-footer__brand { grid-column: 1 / -1; max-width: none; }
+    }
+    @media (max-width: 560px) {
+      .tcj-footer { padding: 48px 24px 32px; }
+      .tcj-footer__top { grid-template-columns: 1fr 1fr; }
+      .tcj-footer__bottom { flex-direction: column; }
+    }
+    /* TCJ_FOOTER_CSS:END */
     
     :root {
       --font-display: "Fraunces", "Playfair Display", Georgia, serif;
@@ -74,21 +102,21 @@
     #tcj-mobile-nav a:hover, #tcj-mobile-nav a.active { color: var(--red, #C8102E); }
     .tcj-panel-close { position: absolute; top: 16px; right: 20px; background: none; border: none; cursor: pointer; font-size: 24px; color: #6b7280; line-height: 1; }
     .wrap { max-width: 900px; margin: 0 auto; padding: 56px 32px 100px; }
-    .site-footer { background: var(--white); border-top: 1px solid var(--hairline); padding: 48px 32px; }
-    .site-footer__inner { max-width: 1100px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
-    .site-footer__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 32px; }
-    .site-footer__tagline { font: 500 13px/1.5 var(--font-ui); color: var(--stone-600); margin-top: 8px; max-width: 280px; }
-    .site-footer__links { display: flex; gap: 24px; flex-wrap: wrap; }
-    .site-footer__links a { font: 500 13px/1 var(--font-ui); color: var(--stone-600); }
-    .site-footer__links a:hover { color: var(--red); }
-    .site-footer__bottom { font: 500 12px/1.5 var(--font-ui); color: var(--stone-400); border-top: 1px solid var(--hairline); padding-top: 24px; }
+    
+    
+    
+    
+    
+    
+    
+    
     @media (max-width: 768px) {
       .site-header__inner { padding: 0 20px; }
       .site-nav { display: none; }
       #tcj-hamburger { display: flex; }
       .wrap { padding: 32px 20px 80px; }
-      .site-footer { padding: 32px 20px; }
-      .site-footer__top { flex-direction: column; }
+      
+      
     }
 
     :root {
@@ -404,32 +432,52 @@
 
   <p class="back-link"><a href="/influencers/">&#8592; All Jurors</a></p>
 </div>
-<footer class="site-footer">
-  <div class="site-footer__inner">
-    <div class="site-footer__top">
-      <div>
-        <a href="/" class="tcj-mast">
-          <span class="tcj-mast__the">The</span>
-          <span class="tcj-mast__name">Car Jury</span>
-        </a>
-        <p class="site-footer__tagline">We watch every expert so you don't have to — one clear verdict on every car.</p>
-      </div>
-      <div class="site-footer__links">
-        <a href="/reviews/">Reviews</a>
-        <a href="/compare/">Compare</a>
-        <a href="/best/">Best Lists</a>
-        <a href="/influencers/">Influencers</a>
-        <a href="/about/">About</a>
-      </div>
-    </div>
-    <div class="site-footer__bottom">
-      © 2026 The Car Jury · No sponsored reviews · No manufacturer relationships · India's aggregated car reviews
-    </div>
-  </div>
-</footer>
 <script>
 var _TCJ_EP="https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec";
 function trackClick(j,p,h){var fd=new FormData();fd.append('page',j);fd.append('vote','click');fd.append('score','');fd.append('verdict','');fd.append('feedback',p+'::'+ h);fetch(_TCJ_EP,{method:'POST',body:fd,mode:'no-cors'});}
 </script>
+
+<footer class="tcj-footer">
+  <div class="tcj-footer__inner">
+    <div class="tcj-footer__top">
+      <div class="tcj-footer__brand">
+        <a href="/" class="tcj-mast">
+          <span class="tcj-mast__the">The</span>
+          <span class="tcj-mast__name">Car Jury</span>
+        </a>
+        <p class="tcj-footer__tagline">India's car media has an agenda. We don't.</p>
+        <p class="tcj-footer__trust">No sponsored reviews &middot; No manufacturer relationships</p>
+      </div>
+      <div class="tcj-footer__col">
+        <p class="tcj-footer__col-label">Reviews</p>
+        <a href="/reviews/">All reviews</a>
+        <a href="/compare/">Comparisons</a>
+        <a href="/best/">Best lists</a>
+        <a href="/news/">News</a>
+      </div>
+      <div class="tcj-footer__col">
+        <p class="tcj-footer__col-label">The Jury</p>
+        <a href="/the-jury/">The jury panel</a>
+        <a href="/influencers/">The creators</a>
+      </div>
+      <div class="tcj-footer__col">
+        <p class="tcj-footer__col-label">Company</p>
+        <a href="/about/">About us</a>
+        <a href="mailto:admin@thecarjury.com">Contact</a>
+      </div>
+      <div class="tcj-footer__col">
+        <p class="tcj-footer__col-label">Follow</p>
+        <div class="tcj-footer__social">
+          <a href="https://x.com/the_car_jury" target="_blank" rel="noopener" aria-label="X (formerly Twitter)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg></a>
+          <a href="https://reddit.com/user/thecarjury" target="_blank" rel="noopener" aria-label="Reddit"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="tcj-footer__bottom">
+      <span>&copy; 2026 The Car Jury &middot; India's aggregated car reviews</span>
+      <span>Independent verdicts, synthesised from India's top creators.</span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
