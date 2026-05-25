@@ -4,3 +4,7 @@
 # Removed unapproved news draft — redirect to canonical article
 /news/tata-sierra-ev-launch-q2-fy27 /news/tata-sierra-ev-launch-q2-fy27-confirmed/ 301
 /news/tata-sierra-ev-launch-q2-fy27/ /news/tata-sierra-ev-launch-q2-fy27-confirmed/ 301
+
+# Tag pages are not generated (news tag chips link to brand /reviews/ hubs).
+# Consolidate any historically-crawled tag URL to the news index instead of 404.
+/news/tag/* /news/ 301
