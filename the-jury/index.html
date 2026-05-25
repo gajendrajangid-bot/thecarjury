@@ -1,6 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- TCJ_ANALYTICS:START - single source: agents/carjury/tcj_header.py -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-0LV8GN0CD5');
+</script>
+<script>
+/* TCJ reading-depth funnel → GA4 (distinct named events: scroll_25/50/75/90) */
+(function(){
+  function ready(fn){ if(document.readyState!=='loading'){fn();} else {document.addEventListener('DOMContentLoaded',fn);} }
+  ready(function(){
+    if(typeof gtag!=='function') return;
+    var marks=[25,50,75,90], hit={}, start=Date.now(), path=location.pathname;
+    function depth(){
+      var d=document.documentElement, b=document.body;
+      var h=Math.max(b.scrollHeight,d.scrollHeight)-d.clientHeight;
+      if(h<=0) return 100;
+      return Math.min(100, Math.round((window.scrollY||d.scrollTop)/h*100));
+    }
+    function check(){
+      var p=depth();
+      for(var i=0;i<marks.length;i++){ var m=marks[i];
+        if(p>=m && !hit[m]){ hit[m]=true;
+          gtag('event','scroll_'+m,{page_path:path, seconds_to_reach:Math.round((Date.now()-start)/1000)});
+        }
+      }
+    }
+    var t; window.addEventListener('scroll', function(){ clearTimeout(t); t=setTimeout(check,200); }, {passive:true});
+    check();
+  });
+})();
+</script>
+<!-- TCJ_ANALYTICS:END -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Jury Panel | The Car Jury</title>
@@ -27,14 +63,6 @@
 {"@context":"https://schema.org","@type":"WebPage","name":"The Jury Panel | The Car Jury","description":"50 independent YouTube creators whose reviews The Car Jury synthesises into one verdict. No media outlets. No manufacturer relationships.","url":"https://www.thecarjury.com/the-jury/","publisher":{"@type":"Organization","name":"The Car Jury","url":"https://www.thecarjury.com"}}
 </script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-0LV8GN0CD5');
-</script>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,400;1,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
     /* TCJ_FOOTER_CSS:START */

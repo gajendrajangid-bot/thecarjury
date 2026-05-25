@@ -2,14 +2,42 @@
 
 <html lang="en">
 <head>
+<!-- TCJ_ANALYTICS:START - single source: agents/carjury/tcj_header.py -->
 <!-- Google tag (gtag.js) -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-0LV8GN0CD5');
 </script>
+<script>
+/* TCJ reading-depth funnel → GA4 (distinct named events: scroll_25/50/75/90) */
+(function(){
+  function ready(fn){ if(document.readyState!=='loading'){fn();} else {document.addEventListener('DOMContentLoaded',fn);} }
+  ready(function(){
+    if(typeof gtag!=='function') return;
+    var marks=[25,50,75,90], hit={}, start=Date.now(), path=location.pathname;
+    function depth(){
+      var d=document.documentElement, b=document.body;
+      var h=Math.max(b.scrollHeight,d.scrollHeight)-d.clientHeight;
+      if(h<=0) return 100;
+      return Math.min(100, Math.round((window.scrollY||d.scrollTop)/h*100));
+    }
+    function check(){
+      var p=depth();
+      for(var i=0;i<marks.length;i++){ var m=marks[i];
+        if(p>=m && !hit[m]){ hit[m]=true;
+          gtag('event','scroll_'+m,{page_path:path, seconds_to_reach:Math.round((Date.now()-start)/1000)});
+        }
+      }
+    }
+    var t; window.addEventListener('scroll', function(){ clearTimeout(t); t=setTimeout(check,200); }, {passive:true});
+    check();
+  });
+})();
+</script>
+<!-- TCJ_ANALYTICS:END -->
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Mercedes-Benz E-Class 2026 Review | The Car Jury</title>

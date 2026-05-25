@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- TCJ_ANALYTICS:START - single source: agents/carjury/tcj_header.py -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LV8GN0CD5"></script>
 <script>
@@ -9,6 +10,33 @@
   gtag('js', new Date());
   gtag('config', 'G-0LV8GN0CD5');
 </script>
+<script>
+/* TCJ reading-depth funnel → GA4 (distinct named events: scroll_25/50/75/90) */
+(function(){
+  function ready(fn){ if(document.readyState!=='loading'){fn();} else {document.addEventListener('DOMContentLoaded',fn);} }
+  ready(function(){
+    if(typeof gtag!=='function') return;
+    var marks=[25,50,75,90], hit={}, start=Date.now(), path=location.pathname;
+    function depth(){
+      var d=document.documentElement, b=document.body;
+      var h=Math.max(b.scrollHeight,d.scrollHeight)-d.clientHeight;
+      if(h<=0) return 100;
+      return Math.min(100, Math.round((window.scrollY||d.scrollTop)/h*100));
+    }
+    function check(){
+      var p=depth();
+      for(var i=0;i<marks.length;i++){ var m=marks[i];
+        if(p>=m && !hit[m]){ hit[m]=true;
+          gtag('event','scroll_'+m,{page_path:path, seconds_to_reach:Math.round((Date.now()-start)/1000)});
+        }
+      }
+    }
+    var t; window.addEventListener('scroll', function(){ clearTimeout(t); t=setTimeout(check,200); }, {passive:true});
+    check();
+  });
+})();
+</script>
+<!-- TCJ_ANALYTICS:END -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Compare Cars in India — The Car Jury</title>
@@ -341,8 +369,68 @@
 <div class="wrap">
   <h1 class="page-title">Head to Head</h1>
   <p class="page-sub">Same jury methodology applied to India's most-considered car pairs. No bias, no sponsored comparisons.</p>
-  <p class="page-meta">43 comparisons live</p>
+  <p class="page-meta">44 comparisons live</p>
   <div class="compare-grid">
+
+    <a href="/compare/creta-vs-kushaq/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-b"><img src="/reviews/skoda/kushaq/hero.webp" alt="Skoda Kushaq" loading="lazy"></div><div class="cc-a"><img src="/reviews/hyundai/creta/hero.webp" alt="Hyundai Creta" loading="lazy"></div><div class="cc-shade"></div></div>
+      <div class="card-body">
+        <div class="card-label">Head to Head</div>
+        <div class="card-title">Hyundai Creta vs Skoda Kushaq</div>
+        <div class="card-date">25 May 2026</div>
+        <div class="card-scores">
+          <div class="score-block">
+            <span class="score-num">7.8</span>
+            <span class="score-name">Creta</span>
+          </div>
+          <span class="score-vs">vs</span>
+          <div class="score-block">
+            <span class="score-num">7.6</span>
+            <span class="score-name">Kushaq</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/compare/ertiga-vs-carens/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-b"><img src="/reviews/kia/carens/hero.webp" alt="Kia Carens" loading="lazy"></div><div class="cc-a"><img src="/reviews/maruti/ertiga/hero.webp" alt="Maruti Ertiga" loading="lazy"></div><div class="cc-shade"></div></div>
+      <div class="card-body">
+        <div class="card-label">Head to Head</div>
+        <div class="card-title">Maruti Ertiga vs Kia Carens</div>
+        <div class="card-date">25 May 2026</div>
+        <div class="card-scores">
+          <div class="score-block">
+            <span class="score-num">7.6</span>
+            <span class="score-name">Ertiga</span>
+          </div>
+          <span class="score-vs">vs</span>
+          <div class="score-block">
+            <span class="score-num">7.6</span>
+            <span class="score-name">Carens</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="/compare/kushaq-vs-duster/" class="compare-card">
+      <div class="cc-thumb"><div class="cc-b"><img src="/reviews/renault/duster/hero.webp" alt="Renault Duster" loading="lazy"></div><div class="cc-a"><img src="/reviews/skoda/kushaq/hero.webp" alt="Skoda Kushaq" loading="lazy"></div><div class="cc-shade"></div></div>
+      <div class="card-body">
+        <div class="card-label">Head to Head</div>
+        <div class="card-title">Skoda Kushaq vs Renault Duster</div>
+        <div class="card-date">25 May 2026</div>
+        <div class="card-scores">
+          <div class="score-block">
+            <span class="score-num">7.6</span>
+            <span class="score-name">Kushaq</span>
+          </div>
+          <span class="score-vs">vs</span>
+          <div class="score-block">
+            <span class="score-num">7.8</span>
+            <span class="score-name">Duster</span>
+          </div>
+        </div>
+      </div>
+    </a>
 
     <a href="/compare/brezza-vs-punch/" class="compare-card">
       <div class="cc-thumb"><div class="cc-b"><img src="/reviews/tata/punch/hero.webp" alt="Tata Punch" loading="lazy"></div><div class="cc-a"><img src="/reviews/maruti/brezza/hero.webp" alt="Maruti Brezza" loading="lazy"></div><div class="cc-shade"></div></div>
@@ -379,46 +467,6 @@
           <div class="score-block">
             <span class="score-num">7.4</span>
             <span class="score-name">EV</span>
-          </div>
-        </div>
-      </div>
-    </a>
-
-    <a href="/compare/creta-vs-kushaq/" class="compare-card">
-      <div class="cc-thumb"><div class="cc-b"><img src="/reviews/skoda/kushaq/hero.webp" alt="Skoda Kushaq" loading="lazy"></div><div class="cc-a"><img src="/reviews/hyundai/creta/hero.webp" alt="Hyundai Creta" loading="lazy"></div><div class="cc-shade"></div></div>
-      <div class="card-body">
-        <div class="card-label">Head to Head</div>
-        <div class="card-title">Hyundai Creta vs Skoda Kushaq</div>
-        <div class="card-date">24 May 2026</div>
-        <div class="card-scores">
-          <div class="score-block">
-            <span class="score-num">7.8</span>
-            <span class="score-name">Creta</span>
-          </div>
-          <span class="score-vs">vs</span>
-          <div class="score-block">
-            <span class="score-num">7.6</span>
-            <span class="score-name">Kushaq</span>
-          </div>
-        </div>
-      </div>
-    </a>
-
-    <a href="/compare/kushaq-vs-duster/" class="compare-card">
-      <div class="cc-thumb"><div class="cc-b"><img src="/reviews/renault/duster/hero.webp" alt="Renault Duster" loading="lazy"></div><div class="cc-a"><img src="/reviews/skoda/kushaq/hero.webp" alt="Skoda Kushaq" loading="lazy"></div><div class="cc-shade"></div></div>
-      <div class="card-body">
-        <div class="card-label">Head to Head</div>
-        <div class="card-title">Skoda Kushaq vs Renault Duster</div>
-        <div class="card-date">24 May 2026</div>
-        <div class="card-scores">
-          <div class="score-block">
-            <span class="score-num">7.6</span>
-            <span class="score-name">Kushaq</span>
-          </div>
-          <span class="score-vs">vs</span>
-          <div class="score-block">
-            <span class="score-num">7.8</span>
-            <span class="score-name">Duster</span>
           </div>
         </div>
       </div>
