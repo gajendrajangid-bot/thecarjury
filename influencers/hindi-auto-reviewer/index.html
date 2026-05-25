@@ -61,34 +61,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
-    /* TCJ_FOOTER_CSS:START */
-    .tcj-footer { background: #141414; padding: 64px 40px 40px; }
-    .tcj-footer__inner { max-width: 1200px; margin: 0 auto; }
-    .tcj-footer__top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 40px; border-bottom: 1px solid #2A2A2A; }
-    .tcj-footer__brand { max-width: 320px; }
-    .tcj-footer .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
-    .tcj-footer .tcj-mast__the { font: 700 italic 16px/1 var(--font-display, Georgia, serif); color: var(--red, #C8102E); }
-    .tcj-footer .tcj-mast__name { font: 700 24px/1 var(--font-display, Georgia, serif); color: #FFFFFF; letter-spacing: -0.02em; }
-    .tcj-footer__tagline { font: 400 italic 14px/1.6 var(--font-body, Georgia, serif); color: #9A968D; margin: 12px 0 0; }
-    .tcj-footer__trust { margin: 18px 0 0; font: 500 12px/1.5 var(--font-ui, system-ui, sans-serif); color: #6E6A62; }
-    .tcj-footer__col-label { font: 600 11px/1 var(--font-ui, system-ui, sans-serif); letter-spacing: 0.12em; color: #6E6A62; text-transform: uppercase; margin: 0 0 16px; }
-    .tcj-footer__col a { display: block; font: 400 14px/1 var(--font-ui, system-ui, sans-serif); color: #B8B4AC; margin-bottom: 12px; text-decoration: none; transition: color .15s; }
-    .tcj-footer__col a:hover { color: #FFFFFF; }
-    .tcj-footer__social { display: flex; gap: 16px; align-items: center; }
-    .tcj-footer__social a { display: inline-flex; margin: 0; color: #B8B4AC; }
-    .tcj-footer__social a:hover { color: #FFFFFF; }
-    .tcj-footer__social svg { width: 19px; height: 19px; fill: currentColor; display: block; }
-    .tcj-footer__bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 28px; font: 500 12px/1.5 var(--font-ui, system-ui, sans-serif); color: #6E6A62; }
-    @media (max-width: 920px) {
-      .tcj-footer__top { grid-template-columns: 1fr 1fr 1fr; gap: 32px 24px; }
-      .tcj-footer__brand { grid-column: 1 / -1; max-width: none; }
-    }
-    @media (max-width: 560px) {
-      .tcj-footer { padding: 48px 24px 32px; }
-      .tcj-footer__top { grid-template-columns: 1fr 1fr; }
-      .tcj-footer__bottom { flex-direction: column; }
-    }
-    /* TCJ_FOOTER_CSS:END */
     
     :root {
       --font-display: "Fraunces", "Playfair Display", Georgia, serif;
@@ -136,6 +108,35 @@
       #tcj-hamburger { display: flex; }
       .wrap { padding: 32px 20px 80px; }
     }
+
+    /* TCJ_FOOTER_CSS:START */
+    .tcj-footer { background: #141414; padding: 64px 40px 40px; }
+    .tcj-footer__inner { max-width: 1200px; margin: 0 auto; }
+    .tcj-footer__top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 48px; padding-bottom: 40px; border-bottom: 1px solid #2A2A2A; }
+    .tcj-footer__brand { max-width: 320px; }
+    .tcj-footer .tcj-mast { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; }
+    .tcj-footer .tcj-mast__the { font: 700 italic 16px/1 var(--font-display, Georgia, serif); color: var(--red, #C8102E); }
+    .tcj-footer .tcj-mast__name { font: 700 24px/1 var(--font-display, Georgia, serif); color: #FFFFFF; letter-spacing: -0.02em; }
+    .tcj-footer__tagline { font: 400 italic 14px/1.6 var(--font-body, Georgia, serif); color: #9A968D; margin: 12px 0 0; }
+    .tcj-footer__trust { margin: 18px 0 0; font: 500 12px/1.5 var(--font-ui, system-ui, sans-serif); color: #6E6A62; }
+    .tcj-footer__col-label { font: 600 11px/1 var(--font-ui, system-ui, sans-serif); letter-spacing: 0.12em; color: #6E6A62; text-transform: uppercase; margin: 0 0 16px; }
+    .tcj-footer__col a { display: block; font: 400 14px/1 var(--font-ui, system-ui, sans-serif); color: #B8B4AC; margin-bottom: 12px; text-decoration: none; transition: color .15s; }
+    .tcj-footer__col a:hover { color: #FFFFFF; }
+    .tcj-footer__social { display: flex; gap: 16px; align-items: center; }
+    .tcj-footer__social a { display: inline-flex; margin: 0; color: #B8B4AC; }
+    .tcj-footer__social a:hover { color: #FFFFFF; }
+    .tcj-footer__social svg { width: 19px; height: 19px; fill: currentColor; display: block; }
+    .tcj-footer__bottom { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 28px; font: 500 12px/1.5 var(--font-ui, system-ui, sans-serif); color: #6E6A62; }
+    @media (max-width: 920px) {
+      .tcj-footer__top { grid-template-columns: 1fr 1fr 1fr; gap: 32px 24px; }
+      .tcj-footer__brand { grid-column: 1 / -1; max-width: none; }
+    }
+    @media (max-width: 560px) {
+      .tcj-footer { padding: 48px 24px 32px; }
+      .tcj-footer__top { grid-template-columns: 1fr 1fr; }
+      .tcj-footer__bottom { flex-direction: column; }
+    }
+    /* TCJ_FOOTER_CSS:END */
     :root {
       --amber: #92400E; --amber-tint: #FEF3C7;
       --blue:  #1D4ED8; --blue-tint:  #EFF6FF;
@@ -337,7 +338,7 @@
     <div class="stat">
       <div class="stat-num">7.8</div>
       <div class="stat-label">Top jury score</div>
-      <div class="stat-note">Hyundai Creta</div>
+      <div class="stat-note">Hyundai Creta 2024 Review</div>
     </div>
     <div class="stat">
       <div class="stat-num">7.8</div>
@@ -380,7 +381,7 @@
       <div class="section-block">
         <p class="section-label">1 verdict featuring Hindi Auto Reviewer</p>
         <div class="articles-list">
-          <a href="/reviews/hyundai/creta/" class="article-item"><span class="article-name">Hyundai Creta</span><div class="article-right"><span class="verdict-badge verdict-buy">BUY</span><span class="article-score">7.8/10</span><span class="article-arrow">&#8594;</span></div></a>
+          <a href="/reviews/hyundai/creta/" class="article-item"><span class="article-name">Hyundai Creta 2024 Review</span><div class="article-right"><span class="verdict-badge verdict-buy">BUY</span><span class="article-score">7.8/10</span><span class="article-arrow">&#8594;</span></div></a>
 
         </div>
       </div>
@@ -407,7 +408,7 @@
         </div>
       </div>
 
-      <div class="sidebar-card"><div class="sidebar-card__title">Verdict breakdown</div><div class="sidebar-row"><span class="sidebar-row__key">BUY</span><span class="sidebar-row__val col-green">1 of 1</span></div><div class="sidebar-row"><span class="sidebar-row__key">WAIT</span><span class="sidebar-row__val col-amber">0 of 1</span></div><div class="sidebar-row"><span class="sidebar-row__key">SKIP</span><span class="sidebar-row__val">0 of 1</span></div><div class="sidebar-row"><span class="sidebar-row__key">Avg score</span><span class="sidebar-row__val col-red">7.8/10</span></div><div class="sidebar-row"><span class="sidebar-row__key">Top score</span><span class="sidebar-row__val col-red">7.8 — Hyundai Creta</span></div></div>
+      <div class="sidebar-card"><div class="sidebar-card__title">Verdict breakdown</div><div class="sidebar-row"><span class="sidebar-row__key">BUY</span><span class="sidebar-row__val col-green">1 of 1</span></div><div class="sidebar-row"><span class="sidebar-row__key">WAIT</span><span class="sidebar-row__val col-amber">0 of 1</span></div><div class="sidebar-row"><span class="sidebar-row__key">SKIP</span><span class="sidebar-row__val">0 of 1</span></div><div class="sidebar-row"><span class="sidebar-row__key">Avg score</span><span class="sidebar-row__val col-red">7.8/10</span></div><div class="sidebar-row"><span class="sidebar-row__key">Top score</span><span class="sidebar-row__val col-red">7.8 — Hyundai Creta 2024 Review</span></div></div>
 
       <div class="sidebar-card">
         <div class="sidebar-card__title">Jury standing</div>
@@ -436,11 +437,6 @@
 
   <p class="back-link"><a href="/influencers/">&#8592; All Jurors</a></p>
 </div>
-<script>
-var _TCJ_EP="https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec";
-function trackClick(j,p,h){var fd=new FormData();fd.append('page',j);fd.append('vote','click');fd.append('score','');fd.append('verdict','');fd.append('feedback',p+'::'+ h);fetch(_TCJ_EP,{method:'POST',body:fd,mode:'no-cors'});}
-</script>
-
 <footer class="tcj-footer">
   <div class="tcj-footer__inner">
     <div class="tcj-footer__top">
@@ -482,5 +478,9 @@ function trackClick(j,p,h){var fd=new FormData();fd.append('page',j);fd.append('
     </div>
   </div>
 </footer>
+<script>
+var _TCJ_EP="https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec";
+function trackClick(j,p,h){var fd=new FormData();fd.append('page',j);fd.append('vote','click');fd.append('score','');fd.append('verdict','');fd.append('feedback',p+'::'+ h);fetch(_TCJ_EP,{method:'POST',body:fd,mode:'no-cors'});}
+</script>
 </body>
 </html>
