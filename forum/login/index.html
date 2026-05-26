@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign in — The Car Jury Forum</title>
+  <meta name="description" content="Sign in to The Car Jury community forum to debate verdicts and join discussions.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://www.thecarjury.com/forum/login/">
+  <link rel="stylesheet" href="/forum/forum.css">
+</head>
+<body>
+
+<nav class="tcj-nav">
+  <div class="tcj-nav-inner">
+    <a href="/" class="tcj-wordmark"><span>The</span> Car Jury</a>
+    <div class="tcj-nav-links">
+      <a href="/reviews/" class="tcj-nav-link">Reviews</a>
+      <a href="/compare/" class="tcj-nav-link">Compare</a>
+      <a href="/forum/" class="tcj-nav-link active">Forum</a>
+    </div>
+    <div class="tcj-nav-auth">
+      <button class="tcj-btn-signin" onclick="location.href='/forum/register/'">Create account</button>
+    </div>
+  </div>
+</nav>
+
+<div style="min-height:calc(100vh - 120px);display:flex;align-items:flex-start;justify-content:center;padding:48px 16px 64px">
+  <div style="width:100%;max-width:440px">
+
+    <div style="margin-bottom:28px">
+      <div class="eyebrow" style="margin-bottom:8px">Community</div>
+      <h1 style="font-size:26px;font-weight:700;color:var(--ink-black);margin:0 0 6px">Sign in</h1>
+      <p style="font-size:14px;color:var(--stone-grey);margin:0">No account yet? <a href="/forum/register/" style="color:var(--jury-red);text-decoration:none;font-weight:500">Create one</a></p>
+    </div>
+
+    <form id="login-form" onsubmit="handleLogin(event)" novalidate>
+
+      <div class="form-group">
+        <label class="form-label" for="email">Email address</label>
+        <input class="form-input" type="email" id="email" name="email"
+          placeholder="you@example.com" autocomplete="email" required>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="password">Password</label>
+        <input class="form-input" type="password" id="password" name="password"
+          placeholder="Your password" autocomplete="current-password" required>
+      </div>
+
+      <div class="form-error" id="form-error" style="display:none"></div>
+
+      <button class="form-submit" type="submit" id="submit-btn">Sign in</button>
+
+    </form>
+
+    <p style="margin-top:16px;font-size:13px;color:var(--stone-grey);text-align:center">
+      <a href="/forum/forgot-password/" style="color:var(--ink-black)">Forgot your password?</a>
+    </p>
+
+  </div>
+</div>
+
+<div class="forum-footer">
+  <a href="/forum/rules/">Community rules</a> ·
+  <a href="/about/">About TCJ</a> ·
+  No sponsored reviews. No manufacturer relationships.
+</div>
+
+<script>
+const API = '/api/forum';
+
+function esc(s) {
+  return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function showError(msg) {
+  const el = document.getElementById('form-error');
+  el.textContent = msg;
+  el.style.display = '';
+}
+
+function hideError() {
+  document.getElementById('form-error').style.display = 'none';
+}
+
+async function handleLogin(e) {
+  e.preventDefault();
+  hideError();
+
+  const email     = document.getElementById('email').value.trim();
+  const password  = document.getElementById('password').value;
+  const submitBtn = document.getElementById('submit-btn');
+
+  if (!email || !email.includes('@')) {
+    showError('Please enter a valid email address.');
+    return;
+  }
+  if (!password) {
+    showError('Please enter your password.');
+    return;
+  }
+
+  submitBtn.disabled = true;
+  submitBtn.textContent = 'Signing in…';
+
+  const res = await fetch(`${API}/auth/login`, {
+    method: 'POST',
+    credentials: 'include',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email, password }),
+  }).then(r => r.json()).catch(() => null);
+
+  submitBtn.disabled = false;
+  submitBtn.textContent = 'Sign in';
+
+  if (!res) {
+    showError('Network error. Please try again.');
+    return;
+  }
+
+  if (res.ok) {
+    // Redirect to forum index (or the page they came from)
+    const next = new URLSearchParams(location.search).get('next');
+    location.href = (next && next.startsWith('/')) ? next : '/forum/';
+  } else {
+    showError(res.error || 'Invalid email or password.');
+  }
+}
+</script>
+</body>
+</html>
