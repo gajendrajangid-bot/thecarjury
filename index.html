@@ -1350,7 +1350,7 @@
       document.querySelectorAll('.segment-tag').forEach(function(b){b.classList.remove('active');});
       this.classList.add('active');
       apply(this.textContent.trim());
-      if(window.innerWidth<=768){ featuredEl.scrollIntoView({behavior:'smooth',block:'center'}); }
+      // Do NOT scroll: chip clicks swap content in place, viewport stays put.
     });
   });
   apply('All');
