@@ -153,8 +153,8 @@ body { font-family:var(--fu); background:var(--paper); color:var(--ink); -webkit
 .buyer-card.car-b .bc-header { color:var(--blue); }
 .bc-car-name { font:800 22px/1.15 var(--fd); color:var(--ink); margin-bottom:20px; letter-spacing:-0.01em; }
 .bc-list { list-style:none; display:flex; flex-direction:column; gap:11px; }
-.bc-list li { display:flex; align-items:flex-start; gap:9px; font:400 14px/1.6 var(--fb); color:var(--soft); }
-.bc-list li::before { content:'→'; font-family:var(--fu); font-weight:700; font-size:11px; flex-shrink:0; margin-top:3px; }
+.bc-list li { position:relative; padding-left:20px; font:400 14px/1.6 var(--fb); color:var(--soft); }
+.bc-list li::before { content:'→'; position:absolute; left:0; top:3px; font-family:var(--fu); font-weight:700; font-size:11px; }
 .buyer-card.car-a li::before { color:var(--red); }
 .buyer-card.car-b li::before { color:var(--blue); }
 .swing-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
