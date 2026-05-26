@@ -1,0 +1,30 @@
+name = "tcj-forum"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "production"
+FORUM_VERSION = "1.0.0"
+SITE_URL = "https://www.thecarjury.com"
+CORS_ORIGIN = "https://www.thecarjury.com"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tcj-forum"
+database_id = "REPLACE_WITH_YOUR_D1_ID"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "REPLACE_WITH_YOUR_KV_ID"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "tcj-forum-media"
+
+[triggers]
+crons = [
+  "0 */6 * * *",
+  "30 21 * * *",
+  "0 0 * * 0"
+]
