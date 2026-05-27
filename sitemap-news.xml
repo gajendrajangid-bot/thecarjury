@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-honda-city-facelift-v-variant-value-pick/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/2026-mercedes-s-class-facelift-hybrid-india-launch-june-15/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -23,18 +23,6 @@
       </news:publication>
       <news:publication_date>2026-05-26T08:53:47+05:30</news:publication_date>
       <news:title>2026 Mercedes S-Class Facelift Lands June 15: PHEV-Only is the Right Call</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hatchback-sales-april-2026-maruti-wagonr-baleno-swift-dominate/</loc>
-    <lastmod>2026-05-25</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-25T18:00:37+05:30</news:publication_date>
-      <news:title>Hatchback Sales April 2026: Maruti's Stranglehold Is Now Embarrassing for Rivals</news:title>
     </news:news>
   </url>
   <url>
@@ -75,7 +63,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/honda-india-partnership-search-april-2026-sales/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -87,7 +75,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/honda-india-six-new-cars-roadmap-zero-alpha-elevate-facelift/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -98,8 +86,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-price-hike-june-2026-up-to-12800/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-27T18:00:35+05:30</news:publication_date>
+      <news:title>Hyundai's 1% Price Hike Lands June 1, 2026: Up to Rs 12,800 More</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/maruti-victoris-cng-discount-rs-2-10-lakh-fine-print/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-majestor-production-begins-fortuner-rival/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-bridger-india-patent-2027-launch/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -147,7 +147,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-bridger-suv-india-patent-jimny-rival/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -159,7 +159,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-nissan-april-2026-sales-duster-magnite/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -207,7 +207,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-tiago-cng-facelift-interior-features-revealed/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -219,7 +219,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-tiago-facelift-spied-undisguised-mumbai-launch-may-28-2026/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -243,7 +243,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/volkswagen-virtus-gt-200kph-orr-hyderabad-arrest/</loc>
-    <lastmod>2026-05-26</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
