@@ -405,7 +405,8 @@
       "mercedes/gls",
       "audi/q8",
       "nissan/x-trail",
-      "nissan/gravite"
+      "nissan/gravite",
+      "kia/syros"
     ],
     "photo_url": "",
     "subscriber_count": "24L",
@@ -1391,7 +1392,8 @@
       "audi/q3",
       "bmw/3-series",
       "land-rover/range-rover-sport",
-      "land-rover/range-rover"
+      "land-rover/range-rover",
+      "kia/syros"
     ],
     "photo_url": "https://yt3.googleusercontent.com/1lBPxVTf5xTFdnPe1iqZ3gtmOHzyEIfiZsQzDQwfxKttK0sR1959CuYVdgPN_BmCTLeRhx9lkA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1628,7 +1630,8 @@
       "audi/q8",
       "land-rover/range-rover",
       "nissan/x-trail",
-      "nissan/gravite"
+      "nissan/gravite",
+      "kia/syros"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1826,7 +1829,8 @@
     "articles": [
       "honda/elevate",
       "volkswagen/virtus",
-      "audi/q5"
+      "audi/q5",
+      "kia/syros"
     ]
   },
   {
@@ -1944,6 +1948,19 @@
     "subscriber_count": "",
     "articles": [
       "bmw/x5"
+    ]
+  },
+  {
+    "slug": "motoring",
+    "name": "Motoring",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "Motoring",
+    "youtube_url": "https://www.youtube.com/@Motoring",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "kia/syros"
     ]
   }
 ]
