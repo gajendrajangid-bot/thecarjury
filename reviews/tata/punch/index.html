@@ -63,7 +63,6 @@
 
 
 
-
 <link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
 <script type="application/ld+json">
   {
@@ -467,6 +466,20 @@
     .related-compares { font: 500 13px/1.6 var(--font-ui); color: var(--stone-600); }
     .related-compares a { color: var(--red); margin-right: 12px; }
     .eyebrow-sm { font: 700 11px/1 var(--font-ui); letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone-400); margin-right: 8px; }
+  
+    /* Share component (single source of truth: agents/carjury/tcj_header.py) */
+    .tcj-share { display: flex; align-items: center; gap: 17px; margin: 14px 0 24px; }
+    .tcj-share__l { font: 600 12px/1 var(--font-ui); color: var(--stone-600); letter-spacing: 0.02em; }
+    .tcj-share__i { display: inline-flex; align-items: center; color: #b6b2ad; background: none; border: 0; padding: 0; cursor: pointer; transition: color 0.15s; }
+    .tcj-share__i svg { width: 18px; height: 18px; fill: currentColor; }
+    .tcj-share__i:hover { color: var(--ink); }
+    .tcj-share__i.wa:hover { color: #25D366; }
+    .byline { align-items: center; }
+    .byline .tcj-share { margin: 0 0 0 auto; }
+    @media (max-width: 600px) { .byline .tcj-share { margin-left: 0; } }
+    /* Compare cards in 'Also in the running' */
+    .rc-cta { font: 600 11px/1 var(--font-ui); letter-spacing: 0.06em; text-transform: uppercase; color: var(--red); }
+    .cmp-label { display: block; margin: 20px 0 12px; font: 700 11px/1 var(--font-ui); letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone-400); }
   </style>
 <script defer="" src="/js/nav.js"></script>
 <script defer="" src="/js/search.js"></script>
@@ -524,9 +537,10 @@
 <div class="article-wrap">
 <div class="byline">
 <span>By The Car Jury Editorial</span>
-<span>Published 23 April 2026</span>
+<span>23 April 2026</span>
 <span>Synthesis of 6 independent sources</span>
-<span>1,990 words · 8 min read</span>
+<span>8 min read</span>
+<div class="tcj-share"><a class="tcj-share__i wa" data-share="whatsapp" href="https://wa.me/?text=Tata%20Punch%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A%20https%3A//www.thecarjury.com/reviews/tata/punch/" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg></a><a class="tcj-share__i" data-share="x" href="https://twitter.com/intent/tweet?text=Tata%20Punch%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A&amp;url=https%3A//www.thecarjury.com/reviews/tata/punch/&amp;via=the_car_jury" target="_blank" rel="noopener" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.39-6.933zm-1.29 19.5h2.039L6.486 3.24H4.298l13.313 17.413z"/></svg></a><button class="tcj-share__i" data-share="native" type="button" aria-label="More share options"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg></button></div>
 </div>
 <p class="hero-summary">The 2026 Tata Punch facelift finally gets the 'punch' it was missing, with the <a href="/reviews/tata/nexon/">Nexon</a>-sourced 1.2L turbo petrol (120 PS/170 Nm) joining the lineup alongside an industry-first CNG+AMT combo. Backed by a 5-star Bharat NCAP rating, six airbags standard, 360° camera and refreshed styling, it starts at ₹5.59 lakh and tops out at ₹12.23 lakh (ex-showroom Mumbai for CNG AMT). However, the gearbox in the turbo variant and sluggish CNG AMT performance remain sore points.</p>
 <div class="scores-section">
@@ -579,7 +593,8 @@
 <li class="con-item">Rear drum brakes, no 60:40 split rear seat, no headrest for middle passenger, only two rear parking sensors</li></ul>
 </div>
 </div>
-<div class="section">
+<div class="tcj-share"><span class="tcj-share__l">Share</span><a class="tcj-share__i wa" data-share="whatsapp" href="https://wa.me/?text=Tata%20Punch%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A%20https%3A//www.thecarjury.com/reviews/tata/punch/" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg></a><a class="tcj-share__i" data-share="x" href="https://twitter.com/intent/tweet?text=Tata%20Punch%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A&amp;url=https%3A//www.thecarjury.com/reviews/tata/punch/&amp;via=the_car_jury" target="_blank" rel="noopener" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.39-6.933zm-1.29 19.5h2.039L6.486 3.24H4.298l13.313 17.413z"/></svg></a><button class="tcj-share__i" data-share="native" type="button" aria-label="More share options"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg></button></div>
+  <div class="section">
 <h2>Design</h2>
 <p>The 2026 Punch facelift brings a more mature, Nexon-inspired face with a slim LED DRL strip, vertically stacked LED headlights and a redesigned bumper featuring a bull-bar-style insert. At the rear, a new connected LED tail lamp strip runs the width of the tailgate, giving it a more modern stance, though some note it makes the Punch look 'less Tata' from behind. The overall length has grown by 49 mm due to bumper revisions, while width, height and the 2.45 m wheelbase remain unchanged. Ground clearance is up to 193 mm. New 16-inch dual-tone alloys (195/60 R16 Goodyear Triple Max 2) look sharp in motion, while lower variants continue with 15-inchers. Tata offers four new colours including Scientific Blue and Caramel. Sheet metal is unchanged in profile, and Easter eggs, rhinos hidden around the cabin and exterior, are a nice touch. Reviewers broadly agree the facelift looks handsome, though the Punch has lost some of its 2021 individuality.</p>
 </div>
@@ -623,23 +638,8 @@
 <p "="" class="&lt;a href=" influencers="" teambhp=""><a href="/influencers/teambhp/">teambhp</a>-text"&gt;TeamBHP's community has historically praised the Punch for its solid build and safety credentials, and the facelift's addition of the turbo engine and CNG+AMT combo is likely to be welcomed as addressing the car's biggest weakness, a lacklustre NA engine. Long-term owners have flagged concerns around Tata's after-sales service consistency and niggling quality issues, which remain the primary dealbreakers for prospective buyers even as the product itself becomes more compelling.</p>
 </div>
 </div>
-<div class="related-cars">
-  <div class="eyebrow">Also in the running</div>
-  <div class="related-grid">
-    <a href="/reviews/maruti/brezza/" class="related-card"><div class="rc-name">Maruti Brezza</div><div class="rc-score">7.4/10</div><div class="rc-verdict">BUY</div></a>
-    <a href="/reviews/tata/nexon/" class="related-card"><div class="rc-name">Tata Nexon</div><div class="rc-score">7.6/10</div><div class="rc-verdict">BUY</div></a>
-    <a href="/reviews/maruti/jimny/" class="related-card"><div class="rc-name">Maruti Jimny</div><div class="rc-score">7.2/10</div><div class="rc-verdict">WAIT</div></a>
-    <a href="/reviews/tata/sierra/" class="related-card"><div class="rc-name">Tata Sierra</div><div class="rc-score">7.8/10</div><div class="rc-verdict">WAIT</div></a>
-  </div>
-  <div class="related-compares"><span class="eyebrow-sm">Head-to-head:</span>
-    <a href="/compare/punch-vs-exter/">Punch vs Exter →</a>
-    <a href="/compare/magnite-vs-punch/">Magnite vs Punch →</a>
-    <a href="/compare/venue-vs-exter/">Venue vs Exter →</a>
-    <a href="/compare/nexon-vs-punch/">Nexon vs Punch →</a>
-    <a href="/compare/brezza-vs-punch/">Brezza vs Punch →</a>
-  </div>
-</div>
-<div class="section">
+<div class="tcj-share"><span class="tcj-share__l">Share</span><a class="tcj-share__i wa" data-share="whatsapp" href="https://wa.me/?text=Tata%20Punch%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A%20https%3A//www.thecarjury.com/reviews/tata/punch/" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg></a><a class="tcj-share__i" data-share="x" href="https://twitter.com/intent/tweet?text=Tata%20Punch%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A&amp;url=https%3A//www.thecarjury.com/reviews/tata/punch/&amp;via=the_car_jury" target="_blank" rel="noopener" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.39-6.933zm-1.29 19.5h2.039L6.486 3.24H4.298l13.313 17.413z"/></svg></a><button class="tcj-share__i" data-share="native" type="button" aria-label="More share options"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg></button></div>
+  <div class="section">
 <h2>Individual Reviewer Verdicts</h2>
 <div class="reviewer-grid">
 <div class="reviewer-card">
@@ -672,7 +672,24 @@
 <div class="section"><h2>Watch the Reviews</h2> <iframe allowfullscreen="" class="yt-embed" loading="lazy" src="https://www.youtube.com/embed/ITzrvTz0Hmc" title="Tata Punch review"></iframe>
 <iframe allowfullscreen="" class="yt-embed" loading="lazy" src="https://www.youtube.com/embed/ZR5d76LNPx8" title="Tata Punch review"></iframe>
 <iframe allowfullscreen="" class="yt-embed" loading="lazy" src="https://www.youtube.com/embed/Y7RTEN4htW8" title="Tata Punch review"></iframe></div>
-<div class="faq-section" itemscope="" itemtype="https://schema.org/FAQPage">
+<div class="related-cars">
+  <div class="eyebrow">Also in the running</div>
+  <div class="related-grid">
+    <a href="/reviews/maruti/brezza/" class="related-card"><div class="rc-name">Maruti Brezza</div><div class="rc-score">7.4/10</div><div class="rc-verdict">BUY</div></a>
+    <a href="/reviews/tata/nexon/" class="related-card"><div class="rc-name">Tata Nexon</div><div class="rc-score">7.6/10</div><div class="rc-verdict">BUY</div></a>
+    <a href="/reviews/maruti/jimny/" class="related-card"><div class="rc-name">Maruti Jimny</div><div class="rc-score">7.2/10</div><div class="rc-verdict">WAIT</div></a>
+    <a href="/reviews/tata/sierra/" class="related-card"><div class="rc-name">Tata Sierra</div><div class="rc-score">7.8/10</div><div class="rc-verdict">WAIT</div></a>
+  </div>
+  <div class="cmp-label">Head-to-head</div>
+  <div class="related-grid">
+    <a href="/compare/punch-vs-exter/" class="related-card compare-card"><div class="rc-name">Punch vs Exter</div><div class="rc-cta">Compare &rarr;</div></a>
+    <a href="/compare/magnite-vs-punch/" class="related-card compare-card"><div class="rc-name">Magnite vs Punch</div><div class="rc-cta">Compare &rarr;</div></a>
+    <a href="/compare/venue-vs-exter/" class="related-card compare-card"><div class="rc-name">Venue vs Exter</div><div class="rc-cta">Compare &rarr;</div></a>
+    <a href="/compare/nexon-vs-punch/" class="related-card compare-card"><div class="rc-name">Nexon vs Punch</div><div class="rc-cta">Compare &rarr;</div></a>
+    <a href="/compare/brezza-vs-punch/" class="related-card compare-card"><div class="rc-name">Brezza vs Punch</div><div class="rc-cta">Compare &rarr;</div></a>
+  </div>
+</div>
+  <div class="faq-section" itemscope="" itemtype="https://schema.org/FAQPage">
 <h2>Frequently Asked Questions</h2>
 <div class="faq-item" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
 <div class="faq-q" itemprop="name">Should I buy the Tata Punch?</div>
@@ -782,5 +799,6 @@
     </div>
   </div>
 </footer>
+<script src="/js/share.js" defer></script>
 </body>
 </html>

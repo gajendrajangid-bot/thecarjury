@@ -63,7 +63,6 @@
 
 
 
-
 <link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
 <script type="application/ld+json">
   {
@@ -489,6 +488,20 @@
     .article-wrap .section p a, .article-wrap .faq-a a, .article-wrap .consensus-box a,
     .article-wrap .hero-summary a, .article-wrap .teambhp-text a { color: var(--red); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
     .article-wrap .section p a:hover, .article-wrap .faq-a a:hover, .article-wrap .consensus-box a:hover { color: var(--red-dark); }
+  
+    /* Share component (single source of truth: agents/carjury/tcj_header.py) */
+    .tcj-share { display: flex; align-items: center; gap: 17px; margin: 14px 0 24px; }
+    .tcj-share__l { font: 600 12px/1 var(--font-ui); color: var(--stone-600); letter-spacing: 0.02em; }
+    .tcj-share__i { display: inline-flex; align-items: center; color: #b6b2ad; background: none; border: 0; padding: 0; cursor: pointer; transition: color 0.15s; }
+    .tcj-share__i svg { width: 18px; height: 18px; fill: currentColor; }
+    .tcj-share__i:hover { color: var(--ink); }
+    .tcj-share__i.wa:hover { color: #25D366; }
+    .byline { align-items: center; }
+    .byline .tcj-share { margin: 0 0 0 auto; }
+    @media (max-width: 600px) { .byline .tcj-share { margin-left: 0; } }
+    /* Compare cards in 'Also in the running' */
+    .rc-cta { font: 600 11px/1 var(--font-ui); letter-spacing: 0.06em; text-transform: uppercase; color: var(--red); }
+    .cmp-label { display: block; margin: 20px 0 12px; font: 700 11px/1 var(--font-ui); letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone-400); }
   </style>
 <script defer="" src="/js/nav.js"></script>
 <script defer="" src="/js/search.js"></script>
@@ -545,9 +558,10 @@
 </div>
 <div class="article-wrap"><div class="byline">
 <span>By The Car Jury Editorial</span>
-<span>Published 19 April 2026</span>
+<span>19 April 2026</span>
 <span>Synthesis of 6 independent sources</span>
-<span>2,066 words · 9 min read</span>
+<span>9 min read</span>
+<div class="tcj-share"><a class="tcj-share__i wa" data-share="whatsapp" href="https://wa.me/?text=Mahindra%20BE6%20%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A%20https%3A//www.thecarjury.com/reviews/mahindra/be6/" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg></a><a class="tcj-share__i" data-share="x" href="https://twitter.com/intent/tweet?text=Mahindra%20BE6%20%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A&amp;url=https%3A//www.thecarjury.com/reviews/mahindra/be6/&amp;via=the_car_jury" target="_blank" rel="noopener" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.39-6.933zm-1.29 19.5h2.039L6.486 3.24H4.298l13.313 17.413z"/></svg></a><button class="tcj-share__i" data-share="native" type="button" aria-label="More share options"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg></button></div>
 </div>
 <p class="hero-summary">The Mahindra BE6 is India's most radical mass-market EV , a rear-wheel-drive <a href="/reviews/hyundai/creta-electric/">electric</a> coupe-SUV with 282 BHP, 0-100 in 6.7 seconds and 450-500 km of real-world range, all starting at Rs 18.90 lakh (ex-showroom). It blends concept-car styling with genuine driver-focused dynamics thanks to semi-active dampers, a low centre of gravity and sharp steering. The trade-offs are a firm ride, a cramped rear seat and the usual Mahindra question marks around long-term service quality.</p>
 <aside aria-label="Quick verdict summary" class="geo-panel" data-geo="verdict-summary">
@@ -605,7 +619,8 @@
 <li class="con-item">Excessive piano black and dark interior attract scratches, fingerprints and feel claustrophobic</li>
 <li class="con-item">Mahindra's after-sales service remains inconsistent , a real concern for such a tech-heavy car</li></ul>
 </div>
-<div class="scores-section">
+<div class="tcj-share"><span class="tcj-share__l">Share</span><a class="tcj-share__i wa" data-share="whatsapp" href="https://wa.me/?text=Mahindra%20BE6%20%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A%20https%3A//www.thecarjury.com/reviews/mahindra/be6/" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg></a><a class="tcj-share__i" data-share="x" href="https://twitter.com/intent/tweet?text=Mahindra%20BE6%20%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A&amp;url=https%3A//www.thecarjury.com/reviews/mahindra/be6/&amp;via=the_car_jury" target="_blank" rel="noopener" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.39-6.933zm-1.29 19.5h2.039L6.486 3.24H4.298l13.313 17.413z"/></svg></a><button class="tcj-share__i" data-share="native" type="button" aria-label="More share options"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg></button></div>
+  <div class="scores-section">
 <h2>Jury Score Breakdown</h2>
 <div class="score-row">
 <span class="score-label">Design</span>
@@ -643,7 +658,8 @@
 <p class="teambhp-text">TeamBHP's expert review rates the BE6 as a genuine handling-focused EV with futuristic design and segment-first features, but flags serious practicality concerns: uncomfortable rear seats, a stiff ride, poor rearward visibility and excessive piano black. They raise a major caution about Mahindra's inconsistent after-sales being tested by such a complex, tech-heavy car , a concern validated by owner Harry's XUV700 experience, even as his BE6 has been trouble-free.</p>
 <a class="teambhp-link" href="https://www.team-bhp.com/forum/electric-cars/288203-mahindra-6-review.html" rel="noopener" target="_blank">Read full forum review →</a>
 </div>
-<div class="section">
+<div class="tcj-share"><span class="tcj-share__l">Share</span><a class="tcj-share__i wa" data-share="whatsapp" href="https://wa.me/?text=Mahindra%20BE6%20%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A%20https%3A//www.thecarjury.com/reviews/mahindra/be6/" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.82 11.82 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.978-1.039zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.247-.694.247-1.289.173-1.413z"/></svg></a><a class="tcj-share__i" data-share="x" href="https://twitter.com/intent/tweet?text=Mahindra%20BE6%20%2C%20The%20Jury%27s%20Verdict%20%2C%20The%20Car%20Jury%27s%20verdict%3A&amp;url=https%3A//www.thecarjury.com/reviews/mahindra/be6/&amp;via=the_car_jury" target="_blank" rel="noopener" aria-label="Share on X"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932 6.39-6.933zm-1.29 19.5h2.039L6.486 3.24H4.298l13.313 17.413z"/></svg></a><button class="tcj-share__i" data-share="native" type="button" aria-label="More share options"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92s2.92-1.31 2.92-2.92-1.31-2.92-2.92-2.92z"/></svg></button></div>
+  <div class="section">
 <h2>Individual Reviewer Verdicts</h2>
 <div class="reviewer-grid">
 <div class="reviewer-card">
@@ -676,7 +692,21 @@
 <div class="section"><h2>Watch the Reviews</h2> <iframe allowfullscreen="" class="yt-embed" loading="lazy" src="https://www.youtube.com/embed/kan90M2nruY" title="Mahindra BE6 review"></iframe>
 <iframe allowfullscreen="" class="yt-embed" loading="lazy" src="https://www.youtube.com/embed/_EduNebCcYQ" title="Mahindra BE6 review"></iframe>
 <iframe allowfullscreen="" class="yt-embed" loading="lazy" src="https://www.youtube.com/embed/PaMXk9dVfnE" title="Mahindra BE6 review"></iframe></div>
-<div class="faq-section" itemscope="" itemtype="https://schema.org/FAQPage">
+<div class="related-cars">
+  <div class="eyebrow">Also in the running</div>
+  <div class="related-grid">
+    <a href="/reviews/mahindra/xev-9e/" class="related-card"><div class="rc-name">Mahindra XEV 9E</div><div class="rc-score">7.5/10</div><div class="rc-verdict">WAIT</div></a>
+    <a href="/reviews/tata/harrier-ev/" class="related-card"><div class="rc-name">Tata Harrier EV</div><div class="rc-score">7.5/10</div><div class="rc-verdict">BUY</div></a>
+    <a href="/reviews/mahindra/scorpio-n/" class="related-card"><div class="rc-name">Mahindra Scorpio N</div><div class="rc-score">7.8/10</div><div class="rc-verdict">BUY</div></a>
+  </div>
+  <div class="cmp-label">Head-to-head</div>
+  <div class="related-grid">
+    <a href="/compare/be6-vs-xev-9e/" class="related-card compare-card"><div class="rc-name">BE6 vs XEV 9e</div><div class="rc-cta">Compare &rarr;</div></a>
+    <a href="/compare/be6-vs-nexon-ev/" class="related-card compare-card"><div class="rc-name">BE6 vs Nexon EV</div><div class="rc-cta">Compare &rarr;</div></a>
+    <a href="/compare/harrier-ev-vs-be6/" class="related-card compare-card"><div class="rc-name">Harrier EV vs BE6</div><div class="rc-cta">Compare &rarr;</div></a>
+  </div>
+</div>
+  <div class="faq-section" itemscope="" itemtype="https://schema.org/FAQPage">
 <h2>Frequently Asked Questions</h2>
 <div class="faq-item" itemprop="mainEntity" itemscope="" itemtype="https://schema.org/Question">
 <div class="faq-q" itemprop="name">Should I buy the Mahindra BE6?</div>
@@ -787,5 +817,6 @@
     </div>
   </div>
 </footer>
+<script src="/js/share.js" defer></script>
 </body>
 </html>

@@ -7,7 +7,12 @@
 (function () {
   'use strict';
 
-  var ENDPOINT = window.TCJ_FEEDBACK_ENDPOINT ||
+  // Same backend as feedback.js. Prefer the page's own data-feedback-endpoint
+  // (set on <body> by the generators) so share rows always log to whatever sheet
+  // the page is wired to; fall back to the window var, then the shared default.
+  var ENDPOINT =
+    (document.body && document.body.getAttribute('data-feedback-endpoint')) ||
+    window.TCJ_FEEDBACK_ENDPOINT ||
     'https://script.google.com/macros/s/AKfycbyddgIXufUp2fEY8vZjtCyiLGXseB1MPN7tEv41WZ4iIOO2BCDUqUPvFqRBvc76HEkjuA/exec';
 
   function pagePath() { return window.location.pathname.replace(/\/$/, '') || '/'; }
