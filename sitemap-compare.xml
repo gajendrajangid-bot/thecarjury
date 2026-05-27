@@ -229,6 +229,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/compare/q3-vs-gla/</loc>
+    <lastmod>2026-05-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/compare/safari-vs-alcazar/</loc>
     <lastmod>2026-05-27</lastmod>
     <changefreq>monthly</changefreq>
