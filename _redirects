@@ -5,6 +5,11 @@
 /news/tata-sierra-ev-launch-q2-fy27 /news/tata-sierra-ev-launch-q2-fy27-confirmed/ 301
 /news/tata-sierra-ev-launch-q2-fy27/ /news/tata-sierra-ev-launch-q2-fy27-confirmed/ 301
 
+# Removed stray auto-published article (ferrari-luce) — 301 to news index.
+# Required: a bare 404 lets Cloudflare Always Online resurface the cached 200.
+/news/ferrari-luce-electric-sedan-unveiled-design-divides /news/ 301
+/news/ferrari-luce-electric-sedan-unveiled-design-divides/ /news/ 301
+
 # Tag pages are not generated (news tag chips link to brand /reviews/ hubs).
 # Consolidate any historically-crawled tag URL to the news index instead of 404.
 /news/tag/* /news/ 301
