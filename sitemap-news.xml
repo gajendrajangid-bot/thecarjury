@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/byd-dolphin-g-dm-i-plug-in-hybrid-europe-debut/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T15:23:23+05:30</news:publication_date>
+      <news:title>BYD Dolphin G DM-i Debuts For Europe With 1,000 km Range: India Next?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/honda-city-facelift-base-sv-vs-slavia-virtus-pricing-features/</loc>
     <lastmod>2026-05-27</lastmod>
     <news:news>
