@@ -2,30 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-honda-city-facelift-v-variant-value-pick/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:55:04+05:30</news:publication_date>
-      <news:title>2026 Honda City V Variant At Rs 13.29 Lakh: The Sensible Sedan Buy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/2026-mercedes-s-class-facelift-hybrid-india-launch-june-15/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:53:47+05:30</news:publication_date>
-      <news:title>2026 Mercedes S-Class Facelift Lands June 15: PHEV-Only is the Right Call</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/honda-city-facelift-base-sv-vs-slavia-virtus-pricing-features/</loc>
     <lastmod>2026-05-27</lastmod>
     <news:news>
@@ -62,44 +38,20 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/honda-india-partnership-search-april-2026-sales/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:04:01+05:30</news:publication_date>
-      <news:title>Honda Wants A Partner In India: The April Sales Sheet Tells You Why</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/honda-india-six-new-cars-roadmap-zero-alpha-elevate-facelift/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:57:32+05:30</news:publication_date>
-      <news:title>Honda's Six-Car India Plan: Real Reset Or Another Round Of Promises?</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-price-hike-june-2026-up-to-12800/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-05-27T18:00:35+05:30</news:publication_date>
-      <news:title>Hyundai's 1% Price Hike Lands June 1, 2026: Up to Rs 12,800 More</news:title>
+      <news:publication_date>2026-05-28T09:02:25+05:30</news:publication_date>
+      <news:title>Hyundai Hikes Prices From June 1, 2026: Up To Rs 12,800 Costlier</news:title>
     </news:news>
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/lotus-emira-420-sport-revealed-amg-power/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -110,20 +62,20 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/maruti-victoris-cng-discount-rs-2-10-lakh-fine-print/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://www.thecarjury.com/news/maruti-suzuki-service-network-fy26-2-84-crore-vehicles/</loc>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-05-26T08:56:51+05:30</news:publication_date>
-      <news:title>Maruti Victoris CNG Discounts Hit Rs 2.10 Lakh: Read The Fine Print Before You Sign</news:title>
+      <news:publication_date>2026-05-28T09:00:39+05:30</news:publication_date>
+      <news:title>Maruti Serviced 2.84 Crore Cars in FY26: The Real Moat Isn't Sales</news:title>
     </news:news>
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-majestor-launch-price-rs-40-99-lakh-fortuner-rival/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -134,44 +86,20 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mg-majestor-production-begins-fortuner-rival/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <loc>https://www.thecarjury.com/news/mg-majestor-vs-toyota-fortuner-comparison-2026/</loc>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-05-26T08:55:36+05:30</news:publication_date>
-      <news:title>MG Majestor Enters Production: The Gloster's Replacement Means Business, But Can It Dent The Fortuner?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/renault-bridger-india-patent-2027-launch/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:56:14+05:30</news:publication_date>
-      <news:title>Renault Bridger Patent Filed In India: Chennai-Built Boxy SUV Targets 2027</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/renault-nissan-april-2026-sales-duster-magnite/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:03:30+05:30</news:publication_date>
-      <news:title>Renault-Nissan April 2026 Sales: Duster Revival Doubles Volumes, But Base Is Tiny</news:title>
+      <news:publication_date>2026-05-28T09:02:59+05:30</news:publication_date>
+      <news:title>MG Majestor vs Fortuner: Bigger Numbers Won't Crack Toyota's Grip</news:title>
     </news:news>
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/sedan-sales-april-2026-dzire-city-virtus-verna/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -183,7 +111,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/skoda-kylaq-europe-export-plan/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -195,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/skoda-kylaq-europe-export-plan-2026/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -206,20 +134,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/tata-tiago-cng-facelift-interior-features-revealed/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:53:08+05:30</news:publication_date>
-      <news:title>Tata Tiago CNG Facelift Cabin Revealed: 360 Camera, Wireless Charging, Paddle Shifters</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/vinfast-vf-8-india-patent-2026/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -231,7 +147,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/vinfast-vf8-design-patent-india-filing/</loc>
-    <lastmod>2026-05-27</lastmod>
+    <lastmod>2026-05-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -239,18 +155,6 @@
       </news:publication>
       <news:publication_date>2026-05-27T18:01:36+05:30</news:publication_date>
       <news:title>VinFast VF8 Patent in India: Paperwork, Not a Product Plan</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/volkswagen-virtus-gt-200kph-orr-hyderabad-arrest/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-26T08:54:31+05:30</news:publication_date>
-      <news:title>Virtus GT Owner Books Himself: 200kph Instagram Reel Ends In Arrest</news:title>
     </news:news>
   </url>
 </urlset>
