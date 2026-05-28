@@ -50,18 +50,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/hyundai-price-hike-june-2026-up-to-12800/</loc>
-    <lastmod>2026-05-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-28T09:02:25+05:30</news:publication_date>
-      <news:title>Hyundai Hikes Prices From June 1, 2026: Up To Rs 12,800 Costlier</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/lotus-emira-420-sport-revealed-amg-power/</loc>
     <lastmod>2026-05-28</lastmod>
     <news:news>
@@ -143,6 +131,18 @@
       </news:publication>
       <news:publication_date>2026-05-27T14:41:37+05:30</news:publication_date>
       <news:title>Skoda Kylaq Heading To Europe: India's Sub-4m Win Becomes A Global Card</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-ev-bookings-2-5x-fuel-prices-shailesh-chandra/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-28T18:01:09+05:30</news:publication_date>
+      <news:title>Tata EV Bookings Jump 2.5X As Fuel Prices Bite: Sub-Rs 15 Lakh Is The Sweet Spot</news:title>
     </news:news>
   </url>
   <url>
