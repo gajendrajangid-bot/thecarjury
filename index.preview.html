@@ -72,7 +72,6 @@
 
 
 
-
   <!-- Favicon -->
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 
@@ -459,10 +458,15 @@
       grid-template-columns: repeat(4, 1fr);
     }
     .trust-item {
+      display: block;
       padding: 40px 32px;
       border-right: 1px solid var(--hairline);
       text-align: center;
+      text-decoration: none;
+      color: inherit;
+      transition: background 0.15s ease;
     }
+    a.trust-item:hover { background: var(--paper, #faf8f4); }
     .trust-item:last-child { border-right: none; }
     .trust-number {
       font: 700 44px/1 var(--font-display);
@@ -853,42 +857,6 @@
     </div>
   </section>
 
-  <!-- ── Mission Strip ──────────────────────────────────────── -->
-  <section class="mission-strip">
-    <div class="mission-strip__inner">
-      <div class="mission-block">
-        <p class="mission-block__label">Our vision</p>
-        <p class="mission-block__text">To be the world's <strong>most trusted destination</strong> for car buying decisions.</p>
-      </div>
-      <div class="mission-block">
-        <p class="mission-block__label">Our mission</p>
-        <p class="mission-block__text">We watch every expert so you don't have to, <strong>distilling the best automotive minds on the internet</strong> into one clear, honest verdict on every car.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Trust Numbers ──────────────────────────────────────── -->
-  <section class="trust-section">
-    <div class="trust-grid">
-      <div class="trust-item">
-        <div class="trust-number">83<span>+</span></div>
-        <div class="trust-label">Cars reviewed and verdicted</div>
-      </div>
-      <div class="trust-item">
-        <div class="trust-number">460<span>+</span></div>
-        <div class="trust-label">Independent creator reviews read</div>
-      </div>
-      <div class="trust-item">
-        <div class="trust-number">1.3<span>M</span></div>
-        <div class="trust-label">Words of reviews analysed</div>
-      </div>
-      <div class="trust-item">
-        <div class="trust-number">0</div>
-        <div class="trust-label">Sponsored reviews. Ever.</div>
-      </div>
-    </div>
-  </section>
-
   <!-- ── Latest Verdicts ────────────────────────────────────── -->
   <section id="verdicts">
     <div class="section">
@@ -1136,7 +1104,41 @@
     </div>
   </section>
 
+  <!-- ── Mission Strip ──────────────────────────────────────── -->
+  <section class="mission-strip">
+    <div class="mission-strip__inner">
+      <div class="mission-block">
+        <p class="mission-block__label">Our vision</p>
+        <p class="mission-block__text">To be the world's <strong>most trusted destination</strong> for car buying decisions.</p>
+      </div>
+      <div class="mission-block">
+        <p class="mission-block__label">Our mission</p>
+        <p class="mission-block__text">We watch every expert so you don't have to, <strong>distilling the best automotive minds on the internet</strong> into one clear, honest verdict on every car.</p>
+      </div>
+    </div>
+  </section>
 
+  <!-- ── Trust Numbers ──────────────────────────────────────── -->
+  <section class="trust-section">
+    <div class="trust-grid">
+      <a href="/reviews/" class="trust-item">
+        <div class="trust-number">83<span>+</span></div>
+        <div class="trust-label">Cars reviewed and verdicted</div>
+      </a>
+      <a href="/the-jury/" class="trust-item">
+        <div class="trust-number">460<span>+</span></div>
+        <div class="trust-label">Independent creator reviews read</div>
+      </a>
+      <a href="/best/" class="trust-item">
+        <div class="trust-number">1.3<span>M</span></div>
+        <div class="trust-label">Words of reviews analysed</div>
+      </a>
+      <a href="/about/" class="trust-item">
+        <div class="trust-number">0</div>
+        <div class="trust-label">Sponsored reviews. Ever.</div>
+      </a>
+    </div>
+  </section>
 
     <!-- ── Comparisons ──────────────────────────────────────────── -->
   <section id="comparisons">
