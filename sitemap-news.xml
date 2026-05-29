@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-tata-tiago-petrol-cng-prices-variants-features/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T09:00:36+05:30</news:publication_date>
+      <news:title>2026 Tata Tiago Lands From Rs 4.69 Lakh: Safer Shell, Smarter Cabin, Still The Value Pick</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/byd-dolphin-g-dm-i-plug-in-hybrid-europe-debut/</loc>
     <lastmod>2026-05-29</lastmod>
     <news:news>
@@ -107,18 +119,6 @@
       </news:publication>
       <news:publication_date>2026-05-27T09:01:20+05:30</news:publication_date>
       <news:title>Sedan Sales April 2026: Dzire Eats Two-Thirds Of The Segment, City Quietly Grows 22%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/skoda-kylaq-europe-export-plan/</loc>
-    <lastmod>2026-05-29</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-27T09:00:34+05:30</news:publication_date>
-      <news:title>Skoda Kylaq Europe Export Plan: India's Sub-4m SUV Could Save VW From Chinese Onslaught</news:title>
     </news:news>
   </url>
   <url>
