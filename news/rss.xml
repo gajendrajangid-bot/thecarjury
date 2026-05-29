@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 29 May 2026 18:00:50 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 18:02:44 +0530</lastBuildDate>
+    <item>
+      <title>Toyota Ebella E3 At Rs 23.60 Lakh: Rs 3.60 Lakh Tax For A Badge</title>
+      <link>https://www.thecarjury.com/news/toyota-ebella-e3-launched-23-60-lakh/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-ebella-e3-launched-23-60-lakh/</guid>
+      <pubDate>Fri, 29 May 2026 18:02:17 +0530</pubDate>
+      <description>Toyota Ebella top E3 trim launched at Rs 23.60 lakh, Rs 3.60 lakh more than the identical Maruti e Vitara. The Car Jury&amp;#x27;s verdict on the badge premium.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Toyota Shelves Lexus LF-ZC EV: A Win For The Hybrid Bet, Not A Surrender</title>
       <link>https://www.thecarjury.com/news/toyota-lexus-lf-zc-ev-shelved-global-demand-slowdown/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-kharkhoda-plant-2-brezza-victoris-production/</guid>
       <pubDate>Mon, 18 May 2026 14:00:41 +0530</pubDate>
       <description>Maruti Suzuki begins production at its second Kharkhoda plant, taking total India capacity to 26.5 lakh units annually across four facilities.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Ethanol Surplus Is Real, Flex-Fuel Cars Are Not: CareEdge Calls It</title>
-      <link>https://www.thecarjury.com/news/flex-fuel-rollout-gradual-careedge-ethanol-surplus-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/flex-fuel-rollout-gradual-careedge-ethanol-surplus-2026/</guid>
-      <pubDate>Mon, 18 May 2026 09:00:41 +0530</pubDate>
-      <description>CareEdge says India&amp;#x27;s ethanol capacity is running at 60% utilisation and flex-fuel vehicle adoption will stay slow for at least three years.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

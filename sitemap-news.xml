@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-suzuki-service-network-fy26-2-84-crore-vehicles/</loc>
-    <lastmod>2026-05-28</lastmod>
+    <lastmod>2026-05-29</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -110,6 +110,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/toyota-ebella-e3-launched-23-60-lakh/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T18:02:17+05:30</news:publication_date>
+      <news:title>Toyota Ebella E3 At Rs 23.60 Lakh: Rs 3.60 Lakh Tax For A Badge</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/toyota-ebella-electric-suv-india-launch-cancelled/</loc>
     <lastmod>2026-05-29</lastmod>
     <news:news>
@@ -131,18 +143,6 @@
       </news:publication>
       <news:publication_date>2026-05-29T18:00:42+05:30</news:publication_date>
       <news:title>Toyota Shelves Lexus LF-ZC EV: A Win For The Hybrid Bet, Not A Surrender</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/vinfast-vf8-design-patent-india-filing/</loc>
-    <lastmod>2026-05-29</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-27T18:01:36+05:30</news:publication_date>
-      <news:title>VinFast VF8 Patent in India: Paperwork, Not a Product Plan</news:title>
     </news:news>
   </url>
 </urlset>
