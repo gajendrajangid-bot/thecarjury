@@ -38,18 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/honda-city-facelift-base-variant-vs-slavia-virtus-features/</loc>
-    <lastmod>2026-05-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-27T09:01:50+05:30</news:publication_date>
-      <news:title>Honda City SV Costs More Than Slavia, Virtus Base: But You Get What You Pay For</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/honda-city-facelift-rs-variant-thailand-launch/</loc>
     <lastmod>2026-05-27</lastmod>
     <news:news>
@@ -110,18 +98,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/sedan-sales-april-2026-dzire-city-virtus-verna/</loc>
-    <lastmod>2026-05-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-27T09:01:20+05:30</news:publication_date>
-      <news:title>Sedan Sales April 2026: Dzire Eats Two-Thirds Of The Segment, City Quietly Grows 22%</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/skoda-kylaq-europe-export-plan-2026/</loc>
     <lastmod>2026-05-29</lastmod>
     <news:news>
@@ -143,6 +119,18 @@
       </news:publication>
       <news:publication_date>2026-05-28T18:01:09+05:30</news:publication_date>
       <news:title>Tata EV Bookings Jump 2.5X As Fuel Prices Bite: Sub-Rs 15 Lakh Is The Sweet Spot</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-martin-uhlarik-budget-cars-premium-expectations/</loc>
+    <lastmod>2026-05-29</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-29T09:02:54+05:30</news:publication_date>
+      <news:title>Tata's Design Boss Is Right: Budget Buyers Won't Settle Anymore</news:title>
     </news:news>
   </url>
   <url>
