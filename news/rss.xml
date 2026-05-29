@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 29 May 2026 09:03:02 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 18:00:50 +0530</lastBuildDate>
+    <item>
+      <title>Toyota Shelves Lexus LF-ZC EV: A Win For The Hybrid Bet, Not A Surrender</title>
+      <link>https://www.thecarjury.com/news/toyota-lexus-lf-zc-ev-shelved-global-demand-slowdown/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-lexus-lf-zc-ev-shelved-global-demand-slowdown/</guid>
+      <pubDate>Fri, 29 May 2026 18:00:42 +0530</pubDate>
+      <description>Toyota has reportedly halted the Lexus LF-ZC electric sedan as global EV demand cools, joining Honda and Nissan in trimming EV plans.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata's Design Boss Is Right: Budget Buyers Won't Settle Anymore</title>
       <link>https://www.thecarjury.com/news/tata-martin-uhlarik-budget-cars-premium-expectations/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/flex-fuel-rollout-gradual-careedge-ethanol-surplus-2026/</guid>
       <pubDate>Mon, 18 May 2026 09:00:41 +0530</pubDate>
       <description>CareEdge says India&amp;#x27;s ethanol capacity is running at 60% utilisation and flex-fuel vehicle adoption will stay slow for at least three years.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Sierra EV Confirmed For July-September 2026: The BE6 Finally Has A Rival</title>
-      <link>https://www.thecarjury.com/news/tata-sierra-ev-launch-q2-fy27-confirmed/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-launch-q2-fy27-confirmed/</guid>
-      <pubDate>Sun, 17 May 2026 20:35:44 +0530</pubDate>
-      <description>Tata confirms Sierra EV for Q2 FY2026-27, targeting under Rs 18 lakh and 450 km range to take on the Mahindra BE6. Here are the facts.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
