@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — full preview (not published)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;1,9..144,400&family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --font-display: "Fraunces", Georgia, serif;
+      --font-body:    "Source Serif 4", Charter, Georgia, serif;
+      --font-ui:      "Inter", -apple-system, Arial, sans-serif;
+      --red:          #C8102E;
+      --red-dark:     #A30C24;
+      --paper:        #FAF8F5;
+      --white:        #FFFFFF;
+      --hairline:     #E5E2DC;
+      --stone-400:    #9E9A93;
+      --stone-600:    #6B6B6B;
+      --stone-800:    #3D3D3D;
+      --ink:          #1A1A1A;
+      --green:        #0E6B3C;
+      --green-tint:   #E6F2EC;
+      --red-50:       #FDF2F4;
+      --amber:        #B8860B;
+      --amber-tint:   #FBF3DF;
+      --slate-tint:   #EFEEEB;
+    }
+    * { box-sizing: border-box; }
+    body { background: var(--paper); color: var(--ink); font-family: var(--font-ui); -webkit-font-smoothing: antialiased; line-height: 1.7; margin: 0; }
+    a { color: var(--red); text-decoration: none; }
+    a:hover { color: var(--red-dark); }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 64px 32px 100px; }
+    .page-category { font: 600 11px/1 var(--font-ui); letter-spacing: 0.14em; color: var(--red); text-transform: uppercase; margin-bottom: 20px; }
+    .page-title { font: 700 44px/1.15 var(--font-display); color: var(--ink); letter-spacing: -0.02em; margin-bottom: 20px; }
+    .page-lead { font: 400 21px/1.6 var(--font-body); color: var(--stone-800); font-style: italic; margin-bottom: 56px; padding-left: 20px; border-left: 3px solid var(--red); }
+    h2 { font: 700 28px/1.2 var(--font-display); color: var(--ink); letter-spacing: -0.01em; margin: 48px 0 16px; }
+    p { font: 400 17px/1.75 var(--font-body); color: var(--stone-800); margin-bottom: 20px; }
+    .section-rule { border: none; border-top: 1px solid var(--hairline); margin: 48px 0; }
+
+    .step-grid { display: grid; gap: 16px; margin: 24px 0 40px; }
+    .step { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 20px 24px; display: flex; gap: 18px; align-items: flex-start; }
+    .step-num { font: 700 20px/1 var(--font-display); color: var(--red); flex-shrink: 0; margin-top: 2px; min-width: 28px; }
+    .step-text strong { font: 700 16px/1.3 var(--font-ui); color: var(--ink); display: block; margin-bottom: 6px; }
+    .step-text p { font: 400 14px/1.6 var(--font-ui); color: var(--stone-600); margin: 0; }
+
+    .score-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 24px 0 32px; }
+    .score-card { background: var(--white); border: 1px solid var(--hairline); border-radius: 8px; padding: 16px 20px; }
+    .score-card__label { font: 700 13px/1 var(--font-ui); color: var(--ink); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px; }
+    .score-card__desc { font: 400 13px/1.5 var(--font-ui); color: var(--stone-600); margin: 0; }
+    .score-card--highlight { border-color: var(--red); background: var(--red-50); }
+    .score-card--highlight .score-card__label { color: var(--red); }
+
+    .verdict-bands { display: flex; flex-direction: column; gap: 8px; margin: 20px 0 40px; }
+    .verdict-band { display: flex; align-items: center; gap: 16px; padding: 14px 20px; border-radius: 8px; }
+    .verdict-band--buy { background: var(--green-tint); }
+    .verdict-band--wait { background: var(--amber-tint); }
+    .verdict-band--skip { background: var(--slate-tint); }
+    .verdict-badge { font: 700 12px/1 var(--font-ui); letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 10px; border-radius: 4px; flex-shrink: 0; min-width: 48px; text-align: center; }
+    .verdict-badge--buy { background: var(--green); color: #fff; }
+    .verdict-badge--wait { background: var(--amber); color: #fff; }
+    .verdict-badge--skip { background: var(--stone-600); color: #fff; }
+    .verdict-band__text { font: 400 14px/1.5 var(--font-ui); color: var(--stone-800); }
+    .verdict-band__score { font: 700 14px/1 var(--font-ui); color: var(--stone-600); margin-left: auto; flex-shrink: 0; }
+
+    .principle-list { list-style: none; margin: 16px 0 40px; padding: 0; }
+    .principle-list li { padding: 12px 0 12px 24px; position: relative; font: 400 16px/1.5 var(--font-body); color: var(--stone-800); border-bottom: 1px solid var(--hairline); }
+    .principle-list li::before { content: "\2192"; position: absolute; left: 0; color: var(--red); font-weight: 600; }
+    .principle-list li:last-child { border-bottom: none; }
+
+    .agenda-block { border-left: 3px solid var(--red); padding-left: 20px; margin: 32px 0; }
+    .agenda-block p { font: 400 17px/1.75 var(--font-body); color: var(--stone-800); margin-bottom: 16px; }
+    .agenda-block p:last-child { margin-bottom: 0; }
+
+    .preview-flag { background: #FFF3D6; border: 1px solid #E6C766; color: #6B5300; font: 500 12px/1.5 var(--font-ui); padding: 10px 16px; border-radius: 8px; margin-bottom: 32px; }
+
+    @media (max-width: 768px) {
+      .score-grid { grid-template-columns: 1fr; }
+      .wrap { padding: 40px 20px 80px; }
+      .page-title { font-size: 30px; }
+      .page-lead { font-size: 17px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="preview-flag">LOCAL PREVIEW — not published. Full About page with the reimagined "How It Works" section. Changed copy: How It Works (all 5 steps) and the "How Cars Are Scored" intro line.</div>
+
+    <p class="page-category">About The Car Jury</p>
+    <h1 class="page-title">India's car media has an agenda. We don't.</h1>
+    <p class="page-lead">We find every credible independent review, weigh the evidence, and return one verdict: Buy, Wait, or Skip. Here's exactly how, and why you can trust it.</p>
+
+    <hr class="section-rule" />
+
+    <h2>How It Works</h2>
+    <div class="step-grid">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <strong>We start with several independent voices</strong>
+          <p>We gather a panel of India's most credible independent car reviewers, never a single opinion. They funded their own access and answer to no one: no dealerships, no media houses, no manufacturer money. If a reviewer has a relationship that could colour their verdict, they are out.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <strong>We read every word, not just the highlights</strong>
+          <p>For each car we work through the reviewers' complete video transcripts, often well over 100,000 words on a single model. Every opinion, every spec, every complaint and every bit of praise is captured, including the things that get glossed over in a two-minute summary.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-text">
+          <strong>We weigh them against each other</strong>
+          <p>We map where the reviewers agree, where they genuinely split, and what the hard facts are. Reading many voices together is the whole point: it cancels out one person's bias, covers the blind spots a single reviewer is bound to miss, and stops one loud opinion from defining the car. Every finding is traced back to something a reviewer actually said on record. Nothing is assumed, nothing is invented.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-text">
+          <strong>We score six dimensions</strong>
+          <p>Design, Interior, Performance, Ride Quality, Build Quality, and Value for Money. Each is scored on the consensus across every reviewer we read, and where they disagree we surface it rather than paper over it. The overall Jury Score is the weighted average.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-text">
+          <strong>We give you a Buy, Wait, or Skip verdict</strong>
+          <p>Every review ends with a clear recommendation. Not "it depends", a real answer for a real Indian buyer.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="section-rule" />
+
+    <h2>How Cars Are Scored</h2>
+    <p>Every car is evaluated across six dimensions. Each dimension is scored from 1 to 10 based on consensus across every reviewer we read, and where reviewers disagree, we surface that too.</p>
+
+    <div class="score-grid">
+      <div class="score-card">
+        <p class="score-card__label">Design</p>
+        <p class="score-card__desc">Exterior styling, proportions, and kerb appeal, both subjective reaction and market fit.</p>
+      </div>
+      <div class="score-card">
+        <p class="score-card__label">Interior</p>
+        <p class="score-card__desc">Cabin quality, material feel, ergonomics, and feature richness for the price.</p>
+      </div>
+      <div class="score-card">
+        <p class="score-card__label">Performance</p>
+        <p class="score-card__desc">Engine response, gearbox behaviour, in-city driveability, and highway confidence.</p>
+      </div>
+      <div class="score-card">
+        <p class="score-card__label">Ride Quality</p>
+        <p class="score-card__desc">Comfort on Indian roads, broken tarmac, speed breakers, and highway cruising.</p>
+      </div>
+      <div class="score-card">
+        <p class="score-card__label">Build Quality</p>
+        <p class="score-card__desc">Panel fit, material durability, NVH suppression, and long-term reliability signals.</p>
+      </div>
+      <div class="score-card score-card--highlight">
+        <p class="score-card__label">Value for Money</p>
+        <p class="score-card__desc">The most weighted dimension. Does the car justify its price against rivals in India?</p>
+      </div>
+    </div>
+
+    <p>The overall <strong>Jury Score</strong> is a weighted average, with Value for Money carrying the highest weight, because that's what matters most to an Indian buyer. The score then maps to one of three verdicts:</p>
+
+    <div class="verdict-bands">
+      <div class="verdict-band verdict-band--buy">
+        <span class="verdict-badge verdict-badge--buy">Buy</span>
+        <span class="verdict-band__text">Strongly recommended. Earns its price and more. A safe, confident choice.</span>
+        <span class="verdict-band__score">7.0 +</span>
+      </div>
+      <div class="verdict-band verdict-band--wait">
+        <span class="verdict-badge verdict-badge--wait">Wait</span>
+        <span class="verdict-band__text">Decent car with caveats. A better variant, rival, or update may suit you better.</span>
+        <span class="verdict-band__score">5.0 – 6.9</span>
+      </div>
+      <div class="verdict-band verdict-band--skip">
+        <span class="verdict-badge verdict-badge--skip">Skip</span>
+        <span class="verdict-band__text">Not worth your money right now. Alternatives exist or the flaws are too significant.</span>
+        <span class="verdict-band__score">below 5.0</span>
+      </div>
+    </div>
+
+    <hr class="section-rule" />
+
+    <h2>Our Principles</h2>
+    <ul class="principle-list">
+      <li>No manufacturer relationships, ever</li>
+      <li>No sponsored content or paid placements</li>
+      <li>No test drives arranged by PR agencies</li>
+      <li>All verdicts sourced from publicly available independent reviews</li>
+      <li>Disagreements between reviewers are surfaced, not hidden</li>
+      <li>Indian road conditions, Indian prices, Indian buyer priorities</li>
+    </ul>
+
+    <hr class="section-rule" />
+
+    <h2>Why We Built This</h2>
+    <div class="agenda-block">
+      <p>Most car reviewers in India get their test drives arranged by manufacturers. Manufacturer PR decides who gets early access, which journalists are invited, and sometimes what can and cannot be said. The result is reviews that read like press releases.</p>
+      <p>We built The Car Jury because we got tired of it. We don't take manufacturer test drives. We don't accept sponsorships. We have no relationships with automakers, and we never will.</p>
+      <p>Instead, we find India's best independent creators, people who funded their own access to the car, read every word of their transcripts, weigh their opinions against each other, and give you one clear, honest verdict. No agenda. No conflicts. Just the truth about the car.</p>
+    </div>
+
+    <p style="margin-top:40px"><a href="/reviews/">Read our reviews →</a></p>
+  </div>
+</body>
+</html>
