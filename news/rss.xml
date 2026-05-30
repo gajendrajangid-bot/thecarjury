@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 30 May 2026 10:33:23 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 14:05:33 +0800</lastBuildDate>
+    <item>
+      <title>JSW Takes The Wheel At MG India As SAIC Cuts Stake To 39 Percent</title>
+      <link>https://www.thecarjury.com/news/jsw-mg-motor-india-saic-stake-sale-control/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-mg-motor-india-saic-stake-sale-control/</guid>
+      <pubDate>Sat, 30 May 2026 14:05:32 +0800</pubDate>
+      <description>SAIC is selling another 10 percent of JSW MG Motor India to JSW Group, making the Indian partner the largest shareholder. Here is what it means.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Toyota Ebella E3 At Rs 23.60 Lakh: Rs 3.60 Lakh Tax For A Badge</title>
       <link>https://www.thecarjury.com/news/toyota-ebella-e3-launched-23-60-lakh/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-ymc-brezza-baleno-facelift-spied-together/</guid>
       <pubDate>Tue, 19 May 2026 09:00:43 +0530</pubDate>
       <description>Maruti&amp;#x27;s YMC electric MPV was spotted testing alongside the Brezza and Baleno facelifts, signalling a packed 2026-27 product run for the brand.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti's Second Kharkhoda Plant Goes Live: Brezza, Victoris Output Hits Top Gear</title>
-      <link>https://www.thecarjury.com/news/maruti-kharkhoda-plant-2-brezza-victoris-production/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-kharkhoda-plant-2-brezza-victoris-production/</guid>
-      <pubDate>Mon, 18 May 2026 14:00:41 +0530</pubDate>
-      <description>Maruti Suzuki begins production at its second Kharkhoda plant, taking total India capacity to 26.5 lakh units annually across four facilities.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
