@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 30 May 2026 14:07:01 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 14:09:04 +0800</lastBuildDate>
+    <item>
+      <title>SAIC Hands JSW The Keys: What An Indian-Controlled MG Means For Buyers</title>
+      <link>https://www.thecarjury.com/news/saic-to-sell-10-percent-stake-jsw-mg-motor-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/saic-to-sell-10-percent-stake-jsw-mg-motor-india/</guid>
+      <pubDate>Sat, 30 May 2026 14:09:03 +0800</pubDate>
+      <description>SAIC will sell another 10% in JSW MG Motor India to JSW, making the Jindal group the largest shareholder. Here is what it means for MG buyers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Jeep Teases Mystery SUV: Tata ARGOS-Based India Project Or NG Renegade?</title>
       <link>https://www.thecarjury.com/news/jeep-new-suv-teaser-stellantis-tata-argos-renegade/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-mid-size-suv-india-debut-july-9-2026/</guid>
       <pubDate>Thu, 21 May 2026 09:00:39 +0530</pubDate>
       <description>Nissan Tekton, the badge-engineered Renault Duster, will debut in India on July 9, 2026 with petrol and hybrid options in the mid-size SUV segment.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Mercedes-AMG GT 4-Door Coupe Goes Electric: 1,169 bhp, 2.1s to 100</title>
-      <link>https://www.thecarjury.com/news/2026-mercedes-amg-gt-4-door-coupe-ev-debut/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-mercedes-amg-gt-4-door-coupe-ev-debut/</guid>
-      <pubDate>Wed, 20 May 2026 14:00:44 +0530</pubDate>
-      <description>The 2026 Mercedes-AMG GT 4-Door Coupe ditches the V8 for an 800V electric setup, with 1,169 bhp in GT 63 trim and 700 km of claimed range.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
