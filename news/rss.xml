@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 30 May 2026 14:06:10 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 14:07:01 +0800</lastBuildDate>
+    <item>
+      <title>Jeep Teases Mystery SUV: Tata ARGOS-Based India Project Or NG Renegade?</title>
+      <link>https://www.thecarjury.com/news/jeep-new-suv-teaser-stellantis-tata-argos-renegade/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/jeep-new-suv-teaser-stellantis-tata-argos-renegade/</guid>
+      <pubDate>Sat, 30 May 2026 14:06:54 +0800</pubDate>
+      <description>Stellantis teased a new Jeep SUV at Investor Day 2026. Is it the next-gen Renegade or the Tata ARGOS-based India project? The Car Jury weighs in.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2026 Honda City Facelift: Sharper Face, Same Hybrid Smarts, Still The Thinking Buyer's Sedan</title>
       <link>https://www.thecarjury.com/news/2026-honda-city-facelift-launch-review/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-mercedes-amg-gt-4-door-coupe-ev-debut/</guid>
       <pubDate>Wed, 20 May 2026 14:00:44 +0530</pubDate>
       <description>The 2026 Mercedes-AMG GT 4-Door Coupe ditches the V8 for an 800V electric setup, with 1,169 bhp in GT 63 trim and 700 km of claimed range.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Tiago Facelift Lands 28 May: Mild Refresh, Not a Reinvention</title>
-      <link>https://www.thecarjury.com/news/tata-tiago-facelift-launch-date-28-may-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-tiago-facelift-launch-date-28-may-2026/</guid>
-      <pubDate>Wed, 20 May 2026 09:00:42 +0530</pubDate>
-      <description>Tata confirms the 2026 Tiago facelift for 28 May with revised styling and more equipment. Here is what buyers should actually expect.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
