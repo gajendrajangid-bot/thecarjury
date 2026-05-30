@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 30 May 2026 16:30:49 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 16:31:26 +0800</lastBuildDate>
+    <item>
+      <title>Mumbai CNG hits Rs 86/kg: second hike in May erodes the fuel's case</title>
+      <link>https://www.thecarjury.com/news/mumbai-cng-price-hike-may-2026-rs-86-per-kg/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mumbai-cng-price-hike-may-2026-rs-86-per-kg/</guid>
+      <pubDate>Sat, 30 May 2026 16:31:25 +0800</pubDate>
+      <description>Mahanagar Gas raises Mumbai CNG by Rs 2/kg to Rs 86, the second hike this month. The running-cost gap to petrol keeps narrowing.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Jeep Borrows Tata's ARGOS Platform: India Becomes Jeep's Global Factory</title>
       <link>https://www.thecarjury.com/news/jeep-global-suv-tata-argos-platform-2028/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-gle-gls-night-edition-india-price-2026/</guid>
       <pubDate>Thu, 21 May 2026 18:45:18 +0530</pubDate>
       <description>Mercedes GLE and GLS Night Editions launched in India from Rs 1.05 crore ex-showroom. The Car Jury&amp;#x27;s verdict on the cosmetic markup of up to Rs 5 lakh.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2027 Hyundai Creta Spied Again: Seltos Hybrid Hardware Is The Real Story</title>
-      <link>https://www.thecarjury.com/news/2027-hyundai-creta-spied-seltos-hybrid-powertrain/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2027-hyundai-creta-spied-seltos-hybrid-powertrain/</guid>
-      <pubDate>Thu, 21 May 2026 17:05:26 +0530</pubDate>
-      <description>The 2027 Hyundai Creta has been spied in Jaipur sharing test hardware with the new Kia Seltos hybrid. Here is what it means for Indian buyers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
