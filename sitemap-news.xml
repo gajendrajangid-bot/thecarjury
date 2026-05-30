@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-honda-city-facelift-launch-review/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-30T14:06:09+08:00</news:publication_date>
+      <news:title>2026 Honda City Facelift: Sharper Face, Same Hybrid Smarts, Still The Thinking Buyer's Sedan</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/2026-tata-tiago-petrol-cng-prices-variants-features/</loc>
     <lastmod>2026-05-29</lastmod>
     <news:news>
@@ -15,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/byd-dolphin-g-dm-i-plug-in-hybrid-europe-debut/</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-05-30</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
