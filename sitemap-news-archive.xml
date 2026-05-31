@@ -50,7 +50,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/e25-petrol-standard-india-roadmap-2-3-years/</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -111,6 +111,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-creta-3rd-gen-pleos-connect-spied-india/</loc>
     <lastmod>2026-05-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/india-automakers-multi-powertrain-strategy-ev-hybrid-2026/</loc>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 31 May 2026 16:30:49 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 16:31:26 +0800</lastBuildDate>
+    <item>
+      <title>Carmakers Hedge On EVs: Why Less Than Half Of FY26 Launches Are Electric</title>
+      <link>https://www.thecarjury.com/news/india-automakers-multi-powertrain-strategy-ev-hybrid-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/india-automakers-multi-powertrain-strategy-ev-hybrid-2026/</guid>
+      <pubDate>Sun, 31 May 2026 16:31:25 +0800</pubDate>
+      <description>Indian automakers are splitting bets across petrol, diesel, hybrid, CNG and EVs in FY26, with less than half of new launches electric. Here is why.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mercedes Recalls G 580 Electric in India Over Loose Wheel Bolt Risk</title>
       <link>https://www.thecarjury.com/news/mercedes-g-class-electric-recall-wheel-bolts-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mid-size-suv-sales-april-2026-creta-victoris-seltos-sierra/</guid>
       <pubDate>Sat, 23 May 2026 12:25:41 +0530</pubDate>
       <description>Mid-size SUV sales jumped 72% YoY in April 2026 as Creta led, Victoris debuted at No.2 and Sierra entered. The Car Jury&amp;#x27;s verdict on what to buy.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Next Creta With Pleos Connect: Hyundai Is About To Out-Tech Every Mid-Size SUV</title>
-      <link>https://www.thecarjury.com/news/hyundai-creta-3rd-gen-pleos-connect-spied-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-creta-3rd-gen-pleos-connect-spied-india/</guid>
-      <pubDate>Sat, 23 May 2026 12:11:47 +0530</pubDate>
-      <description>The 3rd-gen Hyundai Creta spied with Pleos Connect single-screen cockpit signals a tech lead over Seltos, Taigun and Grand Vitara in India.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
