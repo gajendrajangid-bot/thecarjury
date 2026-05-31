@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 31 May 2026 11:09:51 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 16:30:49 +0800</lastBuildDate>
+    <item>
+      <title>Mercedes Recalls G 580 Electric in India Over Loose Wheel Bolt Risk</title>
+      <link>https://www.thecarjury.com/news/mercedes-g-class-electric-recall-wheel-bolts-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-g-class-electric-recall-wheel-bolts-india/</guid>
+      <pubDate>Sun, 31 May 2026 16:30:38 +0800</pubDate>
+      <description>Mercedes-Benz India recalls 99 units of the G 580 Electric over wheel bolts that may loosen with use, the brand&amp;#x27;s second recall this year.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Volkswagen Enters Sri Lanka With Made-in-India Taigun And Virtus</title>
       <link>https://www.thecarjury.com/news/volkswagen-sri-lanka-launch-taigun-virtus-india-export/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-creta-3rd-gen-pleos-connect-spied-india/</guid>
       <pubDate>Sat, 23 May 2026 12:11:47 +0530</pubDate>
       <description>The 3rd-gen Hyundai Creta spied with Pleos Connect single-screen cockpit signals a tech lead over Seltos, Taigun and Grand Vitara in India.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Honda ZR-V e:HEV Is Honda's Premium Reset, But CBU Pricing Will Decide Its Fate</title>
-      <link>https://www.thecarjury.com/news/honda-zr-v-ehev-hybrid-india-launch-bookings-open/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/honda-zr-v-ehev-hybrid-india-launch-bookings-open/</guid>
-      <pubDate>Fri, 22 May 2026 14:00:34 +0530</pubDate>
-      <description>Honda ZR-V e:HEV bookings open in India with 22.8 km/l claimed mileage, Level-2 ADAS and CBU import route. The Car Jury&amp;#x27;s verdict on what it means.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
