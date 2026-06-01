@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/india-automakers-multi-powertrain-strategy-ev-hybrid-2026/</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -47,6 +47,18 @@
       </news:publication>
       <news:publication_date>2026-06-01T11:34:33+08:00</news:publication_date>
       <news:title>June 2026 Launches: S-Class PHEV Headlines, BMW X4 Returns, Tata Lurks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/kia-india-sales-may-2026-best-ever-month/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-01T16:51:21+08:00</news:publication_date>
+      <news:title>Kia India's Best-Ever May: 27,586 Units, Up 24% YoY</news:title>
     </news:news>
   </url>
   <url>

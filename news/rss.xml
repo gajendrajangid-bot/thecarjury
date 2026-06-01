@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 01 Jun 2026 16:37:50 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 16:51:24 +0800</lastBuildDate>
+    <item>
+      <title>Kia India's Best-Ever May: 27,586 Units, Up 24% YoY</title>
+      <link>https://www.thecarjury.com/news/kia-india-sales-may-2026-best-ever-month/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-sales-may-2026-best-ever-month/</guid>
+      <pubDate>Mon, 01 Jun 2026 16:51:21 +0800</pubDate>
+      <description>Kia India dispatched 27,586 units in May 2026, its highest-ever May, up 23.62% YoY. Seltos continues to anchor the volume story.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>JSW MG Targets 70% Localisation: The Right Fix For The Wrong Problem</title>
       <link>https://www.thecarjury.com/news/jsw-mg-motor-70-percent-localisation-plan/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-india-4-upcoming-cars-2026-virtus-facelift/</guid>
       <pubDate>Mon, 25 May 2026 07:45:19 +0530</pubDate>
       <description>Volkswagen has four cars lined up for India led by the Virtus facelift in Q3 2026. We say the plan is too cautious to move the needle.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>SBI's Rs 8,000 Crore Bet On JSW Motors Is The EV Industry's Real Stamp Of Arrival</title>
-      <link>https://www.thecarjury.com/news/sbi-8000-crore-jsw-motors-ev-credit-line-verdict/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/sbi-8000-crore-jsw-motors-ev-credit-line-verdict/</guid>
-      <pubDate>Mon, 25 May 2026 07:14:56 +0530</pubDate>
-      <description>SBI has committed Rs 8,000 crore to JSW Motors over a 10-year tenure. The Car Jury on what this means for MG buyers and India&amp;#x27;s EV race.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
