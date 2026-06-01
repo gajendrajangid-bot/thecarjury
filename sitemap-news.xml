@@ -2,30 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-honda-city-facelift-launch-review/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-30T14:06:09+08:00</news:publication_date>
-      <news:title>2026 Honda City Facelift: Sharper Face, Same Hybrid Smarts, Still The Thinking Buyer's Sedan</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/e25-petrol-standard-india-roadmap-2-3-years/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-30T16:32:00+08:00</news:publication_date>
-      <news:title>E25 Petrol As India's Default In 2-3 Years: Mileage Will Drop, Prices Won't</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/india-automakers-multi-powertrain-strategy-ev-hybrid-2026/</loc>
     <lastmod>2026-05-31</lastmod>
     <news:news>
@@ -50,39 +26,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/jeep-global-suv-tata-argos-platform-2028/</loc>
+    <loc>https://www.thecarjury.com/news/jsw-mg-motor-70-percent-localisation-plan/</loc>
     <lastmod>2026-06-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-05-30T16:30:48+08:00</news:publication_date>
-      <news:title>Jeep Borrows Tata's ARGOS Platform: India Becomes Jeep's Global Factory</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/jeep-new-suv-teaser-stellantis-tata-argos-renegade/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-30T14:06:54+08:00</news:publication_date>
-      <news:title>Jeep Teases Mystery SUV: Tata ARGOS-Based India Project Or NG Renegade?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/jsw-mg-motor-india-saic-stake-sale-control/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-30T14:05:32+08:00</news:publication_date>
-      <news:title>JSW Takes The Wheel At MG India As SAIC Cuts Stake To 39 Percent</news:title>
+      <news:publication_date>2026-06-01T16:37:48+08:00</news:publication_date>
+      <news:title>JSW MG Targets 70% Localisation: The Right Fix For The Wrong Problem</news:title>
     </news:news>
   </url>
   <url>
@@ -119,42 +71,6 @@
       </news:publication>
       <news:publication_date>2026-05-31T16:30:38+08:00</news:publication_date>
       <news:title>Mercedes Recalls G 580 Electric in India Over Loose Wheel Bolt Risk</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mumbai-cng-price-hike-may-2026-rs-86-per-kg/</loc>
-    <lastmod>2026-06-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-30T16:31:25+08:00</news:publication_date>
-      <news:title>Mumbai CNG hits Rs 86/kg: second hike in May erodes the fuel's case</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/saic-to-sell-10-percent-stake-jsw-mg-motor-india/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-30T14:09:03+08:00</news:publication_date>
-      <news:title>SAIC Hands JSW The Keys: What An Indian-Controlled MG Means For Buyers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/volkswagen-sri-lanka-launch-taigun-virtus-india-export/</loc>
-    <lastmod>2026-05-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-30T16:33:16+08:00</news:publication_date>
-      <news:title>Volkswagen Enters Sri Lanka With Made-in-India Taigun And Virtus</news:title>
     </news:news>
   </url>
 </urlset>

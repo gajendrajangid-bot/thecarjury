@@ -139,6 +139,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/jsw-mg-motor-70-percent-localisation-plan/</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/jsw-mg-motor-india-saic-stake-sale-control/</loc>
     <lastmod>2026-06-01</lastmod>
     <changefreq>daily</changefreq>
@@ -266,7 +272,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/saic-to-sell-10-percent-stake-jsw-mg-motor-india/</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
