@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/june-2026-launches-mercedes-s-class-bmw-x4-tata/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-india-sales-may-2026-best-ever-month/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -63,7 +63,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mahindra-vision-s-pratap-bose-deleted-instagram-leak/</loc>
-    <lastmod>2026-05-31</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -71,6 +71,18 @@
       </news:publication>
       <news:publication_date>2026-05-31T16:32:34+08:00</news:publication_date>
       <news:title>Mahindra's Vision S Slips Out: Pratap Bose's Deleted Story Hints at Production SUV</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/may-2026-car-sales-tata-beats-mahindra-second-place/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T11:31:16+08:00</news:publication_date>
+      <news:title>May 2026 sales: Tata edges Mahindra by 1,069 units, Maruti hits record high</news:title>
     </news:news>
   </url>
   <url>
@@ -83,6 +95,18 @@
       </news:publication>
       <news:publication_date>2026-05-31T16:30:38+08:00</news:publication_date>
       <news:title>Mercedes Recalls G 580 Electric in India Over Loose Wheel Bolt Risk</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-safari-ev-spied-testing-first-time/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T11:33:23+08:00</news:publication_date>
+      <news:title>Tata Safari EV Spied: Flagship Three-Row eSUV Sets Up XEV 9S Fight</news:title>
     </news:news>
   </url>
 </urlset>
