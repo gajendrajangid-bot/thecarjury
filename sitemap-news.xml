@@ -110,18 +110,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mercedes-g-class-electric-recall-wheel-bolts-india/</loc>
-    <lastmod>2026-06-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T16:30:38+08:00</news:publication_date>
-      <news:title>Mercedes Recalls G 580 Electric in India Over Loose Wheel Bolt Risk</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/pv-sales-may-2026-maruti-mahindra-tata-resilient/</loc>
     <lastmod>2026-06-02</lastmod>
     <news:news>
@@ -143,6 +131,18 @@
       </news:publication>
       <news:publication_date>2026-06-02T11:33:23+08:00</news:publication_date>
       <news:title>Tata Safari EV Spied: Flagship Three-Row eSUV Sets Up XEV 9S Fight</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/vingroup-green-sm-taxi-india-launch-june-5-vinfast/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T16:30:38+08:00</news:publication_date>
+      <news:title>Vingroup's Green SM Taxi Lands In India June 5: A Vinfast Trojan Horse</news:title>
     </news:news>
   </url>
 </urlset>
