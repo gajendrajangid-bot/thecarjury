@@ -62,18 +62,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mahindra-vision-s-pratap-bose-deleted-instagram-leak/</loc>
-    <lastmod>2026-06-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T16:32:34+08:00</news:publication_date>
-      <news:title>Mahindra's Vision S Slips Out: Pratap Bose's Deleted Story Hints at Production SUV</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/maruti-e-vitara-cng-bookings-surge-fuel-price-hike-june-2026/</loc>
     <lastmod>2026-06-02</lastmod>
     <news:news>
@@ -131,6 +119,18 @@
       </news:publication>
       <news:publication_date>2026-06-02T11:33:23+08:00</news:publication_date>
       <news:title>Tata Safari EV Spied: Flagship Three-Row eSUV Sets Up XEV 9S Fight</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-safari-ev-spied-xev-9s-rival/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T16:32:33+08:00</news:publication_date>
+      <news:title>Tata Safari EV Spied: Late To The 7-Seat EV Party Mahindra Already Owns</news:title>
     </news:news>
   </url>
   <url>
