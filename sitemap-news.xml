@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-mini-countryman-c-india-launch-june-17/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T11:33:55+08:00</news:publication_date>
+      <news:title>Mini Countryman C Lands June 17: The Sensible Countryman Finally Arrives</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/india-automakers-multi-powertrain-strategy-ev-hybrid-2026/</loc>
     <lastmod>2026-06-02</lastmod>
     <news:news>
