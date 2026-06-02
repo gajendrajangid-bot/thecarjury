@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 02 Jun 2026 11:34:02 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 11:36:12 +0800</lastBuildDate>
+    <item>
+      <title>May 2026 EV sales: Tata's 10,000-unit month proves the moat is real</title>
+      <link>https://www.thecarjury.com/news/may-2026-ev-sales-tata-crosses-10000-units/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/may-2026-ev-sales-tata-crosses-10000-units/</guid>
+      <pubDate>Tue, 02 Jun 2026 11:36:11 +0800</pubDate>
+      <description>Tata crossed 10,000 EV units in May 2026 as the segment grew 80 percent YoY. The Car Jury on what the numbers say about Tata, Mahindra and MG.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mini Countryman C Lands June 17: The Sensible Countryman Finally Arrives</title>
       <link>https://www.thecarjury.com/news/2026-mini-countryman-c-india-launch-june-17/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/renault-nissan-april-2026-sales-duster-magnite/</guid>
       <pubDate>Tue, 26 May 2026 08:03:30 +0530</pubDate>
       <description>Renault and Nissan posted 8,616 combined units in April 2026, nearly double YoY, led by the new Duster and Nissan Magnite. The Car Jury&amp;#x27;s take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Renault Bridger Patent Filing: The Jimny Finally Has a Real Rival Coming</title>
-      <link>https://www.thecarjury.com/news/renault-bridger-suv-india-patent-jimny-rival/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-bridger-suv-india-patent-jimny-rival/</guid>
-      <pubDate>Mon, 25 May 2026 18:01:57 +0530</pubDate>
-      <description>Renault has patented the Bridger SUV in India. The Car Jury&amp;#x27;s take on why this sub-4m lifestyle SUV worries Maruti and Mahindra more than they admit.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

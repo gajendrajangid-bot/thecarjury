@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/jsw-mg-motor-70-percent-localisation-plan/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-06-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -95,6 +95,18 @@
       </news:publication>
       <news:publication_date>2026-06-02T11:31:16+08:00</news:publication_date>
       <news:title>May 2026 sales: Tata edges Mahindra by 1,069 units, Maruti hits record high</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/may-2026-ev-sales-tata-crosses-10000-units/</loc>
+    <lastmod>2026-06-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T11:36:11+08:00</news:publication_date>
+      <news:title>May 2026 EV sales: Tata's 10,000-unit month proves the moat is real</news:title>
     </news:news>
   </url>
   <url>
