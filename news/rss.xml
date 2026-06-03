@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 03 Jun 2026 11:31:32 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 20:30:49 +0800</lastBuildDate>
+    <item>
+      <title>Citroen eC3 Facelift Teased: Cosmetic Fixes Won't Solve The Real Problem</title>
+      <link>https://www.thecarjury.com/news/citroen-ec3-facelift-teased-india-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/citroen-ec3-facelift-teased-india-launch/</guid>
+      <pubDate>Wed, 03 Jun 2026 20:30:40 +0800</pubDate>
+      <description>Citroen has teased the eC3 facelift with LED lights, refreshed bumpers and a longer feature list. Mechanicals unchanged. Our verdict on whether it matters.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Nissan Tekton Spied Ahead Of July Launch: A Duster In Sharper Clothes</title>
       <link>https://www.thecarjury.com/news/nissan-tekton-spied-july-2026-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-victoris-cng-discount-rs-2-10-lakh-fine-print/</guid>
       <pubDate>Tue, 26 May 2026 08:56:51 +0530</pubDate>
       <description>Maruti Victoris CNG dealer benefits stretch up to Rs 2.10 lakh in May 2026, but most of that figure is conditional. Here is what to actually expect.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Renault Bridger Patent Filed In India: Chennai-Built Boxy SUV Targets 2027</title>
-      <link>https://www.thecarjury.com/news/renault-bridger-india-patent-2027-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-bridger-india-patent-2027-launch/</guid>
-      <pubDate>Tue, 26 May 2026 08:56:14 +0530</pubDate>
-      <description>Renault has filed patents for the Bridger SUV in India ahead of a 2027 launch. The boxy, Chennai-developed SUV will arrive in five versions.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
