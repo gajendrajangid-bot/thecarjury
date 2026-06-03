@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 03 Jun 2026 10:34:25 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 11:30:50 +0800</lastBuildDate>
+    <item>
+      <title>Toyota GRMN Corolla: 305hp Hot Hatch India Will Never Get</title>
+      <link>https://www.thecarjury.com/news/toyota-grmn-corolla-305hp-unveiled-india-relevance/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-grmn-corolla-305hp-unveiled-india-relevance/</guid>
+      <pubDate>Wed, 03 Jun 2026 11:30:41 +0800</pubDate>
+      <description>Toyota Gazoo Racing reveals the 305hp GRMN Corolla with 415Nm, carbonfibre panels and a manual-only gearbox. India is not on the list.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Safari EV Spied: Late To The 7-Seat EV Party Mahindra Already Owns</title>
       <link>https://www.thecarjury.com/news/tata-safari-ev-spied-xev-9s-rival/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-majestor-production-begins-fortuner-rival/</guid>
       <pubDate>Tue, 26 May 2026 08:55:36 +0530</pubDate>
       <description>MG Majestor production begins with bookings open at Rs 41,000. A 212bhp diesel 4x4 ladder-frame SUV gunning for the Toyota Fortuner. Our verdict.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Honda City V Variant At Rs 13.29 Lakh: The Sensible Sedan Buy</title>
-      <link>https://www.thecarjury.com/news/2026-honda-city-facelift-v-variant-value-pick/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-honda-city-facelift-v-variant-value-pick/</guid>
-      <pubDate>Tue, 26 May 2026 08:55:04 +0530</pubDate>
-      <description>The 2026 Honda City facelift V variant is now Rs 13.29 lakh, up Rs 30,000. Here is why it remains the smartest pick in the sedan lineup.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
