@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-toyota-innova-crysta-facelift-launch-price/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-04T16:32:50+08:00</news:publication_date>
+      <news:title>2026 Toyota Innova Crysta Launched at Rs 19.72 Lakh: Toyota Milks the Cash Cow One More Time</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/2026-toyota-innova-crysta-launched-price-features/</loc>
     <lastmod>2026-06-04</lastmod>
     <news:news>
@@ -83,18 +95,6 @@
       </news:publication>
       <news:publication_date>2026-06-03T11:31:25+08:00</news:publication_date>
       <news:title>Nissan Tekton Spied Ahead Of July Launch: A Duster In Sharper Clothes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-safari-ev-spied-xev-9s-rival/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T16:32:33+08:00</news:publication_date>
-      <news:title>Tata Safari EV Spied: Late To The 7-Seat EV Party Mahindra Already Owns</news:title>
     </news:news>
   </url>
   <url>
