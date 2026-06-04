@@ -26,18 +26,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/byd-first-phev-india-debut-june-9-atto-2-sealion-6/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T16:31:53+08:00</news:publication_date>
-      <news:title>BYD's First India PHEV Lands June 9: Atto 2 Or Sealion 6 Incoming</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/citroen-ec3-facelift-teased-india-launch/</loc>
     <lastmod>2026-06-04</lastmod>
     <news:news>
@@ -71,6 +59,18 @@
       </news:publication>
       <news:publication_date>2026-06-04T16:31:23+08:00</news:publication_date>
       <news:title>Maruti's E100 Flex-Fuel Car Lands June 5: Gadkari Spills The Plan</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/maruti-wagon-r-flex-fuel-e85-india-first/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-04T16:31:58+08:00</news:publication_date>
+      <news:title>Maruti Wagon R Flex-Fuel: India's First E85 Car Is A Policy Win, Not A Buyer's Win</news:title>
     </news:news>
   </url>
   <url>

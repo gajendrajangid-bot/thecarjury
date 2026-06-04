@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 04 Jun 2026 16:31:23 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 16:32:13 +0800</lastBuildDate>
+    <item>
+      <title>Maruti Wagon R Flex-Fuel: India's First E85 Car Is A Policy Win, Not A Buyer's Win</title>
+      <link>https://www.thecarjury.com/news/maruti-wagon-r-flex-fuel-e85-india-first/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-wagon-r-flex-fuel-e85-india-first/</guid>
+      <pubDate>Thu, 04 Jun 2026 16:31:58 +0800</pubDate>
+      <description>Maruti showcases the Wagon R flex-fuel, India&amp;#x27;s first E85-compliant car. Cheaper fuel is promised, but pumps and economics decide if buyers benefit.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti's E100 Flex-Fuel Car Lands June 5: Gadkari Spills The Plan</title>
       <link>https://www.thecarjury.com/news/maruti-e100-ethanol-flex-fuel-car-june-5-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-majestor-launch-price-rs-40-99-lakh-fortuner-rival/</guid>
       <pubDate>Wed, 27 May 2026 14:13:28 +0530</pubDate>
       <description>MG Majestor launches in India at Rs 40.99 lakh ex-showroom. The Car Jury on whether this Fortuner rival deserves your money.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Honda City SV Costs More Than Slavia, Virtus Base: But You Get What You Pay For</title>
-      <link>https://www.thecarjury.com/news/honda-city-facelift-base-variant-vs-slavia-virtus-features/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/honda-city-facelift-base-variant-vs-slavia-virtus-features/</guid>
-      <pubDate>Wed, 27 May 2026 09:01:50 +0530</pubDate>
-      <description>Honda City facelift&amp;#x27;s base SV is Rs 1.5-2 lakh dearer than Slavia and Virtus base trims, but packs an 8-inch screen and more kit. TCJ&amp;#x27;s take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
