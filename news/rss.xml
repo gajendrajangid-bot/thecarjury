@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 04 Jun 2026 16:30:50 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 16:31:23 +0800</lastBuildDate>
+    <item>
+      <title>Maruti's E100 Flex-Fuel Car Lands June 5: Gadkari Spills The Plan</title>
+      <link>https://www.thecarjury.com/news/maruti-e100-ethanol-flex-fuel-car-june-5-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-e100-ethanol-flex-fuel-car-june-5-launch/</guid>
+      <pubDate>Thu, 04 Jun 2026 16:31:23 +0800</pubDate>
+      <description>Nitin Gadkari confirms Maruti Suzuki will unveil India&amp;#x27;s first E100 ethanol passenger car on June 5. Wagon R and Fronx are the likely candidates.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2026 Toyota Innova Crysta gets cosmetic update, costlier by up to Rs 83,000</title>
       <link>https://www.thecarjury.com/news/2026-toyota-innova-crysta-launched-price-features/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/honda-city-facelift-base-variant-vs-slavia-virtus-features/</guid>
       <pubDate>Wed, 27 May 2026 09:01:50 +0530</pubDate>
       <description>Honda City facelift&amp;#x27;s base SV is Rs 1.5-2 lakh dearer than Slavia and Virtus base trims, but packs an 8-inch screen and more kit. TCJ&amp;#x27;s take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Sedan Sales April 2026: Dzire Eats Two-Thirds Of The Segment, City Quietly Grows 22%</title>
-      <link>https://www.thecarjury.com/news/sedan-sales-april-2026-dzire-city-virtus-verna/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/sedan-sales-april-2026-dzire-city-virtus-verna/</guid>
-      <pubDate>Wed, 27 May 2026 09:01:20 +0530</pubDate>
-      <description>Sedans grew 22% YoY in April 2026 to 35,218 units. Maruti Dzire took 67% share; Honda City posted 22% growth. The Car Jury verdict.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
