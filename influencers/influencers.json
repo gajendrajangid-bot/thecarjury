@@ -168,7 +168,8 @@
       "audi/q8",
       "land-rover/range-rover",
       "land-rover/range-rover-sport",
-      "tata/tiago"
+      "tata/tiago",
+      "mercedes/glb"
     ],
     "photo_url": "https://yt3.googleusercontent.com/KojhQpxOWF17GlgsBC-QlZ-YeNZv78d04Y5dCxlFPrupK-rC8si9qX3i9iU4y_XpkGprVNEJrg=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "21.2L",
@@ -409,7 +410,8 @@
       "nissan/x-trail",
       "nissan/gravite",
       "tata/tiago",
-      "hyundai/tucson"
+      "hyundai/tucson",
+      "mercedes/glb"
     ],
     "photo_url": "",
     "subscriber_count": "24L",
@@ -1636,7 +1638,8 @@
       "land-rover/range-rover",
       "nissan/x-trail",
       "nissan/gravite",
-      "hyundai/tucson"
+      "hyundai/tucson",
+      "mercedes/glb"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1954,6 +1957,19 @@
     "subscriber_count": "",
     "articles": [
       "bmw/x5"
+    ]
+  },
+  {
+    "slug": "carwow",
+    "name": "carwow",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "carwow",
+    "youtube_url": "https://www.youtube.com/@carwow",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "mercedes/glb"
     ]
   }
 ]
