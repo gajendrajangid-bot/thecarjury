@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 04 Jun 2026 11:31:39 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 16:30:50 +0800</lastBuildDate>
+    <item>
+      <title>2026 Toyota Innova Crysta gets cosmetic update, costlier by up to Rs 83,000</title>
+      <link>https://www.thecarjury.com/news/2026-toyota-innova-crysta-launched-price-features/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-toyota-innova-crysta-launched-price-features/</guid>
+      <pubDate>Thu, 04 Jun 2026 16:30:34 +0800</pubDate>
+      <description>Toyota launches the 2026 Innova Crysta from Rs 19.72 lakh ex-showroom with mild styling tweaks. Likely the last update before 2027 phase-out.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2026 Toyota Vellfire Updated In Japan: India Launch Makes Business Sense</title>
       <link>https://www.thecarjury.com/news/2026-toyota-vellfire-japan-update-india-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/sedan-sales-april-2026-dzire-city-virtus-verna/</guid>
       <pubDate>Wed, 27 May 2026 09:01:20 +0530</pubDate>
       <description>Sedans grew 22% YoY in April 2026 to 35,218 units. Maruti Dzire took 67% share; Honda City posted 22% growth. The Car Jury verdict.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Kylaq Europe Export Plan: India's Sub-4m SUV Could Save VW From Chinese Onslaught</title>
-      <link>https://www.thecarjury.com/news/skoda-kylaq-europe-export-plan/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-kylaq-europe-export-plan/</guid>
-      <pubDate>Wed, 27 May 2026 09:00:34 +0530</pubDate>
-      <description>Skoda is reportedly evaluating the India-built Kylaq for European export under Euro 20,000 as VW Group fights Chinese rivals. TCJ&amp;#x27;s take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

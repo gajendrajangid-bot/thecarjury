@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-mini-countryman-c-india-launch-june-17/</loc>
+    <loc>https://www.thecarjury.com/news/2026-toyota-innova-crysta-launched-price-features/</loc>
     <lastmod>2026-06-04</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-06-02T11:33:55+08:00</news:publication_date>
-      <news:title>Mini Countryman C Lands June 17: The Sensible Countryman Finally Arrives</news:title>
+      <news:publication_date>2026-06-04T16:30:34+08:00</news:publication_date>
+      <news:title>2026 Toyota Innova Crysta gets cosmetic update, costlier by up to Rs 83,000</news:title>
     </news:news>
   </url>
   <url>
@@ -74,18 +74,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/may-2026-ev-sales-tata-crosses-10000-units/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T11:36:11+08:00</news:publication_date>
-      <news:title>May 2026 EV sales: Tata's 10,000-unit month proves the moat is real</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-spied-july-2026-launch/</loc>
     <lastmod>2026-06-03</lastmod>
     <news:news>
@@ -95,30 +83,6 @@
       </news:publication>
       <news:publication_date>2026-06-03T11:31:25+08:00</news:publication_date>
       <news:title>Nissan Tekton Spied Ahead Of July Launch: A Duster In Sharper Clothes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/pv-sales-may-2026-maruti-mahindra-tata-resilient/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T11:36:45+08:00</news:publication_date>
-      <news:title>May 2026 PV Sales: Maruti, Mahindra, Tata Shrug Off Fuel Hikes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-safari-ev-spied-testing-first-time/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T11:33:23+08:00</news:publication_date>
-      <news:title>Tata Safari EV Spied: Flagship Three-Row eSUV Sets Up XEV 9S Fight</news:title>
     </news:news>
   </url>
   <url>
@@ -143,18 +107,6 @@
       </news:publication>
       <news:publication_date>2026-06-03T11:30:41+08:00</news:publication_date>
       <news:title>Toyota GRMN Corolla: 305hp Hot Hatch India Will Never Get</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/vingroup-green-sm-taxi-india-launch-june-5-vinfast/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T16:30:38+08:00</news:publication_date>
-      <news:title>Vingroup's Green SM Taxi Lands In India June 5: A Vinfast Trojan Horse</news:title>
     </news:news>
   </url>
 </urlset>
