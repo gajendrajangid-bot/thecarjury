@@ -14,6 +14,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/2026-toyota-vellfire-japan-update-india-launch/</loc>
+    <lastmod>2026-06-04</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-04T11:31:24+08:00</news:publication_date>
+      <news:title>2026 Toyota Vellfire Updated In Japan: India Launch Makes Business Sense</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/byd-first-phev-india-debut-june-9-atto-2-sealion-6/</loc>
     <lastmod>2026-06-04</lastmod>
     <news:news>
@@ -59,18 +71,6 @@
       </news:publication>
       <news:publication_date>2026-06-02T16:31:08+08:00</news:publication_date>
       <news:title>Fuel Price Shock Sends Buyers to Maruti's CNG and e Vitara</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/may-2026-car-sales-tata-beats-mahindra-second-place/</loc>
-    <lastmod>2026-06-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T11:31:16+08:00</news:publication_date>
-      <news:title>May 2026 sales: Tata edges Mahindra by 1,069 units, Maruti hits record high</news:title>
     </news:news>
   </url>
   <url>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/toyota-grmn-corolla-305hp-unveiled-india-relevance/</loc>
-    <lastmod>2026-06-03</lastmod>
+    <lastmod>2026-06-04</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
