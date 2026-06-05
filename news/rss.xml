@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 05 Jun 2026 16:34:25 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 20:30:41 +0800</lastBuildDate>
+    <item>
+      <title>2026 F1 Monaco GP: India Timings, Where To Watch, And Why Antonelli Is Vulnerable</title>
+      <link>https://www.thecarjury.com/news/2026-f1-monaco-gp-india-timings-schedule/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-f1-monaco-gp-india-timings-schedule/</guid>
+      <pubDate>Fri, 05 Jun 2026 20:30:40 +0800</pubDate>
+      <description>2026 F1 Monaco GP India timings, streaming details on FanCode and F1 TV, plus why Ferrari has a real shot at beating Mercedes this weekend.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Next-Gen Hyundai i20 Teased: Curved Screens And ADAS Incoming, But Where's The Diesel Answer?</title>
       <link>https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-global-reveal/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-majestor-vs-toyota-fortuner-comparison-2026/</guid>
       <pubDate>Thu, 28 May 2026 09:02:59 +0530</pubDate>
       <description>MG Majestor launches February 12, 2026 with a longer wheelbase and bigger cabin than the Toyota Fortuner. We weigh size against reliability.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti Serviced 2.84 Crore Cars in FY26: The Real Moat Isn't Sales</title>
-      <link>https://www.thecarjury.com/news/maruti-suzuki-service-network-fy26-2-84-crore-vehicles/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-suzuki-service-network-fy26-2-84-crore-vehicles/</guid>
-      <pubDate>Thu, 28 May 2026 09:00:39 +0530</pubDate>
-      <description>Maruti Suzuki serviced 2.84 crore vehicles in FY26 across 5,926 touchpoints. The Car Jury on why this network is the brand&amp;#x27;s real moat.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

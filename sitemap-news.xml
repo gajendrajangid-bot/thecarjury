@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-f1-monaco-gp-india-timings-schedule/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T20:30:40+08:00</news:publication_date>
+      <news:title>2026 F1 Monaco GP: India Timings, Where To Watch, And Why Antonelli Is Vulnerable</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/2026-toyota-innova-crysta-facelift-launch-price/</loc>
     <lastmod>2026-06-04</lastmod>
     <news:news>
@@ -47,18 +59,6 @@
       </news:publication>
       <news:publication_date>2026-06-05T16:30:55+08:00</news:publication_date>
       <news:title>Audi Nuvolari revealed: 1,001hp V8 PHEV halo lands at Rs 6.64 crore</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/citroen-ec3-facelift-teased-india-launch/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-03T20:30:40+08:00</news:publication_date>
-      <news:title>Citroen eC3 Facelift Teased: Cosmetic Fixes Won't Solve The Real Problem</news:title>
     </news:news>
   </url>
   <url>
