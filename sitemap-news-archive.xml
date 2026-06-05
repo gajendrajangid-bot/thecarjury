@@ -236,7 +236,13 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mahindra-xev-9e-spied-undisguised-australia-export-launch/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mahindra-xuv7xo-diesel-automatic-awd-mileage-test/</loc>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

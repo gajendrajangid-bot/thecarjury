@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 05 Jun 2026 20:30:41 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 20:31:30 +0800</lastBuildDate>
+    <item>
+      <title>Mahindra XUV7XO Diesel AT AWD Mileage Test: Numbers That Justify the Bigger Engine</title>
+      <link>https://www.thecarjury.com/news/mahindra-xuv7xo-diesel-automatic-awd-mileage-test/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xuv7xo-diesel-automatic-awd-mileage-test/</guid>
+      <pubDate>Fri, 05 Jun 2026 20:31:17 +0800</pubDate>
+      <description>We drove the Mahindra XUV7XO Diesel Automatic AWD for 1,500 km across cities, highways and farm roads. Here is the real mileage verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2026 F1 Monaco GP: India Timings, Where To Watch, And Why Antonelli Is Vulnerable</title>
       <link>https://www.thecarjury.com/news/2026-f1-monaco-gp-india-timings-schedule/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-tiago-2026-launch-price-baas-cng-ev/</guid>
       <pubDate>Thu, 28 May 2026 14:02:38 +0530</pubDate>
       <description>Tata launches the new Tiago from Rs 4.69 lakh petrol and Rs 6.99 lakh EV, with a BaaS plan that drops the EV entry to Rs 4.69 lakh plus battery rent.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG Majestor vs Fortuner: Bigger Numbers Won't Crack Toyota's Grip</title>
-      <link>https://www.thecarjury.com/news/mg-majestor-vs-toyota-fortuner-comparison-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-majestor-vs-toyota-fortuner-comparison-2026/</guid>
-      <pubDate>Thu, 28 May 2026 09:02:59 +0530</pubDate>
-      <description>MG Majestor launches February 12, 2026 with a longer wheelbase and bigger cabin than the Toyota Fortuner. We weigh size against reliability.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
