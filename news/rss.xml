@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 05 Jun 2026 20:31:30 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 20:32:06 +0800</lastBuildDate>
+    <item>
+      <title>Tata EV Discounts June 2026: Harrier EV Cut By Rs 2.75 Lakh, Curvv EV By Rs 3.35 Lakh</title>
+      <link>https://www.thecarjury.com/news/tata-harrier-ev-curvv-ev-discounts-june-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-harrier-ev-curvv-ev-discounts-june-2026/</guid>
+      <pubDate>Fri, 05 Jun 2026 20:32:05 +0800</pubDate>
+      <description>Tata Motors slashes Harrier EV, Curvv EV, Nexon EV and outgoing Punch EV, Tiago EV prices by up to Rs 3.35 lakh in June 2026. The Car Jury verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mahindra XUV7XO Diesel AT AWD Mileage Test: Numbers That Justify the Bigger Engine</title>
       <link>https://www.thecarjury.com/news/mahindra-xuv7xo-diesel-automatic-awd-mileage-test/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/byd-dolphin-g-dm-i-plug-in-hybrid-europe-debut/</guid>
       <pubDate>Thu, 28 May 2026 15:23:23 +0530</pubDate>
       <description>BYD unveils the Dolphin G DM-i, a 4.1m plug-in hybrid hatch with 1,000 km range for Europe. India hint follows. Our verdict on what it means.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>New Tata Tiago at Rs 4.69 Lakh: The BaaS Trick That Reframes the Hatchback War</title>
-      <link>https://www.thecarjury.com/news/tata-tiago-2026-launch-price-baas-cng-ev/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-tiago-2026-launch-price-baas-cng-ev/</guid>
-      <pubDate>Thu, 28 May 2026 14:02:38 +0530</pubDate>
-      <description>Tata launches the new Tiago from Rs 4.69 lakh petrol and Rs 6.99 lakh EV, with a BaaS plan that drops the EV entry to Rs 4.69 lakh plus battery rent.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
