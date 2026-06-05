@@ -38,8 +38,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/audi-nuvolari-v8-phev-supercar-revealed/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-05T16:30:55+08:00</news:publication_date>
+      <news:title>Audi Nuvolari revealed: 1,001hp V8 PHEV halo lands at Rs 6.64 crore</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/citroen-ec3-facelift-teased-india-launch/</loc>
-    <lastmod>2026-06-04</lastmod>
+    <lastmod>2026-06-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -86,18 +98,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/nissan-tekton-spied-july-2026-launch/</loc>
-    <lastmod>2026-06-03</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-03T11:31:25+08:00</news:publication_date>
-      <news:title>Nissan Tekton Spied Ahead Of July Launch: A Duster In Sharper Clothes</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/skoda-peaq-design-sketches-june-23-debut/</loc>
     <lastmod>2026-06-04</lastmod>
     <news:news>
@@ -119,18 +119,6 @@
       </news:publication>
       <news:publication_date>2026-06-04T20:31:33+08:00</news:publication_date>
       <news:title>Tata Nexon Petrol Gets Rs 55,000 Off In June 2026: Worth Grabbing?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/toyota-grmn-corolla-305hp-unveiled-india-relevance/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-03T11:30:41+08:00</news:publication_date>
-      <news:title>Toyota GRMN Corolla: 305hp Hot Hatch India Will Never Get</news:title>
     </news:news>
   </url>
 </urlset>

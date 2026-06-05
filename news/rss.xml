@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 05 Jun 2026 10:44:58 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 16:31:11 +0800</lastBuildDate>
+    <item>
+      <title>Audi Nuvolari revealed: 1,001hp V8 PHEV halo lands at Rs 6.64 crore</title>
+      <link>https://www.thecarjury.com/news/audi-nuvolari-v8-phev-supercar-revealed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-nuvolari-v8-phev-supercar-revealed/</guid>
+      <pubDate>Fri, 05 Jun 2026 16:30:55 +0800</pubDate>
+      <description>Audi unveils the Nuvolari, a 1,001hp V8 plug-in hybrid halo supercar limited to 499 units, priced at Rs 6.64 crore and based on the Lamborghini Temerario.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Nexon Petrol Gets Rs 55,000 Off In June 2026: Worth Grabbing?</title>
       <link>https://www.thecarjury.com/news/tata-nexon-discounts-june-2026-55000/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/honda-city-facelift-base-sv-vs-slavia-virtus-pricing-features/</guid>
       <pubDate>Wed, 27 May 2026 14:43:28 +0530</pubDate>
       <description>Honda City facelift base SV starts at Rs 11.99 lakh, well above the Slavia and Virtus base. Here is why the premium is defensible.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Kylaq Heading To Europe: India's Sub-4m Win Becomes A Global Card</title>
-      <link>https://www.thecarjury.com/news/skoda-kylaq-europe-export-plan-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-kylaq-europe-export-plan-2026/</guid>
-      <pubDate>Wed, 27 May 2026 14:41:37 +0530</pubDate>
-      <description>Skoda is considering exporting the India-made Kylaq to Europe at under Euro 20,000 to counter Chinese rivals. Here is what it means for buyers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
