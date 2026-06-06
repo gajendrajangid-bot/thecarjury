@@ -62,6 +62,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/delhi-first-e85-fuel-station-rs-82-per-litre/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T11:31:17+08:00</news:publication_date>
+      <news:title>Delhi Opens India's First E85 Pump At Rs 82: Cheap Fuel, But Where Are The Cars?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyundai-creta-discount-june-2026-rs-1-lakh-benefits/</loc>
     <lastmod>2026-06-06</lastmod>
     <news:news>
@@ -83,18 +95,6 @@
       </news:publication>
       <news:publication_date>2026-06-05T16:32:56+08:00</news:publication_date>
       <news:title>Hyundai bets big on Tamil Nadu: 90% localisation and a mass-market EV by year-end</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mahindra-xev-9e-spied-undisguised-australia-export-launch/</loc>
-    <lastmod>2026-06-06</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T11:30:41+08:00</news:publication_date>
-      <news:title>Mahindra XEV 9E Spied In Australia: Export Push Begins, But India Still Waits On Fixes</news:title>
     </news:news>
   </url>
   <url>
