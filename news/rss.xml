@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 06 Jun 2026 10:34:50 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 11:30:40 +0800</lastBuildDate>
+    <item>
+      <title>Next-Gen Hyundai i20 Teased With Lambo-Style LEDs: India Wait Begins</title>
+      <link>https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-led-signature/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-led-signature/</guid>
+      <pubDate>Sat, 06 Jun 2026 11:30:39 +0800</pubDate>
+      <description>Hyundai Brazil has teased the 4th-gen i20 with Y-shaped LED DRLs and a full-width light bar. Here is what it means for the Indian premium hatch.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>May 2026 Sales: Dzire Tops, Fronx Surges, Creta Holds the SUV Line</title>
       <link>https://www.thecarjury.com/news/top-10-cars-suvs-may-2026-sales-dzire-creta/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-ebella-electric-suv-india-launch-cancelled/</guid>
       <pubDate>Thu, 28 May 2026 18:01:42 +0530</pubDate>
       <description>Toyota has reportedly cancelled the Ebella electric SUV launch in India and is refunding bookings with interest. The Car Jury&amp;#x27;s verdict.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata EV Bookings Jump 2.5X As Fuel Prices Bite: Sub-Rs 15 Lakh Is The Sweet Spot</title>
-      <link>https://www.thecarjury.com/news/tata-ev-bookings-2-5x-fuel-prices-shailesh-chandra/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-ev-bookings-2-5x-fuel-prices-shailesh-chandra/</guid>
-      <pubDate>Thu, 28 May 2026 18:01:09 +0530</pubDate>
-      <description>Tata Motors says EV bookings have jumped 2 to 2.5 times in two months as West Asia tensions push fuel prices up. Capacity is going to 15,000 units.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
