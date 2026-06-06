@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-f1-monaco-gp-india-timings-schedule/</loc>
-    <lastmod>2026-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/2026-honda-city-facelift-launch-review/</loc>
     <lastmod>2026-05-30</lastmod>
     <changefreq>daily</changefreq>
@@ -86,6 +80,12 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/byd-first-phev-india-debut-june-9-atto-2-sealion-6/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/car-sales-may-2026-maruti-tata-mahindra-lead/</loc>
     <lastmod>2026-06-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -248,7 +248,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mahindra-xuv7xo-diesel-automatic-awd-mileage-test/</loc>
-    <lastmod>2026-06-05</lastmod>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
