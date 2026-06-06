@@ -38,18 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/2026-toyota-vellfire-japan-update-india-launch/</loc>
-    <lastmod>2026-06-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T11:31:24+08:00</news:publication_date>
-      <news:title>2026 Toyota Vellfire Updated In Japan: India Launch Makes Business Sense</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/audi-nuvolari-v8-phev-supercar-revealed/</loc>
     <lastmod>2026-06-06</lastmod>
     <news:news>
@@ -155,6 +143,18 @@
       </news:publication>
       <news:publication_date>2026-06-06T11:30:39+08:00</news:publication_date>
       <news:title>Next-Gen Hyundai i20 Teased With Lambo-Style LEDs: India Wait Begins</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/renault-duster-1-0-turbo-tce-100-mileage-19-41-kpl/</loc>
+    <lastmod>2026-06-06</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T11:31:52+08:00</news:publication_date>
+      <news:title>Renault Duster 1.0 Turbo Claims 19.41kpl: The Smart Pick of the Range</news:title>
     </news:news>
   </url>
   <url>
