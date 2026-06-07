@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/audi-nuvolari-v8-phev-supercar-revealed/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T16:30:55+08:00</news:publication_date>
-      <news:title>Audi Nuvolari revealed: 1,001hp V8 PHEV halo lands at Rs 6.64 crore</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/car-sales-may-2026-maruti-tata-mahindra-lead/</loc>
     <lastmod>2026-06-07</lastmod>
     <news:news>
@@ -50,30 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/hyundai-creta-discount-june-2026-rs-1-lakh-benefits/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T16:31:47+08:00</news:publication_date>
-      <news:title>Hyundai Creta Gets Rs 1 Lakh Off In June 2026: Worth Grabbing Before Sierra Lands</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-tamil-nadu-ev-hub-90-percent-localisation-2032/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T16:32:56+08:00</news:publication_date>
-      <news:title>Hyundai bets big on Tamil Nadu: 90% localisation and a mass-market EV by year-end</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/jeep-meridian-compass-discounts-june-2026/</loc>
     <lastmod>2026-06-07</lastmod>
     <news:news>
@@ -107,18 +71,6 @@
       </news:publication>
       <news:publication_date>2026-06-07T14:29:01+08:00</news:publication_date>
       <news:title>Fronx Sport Edition Lands In Malaysia At Rs 30.7 Lakh: Cosmetics Only, No India Plan</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-global-reveal/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T16:34:24+08:00</news:publication_date>
-      <news:title>Next-Gen Hyundai i20 Teased: Curved Screens And ADAS Incoming, But Where's The Diesel Answer?</news:title>
     </news:news>
   </url>
   <url>
@@ -171,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-sales-may-2026-punch-nexon-sierra-breakup/</loc>
-    <lastmod>2026-06-06</lastmod>
+    <lastmod>2026-06-07</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -191,6 +143,18 @@
       </news:publication>
       <news:publication_date>2026-06-06T17:28:31+08:00</news:publication_date>
       <news:title>New Tata Tiago Facelift: Still The Smart First-Car Pick At Rs 4.69 Lakh?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/top-10-bestselling-cars-may-2026-maruti-dzire-fronx-ertiga/</loc>
+    <lastmod>2026-06-07</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T17:18:12+08:00</news:publication_date>
+      <news:title>Top 10 cars, May 2026: Maruti owns the podium, Tata holds the middle</news:title>
     </news:news>
   </url>
   <url>
