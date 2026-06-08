@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/car-sales-may-2026-maruti-tata-mahindra-lead/</loc>
+    <loc>https://www.thecarjury.com/news/bmw-mini-2-percent-price-hike-july-2026/</loc>
     <lastmod>2026-06-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-06-06T17:27:54+08:00</news:publication_date>
-      <news:title>May 2026 Sales: Maruti's 43% Stranglehold Tells You Where The Money Is</news:title>
+      <news:publication_date>2026-06-08T17:55:10+05:30</news:publication_date>
+      <news:title>BMW And MINI Get Pricier Again From July 2026: Second Hike This Year</news:title>
     </news:news>
   </url>
   <url>
@@ -122,18 +122,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/renault-duster-tce-100-arai-mileage-19-41-kmpl/</loc>
-    <lastmod>2026-06-06</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-06T17:29:57+08:00</news:publication_date>
-      <news:title>Renault Duster TCe 100 Returns 19.41 km/l ARAI: Class-Leading, On Paper</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/tata-sales-may-2026-punch-nexon-sierra-breakup/</loc>
     <lastmod>2026-06-08</lastmod>
     <news:news>
@@ -143,18 +131,6 @@
       </news:publication>
       <news:publication_date>2026-06-06T20:35:02+08:00</news:publication_date>
       <news:title>Tata's May 2026 Numbers: Sierra Lands At No. 3, Punch And Nexon Carry The Roof</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-tiago-facelift-2026-review-verdict/</loc>
-    <lastmod>2026-06-08</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-06T17:28:31+08:00</news:publication_date>
-      <news:title>New Tata Tiago Facelift: Still The Smart First-Car Pick At Rs 4.69 Lakh?</news:title>
     </news:news>
   </url>
   <url>
