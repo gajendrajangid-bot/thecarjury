@@ -314,7 +314,13 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-tata-hatchback-revival-mass-market-2026/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/maruti-victoris-1-lakh-sales-milestone-india/</loc>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

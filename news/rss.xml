@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 08 Jun 2026 14:52:26 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 14:53:39 +0530</lastBuildDate>
+    <item>
+      <title>Maruti Victoris Hits 1 Lakh Sales in 8 Months: Grand Vitara Now Has a Problem</title>
+      <link>https://www.thecarjury.com/news/maruti-victoris-1-lakh-sales-milestone-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-victoris-1-lakh-sales-milestone-india/</guid>
+      <pubDate>Mon, 08 Jun 2026 14:53:07 +0530</pubDate>
+      <description>Maruti Victoris crosses 1 lakh sales in just over eight months, beating the Grand Vitara and reshaping Maruti&amp;#x27;s mid-size SUV play.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai's Bayon-based SUV Spied: Another Fronx Rival India Doesn't Need</title>
       <link>https://www.thecarjury.com/news/hyundai-bayon-compact-suv-spied-india-launch-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-g-class-electric-recall-wheel-bolts-india/</guid>
       <pubDate>Sun, 31 May 2026 16:30:38 +0800</pubDate>
       <description>Mercedes-Benz India recalls 99 units of the G 580 Electric over wheel bolts that may loosen with use, the brand&amp;#x27;s second recall this year.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Volkswagen Enters Sri Lanka With Made-in-India Taigun And Virtus</title>
-      <link>https://www.thecarjury.com/news/volkswagen-sri-lanka-launch-taigun-virtus-india-export/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-sri-lanka-launch-taigun-virtus-india-export/</guid>
-      <pubDate>Sat, 30 May 2026 16:33:16 +0800</pubDate>
-      <description>Skoda Auto Volkswagen India launches the VW brand in Sri Lanka with Chakan-built Taigun and Virtus, opening a 3S facility near Colombo.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
