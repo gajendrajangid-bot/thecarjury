@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/car-sales-may-2026-maruti-tata-mahindra-lead/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -11,18 +11,6 @@
       </news:publication>
       <news:publication_date>2026-06-06T17:27:54+08:00</news:publication_date>
       <news:title>May 2026 Sales: Maruti's 43% Stranglehold Tells You Where The Money Is</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/delhi-first-e85-fuel-station-rs-82-per-litre/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-06T11:31:17+08:00</news:publication_date>
-      <news:title>Delhi Opens India's First E85 Pump At Rs 82: Cheap Fuel, But Where Are The Cars?</news:title>
     </news:news>
   </url>
   <url>
@@ -38,8 +26,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-bayon-compact-suv-spied-india-launch-2026/</loc>
+    <lastmod>2026-06-08</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-08T14:52:06+05:30</news:publication_date>
+      <news:title>Hyundai's Bayon-based SUV Spied: Another Fronx Rival India Doesn't Need</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/jeep-meridian-compass-discounts-june-2026/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -62,20 +62,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mahindra-xuv7xo-diesel-automatic-awd-mileage-test/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T20:31:17+08:00</news:publication_date>
-      <news:title>Mahindra XUV7XO Diesel AT AWD Mileage Test: Numbers That Justify the Bigger Engine</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/maruti-fronx-sport-edition-malaysia-rm131k/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -99,7 +87,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-victoris-discount-june-2026-90000-off/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -107,30 +95,6 @@
       </news:publication>
       <news:publication_date>2026-06-07T17:18:47+08:00</news:publication_date>
       <news:title>Maruti Victoris Gets Rs 90,000 Off In June 2026: Worth Grabbing?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-led-signature/</loc>
-    <lastmod>2026-06-06</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-06T11:30:39+08:00</news:publication_date>
-      <news:title>Next-Gen Hyundai i20 Teased With Lambo-Style LEDs: India Wait Begins</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/renault-duster-1-0-turbo-tce-100-mileage-19-41-kpl/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-06T11:31:52+08:00</news:publication_date>
-      <news:title>Renault Duster 1.0 Turbo Claims 19.41kpl: The Smart Pick of the Range</news:title>
     </news:news>
   </url>
   <url>
@@ -146,20 +110,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/tata-harrier-ev-curvv-ev-discounts-june-2026/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T20:32:05+08:00</news:publication_date>
-      <news:title>Tata EV Discounts June 2026: Harrier EV Cut By Rs 2.75 Lakh, Curvv EV By Rs 3.35 Lakh</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/tata-sales-may-2026-punch-nexon-sierra-breakup/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -171,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-tiago-facelift-2026-review-verdict/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -183,7 +135,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/top-10-bestselling-cars-may-2026-maruti-dzire-fronx-ertiga/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -191,18 +143,6 @@
       </news:publication>
       <news:publication_date>2026-06-07T17:18:12+08:00</news:publication_date>
       <news:title>Top 10 cars, May 2026: Maruti owns the podium, Tata holds the middle</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/top-10-cars-suvs-may-2026-sales-dzire-creta/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T20:32:40+08:00</news:publication_date>
-      <news:title>May 2026 Sales: Dzire Tops, Fronx Surges, Creta Holds the SUV Line</news:title>
     </news:news>
   </url>
 </urlset>
