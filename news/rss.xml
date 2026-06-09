@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 09 Jun 2026 11:50:24 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 11:51:10 +0530</lastBuildDate>
+    <item>
+      <title>Nissan Gravite Gets Rs 18,000 Costlier: Still Cheaper Than Triber Twin</title>
+      <link>https://www.thecarjury.com/news/nissan-gravite-price-hike-june-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-gravite-price-hike-june-2026/</guid>
+      <pubDate>Tue, 09 Jun 2026 11:51:08 +0530</pubDate>
+      <description>Nissan has raised Gravite prices by up to Rs 18,000 from June 2026. The sub-4m MPV still undercuts its Renault Triber twin on every trim.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>XUV 7XO Is Outrunning The XUV700: Mahindra's Rename Gamble Pays Off</title>
       <link>https://www.thecarjury.com/news/mahindra-xuv-7xo-sales-surge-2026-record-year/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-safari-ev-spied-testing-first-time/</guid>
       <pubDate>Tue, 02 Jun 2026 11:33:23 +0800</pubDate>
       <description>Tata Safari EV spied testing for the first time, expected at Rs 22.5-30 lakh in the festive season. Here is what we spotted and our verdict.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>May 2026 sales: Tata edges Mahindra by 1,069 units, Maruti hits record high</title>
-      <link>https://www.thecarjury.com/news/may-2026-car-sales-tata-beats-mahindra-second-place/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/may-2026-car-sales-tata-beats-mahindra-second-place/</guid>
-      <pubDate>Tue, 02 Jun 2026 11:31:16 +0800</pubDate>
-      <description>Tata Motors held second place over Mahindra by just 1,069 units in May 2026 as Maruti Suzuki posted its highest-ever monthly sales.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
