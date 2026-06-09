@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 09 Jun 2026 14:46:39 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 14:48:04 +0530</lastBuildDate>
+    <item>
+      <title>BYD Seal U PHEV lands in India by end-2026: a 1200km flex on Toyota's hybrids</title>
+      <link>https://www.thecarjury.com/news/byd-seal-u-phev-india-launch-end-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/byd-seal-u-phev-india-launch-end-2026/</guid>
+      <pubDate>Tue, 09 Jun 2026 14:47:28 +0530</pubDate>
+      <description>BYD Seal U PHEV launches in India by end-2026 with 1200km combined range and 200km EV-only mode. Here&amp;#x27;s what it means for hybrid buyers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai Venue hits 8 lakh sales: third compact SUV to do it, and it is not slowing down</title>
       <link>https://www.thecarjury.com/news/hyundai-venue-crosses-8-lakh-sales-milestone/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/pv-sales-may-2026-maruti-mahindra-tata-resilient/</guid>
       <pubDate>Tue, 02 Jun 2026 11:36:45 +0800</pubDate>
       <description>Indian PV industry clocks 4.4 lakh units in May 2026 as Maruti, Tata and Mahindra ride CNG and EV demand past fuel price worries.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>May 2026 EV sales: Tata's 10,000-unit month proves the moat is real</title>
-      <link>https://www.thecarjury.com/news/may-2026-ev-sales-tata-crosses-10000-units/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/may-2026-ev-sales-tata-crosses-10000-units/</guid>
-      <pubDate>Tue, 02 Jun 2026 11:36:11 +0800</pubDate>
-      <description>Tata crossed 10,000 EV units in May 2026 as the segment grew 80 percent YoY. The Car Jury on what the numbers say about Tata, Mahindra and MG.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
