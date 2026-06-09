@@ -50,20 +50,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/jeep-meridian-compass-discounts-june-2026/</loc>
-    <lastmod>2026-06-09</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-07T11:40:47+08:00</news:publication_date>
-      <news:title>Jeep Meridian, Compass Get Up To Rs 1.65 Lakh Off In June 2026</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mahindra-sales-may-2026-scorpio-thar-xuv-7xo-bolero-xev-9s/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -71,6 +59,18 @@
       </news:publication>
       <news:publication_date>2026-06-07T20:23:24+08:00</news:publication_date>
       <news:title>Mahindra May 2026: Scorpio Leads, 7XO And XEV 9S Push Volumes To 58,021</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mahindra-xuv-7xo-sales-surge-2026-record-year/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-09T11:50:21+05:30</news:publication_date>
+      <news:title>XUV 7XO Is Outrunning The XUV700: Mahindra's Rename Gamble Pays Off</news:title>
     </news:news>
   </url>
   <url>
