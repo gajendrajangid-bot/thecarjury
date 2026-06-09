@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/german-carmakers-idle-plants-china-defence-tie-ups/</loc>
-    <lastmod>2026-06-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-07T14:29:37+08:00</news:publication_date>
-      <news:title>Germany's Car Factories Are Up For Grabs: China Or Tanks, Take Your Pick</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-bayon-compact-suv-spied-india-launch-2026/</loc>
     <lastmod>2026-06-09</lastmod>
     <news:news>
@@ -47,6 +35,18 @@
       </news:publication>
       <news:publication_date>2026-06-08T14:54:21+05:30</news:publication_date>
       <news:title>Hyundai May 2026: Venue Surges 56%, Creta Holds, But Honda Comparison Stings</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/hyundai-venue-crosses-8-lakh-sales-milestone/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-09T14:46:36+05:30</news:publication_date>
+      <news:title>Hyundai Venue hits 8 lakh sales: third compact SUV to do it, and it is not slowing down</news:title>
     </news:news>
   </url>
   <url>
@@ -83,18 +83,6 @@
       </news:publication>
       <news:publication_date>2026-06-09T11:51:54+05:30</news:publication_date>
       <news:title>Maruti's 9-Car, 7-SUV Blitz in 3 Years: Volume Play, Not a Reinvention</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-fronx-sport-edition-malaysia-rm131k/</loc>
-    <lastmod>2026-06-09</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-07T14:29:01+08:00</news:publication_date>
-      <news:title>Fronx Sport Edition Lands In Malaysia At Rs 30.7 Lakh: Cosmetics Only, No India Plan</news:title>
     </news:news>
   </url>
   <url>
