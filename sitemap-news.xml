@@ -74,6 +74,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/maruti-9-new-cars-3-years-7-suvs-product-plan/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-09T11:51:54+05:30</news:publication_date>
+      <news:title>Maruti's 9-Car, 7-SUV Blitz in 3 Years: Volume Play, Not a Reinvention</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/maruti-fronx-sport-edition-malaysia-rm131k/</loc>
     <lastmod>2026-06-09</lastmod>
     <news:news>
@@ -99,7 +111,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-victoris-1-lakh-sales-milestone-india/</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>

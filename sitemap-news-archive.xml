@@ -295,6 +295,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/maruti-9-new-cars-3-years-7-suvs-product-plan/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/maruti-e-vitara-cng-bookings-surge-fuel-price-hike-june-2026/</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>daily</changefreq>
@@ -338,7 +344,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-victoris-1-lakh-sales-milestone-india/</loc>
-    <lastmod>2026-06-08</lastmod>
+    <lastmod>2026-06-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
