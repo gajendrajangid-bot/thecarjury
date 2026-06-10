@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/audi-q7-third-gen-debut-v6-v8-600ps/</loc>
+    <lastmod>2026-06-10</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-10T12:01:45+05:30</news:publication_date>
+      <news:title>3rd Gen Audi Q7 Debuts With 600 PS And Camera-Based ADAS, India Launch Likely</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/bmw-mini-2-percent-price-hike-july-2026/</loc>
     <lastmod>2026-06-10</lastmod>
     <news:news>

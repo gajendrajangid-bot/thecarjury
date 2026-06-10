@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 08:58:57 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:01:49 +0530</lastBuildDate>
+    <item>
+      <title>3rd Gen Audi Q7 Debuts With 600 PS And Camera-Based ADAS, India Launch Likely</title>
+      <link>https://www.thecarjury.com/news/audi-q7-third-gen-debut-v6-v8-600ps/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-q7-third-gen-debut-v6-v8-600ps/</guid>
+      <pubDate>Wed, 10 Jun 2026 12:01:45 +0530</pubDate>
+      <description>Third-generation Audi Q7 breaks cover with V6 and V8 engines, up to 600 PS, Q9-derived cabin and Matrix LED lighting. India launch likely.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Renault Duster Crosses 5,000 Sales, Adds 3-Year Free Service Sweetener</title>
       <link>https://www.thecarjury.com/news/renault-duster-5000-sales-three-year-free-service-discovery-days/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-grmn-corolla-305hp-unveiled-india-relevance/</guid>
       <pubDate>Wed, 03 Jun 2026 11:30:41 +0800</pubDate>
       <description>Toyota Gazoo Racing reveals the 305hp GRMN Corolla with 415Nm, carbonfibre panels and a manual-only gearbox. India is not on the list.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Safari EV Spied: Late To The 7-Seat EV Party Mahindra Already Owns</title>
-      <link>https://www.thecarjury.com/news/tata-safari-ev-spied-xev-9s-rival/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-safari-ev-spied-xev-9s-rival/</guid>
-      <pubDate>Tue, 02 Jun 2026 16:32:33 +0800</pubDate>
-      <description>Tata Safari EV spotted testing ahead of a festive-season launch, set to take on the Mahindra XEV 9S in the 7-seater electric SUV space.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
