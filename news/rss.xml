@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 12:02:49 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:04:47 +0530</lastBuildDate>
+    <item>
+      <title>Maruti shields Alto, S-Presso, Celerio, WagonR buyers from price hike till June 14</title>
+      <link>https://www.thecarjury.com/news/maruti-price-protection-entry-level-cars-june-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-price-protection-entry-level-cars-june-2026/</guid>
+      <pubDate>Wed, 10 Jun 2026 12:04:36 +0530</pubDate>
+      <description>Maruti Suzuki offers price protection on Alto K10, S-Presso, Celerio and WagonR for bookings made until June 14, 2026, against the recent hike.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai's Chennai Plant 1 Back to Normal by June 22, Retail Untouched</title>
       <link>https://www.thecarjury.com/news/hyundai-chennai-plant-1-production-normalise-june-22-mobis-fire/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/citroen-ec3-facelift-teased-india-launch/</guid>
       <pubDate>Wed, 03 Jun 2026 20:30:40 +0800</pubDate>
       <description>Citroen has teased the eC3 facelift with LED lights, refreshed bumpers and a longer feature list. Mechanicals unchanged. Our verdict on whether it matters.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Nissan Tekton Spied Ahead Of July Launch: A Duster In Sharper Clothes</title>
-      <link>https://www.thecarjury.com/news/nissan-tekton-spied-july-2026-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-spied-july-2026-launch/</guid>
-      <pubDate>Wed, 03 Jun 2026 11:31:25 +0800</pubDate>
-      <description>Nissan Tekton mid-size SUV spied in final testing ahead of its July 9, 2026 launch. Shares Renault Duster underpinnings with distinct boxy styling.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
