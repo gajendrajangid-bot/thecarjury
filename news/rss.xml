@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 15:09:47 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 15:10:35 +0530</lastBuildDate>
+    <item>
+      <title>Kia Sonet scores 1 star at Global NCAP, but it's the South Africa-spec car</title>
+      <link>https://www.thecarjury.com/news/kia-sonet-1-star-global-ncap-south-africa-spec/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sonet-1-star-global-ncap-south-africa-spec/</guid>
+      <pubDate>Wed, 10 Jun 2026 15:10:32 +0530</pubDate>
+      <description>India-made Kia Sonet scores 1 star for adult protection at Global NCAP, but the tested car is the dual-airbag South Africa export, not the India-spec.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia's June 2026 Discounts: Carnival Leads With Rs 1.5 Lakh Off</title>
       <link>https://www.thecarjury.com/news/kia-carnival-carens-clavis-discounts-june-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-toyota-vellfire-japan-update-india-launch/</guid>
       <pubDate>Thu, 04 Jun 2026 11:31:24 +0800</pubDate>
       <description>Toyota has updated the Vellfire and Alphard in Japan with new colours, trim and ride comfort upgrades. India launch is unconfirmed for now.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra XEV 9E Spied In Australia: Export Push Begins, But India Still Waits On Fixes</title>
-      <link>https://www.thecarjury.com/news/mahindra-xev-9e-spied-undisguised-australia-export-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xev-9e-spied-undisguised-australia-export-launch/</guid>
-      <pubDate>Thu, 04 Jun 2026 11:30:41 +0800</pubDate>
-      <description>Mahindra XEV 9E spotted testing undisguised in Melbourne signals an Australia launch. The Car Jury on what it means for the India buyer.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
