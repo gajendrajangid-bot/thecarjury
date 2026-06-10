@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/bmw-mini-2-percent-price-hike-july-2026/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-bayon-compact-suv-spied-india-launch-2026/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-sales-may-2026-creta-venue-exter-breakup/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -71,18 +71,6 @@
       </news:publication>
       <news:publication_date>2026-06-09T14:46:36+05:30</news:publication_date>
       <news:title>Hyundai Venue hits 8 lakh sales: third compact SUV to do it, and it is not slowing down</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mahindra-sales-may-2026-scorpio-thar-xuv-7xo-bolero-xev-9s/</loc>
-    <lastmod>2026-06-09</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-07T20:23:24+08:00</news:publication_date>
-      <news:title>Mahindra May 2026: Scorpio Leads, 7XO And XEV 9S Push Volumes To 58,021</news:title>
     </news:news>
   </url>
   <url>
@@ -110,20 +98,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/maruti-tata-hatchback-revival-mass-market-2026/</loc>
-    <lastmod>2026-06-09</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-07T20:24:00+08:00</news:publication_date>
-      <news:title>Maruti and Tata Bet on Hatchbacks Again as the SUV Party Cools</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/maruti-victoris-1-lakh-sales-milestone-india/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -135,7 +111,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/next-gen-hyundai-creta-kona-global-renders-2027/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -159,7 +135,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-kiger-triber-discounts-june-2026/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -183,7 +159,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-tiago-ev-facelift-2026-price-cut/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-10</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
