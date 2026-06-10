@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 08:57:17 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 08:58:09 +0530</lastBuildDate>
+    <item>
+      <title>Next-gen Hyundai i20 teased: connected LEDs in, but is India even in the plan?</title>
+      <link>https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-connected-led-lighting-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-connected-led-lighting-2026/</guid>
+      <pubDate>Wed, 10 Jun 2026 08:58:06 +0530</pubDate>
+      <description>Hyundai teases the fourth-gen i20 for Brazil with Y-shaped DRLs and connected LED tail lamps. A 2026 FIFA World Cup debut looks likely.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Haryana's EV Charger Mandate Is the Right Lever Pulled at the Right Time</title>
       <link>https://www.thecarjury.com/news/haryana-ev-charger-mandate-residential-complexes-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/byd-first-phev-india-debut-june-9-atto-2-sealion-6/</guid>
       <pubDate>Tue, 02 Jun 2026 16:31:53 +0800</pubDate>
       <description>BYD will launch its first plug-in hybrid for India on June 9, with the Atto 2 DM-i and Sealion 6 DM-i as the likely contenders.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Fuel Price Shock Sends Buyers to Maruti's CNG and e Vitara</title>
-      <link>https://www.thecarjury.com/news/maruti-e-vitara-cng-bookings-surge-fuel-price-hike-june-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-e-vitara-cng-bookings-surge-fuel-price-hike-june-2026/</guid>
-      <pubDate>Tue, 02 Jun 2026 16:31:08 +0800</pubDate>
-      <description>Maruti says e Vitara bookings nearly doubled and CNG demand jumped 40 percent in May 2026 after petrol and diesel went up Rs 8 per litre.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
