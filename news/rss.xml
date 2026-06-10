@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 08:58:09 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 08:58:57 +0530</lastBuildDate>
+    <item>
+      <title>Renault Duster Crosses 5,000 Sales, Adds 3-Year Free Service Sweetener</title>
+      <link>https://www.thecarjury.com/news/renault-duster-5000-sales-three-year-free-service-discovery-days/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-5000-sales-three-year-free-service-discovery-days/</guid>
+      <pubDate>Wed, 10 Jun 2026 08:58:54 +0530</pubDate>
+      <description>Renault Duster crosses 5,000 bookings since March 2026 launch; brand adds 3 years free maintenance under Discovery Days till June 30, 2026.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Next-gen Hyundai i20 teased: connected LEDs in, but is India even in the plan?</title>
       <link>https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-connected-led-lighting-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-safari-ev-spied-xev-9s-rival/</guid>
       <pubDate>Tue, 02 Jun 2026 16:32:33 +0800</pubDate>
       <description>Tata Safari EV spotted testing ahead of a festive-season launch, set to take on the Mahindra XEV 9S in the 7-seater electric SUV space.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>BYD's First India PHEV Lands June 9: Atto 2 Or Sealion 6 Incoming</title>
-      <link>https://www.thecarjury.com/news/byd-first-phev-india-debut-june-9-atto-2-sealion-6/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/byd-first-phev-india-debut-june-9-atto-2-sealion-6/</guid>
-      <pubDate>Tue, 02 Jun 2026 16:31:53 +0800</pubDate>
-      <description>BYD will launch its first plug-in hybrid for India on June 9, with the Atto 2 DM-i and Sealion 6 DM-i as the likely contenders.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
