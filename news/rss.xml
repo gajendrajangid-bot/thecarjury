@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 10 Jun 2026 12:01:49 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:02:49 +0530</lastBuildDate>
+    <item>
+      <title>Hyundai's Chennai Plant 1 Back to Normal by June 22, Retail Untouched</title>
+      <link>https://www.thecarjury.com/news/hyundai-chennai-plant-1-production-normalise-june-22-mobis-fire/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-chennai-plant-1-production-normalise-june-22-mobis-fire/</guid>
+      <pubDate>Wed, 10 Jun 2026 12:02:37 +0530</pubDate>
+      <description>Hyundai expects Chennai Plant 1 to resume normal output by June 22 after a Mobis India supplier fire. Dealer stock cushions retail sales.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>3rd Gen Audi Q7 Debuts With 600 PS And Camera-Based ADAS, India Launch Likely</title>
       <link>https://www.thecarjury.com/news/audi-q7-third-gen-debut-v6-v8-600ps/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-spied-july-2026-launch/</guid>
       <pubDate>Wed, 03 Jun 2026 11:31:25 +0800</pubDate>
       <description>Nissan Tekton mid-size SUV spied in final testing ahead of its July 9, 2026 launch. Shares Renault Duster underpinnings with distinct boxy styling.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Toyota GRMN Corolla: 305hp Hot Hatch India Will Never Get</title>
-      <link>https://www.thecarjury.com/news/toyota-grmn-corolla-305hp-unveiled-india-relevance/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-grmn-corolla-305hp-unveiled-india-relevance/</guid>
-      <pubDate>Wed, 03 Jun 2026 11:30:41 +0800</pubDate>
-      <description>Toyota Gazoo Racing reveals the 305hp GRMN Corolla with 415Nm, carbonfibre panels and a manual-only gearbox. India is not on the list.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
