@@ -74,6 +74,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/kia-carens-clavis-cross-3-lakh-sales-india/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T09:05:58+05:30</news:publication_date>
+      <news:title>Kia Carens and Clavis cross 3 lakh sales: the Ertiga-Innova duopoly finally has a real third option</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/kia-carnival-carens-clavis-discounts-june-2026/</loc>
     <lastmod>2026-06-11</lastmod>
     <news:news>
@@ -87,7 +99,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-sonet-1-star-global-ncap-south-africa-spec/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
