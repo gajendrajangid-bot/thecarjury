@@ -140,7 +140,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/german-carmakers-idle-plants-china-defence-tie-ups/</loc>
-    <lastmod>2026-06-07</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -771,6 +771,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/volkswagen-sri-lanka-launch-taigun-virtus-india-export/</loc>
     <lastmod>2026-05-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/volkswagen-taigun-t-cross-rock-in-rio-edition-brazil/</loc>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

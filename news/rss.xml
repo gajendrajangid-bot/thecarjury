@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 08:05:40 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 09:03:46 +0530</lastBuildDate>
+    <item>
+      <title>VW T-Cross Gets Rock In Rio Edition In Brazil While India's Taigun Gathers Dust</title>
+      <link>https://www.thecarjury.com/news/volkswagen-taigun-t-cross-rock-in-rio-edition-brazil/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-taigun-t-cross-rock-in-rio-edition-brazil/</guid>
+      <pubDate>Thu, 11 Jun 2026 09:03:43 +0530</pubDate>
+      <description>Volkswagen has launched a Rock In Rio special edition of the T-Cross (our Taigun) in Brazil. India, predictably, gets nothing of the sort.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Sonet scores 1 star at Global NCAP, but it's the South Africa-spec car</title>
       <link>https://www.thecarjury.com/news/kia-sonet-1-star-global-ncap-south-africa-spec/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-toyota-innova-crysta-launched-price-features/</guid>
       <pubDate>Thu, 04 Jun 2026 16:30:34 +0800</pubDate>
       <description>Toyota launches the 2026 Innova Crysta from Rs 19.72 lakh ex-showroom with mild styling tweaks. Likely the last update before 2027 phase-out.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Toyota Vellfire Updated In Japan: India Launch Makes Business Sense</title>
-      <link>https://www.thecarjury.com/news/2026-toyota-vellfire-japan-update-india-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-toyota-vellfire-japan-update-india-launch/</guid>
-      <pubDate>Thu, 04 Jun 2026 11:31:24 +0800</pubDate>
-      <description>Toyota has updated the Vellfire and Alphard in Japan with new colours, trim and ride comfort upgrades. India launch is unconfirmed for now.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
