@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 09:03:46 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 09:04:39 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra's 15% June Output Cut Exposes a Supply Chain That Can't Match Demand</title>
+      <link>https://www.thecarjury.com/news/mahindra-suv-production-drops-15-percent-june-2026-labour-shortage/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-suv-production-drops-15-percent-june-2026-labour-shortage/</guid>
+      <pubDate>Thu, 11 Jun 2026 09:04:30 +0530</pubDate>
+      <description>Mahindra&amp;#x27;s SUV production falls up to 15% in June 2026 as vendor labour shortages hit XUV 7XO and Thar output. The Car Jury&amp;#x27;s take on what it means.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>VW T-Cross Gets Rock In Rio Edition In Brazil While India's Taigun Gathers Dust</title>
       <link>https://www.thecarjury.com/news/volkswagen-taigun-t-cross-rock-in-rio-edition-brazil/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-e100-ethanol-flex-fuel-car-june-5-launch/</guid>
       <pubDate>Thu, 04 Jun 2026 16:31:23 +0800</pubDate>
       <description>Nitin Gadkari confirms Maruti Suzuki will unveil India&amp;#x27;s first E100 ethanol passenger car on June 5. Wagon R and Fronx are the likely candidates.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Toyota Innova Crysta gets cosmetic update, costlier by up to Rs 83,000</title>
-      <link>https://www.thecarjury.com/news/2026-toyota-innova-crysta-launched-price-features/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-toyota-innova-crysta-launched-price-features/</guid>
-      <pubDate>Thu, 04 Jun 2026 16:30:34 +0800</pubDate>
-      <description>Toyota launches the 2026 Innova Crysta from Rs 19.72 lakh ex-showroom with mild styling tweaks. Likely the last update before 2027 phase-out.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

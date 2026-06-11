@@ -98,8 +98,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/mahindra-suv-production-drops-15-percent-june-2026-labour-shortage/</loc>
+    <lastmod>2026-06-11</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-11T09:04:30+05:30</news:publication_date>
+      <news:title>Mahindra's 15% June Output Cut Exposes a Supply Chain That Can't Match Demand</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mahindra-xuv-7xo-sales-surge-2026-record-year/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
