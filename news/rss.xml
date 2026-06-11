@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 18:15:05 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 18:15:39 +0530</lastBuildDate>
+    <item>
+      <title>Renault confirms cheaper Duster automatics: about time, and still not enough</title>
+      <link>https://www.thecarjury.com/news/renault-duster-cheaper-automatic-variants-confirmed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-cheaper-automatic-variants-confirmed/</guid>
+      <pubDate>Thu, 11 Jun 2026 18:15:38 +0530</pubDate>
+      <description>Renault Group India CEO Stephane Deblaise confirms more affordable Duster automatic variants are coming to plug the gap above the 1.0 manual range.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>BMW F 450 GS Accessory List: Cross-Spoke Wheels Cost Nearly Rs 1 Lakh</title>
       <link>https://www.thecarjury.com/news/bmw-f-450-gs-accessory-prices-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-creta-discount-june-2026-rs-1-lakh-benefits/</guid>
       <pubDate>Fri, 05 Jun 2026 16:31:47 +0800</pubDate>
       <description>Hyundai is offering up to Rs 1 lakh in benefits on the Creta petrol and N Line in June 2026. Diesel buyers get far less. Here is our take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Audi Nuvolari revealed: 1,001hp V8 PHEV halo lands at Rs 6.64 crore</title>
-      <link>https://www.thecarjury.com/news/audi-nuvolari-v8-phev-supercar-revealed/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-nuvolari-v8-phev-supercar-revealed/</guid>
-      <pubDate>Fri, 05 Jun 2026 16:30:55 +0800</pubDate>
-      <description>Audi unveils the Nuvolari, a 1,001hp V8 plug-in hybrid halo supercar limited to 499 units, priced at Rs 6.64 crore and based on the Lamborghini Temerario.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

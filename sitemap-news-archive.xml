@@ -572,7 +572,13 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-duster-5000-sales-three-year-free-service-discovery-days/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/renault-duster-cheaper-automatic-variants-confirmed/</loc>
+    <lastmod>2026-06-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
