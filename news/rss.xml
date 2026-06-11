@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 09:06:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 15:15:05 +0530</lastBuildDate>
+    <item>
+      <title>Skoda Peaq for India: Flagship EV Bet Makes Sense Only as a Halo</title>
+      <link>https://www.thecarjury.com/news/skoda-peaq-ev-india-launch-consideration-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-peaq-ev-india-launch-consideration-2026/</guid>
+      <pubDate>Thu, 11 Jun 2026 15:14:36 +0530</pubDate>
+      <description>Skoda is evaluating the Peaq electric SUV for India as a flagship, with a separate locally built EV in the works. Here is our verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Carens and Clavis cross 3 lakh sales: the Ertiga-Innova duopoly finally has a real third option</title>
       <link>https://www.thecarjury.com/news/kia-carens-clavis-cross-3-lakh-sales-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-toyota-innova-crysta-facelift-launch-price/</guid>
       <pubDate>Thu, 04 Jun 2026 16:32:50 +0800</pubDate>
       <description>Toyota has launched the 2026 Innova Crysta facelift at Rs 19.72 lakh with revised styling and cabin updates. The Car Jury&amp;#x27;s verdict on whether it still makes sense.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti Wagon R Flex-Fuel: India's First E85 Car Is A Policy Win, Not A Buyer's Win</title>
-      <link>https://www.thecarjury.com/news/maruti-wagon-r-flex-fuel-e85-india-first/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-wagon-r-flex-fuel-e85-india-first/</guid>
-      <pubDate>Thu, 04 Jun 2026 16:31:58 +0800</pubDate>
-      <description>Maruti showcases the Wagon R flex-fuel, India&amp;#x27;s first E85-compliant car. Cheaper fuel is promised, but pumps and economics decide if buyers benefit.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
