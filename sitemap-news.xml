@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/audi-q7-third-gen-debut-v6-v8-600ps/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -14,20 +14,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/bmw-mini-2-percent-price-hike-july-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-08T17:55:10+05:30</news:publication_date>
-      <news:title>BMW And MINI Get Pricier Again From July 2026: Second Hike This Year</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/byd-seal-u-phev-india-launch-end-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -39,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/fuel-prices-to-fall-hardeep-puri-june-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -51,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/haryana-ev-charger-mandate-residential-complexes-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -75,7 +63,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-venue-crosses-8-lakh-sales-milestone/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -87,7 +75,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-carnival-carens-clavis-discounts-june-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -123,7 +111,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-9-new-cars-3-years-7-suvs-product-plan/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -147,7 +135,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/next-gen-hyundai-creta-kona-global-renders-2027/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -159,7 +147,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-connected-led-lighting-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -171,7 +159,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/nissan-gravite-price-hike-june-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -194,20 +182,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/renault-kiger-triber-discounts-june-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-08T17:55:52+05:30</news:publication_date>
-      <news:title>Renault Kiger, Triber Get Up To Rs 80,000 Off In June 2026: Worth It?</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/tata-punch-flex-fuel-e85-spied-testing/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -215,18 +191,6 @@
       </news:publication>
       <news:publication_date>2026-06-09T08:47:23+05:30</news:publication_date>
       <news:title>Tata Punch Flex Fuel E85 Spied: Tata Chases Maruti's Ethanol Move</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-tiago-ev-facelift-2026-price-cut/</loc>
-    <lastmod>2026-06-10</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-08T17:56:52+05:30</news:publication_date>
-      <news:title>Tata Tiago EV Facelift: Rs 1.15 Lakh Price Cut Finally Makes The Math Work</news:title>
     </news:news>
   </url>
 </urlset>
