@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 09:09:38 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 09:10:15 +0530</lastBuildDate>
+    <item>
+      <title>Tata Sierra EV Debuts June 30: AWD On The Table, 500+ KM Range On The Cards</title>
+      <link>https://www.thecarjury.com/news/tata-sierra-ev-debut-june-30-awd-500km-range/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-debut-june-30-awd-500km-range/</guid>
+      <pubDate>Fri, 12 Jun 2026 09:10:14 +0530</pubDate>
+      <description>Tata Sierra EV debuts June 30 with an expected 500+ km range and a likely AWD option. Here is what it means for the Creta EV and BE6 fight.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2027 Hyundai i20 Leaks: Crossover Styling, But India Isn't On The Guest List</title>
       <link>https://www.thecarjury.com/news/2027-hyundai-i20-leak-next-gen-design-interior/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-global-reveal/</guid>
       <pubDate>Fri, 05 Jun 2026 16:34:24 +0800</pubDate>
       <description>Hyundai teases the fourth-gen i20 ahead of its global debut next month, with sharper styling, curved displays and likely Level 2 ADAS on the cards.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai bets big on Tamil Nadu: 90% localisation and a mass-market EV by year-end</title>
-      <link>https://www.thecarjury.com/news/hyundai-tamil-nadu-ev-hub-90-percent-localisation-2032/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-tamil-nadu-ev-hub-90-percent-localisation-2032/</guid>
-      <pubDate>Fri, 05 Jun 2026 16:32:56 +0800</pubDate>
-      <description>Hyundai will make Tamil Nadu its EV hub, push localisation to 90% by 2032, and launch its first mass-market dedicated EV from Chennai this year.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
