@@ -122,8 +122,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/renault-duster-affordable-automatic-variant-launch-soon/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T11:57:36+05:30</news:publication_date>
+      <news:title>Renault Duster's Cheaper Automatic Is The Variant That Should Have Launched On Day One</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/renault-duster-cheaper-automatic-variants-confirmed/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
