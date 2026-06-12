@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 09:10:15 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 09:11:21 +0530</lastBuildDate>
+    <item>
+      <title>Government Exempts E22 to E30 Ethanol Blends From Excise Duty: A Solution Without Cars</title>
+      <link>https://www.thecarjury.com/news/e22-e25-e27-e30-ethanol-fuels-excise-duty-exemption/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/e22-e25-e27-e30-ethanol-fuels-excise-duty-exemption/</guid>
+      <pubDate>Fri, 12 Jun 2026 09:11:19 +0530</pubDate>
+      <description>The Centre has exempted E22, E25, E27 and E30 ethanol-blended petrol from excise duty, but none of these fuels is on sale yet in India.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Sierra EV Debuts June 30: AWD On The Table, 500+ KM Range On The Cards</title>
       <link>https://www.thecarjury.com/news/tata-sierra-ev-debut-june-30-awd-500km-range/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xuv7xo-diesel-automatic-awd-mileage-test/</guid>
       <pubDate>Fri, 05 Jun 2026 20:31:17 +0800</pubDate>
       <description>We drove the Mahindra XUV7XO Diesel Automatic AWD for 1,500 km across cities, highways and farm roads. Here is the real mileage verdict.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Next-Gen Hyundai i20 Teased: Curved Screens And ADAS Incoming, But Where's The Diesel Answer?</title>
-      <link>https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-global-reveal/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-global-reveal/</guid>
-      <pubDate>Fri, 05 Jun 2026 16:34:24 +0800</pubDate>
-      <description>Hyundai teases the fourth-gen i20 ahead of its global debut next month, with sharper styling, curved displays and likely Level 2 ADAS on the cards.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
