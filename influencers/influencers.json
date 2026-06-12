@@ -63,7 +63,8 @@
       "mercedes/gls",
       "land-rover/range-rover",
       "land-rover/range-rover-sport",
-      "tata/tiago"
+      "tata/tiago",
+      "hyundai/creta-n-line"
     ],
     "photo_url": "https://yt3.googleusercontent.com/0eCXYHGi6AS7elexG2WrgGTyUd794KKa77GyOK4QYAHfMF-secKfWPggiykuAaVqcVRIEw2chcc=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "21.2L",
@@ -169,7 +170,8 @@
       "land-rover/range-rover",
       "land-rover/range-rover-sport",
       "tata/tiago",
-      "mercedes/glb"
+      "mercedes/glb",
+      "hyundai/creta-n-line"
     ],
     "photo_url": "https://yt3.googleusercontent.com/KojhQpxOWF17GlgsBC-QlZ-YeNZv78d04Y5dCxlFPrupK-rC8si9qX3i9iU4y_XpkGprVNEJrg=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "21.2L",
@@ -411,7 +413,8 @@
       "nissan/gravite",
       "tata/tiago",
       "hyundai/tucson",
-      "mercedes/glb"
+      "mercedes/glb",
+      "hyundai/creta-n-line"
     ],
     "photo_url": "",
     "subscriber_count": "24L",
@@ -551,7 +554,8 @@
       "audi/q8",
       "nissan/x-trail",
       "nissan/gravite",
-      "hyundai/tucson"
+      "hyundai/tucson",
+      "hyundai/creta-n-line"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_mu40JTN1DQGqXZymLyprzsMLC_haETCahwc4nagwrcxh2Z=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "253K",
@@ -1552,7 +1556,8 @@
       "bmw/ix",
       "porsche/taycan",
       "bmw/x5",
-      "hyundai/tucson"
+      "hyundai/tucson",
+      "hyundai/creta-n-line"
     ],
     "photo_url": "https://yt3.googleusercontent.com/NfycnrBqnp82qfeClTE55x2I-ylYXBt7EgFAFGs5jwlZ9-SyYkKUDodj5nHpT0AOVdt-9kT-jA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1639,7 +1644,8 @@
       "nissan/x-trail",
       "nissan/gravite",
       "hyundai/tucson",
-      "mercedes/glb"
+      "mercedes/glb",
+      "hyundai/creta-n-line"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -1970,6 +1976,19 @@
     "subscriber_count": "",
     "articles": [
       "mercedes/glb"
+    ]
+  },
+  {
+    "slug": "autocar-india",
+    "name": "Autocar India",
+    "tagline": "Independent car reviewer on YouTube",
+    "youtube_handle": "AutocarIndia",
+    "youtube_url": "https://www.youtube.com/@AutocarIndia",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "hyundai/creta-n-line"
     ]
   }
 ]
