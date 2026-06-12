@@ -61,6 +61,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/2027-hyundai-i20-leak-next-gen-design-interior/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/4-5m-4-8m-suv-sales-april-2026-mahindra-dominance/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>daily</changefreq>
@@ -80,7 +86,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/bmw-f-450-gs-accessory-prices-india/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -212,7 +218,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-chennai-plant-1-production-normalise-june-22-mobis-fire/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

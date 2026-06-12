@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2027-hyundai-i20-leak-next-gen-design-interior/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T09:09:36+05:30</news:publication_date>
+      <news:title>2027 Hyundai i20 Leaks: Crossover Styling, But India Isn't On The Guest List</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/audi-q7-third-gen-debut-v6-v8-600ps/</loc>
     <lastmod>2026-06-12</lastmod>
     <news:news>
@@ -15,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/bmw-f-450-gs-accessory-prices-india/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -26,20 +38,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/haryana-ev-charger-mandate-residential-complexes-2026/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-10T08:57:15+05:30</news:publication_date>
-      <news:title>Haryana's EV Charger Mandate Is the Right Lever Pulled at the Right Time</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-chennai-plant-1-production-normalise-june-22-mobis-fire/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -107,30 +107,6 @@
       </news:publication>
       <news:publication_date>2026-06-10T12:04:36+05:30</news:publication_date>
       <news:title>Maruti shields Alto, S-Presso, Celerio, WagonR buyers from price hike till June 14</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-connected-led-lighting-2026/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-10T08:58:06+05:30</news:publication_date>
-      <news:title>Next-gen Hyundai i20 teased: connected LEDs in, but is India even in the plan?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/renault-duster-5000-sales-three-year-free-service-discovery-days/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-10T08:58:54+05:30</news:publication_date>
-      <news:title>Renault Duster Crosses 5,000 Sales, Adds 3-Year Free Service Sweetener</news:title>
     </news:news>
   </url>
   <url>
