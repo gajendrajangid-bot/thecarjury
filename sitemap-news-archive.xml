@@ -644,7 +644,13 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/skoda-kylaq-sportline-launch-september-2026/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/skoda-kylaq-sportline-september-2026-launch-1-5-tsi/</loc>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
