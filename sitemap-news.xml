@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/audi-q7-third-gen-debut-v6-v8-600ps/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-10T12:01:45+05:30</news:publication_date>
-      <news:title>3rd Gen Audi Q7 Debuts With 600 PS And Camera-Based ADAS, India Launch Likely</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/bmw-f-450-gs-accessory-prices-india/</loc>
     <lastmod>2026-06-12</lastmod>
     <news:news>
@@ -35,6 +23,18 @@
       </news:publication>
       <news:publication_date>2026-06-11T18:14:37+05:30</news:publication_date>
       <news:title>BMW F 450 GS Accessory List: Cross-Spoke Wheels Cost Nearly Rs 1 Lakh</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/citroen-aircross-basalt-c3-discounts-june-2026/</loc>
+    <lastmod>2026-06-12</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-12T15:13:11+05:30</news:publication_date>
+      <news:title>Citroen piles Rs 1.4 lakh on Aircross and Basalt: discounts won't fix the problem</news:title>
     </news:news>
   </url>
   <url>
@@ -50,18 +50,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/hyundai-chennai-plant-1-production-normalise-june-22-mobis-fire/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-10T12:02:37+05:30</news:publication_date>
-      <news:title>Hyundai's Chennai Plant 1 Back to Normal by June 22, Retail Untouched</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/kia-carens-clavis-cross-3-lakh-sales-india/</loc>
     <lastmod>2026-06-11</lastmod>
     <news:news>
@@ -74,30 +62,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/kia-carnival-carens-clavis-discounts-june-2026/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-10T15:09:44+05:30</news:publication_date>
-      <news:title>Kia's June 2026 Discounts: Carnival Leads With Rs 1.5 Lakh Off</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/kia-sonet-1-star-global-ncap-south-africa-spec/</loc>
-    <lastmod>2026-06-12</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-10T15:10:32+05:30</news:publication_date>
-      <news:title>Kia Sonet scores 1 star at Global NCAP, but it's the South Africa-spec car</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mahindra-suv-production-drops-15-percent-june-2026-labour-shortage/</loc>
     <lastmod>2026-06-11</lastmod>
     <news:news>
@@ -107,18 +71,6 @@
       </news:publication>
       <news:publication_date>2026-06-11T09:04:30+05:30</news:publication_date>
       <news:title>Mahindra's 15% June Output Cut Exposes a Supply Chain That Can't Match Demand</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-price-protection-entry-level-cars-june-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-10T12:04:36+05:30</news:publication_date>
-      <news:title>Maruti shields Alto, S-Presso, Celerio, WagonR buyers from price hike till June 14</news:title>
     </news:news>
   </url>
   <url>
