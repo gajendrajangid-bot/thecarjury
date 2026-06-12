@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 11:57:38 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 11:58:24 +0530</lastBuildDate>
+    <item>
+      <title>Next-gen Hyundai i20 borrows Venue's twin screens, and that's the right call</title>
+      <link>https://www.thecarjury.com/news/next-gen-hyundai-i20-interior-teased-twin-screens/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-hyundai-i20-interior-teased-twin-screens/</guid>
+      <pubDate>Fri, 12 Jun 2026 11:58:15 +0530</pubDate>
+      <description>Hyundai teases the fourth-gen i20 cabin with twin 12.3-inch screens lifted from the Venue. Debut expected during the 2026 FIFA World Cup.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Renault Duster's Cheaper Automatic Is The Variant That Should Have Launched On Day One</title>
       <link>https://www.thecarjury.com/news/renault-duster-affordable-automatic-variant-launch-soon/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-hyundai-i20-teased-led-signature/</guid>
       <pubDate>Sat, 06 Jun 2026 11:30:39 +0800</pubDate>
       <description>Hyundai Brazil has teased the 4th-gen i20 with Y-shaped LED DRLs and a full-width light bar. Here is what it means for the Indian premium hatch.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>May 2026 Sales: Dzire Tops, Fronx Surges, Creta Holds the SUV Line</title>
-      <link>https://www.thecarjury.com/news/top-10-cars-suvs-may-2026-sales-dzire-creta/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/top-10-cars-suvs-may-2026-sales-dzire-creta/</guid>
-      <pubDate>Fri, 05 Jun 2026 20:32:40 +0800</pubDate>
-      <description>Top 10 cars and SUVs in May 2026: Maruti Dzire leads at 24,546 units, Fronx jumps 52%, Hyundai Creta stays strong in the SUV chart.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
