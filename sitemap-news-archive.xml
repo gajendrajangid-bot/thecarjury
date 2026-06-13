@@ -151,6 +151,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/ev-demand-surges-india-fuel-prices-maruti-mercedes-delays/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/flex-fuel-rollout-gradual-careedge-ethanol-surplus-2026/</loc>
     <lastmod>2026-05-29</lastmod>
     <changefreq>daily</changefreq>
@@ -422,7 +428,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-price-protection-entry-level-cars-june-2026/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

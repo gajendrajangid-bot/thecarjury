@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 13 Jun 2026 09:10:48 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 09:11:24 +0530</lastBuildDate>
+    <item>
+      <title>EV Wait Times Hit Three Months as Fuel Panic Rewrites India's Buying Math</title>
+      <link>https://www.thecarjury.com/news/ev-demand-surges-india-fuel-prices-maruti-mercedes-delays/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/ev-demand-surges-india-fuel-prices-maruti-mercedes-delays/</guid>
+      <pubDate>Sat, 13 Jun 2026 09:11:23 +0530</pubDate>
+      <description>Fuel prices spiked by the Iran war have pushed Indian EV demand to record highs, with Maruti, Mercedes-Benz and BMW deliveries stretching to three months.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai i20 Lands In Brazil At Rs 18.77 Lakh: India Misses The Bigger, Bolder Hatch</title>
       <link>https://www.thecarjury.com/news/hyundai-i20-brazil-launch-k3-platform-adas/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-tiago-facelift-2026-review-verdict/</guid>
       <pubDate>Sat, 06 Jun 2026 17:28:31 +0800</pubDate>
       <description>Tata Tiago facelift launches at Rs 4.69 lakh ex-showroom with five trims, refreshed cabin and updated petrol-CNG lineup. Here is The Car Jury&amp;#x27;s verdict.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>May 2026 Sales: Maruti's 43% Stranglehold Tells You Where The Money Is</title>
-      <link>https://www.thecarjury.com/news/car-sales-may-2026-maruti-tata-mahindra-lead/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/car-sales-may-2026-maruti-tata-mahindra-lead/</guid>
-      <pubDate>Sat, 06 Jun 2026 17:27:54 +0800</pubDate>
-      <description>Maruti Suzuki took 43% of May 2026 PV sales as the market grew 26% YoY. Tata and Mahindra followed. The Car Jury&amp;#x27;s take on what it means.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
