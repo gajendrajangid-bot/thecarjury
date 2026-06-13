@@ -38,6 +38,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/design-new-horsepower-india-auto-market-mahindra-tata-hyundai/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T09:11:58+05:30</news:publication_date>
+      <news:title>Design is the new horsepower: why Mahindra and Tata are winning the showroom</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/e22-e25-e27-e30-ethanol-fuels-excise-duty-exemption/</loc>
     <lastmod>2026-06-13</lastmod>
     <news:news>
@@ -159,7 +171,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-debut-june-30-awd-500km-range/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
