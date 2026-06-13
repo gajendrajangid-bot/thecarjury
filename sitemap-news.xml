@@ -62,32 +62,20 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/kia-carens-clavis-cross-3-lakh-sales-india/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <loc>https://www.thecarjury.com/news/hyundai-i20-brazil-launch-k3-platform-adas/</loc>
+    <lastmod>2026-06-13</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-06-11T09:05:58+05:30</news:publication_date>
-      <news:title>Kia Carens and Clavis cross 3 lakh sales: the Ertiga-Innova duopoly finally has a real third option</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mahindra-suv-production-drops-15-percent-june-2026-labour-shortage/</loc>
-    <lastmod>2026-06-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T09:04:30+05:30</news:publication_date>
-      <news:title>Mahindra's 15% June Output Cut Exposes a Supply Chain That Can't Match Demand</news:title>
+      <news:publication_date>2026-06-13T09:10:46+05:30</news:publication_date>
+      <news:title>Hyundai i20 Lands In Brazil At Rs 18.77 Lakh: India Misses The Bigger, Bolder Hatch</news:title>
     </news:news>
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/next-gen-hyundai-i20-interior-teased-twin-screens/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -179,18 +167,6 @@
       </news:publication>
       <news:publication_date>2026-06-11T15:15:39+05:30</news:publication_date>
       <news:title>Tata Sierra EV Debuts June 30: The Harrier EV's Smaller, Smarter Sibling</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/volkswagen-taigun-t-cross-rock-in-rio-edition-brazil/</loc>
-    <lastmod>2026-06-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T09:03:43+05:30</news:publication_date>
-      <news:title>VW T-Cross Gets Rock In Rio Edition In Brazil While India's Taigun Gathers Dust</news:title>
     </news:news>
   </url>
 </urlset>
