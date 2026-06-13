@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 13 Jun 2026 11:52:47 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 11:53:21 +0530</lastBuildDate>
+    <item>
+      <title>Skoda's May 2026 Slide: Kylaq Down 30%, Kushaq Doubles, Portfolio Wobbles</title>
+      <link>https://www.thecarjury.com/news/skoda-india-sales-may-2026-kylaq-kushaq-decline/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-india-sales-may-2026-kylaq-kushaq-decline/</guid>
+      <pubDate>Sat, 13 Jun 2026 11:53:19 +0530</pubDate>
+      <description>Skoda India sold 5,760 units in May 2026, down 14.5% YoY. Kylaq slid 30%, Kushaq doubled. The Car Jury&amp;#x27;s take on what is going wrong.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mahindra XUV7XO AX Deliveries Begin: The Sensible Pick At Rs 13.66 Lakh</title>
       <link>https://www.thecarjury.com/news/mahindra-xuv7xo-base-ax-deliveries-start-price-features/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/jeep-meridian-compass-discounts-june-2026/</guid>
       <pubDate>Sun, 07 Jun 2026 11:40:47 +0800</pubDate>
       <description>Jeep is offering up to Rs 1.65 lakh on the Meridian and Rs 1.5 lakh on the Compass in June 2026. Wrangler gets nothing, Grand Cherokee is sold out.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata's May 2026 Numbers: Sierra Lands At No. 3, Punch And Nexon Carry The Roof</title>
-      <link>https://www.thecarjury.com/news/tata-sales-may-2026-punch-nexon-sierra-breakup/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sales-may-2026-punch-nexon-sierra-breakup/</guid>
-      <pubDate>Sat, 06 Jun 2026 20:35:02 +0800</pubDate>
-      <description>Tata&amp;#x27;s May 2026 PV dispatches jumped 42% to 59,090 units, with Sierra debuting as the No. 3 seller behind Punch and Nexon.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

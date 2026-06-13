@@ -146,6 +146,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/skoda-india-sales-may-2026-kylaq-kushaq-decline/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T11:53:19+05:30</news:publication_date>
+      <news:title>Skoda's May 2026 Slide: Kylaq Down 30%, Kushaq Doubles, Portfolio Wobbles</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/skoda-kylaq-sportline-launch-september-2026/</loc>
     <lastmod>2026-06-13</lastmod>
     <news:news>
@@ -159,7 +171,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/skoda-kylaq-sportline-september-2026-launch-1-5-tsi/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
