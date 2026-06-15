@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 15 Jun 2026 09:59:48 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 10:01:03 +1000</lastBuildDate>
+    <item>
+      <title>Nissan's India Reboot: Five New Cars, And The Tekton Is The One That Matters</title>
+      <link>https://www.thecarjury.com/news/nissan-india-pipeline-tekton-gravite-new-cars/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-india-pipeline-tekton-gravite-new-cars/</guid>
+      <pubDate>Mon, 15 Jun 2026 10:00:56 +1000</pubDate>
+      <description>Nissan is rolling out five new and updated models for India, led by the Duster-based Tekton SUV launching in July. Here is what is coming.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>E100 Gets The Green Light: Toyota Is Ready, The Pumps Are Not</title>
       <link>https://www.thecarjury.com/news/gadkari-signs-e100-fuel-regulations-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-tata-hatchback-revival-mass-market-2026/</guid>
       <pubDate>Sun, 07 Jun 2026 20:24:00 +0800</pubDate>
       <description>Maruti and Tata are pouring investment back into hatchbacks as SUV growth slows and entry buyers vanish. The Car Jury on why this matters.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra May 2026: Scorpio Leads, 7XO And XEV 9S Push Volumes To 58,021</title>
-      <link>https://www.thecarjury.com/news/mahindra-sales-may-2026-scorpio-thar-xuv-7xo-bolero-xev-9s/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-sales-may-2026-scorpio-thar-xuv-7xo-bolero-xev-9s/</guid>
-      <pubDate>Sun, 07 Jun 2026 20:23:24 +0800</pubDate>
-      <description>Mahindra posted 58,021 PV sales in May 2026, up 10.66% YoY. Scorpio led at 15,774 units, Thar duo at 10,787. Here is what it means.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

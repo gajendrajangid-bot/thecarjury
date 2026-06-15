@@ -613,6 +613,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/nissan-india-pipeline-tekton-gravite-new-cars/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-mid-size-suv-india-debut-july-9-2026/</loc>
     <lastmod>2026-06-04</lastmod>
     <changefreq>daily</changefreq>
@@ -656,7 +662,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-duster-affordable-automatic-variant-launch-soon/</loc>
-    <lastmod>2026-06-12</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
