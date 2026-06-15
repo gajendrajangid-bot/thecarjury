@@ -463,6 +463,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/compare/tucson-vs-compass/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/compare/venue-vs-exter/</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
