@@ -62,18 +62,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mahindra-xuv7xo-base-ax-deliveries-start-price-features/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-13T11:52:23+05:30</news:publication_date>
-      <news:title>Mahindra XUV7XO AX Deliveries Begin: The Sensible Pick At Rs 13.66 Lakh</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/maruti-grand-vitara-invicto-discounts-june-2026/</loc>
     <lastmod>2026-06-15</lastmod>
     <news:news>
@@ -83,6 +71,18 @@
       </news:publication>
       <news:publication_date>2026-06-13T14:50:05+05:30</news:publication_date>
       <news:title>Maruti Grand Vitara, Invicto Get Up To Rs 2.15 Lakh Off In June 2026</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/maruti-wagon-r-bioflex-flex-fuel-price-launch/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-15T16:41:56+10:00</news:publication_date>
+      <news:title>Maruti Wagon R Bioflex at Rs 7.24 lakh: flex fuel, fleet-only, and a tough sell</news:title>
     </news:news>
   </url>
   <url>
@@ -107,30 +107,6 @@
       </news:publication>
       <news:publication_date>2026-06-15T10:00:56+10:00</news:publication_date>
       <news:title>Nissan's India Reboot: Five New Cars, And The Tekton Is The One That Matters</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/skoda-india-sales-may-2026-kylaq-kushaq-decline/</loc>
-    <lastmod>2026-06-13</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-13T11:53:19+05:30</news:publication_date>
-      <news:title>Skoda's May 2026 Slide: Kylaq Down 30%, Kushaq Doubles, Portfolio Wobbles</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-motors-price-hike-july-2026-up-to-1-5-percent/</loc>
-    <lastmod>2026-06-13</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-13T11:53:57+05:30</news:publication_date>
-      <news:title>Tata's Second 2026 Price Hike: Buy Before July 1 If You're Already Decided</news:title>
     </news:news>
   </url>
 </urlset>
