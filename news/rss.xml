@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 16 Jun 2026 22:32:12 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 22:33:17 +1000</lastBuildDate>
+    <item>
+      <title>Audi A6 allroad returns with PHEV: a global wagon we still won't get</title>
+      <link>https://www.thecarjury.com/news/audi-a6-allroad-phev-diesel-global-reveal-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-a6-allroad-phev-diesel-global-reveal-2026/</guid>
+      <pubDate>Tue, 16 Jun 2026 22:32:49 +1000</pubDate>
+      <description>Audi reveals the fifth-gen A6 allroad with a 367hp plug-in hybrid and a 299hp V6 diesel. The Car Jury on why India buyers shouldn&amp;#x27;t wait for it.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Finally Admits Touch-Only Cabins Were a Mistake</title>
       <link>https://www.thecarjury.com/news/tata-physical-controls-return-uhlarik/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-hyundai-creta-kona-global-renders-2027/</guid>
       <pubDate>Tue, 09 Jun 2026 08:46:32 +0530</pubDate>
       <description>Hyundai&amp;#x27;s next-gen SX3 SUV launches in 2027 as Kona globally and Creta in India, styled on the Crater Concept. The Car Jury&amp;#x27;s take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Tiago EV Facelift: Rs 1.15 Lakh Price Cut Finally Makes The Math Work</title>
-      <link>https://www.thecarjury.com/news/tata-tiago-ev-facelift-2026-price-cut/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-tiago-ev-facelift-2026-price-cut/</guid>
-      <pubDate>Mon, 08 Jun 2026 17:56:52 +0530</pubDate>
-      <description>Tata Tiago EV facelift launches at Rs 6.99 lakh ex-showroom, down by up to Rs 1.15 lakh. Our verdict on whether it replaces your petrol hatchback.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
