@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2027-kia-sonet-hyundai-creta-spied-manali/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/gadkari-signs-e100-fuel-regulations-india/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -50,20 +50,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/india-deregulates-automotive-radar-v2x-spectrum-adas-boost/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-13T14:49:23+05:30</news:publication_date>
-      <news:title>India Frees Up Radar Spectrum: ADAS Just Got Cheaper for Every Carmaker</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/india-legalises-e100-ethanol-vehicles-policy/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <lastmod>2026-06-16</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -71,18 +59,6 @@
       </news:publication>
       <news:publication_date>2026-06-15T13:35:57+10:00</news:publication_date>
       <news:title>India Legalises E100 Ethanol Cars: Symbolic Win, Buyer Cost Still Unclear</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-grand-vitara-invicto-discounts-june-2026/</loc>
-    <lastmod>2026-06-15</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-13T14:50:05+05:30</news:publication_date>
-      <news:title>Maruti Grand Vitara, Invicto Get Up To Rs 2.15 Lakh Off In June 2026</news:title>
     </news:news>
   </url>
   <url>
