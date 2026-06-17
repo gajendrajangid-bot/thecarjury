@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 17 Jun 2026 19:29:27 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 19:30:30 +1000</lastBuildDate>
+    <item>
+      <title>Citroen eC3X at Rs 10.25 Lakh: Cheaper, Better Kitted, Still a Hard Sell</title>
+      <link>https://www.thecarjury.com/news/citroen-ec3x-launch-price-features-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/citroen-ec3x-launch-price-features-2026/</guid>
+      <pubDate>Wed, 17 Jun 2026 19:30:05 +1000</pubDate>
+      <description>Citroen has launched the eC3X at Rs 10.25 lakh with 6 airbags, LED lights and a BaaS scheme. The Car Jury&amp;#x27;s verdict on whether it&amp;#x27;s enough.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mini Countryman C at Rs 47.5 lakh: local assembly finally makes the badge sensible</title>
       <link>https://www.thecarjury.com/news/mini-countryman-c-india-launch-price-locally-assembled/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/fuel-prices-to-fall-hardeep-puri-june-2026/</guid>
       <pubDate>Tue, 09 Jun 2026 14:48:47 +0530</pubDate>
       <description>Petroleum Minister Hardeep Puri expects fuel prices to moderate after a Rs 7 per litre spike since mid-May. TCJ&amp;#x27;s read on what it means for buyers.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>BYD Seal U PHEV lands in India by end-2026: a 1200km flex on Toyota's hybrids</title>
-      <link>https://www.thecarjury.com/news/byd-seal-u-phev-india-launch-end-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/byd-seal-u-phev-india-launch-end-2026/</guid>
-      <pubDate>Tue, 09 Jun 2026 14:47:28 +0530</pubDate>
-      <description>BYD Seal U PHEV launches in India by end-2026 with 1200km combined range and 200km EV-only mode. Here&amp;#x27;s what it means for hybrid buyers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
