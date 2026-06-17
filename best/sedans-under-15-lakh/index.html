@@ -308,6 +308,7 @@
     .bp-name{font:700 18px/1.25 var(--font-display);color:var(--ink);}
     .bp-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
     .bp-price{font:700 15px/1 var(--font-ui);color:var(--ink);}
+    .bp-exs{font:500 11px/1 var(--font-ui);color:var(--stone-400);}
     .pill{font:700 10px/1 var(--font-ui);letter-spacing:.05em;padding:5px 9px;border-radius:5px;}
     /* verdict colours match the site's review-page system exactly */
     .pill-score{background:var(--ink);color:#fff;}
@@ -386,13 +387,13 @@
     <div class="bp-count">7 cars <span>· ₹6.26–21.00L ex-showroom · ranked by The Car Jury</span></div>
     <div class="bp-sort"><button class="on" data-mode="jurypick">Jury's pick</button><button data-mode="phl">Price high to low</button><button data-mode="plh">Price low to high</button></div>
   </div>
-  <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Volkswagen Virtus</div><div class="mt">8.4/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Skoda Slavia</div><div class="mt">5-star Global NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Volkswagen Virtus</div><div class="mt">8.4/10 at ₹10.50–19.00L</div></div></div>
+  <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Volkswagen Virtus</div><div class="mt">8.4/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Skoda Slavia</div><div class="mt">5-star Global NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Volkswagen Virtus</div><div class="mt">8.4/10 at ₹10.50–19.00L ex-showroom</div></div></div>
   <div class="bp-grid" id="bp-list">
       <div class="bp-card" data-price="10.5" data-score="8.4" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">1</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/volkswagen/virtus/hero.webp" alt="Volkswagen Virtus" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Volkswagen Virtus</div>
-          <span class="bp-price">₹10.50–19.00L</span>
+          <span class="bp-price">₹10.50–19.00L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 8.4</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/volkswagen/virtus/">Read the verdict →</a></div>
         </div></div>
@@ -400,7 +401,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">2</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/skoda/slavia/hero.webp" alt="Skoda Slavia" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Skoda Slavia</div>
-          <span class="bp-price">₹10.00–18.19L</span>
+          <span class="bp-price">₹10.00–18.19L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.9</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/skoda/slavia/">Read the verdict →</a></div>
         </div></div>
@@ -408,7 +409,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">3</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/hyundai/verna/hero.webp" alt="Hyundai Verna" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Verna</div>
-          <span class="bp-price">₹10.99–18.41L</span>
+          <span class="bp-price">₹10.99–18.41L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.7</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/verna/">Read the verdict →</a></div>
         </div></div>
@@ -416,7 +417,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">4</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/honda/city/hero.webp" alt="Honda City" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Honda City</div>
-          <span class="bp-price">₹12.00–21.00L</span>
+          <span class="bp-price">₹12.00–21.00L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.6</span><span class="pill pill-safe">🛡 4★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/honda/city/">Read the verdict →</a></div>
         </div></div><div class="bp-divide" id="bp-divide">Also in this budget: cars the jury says <b>wait</b> on</div>
@@ -424,7 +425,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">5</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/dzire/hero.webp" alt="Maruti Dzire" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Dzire</div>
-          <span class="bp-price">₹6.26–9.36L</span>
+          <span class="bp-price">₹6.26–9.36L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.0</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/dzire/">Read the verdict →</a></div>
         </div></div>
@@ -432,7 +433,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">6</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/honda/amaze/hero.webp" alt="Honda Amaze" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Honda Amaze</div>
-          <span class="bp-price">₹7.51–10.00L</span>
+          <span class="bp-price">₹7.51–10.00L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.0</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/honda/amaze/">Read the verdict →</a></div>
         </div></div>
@@ -440,12 +441,12 @@
         <div class="bp-card-img"><span class="bp-rank-badge">7</span><span class="bp-vov"></span><img src="/reviews/maruti/ciaz/hero.webp" alt="Maruti Ciaz" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Ciaz</div>
-          <span class="bp-price">₹9.09–11.88L</span>
+          <span class="bp-price">₹9.09–11.88L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-safe">🛡 1★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/ciaz/">Read the verdict →</a></div>
         </div></div></div>
 
-  <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Maruti Dzire</div><div class="s">₹6.26–9.36L</div></div><div><div class="k">Most premium</div><div class="v">Honda City</div><div class="s">₹12.00–21.00L</div></div><div><div class="k">Highest jury score</div><div class="v">Volkswagen Virtus</div><div class="s">8.4/10</div></div><div><div class="k">Safest</div><div class="v">Skoda Slavia</div><div class="s">5★ Global NCAP</div></div></div></div>
+  <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Maruti Dzire</div><div class="s">₹6.26–9.36L ex-showroom</div></div><div><div class="k">Most premium</div><div class="v">Honda City</div><div class="s">₹12.00–21.00L ex-showroom</div></div><div><div class="k">Highest jury score</div><div class="v">Volkswagen Virtus</div><div class="s">8.4/10</div></div><div><div class="k">Safest</div><div class="v">Skoda Slavia</div><div class="s">5★ Global NCAP</div></div></div></div>
   <div class="bp-sec"><h2>Compare these head-to-head</h2><div class="bp-cmp"><a href="/compare/dzire-vs-amaze/">Dzire vs Amaze <span>→</span></a><a href="/compare/elevate-vs-hyryder/">Elevate vs Hyryder <span>→</span></a><a href="/compare/verna-vs-city/">Verna vs City <span>→</span></a><a href="/compare/city-vs-virtus/">City vs Virtus <span>→</span></a><a href="/compare/elevate-vs-creta/">Elevate vs Creta <span>→</span></a><a href="/compare/elevate-vs-kushaq/">Elevate vs Kushaq <span>→</span></a><a href="/compare/slavia-vs-city/">Slavia vs City <span>→</span></a><a href="/compare/elevate-vs-duster/">Elevate vs Duster <span>→</span></a><a href="/compare/seltos-vs-elevate/">Seltos vs Elevate <span>→</span></a><a href="/compare/elevate-vs-grand-vitara/">Elevate vs Grand Vitara <span>→</span></a><a href="/compare/verna-vs-slavia/">Verna vs Slavia <span>→</span></a><a href="/compare/verna-vs-virtus/">Verna vs Virtus <span>→</span></a></div></div>
   <div class="bp-sec"><h2>Keep browsing</h2>
     <div class="bp-facet"><p class="fl">By budget</p><a href="/best/cars-under-10-lakh/">Cars under ₹10L</a><a href="/best/cars-under-15-lakh/">Cars under ₹15L</a><a href="/best/cars-under-20-lakh/">Cars under ₹20L</a><a href="/best/cars-under-30-lakh/">Cars under ₹30L</a></div>

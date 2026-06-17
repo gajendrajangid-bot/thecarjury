@@ -308,6 +308,7 @@
     .bp-name{font:700 18px/1.25 var(--font-display);color:var(--ink);}
     .bp-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
     .bp-price{font:700 15px/1 var(--font-ui);color:var(--ink);}
+    .bp-exs{font:500 11px/1 var(--font-ui);color:var(--stone-400);}
     .pill{font:700 10px/1 var(--font-ui);letter-spacing:.05em;padding:5px 9px;border-radius:5px;}
     /* verdict colours match the site's review-page system exactly */
     .pill-score{background:var(--ink);color:#fff;}
@@ -386,13 +387,13 @@
     <div class="bp-count">8 cars <span>· ₹6.99–28.49L ex-showroom · ranked by The Car Jury</span></div>
     <div class="bp-sort"><button class="on" data-mode="jurypick">Jury's pick</button><button data-mode="phl">Price high to low</button><button data-mode="plh">Price low to high</button></div>
   </div>
-  <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Mahindra BE6</div><div class="mt">8.6/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Tata Nexon EV</div><div class="mt">5-star Bharat NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Tata Punch EV</div><div class="mt">7.4/10 at ₹9.69–12.59L</div></div></div>
+  <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Mahindra BE6</div><div class="mt">8.6/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Tata Nexon EV</div><div class="mt">5-star Bharat NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Tata Punch EV</div><div class="mt">7.4/10 at ₹9.69–12.59L ex-showroom</div></div></div>
   <div class="bp-grid" id="bp-list">
       <div class="bp-card" data-price="18.9" data-score="8.6" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">1</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/be6/hero.webp" alt="Mahindra BE6" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra BE6</div>
-          <span class="bp-price">₹18.90–28.49L</span>
+          <span class="bp-price">₹18.90–28.49L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 8.6</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/be6/">Read the verdict →</a></div>
         </div></div>
@@ -400,7 +401,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">2</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/nexon-ev/hero.webp" alt="Tata Nexon EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Nexon EV</div>
-          <span class="bp-price">₹12.49–17.49L</span>
+          <span class="bp-price">₹12.49–17.49L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.8</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/nexon-ev/">Read the verdict →</a></div>
         </div></div>
@@ -408,7 +409,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">3</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/punch-ev/hero.webp" alt="Tata Punch EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Punch EV</div>
-          <span class="bp-price">₹9.69–12.59L</span>
+          <span class="bp-price">₹9.69–12.59L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.4</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/punch-ev/">Read the verdict →</a></div>
         </div></div>
@@ -416,7 +417,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">4</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/curvv-ev/hero.webp" alt="Tata Curvv EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Curvv EV</div>
-          <span class="bp-price">₹16.99–19.49L</span>
+          <span class="bp-price">₹16.99–19.49L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.4</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/curvv-ev/">Read the verdict →</a></div>
         </div></div>
@@ -424,7 +425,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">5</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/hyundai/creta-electric/hero.webp" alt="Hyundai Creta Electric" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Creta Electric</div>
-          <span class="bp-price">₹18.02–24.70L</span>
+          <span class="bp-price">₹18.02–24.70L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.3</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/creta-electric/">Read the verdict →</a></div>
         </div></div><div class="bp-divide" id="bp-divide">Also in this budget: cars the jury says <b>wait</b> on</div>
@@ -432,7 +433,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">6</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/mg/windsor-ev/hero.webp" alt="MG Windsor EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">MG Windsor EV</div>
-          <span class="bp-price">₹14.09–18.59L</span>
+          <span class="bp-price">₹14.09–18.59L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.0</span></div>
           <div class="bp-links"><a href="/reviews/mg/windsor-ev/">Read the verdict →</a></div>
         </div></div>
@@ -440,7 +441,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">7</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/e-vitara/hero.webp" alt="Maruti e-Vitara" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti e-Vitara</div>
-          <span class="bp-price">₹15.99–20.01L</span>
+          <span class="bp-price">₹15.99–20.01L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 6.3</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/e-vitara/">Read the verdict →</a></div>
         </div></div>
@@ -448,12 +449,12 @@
         <div class="bp-card-img"><span class="bp-rank-badge">8</span><span class="bp-vov"><span class="pill pill-SKIP">SKIP</span></span><img src="/reviews/tata/tiago-ev/hero.webp" alt="Tata Tiago EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Tiago EV</div>
-          <span class="bp-price">₹6.99–9.99L</span>
+          <span class="bp-price">₹6.99–9.99L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 5.7</span></div>
           <div class="bp-links"><a href="/reviews/tata/tiago-ev/">Read the verdict →</a></div>
         </div></div></div>
 
-  <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Tata Tiago EV</div><div class="s">₹6.99–9.99L</div></div><div><div class="k">Most premium</div><div class="v">Mahindra BE6</div><div class="s">₹18.90–28.49L</div></div><div><div class="k">Highest jury score</div><div class="v">Mahindra BE6</div><div class="s">8.6/10</div></div><div><div class="k">Safest</div><div class="v">Tata Nexon EV</div><div class="s">5★ Bharat NCAP</div></div></div></div>
+  <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Tata Tiago EV</div><div class="s">₹6.99–9.99L ex-showroom</div></div><div><div class="k">Most premium</div><div class="v">Mahindra BE6</div><div class="s">₹18.90–28.49L ex-showroom</div></div><div><div class="k">Highest jury score</div><div class="v">Mahindra BE6</div><div class="s">8.6/10</div></div><div><div class="k">Safest</div><div class="v">Tata Nexon EV</div><div class="s">5★ Bharat NCAP</div></div></div></div>
   <div class="bp-sec"><h2>Compare these head-to-head</h2><div class="bp-cmp"><a href="/compare/windsor-ev-vs-punch-ev/">Windsor EV vs Punch EV <span>→</span></a><a href="/compare/punch-ev-vs-tiago-ev/">Punch EV vs Tiago EV <span>→</span></a><a href="/compare/windsor-ev-vs-nexon-ev/">Windsor EV vs Nexon EV <span>→</span></a><a href="/compare/harrier-ev-vs-curvv-ev/">Harrier EV vs Curvv EV <span>→</span></a><a href="/compare/creta-electric-vs-windsor-ev/">Creta Electric vs Windsor EV <span>→</span></a><a href="/compare/curvv-ev-vs-nexon-ev/">Curvv EV vs Nexon EV <span>→</span></a><a href="/compare/creta-electric-vs-nexon-ev/">Creta Electric vs Nexon EV <span>→</span></a><a href="/compare/be6-vs-nexon-ev/">BE6 vs Nexon EV <span>→</span></a><a href="/compare/nexon-ev-vs-e-vitara/">Nexon EV vs E Vitara <span>→</span></a><a href="/compare/creta-electric-vs-curvv-ev/">Creta Electric vs Curvv EV <span>→</span></a><a href="/compare/creta-electric-vs-e-vitara/">Creta Electric vs E Vitara <span>→</span></a><a href="/compare/seltos-vs-grand-vitara/">Seltos vs Grand Vitara <span>→</span></a></div></div>
   <div class="bp-sec"><h2>Keep browsing</h2>
     <div class="bp-facet"><p class="fl">By budget</p><a href="/best/cars-under-10-lakh/">Cars under ₹10L</a><a href="/best/cars-under-15-lakh/">Cars under ₹15L</a><a href="/best/cars-under-20-lakh/">Cars under ₹20L</a><a href="/best/cars-under-30-lakh/">Cars under ₹30L</a></div>

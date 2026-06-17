@@ -308,6 +308,7 @@
     .bp-name{font:700 18px/1.25 var(--font-display);color:var(--ink);}
     .bp-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
     .bp-price{font:700 15px/1 var(--font-ui);color:var(--ink);}
+    .bp-exs{font:500 11px/1 var(--font-ui);color:var(--stone-400);}
     .pill{font:700 10px/1 var(--font-ui);letter-spacing:.05em;padding:5px 9px;border-radius:5px;}
     /* verdict colours match the site's review-page system exactly */
     .pill-score{background:var(--ink);color:#fff;}
@@ -386,13 +387,13 @@
     <div class="bp-count">5 cars <span>· ₹5.65–31.84L ex-showroom · ranked by The Car Jury</span></div>
     <div class="bp-sort"><button class="on" data-mode="jurypick">Jury's pick</button><button data-mode="phl">Price high to low</button><button data-mode="plh">Price low to high</button></div>
   </div>
-  <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Toyota Innova HyCross</div><div class="mt">8.3/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Toyota Innova HyCross</div><div class="mt">5-star Bharat NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Toyota Innova HyCross</div><div class="mt">8.3/10 at ₹18.70–31.84L</div></div></div>
+  <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Toyota Innova HyCross</div><div class="mt">8.3/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Toyota Innova HyCross</div><div class="mt">5-star Bharat NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Toyota Innova HyCross</div><div class="mt">8.3/10 at ₹18.70–31.84L ex-showroom</div></div></div>
   <div class="bp-grid" id="bp-list">
       <div class="bp-card" data-price="18.7" data-score="8.3" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">1</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/toyota/innova-hycross/hero.webp" alt="Toyota Innova HyCross" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Toyota Innova HyCross</div>
-          <span class="bp-price">₹18.70–31.84L</span>
+          <span class="bp-price">₹18.70–31.84L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 8.3</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/toyota/innova-hycross/">Read the verdict →</a></div>
         </div></div><div class="bp-divide" id="bp-divide">Also in this budget: cars the jury says <b>wait</b> on</div>
@@ -400,7 +401,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">2</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/kia/carens/hero.webp" alt="Kia Carens" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Kia Carens</div>
-          <span class="bp-price">₹11.21–21.59L</span>
+          <span class="bp-price">₹11.21–21.59L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.1</span><span class="pill pill-safe">🛡 3★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/kia/carens/">Read the verdict →</a></div>
         </div></div>
@@ -408,7 +409,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">3</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/nissan/gravite/hero.webp" alt="Nissan Gravite" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Nissan Gravite</div>
-          <span class="bp-price">₹5.65–9.18L</span>
+          <span class="bp-price">₹5.65–9.18L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.1</span></div>
           <div class="bp-links"><a href="/reviews/nissan/gravite/">Read the verdict →</a></div>
         </div></div>
@@ -416,7 +417,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">4</span><span class="bp-vov"><span class="pill pill-SKIP">SKIP</span></span><img src="/reviews/maruti/ertiga/hero.webp" alt="Maruti Ertiga" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Ertiga</div>
-          <span class="bp-price">₹8.85–12.99L</span>
+          <span class="bp-price">₹8.85–12.99L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 6.1</span><span class="pill pill-safe">🛡 1★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/ertiga/">Read the verdict →</a></div>
         </div></div>
@@ -424,12 +425,12 @@
         <div class="bp-card-img"><span class="bp-rank-badge">5</span><span class="bp-vov"></span><img src="/reviews/maruti/xl6/hero.webp" alt="Maruti XL6" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti XL6</div>
-          <span class="bp-price">₹11.57–14.53L</span>
+          <span class="bp-price">₹11.57–14.53L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"></div>
           <div class="bp-links"><a href="/reviews/maruti/xl6/">Read the verdict →</a></div>
         </div></div></div>
 
-  <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Nissan Gravite</div><div class="s">₹5.65–9.18L</div></div><div><div class="k">Most premium</div><div class="v">Toyota Innova HyCross</div><div class="s">₹18.70–31.84L</div></div><div><div class="k">Highest jury score</div><div class="v">Toyota Innova HyCross</div><div class="s">8.3/10</div></div><div><div class="k">Safest</div><div class="v">Toyota Innova HyCross</div><div class="s">5★ Bharat NCAP</div></div></div></div>
+  <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Nissan Gravite</div><div class="s">₹5.65–9.18L ex-showroom</div></div><div><div class="k">Most premium</div><div class="v">Toyota Innova HyCross</div><div class="s">₹18.70–31.84L ex-showroom</div></div><div><div class="k">Highest jury score</div><div class="v">Toyota Innova HyCross</div><div class="s">8.3/10</div></div><div><div class="k">Safest</div><div class="v">Toyota Innova HyCross</div><div class="s">5★ Bharat NCAP</div></div></div></div>
   <div class="bp-sec"><h2>Compare these head-to-head</h2><div class="bp-cmp"><a href="/compare/magnite-vs-fronx/">Magnite vs Fronx <span>→</span></a><a href="/compare/ertiga-vs-carens/">Ertiga vs Carens <span>→</span></a><a href="/compare/innova-hycross-vs-carens/">Innova Hycross vs Carens <span>→</span></a><a href="/compare/innova-hycross-vs-fortuner/">Innova Hycross vs Fortuner <span>→</span></a></div></div>
   <div class="bp-sec"><h2>Keep browsing</h2>
     <div class="bp-facet"><p class="fl">By budget</p><a href="/best/cars-under-10-lakh/">Cars under ₹10L</a><a href="/best/cars-under-15-lakh/">Cars under ₹15L</a><a href="/best/cars-under-20-lakh/">Cars under ₹20L</a><a href="/best/cars-under-30-lakh/">Cars under ₹30L</a></div>

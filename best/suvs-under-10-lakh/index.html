@@ -308,6 +308,7 @@
     .bp-name{font:700 18px/1.25 var(--font-display);color:var(--ink);}
     .bp-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;}
     .bp-price{font:700 15px/1 var(--font-ui);color:var(--ink);}
+    .bp-exs{font:500 11px/1 var(--font-ui);color:var(--stone-400);}
     .pill{font:700 10px/1 var(--font-ui);letter-spacing:.05em;padding:5px 9px;border-radius:5px;}
     /* verdict colours match the site's review-page system exactly */
     .pill-score{background:var(--ink);color:#fff;}
@@ -386,13 +387,13 @@
     <div class="bp-count">9 cars <span>· ₹5.65–15.83L ex-showroom · ranked by The Car Jury</span></div>
     <div class="bp-sort"><button class="on" data-mode="jurypick">Jury's pick</button><button data-mode="phl">Price high to low</button><button data-mode="plh">Price low to high</button></div>
   </div>
-  <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Mahindra XUV 3XO</div><div class="mt">7.9/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Tata Nexon</div><div class="mt">5-star Bharat NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Nissan Magnite</div><div class="mt">7.7/10 at ₹5.65–10.96L</div></div></div>
+  <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Mahindra XUV 3XO</div><div class="mt">7.9/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Tata Nexon</div><div class="mt">5-star Bharat NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Nissan Magnite</div><div class="mt">7.7/10 at ₹5.65–10.96L ex-showroom</div></div></div>
   <div class="bp-grid" id="bp-list">
       <div class="bp-card" data-price="7.54" data-score="7.9" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">1</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/xuv-3xo/hero.webp" alt="Mahindra XUV 3XO" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra XUV 3XO</div>
-          <span class="bp-price">₹7.54–14.88L</span>
+          <span class="bp-price">₹7.54–14.88L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.9</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/xuv-3xo/">Read the verdict →</a></div>
         </div></div>
@@ -400,7 +401,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">2</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/nexon/hero.webp" alt="Tata Nexon" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Nexon</div>
-          <span class="bp-price">₹7.37–14.22L</span>
+          <span class="bp-price">₹7.37–14.22L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.9</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/nexon/">Read the verdict →</a></div>
         </div></div>
@@ -408,7 +409,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">3</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/hyundai/venue/hero.webp" alt="Hyundai Venue" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Venue</div>
-          <span class="bp-price">₹7.99–15.83L</span>
+          <span class="bp-price">₹7.99–15.83L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.8</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/venue/">Read the verdict →</a></div>
         </div></div>
@@ -416,7 +417,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">4</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/nissan/magnite/hero.webp" alt="Nissan Magnite" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Nissan Magnite</div>
-          <span class="bp-price">₹5.65–10.96L</span>
+          <span class="bp-price">₹5.65–10.96L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.7</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/nissan/magnite/">Read the verdict →</a></div>
         </div></div>
@@ -424,7 +425,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">5</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/punch/hero.webp" alt="Tata Punch" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Punch</div>
-          <span class="bp-price">₹5.65–10.60L</span>
+          <span class="bp-price">₹5.65–10.60L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.7</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/punch/">Read the verdict →</a></div>
         </div></div>
@@ -432,7 +433,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">6</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/kia/sonet/hero.webp" alt="Kia Sonet" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Kia Sonet</div>
-          <span class="bp-price">₹7.33–14.09L</span>
+          <span class="bp-price">₹7.33–14.09L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 7.5</span></div>
           <div class="bp-links"><a href="/reviews/kia/sonet/">Read the verdict →</a></div>
         </div></div><div class="bp-divide" id="bp-divide">Also in this budget: cars the jury says <b>wait</b> on</div>
@@ -440,7 +441,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">7</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/hyundai/exter/hero.webp" alt="Hyundai Exter" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Exter</div>
-          <span class="bp-price">₹5.81–9.61L</span>
+          <span class="bp-price">₹5.81–9.61L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 6.9</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/exter/">Read the verdict →</a></div>
         </div></div>
@@ -448,7 +449,7 @@
         <div class="bp-card-img"><span class="bp-rank-badge">8</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/fronx/hero.webp" alt="Maruti Fronx" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Fronx</div>
-          <span class="bp-price">₹6.85–11.98L</span>
+          <span class="bp-price">₹6.85–11.98L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 6.7</span></div>
           <div class="bp-links"><a href="/reviews/maruti/fronx/">Read the verdict →</a></div>
         </div></div>
@@ -456,12 +457,12 @@
         <div class="bp-card-img"><span class="bp-rank-badge">9</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/brezza/hero.webp" alt="Maruti Brezza" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Brezza</div>
-          <span class="bp-price">₹8.26–13.01L</span>
+          <span class="bp-price">₹8.26–13.01L</span> <span class="bp-exs">ex-showroom</span>
           <div class="bp-meta"><span class="pill pill-score">JURY 6.3</span></div>
           <div class="bp-links"><a href="/reviews/maruti/brezza/">Read the verdict →</a></div>
         </div></div></div>
 
-  <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Nissan Magnite</div><div class="s">₹5.65–10.96L</div></div><div><div class="k">Most premium</div><div class="v">Maruti Brezza</div><div class="s">₹8.26–13.01L</div></div><div><div class="k">Highest jury score</div><div class="v">Mahindra XUV 3XO</div><div class="s">7.9/10</div></div><div><div class="k">Safest</div><div class="v">Tata Nexon</div><div class="s">5★ Bharat NCAP</div></div></div></div>
+  <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Nissan Magnite</div><div class="s">₹5.65–10.96L ex-showroom</div></div><div><div class="k">Most premium</div><div class="v">Maruti Brezza</div><div class="s">₹8.26–13.01L ex-showroom</div></div><div><div class="k">Highest jury score</div><div class="v">Mahindra XUV 3XO</div><div class="s">7.9/10</div></div><div><div class="k">Safest</div><div class="v">Tata Nexon</div><div class="s">5★ Bharat NCAP</div></div></div></div>
   <div class="bp-sec"><h2>Compare these head-to-head</h2><div class="bp-cmp"><a href="/compare/venue-vs-sonet/">Venue vs Sonet <span>→</span></a><a href="/compare/magnite-vs-venue/">Magnite vs Venue <span>→</span></a><a href="/compare/sonet-vs-xuv-3xo/">Sonet vs Xuv 3Xo <span>→</span></a><a href="/compare/brezza-vs-venue/">Brezza vs Venue <span>→</span></a><a href="/compare/venue-vs-xuv-3xo/">Venue vs Xuv 3Xo <span>→</span></a><a href="/compare/nexon-vs-venue/">Nexon vs Venue <span>→</span></a><a href="/compare/venue-vs-fronx/">Venue vs Fronx <span>→</span></a><a href="/compare/venue-vs-exter/">Venue vs Exter <span>→</span></a><a href="/compare/sonet-vs-fronx/">Sonet vs Fronx <span>→</span></a><a href="/compare/magnite-vs-sonet/">Magnite vs Sonet <span>→</span></a><a href="/compare/magnite-vs-punch/">Magnite vs Punch <span>→</span></a><a href="/compare/sonet-vs-exter/">Sonet vs Exter <span>→</span></a></div></div>
   <div class="bp-sec"><h2>Keep browsing</h2>
     <div class="bp-facet"><p class="fl">By budget</p><a href="/best/cars-under-10-lakh/">Cars under ₹10L</a><a href="/best/cars-under-15-lakh/">Cars under ₹15L</a><a href="/best/cars-under-20-lakh/">Cars under ₹20L</a><a href="/best/cars-under-30-lakh/">Cars under ₹30L</a></div>
