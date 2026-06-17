@@ -104,7 +104,13 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/bmw-f-450-gs-accessory-prices-india/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/bmw-ix5-largest-battery-pack-2027-debut/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 17 Jun 2026 13:33:26 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 16:32:08 +1000</lastBuildDate>
+    <item>
+      <title>BMW iX5 to Pack a 144kWh Battery: India Should Wait for the X5 Diesel</title>
+      <link>https://www.thecarjury.com/news/bmw-ix5-largest-battery-pack-2027-debut/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-ix5-largest-battery-pack-2027-debut/</guid>
+      <pubDate>Wed, 17 Jun 2026 16:31:42 +1000</pubDate>
+      <description>BMW&amp;#x27;s upcoming iX5 will get a 141-144kWh battery, the brand&amp;#x27;s largest yet. The Car Jury on what it means for X5 buyers in India.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mahindra XEV 9S Pack One Above Deliveries Start: The Smart Pick at Rs 19.95 Lakh</title>
       <link>https://www.thecarjury.com/news/mahindra-xev-9s-pack-one-above-deliveries-begin/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-gravite-price-hike-june-2026/</guid>
       <pubDate>Tue, 09 Jun 2026 11:51:08 +0530</pubDate>
       <description>Nissan has raised Gravite prices by up to Rs 18,000 from June 2026. The sub-4m MPV still undercuts its Renault Triber twin on every trim.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>XUV 7XO Is Outrunning The XUV700: Mahindra's Rename Gamble Pays Off</title>
-      <link>https://www.thecarjury.com/news/mahindra-xuv-7xo-sales-surge-2026-record-year/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xuv-7xo-sales-surge-2026-record-year/</guid>
-      <pubDate>Tue, 09 Jun 2026 11:50:21 +0530</pubDate>
-      <description>Mahindra XUV 7XO has clocked 46,423 units in five months of 2026, outpacing the XUV700&amp;#x27;s run rate. Here is why the rename worked.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
