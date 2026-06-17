@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-near-production-ready-spied/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-17T16:32:47+10:00</news:publication_date>
+      <news:title>2026 Maruti Brezza Facelift Spotted Production-Ready: Launch Imminent</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/4-5m-4-8m-suv-sales-may-2026-mahindra-dominance/</loc>
     <lastmod>2026-06-17</lastmod>
     <news:news>
@@ -63,7 +75,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-wagon-r-bioflex-flex-fuel-price-launch/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-17</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
