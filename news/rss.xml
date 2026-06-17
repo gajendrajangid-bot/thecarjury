@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 17 Jun 2026 19:28:28 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 19:29:27 +1000</lastBuildDate>
+    <item>
+      <title>Mini Countryman C at Rs 47.5 lakh: local assembly finally makes the badge sensible</title>
+      <link>https://www.thecarjury.com/news/mini-countryman-c-india-launch-price-locally-assembled/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mini-countryman-c-india-launch-price-locally-assembled/</guid>
+      <pubDate>Wed, 17 Jun 2026 19:29:06 +1000</pubDate>
+      <description>Mini launches the locally assembled Countryman C in India at Rs 47.5 lakh, pitching it against the BMW X1, Mercedes GLA and Audi Q3.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti Wagon R Bioflex Reaches Private Buyers: Symbolism, Not a Sensible Buy Yet</title>
       <link>https://www.thecarjury.com/news/maruti-wagon-r-bioflex-private-buyer-deliveries-begin/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/byd-seal-u-phev-india-launch-end-2026/</guid>
       <pubDate>Tue, 09 Jun 2026 14:47:28 +0530</pubDate>
       <description>BYD Seal U PHEV launches in India by end-2026 with 1200km combined range and 200km EV-only mode. Here&amp;#x27;s what it means for hybrid buyers.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai Venue hits 8 lakh sales: third compact SUV to do it, and it is not slowing down</title>
-      <link>https://www.thecarjury.com/news/hyundai-venue-crosses-8-lakh-sales-milestone/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-venue-crosses-8-lakh-sales-milestone/</guid>
-      <pubDate>Tue, 09 Jun 2026 14:46:36 +0530</pubDate>
-      <description>Hyundai Venue joins Maruti Brezza and Tata Nexon in the 8 lakh club, with the last 1 lakh units sold in just nine months. Here is what it means.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
