@@ -38,6 +38,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/bmw-profit-warning-china-iran-2026/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-18T16:32:56+10:00</news:publication_date>
+      <news:title>BMW's profit warning is a warning shot for the entire German luxury trio in India</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/citroen-ec3x-launch-price-features-2026/</loc>
     <lastmod>2026-06-18</lastmod>
     <news:news>
@@ -111,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mini-countryman-c-india-launch-price-locally-assembled/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
