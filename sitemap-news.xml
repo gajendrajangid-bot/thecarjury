@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/audi-a6-allroad-phev-diesel-global-reveal-2026/</loc>
-    <lastmod>2026-06-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-16T22:32:49+10:00</news:publication_date>
-      <news:title>Audi A6 allroad returns with PHEV: a global wagon we still won't get</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/bmw-ix5-largest-battery-pack-2027-debut/</loc>
     <lastmod>2026-06-18</lastmod>
     <news:news>
@@ -110,6 +98,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/kia-india-price-hike-july-2026-up-to-2-percent/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-18T22:34:14+10:00</news:publication_date>
+      <news:title>Kia hikes prices by up to 2 percent from July 1: buy in June if you're ready</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mahindra-xev-9s-pack-one-above-deliveries-begin/</loc>
     <lastmod>2026-06-18</lastmod>
     <news:news>
@@ -155,18 +155,6 @@
       </news:publication>
       <news:publication_date>2026-06-17T19:29:06+10:00</news:publication_date>
       <news:title>Mini Countryman C at Rs 47.5 lakh: local assembly finally makes the badge sensible</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-physical-controls-return-uhlarik/</loc>
-    <lastmod>2026-06-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-16T22:32:10+10:00</news:publication_date>
-      <news:title>Tata Finally Admits Touch-Only Cabins Were a Mistake</news:title>
     </news:news>
   </url>
   <url>
