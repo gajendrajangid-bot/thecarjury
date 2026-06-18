@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-near-production-ready-spied/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/audi-a6-allroad-phev-diesel-global-reveal-2026/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/bmw-ix5-largest-battery-pack-2027-debut/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/citroen-ec3x-launch-price-features-2026/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-i20-n-shadow-edition-australia-farewell/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -59,6 +59,18 @@
       </news:publication>
       <news:publication_date>2026-06-17T22:30:25+10:00</news:publication_date>
       <news:title>Hyundai's i20 N Shadow Edition farewell is a reminder of what India never got</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/hyundai-sub-4m-electric-suv-spied-2026-diwali-launch/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-18T13:40:36+10:00</news:publication_date>
+      <news:title>Hyundai's Sub-4m Electric SUV Spied: Diwali 2026 Punch EV Killer Incoming</news:title>
     </news:news>
   </url>
   <url>
