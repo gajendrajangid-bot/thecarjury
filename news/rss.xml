@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 18 Jun 2026 16:33:02 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 16:34:25 +1000</lastBuildDate>
+    <item>
+      <title>Bengaluru Now Runs The Brain Of Your Next Mercedes</title>
+      <link>https://www.thecarjury.com/news/mercedes-cto-jorg-burzer-india-bengaluru-engineering/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-cto-jorg-burzer-india-bengaluru-engineering/</guid>
+      <pubDate>Thu, 18 Jun 2026 16:34:18 +1000</pubDate>
+      <description>Mercedes CTO Jorg Burzer says Bengaluru is now central to software, infotainment and autonomous driving work for the three-pointed star.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>BMW's profit warning is a warning shot for the entire German luxury trio in India</title>
       <link>https://www.thecarjury.com/news/bmw-profit-warning-china-iran-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-chennai-plant-1-production-normalise-june-22-mobis-fire/</guid>
       <pubDate>Wed, 10 Jun 2026 12:02:37 +0530</pubDate>
       <description>Hyundai expects Chennai Plant 1 to resume normal output by June 22 after a Mobis India supplier fire. Dealer stock cushions retail sales.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>3rd Gen Audi Q7 Debuts With 600 PS And Camera-Based ADAS, India Launch Likely</title>
-      <link>https://www.thecarjury.com/news/audi-q7-third-gen-debut-v6-v8-600ps/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-q7-third-gen-debut-v6-v8-600ps/</guid>
-      <pubDate>Wed, 10 Jun 2026 12:01:45 +0530</pubDate>
-      <description>Third-generation Audi Q7 breaks cover with V6 and V8 engines, up to 600 PS, Q9-derived cabin and Matrix LED lighting. India launch likely.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
