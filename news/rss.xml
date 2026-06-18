@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 18 Jun 2026 16:34:25 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 16:35:34 +1000</lastBuildDate>
+    <item>
+      <title>Force Motors Hits 200,000 Mercedes Engines: Why This Chakan Milestone Matters</title>
+      <link>https://www.thecarjury.com/news/force-motors-200000th-mercedes-engine-india-m256-gls-450/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/force-motors-200000th-mercedes-engine-india-m256-gls-450/</guid>
+      <pubDate>Thu, 18 Jun 2026 16:35:32 +1000</pubDate>
+      <description>Force Motors rolls out its 200,000th Mercedes-Benz engine at Chakan, a 6-cyl M256 petrol for the GLS 450. Here is what the milestone really signals.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Bengaluru Now Runs The Brain Of Your Next Mercedes</title>
       <link>https://www.thecarjury.com/news/mercedes-cto-jorg-burzer-india-bengaluru-engineering/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-price-protection-entry-level-cars-june-2026/</guid>
       <pubDate>Wed, 10 Jun 2026 12:04:36 +0530</pubDate>
       <description>Maruti Suzuki offers price protection on Alto K10, S-Presso, Celerio and WagonR for bookings made until June 14, 2026, against the recent hike.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai's Chennai Plant 1 Back to Normal by June 22, Retail Untouched</title>
-      <link>https://www.thecarjury.com/news/hyundai-chennai-plant-1-production-normalise-june-22-mobis-fire/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-chennai-plant-1-production-normalise-june-22-mobis-fire/</guid>
-      <pubDate>Wed, 10 Jun 2026 12:02:37 +0530</pubDate>
-      <description>Hyundai expects Chennai Plant 1 to resume normal output by June 22 after a Mobis India supplier fire. Dealer stock cushions retail sales.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
