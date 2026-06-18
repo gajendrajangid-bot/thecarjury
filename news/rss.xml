@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 18 Jun 2026 22:34:17 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 22:34:55 +1000</lastBuildDate>
+    <item>
+      <title>Porsche Borrows Hyundai's Homework: 2027 Taycan Gets Fake Gears</title>
+      <link>https://www.thecarjury.com/news/2027-porsche-taycan-simulated-gearshifts-e-shift/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/2027-porsche-taycan-simulated-gearshifts-e-shift/</guid>
+      <pubDate>Thu, 18 Jun 2026 22:34:53 +1000</pubDate>
+      <description>The 2027 Porsche Taycan gets E-Shift simulated gearshifts inspired by the Hyundai Ioniq 5 N, plus a Manthey kit and new infotainment. TCJ&amp;#x27;s verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia hikes prices by up to 2 percent from July 1: buy in June if you're ready</title>
       <link>https://www.thecarjury.com/news/kia-india-price-hike-july-2026-up-to-2-percent/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sonet-1-star-global-ncap-south-africa-spec/</guid>
       <pubDate>Wed, 10 Jun 2026 15:10:32 +0530</pubDate>
       <description>India-made Kia Sonet scores 1 star for adult protection at Global NCAP, but the tested car is the dual-airbag South Africa export, not the India-spec.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia's June 2026 Discounts: Carnival Leads With Rs 1.5 Lakh Off</title>
-      <link>https://www.thecarjury.com/news/kia-carnival-carens-clavis-discounts-june-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-carnival-carens-clavis-discounts-june-2026/</guid>
-      <pubDate>Wed, 10 Jun 2026 15:09:44 +0530</pubDate>
-      <description>Kia is offering up to Rs 1.5 lakh off the Carnival in June 2026, with benefits also on Carens Clavis, Seltos, Sonet and Syros. Worth the wait?</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
