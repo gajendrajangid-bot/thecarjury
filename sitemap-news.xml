@@ -74,8 +74,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/india-uk-trade-pact-378000-cars-concessional-duty/</loc>
+    <lastmod>2026-06-18</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-18T13:42:34+10:00</news:publication_date>
+      <news:title>India-UK Trade Pact Opens Door to 3.78 Lakh British Cars at Slashed Duties</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mahindra-xev-9s-pack-one-above-deliveries-begin/</loc>
-    <lastmod>2026-06-17</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -111,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-physical-controls-return-uhlarik/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
