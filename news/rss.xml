@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 18 Jun 2026 22:34:55 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 13:18:36 +1000</lastBuildDate>
+    <item>
+      <title>Toyota Ebella Deliveries Begin: A Pricier eVitara With a Toyota Badge</title>
+      <link>https://www.thecarjury.com/news/toyota-ebella-electric-suv-first-delivery/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-ebella-electric-suv-first-delivery/</guid>
+      <pubDate>Fri, 19 Jun 2026 13:18:06 +1000</pubDate>
+      <description>Toyota Ebella deliveries start with the top-spec E3 at Rs 23.60 lakh. BaaS option drops the entry to Rs 15.25 lakh. Our verdict inside.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Porsche Borrows Hyundai's Homework: 2027 Taycan Gets Fake Gears</title>
       <link>https://www.thecarjury.com/news/2027-porsche-taycan-simulated-gearshifts-e-shift/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-taigun-t-cross-rock-in-rio-edition-brazil/</guid>
       <pubDate>Thu, 11 Jun 2026 09:03:43 +0530</pubDate>
       <description>Volkswagen has launched a Rock In Rio special edition of the T-Cross (our Taigun) in Brazil. India, predictably, gets nothing of the sort.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Sonet scores 1 star at Global NCAP, but it's the South Africa-spec car</title>
-      <link>https://www.thecarjury.com/news/kia-sonet-1-star-global-ncap-south-africa-spec/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sonet-1-star-global-ncap-south-africa-spec/</guid>
-      <pubDate>Wed, 10 Jun 2026 15:10:32 +0530</pubDate>
-      <description>India-made Kia Sonet scores 1 star for adult protection at Global NCAP, but the tested car is the dual-airbag South Africa export, not the India-spec.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
