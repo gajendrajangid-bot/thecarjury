@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-near-production-ready-spied/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-17T16:32:47+10:00</news:publication_date>
-      <news:title>2026 Maruti Brezza Facelift Spotted Production-Ready: Launch Imminent</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/2027-porsche-taycan-simulated-gearshifts-e-shift/</loc>
     <lastmod>2026-06-18</lastmod>
     <news:news>
@@ -23,18 +11,6 @@
       </news:publication>
       <news:publication_date>2026-06-18T22:34:53+10:00</news:publication_date>
       <news:title>Porsche Borrows Hyundai's Homework: 2027 Taycan Gets Fake Gears</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/bmw-ix5-largest-battery-pack-2027-debut/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-17T16:31:42+10:00</news:publication_date>
-      <news:title>BMW iX5 to Pack a 144kWh Battery: India Should Wait for the X5 Diesel</news:title>
     </news:news>
   </url>
   <url>
@@ -50,18 +26,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/citroen-ec3x-launch-price-features-2026/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-17T19:30:05+10:00</news:publication_date>
-      <news:title>Citroen eC3X at Rs 10.25 Lakh: Cheaper, Better Kitted, Still a Hard Sell</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/force-motors-200000th-mercedes-engine-india-m256-gls-450/</loc>
     <lastmod>2026-06-18</lastmod>
     <news:news>
@@ -71,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-06-18T16:35:32+10:00</news:publication_date>
       <news:title>Force Motors Hits 200,000 Mercedes Engines: Why This Chakan Milestone Matters</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-i20-n-shadow-edition-australia-farewell/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-17T22:30:25+10:00</news:publication_date>
-      <news:title>Hyundai's i20 N Shadow Edition farewell is a reminder of what India never got</news:title>
     </news:news>
   </url>
   <url>
@@ -99,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/india-uk-trade-pact-378000-cars-concessional-duty/</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -134,30 +86,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mahindra-xev-9s-pack-one-above-deliveries-begin/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-17T13:32:58+10:00</news:publication_date>
-      <news:title>Mahindra XEV 9S Pack One Above Deliveries Start: The Smart Pick at Rs 19.95 Lakh</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-wagon-r-bioflex-private-buyer-deliveries-begin/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-17T19:28:26+10:00</news:publication_date>
-      <news:title>Maruti Wagon R Bioflex Reaches Private Buyers: Symbolism, Not a Sensible Buy Yet</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mercedes-cto-jorg-burzer-india-bengaluru-engineering/</loc>
     <lastmod>2026-06-19</lastmod>
     <news:news>
@@ -170,18 +98,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mini-countryman-c-india-launch-price-locally-assembled/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-17T19:29:06+10:00</news:publication_date>
-      <news:title>Mini Countryman C at Rs 47.5 lakh: local assembly finally makes the badge sensible</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-baby-patrol-teaser-india-july-9-debut/</loc>
     <lastmod>2026-06-19</lastmod>
     <news:news>
@@ -191,6 +107,18 @@
       </news:publication>
       <news:publication_date>2026-06-19T13:19:17+10:00</news:publication_date>
       <news:title>Nissan Tekton Teased As 'Baby Patrol': July 9 Mumbai Debut Set</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-sierra-ev-teased-june-30-debut/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-19T22:54:20+10:00</news:publication_date>
+      <news:title>Tata Sierra EV Teased For June 30 Debut: Harrier EV Hardware In A Cult Skin</news:title>
     </news:news>
   </url>
   <url>
