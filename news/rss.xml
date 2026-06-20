@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 20 Jun 2026 22:23:05 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 22:25:37 +1000</lastBuildDate>
+    <item>
+      <title>Tata Harrier Owner Wins Rs 21.4 Lakh Refund: A Warning Tata Cannot Ignore</title>
+      <link>https://www.thecarjury.com/news/tata-harrier-21-lakh-refund-consumer-commission-ruling/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-harrier-21-lakh-refund-consumer-commission-ruling/</guid>
+      <pubDate>Sat, 20 Jun 2026 22:24:46 +1000</pubDate>
+      <description>A Himachal Pradesh consumer commission has ordered Tata Motors to replace a 2022 Harrier or refund Rs 21.4 lakh over manufacturing defects.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>BMW India Confirms: Your Existing Car Cannot Be Upgraded For E30 Fuel</title>
       <link>https://www.thecarjury.com/news/bmw-india-confirms-existing-cars-cannot-run-e30-fuel/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/e22-e25-e27-e30-ethanol-fuels-excise-duty-exemption/</guid>
       <pubDate>Fri, 12 Jun 2026 09:11:19 +0530</pubDate>
       <description>The Centre has exempted E22, E25, E27 and E30 ethanol-blended petrol from excise duty, but none of these fuels is on sale yet in India.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Sierra EV Debuts June 30: AWD On The Table, 500+ KM Range On The Cards</title>
-      <link>https://www.thecarjury.com/news/tata-sierra-ev-debut-june-30-awd-500km-range/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-debut-june-30-awd-500km-range/</guid>
-      <pubDate>Fri, 12 Jun 2026 09:10:14 +0530</pubDate>
-      <description>Tata Sierra EV debuts June 30 with an expected 500+ km range and a likely AWD option. Here is what it means for the Creta EV and BE6 fight.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

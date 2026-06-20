@@ -919,6 +919,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/tata-harrier-21-lakh-refund-consumer-commission-ruling/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/tata-harrier-ev-curvv-ev-discounts-june-2026/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -992,7 +998,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-teased-june-30-debut/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
