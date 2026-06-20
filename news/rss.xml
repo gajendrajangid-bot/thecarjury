@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 20 Jun 2026 19:55:28 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 22:23:05 +1000</lastBuildDate>
+    <item>
+      <title>BMW India Confirms: Your Existing Car Cannot Be Upgraded For E30 Fuel</title>
+      <link>https://www.thecarjury.com/news/bmw-india-confirms-existing-cars-cannot-run-e30-fuel/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-india-confirms-existing-cars-cannot-run-e30-fuel/</guid>
+      <pubDate>Sat, 20 Jun 2026 22:22:49 +1000</pubDate>
+      <description>BMW India boss confirms existing cars cannot be retrofitted for E30 ethanol blends as the government pushes beyond E20. Here is what it means for owners.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Porsche's Second Cost Cut in a Year: Leiters Wants a Deal Before July</title>
       <link>https://www.thecarjury.com/news/porsche-cost-cutting-package-july-2026-audi-collaboration/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-debut-june-30-awd-500km-range/</guid>
       <pubDate>Fri, 12 Jun 2026 09:10:14 +0530</pubDate>
       <description>Tata Sierra EV debuts June 30 with an expected 500+ km range and a likely AWD option. Here is what it means for the Creta EV and BE6 fight.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2027 Hyundai i20 Leaks: Crossover Styling, But India Isn't On The Guest List</title>
-      <link>https://www.thecarjury.com/news/2027-hyundai-i20-leak-next-gen-design-interior/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2027-hyundai-i20-leak-next-gen-design-interior/</guid>
-      <pubDate>Fri, 12 Jun 2026 09:09:36 +0530</pubDate>
-      <description>The next-gen Hyundai i20 has leaked with rugged crossover styling and a new cabin ahead of its global debut. Here is what it means for India.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
