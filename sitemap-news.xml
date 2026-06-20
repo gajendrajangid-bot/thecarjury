@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2027-porsche-taycan-simulated-gearshifts-e-shift/</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-20</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -83,6 +83,18 @@
       </news:publication>
       <news:publication_date>2026-06-19T13:19:17+10:00</news:publication_date>
       <news:title>Nissan Tekton Teased As 'Baby Patrol': July 9 Mumbai Debut Set</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/porsche-cost-cutting-package-july-2026-audi-collaboration/</loc>
+    <lastmod>2026-06-20</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-20T19:55:20+10:00</news:publication_date>
+      <news:title>Porsche's Second Cost Cut in a Year: Leiters Wants a Deal Before July</news:title>
     </news:news>
   </url>
   <url>

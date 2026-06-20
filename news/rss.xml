@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 20 Jun 2026 19:54:38 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 19:55:28 +1000</lastBuildDate>
+    <item>
+      <title>Porsche's Second Cost Cut in a Year: Leiters Wants a Deal Before July</title>
+      <link>https://www.thecarjury.com/news/porsche-cost-cutting-package-july-2026-audi-collaboration/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/porsche-cost-cutting-package-july-2026-audi-collaboration/</guid>
+      <pubDate>Sat, 20 Jun 2026 19:55:20 +1000</pubDate>
+      <description>Porsche CEO Michael Leiters wants a second cost-cutting package signed before July, with deeper Audi cooperation and lower output ahead.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Baby Defender goes hybrid too: JLR blinks on the all-EV plan</title>
       <link>https://www.thecarjury.com/news/baby-defender-hybrid-electric-powertrains-confirmed/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2027-hyundai-i20-leak-next-gen-design-interior/</guid>
       <pubDate>Fri, 12 Jun 2026 09:09:36 +0530</pubDate>
       <description>The next-gen Hyundai i20 has leaked with rugged crossover styling and a new cabin ahead of its global debut. Here is what it means for India.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Renault confirms cheaper Duster automatics: about time, and still not enough</title>
-      <link>https://www.thecarjury.com/news/renault-duster-cheaper-automatic-variants-confirmed/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-cheaper-automatic-variants-confirmed/</guid>
-      <pubDate>Thu, 11 Jun 2026 18:15:38 +0530</pubDate>
-      <description>Renault Group India CEO Stephane Deblaise confirms more affordable Duster automatic variants are coming to plug the gap above the 1.0 manual range.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
