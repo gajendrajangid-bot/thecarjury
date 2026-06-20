@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 20 Jun 2026 19:53:18 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Jun 2026 19:54:38 +1000</lastBuildDate>
+    <item>
+      <title>Baby Defender goes hybrid too: JLR blinks on the all-EV plan</title>
+      <link>https://www.thecarjury.com/news/baby-defender-hybrid-electric-powertrains-confirmed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/baby-defender-hybrid-electric-powertrains-confirmed/</guid>
+      <pubDate>Sat, 20 Jun 2026 19:54:16 +1000</pubDate>
+      <description>JLR confirms the upcoming baby Defender, likely called Defender Sport, will get both hybrid and electric powertrains when it debuts in 2027.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Green SM's Delhi-NCR EV Taxi Launch Hits Driver Revolt In Week One</title>
       <link>https://www.thecarjury.com/news/vinfast-green-sm-taxi-driver-complaints-delhi-ncr-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-cheaper-automatic-variants-confirmed/</guid>
       <pubDate>Thu, 11 Jun 2026 18:15:38 +0530</pubDate>
       <description>Renault Group India CEO Stephane Deblaise confirms more affordable Duster automatic variants are coming to plug the gap above the 1.0 manual range.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>BMW F 450 GS Accessory List: Cross-Spoke Wheels Cost Nearly Rs 1 Lakh</title>
-      <link>https://www.thecarjury.com/news/bmw-f-450-gs-accessory-prices-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-f-450-gs-accessory-prices-india/</guid>
-      <pubDate>Thu, 11 Jun 2026 18:14:37 +0530</pubDate>
-      <description>BMW F 450 GS accessory prices revealed in India. Cross-spoke wheels cost Rs 99,693, Rallye windshield starts at Rs 2,000. Full list and our verdict.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
