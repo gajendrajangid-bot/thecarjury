@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 20 Jun 2026 22:25:37 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 18:20:48 +1000</lastBuildDate>
+    <item>
+      <title>Tata Sierra EV Gets QWD Dual Motor: The Harrier EV Playbook, Again</title>
+      <link>https://www.thecarjury.com/news/tata-sierra-ev-qwd-dual-motor-teaser-confirmed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-qwd-dual-motor-teaser-confirmed/</guid>
+      <pubDate>Sun, 21 Jun 2026 18:20:46 +1000</pubDate>
+      <description>Tata confirms Sierra EV will get a QWD dual-motor setup ahead of its June 30 launch, with a desert-run teaser hinting at serious off-road intent.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Harrier Owner Wins Rs 21.4 Lakh Refund: A Warning Tata Cannot Ignore</title>
       <link>https://www.thecarjury.com/news/tata-harrier-21-lakh-refund-consumer-commission-ruling/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-kylaq-sportline-september-2026-launch-1-5-tsi/</guid>
       <pubDate>Fri, 12 Jun 2026 11:56:50 +0530</pubDate>
       <description>Skoda confirms Kylaq Sportline for September 2026 with sportier styling. A 1.5 TSI Kylaq RS is under evaluation but not yet greenlit for India.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Government Exempts E22 to E30 Ethanol Blends From Excise Duty: A Solution Without Cars</title>
-      <link>https://www.thecarjury.com/news/e22-e25-e27-e30-ethanol-fuels-excise-duty-exemption/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/e22-e25-e27-e30-ethanol-fuels-excise-duty-exemption/</guid>
-      <pubDate>Fri, 12 Jun 2026 09:11:19 +0530</pubDate>
-      <description>The Centre has exempted E22, E25, E27 and E30 ethanol-blended petrol from excise duty, but none of these fuels is on sale yet in India.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

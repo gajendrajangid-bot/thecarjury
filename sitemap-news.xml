@@ -2,20 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2027-porsche-taycan-simulated-gearshifts-e-shift/</loc>
-    <lastmod>2026-06-20</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-18T22:34:53+10:00</news:publication_date>
-      <news:title>Porsche Borrows Hyundai's Homework: 2027 Taycan Gets Fake Gears</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/baby-defender-hybrid-electric-powertrains-confirmed/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-21</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -50,30 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/jlr-hybrid-suvs-jaguar-ev-only-reimagine-phase-two/</loc>
-    <lastmod>2026-06-20</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-19T13:19:58+10:00</news:publication_date>
-      <news:title>JLR Backtracks: Range Rover, Defender, Discovery Get Hybrids; Jaguar Stays EV-Only</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/kia-india-price-hike-july-2026-up-to-2-percent/</loc>
-    <lastmod>2026-06-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-18T22:34:14+10:00</news:publication_date>
-      <news:title>Kia hikes prices by up to 2 percent from July 1: buy in June if you're ready</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mahindra-vision-s-scorpio-sport-spied-mussoorie/</loc>
     <lastmod>2026-06-19</lastmod>
     <news:news>
@@ -83,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-06-19T22:55:40+10:00</news:publication_date>
       <news:title>Mahindra Vision S Spied In Mussoorie: Scorpio Sport Is The Sub-4m SUV To Watch</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/nissan-tekton-baby-patrol-teaser-india-july-9-debut/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-19T13:19:17+10:00</news:publication_date>
-      <news:title>Nissan Tekton Teased As 'Baby Patrol': July 9 Mumbai Debut Set</news:title>
     </news:news>
   </url>
   <url>
@@ -111,7 +63,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-harrier-21-lakh-refund-consumer-commission-ruling/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-21</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -122,8 +74,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/tata-sierra-ev-qwd-dual-motor-teaser-confirmed/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-21T18:20:46+10:00</news:publication_date>
+      <news:title>Tata Sierra EV Gets QWD Dual Motor: The Harrier EV Playbook, Again</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-teased-june-30-debut/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-21</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -134,20 +98,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/toyota-ebella-electric-suv-first-delivery/</loc>
-    <lastmod>2026-06-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-19T13:18:06+10:00</news:publication_date>
-      <news:title>Toyota Ebella Deliveries Begin: A Pricier eVitara With a Toyota Badge</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/vinfast-green-sm-taxi-driver-complaints-delhi-ncr-launch/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-21</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
