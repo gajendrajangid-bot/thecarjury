@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 21 Jun 2026 18:20:48 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 18:21:40 +1000</lastBuildDate>
+    <item>
+      <title>Chery Steals The Stockman Name For Its Diesel PHEV Pickup</title>
+      <link>https://www.thecarjury.com/news/chery-stockman-diesel-phev-pickup-name-revival/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/chery-stockman-diesel-phev-pickup-name-revival/</guid>
+      <pubDate>Sun, 21 Jun 2026 18:21:33 +1000</pubDate>
+      <description>Chery picks Stockman, a name once tied to Mahindra and Suzuki, for its new turbodiesel PHEV pickup launching in Australia later this year.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Sierra EV Gets QWD Dual Motor: The Harrier EV Playbook, Again</title>
       <link>https://www.thecarjury.com/news/tata-sierra-ev-qwd-dual-motor-teaser-confirmed/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-affordable-automatic-variant-launch-soon/</guid>
       <pubDate>Fri, 12 Jun 2026 11:57:36 +0530</pubDate>
       <description>Renault plans a more affordable automatic variant of the new Duster after 5,000 sales. Here&amp;#x27;s why TCJ thinks this trim was overdue from launch.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Kylaq Sportline Locks September 2026 Launch, 1.5 TSI Still On The Table</title>
-      <link>https://www.thecarjury.com/news/skoda-kylaq-sportline-september-2026-launch-1-5-tsi/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-kylaq-sportline-september-2026-launch-1-5-tsi/</guid>
-      <pubDate>Fri, 12 Jun 2026 11:56:50 +0530</pubDate>
-      <description>Skoda confirms Kylaq Sportline for September 2026 with sportier styling. A 1.5 TSI Kylaq RS is under evaluation but not yet greenlit for India.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

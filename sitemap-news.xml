@@ -26,6 +26,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/chery-stockman-diesel-phev-pickup-name-revival/</loc>
+    <lastmod>2026-06-21</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-21T18:21:33+10:00</news:publication_date>
+      <news:title>Chery Steals The Stockman Name For Its Diesel PHEV Pickup</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/honda-elevate-facelift-city-features-2026/</loc>
     <lastmod>2026-06-19</lastmod>
     <news:news>
@@ -39,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mahindra-vision-s-scorpio-sport-spied-mussoorie/</loc>
-    <lastmod>2026-06-19</lastmod>
+    <lastmod>2026-06-21</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
