@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 22 Jun 2026 13:53:46 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 16:45:43 +1000</lastBuildDate>
+    <item>
+      <title>Hyundai Smart Care Clinic: Useful Camp, But It Cannot Mask Aftersales Drift</title>
+      <link>https://www.thecarjury.com/news/hyundai-smart-care-clinic-june-2026-service-camp/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-smart-care-clinic-june-2026-service-camp/</guid>
+      <pubDate>Mon, 22 Jun 2026 16:45:34 +1000</pubDate>
+      <description>Hyundai Smart Care Clinic runs June 24 to July 8, 2026 with up to 30% off service, warranty and RSA at 1,600+ outlets. Our verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Nissan's India SUV Plan: Tekton First, Patrol At The Top</title>
       <link>https://www.thecarjury.com/news/nissan-tekton-patrol-india-suv-lineup-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/ev-demand-surges-india-fuel-prices-maruti-mercedes-delays/</guid>
       <pubDate>Sat, 13 Jun 2026 09:11:23 +0530</pubDate>
       <description>Fuel prices spiked by the Iran war have pushed Indian EV demand to record highs, with Maruti, Mercedes-Benz and BMW deliveries stretching to three months.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai i20 Lands In Brazil At Rs 18.77 Lakh: India Misses The Bigger, Bolder Hatch</title>
-      <link>https://www.thecarjury.com/news/hyundai-i20-brazil-launch-k3-platform-adas/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-i20-brazil-launch-k3-platform-adas/</guid>
-      <pubDate>Sat, 13 Jun 2026 09:10:46 +0530</pubDate>
-      <description>Hyundai launches the 4th-gen i20 in Brazil at BRL 99,000 (Rs 18.77 lakh) on the K3 platform with ADAS, sitting between the HB20 and Creta.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
