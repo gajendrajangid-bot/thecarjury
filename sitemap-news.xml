@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/baby-defender-hybrid-electric-powertrains-confirmed/</loc>
-    <lastmod>2026-06-22</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-20T19:54:16+10:00</news:publication_date>
-      <news:title>Baby Defender goes hybrid too: JLR blinks on the all-EV plan</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/bmw-india-confirms-existing-cars-cannot-run-e30-fuel/</loc>
     <lastmod>2026-06-20</lastmod>
     <news:news>
@@ -98,18 +86,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/porsche-cost-cutting-package-july-2026-audi-collaboration/</loc>
-    <lastmod>2026-06-20</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-20T19:55:20+10:00</news:publication_date>
-      <news:title>Porsche's Second Cost Cut in a Year: Leiters Wants a Deal Before July</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/renault-duster-nissan-tekton-hybrid-suvs-2026-2027/</loc>
     <lastmod>2026-06-22</lastmod>
     <news:news>
@@ -119,6 +95,18 @@
       </news:publication>
       <news:publication_date>2026-06-22T13:52:24+10:00</news:publication_date>
       <news:title>Renault Duster And Nissan Tekton Lead The Hybrid SUV Rush For 2026-27</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/skoda-slavia-facelift-interior-spied-2026/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-22T21:42:14+10:00</news:publication_date>
+      <news:title>Skoda Slavia Facelift Interior Spied: Same Cabin, Minor Tweaks</news:title>
     </news:news>
   </url>
   <url>
@@ -143,18 +131,6 @@
       </news:publication>
       <news:publication_date>2026-06-21T18:20:46+10:00</news:publication_date>
       <news:title>Tata Sierra EV Gets QWD Dual Motor: The Harrier EV Playbook, Again</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/vinfast-green-sm-taxi-driver-complaints-delhi-ncr-launch/</loc>
-    <lastmod>2026-06-22</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-20T19:53:12+10:00</news:publication_date>
-      <news:title>Green SM's Delhi-NCR EV Taxi Launch Hits Driver Revolt In Week One</news:title>
     </news:news>
   </url>
 </urlset>
