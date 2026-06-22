@@ -37,6 +37,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/2026-skoda-slavia-facelift-interior-spied/</loc>
+    <lastmod>2026-06-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/2026-tata-tiago-petrol-cng-prices-variants-features/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -908,7 +914,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/skoda-india-sales-may-2026-kylaq-kushaq-decline/</loc>
-    <lastmod>2026-06-16</lastmod>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

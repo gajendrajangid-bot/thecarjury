@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 22 Jun 2026 16:45:43 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 16:46:29 +1000</lastBuildDate>
+    <item>
+      <title>2026 Skoda Slavia Facelift Cabin Spied: Kushaq-Inspired Update Lands Soon</title>
+      <link>https://www.thecarjury.com/news/2026-skoda-slavia-facelift-interior-spied/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-skoda-slavia-facelift-interior-spied/</guid>
+      <pubDate>Mon, 22 Jun 2026 16:46:27 +1000</pubDate>
+      <description>Fresh spy shots reveal the 2026 Skoda Slavia facelift&amp;#x27;s cabin and exterior tweaks. Here is what changes, and whether buyers should wait it out.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai Smart Care Clinic: Useful Camp, But It Cannot Mask Aftersales Drift</title>
       <link>https://www.thecarjury.com/news/hyundai-smart-care-clinic-june-2026-service-camp/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/design-new-horsepower-india-auto-market-mahindra-tata-hyundai/</guid>
       <pubDate>Sat, 13 Jun 2026 09:11:58 +0530</pubDate>
       <description>ETAuto argues design is now the lead driver in India&amp;#x27;s car market. The Car Jury&amp;#x27;s verdict on what Mahindra, Tata and Hyundai are really selling.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>EV Wait Times Hit Three Months as Fuel Panic Rewrites India's Buying Math</title>
-      <link>https://www.thecarjury.com/news/ev-demand-surges-india-fuel-prices-maruti-mercedes-delays/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/ev-demand-surges-india-fuel-prices-maruti-mercedes-delays/</guid>
-      <pubDate>Sat, 13 Jun 2026 09:11:23 +0530</pubDate>
-      <description>Fuel prices spiked by the Iran war have pushed Indian EV demand to record highs, with Maruti, Mercedes-Benz and BMW deliveries stretching to three months.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
