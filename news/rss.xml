@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 23 Jun 2026 16:39:48 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 19:43:37 +1000</lastBuildDate>
+    <item>
+      <title>Skoda Kodiaq RS first batch gone in six minutes: scarcity, not value</title>
+      <link>https://www.thecarjury.com/news/skoda-kodiaq-rs-first-batch-sold-out-50-units/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-kodiaq-rs-first-batch-sold-out-50-units/</guid>
+      <pubDate>Tue, 23 Jun 2026 19:43:22 +1000</pubDate>
+      <description>Skoda&amp;#x27;s 50-unit Kodiaq RS allocation sold out in six minutes. At an expected Rs 60 lakh, this is a status buy, not a sensible one.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Nissan Tekton Front Revealed: Baby Patrol Looks Loud, But Can It Beat Creta?</title>
       <link>https://www.thecarjury.com/news/nissan-tekton-front-teaser-patrol-inspired-design/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/gadkari-signs-e100-fuel-regulations-india/</guid>
       <pubDate>Mon, 15 Jun 2026 09:59:47 +1000</pubDate>
       <description>Nitin Gadkari signs E100 fuel regulations, clearing flex-fuel cars from Toyota, Hyundai, MG and Suzuki. Why infrastructure, not approval, is the bottleneck.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2027 Kia Sonet And New Creta Caught Testing Together In Manali</title>
-      <link>https://www.thecarjury.com/news/2027-kia-sonet-hyundai-creta-spied-manali/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2027-kia-sonet-hyundai-creta-spied-manali/</guid>
-      <pubDate>Mon, 15 Jun 2026 09:59:10 +1000</pubDate>
-      <description>Test mules of the 2027 Kia Sonet and next-gen Hyundai Creta were spotted together in Manali, hinting at a shared development push.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
