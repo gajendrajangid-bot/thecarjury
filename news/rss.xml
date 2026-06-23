@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 23 Jun 2026 19:43:37 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 19:44:22 +1000</lastBuildDate>
+    <item>
+      <title>Xiaomi's YU7 GT laps the Nurburgring with no driver: a warning shot to Audi and Mercedes</title>
+      <link>https://www.thecarjury.com/news/xiaomi-yu7-gt-autonomous-nurburgring-lap/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/xiaomi-yu7-gt-autonomous-nurburgring-lap/</guid>
+      <pubDate>Tue, 23 Jun 2026 19:44:21 +1000</pubDate>
+      <description>Xiaomi&amp;#x27;s YU7 GT lapped the Nurburgring autonomously in 10:29.483, after setting an SUV production record. The Car Jury on what this means for German luxury.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Skoda Kodiaq RS first batch gone in six minutes: scarcity, not value</title>
       <link>https://www.thecarjury.com/news/skoda-kodiaq-rs-first-batch-sold-out-50-units/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-india-pipeline-tekton-gravite-new-cars/</guid>
       <pubDate>Mon, 15 Jun 2026 10:00:56 +1000</pubDate>
       <description>Nissan is rolling out five new and updated models for India, led by the Duster-based Tekton SUV launching in July. Here is what is coming.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>E100 Gets The Green Light: Toyota Is Ready, The Pumps Are Not</title>
-      <link>https://www.thecarjury.com/news/gadkari-signs-e100-fuel-regulations-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/gadkari-signs-e100-fuel-regulations-india/</guid>
-      <pubDate>Mon, 15 Jun 2026 09:59:47 +1000</pubDate>
-      <description>Nitin Gadkari signs E100 fuel regulations, clearing flex-fuel cars from Toyota, Hyundai, MG and Suzuki. Why infrastructure, not approval, is the bottleneck.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

@@ -242,7 +242,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/force-motors-200000th-mercedes-engine-india-m256-gls-450/</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -836,7 +836,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/porsche-cost-cutting-package-july-2026-audi-collaboration/</loc>
-    <lastmod>2026-06-20</lastmod>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1227,6 +1227,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/volkswagen-virtus-gt-200kph-orr-hyderabad-arrest/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/xiaomi-yu7-gt-autonomous-nurburgring-lap/</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
