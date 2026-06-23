@@ -1112,7 +1112,13 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-tigor-facelift-design-patent-leak-2026/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-tigor-facelift-rendered-launch-2026/</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

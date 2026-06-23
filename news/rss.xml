@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 23 Jun 2026 16:36:32 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 16:37:45 +1000</lastBuildDate>
+    <item>
+      <title>Tata Tigor Facelift Rendered: Tiago's New Face Comes To The Sedan</title>
+      <link>https://www.thecarjury.com/news/tata-tigor-facelift-rendered-launch-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-tigor-facelift-rendered-launch-2026/</guid>
+      <pubDate>Tue, 23 Jun 2026 16:37:28 +1000</pubDate>
+      <description>Tata Tigor facelift rendered from official design patents previews redesigned LED headlamps, new grille and likely 360-degree camera. Launch nears.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Skoda Kodiaq RS India Brochure Out: 265 PS, 0-100 In 6.3s, And A Niche Buyer</title>
       <link>https://www.thecarjury.com/news/skoda-kodiaq-rs-india-brochure-features-price/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-grand-vitara-invicto-discounts-june-2026/</guid>
       <pubDate>Sat, 13 Jun 2026 14:50:05 +0530</pubDate>
       <description>Maruti is offering up to Rs 2.15 lakh in benefits on the Invicto and Grand Vitara this June 2026, along with discounts on Nexa hatchbacks.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>India Frees Up Radar Spectrum: ADAS Just Got Cheaper for Every Carmaker</title>
-      <link>https://www.thecarjury.com/news/india-deregulates-automotive-radar-v2x-spectrum-adas-boost/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/india-deregulates-automotive-radar-v2x-spectrum-adas-boost/</guid>
-      <pubDate>Sat, 13 Jun 2026 14:49:23 +0530</pubDate>
-      <description>India scraps licensing for 77-81GHz automotive radar and 5.9GHz V2X bands, aligning with the US and EU and clearing the runway for cheaper ADAS.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
