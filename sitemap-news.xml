@@ -74,8 +74,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/nissan-tekton-front-teaser-patrol-inspired-design/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-23T16:39:39+10:00</news:publication_date>
+      <news:title>Nissan Tekton Front Revealed: Baby Patrol Looks Loud, But Can It Beat Creta?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-patrol-india-suv-lineup-2026/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <lastmod>2026-06-23</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
