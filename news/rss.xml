@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 23 Jun 2026 12:34:36 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 16:36:32 +1000</lastBuildDate>
+    <item>
+      <title>Skoda Kodiaq RS India Brochure Out: 265 PS, 0-100 In 6.3s, And A Niche Buyer</title>
+      <link>https://www.thecarjury.com/news/skoda-kodiaq-rs-india-brochure-features-price/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-kodiaq-rs-india-brochure-features-price/</guid>
+      <pubDate>Tue, 23 Jun 2026 16:36:14 +1000</pubDate>
+      <description>Skoda Kodiaq RS India brochure reveals 265 PS, 400 Nm, 4x4, and a 6.3-second 0-100 km/h sprint. Our verdict on who should actually buy it.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Tigor Facelift Leaks: Tiago's Twin Gets a Cleaner Face</title>
       <link>https://www.thecarjury.com/news/tata-tigor-facelift-design-patent-leak-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/india-deregulates-automotive-radar-v2x-spectrum-adas-boost/</guid>
       <pubDate>Sat, 13 Jun 2026 14:49:23 +0530</pubDate>
       <description>India scraps licensing for 77-81GHz automotive radar and 5.9GHz V2X bands, aligning with the US and EU and clearing the runway for cheaper ADAS.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata's Second 2026 Price Hike: Buy Before July 1 If You're Already Decided</title>
-      <link>https://www.thecarjury.com/news/tata-motors-price-hike-july-2026-up-to-1-5-percent/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-price-hike-july-2026-up-to-1-5-percent/</guid>
-      <pubDate>Sat, 13 Jun 2026 11:53:57 +0530</pubDate>
-      <description>Tata Motors will raise prices of its ICE and EV cars by up to 1.5 percent, or as much as Rs 43,485, from July 1, 2026. Here&amp;#x27;s our take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
