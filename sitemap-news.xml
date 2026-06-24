@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-skoda-slavia-facelift-interior-spied/</loc>
-    <lastmod>2026-06-24</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-22T16:46:27+10:00</news:publication_date>
-      <news:title>2026 Skoda Slavia Facelift Cabin Spied: Kushaq-Inspired Update Lands Soon</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/citroen-aircross-comfort-edition-launch-price/</loc>
     <lastmod>2026-06-24</lastmod>
     <news:news>
@@ -35,18 +23,6 @@
       </news:publication>
       <news:publication_date>2026-06-22T21:43:28+10:00</news:publication_date>
       <news:title>Hyundai Bayon Spied Next to Maruti Victoris: Creta's New Bodyguard Arrives</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-smart-care-clinic-june-2026-service-camp/</loc>
-    <lastmod>2026-06-24</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-22T16:45:34+10:00</news:publication_date>
-      <news:title>Hyundai Smart Care Clinic: Useful Camp, But It Cannot Mask Aftersales Drift</news:title>
     </news:news>
   </url>
   <url>
@@ -143,6 +119,18 @@
       </news:publication>
       <news:publication_date>2026-06-23T19:45:05+10:00</news:publication_date>
       <news:title>New Tata Altroz Spied Testing: Turbo-CNG Could Finally Wake This Hatch Up</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-motors-15-models-fy2031-portfolio-expansion-plan/</loc>
+    <lastmod>2026-06-24</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-24T20:07:07+10:00</news:publication_date>
+      <news:title>Tata's Plan to Hit 15 Models by FY2031: Ambition Meets Reality Check</news:title>
     </news:news>
   </url>
   <url>
