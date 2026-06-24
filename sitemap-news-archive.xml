@@ -938,7 +938,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/skoda-kodiaq-rs-first-batch-sold-out-50-units/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -981,6 +981,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/skoda-peaq-ev-india-launch-consideration-2026/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/skoda-peaq-flagship-ev-revealed-india-launch-considered/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
