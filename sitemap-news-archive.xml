@@ -349,6 +349,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyderabad-it-workforce-changing-car-ownership-patterns/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyundai-bayon-bc4i-spied-with-maruti-victoris/</loc>
     <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
@@ -512,7 +518,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-india-price-hike-july-2026-up-to-2-percent/</loc>
-    <lastmod>2026-06-18</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1076,7 +1082,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-motors-15-models-fy2031-portfolio-expansion-plan/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

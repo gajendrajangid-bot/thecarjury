@@ -26,6 +26,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyderabad-it-workforce-changing-car-ownership-patterns/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-25T19:35:35+10:00</news:publication_date>
+      <news:title>Hyderabad's IT Crowd Has Killed The 7-Year Car: Why Resale Now Drives The Buy</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/maruti-brezza-facelift-july-launch-turbo-petrol/</loc>
     <lastmod>2026-06-25</lastmod>
     <news:news>
@@ -147,7 +159,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-motors-15-models-fy2031-portfolio-expansion-plan/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
