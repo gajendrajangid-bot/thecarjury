@@ -752,7 +752,13 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-plug-in-hybrid-suv-india-debut-july-16-wuling-starlight-560/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mg-starlight-560-plug-in-hybrid-suv-india-launch-july-16/</loc>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
