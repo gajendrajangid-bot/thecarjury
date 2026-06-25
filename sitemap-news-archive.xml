@@ -997,6 +997,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/skoda-peaq-electric-suv-debut-647km-range/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/skoda-peaq-ev-india-launch-consideration-2026/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1004,7 +1010,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/skoda-peaq-ev-unveiled-647-km-range-india-prospect/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

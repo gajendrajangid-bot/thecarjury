@@ -86,8 +86,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/skoda-peaq-electric-suv-debut-647km-range/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-25T13:29:12+10:00</news:publication_date>
+      <news:title>Skoda Peaq Debuts: 647 km Range Flagship EV Aims at Kia EV9, Ioniq 9</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/skoda-peaq-ev-unveiled-647-km-range-india-prospect/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-25</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
