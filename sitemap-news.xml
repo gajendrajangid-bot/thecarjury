@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/bmw-m3-touring-neue-klasse-confirmed/</loc>
+    <lastmod>2026-06-25</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-25T18:35:25+10:00</news:publication_date>
+      <news:title>BMW Confirms Next-Gen M3 Touring on Neue Klasse: Wrong Car for India</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/citroen-aircross-comfort-edition-launch-price/</loc>
     <lastmod>2026-06-25</lastmod>
     <news:news>
@@ -50,18 +62,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/nissan-tekton-front-teaser-patrol-inspired-design/</loc>
-    <lastmod>2026-06-23</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-23T16:39:39+10:00</news:publication_date>
-      <news:title>Nissan Tekton Front Revealed: Baby Patrol Looks Loud, But Can It Beat Creta?</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/renault-kiger-evolution-plus-turbo-launched-7-89-lakh/</loc>
     <lastmod>2026-06-24</lastmod>
     <news:news>
@@ -83,18 +83,6 @@
       </news:publication>
       <news:publication_date>2026-06-23T19:43:22+10:00</news:publication_date>
       <news:title>Skoda Kodiaq RS first batch gone in six minutes: scarcity, not value</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/skoda-kodiaq-rs-india-brochure-features-price/</loc>
-    <lastmod>2026-06-25</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-23T16:36:14+10:00</news:publication_date>
-      <news:title>Skoda Kodiaq RS India Brochure Out: 265 PS, 0-100 In 6.3s, And A Niche Buyer</news:title>
     </news:news>
   </url>
   <url>
@@ -203,18 +191,6 @@
       </news:publication>
       <news:publication_date>2026-06-24T16:27:26+10:00</news:publication_date>
       <news:title>Tata Sierra EV Fully Revealed Ahead Of June 30 Launch: Harrier EV Underpinnings, AWD On The Cards</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-tigor-facelift-rendered-launch-2026/</loc>
-    <lastmod>2026-06-25</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-23T16:37:28+10:00</news:publication_date>
-      <news:title>Tata Tigor Facelift Rendered: Tiago's New Face Comes To The Sedan</news:title>
     </news:news>
   </url>
   <url>

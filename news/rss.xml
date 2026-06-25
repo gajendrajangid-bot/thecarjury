@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 25 Jun 2026 13:30:15 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 18:35:28 +1000</lastBuildDate>
+    <item>
+      <title>BMW Confirms Next-Gen M3 Touring on Neue Klasse: Wrong Car for India</title>
+      <link>https://www.thecarjury.com/news/bmw-m3-touring-neue-klasse-confirmed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-m3-touring-neue-klasse-confirmed/</guid>
+      <pubDate>Thu, 25 Jun 2026 18:35:25 +1000</pubDate>
+      <description>BMW confirms the next-gen M3 Touring will join the Neue Klasse line-up with combustion and EV versions, driven by US and China demand.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti Brezza Facelift Finally Gets A Turbo-Petrol, Launches In July</title>
       <link>https://www.thecarjury.com/news/maruti-brezza-facelift-july-launch-turbo-petrol/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-sub-4m-electric-suv-spied-2026-diwali-launch/</guid>
       <pubDate>Thu, 18 Jun 2026 13:40:36 +1000</pubDate>
       <description>Hyundai&amp;#x27;s sub-4m electric SUV, codenamed HE1i, has been spied testing in South Korea ahead of a likely 2026 Diwali launch in India.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai's i20 N Shadow Edition farewell is a reminder of what India never got</title>
-      <link>https://www.thecarjury.com/news/hyundai-i20-n-shadow-edition-australia-farewell/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-i20-n-shadow-edition-australia-farewell/</guid>
-      <pubDate>Wed, 17 Jun 2026 22:30:25 +1000</pubDate>
-      <description>Hyundai is sending off the i20 N with a 100-unit Shadow Edition for Australia. India never got the hot hatch, and that is the real story.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
