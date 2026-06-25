@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 25 Jun 2026 13:29:40 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 13:30:15 +1000</lastBuildDate>
+    <item>
+      <title>Maruti Brezza Facelift Finally Gets A Turbo-Petrol, Launches In July</title>
+      <link>https://www.thecarjury.com/news/maruti-brezza-facelift-july-launch-turbo-petrol/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-brezza-facelift-july-launch-turbo-petrol/</guid>
+      <pubDate>Thu, 25 Jun 2026 13:30:13 +1000</pubDate>
+      <description>Maruti Brezza facelift launches in late July 2026 with the Fronx-sourced 1.0L turbo-petrol, plus styling tweaks and added features. Here is our take.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Skoda Peaq Debuts: 647 km Range Flagship EV Aims at Kia EV9, Ioniq 9</title>
       <link>https://www.thecarjury.com/news/skoda-peaq-electric-suv-debut-647km-range/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-i20-n-shadow-edition-australia-farewell/</guid>
       <pubDate>Wed, 17 Jun 2026 22:30:25 +1000</pubDate>
       <description>Hyundai is sending off the i20 N with a 100-unit Shadow Edition for Australia. India never got the hot hatch, and that is the real story.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Citroen eC3X at Rs 10.25 Lakh: Cheaper, Better Kitted, Still a Hard Sell</title>
-      <link>https://www.thecarjury.com/news/citroen-ec3x-launch-price-features-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/citroen-ec3x-launch-price-features-2026/</guid>
-      <pubDate>Wed, 17 Jun 2026 19:30:05 +1000</pubDate>
-      <description>Citroen has launched the eC3X at Rs 10.25 lakh with 6 airbags, LED lights and a BaaS scheme. The Car Jury&amp;#x27;s verdict on whether it&amp;#x27;s enough.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
