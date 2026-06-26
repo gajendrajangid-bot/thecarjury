@@ -38,6 +38,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-elantra-8th-gen-revealed-busan-2026/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-26T22:22:59+10:00</news:publication_date>
+      <news:title>Eighth-gen Hyundai Elantra Breaks Cover: Bigger, Edgier, And Still Not Coming Home</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyundai-far-uvc-cabin-light-germ-killing-feature/</loc>
     <lastmod>2026-06-26</lastmod>
     <news:news>
@@ -59,18 +71,6 @@
       </news:publication>
       <news:publication_date>2026-06-25T13:30:13+10:00</news:publication_date>
       <news:title>Maruti Brezza Facelift Finally Gets A Turbo-Petrol, Launches In July</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mg-plug-in-hybrid-suv-india-debut-july-16-wuling-starlight-560/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-24T16:28:11+10:00</news:publication_date>
-      <news:title>MG Picks July 16 for PHEV SUV Debut: Likely a Rebadged Wuling Starlight 560</news:title>
     </news:news>
   </url>
   <url>
@@ -98,18 +98,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/renault-kiger-evolution-plus-turbo-launched-7-89-lakh/</loc>
-    <lastmod>2026-06-24</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-24T20:07:52+10:00</news:publication_date>
-      <news:title>Renault Kiger Turbo Now Rs 1.46 Lakh Cheaper: Smart Move, Late Move</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/skoda-peaq-electric-suv-debut-647km-range/</loc>
     <lastmod>2026-06-25</lastmod>
     <news:news>
@@ -119,42 +107,6 @@
       </news:publication>
       <news:publication_date>2026-06-25T13:29:12+10:00</news:publication_date>
       <news:title>Skoda Peaq Debuts: 647 km Range Flagship EV Aims at Kia EV9, Ioniq 9</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/skoda-peaq-ev-unveiled-647-km-range-india-prospect/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-24T16:29:23+10:00</news:publication_date>
-      <news:title>Skoda Peaq EV: 647 km Flagship SUV That India Probably Doesn't Need</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-motors-15-models-fy2031-portfolio-expansion-plan/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-24T20:07:07+10:00</news:publication_date>
-      <news:title>Tata's Plan to Hit 15 Models by FY2031: Ambition Meets Reality Check</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-sierra-ev-revealed-june-30-launch/</loc>
-    <lastmod>2026-06-26</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-24T16:27:26+10:00</news:publication_date>
-      <news:title>Tata Sierra EV Fully Revealed Ahead Of June 30 Launch: Harrier EV Underpinnings, AWD On The Cards</news:title>
     </news:news>
   </url>
   <url>
