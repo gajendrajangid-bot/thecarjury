@@ -38,6 +38,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-far-uvc-cabin-light-germ-killing-feature/</loc>
+    <lastmod>2026-06-26</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-26T13:33:54+10:00</news:publication_date>
+      <news:title>Hyundai's Far-UVC Cabin Light: Genuinely Useful Safety Tech, Not a Gimmick</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/maruti-brezza-facelift-july-launch-turbo-petrol/</loc>
     <lastmod>2026-06-25</lastmod>
     <news:news>
@@ -147,7 +159,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tvs-hyundai-blue-move-electric-three-wheeler-pilot-gurugram/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
