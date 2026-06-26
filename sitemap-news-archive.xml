@@ -872,7 +872,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-front-teaser-patrol-inspired-design/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -956,7 +956,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-kiger-evolution-plus-turbo-launched-7-89-lakh/</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -969,6 +969,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/renault-nissan-april-2026-sales-duster-magnite/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/renault-nissan-sales-may-2026-duster-gravite-triber-magnite/</loc>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
