@@ -13,6 +13,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/2026-hyundai-elantra-debut-busan-auto-show/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-near-production-ready-spied/</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
@@ -122,7 +128,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/autocar-spinny-used-car-study-2026-maruti-hyundai-kia-resale/</loc>
-    <lastmod>2026-06-26</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

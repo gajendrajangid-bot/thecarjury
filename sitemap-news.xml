@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-hyundai-elantra-debut-busan-auto-show/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-27T19:18:55+10:00</news:publication_date>
+      <news:title>New Hyundai Elantra Debuts In Korea: Sharper, Bigger, Still Not For India</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/autocar-spinny-used-car-study-2026-maruti-hyundai-kia-resale/</loc>
-    <lastmod>2026-06-26</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -11,18 +23,6 @@
       </news:publication>
       <news:publication_date>2026-06-26T22:24:27+10:00</news:publication_date>
       <news:title>Used Car Study 2026: Maruti, Hyundai, Kia Top Resale; EVs Bleed Value</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/bmw-m3-touring-neue-klasse-confirmed/</loc>
-    <lastmod>2026-06-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-25T18:35:25+10:00</news:publication_date>
-      <news:title>BMW Confirms Next-Gen M3 Touring on Neue Klasse: Wrong Car for India</news:title>
     </news:news>
   </url>
   <url>
