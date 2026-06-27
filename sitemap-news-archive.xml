@@ -152,7 +152,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/bmw-m3-touring-neue-klasse-confirmed/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -567,6 +567,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/lotus-emira-420-sport-revealed-amg-power/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/luxury-car-sales-india-slowdown-2026-mercedes-bmw-audi/</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1382,7 +1388,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/xiaomi-yu7-gt-autonomous-nurburgring-lap/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

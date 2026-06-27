@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 27 Jun 2026 16:53:25 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 16:54:12 +1000</lastBuildDate>
+    <item>
+      <title>Luxury Car Sales Stall in 2026: Why The German Trio's Run Just Hit a Wall</title>
+      <link>https://www.thecarjury.com/news/luxury-car-sales-india-slowdown-2026-mercedes-bmw-audi/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/luxury-car-sales-india-slowdown-2026-mercedes-bmw-audi/</guid>
+      <pubDate>Sat, 27 Jun 2026 16:54:10 +1000</pubDate>
+      <description>India&amp;#x27;s luxury car market posts its first slowdown in over five years as Mercedes, BMW and Audi hike prices into a wary affluent buyer base.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Horse Powertrain Lands In India: Renault Duster Hybrid Gets Real</title>
       <link>https://www.thecarjury.com/news/horse-powertrain-india-entry-renault-duster-hybrid/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-teased-june-30-debut/</guid>
       <pubDate>Fri, 19 Jun 2026 22:54:20 +1000</pubDate>
       <description>Tata Motors teases the Sierra EV ahead of its June 30 debut. Expect Harrier EV battery and motor hardware in the cult nameplate&amp;#x27;s body.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>JLR Backtracks: Range Rover, Defender, Discovery Get Hybrids; Jaguar Stays EV-Only</title>
-      <link>https://www.thecarjury.com/news/jlr-hybrid-suvs-jaguar-ev-only-reimagine-phase-two/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/jlr-hybrid-suvs-jaguar-ev-only-reimagine-phase-two/</guid>
-      <pubDate>Fri, 19 Jun 2026 13:19:58 +1000</pubDate>
-      <description>JLR will offer mild-hybrid, full-hybrid, PHEV and EV options across Range Rover, Defender and Discovery. Jaguar stays EV-only. Our take on the U-turn.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
