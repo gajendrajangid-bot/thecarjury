@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 26 Jun 2026 22:24:30 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 16:52:36 +1000</lastBuildDate>
+    <item>
+      <title>Tata Bets on AI and TQM to Fix Its Quality Problem: About Time</title>
+      <link>https://www.thecarjury.com/news/tata-motors-quality-push-ai-diagnostics-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-quality-push-ai-diagnostics-2026/</guid>
+      <pubDate>Sat, 27 Jun 2026 16:52:33 +1000</pubDate>
+      <description>Tata Motors says early-life vehicle issues are down 60 percent as it leans on AI diagnostics, digital twins and TQM to fix quality complaints.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Used Car Study 2026: Maruti, Hyundai, Kia Top Resale; EVs Bleed Value</title>
       <link>https://www.thecarjury.com/news/autocar-spinny-used-car-study-2026-maruti-hyundai-kia-resale/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-baby-patrol-teaser-india-july-9-debut/</guid>
       <pubDate>Fri, 19 Jun 2026 13:19:17 +1000</pubDate>
       <description>Nissan teases the Tekton midsize SUV as a &amp;#x27;Baby Patrol&amp;#x27; ahead of its July 9 Mumbai global debut. The Car Jury weighs what it means for Creta buyers.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Toyota Ebella Deliveries Begin: A Pricier eVitara With a Toyota Badge</title>
-      <link>https://www.thecarjury.com/news/toyota-ebella-electric-suv-first-delivery/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-ebella-electric-suv-first-delivery/</guid>
-      <pubDate>Fri, 19 Jun 2026 13:18:06 +1000</pubDate>
-      <description>Toyota Ebella deliveries start with the top-spec E3 at Rs 23.60 lakh. BaaS option drops the entry to Rs 15.25 lakh. Our verdict inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
