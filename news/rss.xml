@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 27 Jun 2026 22:27:18 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 22:28:09 +1000</lastBuildDate>
+    <item>
+      <title>Renault Kwid Facelift Lands July 3: Dacia Spring Looks, Same Old Bones</title>
+      <link>https://www.thecarjury.com/news/renault-kwid-facelift-july-3-launch-date/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-kwid-facelift-july-3-launch-date/</guid>
+      <pubDate>Sat, 27 Jun 2026 22:27:57 +1000</pubDate>
+      <description>Renault confirms the 2026 Kwid facelift debuts July 3 with Dacia Spring-inspired styling, Y-shaped lights and a bigger touchscreen. Our verdict inside.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Next-gen BMW X5 LWB confirmed for India: chauffeur class wins again</title>
       <link>https://www.thecarjury.com/news/next-gen-bmw-x5-lwb-india-launch-2027/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/vinfast-green-sm-taxi-driver-complaints-delhi-ncr-launch/</guid>
       <pubDate>Sat, 20 Jun 2026 19:53:12 +1000</pubDate>
       <description>VinFast-backed Green SM&amp;#x27;s all-electric taxi service in Delhi-NCR is facing driver complaints over payment delays just days after launch. Our take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra Vision S Spied In Mussoorie: Scorpio Sport Is The Sub-4m SUV To Watch</title>
-      <link>https://www.thecarjury.com/news/mahindra-vision-s-scorpio-sport-spied-mussoorie/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-vision-s-scorpio-sport-spied-mussoorie/</guid>
-      <pubDate>Fri, 19 Jun 2026 22:55:40 +1000</pubDate>
-      <description>Mahindra Vision S, likely to launch as the Scorpio Sport, has been spied testing on Mall Road in Mussoorie. Here is what it means.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
