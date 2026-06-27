@@ -361,6 +361,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/horse-powertrain-india-entry-renault-duster-hybrid/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyderabad-it-workforce-changing-car-ownership-patterns/</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
@@ -980,7 +986,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-nissan-sales-may-2026-duster-gravite-triber-magnite/</loc>
-    <lastmod>2026-06-26</lastmod>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
