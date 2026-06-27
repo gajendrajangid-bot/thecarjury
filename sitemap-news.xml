@@ -133,4 +133,16 @@
       <news:title>Tata Bets on AI and TQM to Fix Its Quality Problem: About Time</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-sierra-ev-boost-mode-terrain-modes-500km-range/</loc>
+    <lastmod>2026-06-27</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-27T22:28:48+10:00</news:publication_date>
+      <news:title>Tata Sierra EV Goes Full Harrier EV: Boost Mode, Terrain Modes, 500km+ Claim</news:title>
+    </news:news>
+  </url>
 </urlset>

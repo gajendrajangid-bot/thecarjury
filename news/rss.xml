@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 27 Jun 2026 22:28:09 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 22:28:50 +1000</lastBuildDate>
+    <item>
+      <title>Tata Sierra EV Goes Full Harrier EV: Boost Mode, Terrain Modes, 500km+ Claim</title>
+      <link>https://www.thecarjury.com/news/tata-sierra-ev-boost-mode-terrain-modes-500km-range/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-boost-mode-terrain-modes-500km-range/</guid>
+      <pubDate>Sat, 27 Jun 2026 22:28:48 +1000</pubDate>
+      <description>Tata Sierra EV promo from Tal Moreeb dunes confirms Boost Mode, Sand Mode and dual-motor Quad Wheel Drive. The Car Jury verdict on whether it earns the badge.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Renault Kwid Facelift Lands July 3: Dacia Spring Looks, Same Old Bones</title>
       <link>https://www.thecarjury.com/news/renault-kwid-facelift-july-3-launch-date/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/baby-defender-hybrid-electric-powertrains-confirmed/</guid>
       <pubDate>Sat, 20 Jun 2026 19:54:16 +1000</pubDate>
       <description>JLR confirms the upcoming baby Defender, likely called Defender Sport, will get both hybrid and electric powertrains when it debuts in 2027.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Green SM's Delhi-NCR EV Taxi Launch Hits Driver Revolt In Week One</title>
-      <link>https://www.thecarjury.com/news/vinfast-green-sm-taxi-driver-complaints-delhi-ncr-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/vinfast-green-sm-taxi-driver-complaints-delhi-ncr-launch/</guid>
-      <pubDate>Sat, 20 Jun 2026 19:53:12 +1000</pubDate>
-      <description>VinFast-backed Green SM&amp;#x27;s all-electric taxi service in Delhi-NCR is facing driver complaints over payment delays just days after launch. Our take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
