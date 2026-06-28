@@ -1147,6 +1147,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/tata-ev-roadmap-4-new-models-10-refreshes-by-fy31/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/tata-harrier-21-lakh-refund-consumer-commission-ruling/</loc>
     <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
@@ -1238,7 +1244,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-boost-mode-terrain-modes-500km-range/</loc>
-    <lastmod>2026-06-27</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
