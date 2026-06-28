@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 28 Jun 2026 19:40:36 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 22:41:26 +1000</lastBuildDate>
+    <item>
+      <title>VW Shareholder Wants China-Designed Cars Built In Germany: A Symptom, Not A Fix</title>
+      <link>https://www.thecarjury.com/news/vw-shareholder-china-models-germany-production/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/vw-shareholder-china-models-germany-production/</guid>
+      <pubDate>Sun, 28 Jun 2026 22:41:19 +1000</pubDate>
+      <description>A key VW shareholder wants the carmaker to build its China-developed models in Germany to save jobs. The Car Jury on why this misreads the problem.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2026 Maruti Brezza Facelift: July 23 Launch, But Wait For The Turbo</title>
       <link>https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-july-23/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/chery-stockman-diesel-phev-pickup-name-revival/</guid>
       <pubDate>Sun, 21 Jun 2026 18:21:33 +1000</pubDate>
       <description>Chery picks Stockman, a name once tied to Mahindra and Suzuki, for its new turbodiesel PHEV pickup launching in Australia later this year.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Sierra EV Gets QWD Dual Motor: The Harrier EV Playbook, Again</title>
-      <link>https://www.thecarjury.com/news/tata-sierra-ev-qwd-dual-motor-teaser-confirmed/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-qwd-dual-motor-teaser-confirmed/</guid>
-      <pubDate>Sun, 21 Jun 2026 18:20:46 +1000</pubDate>
-      <description>Tata confirms Sierra EV will get a QWD dual-motor setup ahead of its June 30 launch, with a desert-run teaser hinting at serious off-road intent.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

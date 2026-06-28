@@ -26,18 +26,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/autocar-spinny-used-car-study-2026-maruti-hyundai-kia-resale/</loc>
-    <lastmod>2026-06-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-26T22:24:27+10:00</news:publication_date>
-      <news:title>Used Car Study 2026: Maruti, Hyundai, Kia Top Resale; EVs Bleed Value</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/honda-odyssey-airbag-recall-nhtsa-probe-closed/</loc>
     <lastmod>2026-06-28</lastmod>
     <news:news>
@@ -59,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-06-27T16:53:22+10:00</news:publication_date>
       <news:title>Horse Powertrain Lands In India: Renault Duster Hybrid Gets Real</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-elantra-8th-gen-revealed-busan-2026/</loc>
-    <lastmod>2026-06-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-26T22:22:59+10:00</news:publication_date>
-      <news:title>Eighth-gen Hyundai Elantra Breaks Cover: Bigger, Edgier, And Still Not Coming Home</news:title>
     </news:news>
   </url>
   <url>
@@ -134,18 +110,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/renault-nissan-sales-may-2026-duster-gravite-triber-magnite/</loc>
-    <lastmod>2026-06-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-26T22:23:47+10:00</news:publication_date>
-      <news:title>Renault, Nissan Sales May 2026: Duster Reboot And Gravite Carry The Alliance</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/tata-motors-quality-push-ai-diagnostics-2026/</loc>
     <lastmod>2026-06-28</lastmod>
     <news:news>
@@ -167,6 +131,18 @@
       </news:publication>
       <news:publication_date>2026-06-27T22:28:48+10:00</news:publication_date>
       <news:title>Tata Sierra EV Goes Full Harrier EV: Boost Mode, Terrain Modes, 500km+ Claim</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/vw-shareholder-china-models-germany-production/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-28T22:41:19+10:00</news:publication_date>
+      <news:title>VW Shareholder Wants China-Designed Cars Built In Germany: A Symptom, Not A Fix</news:title>
     </news:news>
   </url>
 </urlset>
