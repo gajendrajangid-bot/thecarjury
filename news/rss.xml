@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 28 Jun 2026 13:42:30 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jun 2026 17:26:44 +1000</lastBuildDate>
+    <item>
+      <title>Renault-Geely's Rs 3,500 Crore Hybrid Bet Lands At Chennai: Smart Move</title>
+      <link>https://www.thecarjury.com/news/renault-geely-horse-powertrain-3500-crore-india-hybrid-investment/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-geely-horse-powertrain-3500-crore-india-hybrid-investment/</guid>
+      <pubDate>Sun, 28 Jun 2026 17:26:42 +1000</pubDate>
+      <description>Horse Powertrain, the Renault-Geely JV, plans a Rs 3,500 crore India investment to localise strong-hybrid engines for the Duster Hybrid and Bridger SUV.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>NHTSA Closes Honda Odyssey Airbag Probe After US Recall</title>
       <link>https://www.thecarjury.com/news/honda-odyssey-airbag-recall-nhtsa-probe-closed/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-india-confirms-existing-cars-cannot-run-e30-fuel/</guid>
       <pubDate>Sat, 20 Jun 2026 22:22:49 +1000</pubDate>
       <description>BMW India boss confirms existing cars cannot be retrofitted for E30 ethanol blends as the government pushes beyond E20. Here is what it means for owners.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Porsche's Second Cost Cut in a Year: Leiters Wants a Deal Before July</title>
-      <link>https://www.thecarjury.com/news/porsche-cost-cutting-package-july-2026-audi-collaboration/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/porsche-cost-cutting-package-july-2026-audi-collaboration/</guid>
-      <pubDate>Sat, 20 Jun 2026 19:55:20 +1000</pubDate>
-      <description>Porsche CEO Michael Leiters wants a second cost-cutting package signed before July, with deeper Audi cooperation and lower output ahead.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
