@@ -302,7 +302,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/honda-0-alpha-ev-spied-manali-interior-touchscreen/</loc>
-    <lastmod>2026-06-26</lastmod>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -357,6 +357,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/honda-india-six-new-cars-roadmap-zero-alpha-elevate-facelift/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/honda-odyssey-airbag-recall-nhtsa-probe-closed/</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
