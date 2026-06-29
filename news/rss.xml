@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 29 Jun 2026 12:34:34 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 13:29:26 +1000</lastBuildDate>
+    <item>
+      <title>Nissan Tekton Rear Leaks Ahead of July 9 Debut: Baby Patrol Look Confirmed</title>
+      <link>https://www.thecarjury.com/news/nissan-tekton-rear-design-spied-tvc-shoot-leak/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-rear-design-spied-tvc-shoot-leak/</guid>
+      <pubDate>Mon, 29 Jun 2026 13:29:18 +1000</pubDate>
+      <description>Nissan Tekton rear design appears undisguised in a leaked TVC shoot image, matching official teasers ahead of the July 9 debut.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Bets the Farm on EVs: 4 New Models, 10+ Refreshes by FY31</title>
       <link>https://www.thecarjury.com/news/tata-ev-roadmap-4-new-models-10-refreshes-by-fy31/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-15-new-suv-launches-pipeline-2026-2027/</guid>
       <pubDate>Mon, 22 Jun 2026 13:50:56 +1000</pubDate>
       <description>Mahindra has 15+ new ICE, EV and hybrid SUVs lined up, starting with the Scorpio-N facelift around August 2026. Here is what is coming and what it means.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>India-UK FTA Opens EV Export Lane: Maruti, Mahindra, Tata Eye Britain</title>
-      <link>https://www.thecarjury.com/news/india-uk-fta-ev-exports-maruti-mahindra-tata/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/india-uk-fta-ev-exports-maruti-mahindra-tata/</guid>
-      <pubDate>Sun, 21 Jun 2026 18:22:22 +1000</pubDate>
-      <description>Maruti, Mahindra and Tata are evaluating UK EV exports under the India-UK FTA, with duty-free quotas rising to 88,000 units a year.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
