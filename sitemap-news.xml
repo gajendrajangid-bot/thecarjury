@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-july-23/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -35,6 +35,18 @@
       </news:publication>
       <news:publication_date>2026-06-29T19:27:23+10:00</news:publication_date>
       <news:title>India's Connected Car Cybersecurity Rules Arrive: Overdue, Not Optional</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/maruti-suzuki-msip-cohort-five-startups-ai-battery-recycling/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T19:29:12+10:00</news:publication_date>
+      <news:title>Maruti Bets On Five Startups For AI And Battery Recycling: Useful Or Just PR?</news:title>
     </news:news>
   </url>
   <url>

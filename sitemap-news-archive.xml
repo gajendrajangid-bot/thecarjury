@@ -20,7 +20,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-july-23/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -705,6 +705,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/maruti-price-protection-entry-level-cars-june-2026/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/maruti-suzuki-msip-cohort-five-startups-ai-battery-recycling/</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
