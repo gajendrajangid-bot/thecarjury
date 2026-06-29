@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 29 Jun 2026 13:29:26 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 19:27:25 +1000</lastBuildDate>
+    <item>
+      <title>India's Connected Car Cybersecurity Rules Arrive: Overdue, Not Optional</title>
+      <link>https://www.thecarjury.com/news/india-draft-cybersecurity-rules-connected-vehicles-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/india-draft-cybersecurity-rules-connected-vehicles-2026/</guid>
+      <pubDate>Mon, 29 Jun 2026 19:27:23 +1000</pubDate>
+      <description>MoRTH drafts mandatory cybersecurity and software-update rules for connected vehicles in India, with phased rollout from October 2026.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Nissan Tekton Rear Leaks Ahead of July 9 Debut: Baby Patrol Look Confirmed</title>
       <link>https://www.thecarjury.com/news/nissan-tekton-rear-design-spied-tvc-shoot-leak/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-nissan-tekton-hybrid-suvs-2026-2027/</guid>
       <pubDate>Mon, 22 Jun 2026 13:52:24 +1000</pubDate>
       <description>Renault Duster Hybrid lands this Diwali, Nissan Tekton Hybrid follows on the same CMF-B platform. Here is what Indian buyers should expect.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra's 15-SUV Launch Blitz: Scorpio-N Facelift Leads The Charge</title>
-      <link>https://www.thecarjury.com/news/mahindra-15-new-suv-launches-pipeline-2026-2027/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-15-new-suv-launches-pipeline-2026-2027/</guid>
-      <pubDate>Mon, 22 Jun 2026 13:50:56 +1000</pubDate>
-      <description>Mahindra has 15+ new ICE, EV and hybrid SUVs lined up, starting with the Scorpio-N facelift around August 2026. Here is what is coming and what it means.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

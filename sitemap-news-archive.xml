@@ -487,6 +487,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/india-draft-cybersecurity-rules-connected-vehicles-2026/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/india-legalises-e100-ethanol-vehicles-policy/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>daily</changefreq>
@@ -1154,7 +1160,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-ev-roadmap-4-new-models-10-refreshes-by-fy31/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

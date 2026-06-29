@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-hyundai-elantra-debut-busan-auto-show/</loc>
-    <lastmod>2026-06-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T19:18:55+10:00</news:publication_date>
-      <news:title>New Hyundai Elantra Debuts In Korea: Sharper, Bigger, Still Not For India</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-july-23/</loc>
     <lastmod>2026-06-28</lastmod>
     <news:news>
@@ -38,27 +26,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/horse-powertrain-india-entry-renault-duster-hybrid/</loc>
+    <loc>https://www.thecarjury.com/news/india-draft-cybersecurity-rules-connected-vehicles-2026/</loc>
     <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-06-27T16:53:22+10:00</news:publication_date>
-      <news:title>Horse Powertrain Lands In India: Renault Duster Hybrid Gets Real</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/luxury-car-sales-india-slowdown-2026-mercedes-bmw-audi/</loc>
-    <lastmod>2026-06-29</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T16:54:10+10:00</news:publication_date>
-      <news:title>Luxury Car Sales Stall in 2026: Why The German Trio's Run Just Hit a Wall</news:title>
+      <news:publication_date>2026-06-29T19:27:23+10:00</news:publication_date>
+      <news:title>India's Connected Car Cybersecurity Rules Arrive: Overdue, Not Optional</news:title>
     </news:news>
   </url>
   <url>
@@ -123,7 +99,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-ev-roadmap-4-new-models-10-refreshes-by-fy31/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -131,18 +107,6 @@
       </news:publication>
       <news:publication_date>2026-06-28T22:42:09+10:00</news:publication_date>
       <news:title>Tata Bets the Farm on EVs: 4 New Models, 10+ Refreshes by FY31</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-motors-quality-push-ai-diagnostics-2026/</loc>
-    <lastmod>2026-06-29</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T16:52:33+10:00</news:publication_date>
-      <news:title>Tata Bets on AI and TQM to Fix Its Quality Problem: About Time</news:title>
     </news:news>
   </url>
   <url>
