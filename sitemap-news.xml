@@ -38,6 +38,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/maruti-brezza-update-july-23-2026-turbo-petrol/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-29T22:39:14+10:00</news:publication_date>
+      <news:title>Maruti Brezza update lands July 23 with Fronx turbo: about time</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/maruti-suzuki-msip-cohort-five-startups-ai-battery-recycling/</loc>
     <lastmod>2026-06-29</lastmod>
     <news:news>
@@ -47,18 +59,6 @@
       </news:publication>
       <news:publication_date>2026-06-29T19:29:12+10:00</news:publication_date>
       <news:title>Maruti Bets On Five Startups For AI And Battery Recycling: Useful Or Just PR?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/next-gen-bmw-x5-lwb-india-launch-2027/</loc>
-    <lastmod>2026-06-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T22:27:16+10:00</news:publication_date>
-      <news:title>Next-gen BMW X5 LWB confirmed for India: chauffeur class wins again</news:title>
     </news:news>
   </url>
   <url>
@@ -98,18 +98,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/renault-kwid-facelift-july-3-launch-date/</loc>
-    <lastmod>2026-06-29</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T22:27:57+10:00</news:publication_date>
-      <news:title>Renault Kwid Facelift Lands July 3: Dacia Spring Looks, Same Old Bones</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/skoda-kodiaq-rs-india-launch-review-fortuner-rival/</loc>
     <lastmod>2026-06-29</lastmod>
     <news:news>
@@ -131,18 +119,6 @@
       </news:publication>
       <news:publication_date>2026-06-28T22:42:09+10:00</news:publication_date>
       <news:title>Tata Bets the Farm on EVs: 4 New Models, 10+ Refreshes by FY31</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-sierra-ev-boost-mode-terrain-modes-500km-range/</loc>
-    <lastmod>2026-06-29</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-27T22:28:48+10:00</news:publication_date>
-      <news:title>Tata Sierra EV Goes Full Harrier EV: Boost Mode, Terrain Modes, 500km+ Claim</news:title>
     </news:news>
   </url>
   <url>
