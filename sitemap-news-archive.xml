@@ -1495,6 +1495,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/volkswagen-restructuring-100000-job-cuts-german-plant-closures/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/volkswagen-sri-lanka-launch-taigun-virtus-india-export/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1514,7 +1520,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/vw-shareholder-china-models-germany-production/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

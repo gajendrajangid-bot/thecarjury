@@ -158,8 +158,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/volkswagen-restructuring-100000-job-cuts-german-plant-closures/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T20:28:47+10:00</news:publication_date>
+      <news:title>Volkswagen's 100,000 Job Cuts and Plant Closures: India Impact Read</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/vw-shareholder-china-models-germany-production/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>

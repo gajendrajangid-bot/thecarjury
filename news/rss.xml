@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 30 Jun 2026 20:21:59 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 20:28:54 +1000</lastBuildDate>
+    <item>
+      <title>Volkswagen's 100,000 Job Cuts and Plant Closures: India Impact Read</title>
+      <link>https://www.thecarjury.com/news/volkswagen-restructuring-100000-job-cuts-german-plant-closures/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-restructuring-100000-job-cuts-german-plant-closures/</guid>
+      <pubDate>Tue, 30 Jun 2026 20:28:47 +1000</pubDate>
+      <description>Volkswagen weighs 100,000 job cuts, four German plant closures and a passenger-car carve-out. What it means for Indian buyers of Taigun and Virtus.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Indian-owned 1927 Hispano-Suiza H6C wins Best of Show at Schlumpf Concours</title>
       <link>https://www.thecarjury.com/news/bhogilal-hispano-suiza-h6c-best-of-show-schlumpf-concours-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/xiaomi-yu7-gt-autonomous-nurburgring-lap/</guid>
       <pubDate>Tue, 23 Jun 2026 19:44:21 +1000</pubDate>
       <description>Xiaomi&amp;#x27;s YU7 GT lapped the Nurburgring autonomously in 10:29.483, after setting an SUV production record. The Car Jury on what this means for German luxury.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Kodiaq RS first batch gone in six minutes: scarcity, not value</title>
-      <link>https://www.thecarjury.com/news/skoda-kodiaq-rs-first-batch-sold-out-50-units/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-kodiaq-rs-first-batch-sold-out-50-units/</guid>
-      <pubDate>Tue, 23 Jun 2026 19:43:22 +1000</pubDate>
-      <description>Skoda&amp;#x27;s 50-unit Kodiaq RS allocation sold out in six minutes. At an expected Rs 60 lakh, this is a status buy, not a sensible one.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
