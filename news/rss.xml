@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 30 Jun 2026 22:31:04 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 22:31:46 +1000</lastBuildDate>
+    <item>
+      <title>Mercedes brings its 140-year S-Class world tour to India in July</title>
+      <link>https://www.thecarjury.com/news/mercedes-s-class-india-drive-140-years-july-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-s-class-india-drive-140-years-july-2026/</guid>
+      <pubDate>Tue, 30 Jun 2026 22:31:40 +1000</pubDate>
+      <description>Three Mercedes-Benz S-Class saloons will tour India from July as part of the brand&amp;#x27;s global 140-year, 60,000 km celebration drive.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mercedes brings its 140-year S-Class world tour to India in July</title>
       <link>https://www.thecarjury.com/news/mercedes-140-years-140-places-india-leg-s-class-july-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-pv-fy31-target-6-lakh-crore-revenue/</guid>
       <pubDate>Tue, 23 Jun 2026 22:27:08 +1000</pubDate>
       <description>Tata Motors PV is chasing 1.2 million annual sales and over ₹6 lakh crore revenue by FY31, powered by EVs and CNG. Our take on whether the math adds up.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Citroen Aircross Comfort Edition at Rs 9.09 Lakh: Leatherette, But Six Years Late</title>
-      <link>https://www.thecarjury.com/news/citroen-aircross-comfort-edition-launch-price/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/citroen-aircross-comfort-edition-launch-price/</guid>
-      <pubDate>Tue, 23 Jun 2026 22:26:09 +1000</pubDate>
-      <description>Citroen launches the Aircross Comfort Edition from Rs 9.09 lakh ex-showroom with leatherette seats standard and added comfort kit across variants.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
