@@ -553,6 +553,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/july-2026-car-launches-renault-kwid-nissan-mg-roundup/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/june-2026-launches-mercedes-s-class-bmw-x4-tata/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -860,7 +866,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-starlight-560-plug-in-hybrid-suv-india-launch-july-16/</loc>
-    <lastmod>2026-06-25</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -968,7 +974,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-rear-design-spied-tvc-shoot-leak/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1016,7 +1022,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-duster-7-seater-spied-chennai-2027-launch/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/honda-odyssey-airbag-recall-nhtsa-probe-closed/</loc>
-    <lastmod>2026-06-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-28T13:42:14+10:00</news:publication_date>
-      <news:title>NHTSA Closes Honda Odyssey Airbag Probe After US Recall</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/india-draft-cybersecurity-rules-connected-vehicles-2026/</loc>
     <lastmod>2026-06-30</lastmod>
     <news:news>
@@ -35,6 +23,18 @@
       </news:publication>
       <news:publication_date>2026-06-29T19:27:23+10:00</news:publication_date>
       <news:title>India's Connected Car Cybersecurity Rules Arrive: Overdue, Not Optional</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/july-2026-car-launches-renault-kwid-nissan-mg-roundup/</loc>
+    <lastmod>2026-06-30</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-30T16:16:36+10:00</news:publication_date>
+      <news:title>July 2026 Launch Slate: Kwid Facelift Leads A Thin Month</news:title>
     </news:news>
   </url>
   <url>
@@ -99,7 +99,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-rear-design-spied-tvc-shoot-leak/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -111,7 +111,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-duster-7-seater-spied-chennai-2027-launch/</loc>
-    <lastmod>2026-06-28</lastmod>
+    <lastmod>2026-06-30</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
