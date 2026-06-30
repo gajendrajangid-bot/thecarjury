@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 30 Jun 2026 16:16:38 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 16:17:14 +1000</lastBuildDate>
+    <item>
+      <title>Discounts Dry Up As GST Cut Pulls Small-Car Buyers Back</title>
+      <link>https://www.thecarjury.com/news/carmakers-cut-discounts-gst-small-car-demand-revives/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/carmakers-cut-discounts-gst-small-car-demand-revives/</guid>
+      <pubDate>Tue, 30 Jun 2026 16:17:13 +1000</pubDate>
+      <description>Maruti and Tata are slashing discounts on Wagon R, Baleno, Tiago and Punch as the GST cut revives small-car demand. Here is what it means for buyers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>July 2026 Launch Slate: Kwid Facelift Leads A Thin Month</title>
       <link>https://www.thecarjury.com/news/july-2026-car-launches-renault-kwid-nissan-mg-roundup/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-tigor-facelift-rendered-launch-2026/</guid>
       <pubDate>Tue, 23 Jun 2026 16:37:28 +1000</pubDate>
       <description>Tata Tigor facelift rendered from official design patents previews redesigned LED headlamps, new grille and likely 360-degree camera. Launch nears.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Kodiaq RS India Brochure Out: 265 PS, 0-100 In 6.3s, And A Niche Buyer</title>
-      <link>https://www.thecarjury.com/news/skoda-kodiaq-rs-india-brochure-features-price/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-kodiaq-rs-india-brochure-features-price/</guid>
-      <pubDate>Tue, 23 Jun 2026 16:36:14 +1000</pubDate>
-      <description>Skoda Kodiaq RS India brochure reveals 265 PS, 400 Nm, 4x4, and a 6.3-second 0-100 km/h sprint. Our verdict on who should actually buy it.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
