@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 01 Jul 2026 13:45:08 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 16:38:32 +1000</lastBuildDate>
+    <item>
+      <title>Kia Seltos GTX(O), X-Line(O) launched at Rs 21.57 lakh with Level 2+ ADAS</title>
+      <link>https://www.thecarjury.com/news/kia-seltos-gtx-o-x-line-o-launched-level-2-plus-adas/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-seltos-gtx-o-x-line-o-launched-level-2-plus-adas/</guid>
+      <pubDate>Wed, 01 Jul 2026 16:38:29 +1000</pubDate>
+      <description>Kia adds GTX(O) and X-Line(O) trims to the Seltos with 28 ADAS features, priced from Rs 21.57 lakh. The Car Jury&amp;#x27;s take on whether it&amp;#x27;s worth it.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Renault And Nissan Line Up 4 Hybrid SUVs: Maruti's Grip On Strong Hybrids Ends</title>
       <link>https://www.thecarjury.com/news/renault-nissan-four-hybrid-suvs-largest-battery-packs-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-revealed-june-30-launch/</guid>
       <pubDate>Wed, 24 Jun 2026 16:27:26 +1000</pubDate>
       <description>Tata Motors has revealed the Sierra EV in full ahead of its June 30 launch, with Harrier EV mechanicals and likely AWD. Our take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Peaq revealed: 647km flagship EV that India actually needs</title>
-      <link>https://www.thecarjury.com/news/skoda-peaq-flagship-ev-revealed-india-launch-considered/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-peaq-flagship-ev-revealed-india-launch-considered/</guid>
-      <pubDate>Wed, 24 Jun 2026 13:31:45 +1000</pubDate>
-      <description>Skoda reveals the Peaq, a seven-seat flagship EV with up to 647km range, rivalling the Kia EV9 and Hyundai Ioniq 9. India launch under evaluation.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
