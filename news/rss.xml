@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 01 Jul 2026 12:34:02 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 13:40:23 +1000</lastBuildDate>
+    <item>
+      <title>Tata's Sierra EV And Harrier EV Bet Pays Off, But Only If Pricing Holds</title>
+      <link>https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</guid>
+      <pubDate>Wed, 01 Jul 2026 13:40:20 +1000</pubDate>
+      <description>Tata says Sierra EV and Harrier EV are pulling new buyers into the EV market as India enters the early majority phase. Our verdict on the strategy.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mercedes brings its 140-year S-Class world tour to India in July</title>
       <link>https://www.thecarjury.com/news/mercedes-s-class-india-drive-140-years-july-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-fy31-roadmap-15-ice-10-evs/</guid>
       <pubDate>Wed, 24 Jun 2026 13:30:15 +1000</pubDate>
       <description>Tata Motors unveils its FY31 product plan: 6 new ICE models, 4 new EVs and multiple facelifts, anchored by Sierra, Sierra EV and Avinya.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata's FY31 Math: 1.2 Million Cars, ₹6 Lakh Crore, and a Lot to Prove</title>
-      <link>https://www.thecarjury.com/news/tata-motors-pv-fy31-target-6-lakh-crore-revenue/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-pv-fy31-target-6-lakh-crore-revenue/</guid>
-      <pubDate>Tue, 23 Jun 2026 22:27:08 +1000</pubDate>
-      <description>Tata Motors PV is chasing 1.2 million annual sales and over ₹6 lakh crore revenue by FY31, powered by EVs and CNG. Our take on whether the math adds up.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

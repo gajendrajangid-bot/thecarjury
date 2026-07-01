@@ -212,7 +212,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/carmakers-cut-discounts-gst-small-car-demand-revives/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1341,6 +1341,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-debut-june-30-awd-500km-range/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
