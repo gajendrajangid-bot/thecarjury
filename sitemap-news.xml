@@ -38,18 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/india-draft-cybersecurity-rules-connected-vehicles-2026/</loc>
-    <lastmod>2026-07-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-29T19:27:23+10:00</news:publication_date>
-      <news:title>India's Connected Car Cybersecurity Rules Arrive: Overdue, Not Optional</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/jsw-mg-kkr-400-million-investment-ev-jv/</loc>
     <lastmod>2026-07-01</lastmod>
     <news:news>
@@ -119,18 +107,6 @@
       </news:publication>
       <news:publication_date>2026-06-29T22:39:14+10:00</news:publication_date>
       <news:title>Maruti Brezza update lands July 23 with Fronx turbo: about time</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-suzuki-msip-cohort-five-startups-ai-battery-recycling/</loc>
-    <lastmod>2026-07-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-29T19:29:12+10:00</news:publication_date>
-      <news:title>Maruti Bets On Five Startups For AI And Battery Recycling: Useful Or Just PR?</news:title>
     </news:news>
   </url>
   <url>
@@ -206,18 +182,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/skoda-kodiaq-rs-india-launch-review-fortuner-rival/</loc>
-    <lastmod>2026-07-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-29T19:28:08+10:00</news:publication_date>
-      <news:title>Skoda Kodiaq RS: Sold Out In Six Minutes, And Worth The Wait List</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/skoda-slavia-facelift-august-2026-launch/</loc>
     <lastmod>2026-07-01</lastmod>
     <news:news>
@@ -227,6 +191,18 @@
       </news:publication>
       <news:publication_date>2026-07-01T16:40:40+10:00</news:publication_date>
       <news:title>Skoda Slavia Facelift Lands In August 2026: Overdue, But Worth The Wait</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/suzuki-xl7-facelift-leaked-maruti-xl6-preview/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-01T20:19:12+10:00</news:publication_date>
+      <news:title>Suzuki XL7 Facelift Leaks: A Preview Of The Maruti XL6's Next Face</news:title>
     </news:news>
   </url>
   <url>

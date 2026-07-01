@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 01 Jul 2026 16:40:42 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 20:19:14 +1000</lastBuildDate>
+    <item>
+      <title>Suzuki XL7 Facelift Leaks: A Preview Of The Maruti XL6's Next Face</title>
+      <link>https://www.thecarjury.com/news/suzuki-xl7-facelift-leaked-maruti-xl6-preview/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/suzuki-xl7-facelift-leaked-maruti-xl6-preview/</guid>
+      <pubDate>Wed, 01 Jul 2026 20:19:12 +1000</pubDate>
+      <description>Suzuki XL7 facelift images have leaked ahead of the 2026 GIIAS debut, previewing the styling India&amp;#x27;s Maruti XL6 is likely to inherit next.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Skoda Slavia Facelift Lands In August 2026: Overdue, But Worth The Wait</title>
       <link>https://www.thecarjury.com/news/skoda-slavia-facelift-august-2026-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-15-models-fy2031-portfolio-expansion-plan/</guid>
       <pubDate>Wed, 24 Jun 2026 20:07:07 +1000</pubDate>
       <description>Tata Motors will grow from 9 to 15 PV models by FY2031 with six new nameplates, chasing 18-20 percent share and 1.2 million annual sales.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Peaq EV: 647 km Flagship SUV That India Probably Doesn't Need</title>
-      <link>https://www.thecarjury.com/news/skoda-peaq-ev-unveiled-647-km-range-india-prospect/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-peaq-ev-unveiled-647-km-range-india-prospect/</guid>
-      <pubDate>Wed, 24 Jun 2026 16:29:23 +1000</pubDate>
-      <description>Skoda unveils the Peaq, a three-row electric SUV with up to 647 km range. India launch is under evaluation. Here is our take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
