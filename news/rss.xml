@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 01 Jul 2026 13:41:02 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 13:45:08 +1000</lastBuildDate>
+    <item>
+      <title>Renault And Nissan Line Up 4 Hybrid SUVs: Maruti's Grip On Strong Hybrids Ends</title>
+      <link>https://www.thecarjury.com/news/renault-nissan-four-hybrid-suvs-largest-battery-packs-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-nissan-four-hybrid-suvs-largest-battery-packs-india/</guid>
+      <pubDate>Wed, 01 Jul 2026 13:45:04 +1000</pubDate>
+      <description>Renault and Nissan are readying four strong-hybrid SUVs for India, led by the Duster Hybrid, with segment-best battery packs and 25 kmpl claims.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>KKR's $400M Bet on JSW MG: Chinese Baggage Finally Gets Priced Out</title>
       <link>https://www.thecarjury.com/news/jsw-mg-kkr-400-million-investment-ev-jv/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-peaq-flagship-ev-revealed-india-launch-considered/</guid>
       <pubDate>Wed, 24 Jun 2026 13:31:45 +1000</pubDate>
       <description>Skoda reveals the Peaq, a seven-seat flagship EV with up to 647km range, rivalling the Kia EV9 and Hyundai Ioniq 9. India launch under evaluation.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata's ₹40,000 Crore Bet: Six New Cars, 1.3 Million Capacity by FY31</title>
-      <link>https://www.thecarjury.com/news/tata-motors-40000-crore-investment-fy31-capacity-expansion/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-40000-crore-investment-fy31-capacity-expansion/</guid>
-      <pubDate>Wed, 24 Jun 2026 13:31:01 +1000</pubDate>
-      <description>Tata Motors will spend up to ₹40,000 crore by FY31 to add six nameplates, lift capacity 45 percent, and chase 20 percent market share.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
