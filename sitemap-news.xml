@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/bhogilal-hispano-suiza-h6c-best-of-show-schlumpf-concours-2026/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/india-draft-cybersecurity-rules-connected-vehicles-2026/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/july-2026-car-launches-renault-kwid-nissan-mg-roundup/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -63,7 +63,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-brezza-facelift-launch-23-july-no-adas/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-brezza-update-july-23-2026-turbo-petrol/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -87,7 +87,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-suzuki-msip-cohort-five-startups-ai-battery-recycling/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -99,7 +99,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mercedes-140-years-140-places-india-leg-s-class-july-2026/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -147,7 +147,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-rear-design-spied-tvc-shoot-leak/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -182,18 +182,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/tata-ev-roadmap-4-new-models-10-refreshes-by-fy31/</loc>
-    <lastmod>2026-06-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-28T22:42:09+10:00</news:publication_date>
-      <news:title>Tata Bets the Farm on EVs: 4 New Models, 10+ Refreshes by FY31</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/volkswagen-restructuring-100000-job-cuts-german-plant-closures/</loc>
     <lastmod>2026-06-30</lastmod>
     <news:news>
@@ -203,18 +191,6 @@
       </news:publication>
       <news:publication_date>2026-06-30T20:28:47+10:00</news:publication_date>
       <news:title>Volkswagen's 100,000 Job Cuts and Plant Closures: India Impact Read</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/vw-shareholder-china-models-germany-production/</loc>
-    <lastmod>2026-06-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-28T22:41:19+10:00</news:publication_date>
-      <news:title>VW Shareholder Wants China-Designed Cars Built In Germany: A Symptom, Not A Fix</news:title>
     </news:news>
   </url>
 </urlset>
