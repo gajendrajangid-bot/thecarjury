@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 01 Jul 2026 13:40:23 +1000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 13:41:02 +1000</lastBuildDate>
+    <item>
+      <title>KKR's $400M Bet on JSW MG: Chinese Baggage Finally Gets Priced Out</title>
+      <link>https://www.thecarjury.com/news/jsw-mg-kkr-400-million-investment-ev-jv/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-mg-kkr-400-million-investment-ev-jv/</guid>
+      <pubDate>Wed, 01 Jul 2026 13:41:01 +1000</pubDate>
+      <description>KKR is set to invest up to $400 million in JSW MG Motor India at a $3 billion valuation, diluting SAIC and making the JV majority Indian-owned.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata's Sierra EV And Harrier EV Bet Pays Off, But Only If Pricing Holds</title>
       <link>https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-40000-crore-investment-fy31-capacity-expansion/</guid>
       <pubDate>Wed, 24 Jun 2026 13:31:01 +1000</pubDate>
       <description>Tata Motors will spend up to ₹40,000 crore by FY31 to add six nameplates, lift capacity 45 percent, and chase 20 percent market share.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata's FY31 Roadmap: 15 ICE Cars, 10 EVs and a Bet on Sierra and Avinya</title>
-      <link>https://www.thecarjury.com/news/tata-motors-fy31-roadmap-15-ice-10-evs/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-fy31-roadmap-15-ice-10-evs/</guid>
-      <pubDate>Wed, 24 Jun 2026 13:30:15 +1000</pubDate>
-      <description>Tata Motors unveils its FY31 product plan: 6 new ICE models, 4 new EVs and multiple facelifts, anchored by Sierra, Sierra EV and Avinya.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
