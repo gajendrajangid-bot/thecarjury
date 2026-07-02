@@ -511,6 +511,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/india-ev-registrations-q1-fy2026-tata-mahindra/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/india-legalises-e100-ethanol-vehicles-policy/</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>daily</changefreq>
@@ -680,7 +686,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mahindra-vision-s-spied-production-led-drls-mussoorie/</loc>
-    <lastmod>2026-06-29</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1400,7 +1406,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

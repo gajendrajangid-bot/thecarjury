@@ -38,6 +38,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/india-ev-registrations-q1-fy2026-tata-mahindra/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-02T13:21:12+10:00</news:publication_date>
+      <news:title>EV Sales Nearly Double In Q1 FY2026: Tata And Mahindra Own The Market</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/jsw-mg-kkr-400-million-investment-ev-jv/</loc>
     <lastmod>2026-07-02</lastmod>
     <news:news>
@@ -207,7 +219,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>

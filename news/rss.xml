@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 13:19:52 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 13:21:15 +1000</lastBuildDate>
+    <item>
+      <title>EV Sales Nearly Double In Q1 FY2026: Tata And Mahindra Own The Market</title>
+      <link>https://www.thecarjury.com/news/india-ev-registrations-q1-fy2026-tata-mahindra/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/india-ev-registrations-q1-fy2026-tata-mahindra/</guid>
+      <pubDate>Thu, 02 Jul 2026 13:21:12 +1000</pubDate>
+      <description>India&amp;#x27;s electric passenger vehicle registrations grew 89.3% in Q1 FY2026 to 82,737 units, with Tata and Mahindra taking over 63% share.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia June 2026: 24,552 Units, Best-Ever H1 At 1.63 Lakh, Seltos Still Doing The Heavy Lifting</title>
       <link>https://www.thecarjury.com/news/kia-india-sales-june-2026-h1-record/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-brezza-facelift-july-launch-turbo-petrol/</guid>
       <pubDate>Thu, 25 Jun 2026 13:30:13 +1000</pubDate>
       <description>Maruti Brezza facelift launches in late July 2026 with the Fronx-sourced 1.0L turbo-petrol, plus styling tweaks and added features. Here is our take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Peaq Debuts: 647 km Range Flagship EV Aims at Kia EV9, Ioniq 9</title>
-      <link>https://www.thecarjury.com/news/skoda-peaq-electric-suv-debut-647km-range/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-peaq-electric-suv-debut-647km-range/</guid>
-      <pubDate>Thu, 25 Jun 2026 13:29:12 +1000</pubDate>
-      <description>Skoda&amp;#x27;s flagship Peaq electric SUV breaks cover with a 91 kWh battery, 299 bhp and 647 km range. The Car Jury on what it means for India.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
