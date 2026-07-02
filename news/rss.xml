@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 16:28:38 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 16:29:27 +1000</lastBuildDate>
+    <item>
+      <title>Toyota July 2026 Price Hike: Up To Rs 33,000 On Hyryder, Glanza, Taisor, Rumion</title>
+      <link>https://www.thecarjury.com/news/toyota-price-hike-july-2026-hyryder-glanza-taisor-rumion/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-price-hike-july-2026-hyryder-glanza-taisor-rumion/</guid>
+      <pubDate>Thu, 02 Jul 2026 16:29:24 +1000</pubDate>
+      <description>Toyota raises prices on Hyryder, Glanza, Taisor and Rumion from July 2026, with hikes going up to Rs 33,000 depending on variant.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Honda Sales June 2026: Domestic Up 13.5%, Exports Explode 600%</title>
       <link>https://www.thecarjury.com/news/honda-car-sales-june-2026-domestic-exports-growth/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyderabad-it-workforce-changing-car-ownership-patterns/</guid>
       <pubDate>Thu, 25 Jun 2026 19:35:35 +1000</pubDate>
       <description>Hyderabad&amp;#x27;s IT workforce is flipping cars in 18 to 30 months, flooding the resale market and changing what buyers should pick. Here&amp;#x27;s our take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>NHAI orders repair, puncture shops at highway Wayside Amenities: long overdue</title>
-      <link>https://www.thecarjury.com/news/nhai-mandates-repair-puncture-services-highway-wayside-amenities/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/nhai-mandates-repair-puncture-services-highway-wayside-amenities/</guid>
-      <pubDate>Thu, 25 Jun 2026 19:34:51 +1000</pubDate>
-      <description>NHAI directs Wayside Amenity operators to prioritise vehicle repair and puncture services on National Highways and expressways across India.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
