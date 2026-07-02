@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 13:19:12 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 13:19:52 +1000</lastBuildDate>
+    <item>
+      <title>Kia June 2026: 24,552 Units, Best-Ever H1 At 1.63 Lakh, Seltos Still Doing The Heavy Lifting</title>
+      <link>https://www.thecarjury.com/news/kia-india-sales-june-2026-h1-record/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-sales-june-2026-h1-record/</guid>
+      <pubDate>Thu, 02 Jul 2026 13:19:50 +1000</pubDate>
+      <description>Kia India posts 24,552 units in June 2026, up 19% YoY, and closes H1 at 1.63 lakh units. TCJ verdict on what is really driving the numbers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti WagonR BioFlex Sells Just 3 Units: Flex-Fuel's Infra Problem Exposed</title>
       <link>https://www.thecarjury.com/news/maruti-wagonr-bioflex-three-sales-flex-fuel-infrastructure/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-peaq-electric-suv-debut-647km-range/</guid>
       <pubDate>Thu, 25 Jun 2026 13:29:12 +1000</pubDate>
       <description>Skoda&amp;#x27;s flagship Peaq electric SUV breaks cover with a 91 kWh battery, 299 bhp and 647 km range. The Car Jury on what it means for India.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG's Plug-In Hybrid Seven-Seater Lands July 16: Majestor Could Rewrite The Family SUV Math</title>
-      <link>https://www.thecarjury.com/news/mg-starlight-560-plug-in-hybrid-suv-india-launch-july-16/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-starlight-560-plug-in-hybrid-suv-india-launch-july-16/</guid>
-      <pubDate>Thu, 25 Jun 2026 13:27:35 +1000</pubDate>
-      <description>JSW MG Motor will unveil a Wuling Starlight 560-based plug-in hybrid seven-seater SUV in India on July 16. The Car Jury verdict inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
