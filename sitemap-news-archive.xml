@@ -829,6 +829,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/maruti-wagonr-bioflex-three-sales-flex-fuel-infrastructure/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/maruti-ymc-brezza-baleno-facelift-spied-together/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1262,7 +1268,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/suzuki-xl7-facelift-leaked-maruti-xl6-preview/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

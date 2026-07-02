@@ -98,6 +98,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/maruti-wagonr-bioflex-three-sales-flex-fuel-infrastructure/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-02T13:19:04+10:00</news:publication_date>
+      <news:title>Maruti WagonR BioFlex Sells Just 3 Units: Flex-Fuel's Infra Problem Exposed</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mercedes-140-years-140-places-india-leg-s-class-july-2026/</loc>
     <lastmod>2026-07-02</lastmod>
     <news:news>
@@ -171,7 +183,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/suzuki-xl7-facelift-leaked-maruti-xl6-preview/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>

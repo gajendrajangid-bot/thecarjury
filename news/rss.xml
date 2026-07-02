@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 12:32:29 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 13:19:12 +1000</lastBuildDate>
+    <item>
+      <title>Maruti WagonR BioFlex Sells Just 3 Units: Flex-Fuel's Infra Problem Exposed</title>
+      <link>https://www.thecarjury.com/news/maruti-wagonr-bioflex-three-sales-flex-fuel-infrastructure/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-wagonr-bioflex-three-sales-flex-fuel-infrastructure/</guid>
+      <pubDate>Thu, 02 Jul 2026 13:19:04 +1000</pubDate>
+      <description>Maruti WagonR BioFlex has recorded only three registrations since launch, exposing India&amp;#x27;s thin E85 pump network as the real bottleneck.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>JSW MG June 2026 Sales Hit Record 7,568 Units, EVs Own 75% Of The Mix</title>
       <link>https://www.thecarjury.com/news/jsw-mg-sales-june-2026-highest-ever-7568-units/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-starlight-560-plug-in-hybrid-suv-india-launch-july-16/</guid>
       <pubDate>Thu, 25 Jun 2026 13:27:35 +1000</pubDate>
       <description>JSW MG Motor will unveil a Wuling Starlight 560-based plug-in hybrid seven-seater SUV in India on July 16. The Car Jury verdict inside.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Renault Kiger Turbo Now Rs 1.46 Lakh Cheaper: Smart Move, Late Move</title>
-      <link>https://www.thecarjury.com/news/renault-kiger-evolution-plus-turbo-launched-7-89-lakh/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-kiger-evolution-plus-turbo-launched-7-89-lakh/</guid>
-      <pubDate>Wed, 24 Jun 2026 20:07:52 +1000</pubDate>
-      <description>Renault Kiger Evolution+ Turbo MT launched at Rs 7.89 lakh, Rs 1.46 lakh cheaper than the old Emotion Turbo MT. Techno Turbo adds a manual. TCJ&amp;#x27;s verdict.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
