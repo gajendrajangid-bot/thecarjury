@@ -14,6 +14,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/honda-car-sales-june-2026-domestic-exports-growth/</loc>
+    <lastmod>2026-07-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-02T16:28:35+10:00</news:publication_date>
+      <news:title>Honda Sales June 2026: Domestic Up 13.5%, Exports Explode 600%</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyundai-india-june-2026-sales-decline-supplier-fire/</loc>
     <lastmod>2026-07-01</lastmod>
     <news:news>
@@ -135,7 +147,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mumbai-vadodara-expressway-august-2026-opening/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>

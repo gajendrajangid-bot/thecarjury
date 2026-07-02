@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 16:27:58 +1000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 16:28:38 +1000</lastBuildDate>
+    <item>
+      <title>Honda Sales June 2026: Domestic Up 13.5%, Exports Explode 600%</title>
+      <link>https://www.thecarjury.com/news/honda-car-sales-june-2026-domestic-exports-growth/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/honda-car-sales-june-2026-domestic-exports-growth/</guid>
+      <pubDate>Thu, 02 Jul 2026 16:28:35 +1000</pubDate>
+      <description>Honda Cars India posts 13.5% domestic growth in June 2026 and a 600% export surge, with the City facelift and ZR-V incoming.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Hikes Prices Up To Rs 39,000: Seltos Stings The Most From July 1</title>
       <link>https://www.thecarjury.com/news/kia-price-hike-july-2026-sonet-seltos-carens-clavis/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nhai-mandates-repair-puncture-services-highway-wayside-amenities/</guid>
       <pubDate>Thu, 25 Jun 2026 19:34:51 +1000</pubDate>
       <description>NHAI directs Wayside Amenity operators to prioritise vehicle repair and puncture services on National Highways and expressways across India.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>BMW Confirms Next-Gen M3 Touring on Neue Klasse: Wrong Car for India</title>
-      <link>https://www.thecarjury.com/news/bmw-m3-touring-neue-klasse-confirmed/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-m3-touring-neue-klasse-confirmed/</guid>
-      <pubDate>Thu, 25 Jun 2026 18:35:25 +1000</pubDate>
-      <description>BMW confirms the next-gen M3 Touring will join the Neue Klasse line-up with combustion and EV versions, driven by US and China demand.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
