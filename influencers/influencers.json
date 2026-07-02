@@ -179,7 +179,8 @@
       "hyundai/creta-n-line",
       "maruti/xl6",
       "tata/curvv",
-      "mahindra/thar"
+      "mahindra/thar",
+      "maruti/victoris"
     ],
     "photo_url": "https://yt3.googleusercontent.com/KojhQpxOWF17GlgsBC-QlZ-YeNZv78d04Y5dCxlFPrupK-rC8si9qX3i9iU4y_XpkGprVNEJrg=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "21.2L",
@@ -427,7 +428,8 @@
       "maruti/xl6",
       "maruti/invicto",
       "tata/curvv",
-      "mahindra/thar"
+      "mahindra/thar",
+      "maruti/victoris"
     ],
     "photo_url": "",
     "subscriber_count": "24L",
@@ -574,7 +576,8 @@
       "maruti/ciaz",
       "maruti/invicto",
       "tata/harrier",
-      "tata/curvv"
+      "tata/curvv",
+      "maruti/victoris"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_mu40JTN1DQGqXZymLyprzsMLC_haETCahwc4nagwrcxh2Z=s800-c-k-c0x00ffffff-no-rj",
     "subscriber_count": "253K",
@@ -1672,7 +1675,8 @@
       "maruti/xl6",
       "maruti/invicto",
       "tata/curvv",
-      "mahindra/thar"
+      "mahindra/thar",
+      "maruti/victoris"
     ],
     "photo_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6G8oQv-YHmn3G9nCLvvXfZ6fKTXX-vJyCn_PB6HPPpA=s800-c-k-c0x00ffffff-no-rj",
     "subscribers_fetched": "",
@@ -2022,6 +2026,19 @@
     "subscriber_count": "",
     "articles": [
       "hyundai/creta-n-line"
+    ]
+  },
+  {
+    "slug": "motoring",
+    "name": "Motoring",
+    "tagline": "Independent car reviewer \u2014 YouTube",
+    "youtube_handle": "YouTube",
+    "youtube_url": "https://www.youtube.com/@YouTube",
+    "instagram_url": "",
+    "instagram_handle": "",
+    "subscriber_count": "",
+    "articles": [
+      "maruti/victoris"
     ]
   }
 ]

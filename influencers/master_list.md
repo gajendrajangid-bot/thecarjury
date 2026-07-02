@@ -100,6 +100,7 @@ These instructions apply to all future reviews on The Car Jury.
 
 ## Unranked / New (subscriber count to be filled)
 
+| — | **Motoring** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Autocar India** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **carwow** | TBC | TBC | TBC | TBC | Auto-added from article |
 | — | **Max Haft Davani** | TBC | TBC | TBC | TBC | Auto-added from article |
