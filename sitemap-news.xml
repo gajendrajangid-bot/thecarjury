@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/bhogilal-hispano-suiza-h6c-best-of-show-schlumpf-concours-2026/</loc>
-    <lastmod>2026-07-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-30T20:21:57+10:00</news:publication_date>
-      <news:title>Indian-owned 1927 Hispano-Suiza H6C wins Best of Show at Schlumpf Concours</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/honda-car-sales-june-2026-domestic-exports-growth/</loc>
     <lastmod>2026-07-02</lastmod>
     <news:news>
@@ -50,18 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/jsw-mg-kkr-400-million-investment-ev-jv/</loc>
-    <lastmod>2026-07-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-01T13:41:01+10:00</news:publication_date>
-      <news:title>KKR's $400M Bet on JSW MG: Chinese Baggage Finally Gets Priced Out</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/jsw-mg-sales-june-2026-highest-ever-7568-units/</loc>
     <lastmod>2026-07-01</lastmod>
     <news:news>
@@ -71,6 +47,18 @@
       </news:publication>
       <news:publication_date>2026-07-01T20:19:56+10:00</news:publication_date>
       <news:title>JSW MG June 2026 Sales Hit Record 7,568 Units, EVs Own 75% Of The Mix</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/july-2026-car-launches-kwid-facelift-ix3-roundup/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-03T13:41:31+10:00</news:publication_date>
+      <news:title>July 2026 Launches: Renault Kwid Facelift Leads A Thin Month</news:title>
     </news:news>
   </url>
   <url>
@@ -122,44 +110,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mercedes-140-years-140-places-india-leg-s-class-july-2026/</loc>
-    <lastmod>2026-07-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-30T22:30:57+10:00</news:publication_date>
-      <news:title>Mercedes brings its 140-year S-Class world tour to India in July</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mercedes-s-class-india-drive-140-years-july-2026/</loc>
-    <lastmod>2026-06-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-30T22:31:40+10:00</news:publication_date>
-      <news:title>Mercedes brings its 140-year S-Class world tour to India in July</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mumbai-vadodara-expressway-august-2026-opening/</loc>
-    <lastmod>2026-07-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-30T20:33:57+10:00</news:publication_date>
-      <news:title>Mumbai-Vadodara Expressway Opens August 31: Honda City Owners, Rejoice</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/renault-nissan-four-hybrid-suvs-largest-battery-packs-india/</loc>
-    <lastmod>2026-07-01</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -183,7 +135,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/suzuki-xl7-facelift-leaked-maruti-xl6-preview/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -191,18 +143,6 @@
       </news:publication>
       <news:publication_date>2026-07-01T20:19:12+10:00</news:publication_date>
       <news:title>Suzuki XL7 Facelift Leaks: A Preview Of The Maruti XL6's Next Face</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</loc>
-    <lastmod>2026-07-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-01T13:40:20+10:00</news:publication_date>
-      <news:title>Tata's Sierra EV And Harrier EV Bet Pays Off, But Only If Pricing Holds</news:title>
     </news:news>
   </url>
   <url>
@@ -215,18 +155,6 @@
       </news:publication>
       <news:publication_date>2026-07-02T16:29:24+10:00</news:publication_date>
       <news:title>Toyota July 2026 Price Hike: Up To Rs 33,000 On Hyryder, Glanza, Taisor, Rumion</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/volkswagen-restructuring-100000-job-cuts-german-plant-closures/</loc>
-    <lastmod>2026-06-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-30T20:28:47+10:00</news:publication_date>
-      <news:title>Volkswagen's 100,000 Job Cuts and Plant Closures: India Impact Read</news:title>
     </news:news>
   </url>
 </urlset>

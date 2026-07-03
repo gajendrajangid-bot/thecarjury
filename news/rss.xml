@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 02 Jul 2026 18:12:53 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 13:41:39 +1000</lastBuildDate>
+    <item>
+      <title>July 2026 Launches: Renault Kwid Facelift Leads A Thin Month</title>
+      <link>https://www.thecarjury.com/news/july-2026-car-launches-kwid-facelift-ix3-roundup/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/july-2026-car-launches-kwid-facelift-ix3-roundup/</guid>
+      <pubDate>Fri, 03 Jul 2026 13:41:31 +1000</pubDate>
+      <description>Six new cars are due in July 2026, from the Renault Kwid facelift to the BMW iX3. Here is what to buy, what to skip and what to wait for.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Toyota July 2026 Price Hike: Up To Rs 33,000 On Hyryder, Glanza, Taisor, Rumion</title>
       <link>https://www.thecarjury.com/news/toyota-price-hike-july-2026-hyryder-glanza-taisor-rumion/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tvs-hyundai-blue-move-electric-three-wheeler-pilot-gurugram/</guid>
       <pubDate>Thu, 25 Jun 2026 19:37:00 +1000</pubDate>
       <description>TVS Motor and Hyundai begin testing Blue Move, an electric three-wheeler ride-hailing pilot in Gurugram. The Car Jury weighs in.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyderabad's IT Crowd Has Killed The 7-Year Car: Why Resale Now Drives The Buy</title>
-      <link>https://www.thecarjury.com/news/hyderabad-it-workforce-changing-car-ownership-patterns/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyderabad-it-workforce-changing-car-ownership-patterns/</guid>
-      <pubDate>Thu, 25 Jun 2026 19:35:35 +1000</pubDate>
-      <description>Hyderabad&amp;#x27;s IT workforce is flipping cars in 18 to 30 months, flooding the resale market and changing what buyers should pick. Here&amp;#x27;s our take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
