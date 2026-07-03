@@ -157,4 +157,16 @@
       <news:title>Toyota July 2026 Price Hike: Up To Rs 33,000 On Hyryder, Glanza, Taisor, Rumion</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/world-car-awards-tops-global-visibility-rankings-14th-year/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-03T16:48:19+10:00</news:publication_date>
+      <news:title>World Car Awards Tops Global Visibility Rankings, But Does It Move Indian Metal?</news:title>
+    </news:news>
+  </url>
 </urlset>
