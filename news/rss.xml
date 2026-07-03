@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 03 Jul 2026 13:41:39 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 13:42:54 +1000</lastBuildDate>
+    <item>
+      <title>Hyundai Creta Electric drops to Rs 10.99 lakh with BaaS: clever pricing, watch the maths</title>
+      <link>https://www.thecarjury.com/news/hyundai-creta-electric-baas-price-cut-10-99-lakh/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-creta-electric-baas-price-cut-10-99-lakh/</guid>
+      <pubDate>Fri, 03 Jul 2026 13:42:51 +1000</pubDate>
+      <description>Hyundai Creta Electric now starts at Rs 10.99 lakh under Battery-as-a-Service, plus Rs 3.90 per km. Our verdict on whether the sticker cut is real.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>July 2026 Launches: Renault Kwid Facelift Leads A Thin Month</title>
       <link>https://www.thecarjury.com/news/july-2026-car-launches-kwid-facelift-ix3-roundup/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/honda-0-alpha-ev-spied-manali-interior-touchscreen/</guid>
       <pubDate>Fri, 26 Jun 2026 13:32:50 +1000</pubDate>
       <description>Honda&amp;#x27;s 0 Alpha EV prototype spotted in Manali reveals a massive landscape touchscreen and digital cluster. The Car Jury&amp;#x27;s verdict on what it means.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>TVS And Hyundai Test Blue Move Electric Auto Service In Gurugram</title>
-      <link>https://www.thecarjury.com/news/tvs-hyundai-blue-move-electric-three-wheeler-pilot-gurugram/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tvs-hyundai-blue-move-electric-three-wheeler-pilot-gurugram/</guid>
-      <pubDate>Thu, 25 Jun 2026 19:37:00 +1000</pubDate>
-      <description>TVS Motor and Hyundai begin testing Blue Move, an electric three-wheeler ride-hailing pilot in Gurugram. The Car Jury weighs in.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
