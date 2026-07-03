@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 03 Jul 2026 14:48:30 +1000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 16:45:11 +1000</lastBuildDate>
+    <item>
+      <title>Maruti's Kharkhoda plant goes live: 10 lakh cars a year is the real threat to rivals</title>
+      <link>https://www.thecarjury.com/news/maruti-kharkhoda-plant-inaugurated-haryana-800-acres/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-kharkhoda-plant-inaugurated-haryana-800-acres/</guid>
+      <pubDate>Fri, 03 Jul 2026 16:45:08 +1000</pubDate>
+      <description>Maruti Suzuki opens its 800-acre Kharkhoda plant in Haryana. Capacity will double to 10 lakh units. What it means for buyers and rivals.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Curvv gets Rs 1.2 lakh off in July 2026: worth grabbing?</title>
       <link>https://www.thecarjury.com/news/tata-curvv-discount-july-2026-benefits/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-elantra-8th-gen-revealed-busan-2026/</guid>
       <pubDate>Fri, 26 Jun 2026 22:22:59 +1000</pubDate>
       <description>Hyundai has revealed the eighth-gen Elantra at the 2026 Busan Auto Show with sharper styling, a bigger cabin and an updated 1.6 hybrid.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai's Far-UVC Cabin Light: Genuinely Useful Safety Tech, Not a Gimmick</title>
-      <link>https://www.thecarjury.com/news/hyundai-far-uvc-cabin-light-germ-killing-feature/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-far-uvc-cabin-light-germ-killing-feature/</guid>
-      <pubDate>Fri, 26 Jun 2026 13:33:54 +1000</pubDate>
-      <description>Hyundai is developing a Far-UVC cabin light that kills germs safely while occupants are inside. The Car Jury on why this is the right kind of innovation.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
