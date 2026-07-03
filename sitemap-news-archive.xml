@@ -710,7 +710,13 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mahindra-vision-s-spied-production-led-drls-mussoorie/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mahindra-xev-9e-cineluxe-satin-desert-myst-colour-launched/</loc>
+    <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
