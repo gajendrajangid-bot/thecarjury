@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/honda-car-sales-june-2026-domestic-exports-growth/</loc>
-    <lastmod>2026-07-02</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -11,6 +11,18 @@
       </news:publication>
       <news:publication_date>2026-07-02T16:28:35+10:00</news:publication_date>
       <news:title>Honda Sales June 2026: Domestic Up 13.5%, Exports Explode 600%</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/honda-elevate-discount-july-2026-benefits/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T13:26:20+10:00</news:publication_date>
+      <news:title>Honda Elevate Gets Rs 2.15 Lakh Off In July 2026: Grab It Or Hold?</news:title>
     </news:news>
   </url>
   <url>
