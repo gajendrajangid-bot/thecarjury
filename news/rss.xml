@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 04 Jul 2026 12:32:24 +1000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 13:24:11 +1000</lastBuildDate>
+    <item>
+      <title>Tata Harrier EV gets Rs 2.75 lakh off in July: grab it now</title>
+      <link>https://www.thecarjury.com/news/tata-harrier-ev-discounts-july-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-harrier-ev-discounts-july-2026/</guid>
+      <pubDate>Sat, 04 Jul 2026 13:24:05 +1000</pubDate>
+      <description>Tata is offering up to Rs 2.75 lakh off the Harrier EV and up to Rs 3.35 lakh off the Curvv EV in July 2026. Here is the full breakdown.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>World Car Awards Tops Global Visibility Rankings, But Does It Move Indian Metal?</title>
       <link>https://www.thecarjury.com/news/world-car-awards-tops-global-visibility-rankings-14th-year/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-quality-push-ai-diagnostics-2026/</guid>
       <pubDate>Sat, 27 Jun 2026 16:52:33 +1000</pubDate>
       <description>Tata Motors says early-life vehicle issues are down 60 percent as it leans on AI diagnostics, digital twins and TQM to fix quality complaints.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Used Car Study 2026: Maruti, Hyundai, Kia Top Resale; EVs Bleed Value</title>
-      <link>https://www.thecarjury.com/news/autocar-spinny-used-car-study-2026-maruti-hyundai-kia-resale/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/autocar-spinny-used-car-study-2026-maruti-hyundai-kia-resale/</guid>
-      <pubDate>Fri, 26 Jun 2026 22:24:27 +1000</pubDate>
-      <description>Autocar India and Spinny&amp;#x27;s 2026 used car study pegs Maruti, Hyundai, Kia as resale champs. EVs lose value fast. What it means for buyers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

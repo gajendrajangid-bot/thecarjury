@@ -26,18 +26,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/india-ev-registrations-q1-fy2026-tata-mahindra/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T13:21:12+10:00</news:publication_date>
-      <news:title>EV Sales Nearly Double In Q1 FY2026: Tata And Mahindra Own The Market</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/july-2026-car-launches-kwid-facelift-ix3-roundup/</loc>
     <lastmod>2026-07-03</lastmod>
     <news:news>
@@ -47,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-07-03T13:41:31+10:00</news:publication_date>
       <news:title>July 2026 Launches: Renault Kwid Facelift Leads A Thin Month</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/kia-india-sales-june-2026-h1-record/</loc>
-    <lastmod>2026-07-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T13:19:50+10:00</news:publication_date>
-      <news:title>Kia June 2026: 24,552 Units, Best-Ever H1 At 1.63 Lakh, Seltos Still Doing The Heavy Lifting</news:title>
     </news:news>
   </url>
   <url>
@@ -98,18 +74,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/maruti-wagonr-bioflex-three-sales-flex-fuel-infrastructure/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T13:19:04+10:00</news:publication_date>
-      <news:title>Maruti WagonR BioFlex Sells Just 3 Units: Flex-Fuel's Infra Problem Exposed</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/tata-curvv-discount-july-2026-benefits/</loc>
     <lastmod>2026-07-04</lastmod>
     <news:news>
@@ -119,6 +83,18 @@
       </news:publication>
       <news:publication_date>2026-07-03T13:44:32+10:00</news:publication_date>
       <news:title>Tata Curvv gets Rs 1.2 lakh off in July 2026: worth grabbing?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-harrier-ev-discounts-july-2026/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-04T13:24:05+10:00</news:publication_date>
+      <news:title>Tata Harrier EV gets Rs 2.75 lakh off in July: grab it now</news:title>
     </news:news>
   </url>
   <url>
@@ -135,7 +111,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/world-car-awards-tops-global-visibility-rankings-14th-year/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>

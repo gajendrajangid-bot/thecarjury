@@ -1357,6 +1357,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/tata-harrier-ev-discounts-july-2026/</loc>
+    <lastmod>2026-07-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/tata-martin-uhlarik-budget-cars-premium-expectations/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1658,7 +1664,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/world-car-awards-tops-global-visibility-rankings-14th-year/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
