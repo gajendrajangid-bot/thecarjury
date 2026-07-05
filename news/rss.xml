@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 05 Jul 2026 16:25:57 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 19:23:26 +1000</lastBuildDate>
+    <item>
+      <title>MG Windsor EV Chases 70% Localisation: Smart Move, But Buyers Should Still Wait</title>
+      <link>https://www.thecarjury.com/news/mg-windsor-ev-70-percent-localisation-double-digit-growth-target/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-windsor-ev-70-percent-localisation-double-digit-growth-target/</guid>
+      <pubDate>Sun, 05 Jul 2026 19:23:24 +1000</pubDate>
+      <description>JSW MG Motor targets over 70% localisation on the Windsor EV after 75,000 sales in 21 months. Here is what it means for buyers eyeing the electric MPV.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>New Toyota Hilux Lands in India on 28 July: Tougher Face, Same Ladder Frame</title>
       <link>https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-28-july-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/honda-odyssey-airbag-recall-nhtsa-probe-closed/</guid>
       <pubDate>Sun, 28 Jun 2026 13:42:14 +1000</pubDate>
       <description>US regulator closes its preliminary probe into 441,002 Honda Odyssey minivans after Honda&amp;#x27;s April recall over inadvertent side airbag deployments.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Sierra EV Goes Full Harrier EV: Boost Mode, Terrain Modes, 500km+ Claim</title>
-      <link>https://www.thecarjury.com/news/tata-sierra-ev-boost-mode-terrain-modes-500km-range/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-boost-mode-terrain-modes-500km-range/</guid>
-      <pubDate>Sat, 27 Jun 2026 22:28:48 +1000</pubDate>
-      <description>Tata Sierra EV promo from Tal Moreeb dunes confirms Boost Mode, Sand Mode and dual-motor Quad Wheel Drive. The Car Jury verdict on whether it earns the badge.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

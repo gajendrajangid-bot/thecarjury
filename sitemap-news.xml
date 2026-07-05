@@ -26,30 +26,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mahindra-xev-9e-cineluxe-satin-desert-myst-colour-launched/</loc>
-    <lastmod>2026-07-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T16:46:00+10:00</news:publication_date>
-      <news:title>Mahindra XEV 9e Cineluxe Adds Satin Desert Myst: A Third Colour for the Flagship EV</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-kharkhoda-plant-inaugurated-haryana-800-acres/</loc>
-    <lastmod>2026-07-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T16:45:08+10:00</news:publication_date>
-      <news:title>Maruti's Kharkhoda plant goes live: 10 lakh cars a year is the real threat to rivals</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mercedes-workers-protest-germany-cost-cuts-2026/</loc>
     <lastmod>2026-07-05</lastmod>
     <news:news>
@@ -59,6 +35,18 @@
       </news:publication>
       <news:publication_date>2026-07-05T11:42:22+10:00</news:publication_date>
       <news:title>Mercedes Workers Rally Against Cost Cuts: What It Means for Indian Buyers</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mg-windsor-ev-70-percent-localisation-double-digit-growth-target/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T19:23:24+10:00</news:publication_date>
+      <news:title>MG Windsor EV Chases 70% Localisation: Smart Move, But Buyers Should Still Wait</news:title>
     </news:news>
   </url>
   <url>
@@ -107,18 +95,6 @@
       </news:publication>
       <news:publication_date>2026-07-05T16:25:50+10:00</news:publication_date>
       <news:title>New Toyota Hilux Lands in India on 28 July: Tougher Face, Same Ladder Frame</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/world-car-awards-tops-global-visibility-rankings-14th-year/</loc>
-    <lastmod>2026-07-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-03T16:48:19+10:00</news:publication_date>
-      <news:title>World Car Awards Tops Global Visibility Rankings, But Does It Move Indian Metal?</news:title>
     </news:news>
   </url>
 </urlset>
