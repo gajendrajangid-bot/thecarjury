@@ -98,6 +98,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/tata-ev-discounts-july-2026-harrier-nexon-curvv-punch-tiago/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T11:45:20+10:00</news:publication_date>
+      <news:title>Tata Slashes Up To Rs 3.35 Lakh Off Its EVs: Inventory Clearance Before Sierra EV Push</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/tata-harrier-ev-discounts-july-2026/</loc>
     <lastmod>2026-07-05</lastmod>
     <news:news>
@@ -111,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/top-10-cars-suvs-june-2026-sales-punch-nexon/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
