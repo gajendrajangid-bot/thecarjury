@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 05 Jul 2026 11:42:28 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 11:44:36 +1000</lastBuildDate>
+    <item>
+      <title>Kia Teases Syros EV And Sorento Hybrid: The Electrified Push India Actually Needs</title>
+      <link>https://www.thecarjury.com/news/kia-india-teases-syros-ev-sorento-hybrid-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-teases-syros-ev-sorento-hybrid-launch/</guid>
+      <pubDate>Sun, 05 Jul 2026 11:44:34 +1000</pubDate>
+      <description>Kia India has teased both a BEV and an HEV, pointing to the Syros EV this month and a Sorento hybrid three-row SUV to follow.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mercedes Workers Rally Against Cost Cuts: What It Means for Indian Buyers</title>
       <link>https://www.thecarjury.com/news/mercedes-workers-protest-germany-cost-cuts-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-bmw-x5-lwb-india-launch-2027/</guid>
       <pubDate>Sat, 27 Jun 2026 22:27:16 +1000</pubDate>
       <description>BMW will bring the next-generation X5 to India in long-wheelbase form by H2 2027, joining the 3 Series, 5 Series and iX1 LWB lineup.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>New Hyundai Elantra Debuts In Korea: Sharper, Bigger, Still Not For India</title>
-      <link>https://www.thecarjury.com/news/2026-hyundai-elantra-debut-busan-auto-show/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-hyundai-elantra-debut-busan-auto-show/</guid>
-      <pubDate>Sat, 27 Jun 2026 19:18:55 +1000</pubDate>
-      <description>Hyundai unveils the eighth-gen Elantra at Busan 2026 with new Art of Steel design, bigger footprint and updated hybrid. India is not on the list.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

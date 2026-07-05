@@ -38,8 +38,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/kia-india-teases-syros-ev-sorento-hybrid-launch/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T11:44:34+10:00</news:publication_date>
+      <news:title>Kia Teases Syros EV And Sorento Hybrid: The Electrified Push India Actually Needs</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mahindra-xev-9e-cineluxe-satin-desert-myst-colour-launched/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -51,7 +63,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-kharkhoda-plant-inaugurated-haryana-800-acres/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -75,7 +87,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-curvv-discount-july-2026-benefits/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -87,7 +99,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-harrier-ev-discounts-july-2026/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -111,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/world-car-awards-tops-global-visibility-rankings-14th-year/</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-07-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
