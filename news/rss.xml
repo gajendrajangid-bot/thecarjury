@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 05 Jul 2026 19:23:26 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 22:42:06 +1000</lastBuildDate>
+    <item>
+      <title>Tata Sierra EV 75 RWD Makes Less Power Than 63 kWh: The Odd Math Explained</title>
+      <link>https://www.thecarjury.com/news/tata-sierra-ev-75-rwd-less-power-than-63-explained/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-75-rwd-less-power-than-63-explained/</guid>
+      <pubDate>Sun, 05 Jul 2026 22:41:58 +1000</pubDate>
+      <description>Tata&amp;#x27;s Sierra EV 75 kWh RWD makes 209 PS vs the 63 kWh&amp;#x27;s 238 PS. Tata says it&amp;#x27;s an intentional packaging call, not a spec sheet error.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG Windsor EV Chases 70% Localisation: Smart Move, But Buyers Should Still Wait</title>
       <link>https://www.thecarjury.com/news/mg-windsor-ev-70-percent-localisation-double-digit-growth-target/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/renault-geely-horse-powertrain-3500-crore-india-hybrid-investment/</guid>
       <pubDate>Sun, 28 Jun 2026 17:26:42 +1000</pubDate>
       <description>Horse Powertrain, the Renault-Geely JV, plans a Rs 3,500 crore India investment to localise strong-hybrid engines for the Duster Hybrid and Bridger SUV.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>NHTSA Closes Honda Odyssey Airbag Probe After US Recall</title>
-      <link>https://www.thecarjury.com/news/honda-odyssey-airbag-recall-nhtsa-probe-closed/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/honda-odyssey-airbag-recall-nhtsa-probe-closed/</guid>
-      <pubDate>Sun, 28 Jun 2026 13:42:14 +1000</pubDate>
-      <description>US regulator closes its preliminary probe into 441,002 Honda Odyssey minivans after Honda&amp;#x27;s April recall over inadvertent side airbag deployments.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
