@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/honda-car-sales-june-2026-domestic-exports-growth/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T16:28:35+10:00</news:publication_date>
-      <news:title>Honda Sales June 2026: Domestic Up 13.5%, Exports Explode 600%</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/honda-elevate-discount-july-2026-benefits/</loc>
     <lastmod>2026-07-04</lastmod>
     <news:news>
@@ -50,18 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/kia-price-hike-july-2026-sonet-seltos-carens-clavis/</loc>
-    <lastmod>2026-07-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T16:27:55+10:00</news:publication_date>
-      <news:title>Kia Hikes Prices Up To Rs 39,000: Seltos Stings The Most From July 1</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mahindra-xev-9e-cineluxe-satin-desert-myst-colour-launched/</loc>
     <lastmod>2026-07-04</lastmod>
     <news:news>
@@ -83,6 +59,18 @@
       </news:publication>
       <news:publication_date>2026-07-03T16:45:08+10:00</news:publication_date>
       <news:title>Maruti's Kharkhoda plant goes live: 10 lakh cars a year is the real threat to rivals</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mercedes-workers-protest-germany-cost-cuts-2026/</loc>
+    <lastmod>2026-07-05</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-05T11:42:22+10:00</news:publication_date>
+      <news:title>Mercedes Workers Rally Against Cost Cuts: What It Means for Indian Buyers</news:title>
     </news:news>
   </url>
   <url>
@@ -119,18 +107,6 @@
       </news:publication>
       <news:publication_date>2026-07-04T13:25:31+10:00</news:publication_date>
       <news:title>June 2026 Sales: Tata Punch And Nexon Lock Top Two, Maruti Still Owns The Ten</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/toyota-price-hike-july-2026-hyryder-glanza-taisor-rumion/</loc>
-    <lastmod>2026-07-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-02T16:29:24+10:00</news:publication_date>
-      <news:title>Toyota July 2026 Price Hike: Up To Rs 33,000 On Hyryder, Glanza, Taisor, Rumion</news:title>
     </news:news>
   </url>
   <url>
