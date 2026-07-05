@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 05 Jul 2026 12:32:47 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 16:25:57 +1000</lastBuildDate>
+    <item>
+      <title>New Toyota Hilux Lands in India on 28 July: Tougher Face, Same Ladder Frame</title>
+      <link>https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-28-july-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-28-july-2026/</guid>
+      <pubDate>Sun, 05 Jul 2026 16:25:50 +1000</pubDate>
+      <description>Toyota confirms the 9th-gen Hilux for India on 28 July 2026 with a sharper front end, new tech and the same IMV ladder-frame underneath.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Slashes Up To Rs 3.35 Lakh Off Its EVs: Inventory Clearance Before Sierra EV Push</title>
       <link>https://www.thecarjury.com/news/tata-ev-discounts-july-2026-harrier-nexon-curvv-punch-tiago/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-boost-mode-terrain-modes-500km-range/</guid>
       <pubDate>Sat, 27 Jun 2026 22:28:48 +1000</pubDate>
       <description>Tata Sierra EV promo from Tal Moreeb dunes confirms Boost Mode, Sand Mode and dual-motor Quad Wheel Drive. The Car Jury verdict on whether it earns the badge.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Renault Kwid Facelift Lands July 3: Dacia Spring Looks, Same Old Bones</title>
-      <link>https://www.thecarjury.com/news/renault-kwid-facelift-july-3-launch-date/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-kwid-facelift-july-3-launch-date/</guid>
-      <pubDate>Sat, 27 Jun 2026 22:27:57 +1000</pubDate>
-      <description>Renault confirms the 2026 Kwid facelift debuts July 3 with Dacia Spring-inspired styling, Y-shaped lights and a bigger touchscreen. Our verdict inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
