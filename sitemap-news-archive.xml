@@ -259,6 +259,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/e20-petrol-safe-pre-2023-cars-maruti-toyota/</loc>
+    <lastmod>2026-07-06</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/e22-e25-e27-e30-ethanol-fuels-excise-duty-exemption/</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>daily</changefreq>
@@ -1628,7 +1634,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-28-july-2026/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/e20-petrol-safe-pre-2023-cars-maruti-toyota/</loc>
+    <lastmod>2026-07-06</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-06T16:30:29+10:00</news:publication_date>
+      <news:title>Maruti And Toyota Say E20 Is Safe For Pre-2023 Cars. We Are Not Buying The Full Story</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/kia-india-teases-syros-ev-sorento-hybrid-launch/</loc>
     <lastmod>2026-07-05</lastmod>
     <news:news>
@@ -75,7 +87,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-28-july-2026/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-06</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
