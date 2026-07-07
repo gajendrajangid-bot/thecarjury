@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 07 Jul 2026 18:12:04 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 18:12:44 +0530</lastBuildDate>
+    <item>
+      <title>JSW MG and Spinny Team Up on Used EVs: Finally, Someone Owns the Battery Problem</title>
+      <link>https://www.thecarjury.com/news/mg-spinny-used-ev-partnership-battery-certification/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-spinny-used-ev-partnership-battery-certification/</guid>
+      <pubDate>Tue, 07 Jul 2026 18:12:42 +0530</pubDate>
+      <description>JSW MG Motor partners with Spinny for certified pre-owned EVs across 13 cities, with battery health checks and residual value clarity.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mercedes India posts record H1 2026: E-Class leads, EQS SUV tops EV chart</title>
       <link>https://www.thecarjury.com/news/mercedes-india-h1-2026-sales-e-class-eqs-suv-best-sellers/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-rear-design-spied-tvc-shoot-leak/</guid>
       <pubDate>Mon, 29 Jun 2026 13:29:18 +1000</pubDate>
       <description>Nissan Tekton rear design appears undisguised in a leaked TVC shoot image, matching official teasers ahead of the July 9 debut.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Bets the Farm on EVs: 4 New Models, 10+ Refreshes by FY31</title>
-      <link>https://www.thecarjury.com/news/tata-ev-roadmap-4-new-models-10-refreshes-by-fy31/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-ev-roadmap-4-new-models-10-refreshes-by-fy31/</guid>
-      <pubDate>Sun, 28 Jun 2026 22:42:09 +1000</pubDate>
-      <description>Tata Motors plans four new EVs including Sierra.ev and an Avinya-based model, plus 10+ refreshes by FY31, targeting 30% EV penetration.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

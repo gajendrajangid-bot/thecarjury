@@ -1009,6 +1009,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/mg-spinny-used-ev-partnership-battery-certification/</loc>
+    <lastmod>2026-07-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mg-starlight-560-plug-in-hybrid-suv-india-launch-july-16/</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>daily</changefreq>
@@ -1016,7 +1022,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-windsor-ev-70-percent-localisation-double-digit-growth-target/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

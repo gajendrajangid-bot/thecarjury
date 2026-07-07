@@ -49,4 +49,16 @@
       <news:title>Mercedes India posts record H1 2026: E-Class leads, EQS SUV tops EV chart</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mg-spinny-used-ev-partnership-battery-certification/</loc>
+    <lastmod>2026-07-07</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-07T18:12:42+05:30</news:publication_date>
+      <news:title>JSW MG and Spinny Team Up on Used EVs: Finally, Someone Owns the Battery Problem</news:title>
+    </news:news>
+  </url>
 </urlset>
