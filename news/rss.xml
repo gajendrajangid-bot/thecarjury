@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 06 Jul 2026 17:22:09 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 18:11:25 +0530</lastBuildDate>
+    <item>
+      <title>Mercedes GLB EV confirmed for India: the compact luxury EV Audi and BMW should worry about</title>
+      <link>https://www.thecarjury.com/news/mercedes-benz-glb-ev-india-launch-confirmed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-benz-glb-ev-india-launch-confirmed/</guid>
+      <pubDate>Tue, 07 Jul 2026 18:11:20 +0530</pubDate>
+      <description>Mercedes-Benz confirms the new GLB EV for India. 85kWh battery, up to 631km WLTP range, 800V architecture and MMA platform. Here is our verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti And Toyota Say E20 Is Safe For Pre-2023 Cars. We Are Not Buying The Full Story</title>
       <link>https://www.thecarjury.com/news/e20-petrol-safe-pre-2023-cars-maruti-toyota/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/vw-shareholder-china-models-germany-production/</guid>
       <pubDate>Sun, 28 Jun 2026 22:41:19 +1000</pubDate>
       <description>A key VW shareholder wants the carmaker to build its China-developed models in Germany to save jobs. The Car Jury on why this misreads the problem.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Maruti Brezza Facelift: July 23 Launch, But Wait For The Turbo</title>
-      <link>https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-july-23/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-maruti-brezza-facelift-launch-july-23/</guid>
-      <pubDate>Sun, 28 Jun 2026 19:40:34 +1000</pubDate>
-      <description>Maruti will launch the 2026 Brezza facelift on July 23 with a new 1.0 turbo-petrol, ventilated seats and an underbody CNG tank. Our verdict.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
