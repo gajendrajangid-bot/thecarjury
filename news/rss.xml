@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 08 Jul 2026 15:10:03 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 15:10:55 +0530</lastBuildDate>
+    <item>
+      <title>2026 Defender gets urban Vertex variant, Octa loses 95hp to emissions</title>
+      <link>https://www.thecarjury.com/news/land-rover-defender-2026-update-vertex-variant/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/land-rover-defender-2026-update-vertex-variant/</guid>
+      <pubDate>Wed, 08 Jul 2026 15:10:46 +0530</pubDate>
+      <description>Land Rover updates the Defender for 2026 with a new urban Vertex variant, a 6-seat 110, and a detuned Octa. India launch expected but unconfirmed.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti Grand Vitara, Invicto July 2026 Discounts: Small Sweetener, Not a Reason to Buy</title>
       <link>https://www.thecarjury.com/news/maruti-grand-vitara-invicto-discounts-july-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-vision-s-spied-production-led-drls-mussoorie/</guid>
       <pubDate>Mon, 29 Jun 2026 22:41:00 +1000</pubDate>
       <description>Mahindra Vision S has been spied in Mussoorie with production-spec LED DRLs, confirming the circular headlights on earlier mules were placeholders.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Ninth-Gen Toyota Hilux Lands In India Next Month: Premium Inbound</title>
-      <link>https://www.thecarjury.com/news/ninth-gen-toyota-hilux-india-launch-july-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/ninth-gen-toyota-hilux-india-launch-july-2026/</guid>
-      <pubDate>Mon, 29 Jun 2026 22:39:58 +1000</pubDate>
-      <description>Toyota will launch the ninth-gen Hilux in India next month with sharper design, 48V mild hybrid tech and a price hike over the current Rs 28.52 lakh base.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
