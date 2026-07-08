@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:04:40 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:50:33 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra's 'Attack Mode' EV Strategy: Bold Talk, But The Cars Have To Deliver</title>
+      <link>https://www.thecarjury.com/news/mahindra-attack-mode-ev-strategy-anand-mahindra-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-attack-mode-ev-strategy-anand-mahindra-2026/</guid>
+      <pubDate>Wed, 08 Jul 2026 08:50:28 +0530</pubDate>
+      <description>Anand Mahindra invokes Formula E&amp;#x27;s &amp;#x27;Attack Mode&amp;#x27; as Mahindra ramps EV output to 8,000 units a month. The Car Jury weighs the strategy.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>JSW MG and Spinny Team Up on Used EVs: Finally, Someone Owns the Battery Problem</title>
       <link>https://www.thecarjury.com/news/mg-spinny-used-ev-partnership-battery-certification/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/india-draft-cybersecurity-rules-connected-vehicles-2026/</guid>
       <pubDate>Mon, 29 Jun 2026 19:27:23 +1000</pubDate>
       <description>MoRTH drafts mandatory cybersecurity and software-update rules for connected vehicles in India, with phased rollout from October 2026.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Nissan Tekton Rear Leaks Ahead of July 9 Debut: Baby Patrol Look Confirmed</title>
-      <link>https://www.thecarjury.com/news/nissan-tekton-rear-design-spied-tvc-shoot-leak/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-rear-design-spied-tvc-shoot-leak/</guid>
-      <pubDate>Mon, 29 Jun 2026 13:29:18 +1000</pubDate>
-      <description>Nissan Tekton rear design appears undisguised in a leaked TVC shoot image, matching official teasers ahead of the July 9 debut.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
