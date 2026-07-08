@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:52:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 11:59:43 +0530</lastBuildDate>
+    <item>
+      <title>Nissan Tekton launches without Duster's hybrid: badge-engineered, and it shows</title>
+      <link>https://www.thecarjury.com/news/nissan-tekton-no-strong-hybrid-duster-exclusive/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-no-strong-hybrid-duster-exclusive/</guid>
+      <pubDate>Wed, 08 Jul 2026 11:59:36 +0530</pubDate>
+      <description>Nissan Tekton launches 9 July 2026 without the Renault Duster&amp;#x27;s 1.8 strong-hybrid. Only 1.0 and 1.3 turbo-petrols. TCJ&amp;#x27;s verdict inside.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>ARAI's 2021 Study Confirms It: E20 Chews Through Rubber Parts Built for E10</title>
       <link>https://www.thecarjury.com/news/arai-e20-fuel-damage-rubber-parts-e10-vehicles-study/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-brezza-update-july-23-2026-turbo-petrol/</guid>
       <pubDate>Mon, 29 Jun 2026 22:39:14 +1000</pubDate>
       <description>Maruti will reveal the updated Brezza on July 23, 2026, with the Fronx&amp;#x27;s 1.0 turbo-petrol, fresh styling and new features. Our verdict inside.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti Bets On Five Startups For AI And Battery Recycling: Useful Or Just PR?</title>
-      <link>https://www.thecarjury.com/news/maruti-suzuki-msip-cohort-five-startups-ai-battery-recycling/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-suzuki-msip-cohort-five-startups-ai-battery-recycling/</guid>
-      <pubDate>Mon, 29 Jun 2026 19:29:12 +1000</pubDate>
-      <description>Maruti Suzuki onboards five startups under MSIP cohort five to co-develop battery recycling, AI and automation solutions with IIM-B&amp;#x27;s NSRCEL.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

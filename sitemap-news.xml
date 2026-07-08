@@ -38,18 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mahindra-vision-s-interior-spied-be6-steering/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-06T16:29:26+10:00</news:publication_date>
-      <news:title>Mahindra Vision S Interior Spied: BE6 Steering Signals Sub-4m With Big Car Kit</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mercedes-benz-glb-ev-india-launch-confirmed/</loc>
     <lastmod>2026-07-08</lastmod>
     <news:news>
@@ -95,6 +83,18 @@
       </news:publication>
       <news:publication_date>2026-07-07T18:12:42+05:30</news:publication_date>
       <news:title>JSW MG and Spinny Team Up on Used EVs: Finally, Someone Owns the Battery Problem</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/nissan-tekton-no-strong-hybrid-duster-exclusive/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-08T11:59:36+05:30</news:publication_date>
+      <news:title>Nissan Tekton launches without Duster's hybrid: badge-engineered, and it shows</news:title>
     </news:news>
   </url>
 </urlset>
