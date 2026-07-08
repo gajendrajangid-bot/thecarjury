@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 08 Jul 2026 15:11:35 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 17:58:42 +0530</lastBuildDate>
+    <item>
+      <title>EV Sales June 2026: Tata Doubles Down, Mahindra Charges Hard</title>
+      <link>https://www.thecarjury.com/news/electric-car-sales-june-2026-tata-mahindra-mg/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/electric-car-sales-june-2026-tata-mahindra-mg/</guid>
+      <pubDate>Wed, 08 Jul 2026 17:58:37 +0530</pubDate>
+      <description>India&amp;#x27;s EV retail sales crossed 31,800 units in June 2026, up 107.75% YoY. Tata leads with 12,187 units, Mahindra follows at 7,766.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mercedes-Benz India Is Right: Blame Adulterated Fuel, Not Just E20</title>
       <link>https://www.thecarjury.com/news/mercedes-india-fuel-adulteration-e20-rollout-concerns/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/july-2026-car-launches-renault-kwid-nissan-mg-roundup/</guid>
       <pubDate>Tue, 30 Jun 2026 16:16:36 +1000</pubDate>
       <description>Renault Kwid facelift headlines July 2026 launches, with Nissan, JSW-MG, Maruti, Skoda, Honda and Toyota also lining up new models. Here is the slate.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti Brezza Facelift Lands 23 July Without ADAS: Maruti Reads The Room Wrong</title>
-      <link>https://www.thecarjury.com/news/maruti-brezza-facelift-launch-23-july-no-adas/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-brezza-facelift-launch-23-july-no-adas/</guid>
-      <pubDate>Tue, 30 Jun 2026 13:37:02 +1000</pubDate>
-      <description>Maruti Brezza facelift launches 23 July 2026 with a likely 1.0L turbo from Fronx, but no ADAS. The Car Jury verdict on whether to wait.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
