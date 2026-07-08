@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 08 Jul 2026 08:51:16 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 08:52:00 +0530</lastBuildDate>
+    <item>
+      <title>ARAI's 2021 Study Confirms It: E20 Chews Through Rubber Parts Built for E10</title>
+      <link>https://www.thecarjury.com/news/arai-e20-fuel-damage-rubber-parts-e10-vehicles-study/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/arai-e20-fuel-damage-rubber-parts-e10-vehicles-study/</guid>
+      <pubDate>Wed, 08 Jul 2026 08:51:58 +0530</pubDate>
+      <description>A resurfaced 2021 ARAI study confirms E20 degrades rubber and plastic fuel-system parts in E10-era cars. Metals are fine, elastomers aren&amp;#x27;t.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mercedes India Is Right: Delhi's Rs 30 Lakh EV Cap Punishes Premium Buyers</title>
       <link>https://www.thecarjury.com/news/mercedes-india-warns-delhi-ev-policy-30-lakh-cap-premium-adoption/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-suzuki-msip-cohort-five-startups-ai-battery-recycling/</guid>
       <pubDate>Mon, 29 Jun 2026 19:29:12 +1000</pubDate>
       <description>Maruti Suzuki onboards five startups under MSIP cohort five to co-develop battery recycling, AI and automation solutions with IIM-B&amp;#x27;s NSRCEL.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Kodiaq RS: Sold Out In Six Minutes, And Worth The Wait List</title>
-      <link>https://www.thecarjury.com/news/skoda-kodiaq-rs-india-launch-review-fortuner-rival/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-kodiaq-rs-india-launch-review-fortuner-rival/</guid>
-      <pubDate>Mon, 29 Jun 2026 19:28:08 +1000</pubDate>
-      <description>Skoda Kodiaq RS launches July 2 in India with all allocated units already booked. The Car Jury on whether the second batch is worth chasing.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
