@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 09 Jul 2026 12:06:44 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 15:11:22 +0530</lastBuildDate>
+    <item>
+      <title>Nissan Tekton bags 5 stars at Bharat NCAP, matches Duster's crash score</title>
+      <link>https://www.thecarjury.com/news/nissan-tekton-5-star-bharat-ncap-crash-test/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-5-star-bharat-ncap-crash-test/</guid>
+      <pubDate>Thu, 09 Jul 2026 15:11:11 +0530</pubDate>
+      <description>The Nissan Tekton scores a full 5 stars at Bharat NCAP, matching the Renault Duster with 30.49/32 for adults and 45/49 for children.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Centre Puts Brakes On E25 Petrol: Rollout Still In Testing, Says Puri</title>
       <link>https://www.thecarjury.com/news/e25-petrol-rollout-not-ready-centre-clarifies/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-140-years-140-places-india-leg-s-class-july-2026/</guid>
       <pubDate>Tue, 30 Jun 2026 22:30:57 +1000</pubDate>
       <description>Mercedes-Benz brings its 140 Years 140 Places transcontinental S-Class drive to India in July 2026. The Car Jury on what it actually signals.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mumbai-Vadodara Expressway Opens August 31: Honda City Owners, Rejoice</title>
-      <link>https://www.thecarjury.com/news/mumbai-vadodara-expressway-august-2026-opening/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mumbai-vadodara-expressway-august-2026-opening/</guid>
-      <pubDate>Tue, 30 Jun 2026 20:33:57 +1000</pubDate>
-      <description>The 157km Mumbai-Vadodara Expressway opens by August 31, 2026, cutting travel time to four hours. What it means for highway car buyers in India.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
