@@ -290,7 +290,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/electric-car-sales-june-2026-tata-mahindra-mg/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1587,6 +1587,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-launch-q2-fy27-confirmed/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-sierra-ev-on-road-price-top-cities-2026/</loc>
+    <lastmod>2026-07-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 09 Jul 2026 08:52:39 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 08:53:44 +0530</lastBuildDate>
+    <item>
+      <title>Tata Sierra EV On-Road Prices Land Between Rs 19.39-28.19 Lakh Across Metros</title>
+      <link>https://www.thecarjury.com/news/tata-sierra-ev-on-road-price-top-cities-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-on-road-price-top-cities-2026/</guid>
+      <pubDate>Thu, 09 Jul 2026 08:53:42 +0530</pubDate>
+      <description>Tata Sierra EV on-road prices are out across Kolkata, Chennai and Mumbai. Range spans Rs 19.39 lakh to Rs 28.19 lakh. Here is what to pay.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>BMW India's H1 2026 record: EVs and long-wheelbase cars carry the load</title>
       <link>https://www.thecarjury.com/news/bmw-india-h1-2026-record-sales-ev-share/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/bhogilal-hispano-suiza-h6c-best-of-show-schlumpf-concours-2026/</guid>
       <pubDate>Tue, 30 Jun 2026 20:21:57 +1000</pubDate>
       <description>A 1927 Hispano-Suiza H6C from the Pranlal Bhogilal Collection has won Best of Show at the inaugural Schlumpf Concours in Mulhouse, France.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Renault Kwid Facelift Lands July 3: Dacia Spring Looks Hit India</title>
-      <link>https://www.thecarjury.com/news/renault-kwid-facelift-launch-july-3-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-kwid-facelift-launch-july-3-2026/</guid>
-      <pubDate>Tue, 30 Jun 2026 16:18:20 +1000</pubDate>
-      <description>Renault confirms the 2026 Kwid facelift for July 3 launch in India, with Dacia Spring-inspired styling taking on the Maruti S-Presso.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
