@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 09 Jul 2026 08:53:44 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 12:06:03 +0530</lastBuildDate>
+    <item>
+      <title>BMW M2 M xDrive Confirmed for India: AWD Arrives, But Purists Won't Care</title>
+      <link>https://www.thecarjury.com/news/bmw-m2-m-xdrive-awd-india-launch-confirmed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-m2-m-xdrive-awd-india-launch-confirmed/</guid>
+      <pubDate>Thu, 09 Jul 2026 12:05:54 +0530</pubDate>
+      <description>BMW confirms the all-wheel-drive M2 M xDrive for India. Same 480hp straight-six, 0.3s quicker to 100kph, rear-biased AWD with a 2WD mode.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Sierra EV On-Road Prices Land Between Rs 19.39-28.19 Lakh Across Metros</title>
       <link>https://www.thecarjury.com/news/tata-sierra-ev-on-road-price-top-cities-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-restructuring-100000-job-cuts-german-plant-closures/</guid>
       <pubDate>Tue, 30 Jun 2026 20:28:47 +1000</pubDate>
       <description>Volkswagen weighs 100,000 job cuts, four German plant closures and a passenger-car carve-out. What it means for Indian buyers of Taigun and Virtus.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Indian-owned 1927 Hispano-Suiza H6C wins Best of Show at Schlumpf Concours</title>
-      <link>https://www.thecarjury.com/news/bhogilal-hispano-suiza-h6c-best-of-show-schlumpf-concours-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/bhogilal-hispano-suiza-h6c-best-of-show-schlumpf-concours-2026/</guid>
-      <pubDate>Tue, 30 Jun 2026 20:21:57 +1000</pubDate>
-      <description>A 1927 Hispano-Suiza H6C from the Pranlal Bhogilal Collection has won Best of Show at the inaugural Schlumpf Concours in Mulhouse, France.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
