@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 09 Jul 2026 08:04:23 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 08:52:02 +0530</lastBuildDate>
+    <item>
+      <title>Volkswagen Tayron gets a cheaper variant on July 10: about time</title>
+      <link>https://www.thecarjury.com/news/volkswagen-tayron-lower-spec-variant-launch-july-10/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-tayron-lower-spec-variant-launch-july-10/</guid>
+      <pubDate>Thu, 09 Jul 2026 08:51:53 +0530</pubDate>
+      <description>Volkswagen teases a lower-spec Tayron ahead of its July 10 India launch, below the Rs 46.99 lakh R-Line. Here is what changes and what to expect.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>EV Sales June 2026: Tata Doubles Down, Mahindra Charges Hard</title>
       <link>https://www.thecarjury.com/news/electric-car-sales-june-2026-tata-mahindra-mg/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/carmakers-cut-discounts-gst-small-car-demand-revives/</guid>
       <pubDate>Tue, 30 Jun 2026 16:17:13 +1000</pubDate>
       <description>Maruti and Tata are slashing discounts on Wagon R, Baleno, Tiago and Punch as the GST cut revives small-car demand. Here is what it means for buyers.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>July 2026 Launch Slate: Kwid Facelift Leads A Thin Month</title>
-      <link>https://www.thecarjury.com/news/july-2026-car-launches-renault-kwid-nissan-mg-roundup/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/july-2026-car-launches-renault-kwid-nissan-mg-roundup/</guid>
-      <pubDate>Tue, 30 Jun 2026 16:16:36 +1000</pubDate>
-      <description>Renault Kwid facelift headlines July 2026 launches, with Nissan, JSW-MG, Maruti, Skoda, Honda and Toyota also lining up new models. Here is the slate.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
