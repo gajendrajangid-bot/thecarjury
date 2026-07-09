@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 09 Jul 2026 15:12:04 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 17:59:18 +0530</lastBuildDate>
+    <item>
+      <title>Nissan Tekton claims 19.4kpl: Duster's numbers with a Nissan badge</title>
+      <link>https://www.thecarjury.com/news/nissan-tekton-fuel-efficiency-figures-revealed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-fuel-efficiency-figures-revealed/</guid>
+      <pubDate>Thu, 09 Jul 2026 17:59:12 +0530</pubDate>
+      <description>Nissan Tekton claims 17.8-19.4kpl across its 1.0 and 1.3 turbo-petrol engines, matching the Renault Duster almost to the decimal. Here is our take.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Nissan Tekton lands at ₹10.49 lakh: the C-SUV bet Nissan cannot afford to fumble</title>
       <link>https://www.thecarjury.com/news/nissan-tekton-launch-price-india-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</guid>
       <pubDate>Wed, 01 Jul 2026 13:40:20 +1000</pubDate>
       <description>Tata says Sierra EV and Harrier EV are pulling new buyers into the EV market as India enters the early majority phase. Our verdict on the strategy.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mercedes brings its 140-year S-Class world tour to India in July</title>
-      <link>https://www.thecarjury.com/news/mercedes-s-class-india-drive-140-years-july-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-s-class-india-drive-140-years-july-2026/</guid>
-      <pubDate>Tue, 30 Jun 2026 22:31:40 +1000</pubDate>
-      <description>Three Mercedes-Benz S-Class saloons will tour India from July as part of the brand&amp;#x27;s global 140-year, 60,000 km celebration drive.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
