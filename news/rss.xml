@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 10 Jul 2026 08:04:43 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 15:12:51 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra Hikes Prices Up To 2.7%: Second Bump This Year, EVs Mostly Spared</title>
+      <link>https://www.thecarjury.com/news/mahindra-price-hike-july-2026-up-to-2-7-percent/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-price-hike-july-2026-up-to-2-7-percent/</guid>
+      <pubDate>Fri, 10 Jul 2026 15:12:49 +0530</pubDate>
+      <description>Mahindra raises prices on almost every ICE model by up to 2.7 percent from July 10, 2026. Scorpio N and most EVs escape the hike.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Nissan Tekton claims 19.4kpl: Duster's numbers with a Nissan badge</title>
       <link>https://www.thecarjury.com/news/nissan-tekton-fuel-efficiency-figures-revealed/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-mg-kkr-400-million-investment-ev-jv/</guid>
       <pubDate>Wed, 01 Jul 2026 13:41:01 +1000</pubDate>
       <description>KKR is set to invest up to $400 million in JSW MG Motor India at a $3 billion valuation, diluting SAIC and making the JV majority Indian-owned.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata's Sierra EV And Harrier EV Bet Pays Off, But Only If Pricing Holds</title>
-      <link>https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-harrier-ev-expanding-indian-ev-market/</guid>
-      <pubDate>Wed, 01 Jul 2026 13:40:20 +1000</pubDate>
-      <description>Tata says Sierra EV and Harrier EV are pulling new buyers into the EV market as India enters the early majority phase. Our verdict on the strategy.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
