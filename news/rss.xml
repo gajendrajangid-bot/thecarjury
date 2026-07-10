@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 10 Jul 2026 15:13:33 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 15:14:14 +0530</lastBuildDate>
+    <item>
+      <title>MG's First India PHEV Could Be Called Hector Hawk, Debuts July 16</title>
+      <link>https://www.thecarjury.com/news/mg-hector-hawk-phev-name-trademark-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-hector-hawk-phev-name-trademark-india/</guid>
+      <pubDate>Fri, 10 Jul 2026 15:14:09 +0530</pubDate>
+      <description>MG has trademarked the Hector Hawk name in India, likely for its first PHEV, a rebadged Wuling Starlight 560 debuting July 16.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Nissan Bets On Alliances For India: Smart Move, But Execution Is Everything</title>
       <link>https://www.thecarjury.com/news/nissan-global-partnerships-india-strategy-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-seltos-gtx-o-x-line-o-launched-level-2-plus-adas/</guid>
       <pubDate>Wed, 01 Jul 2026 16:38:29 +1000</pubDate>
       <description>Kia adds GTX(O) and X-Line(O) trims to the Seltos with 28 ADAS features, priced from Rs 21.57 lakh. The Car Jury&amp;#x27;s take on whether it&amp;#x27;s worth it.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Renault And Nissan Line Up 4 Hybrid SUVs: Maruti's Grip On Strong Hybrids Ends</title>
-      <link>https://www.thecarjury.com/news/renault-nissan-four-hybrid-suvs-largest-battery-packs-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-nissan-four-hybrid-suvs-largest-battery-packs-india/</guid>
-      <pubDate>Wed, 01 Jul 2026 13:45:04 +1000</pubDate>
-      <description>Renault and Nissan are readying four strong-hybrid SUVs for India, led by the Duster Hybrid, with segment-best battery packs and 25 kmpl claims.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

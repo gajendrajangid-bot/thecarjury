@@ -1051,6 +1051,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/mg-hector-hawk-phev-name-trademark-india/</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mg-majestor-launch-price-rs-40-99-lakh-fortuner-rival/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1076,7 +1082,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-spinny-used-ev-partnership-battery-certification/</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
