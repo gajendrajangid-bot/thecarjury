@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 10 Jul 2026 19:02:43 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 19:03:22 +0530</lastBuildDate>
+    <item>
+      <title>Centre Kills Pure Petrol and E10 Choice: E20 Is Now Your Only Option</title>
+      <link>https://www.thecarjury.com/news/government-rejects-pure-petrol-e10-choice-e20-standard/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/government-rejects-pure-petrol-e10-choice-e20-standard/</guid>
+      <pubDate>Fri, 10 Jul 2026 19:03:20 +0530</pubDate>
+      <description>The Centre has ruled out selling pure petrol, E10 and E20 side by side, locking E20 as India&amp;#x27;s default petrol blend. Here is what it means.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Centre Orders States To Crack Down On Fuel Adulteration Amid E20 Backlash</title>
       <link>https://www.thecarjury.com/news/centre-orders-states-crack-down-fuel-adulteration-e20/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-slavia-facelift-august-2026-launch/</guid>
       <pubDate>Wed, 01 Jul 2026 16:40:40 +1000</pubDate>
       <description>Skoda confirms the Slavia facelift will launch in August 2026 with a new grille, updated LED lighting and a mild price bump. Here is our take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai June 2026 Sales Slip 10% After Supplier Fire: A One-Month Blip, Not A Trend</title>
-      <link>https://www.thecarjury.com/news/hyundai-india-june-2026-sales-decline-supplier-fire/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-india-june-2026-sales-decline-supplier-fire/</guid>
-      <pubDate>Wed, 01 Jul 2026 16:39:11 +1000</pubDate>
-      <description>Hyundai India domestic sales fell 9.97% YoY in June 2026 after a supplier fire cost 13,900 units. The Car Jury reads the numbers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

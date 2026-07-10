@@ -349,6 +349,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/government-rejects-pure-petrol-e10-choice-e20-standard/</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/haryana-ev-charger-mandate-residential-complexes-2026/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -872,7 +878,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-grand-vitara-invicto-discounts-july-2026/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
