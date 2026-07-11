@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 11 Jul 2026 12:01:54 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 12:02:38 +0530</lastBuildDate>
+    <item>
+      <title>Volkswagen's China Collapse Drags Global Sales to 4-Year Low: India Buyers Unaffected</title>
+      <link>https://www.thecarjury.com/news/volkswagen-q2-2026-china-slump-global-delivery-drop/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-q2-2026-china-slump-global-delivery-drop/</guid>
+      <pubDate>Sat, 11 Jul 2026 12:02:30 +0530</pubDate>
+      <description>Volkswagen&amp;#x27;s Q2 2026 deliveries fell 8.6 percent globally as China market shrank 20 percent. What it means for Indian VW buyers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai June 2026 Sales: Venue Tops Chart, Creta Slips as Supplier Fire Hits Output</title>
       <link>https://www.thecarjury.com/news/hyundai-sales-june-2026-venue-exter-lead-creta-slips/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-price-hike-july-2026-hyryder-glanza-taisor-rumion/</guid>
       <pubDate>Thu, 02 Jul 2026 16:29:24 +1000</pubDate>
       <description>Toyota raises prices on Hyryder, Glanza, Taisor and Rumion from July 2026, with hikes going up to Rs 33,000 depending on variant.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Honda Sales June 2026: Domestic Up 13.5%, Exports Explode 600%</title>
-      <link>https://www.thecarjury.com/news/honda-car-sales-june-2026-domestic-exports-growth/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/honda-car-sales-june-2026-domestic-exports-growth/</guid>
-      <pubDate>Thu, 02 Jul 2026 16:28:35 +1000</pubDate>
-      <description>Honda Cars India posts 13.5% domestic growth in June 2026 and a 600% export surge, with the City facelift and ZR-V incoming.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
