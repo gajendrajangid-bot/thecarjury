@@ -529,6 +529,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-sales-june-2026-venue-exter-lead-creta-slips/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyundai-sales-may-2026-creta-venue-exter-breakup/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1676,7 +1682,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-on-road-price-top-cities-2026/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1695,6 +1701,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/tata-sierra-ev-teased-june-30-debut/</loc>
     <lastmod>2026-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-sierra-jubilee-edition-launched-price/</loc>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
