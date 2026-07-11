@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 11 Jul 2026 09:15:10 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 09:16:17 +0530</lastBuildDate>
+    <item>
+      <title>Nissan Can Still Build Its Own Cars At Renault's Chennai Plant</title>
+      <link>https://www.thecarjury.com/news/nissan-own-platform-cars-renault-chennai-plant-rnaipl/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-own-platform-cars-renault-chennai-plant-rnaipl/</guid>
+      <pubDate>Sat, 11 Jul 2026 09:16:16 +0530</pubDate>
+      <description>Nissan confirms it can build vehicles on its own platforms at the Renault-run RNAIPL Chennai plant, despite exiting the manufacturing JV last year.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Sorento Bookings Open at Rs 25,000: Flagship Hybrid SUV Lands in October</title>
       <link>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-25000-october-2026-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-sales-june-2026-h1-record/</guid>
       <pubDate>Thu, 02 Jul 2026 13:19:50 +1000</pubDate>
       <description>Kia India posts 24,552 units in June 2026, up 19% YoY, and closes H1 at 1.63 lakh units. TCJ verdict on what is really driving the numbers.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti WagonR BioFlex Sells Just 3 Units: Flex-Fuel's Infra Problem Exposed</title>
-      <link>https://www.thecarjury.com/news/maruti-wagonr-bioflex-three-sales-flex-fuel-infrastructure/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-wagonr-bioflex-three-sales-flex-fuel-infrastructure/</guid>
-      <pubDate>Thu, 02 Jul 2026 13:19:04 +1000</pubDate>
-      <description>Maruti WagonR BioFlex has recorded only three registrations since launch, exposing India&amp;#x27;s thin E85 pump network as the real bottleneck.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
