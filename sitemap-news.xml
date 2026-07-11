@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/bmw-m2-m-xdrive-awd-india-launch-confirmed/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09T12:05:54+05:30</news:publication_date>
-      <news:title>BMW M2 M xDrive Confirmed for India: AWD Arrives, But Purists Won't Care</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/centre-orders-states-crack-down-fuel-adulteration-e20/</loc>
     <lastmod>2026-07-11</lastmod>
     <news:news>
@@ -23,18 +11,6 @@
       </news:publication>
       <news:publication_date>2026-07-10T19:02:42+05:30</news:publication_date>
       <news:title>Centre Orders States To Crack Down On Fuel Adulteration Amid E20 Backlash</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/e25-petrol-rollout-not-ready-centre-clarifies/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09T12:06:43+05:30</news:publication_date>
-      <news:title>Centre Puts Brakes On E25 Petrol: Rollout Still In Testing, Says Puri</news:title>
     </news:news>
   </url>
   <url>
@@ -98,6 +74,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/mercedes-amg-e53-phev-india-launch-july-23/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-11T16:41:26+05:30</news:publication_date>
+      <news:title>Mercedes-AMG E 53 PHEV lands July 23: 585hp, 100km EV range, one very expensive science project</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mg-go-cyber-concept-goodwood-fos-2026/</loc>
     <lastmod>2026-07-11</lastmod>
     <news:news>
@@ -146,18 +134,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/nissan-tekton-5-star-bharat-ncap-crash-test/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09T15:11:11+05:30</news:publication_date>
-      <news:title>Nissan Tekton bags 5 stars at Bharat NCAP, matches Duster's crash score</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/nissan-tekton-fuel-efficiency-figures-revealed/</loc>
     <lastmod>2026-07-11</lastmod>
     <news:news>
@@ -167,18 +143,6 @@
       </news:publication>
       <news:publication_date>2026-07-09T17:59:12+05:30</news:publication_date>
       <news:title>Nissan Tekton claims 19.4kpl: Duster's numbers with a Nissan badge</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/nissan-tekton-launch-price-india-2026/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09T15:11:57+05:30</news:publication_date>
-      <news:title>Nissan Tekton lands at ₹10.49 lakh: the C-SUV bet Nissan cannot afford to fumble</news:title>
     </news:news>
   </url>
   <url>
