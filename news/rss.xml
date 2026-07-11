@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 11 Jul 2026 09:16:17 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 11:59:53 +0530</lastBuildDate>
+    <item>
+      <title>Kia Syros EV: 520km Range, Rs 15-20 Lakh Price Puts Nexon EV On Notice</title>
+      <link>https://www.thecarjury.com/news/kia-syros-ev-battery-range-revealed-2026-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-ev-battery-range-revealed-2026-launch/</guid>
+      <pubDate>Sat, 11 Jul 2026 11:59:52 +0530</pubDate>
+      <description>Kia Syros EV gets 42kWh and 51.4kWh batteries from the Carens Clavis EV, up to 520km ARAI range. Bookings open, launch expected this month.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Nissan Can Still Build Its Own Cars At Renault's Chennai Plant</title>
       <link>https://www.thecarjury.com/news/nissan-own-platform-cars-renault-chennai-plant-rnaipl/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/india-ev-registrations-q1-fy2026-tata-mahindra/</guid>
       <pubDate>Thu, 02 Jul 2026 13:21:12 +1000</pubDate>
       <description>India&amp;#x27;s electric passenger vehicle registrations grew 89.3% in Q1 FY2026 to 82,737 units, with Tata and Mahindra taking over 63% share.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia June 2026: 24,552 Units, Best-Ever H1 At 1.63 Lakh, Seltos Still Doing The Heavy Lifting</title>
-      <link>https://www.thecarjury.com/news/kia-india-sales-june-2026-h1-record/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-sales-june-2026-h1-record/</guid>
-      <pubDate>Thu, 02 Jul 2026 13:19:50 +1000</pubDate>
-      <description>Kia India posts 24,552 units in June 2026, up 19% YoY, and closes H1 at 1.63 lakh units. TCJ verdict on what is really driving the numbers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
