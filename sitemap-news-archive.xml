@@ -704,7 +704,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-india-teases-syros-ev-sorento-hybrid-launch/</loc>
-    <lastmod>2026-07-05</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -723,6 +723,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/kia-sonet-1-star-global-ncap-south-africa-spec/</loc>
     <lastmod>2026-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-25000-october-2026-launch/</loc>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

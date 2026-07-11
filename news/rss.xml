@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 11 Jul 2026 09:13:48 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 09:15:10 +0530</lastBuildDate>
+    <item>
+      <title>Kia Sorento Bookings Open at Rs 25,000: Flagship Hybrid SUV Lands in October</title>
+      <link>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-25000-october-2026-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-india-bookings-open-25000-october-2026-launch/</guid>
+      <pubDate>Sat, 11 Jul 2026 09:14:58 +0530</pubDate>
+      <description>Kia has unofficially opened Sorento bookings in India at Rs 25,000. A 1.6 hybrid, three seating layouts, and an October 2026 launch are on the cards.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG Shows GO Hatch and Cyber SUV at Goodwood: Europe First, India Later</title>
       <link>https://www.thecarjury.com/news/mg-go-cyber-concept-goodwood-fos-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-wagonr-bioflex-three-sales-flex-fuel-infrastructure/</guid>
       <pubDate>Thu, 02 Jul 2026 13:19:04 +1000</pubDate>
       <description>Maruti WagonR BioFlex has recorded only three registrations since launch, exposing India&amp;#x27;s thin E85 pump network as the real bottleneck.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>JSW MG June 2026 Sales Hit Record 7,568 Units, EVs Own 75% Of The Mix</title>
-      <link>https://www.thecarjury.com/news/jsw-mg-sales-june-2026-highest-ever-7568-units/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-mg-sales-june-2026-highest-ever-7568-units/</guid>
-      <pubDate>Wed, 01 Jul 2026 20:19:56 +1000</pubDate>
-      <description>JSW MG posted its highest-ever monthly wholesales in June 2026 at 7,568 units, up 29.83% YoY, with EVs contributing over 75% of volume.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
