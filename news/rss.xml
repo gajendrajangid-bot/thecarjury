@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 11 Jul 2026 08:04:38 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 09:13:48 +0530</lastBuildDate>
+    <item>
+      <title>MG Shows GO Hatch and Cyber SUV at Goodwood: Europe First, India Later</title>
+      <link>https://www.thecarjury.com/news/mg-go-cyber-concept-goodwood-fos-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-go-cyber-concept-goodwood-fos-2026/</guid>
+      <pubDate>Sat, 11 Jul 2026 09:13:30 +0530</pubDate>
+      <description>MG unveils the GO electric hatchback and Cyber SUV concepts at Goodwood 2026. Europe is the priority; India gets these later, if at all.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>VW Tayron Life at Rs 41.99 Lakh: Cheaper Tayron, But Still a Hard Sell</title>
       <link>https://www.thecarjury.com/news/vw-tayron-life-launch-price-41-99-lakh-5-seater/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-mg-sales-june-2026-highest-ever-7568-units/</guid>
       <pubDate>Wed, 01 Jul 2026 20:19:56 +1000</pubDate>
       <description>JSW MG posted its highest-ever monthly wholesales in June 2026 at 7,568 units, up 29.83% YoY, with EVs contributing over 75% of volume.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Suzuki XL7 Facelift Leaks: A Preview Of The Maruti XL6's Next Face</title>
-      <link>https://www.thecarjury.com/news/suzuki-xl7-facelift-leaked-maruti-xl6-preview/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/suzuki-xl7-facelift-leaked-maruti-xl6-preview/</guid>
-      <pubDate>Wed, 01 Jul 2026 20:19:12 +1000</pubDate>
-      <description>Suzuki XL7 facelift images have leaked ahead of the 2026 GIIAS debut, previewing the styling India&amp;#x27;s Maruti XL6 is likely to inherit next.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

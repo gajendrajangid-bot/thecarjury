@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/bmw-india-h1-2026-record-sales-ev-share/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09T08:52:37+05:30</news:publication_date>
-      <news:title>BMW India's H1 2026 record: EVs and long-wheelbase cars carry the load</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/bmw-m2-m-xdrive-awd-india-launch-confirmed/</loc>
     <lastmod>2026-07-09</lastmod>
     <news:news>
@@ -74,8 +62,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/mg-go-cyber-concept-goodwood-fos-2026/</loc>
+    <lastmod>2026-07-11</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-11T09:13:30+05:30</news:publication_date>
+      <news:title>MG Shows GO Hatch and Cyber SUV at Goodwood: Europe First, India Later</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mg-hector-hawk-phev-name-trademark-india/</loc>
-    <lastmod>2026-07-10</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -131,30 +131,6 @@
       </news:publication>
       <news:publication_date>2026-07-09T15:11:57+05:30</news:publication_date>
       <news:title>Nissan Tekton lands at ₹10.49 lakh: the C-SUV bet Nissan cannot afford to fumble</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-sierra-ev-on-road-price-top-cities-2026/</loc>
-    <lastmod>2026-07-09</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09T08:53:42+05:30</news:publication_date>
-      <news:title>Tata Sierra EV On-Road Prices Land Between Rs 19.39-28.19 Lakh Across Metros</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/volkswagen-tayron-lower-spec-variant-launch-july-10/</loc>
-    <lastmod>2026-07-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-09T08:51:53+05:30</news:publication_date>
-      <news:title>Volkswagen Tayron gets a cheaper variant on July 10: about time</news:title>
     </news:news>
   </url>
   <url>
