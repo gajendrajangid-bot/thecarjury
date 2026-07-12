@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 12 Jul 2026 08:59:47 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 09:00:27 +0530</lastBuildDate>
+    <item>
+      <title>Battery-as-a-Service Cuts EV Sticker Prices, But Raises Lifetime Cost</title>
+      <link>https://www.thecarjury.com/news/battery-as-a-service-ev-ownership-cost-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/battery-as-a-service-ev-ownership-cost-india/</guid>
+      <pubDate>Sun, 12 Jul 2026 09:00:25 +0530</pubDate>
+      <description>Tata, Hyundai and Maruti are pushing Battery-as-a-Service to slash EV sticker prices, but the lifetime bill for the buyer is going up, not down.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Syros EV Caught Undisguised in Bengaluru: Launch is Close</title>
       <link>https://www.thecarjury.com/news/kia-syros-ev-spied-undisguised-bengaluru-tvc-shoot/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-kharkhoda-plant-inaugurated-haryana-800-acres/</guid>
       <pubDate>Fri, 03 Jul 2026 16:45:08 +1000</pubDate>
       <description>Maruti Suzuki opens its 800-acre Kharkhoda plant in Haryana. Capacity will double to 10 lakh units. What it means for buyers and rivals.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Curvv gets Rs 1.2 lakh off in July 2026: worth grabbing?</title>
-      <link>https://www.thecarjury.com/news/tata-curvv-discount-july-2026-benefits/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-curvv-discount-july-2026-benefits/</guid>
-      <pubDate>Fri, 03 Jul 2026 13:44:32 +1000</pubDate>
-      <description>Tata Curvv gets up to Rs 1.2 lakh in cash, exchange and loyalty benefits in July 2026. The Car Jury&amp;#x27;s take on whether the coupe-SUV is a buy now.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
