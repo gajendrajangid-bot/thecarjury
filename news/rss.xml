@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 12 Jul 2026 09:00:27 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 11:59:07 +0530</lastBuildDate>
+    <item>
+      <title>Tata Sierra EV Launched From Rs 18.79 Lakh: Priced To Kill Its Own Petrol Sibling</title>
+      <link>https://www.thecarjury.com/news/tata-sierra-ev-launch-price-review-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-launch-price-review-2026/</guid>
+      <pubDate>Sun, 12 Jul 2026 11:59:02 +0530</pubDate>
+      <description>Tata Sierra EV launches from Rs 18.79 lakh ex-showroom, undercutting rivals and matching the Sierra petrol AT. Our verdict on whether it earns the badge.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Battery-as-a-Service Cuts EV Sticker Prices, But Raises Lifetime Cost</title>
       <link>https://www.thecarjury.com/news/battery-as-a-service-ev-ownership-cost-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xev-9e-cineluxe-satin-desert-myst-colour-launched/</guid>
       <pubDate>Fri, 03 Jul 2026 16:46:00 +1000</pubDate>
       <description>Mahindra adds a new Satin Desert Myst finish to the XEV 9e Cineluxe Edition, joining Satin Black and Satin White in the flagship EV&amp;#x27;s lineup.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti's Kharkhoda plant goes live: 10 lakh cars a year is the real threat to rivals</title>
-      <link>https://www.thecarjury.com/news/maruti-kharkhoda-plant-inaugurated-haryana-800-acres/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-kharkhoda-plant-inaugurated-haryana-800-acres/</guid>
-      <pubDate>Fri, 03 Jul 2026 16:45:08 +1000</pubDate>
-      <description>Maruti Suzuki opens its 800-acre Kharkhoda plant in Haryana. Capacity will double to 10 lakh units. What it means for buyers and rivals.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
