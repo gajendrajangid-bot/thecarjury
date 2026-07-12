@@ -1244,7 +1244,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/nissan-own-platform-cars-renault-chennai-plant-rnaipl/</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1383,6 +1383,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/renault-kiger-evolution-plus-turbo-launched-7-89-lakh/</loc>
     <lastmod>2026-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/renault-kiger-july-2026-discount-benefits/</loc>
+    <lastmod>2026-07-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
