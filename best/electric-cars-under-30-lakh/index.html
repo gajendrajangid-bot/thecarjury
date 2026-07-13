@@ -317,9 +317,20 @@
     .pill-SKIP{background:#EFEEEB;color:#3D3D3D;}
     .pill-safe{background:#fff;color:var(--stone-800);border:1px solid var(--hairline);}
     .bp-links{margin-top:auto;padding-top:4px;font:600 13px/1 var(--font-ui);}
+    .bp-list-head{margin:0 0 16px;}
+    .bp-list-head h2{font:700 24px/1.2 var(--font-display);margin-bottom:6px;}
+    .bp-list-head p{font:400 14px/1.55 var(--font-ui);color:var(--stone-600);max-width:720px;}
     .bp-divide{grid-column:1/-1;margin:10px 0 4px;font:600 12px/1.4 var(--font-ui);letter-spacing:.04em;text-transform:uppercase;color:var(--stone-400);display:flex;align-items:center;gap:12px;}
     .bp-divide::before,.bp-divide::after{content:"";flex:1;height:1px;background:var(--hairline);}
     .bp-divide b{color:#B45309;font-weight:700;}
+    .bp-other{margin:42px 0 0;padding-top:30px;border-top:1px solid var(--hairline);}
+    .bp-other h2{font:700 21px/1.2 var(--font-display);margin-bottom:7px;}
+    .bp-other>p{font:400 14px/1.55 var(--font-ui);color:var(--stone-600);max-width:720px;margin-bottom:16px;}
+    .bp-other-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px;}
+    .bp-other-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:10px;background:#fff;border:1px solid var(--hairline);border-radius:8px;padding:11px 13px;color:var(--ink);}
+    .bp-other-name{font:600 13px/1.3 var(--font-ui);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .bp-other-price{font:500 12px/1 var(--font-ui);color:var(--stone-600);white-space:nowrap;}
+    .bp-other-verdict{font:700 10px/1 var(--font-ui);letter-spacing:.04em;white-space:nowrap;}
     .bp-sec{margin:44px 0 0;}
     .bp-sec h2{font:700 21px/1.2 var(--font-display);margin-bottom:16px;}
     .bp-high{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;}
@@ -336,7 +347,7 @@
     .bp-faq details{border-bottom:1px solid var(--hairline);padding:14px 0;}
     .bp-faq summary{font:600 15px/1.4 var(--font-ui);cursor:pointer;}
     .bp-faq p{font:400 14px/1.6 var(--font-ui);color:var(--stone-600);margin-top:10px;}
-    @media(max-width:680px){.bp-picks,.bp-high,.bp-cmp{grid-template-columns:1fr 1fr;}}
+    @media(max-width:680px){.bp-picks,.bp-high,.bp-cmp,.bp-other-grid{grid-template-columns:1fr;}}
 </style>
 <script src="/js/search.js" defer></script><script src="/js/nav.js" defer></script>
 </head><body>
@@ -388,8 +399,9 @@
     <div class="bp-sort"><button class="on" data-mode="jurypick">Jury's pick</button><button data-mode="phl">Price high to low</button><button data-mode="plh">Price low to high</button></div>
   </div>
   <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Mahindra BE6</div><div class="mt">8.6/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Tata Harrier EV</div><div class="mt">5-star Bharat NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Tata Punch EV</div><div class="mt">7.4/10 at ₹9.69–12.59L ex-showroom</div></div></div>
+  
   <div class="bp-grid" id="bp-list">
-      <div class="bp-card" data-price="18.9" data-score="8.6" data-verdict="0">
+      <div class="bp-card" data-rank="1" data-price="18.9" data-score="8.6" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">1</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/be6/hero.webp" alt="Mahindra BE6" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra BE6</div>
@@ -397,7 +409,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.6</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/be6/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="21.49" data-score="8.1" data-verdict="0">
+      <div class="bp-card" data-rank="2" data-price="21.49" data-score="8.1" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">2</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/harrier-ev/hero.webp" alt="Tata Harrier EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Harrier EV</div>
@@ -405,7 +417,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.1</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/harrier-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="12.49" data-score="7.8" data-verdict="0">
+      <div class="bp-card" data-rank="3" data-price="12.49" data-score="7.8" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">3</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/nexon-ev/hero.webp" alt="Tata Nexon EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Nexon EV</div>
@@ -413,7 +425,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.8</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/nexon-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="21.9" data-score="7.8" data-verdict="0">
+      <div class="bp-card" data-rank="4" data-price="21.9" data-score="7.8" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">4</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/xev-9e/hero.webp" alt="Mahindra XEV 9E" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra XEV 9E</div>
@@ -421,7 +433,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.8</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/xev-9e/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="9.69" data-score="7.4" data-verdict="0">
+      <div class="bp-card" data-rank="5" data-price="9.69" data-score="7.4" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">5</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/punch-ev/hero.webp" alt="Tata Punch EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Punch EV</div>
@@ -429,7 +441,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.4</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/punch-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="16.99" data-score="7.4" data-verdict="0">
+      <div class="bp-card" data-rank="6" data-price="16.99" data-score="7.4" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">6</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/curvv-ev/hero.webp" alt="Tata Curvv EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Curvv EV</div>
@@ -437,7 +449,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.4</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/curvv-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="18.02" data-score="7.3" data-verdict="0">
+      <div class="bp-card" data-rank="7" data-price="18.02" data-score="7.3" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">7</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/hyundai/creta-electric/hero.webp" alt="Hyundai Creta Electric" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Creta Electric</div>
@@ -445,7 +457,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.3</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/creta-electric/">Read the verdict →</a></div>
         </div></div><div class="bp-divide" id="bp-divide">Also in this budget: cars the jury says <b>wait</b> on</div>
-      <div class="bp-card" data-price="14.09" data-score="7.0" data-verdict="1">
+      <div class="bp-card" data-rank="8" data-price="14.09" data-score="7.0" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">8</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/mg/windsor-ev/hero.webp" alt="MG Windsor EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">MG Windsor EV</div>
@@ -453,7 +465,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.0</span></div>
           <div class="bp-links"><a href="/reviews/mg/windsor-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="15.99" data-score="6.3" data-verdict="1">
+      <div class="bp-card" data-rank="9" data-price="15.99" data-score="6.3" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">9</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/e-vitara/hero.webp" alt="Maruti e-Vitara" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti e-Vitara</div>
@@ -461,7 +473,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.3</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/e-vitara/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="6.99" data-score="5.7" data-verdict="2">
+      <div class="bp-card" data-rank="10" data-price="6.99" data-score="5.7" data-verdict="2">
         <div class="bp-card-img"><span class="bp-rank-badge">10</span><span class="bp-vov"><span class="pill pill-SKIP">SKIP</span></span><img src="/reviews/tata/tiago-ev/hero.webp" alt="Tata Tiago EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Tiago EV</div>
@@ -469,9 +481,10 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 5.7</span></div>
           <div class="bp-links"><a href="/reviews/tata/tiago-ev/">Read the verdict →</a></div>
         </div></div></div>
+  
 
   <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Tata Tiago EV</div><div class="s">₹6.99–9.99L ex-showroom</div></div><div><div class="k">Most premium</div><div class="v">Mahindra XEV 9E</div><div class="s">₹21.90–31.25L ex-showroom</div></div><div><div class="k">Highest jury score</div><div class="v">Mahindra BE6</div><div class="s">8.6/10</div></div><div><div class="k">Safest</div><div class="v">Tata Harrier EV</div><div class="s">5★ Bharat NCAP</div></div></div></div>
-  <div class="bp-sec"><h2>Compare these head-to-head</h2><div class="bp-cmp"><a href="/compare/windsor-ev-vs-punch-ev/">Windsor EV vs Punch EV <span>→</span></a><a href="/compare/punch-ev-vs-tiago-ev/">Punch EV vs Tiago EV <span>→</span></a><a href="/compare/windsor-ev-vs-nexon-ev/">Windsor EV vs Nexon EV <span>→</span></a><a href="/compare/harrier-ev-vs-curvv-ev/">Harrier EV vs Curvv EV <span>→</span></a><a href="/compare/creta-electric-vs-windsor-ev/">Creta Electric vs Windsor EV <span>→</span></a><a href="/compare/curvv-ev-vs-nexon-ev/">Curvv EV vs Nexon EV <span>→</span></a><a href="/compare/creta-electric-vs-nexon-ev/">Creta Electric vs Nexon EV <span>→</span></a><a href="/compare/be6-vs-nexon-ev/">BE6 vs Nexon EV <span>→</span></a><a href="/compare/nexon-ev-vs-e-vitara/">Nexon EV vs E Vitara <span>→</span></a><a href="/compare/creta-electric-vs-curvv-ev/">Creta Electric vs Curvv EV <span>→</span></a><a href="/compare/creta-electric-vs-e-vitara/">Creta Electric vs E Vitara <span>→</span></a><a href="/compare/seltos-vs-grand-vitara/">Seltos vs Grand Vitara <span>→</span></a></div></div>
+  <div class="bp-sec"><h2>Compare these head-to-head</h2><div class="bp-cmp"><a href="/compare/be6-vs-xev-9e/">BE6 vs XEV 9E <span>→</span></a><a href="/compare/be6-vs-nexon-ev/">BE6 vs Nexon EV <span>→</span></a><a href="/compare/harrier-ev-vs-be6/">Harrier EV vs BE6 <span>→</span></a><a href="/compare/harrier-ev-vs-curvv-ev/">Harrier EV vs Curvv EV <span>→</span></a><a href="/compare/xev-9e-vs-harrier-ev/">XEV 9E vs Harrier EV <span>→</span></a><a href="/compare/curvv-ev-vs-nexon-ev/">Curvv EV vs Nexon EV <span>→</span></a><a href="/compare/windsor-ev-vs-nexon-ev/">Windsor EV vs Nexon EV <span>→</span></a><a href="/compare/creta-electric-vs-nexon-ev/">Creta Electric vs Nexon EV <span>→</span></a><a href="/compare/nexon-ev-vs-e-vitara/">Nexon EV vs E Vitara <span>→</span></a><a href="/compare/creta-electric-vs-curvv-ev/">Creta Electric vs Curvv EV <span>→</span></a><a href="/compare/windsor-ev-vs-punch-ev/">Windsor EV vs Punch EV <span>→</span></a><a href="/compare/punch-ev-vs-tiago-ev/">Punch EV vs Tiago EV <span>→</span></a></div></div>
   <div class="bp-sec"><h2>Keep browsing</h2>
     <div class="bp-facet"><p class="fl">By budget</p><a href="/best/cars-under-10-lakh/">Cars under ₹10L</a><a href="/best/cars-under-15-lakh/">Cars under ₹15L</a><a href="/best/cars-under-20-lakh/">Cars under ₹20L</a><a href="/best/cars-under-30-lakh/">Cars under ₹30L</a></div>
     <div class="bp-facet"><p class="fl">By type</p><a href="/best/suvs-under-10-lakh/">SUVs under ₹10L</a><a href="/best/suvs-under-15-lakh/">SUVs under ₹15L</a><a href="/best/sedans-under-15-lakh/">Sedans under ₹15L</a><a href="/best/electric-cars-under-20-lakh/">Electric Cars under ₹20L</a><a href="/best/hatchbacks-under-10-lakh/">Hatchbacks under ₹10L</a><a href="/best/mpvs-under-20-lakh/">MPVs under ₹20L</a><a href="/best/mpvs-under-30-lakh/">MPVs under ₹30L</a></div>
@@ -522,7 +535,7 @@
 </footer>
 <script>(function(){var box=document.getElementById('bp-list'),div=document.getElementById('bp-divide');
 function sort(mode,btn){var rs=[].slice.call(box.querySelectorAll('.bp-card'));
-if(mode==='jurypick'){rs.sort(function(a,b){return (+a.dataset.verdict - +b.dataset.verdict)||(+b.dataset.score - +a.dataset.score)||(+b.dataset.price - +a.dataset.price);});}
+if(mode==='jurypick'){rs.sort(function(a,b){return +a.dataset.rank - +b.dataset.rank;});}
 else if(mode==='phl'){rs.sort(function(a,b){return +b.dataset.price - +a.dataset.price;});}
 else if(mode==='plh'){rs.sort(function(a,b){return +a.dataset.price - +b.dataset.price;});}
 rs.forEach(function(r){box.appendChild(r);});

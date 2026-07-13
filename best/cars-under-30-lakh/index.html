@@ -317,9 +317,20 @@
     .pill-SKIP{background:#EFEEEB;color:#3D3D3D;}
     .pill-safe{background:#fff;color:var(--stone-800);border:1px solid var(--hairline);}
     .bp-links{margin-top:auto;padding-top:4px;font:600 13px/1 var(--font-ui);}
+    .bp-list-head{margin:0 0 16px;}
+    .bp-list-head h2{font:700 24px/1.2 var(--font-display);margin-bottom:6px;}
+    .bp-list-head p{font:400 14px/1.55 var(--font-ui);color:var(--stone-600);max-width:720px;}
     .bp-divide{grid-column:1/-1;margin:10px 0 4px;font:600 12px/1.4 var(--font-ui);letter-spacing:.04em;text-transform:uppercase;color:var(--stone-400);display:flex;align-items:center;gap:12px;}
     .bp-divide::before,.bp-divide::after{content:"";flex:1;height:1px;background:var(--hairline);}
     .bp-divide b{color:#B45309;font-weight:700;}
+    .bp-other{margin:42px 0 0;padding-top:30px;border-top:1px solid var(--hairline);}
+    .bp-other h2{font:700 21px/1.2 var(--font-display);margin-bottom:7px;}
+    .bp-other>p{font:400 14px/1.55 var(--font-ui);color:var(--stone-600);max-width:720px;margin-bottom:16px;}
+    .bp-other-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 14px;}
+    .bp-other-row{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:10px;background:#fff;border:1px solid var(--hairline);border-radius:8px;padding:11px 13px;color:var(--ink);}
+    .bp-other-name{font:600 13px/1.3 var(--font-ui);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+    .bp-other-price{font:500 12px/1 var(--font-ui);color:var(--stone-600);white-space:nowrap;}
+    .bp-other-verdict{font:700 10px/1 var(--font-ui);letter-spacing:.04em;white-space:nowrap;}
     .bp-sec{margin:44px 0 0;}
     .bp-sec h2{font:700 21px/1.2 var(--font-display);margin-bottom:16px;}
     .bp-high{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;}
@@ -336,7 +347,7 @@
     .bp-faq details{border-bottom:1px solid var(--hairline);padding:14px 0;}
     .bp-faq summary{font:600 15px/1.4 var(--font-ui);cursor:pointer;}
     .bp-faq p{font:400 14px/1.6 var(--font-ui);color:var(--stone-600);margin-top:10px;}
-    @media(max-width:680px){.bp-picks,.bp-high,.bp-cmp{grid-template-columns:1fr 1fr;}}
+    @media(max-width:680px){.bp-picks,.bp-high,.bp-cmp,.bp-other-grid{grid-template-columns:1fr;}}
 </style>
 <script src="/js/search.js" defer></script><script src="/js/nav.js" defer></script>
 </head><body>
@@ -388,8 +399,9 @@
     <div class="bp-sort"><button class="on" data-mode="jurypick">Jury's pick</button><button data-mode="phl">Price high to low</button><button data-mode="plh">Price low to high</button></div>
   </div>
   <div class="bp-picks"><div class="bp-pick"><div class="lbl">Jury's Top Pick</div><div class="nm">Mahindra Thar Roxx</div><div class="mt">8.8/10 · BUY</div></div><div class="bp-pick"><div class="lbl">Safest Choice</div><div class="nm">Mahindra BE6</div><div class="mt">5-star Bharat NCAP</div></div><div class="bp-pick"><div class="lbl">Best Value</div><div class="nm">Nissan Magnite</div><div class="mt">7.7/10 at ₹5.65–10.96L ex-showroom</div></div></div>
+  
   <div class="bp-grid" id="bp-list">
-      <div class="bp-card" data-price="12.39" data-score="8.8" data-verdict="0">
+      <div class="bp-card" data-rank="1" data-price="12.39" data-score="8.8" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">1</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/thar-roxx/hero.webp" alt="Mahindra Thar Roxx" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra Thar Roxx</div>
@@ -397,7 +409,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.8</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/thar-roxx/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="18.9" data-score="8.6" data-verdict="0">
+      <div class="bp-card" data-rank="2" data-price="18.9" data-score="8.6" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">2</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/be6/hero.webp" alt="Mahindra BE6" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra BE6</div>
@@ -405,7 +417,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.6</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/be6/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="10.49" data-score="8.4" data-verdict="0">
+      <div class="bp-card" data-rank="3" data-price="10.49" data-score="8.4" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">3</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/renault/duster/hero.webp" alt="Renault Duster" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Renault Duster</div>
@@ -413,7 +425,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.4</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/renault/duster/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="10.5" data-score="8.4" data-verdict="0">
+      <div class="bp-card" data-rank="4" data-price="10.5" data-score="8.4" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">4</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/volkswagen/virtus/hero.webp" alt="Volkswagen Virtus" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Volkswagen Virtus</div>
@@ -421,7 +433,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.4</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/volkswagen/virtus/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="13.49" data-score="8.3" data-verdict="0">
+      <div class="bp-card" data-rank="5" data-price="13.49" data-score="8.3" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">5</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/scorpio-n/hero.webp" alt="Mahindra Scorpio N" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra Scorpio N</div>
@@ -429,7 +441,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.3</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/scorpio-n/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="18.7" data-score="8.3" data-verdict="0">
+      <div class="bp-card" data-rank="6" data-price="18.7" data-score="8.3" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">6</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/toyota/innova-hycross/hero.webp" alt="Toyota Innova HyCross" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Toyota Innova HyCross</div>
@@ -437,7 +449,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.3</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/toyota/innova-hycross/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="13.66" data-score="8.1" data-verdict="0">
+      <div class="bp-card" data-rank="7" data-price="13.66" data-score="8.1" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">7</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/xuv700/hero.webp" alt="Mahindra XUV700" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra XUV700</div>
@@ -445,7 +457,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.1</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/xuv700/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="21.49" data-score="8.1" data-verdict="0">
+      <div class="bp-card" data-rank="8" data-price="21.49" data-score="8.1" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">8</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/harrier-ev/hero.webp" alt="Tata Harrier EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Harrier EV</div>
@@ -453,7 +465,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.1</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/harrier-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="10.99" data-score="8.0" data-verdict="0">
+      <div class="bp-card" data-rank="9" data-price="10.99" data-score="8.0" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">9</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/kia/seltos/hero.webp" alt="Kia Seltos" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Kia Seltos</div>
@@ -461,7 +473,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.0</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/kia/seltos/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="11.49" data-score="8.0" data-verdict="0">
+      <div class="bp-card" data-rank="10" data-price="11.49" data-score="8.0" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">10</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/sierra/hero.webp" alt="Tata Sierra" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Sierra</div>
@@ -469,7 +481,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.0</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/sierra/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="6.3" data-score="8.0" data-verdict="0">
+      <div class="bp-card" data-rank="11" data-price="6.3" data-score="8.0" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">11</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/altroz/hero.webp" alt="Tata Altroz" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Altroz</div>
@@ -477,7 +489,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 8.0</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/altroz/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="7.54" data-score="7.9" data-verdict="0">
+      <div class="bp-card" data-rank="12" data-price="7.54" data-score="7.9" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">12</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/xuv-3xo/hero.webp" alt="Mahindra XUV 3XO" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra XUV 3XO</div>
@@ -485,7 +497,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.9</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/xuv-3xo/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="7.37" data-score="7.9" data-verdict="0">
+      <div class="bp-card" data-rank="13" data-price="7.37" data-score="7.9" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">13</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/nexon/hero.webp" alt="Tata Nexon" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Nexon</div>
@@ -493,7 +505,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.9</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/nexon/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="10.0" data-score="7.9" data-verdict="0">
+      <div class="bp-card" data-rank="14" data-price="10.0" data-score="7.9" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">14</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/skoda/slavia/hero.webp" alt="Skoda Slavia" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Skoda Slavia</div>
@@ -501,7 +513,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.9</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/skoda/slavia/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="7.99" data-score="7.8" data-verdict="0">
+      <div class="bp-card" data-rank="15" data-price="7.99" data-score="7.8" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">15</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/hyundai/venue/hero.webp" alt="Hyundai Venue" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Venue</div>
@@ -509,7 +521,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.8</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/venue/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="11.0" data-score="7.8" data-verdict="0">
+      <div class="bp-card" data-rank="16" data-price="11.0" data-score="7.8" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">16</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/volkswagen/taigun/hero.webp" alt="Volkswagen Taigun" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Volkswagen Taigun</div>
@@ -517,7 +529,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.8</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/volkswagen/taigun/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="12.49" data-score="7.8" data-verdict="0">
+      <div class="bp-card" data-rank="17" data-price="12.49" data-score="7.8" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">17</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/nexon-ev/hero.webp" alt="Tata Nexon EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Nexon EV</div>
@@ -525,7 +537,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.8</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/nexon-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="21.9" data-score="7.8" data-verdict="0">
+      <div class="bp-card" data-rank="18" data-price="21.9" data-score="7.8" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">18</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/mahindra/xev-9e/hero.webp" alt="Mahindra XEV 9E" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Mahindra XEV 9E</div>
@@ -533,7 +545,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.8</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/mahindra/xev-9e/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="5.65" data-score="7.7" data-verdict="0">
+      <div class="bp-card" data-rank="19" data-price="5.65" data-score="7.7" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">19</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/nissan/magnite/hero.webp" alt="Nissan Magnite" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Nissan Magnite</div>
@@ -541,7 +553,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.7</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/nissan/magnite/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="5.65" data-score="7.7" data-verdict="0">
+      <div class="bp-card" data-rank="20" data-price="5.65" data-score="7.7" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">20</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/punch/hero.webp" alt="Tata Punch" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Punch</div>
@@ -549,7 +561,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.7</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/punch/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="13.29" data-score="7.7" data-verdict="0">
+      <div class="bp-card" data-rank="21" data-price="13.29" data-score="7.7" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">21</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/safari/hero.webp" alt="Tata Safari" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Safari</div>
@@ -557,7 +569,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.7</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/safari/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="10.99" data-score="7.7" data-verdict="0">
+      <div class="bp-card" data-rank="22" data-price="10.99" data-score="7.7" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">22</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/hyundai/verna/hero.webp" alt="Hyundai Verna" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Verna</div>
@@ -565,7 +577,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.7</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/verna/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="10.69" data-score="7.6" data-verdict="0">
+      <div class="bp-card" data-rank="23" data-price="10.69" data-score="7.6" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">23</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/skoda/kushaq/hero.webp" alt="Skoda Kushaq" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Skoda Kushaq</div>
@@ -573,7 +585,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.6</span><span class="pill pill-safe">🛡 5★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/skoda/kushaq/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="12.0" data-score="7.6" data-verdict="0">
+      <div class="bp-card" data-rank="24" data-price="12.0" data-score="7.6" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">24</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/honda/city/hero.webp" alt="Honda City" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Honda City</div>
@@ -581,7 +593,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.6</span><span class="pill pill-safe">🛡 4★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/honda/city/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="7.33" data-score="7.5" data-verdict="0">
+      <div class="bp-card" data-rank="25" data-price="7.33" data-score="7.5" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">25</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/kia/sonet/hero.webp" alt="Kia Sonet" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Kia Sonet</div>
@@ -589,7 +601,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.5</span></div>
           <div class="bp-links"><a href="/reviews/kia/sonet/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="9.69" data-score="7.4" data-verdict="0">
+      <div class="bp-card" data-rank="26" data-price="9.69" data-score="7.4" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">26</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/punch-ev/hero.webp" alt="Tata Punch EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Punch EV</div>
@@ -597,7 +609,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.4</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/punch-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="16.99" data-score="7.4" data-verdict="0">
+      <div class="bp-card" data-rank="27" data-price="16.99" data-score="7.4" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">27</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/tata/curvv-ev/hero.webp" alt="Tata Curvv EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Curvv EV</div>
@@ -605,7 +617,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.4</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/tata/curvv-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="18.02" data-score="7.3" data-verdict="0">
+      <div class="bp-card" data-rank="28" data-price="18.02" data-score="7.3" data-verdict="0">
         <div class="bp-card-img"><span class="bp-rank-badge">28</span><span class="bp-vov"><span class="pill pill-BUY">BUY</span></span><img src="/reviews/hyundai/creta-electric/hero.webp" alt="Hyundai Creta Electric" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Creta Electric</div>
@@ -613,7 +625,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.3</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/creta-electric/">Read the verdict →</a></div>
         </div></div><div class="bp-divide" id="bp-divide">Also in this budget: cars the jury says <b>wait</b> on</div>
-      <div class="bp-card" data-price="5.99" data-score="7.2" data-verdict="1">
+      <div class="bp-card" data-rank="29" data-price="5.99" data-score="7.2" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">29</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/baleno/hero.webp" alt="Maruti Baleno" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Baleno</div>
@@ -621,7 +633,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.2</span><span class="pill pill-safe">🛡 4★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/baleno/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="8.55" data-score="7.2" data-verdict="1">
+      <div class="bp-card" data-rank="30" data-price="8.55" data-score="7.2" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">30</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/citroen/basalt/hero.webp" alt="Citroen Basalt" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Citroen Basalt</div>
@@ -629,7 +641,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.2</span><span class="pill pill-safe">🛡 4★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/citroen/basalt/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="5.65" data-score="7.1" data-verdict="1">
+      <div class="bp-card" data-rank="31" data-price="5.65" data-score="7.1" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">31</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/nissan/gravite/hero.webp" alt="Nissan Gravite" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Nissan Gravite</div>
@@ -637,7 +649,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.1</span></div>
           <div class="bp-links"><a href="/reviews/nissan/gravite/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="6.73" data-score="7.1" data-verdict="1">
+      <div class="bp-card" data-rank="32" data-price="6.73" data-score="7.1" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">32</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/toyota/glanza/hero.webp" alt="Toyota Glanza" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Toyota Glanza</div>
@@ -645,7 +657,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.1</span></div>
           <div class="bp-links"><a href="/reviews/toyota/glanza/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="14.51" data-score="7.0" data-verdict="1">
+      <div class="bp-card" data-rank="33" data-price="14.51" data-score="7.0" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">33</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/hyundai/alcazar/hero.webp" alt="Hyundai Alcazar" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Alcazar</div>
@@ -653,7 +665,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.0</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/alcazar/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="6.26" data-score="7.0" data-verdict="1">
+      <div class="bp-card" data-rank="34" data-price="6.26" data-score="7.0" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">34</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/dzire/hero.webp" alt="Maruti Dzire" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Dzire</div>
@@ -661,7 +673,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.0</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/dzire/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="7.51" data-score="7.0" data-verdict="1">
+      <div class="bp-card" data-rank="35" data-price="7.51" data-score="7.0" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">35</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/honda/amaze/hero.webp" alt="Honda Amaze" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Honda Amaze</div>
@@ -669,7 +681,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.0</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/honda/amaze/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="14.09" data-score="7.0" data-verdict="1">
+      <div class="bp-card" data-rank="36" data-price="14.09" data-score="7.0" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">36</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/mg/windsor-ev/hero.webp" alt="MG Windsor EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">MG Windsor EV</div>
@@ -677,7 +689,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 7.0</span></div>
           <div class="bp-links"><a href="/reviews/mg/windsor-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="5.81" data-score="6.9" data-verdict="1">
+      <div class="bp-card" data-rank="37" data-price="5.81" data-score="6.9" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">37</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/hyundai/exter/hero.webp" alt="Hyundai Exter" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Exter</div>
@@ -685,7 +697,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.9</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/exter/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="11.21" data-score="6.9" data-verdict="1">
+      <div class="bp-card" data-rank="38" data-price="11.21" data-score="6.9" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">38</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/kia/carens/hero.webp" alt="Kia Carens" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Kia Carens</div>
@@ -693,7 +705,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.9</span><span class="pill pill-safe">🛡 3★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/kia/carens/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="6.85" data-score="6.7" data-verdict="1">
+      <div class="bp-card" data-rank="39" data-price="6.85" data-score="6.7" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">39</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/fronx/hero.webp" alt="Maruti Fronx" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Fronx</div>
@@ -701,7 +713,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.7</span></div>
           <div class="bp-links"><a href="/reviews/maruti/fronx/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="10.91" data-score="6.7" data-verdict="1">
+      <div class="bp-card" data-rank="40" data-price="10.91" data-score="6.7" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">40</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/hyundai/creta/hero.webp" alt="Hyundai Creta" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai Creta</div>
@@ -709,7 +721,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.7</span><span class="pill pill-safe">🛡 3★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/creta/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="5.79" data-score="6.7" data-verdict="1">
+      <div class="bp-card" data-rank="41" data-price="5.79" data-score="6.7" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">41</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/swift/hero.webp" alt="Maruti Swift" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Swift</div>
@@ -717,7 +729,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.7</span></div>
           <div class="bp-links"><a href="/reviews/maruti/swift/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="10.99" data-score="6.6" data-verdict="1">
+      <div class="bp-card" data-rank="42" data-price="10.99" data-score="6.6" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">42</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/toyota/hyryder/hero.webp" alt="Toyota Urban Cruiser Hyryder" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Toyota Urban Cruiser Hyryder</div>
@@ -725,7 +737,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.6</span><span class="pill pill-safe">🛡 4★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/toyota/hyryder/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="6.0" data-score="6.6" data-verdict="1">
+      <div class="bp-card" data-rank="43" data-price="6.0" data-score="6.6" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">43</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/hyundai/i20/hero.webp" alt="Hyundai i20" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Hyundai i20</div>
@@ -733,7 +745,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.6</span><span class="pill pill-safe">🛡 3★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/hyundai/i20/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="10.77" data-score="6.5" data-verdict="1">
+      <div class="bp-card" data-rank="44" data-price="10.77" data-score="6.5" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">44</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/grand-vitara/hero.webp" alt="Maruti Grand Vitara" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Grand Vitara</div>
@@ -741,7 +753,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.5</span></div>
           <div class="bp-links"><a href="/reviews/maruti/grand-vitara/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="11.6" data-score="6.4" data-verdict="1">
+      <div class="bp-card" data-rank="45" data-price="11.6" data-score="6.4" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">45</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/honda/elevate/hero.webp" alt="Honda Elevate" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Honda Elevate</div>
@@ -749,7 +761,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.4</span></div>
           <div class="bp-links"><a href="/reviews/honda/elevate/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="8.26" data-score="6.3" data-verdict="1">
+      <div class="bp-card" data-rank="46" data-price="8.26" data-score="6.3" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">46</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/brezza/hero.webp" alt="Maruti Brezza" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Brezza</div>
@@ -757,7 +769,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.3</span></div>
           <div class="bp-links"><a href="/reviews/maruti/brezza/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="12.39" data-score="6.3" data-verdict="1">
+      <div class="bp-card" data-rank="47" data-price="12.39" data-score="6.3" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">47</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/jimny/hero.webp" alt="Maruti Jimny" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Jimny</div>
@@ -765,7 +777,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.3</span></div>
           <div class="bp-links"><a href="/reviews/maruti/jimny/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="15.99" data-score="6.3" data-verdict="1">
+      <div class="bp-card" data-rank="48" data-price="15.99" data-score="6.3" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">48</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/maruti/e-vitara/hero.webp" alt="Maruti e-Vitara" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti e-Vitara</div>
@@ -773,7 +785,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.3</span><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/e-vitara/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="11.99" data-score="6.0" data-verdict="1">
+      <div class="bp-card" data-rank="49" data-price="11.99" data-score="6.0" data-verdict="1">
         <div class="bp-card-img"><span class="bp-rank-badge">49</span><span class="bp-vov"><span class="pill pill-WAIT">WAIT</span></span><img src="/reviews/mg/hector/hero.webp" alt="MG Hector" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">MG Hector</div>
@@ -781,7 +793,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.0</span></div>
           <div class="bp-links"><a href="/reviews/mg/hector/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="8.85" data-score="6.1" data-verdict="2">
+      <div class="bp-card" data-rank="50" data-price="8.85" data-score="6.1" data-verdict="2">
         <div class="bp-card-img"><span class="bp-rank-badge">50</span><span class="bp-vov"><span class="pill pill-SKIP">SKIP</span></span><img src="/reviews/maruti/ertiga/hero.webp" alt="Maruti Ertiga" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Ertiga</div>
@@ -789,7 +801,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 6.1</span><span class="pill pill-safe">🛡 1★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/ertiga/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="6.99" data-score="5.7" data-verdict="2">
+      <div class="bp-card" data-rank="51" data-price="6.99" data-score="5.7" data-verdict="2">
         <div class="bp-card-img"><span class="bp-rank-badge">51</span><span class="bp-vov"><span class="pill pill-SKIP">SKIP</span></span><img src="/reviews/tata/tiago-ev/hero.webp" alt="Tata Tiago EV" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Tata Tiago EV</div>
@@ -797,7 +809,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 5.7</span></div>
           <div class="bp-links"><a href="/reviews/tata/tiago-ev/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="3.7" data-score="5.0" data-verdict="2">
+      <div class="bp-card" data-rank="52" data-price="3.7" data-score="5.0" data-verdict="2">
         <div class="bp-card-img"><span class="bp-rank-badge">52</span><span class="bp-vov"><span class="pill pill-SKIP">SKIP</span></span><img src="/reviews/maruti/alto-k10/hero.webp" alt="Maruti Alto K10" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Alto K10</div>
@@ -805,7 +817,7 @@
           <div class="bp-meta"><span class="pill pill-score">JURY 5.0</span><span class="pill pill-safe">🛡 2★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/alto-k10/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="4.99" data-score="-1" data-verdict="3">
+      <div class="bp-card" data-rank="53" data-price="4.99" data-score="-1" data-verdict="3">
         <div class="bp-card-img"><span class="bp-rank-badge">53</span><span class="bp-vov"></span><img src="/reviews/maruti/wagon-r/hero.webp" alt="Maruti WagonR" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti WagonR</div>
@@ -813,7 +825,7 @@
           <div class="bp-meta"><span class="pill pill-safe">🛡 1★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/wagon-r/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="9.09" data-score="-1" data-verdict="3">
+      <div class="bp-card" data-rank="54" data-price="9.09" data-score="-1" data-verdict="3">
         <div class="bp-card-img"><span class="bp-rank-badge">54</span><span class="bp-vov"></span><img src="/reviews/maruti/ciaz/hero.webp" alt="Maruti Ciaz" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Ciaz</div>
@@ -821,7 +833,7 @@
           <div class="bp-meta"><span class="pill pill-safe">🛡 1★ Global NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/ciaz/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="11.57" data-score="-1" data-verdict="3">
+      <div class="bp-card" data-rank="55" data-price="11.57" data-score="-1" data-verdict="3">
         <div class="bp-card-img"><span class="bp-rank-badge">55</span><span class="bp-vov"></span><img src="/reviews/maruti/xl6/hero.webp" alt="Maruti XL6" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti XL6</div>
@@ -829,7 +841,7 @@
           <div class="bp-meta"></div>
           <div class="bp-links"><a href="/reviews/maruti/xl6/">Read the verdict →</a></div>
         </div></div>
-      <div class="bp-card" data-price="24.97" data-score="-1" data-verdict="3">
+      <div class="bp-card" data-rank="56" data-price="24.97" data-score="-1" data-verdict="3">
         <div class="bp-card-img"><span class="bp-rank-badge">56</span><span class="bp-vov"></span><img src="/reviews/maruti/invicto/hero.webp" alt="Maruti Invicto" loading="lazy"/></div>
         <div class="bp-card-body">
           <div class="bp-name">Maruti Invicto</div>
@@ -837,9 +849,10 @@
           <div class="bp-meta"><span class="pill pill-safe">🛡 5★ Bharat NCAP</span></div>
           <div class="bp-links"><a href="/reviews/maruti/invicto/">Read the verdict →</a></div>
         </div></div></div>
+  
 
   <div class="bp-sec"><h2>At a glance</h2><div class="bp-high"><div><div class="k">Most affordable</div><div class="v">Maruti Alto K10</div><div class="s">₹3.70–5.45L ex-showroom</div></div><div><div class="k">Most premium</div><div class="v">Maruti Invicto</div><div class="s">₹24.97–28.61L ex-showroom</div></div><div><div class="k">Highest jury score</div><div class="v">Mahindra Thar Roxx</div><div class="s">8.8/10</div></div><div><div class="k">Safest</div><div class="v">Mahindra BE6</div><div class="s">5★ Bharat NCAP</div></div></div></div>
-  <div class="bp-sec"><h2>Compare these head-to-head</h2><div class="bp-cmp"><a href="/compare/venue-vs-sonet/">Venue vs Sonet <span>→</span></a><a href="/compare/magnite-vs-venue/">Magnite vs Venue <span>→</span></a><a href="/compare/sonet-vs-xuv-3xo/">Sonet vs Xuv 3Xo <span>→</span></a><a href="/compare/brezza-vs-venue/">Brezza vs Venue <span>→</span></a><a href="/compare/venue-vs-xuv-3xo/">Venue vs Xuv 3Xo <span>→</span></a><a href="/compare/nexon-vs-venue/">Nexon vs Venue <span>→</span></a><a href="/compare/venue-vs-fronx/">Venue vs Fronx <span>→</span></a><a href="/compare/venue-vs-exter/">Venue vs Exter <span>→</span></a><a href="/compare/sonet-vs-fronx/">Sonet vs Fronx <span>→</span></a><a href="/compare/magnite-vs-sonet/">Magnite vs Sonet <span>→</span></a><a href="/compare/magnite-vs-punch/">Magnite vs Punch <span>→</span></a><a href="/compare/sonet-vs-exter/">Sonet vs Exter <span>→</span></a></div></div>
+  <div class="bp-sec"><h2>Compare these head-to-head</h2><div class="bp-cmp"><a href="/compare/thar-roxx-vs-scorpio-n/">Thar Roxx vs Scorpio N <span>→</span></a><a href="/compare/sierra-vs-thar-roxx/">Sierra vs Thar Roxx <span>→</span></a><a href="/compare/xuv700-vs-thar-roxx/">Xuv700 vs Thar Roxx <span>→</span></a><a href="/compare/thar-roxx-vs-jimny/">Thar Roxx vs Jimny <span>→</span></a><a href="/compare/grand-vitara-vs-creta/">Grand Vitara vs Creta <span>→</span></a><a href="/compare/be6-vs-xev-9e/">BE6 vs XEV 9E <span>→</span></a><a href="/compare/be6-vs-nexon-ev/">BE6 vs Nexon EV <span>→</span></a><a href="/compare/harrier-ev-vs-be6/">Harrier EV vs BE6 <span>→</span></a><a href="/compare/creta-vs-duster/">Creta vs Duster <span>→</span></a><a href="/compare/kushaq-vs-duster/">Kushaq vs Duster <span>→</span></a><a href="/compare/elevate-vs-duster/">Elevate vs Duster <span>→</span></a><a href="/compare/seltos-vs-duster/">Seltos vs Duster <span>→</span></a></div></div>
   <div class="bp-sec"><h2>Keep browsing</h2>
     <div class="bp-facet"><p class="fl">By budget</p><a href="/best/cars-under-10-lakh/">Cars under ₹10L</a><a href="/best/cars-under-15-lakh/">Cars under ₹15L</a><a href="/best/cars-under-20-lakh/">Cars under ₹20L</a><a href="/best/cars-under-30-lakh/">Cars under ₹30L</a></div>
     <div class="bp-facet"><p class="fl">By type</p><a href="/best/suvs-under-10-lakh/">SUVs under ₹10L</a><a href="/best/suvs-under-15-lakh/">SUVs under ₹15L</a><a href="/best/sedans-under-15-lakh/">Sedans under ₹15L</a><a href="/best/electric-cars-under-20-lakh/">Electric Cars under ₹20L</a><a href="/best/electric-cars-under-30-lakh/">Electric Cars under ₹30L</a><a href="/best/hatchbacks-under-10-lakh/">Hatchbacks under ₹10L</a><a href="/best/mpvs-under-20-lakh/">MPVs under ₹20L</a><a href="/best/mpvs-under-30-lakh/">MPVs under ₹30L</a></div>
@@ -890,7 +903,7 @@
 </footer>
 <script>(function(){var box=document.getElementById('bp-list'),div=document.getElementById('bp-divide');
 function sort(mode,btn){var rs=[].slice.call(box.querySelectorAll('.bp-card'));
-if(mode==='jurypick'){rs.sort(function(a,b){return (+a.dataset.verdict - +b.dataset.verdict)||(+b.dataset.score - +a.dataset.score)||(+b.dataset.price - +a.dataset.price);});}
+if(mode==='jurypick'){rs.sort(function(a,b){return +a.dataset.rank - +b.dataset.rank;});}
 else if(mode==='phl'){rs.sort(function(a,b){return +b.dataset.price - +a.dataset.price;});}
 else if(mode==='plh'){rs.sort(function(a,b){return +a.dataset.price - +b.dataset.price;});}
 rs.forEach(function(r){box.appendChild(r);});
