@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 13 Jul 2026 17:59:39 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 18:00:18 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra Storms Past MG in H1 2026 EV Sales; Maruti Debuts at Fourth</title>
+      <link>https://www.thecarjury.com/news/ev-sales-h1-2026-mahindra-overtakes-mg-maruti-fourth/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/ev-sales-h1-2026-mahindra-overtakes-mg-maruti-fourth/</guid>
+      <pubDate>Mon, 13 Jul 2026 18:00:17 +0530</pubDate>
+      <description>Mahindra jumps to India&amp;#x27;s number two EV maker with 147 percent growth, pushing MG to third. Tata still leads. Maruti debuts fourth.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Xiaomi's SkyNomad N90 Is A 5.3m Range-Extender SUV Chasing Volvo Cues</title>
       <link>https://www.thecarjury.com/news/xiaomi-skynomad-n90-hybrid-suv-revealed-china/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-ev-discounts-july-2026-harrier-nexon-curvv-punch-tiago/</guid>
       <pubDate>Sun, 05 Jul 2026 11:45:20 +1000</pubDate>
       <description>Tata Motors is offering up to Rs 3.35 lakh off on Harrier EV, Nexon EV, Curvv EV, Punch EV and Tiago EV this July 2026. Here is our take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Teases Syros EV And Sorento Hybrid: The Electrified Push India Actually Needs</title>
-      <link>https://www.thecarjury.com/news/kia-india-teases-syros-ev-sorento-hybrid-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-teases-syros-ev-sorento-hybrid-launch/</guid>
-      <pubDate>Sun, 05 Jul 2026 11:44:34 +1000</pubDate>
-      <description>Kia India has teased both a BEV and an HEV, pointing to the Syros EV this month and a Sorento hybrid three-row SUV to follow.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
