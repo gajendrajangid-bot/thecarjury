@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/ev-sales-h1-2026-mahindra-overtakes-mg-maruti-fourth/</loc>
-    <lastmod>2026-07-13</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T18:00:17+05:30</news:publication_date>
-      <news:title>Mahindra Storms Past MG in H1 2026 EV Sales; Maruti Debuts at Fourth</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hpcl-ethanol-fuel-quality-inspections-july-2026/</loc>
     <lastmod>2026-07-14</lastmod>
     <news:news>
@@ -26,51 +14,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/kia-carens-clavis-ev-benefits-july-2026/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <loc>https://www.thecarjury.com/news/volkswagen-id-cross-revealed-compact-electric-crossover/</loc>
+    <lastmod>2026-07-15</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-07-13T17:58:59+05:30</news:publication_date>
-      <news:title>Kia Carens Clavis EV: Rs 1.8 lakh off in July, but only on MY25 stock</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mahindra-june-2026-sales-breakup-scorpio-thar-xuv-3xo-lead/</loc>
-    <lastmod>2026-07-14</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T12:01:18+05:30</news:publication_date>
-      <news:title>Mahindra June 2026: Scorpio, Thar, XUV 3XO Do The Heavy Lifting</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/volkswagen-group-model-lineup-cut-50-percent-2030/</loc>
-    <lastmod>2026-07-13</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T15:06:53+05:30</news:publication_date>
-      <news:title>VW Group to axe half its models by 2030: what it means for India</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/xiaomi-skynomad-n90-hybrid-suv-revealed-china/</loc>
-    <lastmod>2026-07-13</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-13T17:59:38+05:30</news:publication_date>
-      <news:title>Xiaomi's SkyNomad N90 Is A 5.3m Range-Extender SUV Chasing Volvo Cues</news:title>
+      <news:publication_date>2026-07-15T18:09:19+05:30</news:publication_date>
+      <news:title>Volkswagen ID Cross Debuts: Compact EV Crossover Skips India Again</news:title>
     </news:news>
   </url>
 </urlset>

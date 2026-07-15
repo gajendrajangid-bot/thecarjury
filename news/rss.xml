@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 14 Jul 2026 20:14:05 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 18:09:31 +0530</lastBuildDate>
+    <item>
+      <title>Volkswagen ID Cross Debuts: Compact EV Crossover Skips India Again</title>
+      <link>https://www.thecarjury.com/news/volkswagen-id-cross-revealed-compact-electric-crossover/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-id-cross-revealed-compact-electric-crossover/</guid>
+      <pubDate>Wed, 15 Jul 2026 18:09:19 +0530</pubDate>
+      <description>Volkswagen unveils the ID Cross, its first compact electric crossover on the MEB+ platform, priced from EUR 27,995. India relevance is another matter.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>HPCL Claims Zero Adulteration After 2,173 Ethanol Blend Checks</title>
       <link>https://www.thecarjury.com/news/hpcl-ethanol-fuel-quality-inspections-july-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-windsor-ev-70-percent-localisation-double-digit-growth-target/</guid>
       <pubDate>Sun, 05 Jul 2026 19:23:24 +1000</pubDate>
       <description>JSW MG Motor targets over 70% localisation on the Windsor EV after 75,000 sales in 21 months. Here is what it means for buyers eyeing the electric MPV.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>New Toyota Hilux Lands in India on 28 July: Tougher Face, Same Ladder Frame</title>
-      <link>https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-28-july-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-28-july-2026/</guid>
-      <pubDate>Sun, 05 Jul 2026 16:25:50 +1000</pubDate>
-      <description>Toyota confirms the 9th-gen Hilux for India on 28 July 2026 with a sharper front end, new tech and the same IMV ladder-frame underneath.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
