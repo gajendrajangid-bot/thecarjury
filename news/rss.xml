@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 15 Jul 2026 18:09:31 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 18:10:32 +0530</lastBuildDate>
+    <item>
+      <title>New Lexus ES 350h at Rs 66.10 lakh: the sensible Lexus is back</title>
+      <link>https://www.thecarjury.com/news/lexus-es-350h-launch-price-india-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/lexus-es-350h-launch-price-india-2026/</guid>
+      <pubDate>Wed, 15 Jul 2026 18:10:08 +0530</pubDate>
+      <description>Lexus launches the eighth-gen ES 350h hybrid in India from Rs 66.10 lakh, undercutting the ES 500e EV by nearly Rs 18 lakh. TCJ&amp;#x27;s take.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Volkswagen ID Cross Debuts: Compact EV Crossover Skips India Again</title>
       <link>https://www.thecarjury.com/news/volkswagen-id-cross-revealed-compact-electric-crossover/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-75-rwd-less-power-than-63-explained/</guid>
       <pubDate>Sun, 05 Jul 2026 22:41:58 +1000</pubDate>
       <description>Tata&amp;#x27;s Sierra EV 75 kWh RWD makes 209 PS vs the 63 kWh&amp;#x27;s 238 PS. Tata says it&amp;#x27;s an intentional packaging call, not a spec sheet error.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG Windsor EV Chases 70% Localisation: Smart Move, But Buyers Should Still Wait</title>
-      <link>https://www.thecarjury.com/news/mg-windsor-ev-70-percent-localisation-double-digit-growth-target/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-windsor-ev-70-percent-localisation-double-digit-growth-target/</guid>
-      <pubDate>Sun, 05 Jul 2026 19:23:24 +1000</pubDate>
-      <description>JSW MG Motor targets over 70% localisation on the Windsor EV after 75,000 sales in 21 months. Here is what it means for buyers eyeing the electric MPV.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
