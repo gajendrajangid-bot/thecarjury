@@ -115,6 +115,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/42m-45m-suv-sales-june-2026-victoris-tops-seltos-second/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/arai-e20-fuel-damage-rubber-parts-e10-vehicles-study/</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
@@ -326,7 +332,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/ev-sales-h1-2026-mahindra-overtakes-mg-maruti-fourth/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -704,7 +710,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-carens-clavis-ev-benefits-july-2026/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <lastmod>2026-07-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

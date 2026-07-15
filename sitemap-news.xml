@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/42m-45m-suv-sales-june-2026-victoris-tops-seltos-second/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-15T18:12:05+05:30</news:publication_date>
+      <news:title>Victoris Dethrones Creta: 4.2-4.5m SUV Sales June 2026 Rewrite the Order</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hpcl-ethanol-fuel-quality-inspections-july-2026/</loc>
     <lastmod>2026-07-14</lastmod>
     <news:news>
