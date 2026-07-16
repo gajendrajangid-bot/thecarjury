@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 16 Jul 2026 12:15:08 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 12:15:49 +0530</lastBuildDate>
+    <item>
+      <title>Raipur Consumer Court Orders Maruti to Replace Grand Vitara Over E20 Damage</title>
+      <link>https://www.thecarjury.com/news/maruti-grand-vitara-e20-consumer-court-replacement-order/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-grand-vitara-e20-consumer-court-replacement-order/</guid>
+      <pubDate>Thu, 16 Jul 2026 12:15:47 +0530</pubDate>
+      <description>Raipur consumer court directs Maruti Suzuki to replace a 2023 Grand Vitara Zeta+ over E20-related damage, or refund Rs 20.5 lakh with penalties.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG's ADAPT Platform Is A Smart Bet, But India Still Needs Proof</title>
       <link>https://www.thecarjury.com/news/mg-adapt-platform-phev-hybrid-ev-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-attack-mode-ev-strategy-anand-mahindra-2026/</guid>
       <pubDate>Wed, 08 Jul 2026 08:50:28 +0530</pubDate>
       <description>Anand Mahindra invokes Formula E&amp;#x27;s &amp;#x27;Attack Mode&amp;#x27; as Mahindra ramps EV output to 8,000 units a month. The Car Jury weighs the strategy.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>JSW MG and Spinny Team Up on Used EVs: Finally, Someone Owns the Battery Problem</title>
-      <link>https://www.thecarjury.com/news/mg-spinny-used-ev-partnership-battery-certification/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-spinny-used-ev-partnership-battery-certification/</guid>
-      <pubDate>Tue, 07 Jul 2026 18:12:42 +0530</pubDate>
-      <description>JSW MG Motor partners with Spinny for certified pre-owned EVs across 13 cities, with battery health checks and residual value clarity.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
