@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 16 Jul 2026 09:05:19 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 09:07:09 +0530</lastBuildDate>
+    <item>
+      <title>Kia Syros EV Bookings Open: 526 km Range, Two Battery Packs, Seven Variants</title>
+      <link>https://www.thecarjury.com/news/kia-syros-ev-bookings-open-526-km-range/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-ev-bookings-open-526-km-range/</guid>
+      <pubDate>Thu, 16 Jul 2026 09:07:07 +0530</pubDate>
+      <description>Kia opens Syros EV bookings at Rs 25,000 with 42 kWh and 51.4 kWh battery options, up to 526 km range and seven variants. The Car Jury&amp;#x27;s take.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG Hikes Cyberster and M9 Prices Again: Up To Rs 5 Lakh Dearer In Three Months</title>
       <link>https://www.thecarjury.com/news/mg-cyberster-m9-price-hike-july-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-benz-glb-ev-india-launch-confirmed/</guid>
       <pubDate>Tue, 07 Jul 2026 18:11:20 +0530</pubDate>
       <description>Mercedes-Benz confirms the new GLB EV for India. 85kWh battery, up to 631km WLTP range, 800V architecture and MMA platform. Here is our verdict.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti And Toyota Say E20 Is Safe For Pre-2023 Cars. We Are Not Buying The Full Story</title>
-      <link>https://www.thecarjury.com/news/e20-petrol-safe-pre-2023-cars-maruti-toyota/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/e20-petrol-safe-pre-2023-cars-maruti-toyota/</guid>
-      <pubDate>Mon, 06 Jul 2026 16:30:29 +1000</pubDate>
-      <description>Maruti and Toyota say E20 petrol causes no damage to pre-2023 cars designed for E10. The Car Jury on what owners should actually watch for.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

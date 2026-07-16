@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/42m-45m-suv-sales-june-2026-victoris-tops-seltos-second/</loc>
-    <lastmod>2026-07-15</lastmod>
+    <lastmod>2026-07-16</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -23,6 +23,18 @@
       </news:publication>
       <news:publication_date>2026-07-14T20:14:01+05:30</news:publication_date>
       <news:title>HPCL Claims Zero Adulteration After 2,173 Ethanol Blend Checks</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/kia-syros-ev-bookings-open-526-km-range/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-16T09:07:07+05:30</news:publication_date>
+      <news:title>Kia Syros EV Bookings Open: 526 km Range, Two Battery Packs, Seven Variants</news:title>
     </news:news>
   </url>
   <url>
