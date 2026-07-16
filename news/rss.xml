@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 16 Jul 2026 09:07:09 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 09:07:47 +0530</lastBuildDate>
+    <item>
+      <title>NHTSA Weighs Probe Into 806,963 Honda Odyssey Minivans Over Airbag Deployment</title>
+      <link>https://www.thecarjury.com/news/nhtsa-probe-honda-odyssey-airbag-2011-2017/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/nhtsa-probe-honda-odyssey-airbag-2011-2017/</guid>
+      <pubDate>Thu, 16 Jul 2026 09:07:42 +0530</pubDate>
+      <description>US regulator NHTSA is reviewing a petition to probe 806,963 Honda Odyssey minivans from 2011-2017 over inadvertent airbag deployment concerns.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Syros EV Bookings Open: 526 km Range, Two Battery Packs, Seven Variants</title>
       <link>https://www.thecarjury.com/news/kia-syros-ev-bookings-open-526-km-range/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-india-h1-2026-sales-e-class-eqs-suv-best-sellers/</guid>
       <pubDate>Tue, 07 Jul 2026 18:12:02 +0530</pubDate>
       <description>Mercedes-Benz India logged its best-ever H1 with 9,768 units in 2026. The E-Class stays king, the EQS SUV rules EV sales, and AMG jumped 50 percent.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mercedes GLB EV confirmed for India: the compact luxury EV Audi and BMW should worry about</title>
-      <link>https://www.thecarjury.com/news/mercedes-benz-glb-ev-india-launch-confirmed/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-benz-glb-ev-india-launch-confirmed/</guid>
-      <pubDate>Tue, 07 Jul 2026 18:11:20 +0530</pubDate>
-      <description>Mercedes-Benz confirms the new GLB EV for India. 85kWh battery, up to 631km WLTP range, 800V architecture and MMA platform. Here is our verdict.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
