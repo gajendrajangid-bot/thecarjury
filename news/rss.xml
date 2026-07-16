@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 16 Jul 2026 15:06:56 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 15:07:42 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra Chakan Hits 3 Million Units: The BE 6 Rolls Off As Proof Of Pivot</title>
+      <link>https://www.thecarjury.com/news/mahindra-chakan-plant-3-million-vehicles-milestone/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-chakan-plant-3-million-vehicles-milestone/</guid>
+      <pubDate>Thu, 16 Jul 2026 15:07:37 +0530</pubDate>
+      <description>Mahindra&amp;#x27;s Chakan facility has built its three-millionth vehicle, a BE 6 EV. The pace of the last million tells the real story.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG Bets 80% of Sales on EVs as Fuel Prices Spike Post West Asia War</title>
       <link>https://www.thecarjury.com/news/mg-motor-ev-share-70-80-percent-west-asia-war-anurag-mehrotra/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/arai-e20-fuel-damage-rubber-parts-e10-vehicles-study/</guid>
       <pubDate>Wed, 08 Jul 2026 08:51:58 +0530</pubDate>
       <description>A resurfaced 2021 ARAI study confirms E20 degrades rubber and plastic fuel-system parts in E10-era cars. Metals are fine, elastomers aren&amp;#x27;t.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mercedes India Is Right: Delhi's Rs 30 Lakh EV Cap Punishes Premium Buyers</title>
-      <link>https://www.thecarjury.com/news/mercedes-india-warns-delhi-ev-policy-30-lakh-cap-premium-adoption/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-india-warns-delhi-ev-policy-30-lakh-cap-premium-adoption/</guid>
-      <pubDate>Wed, 08 Jul 2026 08:51:15 +0530</pubDate>
-      <description>Mercedes-Benz India says Delhi&amp;#x27;s Rs 30 lakh cap on EV incentives will slow premium EV uptake even as the CLA electric drives record sales.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
