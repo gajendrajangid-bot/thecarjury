@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 17 Jul 2026 09:34:39 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 09:35:20 +0530</lastBuildDate>
+    <item>
+      <title>MG Bets Rs 1,400 Cr on ADAPT Platform: Two New-Energy SUVs Land in FY27</title>
+      <link>https://www.thecarjury.com/news/jsw-mg-motor-adapt-platform-ev-phev-suvs-fy27/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-mg-motor-adapt-platform-ev-phev-suvs-fy27/</guid>
+      <pubDate>Fri, 17 Jul 2026 09:35:15 +0530</pubDate>
+      <description>JSW MG Motor commits Rs 1,400 crore to launch a battery-electric and plug-in hybrid SUV on its new ADAPT platform by FY27. Our take.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>JSW MG's Wuling-based electric SUV lands in August to undercut Mahindra XEV 9S</title>
       <link>https://www.thecarjury.com/news/jsw-mg-electric-suv-xev-9s-rival-august-2026-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-india-fuel-adulteration-e20-rollout-concerns/</guid>
       <pubDate>Wed, 08 Jul 2026 15:11:34 +0530</pubDate>
       <description>Mercedes-Benz India says adulterated fuel is being wrongly blamed on E20 petrol, and wants tighter enforcement at pumps. Our verdict on what buyers should do.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Defender gets urban Vertex variant, Octa loses 95hp to emissions</title>
-      <link>https://www.thecarjury.com/news/land-rover-defender-2026-update-vertex-variant/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/land-rover-defender-2026-update-vertex-variant/</guid>
-      <pubDate>Wed, 08 Jul 2026 15:10:46 +0530</pubDate>
-      <description>Land Rover updates the Defender for 2026 with a new urban Vertex variant, a 6-seat 110, and a detuned Octa. India launch expected but unconfirmed.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
