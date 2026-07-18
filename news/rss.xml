@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 18 Jul 2026 08:59:39 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 09:00:21 +0530</lastBuildDate>
+    <item>
+      <title>Kia Syros EV: Seven Variants, Two Batteries, One Real Rival Problem</title>
+      <link>https://www.thecarjury.com/news/kia-syros-ev-variants-battery-features-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-ev-variants-battery-features-india/</guid>
+      <pubDate>Sat, 18 Jul 2026 09:00:17 +0530</pubDate>
+      <description>Kia Syros EV lands in seven variants with 42 kWh and 51.4 kWh batteries, taking on the Nexon EV and XUV 3XO EV from around Rs 15 lakh.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Innova Hycross Facelift Spied: Projector Lights and Sharper Cabin Coming</title>
       <link>https://www.thecarjury.com/news/toyota-innova-hycross-facelift-interior-spy-shots/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-on-road-price-top-cities-2026/</guid>
       <pubDate>Thu, 09 Jul 2026 08:53:42 +0530</pubDate>
       <description>Tata Sierra EV on-road prices are out across Kolkata, Chennai and Mumbai. Range spans Rs 19.39 lakh to Rs 28.19 lakh. Here is what to pay.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>BMW India's H1 2026 record: EVs and long-wheelbase cars carry the load</title>
-      <link>https://www.thecarjury.com/news/bmw-india-h1-2026-record-sales-ev-share/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-india-h1-2026-record-sales-ev-share/</guid>
-      <pubDate>Thu, 09 Jul 2026 08:52:37 +0530</pubDate>
-      <description>BMW India delivered a record 9,075 cars in H1 2026, up 17 percent. EVs grew 78 percent and LWB models took 52 percent of sales.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
