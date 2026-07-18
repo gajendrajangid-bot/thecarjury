@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 18 Jul 2026 09:00:21 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 09:02:23 +0530</lastBuildDate>
+    <item>
+      <title>Reva at 25: Chetan Maini's EV Legacy, and Why India Owes Him More Than a Nod</title>
+      <link>https://www.thecarjury.com/news/reva-25-years-chetan-maini-ev-comeback/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/reva-25-years-chetan-maini-ev-comeback/</guid>
+      <pubDate>Sat, 18 Jul 2026 09:02:22 +0530</pubDate>
+      <description>India&amp;#x27;s first electric car turns 25. Founder Chetan Maini says he would never say no to another EV venture. Our take on his legacy.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Syros EV: Seven Variants, Two Batteries, One Real Rival Problem</title>
       <link>https://www.thecarjury.com/news/kia-syros-ev-variants-battery-features-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-m2-m-xdrive-awd-india-launch-confirmed/</guid>
       <pubDate>Thu, 09 Jul 2026 12:05:54 +0530</pubDate>
       <description>BMW confirms the all-wheel-drive M2 M xDrive for India. Same 480hp straight-six, 0.3s quicker to 100kph, rear-biased AWD with a 2WD mode.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Sierra EV On-Road Prices Land Between Rs 19.39-28.19 Lakh Across Metros</title>
-      <link>https://www.thecarjury.com/news/tata-sierra-ev-on-road-price-top-cities-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-on-road-price-top-cities-2026/</guid>
-      <pubDate>Thu, 09 Jul 2026 08:53:42 +0530</pubDate>
-      <description>Tata Sierra EV on-road prices are out across Kolkata, Chennai and Mumbai. Range spans Rs 19.39 lakh to Rs 28.19 lakh. Here is what to pay.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
