@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/42m-45m-suv-sales-june-2026-victoris-tops-seltos-second/</loc>
-    <lastmod>2026-07-17</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-15T18:12:05+05:30</news:publication_date>
-      <news:title>Victoris Dethrones Creta: 4.2-4.5m SUV Sales June 2026 Rewrite the Order</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/ferrari-amalfi-spider-india-launch-price/</loc>
     <lastmod>2026-07-17</lastmod>
     <news:news>
@@ -59,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-07-16T09:07:07+05:30</news:publication_date>
       <news:title>Kia Syros EV Bookings Open: 526 km Range, Two Battery Packs, Seven Variants</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/lexus-es-350h-launch-price-india-2026/</loc>
-    <lastmod>2026-07-17</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-15T18:10:08+05:30</news:publication_date>
-      <news:title>New Lexus ES 350h at Rs 66.10 lakh: the sensible Lexus is back</news:title>
     </news:news>
   </url>
   <url>
@@ -167,18 +143,6 @@
       </news:publication>
       <news:publication_date>2026-07-17T09:33:40+05:30</news:publication_date>
       <news:title>Toyota Teases 9th-Gen Hilux Ahead Of 28 July India Launch</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/volkswagen-id-cross-revealed-compact-electric-crossover/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-15T18:09:19+05:30</news:publication_date>
-      <news:title>Volkswagen ID Cross Debuts: Compact EV Crossover Skips India Again</news:title>
     </news:news>
   </url>
   <url>
