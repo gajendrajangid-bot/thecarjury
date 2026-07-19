@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/ferrari-amalfi-spider-india-launch-price/</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/jsw-mg-electric-suv-xev-9s-rival-august-2026-launch/</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -38,18 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/kia-syros-ev-bookings-open-526-km-range/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-16T09:07:07+05:30</news:publication_date>
-      <news:title>Kia Syros EV Bookings Open: 526 km Range, Two Battery Packs, Seven Variants</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/kia-syros-ev-variants-battery-features-india/</loc>
     <lastmod>2026-07-18</lastmod>
     <news:news>
@@ -59,78 +47,6 @@
       </news:publication>
       <news:publication_date>2026-07-18T09:00:17+05:30</news:publication_date>
       <news:title>Kia Syros EV: Seven Variants, Two Batteries, One Real Rival Problem</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mahindra-chakan-plant-3-million-vehicles-milestone/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-16T15:07:37+05:30</news:publication_date>
-      <news:title>Mahindra Chakan Hits 3 Million Units: The BE 6 Rolls Off As Proof Of Pivot</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-grand-vitara-e20-consumer-court-replacement-order/</loc>
-    <lastmod>2026-07-16</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-16T12:15:47+05:30</news:publication_date>
-      <news:title>Raipur Consumer Court Orders Maruti to Replace Grand Vitara Over E20 Damage</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mg-adapt-platform-phev-hybrid-ev-india/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-16T12:15:03+05:30</news:publication_date>
-      <news:title>MG's ADAPT Platform Is A Smart Bet, But India Still Needs Proof</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mg-cyberster-m9-price-hike-july-2026/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-16T09:05:13+05:30</news:publication_date>
-      <news:title>MG Hikes Cyberster and M9 Prices Again: Up To Rs 5 Lakh Dearer In Three Months</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mg-motor-ev-share-70-80-percent-west-asia-war-anurag-mehrotra/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-16T15:06:51+05:30</news:publication_date>
-      <news:title>MG Bets 80% of Sales on EVs as Fuel Prices Spike Post West Asia War</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/nhtsa-probe-honda-odyssey-airbag-2011-2017/</loc>
-    <lastmod>2026-07-16</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-16T09:07:42+05:30</news:publication_date>
-      <news:title>NHTSA Weighs Probe Into 806,963 Honda Odyssey Minivans Over Airbag Deployment</news:title>
     </news:news>
   </url>
   <url>
@@ -159,7 +75,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-teaser-28-july/</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -179,18 +95,6 @@
       </news:publication>
       <news:publication_date>2026-07-18T08:59:34+05:30</news:publication_date>
       <news:title>Innova Hycross Facelift Spied: Projector Lights and Sharper Cabin Coming</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/volvo-ex90-india-launch-august-19-2026/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-16T17:50:18+05:30</news:publication_date>
-      <news:title>Volvo EX90 lands in India on August 19: flagship EV, niche audience</news:title>
     </news:news>
   </url>
 </urlset>
