@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-bayon-suv-india-petrol-cng-victoris-rival/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-20T14:52:42+05:30</news:publication_date>
+      <news:title>Hyundai's Bayon-based SUV Targets Victoris With NA Petrol and Underbody CNG</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/myhyundai-app-30000-ev-charging-points-india/</loc>
     <lastmod>2026-07-20</lastmod>
     <news:news>
