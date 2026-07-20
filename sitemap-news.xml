@@ -2,42 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/ferrari-amalfi-spider-india-launch-price/</loc>
-    <lastmod>2026-07-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-17T15:07:36+05:30</news:publication_date>
-      <news:title>Ferrari Amalfi Spider lands in India at Rs 4.6 crore, four months after global debut</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/jsw-mg-electric-suv-xev-9s-rival-august-2026-launch/</loc>
-    <lastmod>2026-07-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-17T09:34:29+05:30</news:publication_date>
-      <news:title>JSW MG's Wuling-based electric SUV lands in August to undercut Mahindra XEV 9S</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/jsw-mg-motor-adapt-platform-ev-phev-suvs-fy27/</loc>
-    <lastmod>2026-07-17</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-17T09:35:15+05:30</news:publication_date>
-      <news:title>MG Bets Rs 1,400 Cr on ADAPT Platform: Two New-Energy SUVs Land in FY27</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/kia-syros-ev-variants-battery-features-india/</loc>
     <lastmod>2026-07-18</lastmod>
     <news:news>
@@ -50,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/range-rover-sport-electric-goodwood-preview-india-2027/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-17T15:09:58+05:30</news:publication_date>
-      <news:title>Range Rover Sport Electric Breaks Cover At Goodwood, India Waits Till 2027</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/reva-25-years-chetan-maini-ev-comeback/</loc>
     <lastmod>2026-07-18</lastmod>
     <news:news>
@@ -71,18 +23,6 @@
       </news:publication>
       <news:publication_date>2026-07-18T09:02:22+05:30</news:publication_date>
       <news:title>Reva at 25: Chetan Maini's EV Legacy, and Why India Owes Him More Than a Nod</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-teaser-28-july/</loc>
-    <lastmod>2026-07-19</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-17T09:33:40+05:30</news:publication_date>
-      <news:title>Toyota Teases 9th-Gen Hilux Ahead Of 28 July India Launch</news:title>
     </news:news>
   </url>
   <url>
