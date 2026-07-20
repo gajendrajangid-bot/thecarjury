@@ -2,39 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/kia-syros-ev-variants-battery-features-india/</loc>
-    <lastmod>2026-07-18</lastmod>
+    <loc>https://www.thecarjury.com/news/myhyundai-app-30000-ev-charging-points-india/</loc>
+    <lastmod>2026-07-20</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-07-18T09:00:17+05:30</news:publication_date>
-      <news:title>Kia Syros EV: Seven Variants, Two Batteries, One Real Rival Problem</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/reva-25-years-chetan-maini-ev-comeback/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-18T09:02:22+05:30</news:publication_date>
-      <news:title>Reva at 25: Chetan Maini's EV Legacy, and Why India Owes Him More Than a Nod</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/toyota-innova-hycross-facelift-interior-spy-shots/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-18T08:59:34+05:30</news:publication_date>
-      <news:title>Innova Hycross Facelift Spied: Projector Lights and Sharper Cabin Coming</news:title>
+      <news:publication_date>2026-07-20T12:12:10+05:30</news:publication_date>
+      <news:title>myHyundai App Opens 30,000+ Charging Points To All EVs, Not Just Hyundais</news:title>
     </news:news>
   </url>
 </urlset>

@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 20 Jul 2026 08:04:36 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 12:12:25 +0530</lastBuildDate>
+    <item>
+      <title>myHyundai App Opens 30,000+ Charging Points To All EVs, Not Just Hyundais</title>
+      <link>https://www.thecarjury.com/news/myhyundai-app-30000-ev-charging-points-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/myhyundai-app-30000-ev-charging-points-india/</guid>
+      <pubDate>Mon, 20 Jul 2026 12:12:10 +0530</pubDate>
+      <description>Hyundai&amp;#x27;s myHyundai app now aggregates 30,000+ EV charging points across India, open to all brands, with slot booking and digital payments built in.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Reva at 25: Chetan Maini's EV Legacy, and Why India Owes Him More Than a Nod</title>
       <link>https://www.thecarjury.com/news/reva-25-years-chetan-maini-ev-comeback/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/e25-petrol-rollout-not-ready-centre-clarifies/</guid>
       <pubDate>Thu, 09 Jul 2026 12:06:43 +0530</pubDate>
       <description>Union Minister Hardeep Singh Puri says E25 petrol is still in testing and calls reports of an imminent rollout a misrepresentation.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>BMW M2 M xDrive Confirmed for India: AWD Arrives, But Purists Won't Care</title>
-      <link>https://www.thecarjury.com/news/bmw-m2-m-xdrive-awd-india-launch-confirmed/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-m2-m-xdrive-awd-india-launch-confirmed/</guid>
-      <pubDate>Thu, 09 Jul 2026 12:05:54 +0530</pubDate>
-      <description>BMW confirms the all-wheel-drive M2 M xDrive for India. Same 480hp straight-six, 0.3s quicker to 100kph, rear-biased AWD with a 2WD mode.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
