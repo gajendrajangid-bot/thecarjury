@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 20 Jul 2026 12:13:59 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 14:51:00 +0530</lastBuildDate>
+    <item>
+      <title>Tata Punch Hits 8 Lakh Sales: The Punch Is Now Tata's Second Million-Bound SUV</title>
+      <link>https://www.thecarjury.com/news/tata-punch-8-lakh-sales-milestone-june-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-punch-8-lakh-sales-milestone-june-2026/</guid>
+      <pubDate>Mon, 20 Jul 2026 14:50:53 +0530</pubDate>
+      <description>Tata Punch crosses 8 lakh domestic sales in under five years, powered by petrol, CNG and EV demand. TCJ on why it works.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Avinya Spied On Indian Roads: Premium EV Flagship Inches Closer To 2027</title>
       <link>https://www.thecarjury.com/news/tata-avinya-electric-suv-spied-2027-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-launch-price-india-2026/</guid>
       <pubDate>Thu, 09 Jul 2026 15:11:57 +0530</pubDate>
       <description>Nissan Tekton launches in India at Rs 10.49 lakh ex-showroom with two turbo-petrol engines and 17+ ADAS features. The Car Jury&amp;#x27;s verdict for buyers.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Nissan Tekton bags 5 stars at Bharat NCAP, matches Duster's crash score</title>
-      <link>https://www.thecarjury.com/news/nissan-tekton-5-star-bharat-ncap-crash-test/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-5-star-bharat-ncap-crash-test/</guid>
-      <pubDate>Thu, 09 Jul 2026 15:11:11 +0530</pubDate>
-      <description>The Nissan Tekton scores a full 5 stars at Bharat NCAP, matching the Renault Duster with 30.49/32 for adults and 45/49 for children.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
