@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 21 Jul 2026 18:13:31 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 18:14:12 +0530</lastBuildDate>
+    <item>
+      <title>Maruti Hikes Prices By Up To Rs 30,000 From August 2026</title>
+      <link>https://www.thecarjury.com/news/maruti-suzuki-price-hike-august-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-suzuki-price-hike-august-2026/</guid>
+      <pubDate>Tue, 21 Jul 2026 18:14:07 +0530</pubDate>
+      <description>Maruti Suzuki will raise prices across its lineup by up to Rs 30,000 from August 2026, blaming sustained input cost inflation.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>JSW Set To Take Majority Stake In Skoda-VW India: Deal In Final Stages</title>
       <link>https://www.thecarjury.com/news/vw-skoda-india-jsw-majority-stake-deal/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-sales-june-2026-venue-exter-lead-creta-slips/</guid>
       <pubDate>Sat, 11 Jul 2026 12:01:50 +0530</pubDate>
       <description>Hyundai India June 2026 sales fell 10% YoY to 39,635 units after a supplier fire. Venue overtook Creta as the brand&amp;#x27;s top-seller.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Sierra Jubilee Edition: An Accessory Pack With A Fancy Name, From Rs 11.99 Lakh</title>
-      <link>https://www.thecarjury.com/news/tata-sierra-jubilee-edition-launched-price/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-jubilee-edition-launched-price/</guid>
-      <pubDate>Sat, 11 Jul 2026 12:00:47 +0530</pubDate>
-      <description>Tata launches Sierra Jubilee Edition from Rs 11.99 lakh with three dealer-fit accessory packs. The Car Jury on whether it changes the Sierra&amp;#x27;s case.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
