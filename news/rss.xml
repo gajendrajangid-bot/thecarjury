@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 21 Jul 2026 15:12:45 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 15:13:36 +0530</lastBuildDate>
+    <item>
+      <title>2026 Maybach GLS 680 Facelift: More Chrome, Bigger V8, Same Chauffeur Brief</title>
+      <link>https://www.thecarjury.com/news/2026-mercedes-maybach-gls-680-facelift-debut/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-mercedes-maybach-gls-680-facelift-debut/</guid>
+      <pubDate>Tue, 21 Jul 2026 15:13:27 +0530</pubDate>
+      <description>The 2026 Mercedes-Maybach GLS 680 gets a stronger V8, illuminated grille, Hyperscreen cabin and 22-inch wheels as standard. Our verdict inside.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Skoda Slavia Monte Carlo gets two new colours: paint, not substance</title>
       <link>https://www.thecarjury.com/news/skoda-slavia-monte-carlo-new-colours-shimla-green-steel-grey/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-india-bookings-open-25000-october-2026-launch/</guid>
       <pubDate>Sat, 11 Jul 2026 09:14:58 +0530</pubDate>
       <description>Kia has unofficially opened Sorento bookings in India at Rs 25,000. A 1.6 hybrid, three seating layouts, and an October 2026 launch are on the cards.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG Shows GO Hatch and Cyber SUV at Goodwood: Europe First, India Later</title>
-      <link>https://www.thecarjury.com/news/mg-go-cyber-concept-goodwood-fos-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-go-cyber-concept-goodwood-fos-2026/</guid>
-      <pubDate>Sat, 11 Jul 2026 09:13:30 +0530</pubDate>
-      <description>MG unveils the GO electric hatchback and Cyber SUV concepts at Goodwood 2026. Europe is the priority; India gets these later, if at all.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
