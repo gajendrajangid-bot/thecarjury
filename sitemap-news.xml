@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/citroen-basalt-x-comfort-edition-launch-price/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-21T11:55:52+05:30</news:publication_date>
+      <news:title>Citroen Basalt X Comfort Edition at Rs 8.75 lakh: Trim Tweaks, Not a Fix</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyundai-bayon-suv-india-petrol-cng-victoris-rival/</loc>
     <lastmod>2026-07-20</lastmod>
     <news:news>
@@ -39,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/myhyundai-app-30000-ev-charging-points-india/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
