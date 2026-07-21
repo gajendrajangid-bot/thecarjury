@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 21 Jul 2026 11:55:53 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 15:12:45 +0530</lastBuildDate>
+    <item>
+      <title>Skoda Slavia Monte Carlo gets two new colours: paint, not substance</title>
+      <link>https://www.thecarjury.com/news/skoda-slavia-monte-carlo-new-colours-shimla-green-steel-grey/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-slavia-monte-carlo-new-colours-shimla-green-steel-grey/</guid>
+      <pubDate>Tue, 21 Jul 2026 15:12:43 +0530</pubDate>
+      <description>Skoda adds Shimla Green and Steel Grey to the Slavia Monte Carlo, limited to 200 units. Prices unchanged at Rs 16.69 lakh to Rs 18.19 lakh.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Citroen Basalt X Comfort Edition at Rs 8.75 lakh: Trim Tweaks, Not a Fix</title>
       <link>https://www.thecarjury.com/news/citroen-basalt-x-comfort-edition-launch-price/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-go-cyber-concept-goodwood-fos-2026/</guid>
       <pubDate>Sat, 11 Jul 2026 09:13:30 +0530</pubDate>
       <description>MG unveils the GO electric hatchback and Cyber SUV concepts at Goodwood 2026. Europe is the priority; India gets these later, if at all.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>VW Tayron Life at Rs 41.99 Lakh: Cheaper Tayron, But Still a Hard Sell</title>
-      <link>https://www.thecarjury.com/news/vw-tayron-life-launch-price-41-99-lakh-5-seater/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/vw-tayron-life-launch-price-41-99-lakh-5-seater/</guid>
-      <pubDate>Fri, 10 Jul 2026 19:04:00 +0530</pubDate>
-      <description>Volkswagen Tayron Life launches at Rs 41.99 lakh ex-showroom, a 5-seat, softer-styled sibling to the R-Line with the same engine. TCJ&amp;#x27;s verdict inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
