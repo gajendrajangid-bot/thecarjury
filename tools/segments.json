@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "last_updated": "2026-05-07",
+  "last_updated": "2026-07-22",
   "segments": {
     "entry-ev": {
       "label": "Entry EVs (under \u20b915L)",
@@ -399,7 +399,9 @@
       "compare/be6-vs-nexon-ev",
       "compare/nexon-ev-vs-e-vitara"
     ],
-    "tata/nexon": [],
+    "tata/nexon": [
+      "compare/basalt-vs-nexon"
+    ],
     "tata/safari": [
       "compare/safari-vs-xuv700"
     ],
@@ -411,7 +413,9 @@
       "compare/creta-vs-seltos",
       "compare/creta-vs-duster",
       "compare/creta-vs-kushaq",
-      "compare/elevate-vs-creta"
+      "compare/elevate-vs-creta",
+      "compare/victoris-vs-creta",
+      "compare/curvv-vs-creta"
     ],
     "hyundai/venue": [
       "compare/venue-vs-sonet"
@@ -430,7 +434,8 @@
       "compare/creta-vs-seltos"
     ],
     "kia/sonet": [
-      "compare/venue-vs-sonet"
+      "compare/venue-vs-sonet",
+      "compare/syros-vs-sonet"
     ],
     "skoda/kushaq": [
       "compare/creta-vs-kushaq",
@@ -452,13 +457,17 @@
     "mahindra/xuv700": [
       "compare/safari-vs-xuv700"
     ],
-    "mahindra/xuv-3xo": [],
+    "mahindra/xuv-3xo": [
+      "compare/kylaq-vs-xuv-3xo"
+    ],
     "honda/elevate": [
       "compare/elevate-vs-creta"
     ],
     "honda/city": [],
     "toyota/fortuner": [],
-    "toyota/innova-hycross": [],
+    "toyota/innova-hycross": [
+      "compare/innova-crysta-vs-innova-hycross"
+    ],
     "volkswagen/taigun": [],
     "volkswagen/virtus": [
       "compare/slavia-vs-virtus"
@@ -473,9 +482,46 @@
     "tata/harrier-ev": [],
     "tata/tiago-ev": [],
     "mg/windsor-ev": [],
-    "maruti/brezza": [],
+    "maruti/brezza": [
+      "compare/kylaq-vs-brezza"
+    ],
     "bmw/x1": [],
     "bmw/x3": [],
-    "mercedes/glc": []
+    "mercedes/glc": [],
+    "maruti/victoris": [
+      "compare/victoris-vs-creta"
+    ],
+    "skoda/kylaq": [
+      "compare/kylaq-vs-xuv-3xo",
+      "compare/kylaq-vs-brezza"
+    ],
+    "kia/carens": [
+      "compare/carens-vs-xl6",
+      "compare/carens-clavis-vs-carens"
+    ],
+    "maruti/xl6": [
+      "compare/carens-vs-xl6"
+    ],
+    "kia/carens-clavis": [
+      "compare/carens-clavis-vs-carens"
+    ],
+    "toyota/innova-crysta": [
+      "compare/innova-crysta-vs-innova-hycross"
+    ],
+    "renault/kiger": [
+      "compare/kiger-vs-magnite"
+    ],
+    "nissan/magnite": [
+      "compare/kiger-vs-magnite"
+    ],
+    "citroen/basalt": [
+      "compare/basalt-vs-nexon"
+    ],
+    "kia/syros": [
+      "compare/syros-vs-sonet"
+    ],
+    "tata/curvv": [
+      "compare/curvv-vs-creta"
+    ]
   }
 }
