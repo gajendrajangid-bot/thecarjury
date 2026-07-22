@@ -14,6 +14,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/carmakers-demand-fuel-quality-checks-e20-stalling/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-22T17:01:33+05:30</news:publication_date>
+      <news:title>Carmakers Want Pump Fuel Tested as E20 Stalling Complaints Pile Up</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/citroen-basalt-x-comfort-edition-launch-price/</loc>
     <lastmod>2026-07-21</lastmod>
     <news:news>
@@ -23,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-07-21T11:55:52+05:30</news:publication_date>
       <news:title>Citroen Basalt X Comfort Edition at Rs 8.75 lakh: Trim Tweaks, Not a Fix</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-bayon-suv-india-petrol-cng-victoris-rival/</loc>
-    <lastmod>2026-07-20</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T14:52:42+05:30</news:publication_date>
-      <news:title>Hyundai's Bayon-based SUV Targets Victoris With NA Petrol and Underbody CNG</news:title>
     </news:news>
   </url>
   <url>
@@ -62,20 +62,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/maruti-market-share-suv-shift-feature-gap-2026/</loc>
-    <lastmod>2026-07-21</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T14:57:52+05:30</news:publication_date>
-      <news:title>Maruti's 39% share is the price of ignoring what Indians actually want</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/maruti-suzuki-price-hike-august-2026/</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -95,18 +83,6 @@
       </news:publication>
       <news:publication_date>2026-07-20T17:53:34+05:30</news:publication_date>
       <news:title>MG M9 and Cyberster Couture Editions: fashion tax on 50 lucky buyers</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/myhyundai-app-30000-ev-charging-points-india/</loc>
-    <lastmod>2026-07-22</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T12:12:10+05:30</news:publication_date>
-      <news:title>myHyundai App Opens 30,000+ Charging Points To All EVs, Not Just Hyundais</news:title>
     </news:news>
   </url>
   <url>
@@ -146,18 +122,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/tata-avinya-electric-suv-spied-2027-launch/</loc>
-    <lastmod>2026-07-21</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T12:13:54+05:30</news:publication_date>
-      <news:title>Tata Avinya Spied On Indian Roads: Premium EV Flagship Inches Closer To 2027</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/tata-avinya-platform-testing-chery-e0x-exeed-sterra-et-spied/</loc>
     <lastmod>2026-07-21</lastmod>
     <news:news>
@@ -167,30 +131,6 @@
       </news:publication>
       <news:publication_date>2026-07-21T09:41:23+05:30</news:publication_date>
       <news:title>Tata's Avinya Testing Starts on a Chery: Borrowed Platform, Big Ambitions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-nexon-osprey-south-africa-launch-q3-2026/</loc>
-    <lastmod>2026-07-22</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T14:55:32+05:30</news:publication_date>
-      <news:title>Tata Renames Nexon As 'Osprey' For South Africa, Launch In Q3 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-punch-8-lakh-sales-milestone-june-2026/</loc>
-    <lastmod>2026-07-21</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-20T14:50:53+05:30</news:publication_date>
-      <news:title>Tata Punch Hits 8 Lakh Sales: The Punch Is Now Tata's Second Million-Bound SUV</news:title>
     </news:news>
   </url>
   <url>

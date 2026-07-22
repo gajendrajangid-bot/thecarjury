@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 22 Jul 2026 12:04:44 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 17:01:35 +0530</lastBuildDate>
+    <item>
+      <title>Carmakers Want Pump Fuel Tested as E20 Stalling Complaints Pile Up</title>
+      <link>https://www.thecarjury.com/news/carmakers-demand-fuel-quality-checks-e20-stalling/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/carmakers-demand-fuel-quality-checks-e20-stalling/</guid>
+      <pubDate>Wed, 22 Jul 2026 17:01:33 +0530</pubDate>
+      <description>Automakers ask the government to test pump fuel quality as E20 rollout triggers stalling and hard-start complaints across India. Our take.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>JSW Eyeing Majority Stake In Volkswagen India: A Lifeline Skoda-VW Actually Needs</title>
       <link>https://www.thecarjury.com/news/jsw-volkswagen-india-majority-stake-talks/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-amg-e53-phev-india-launch-july-23/</guid>
       <pubDate>Sat, 11 Jul 2026 16:41:26 +0530</pubDate>
       <description>Mercedes-AMG launches the E 53 HYBRID 4MATIC+ in India on July 23 with a 3.0-litre six, 585hp combined and over 100km EV range.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Volkswagen's China Collapse Drags Global Sales to 4-Year Low: India Buyers Unaffected</title>
-      <link>https://www.thecarjury.com/news/volkswagen-q2-2026-china-slump-global-delivery-drop/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-q2-2026-china-slump-global-delivery-drop/</guid>
-      <pubDate>Sat, 11 Jul 2026 12:02:30 +0530</pubDate>
-      <description>Volkswagen&amp;#x27;s Q2 2026 deliveries fell 8.6 percent globally as China market shrank 20 percent. What it means for Indian VW buyers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

@@ -253,6 +253,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/carmakers-demand-fuel-quality-checks-e20-stalling/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/centre-orders-states-crack-down-fuel-adulteration-e20/</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
@@ -1058,7 +1064,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-suzuki-price-hike-august-2026/</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
