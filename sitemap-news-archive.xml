@@ -847,6 +847,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/kia-syros-ev-launched-price-nexon-xuv-3xo-rival/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/kia-syros-ev-spied-undisguised-bengaluru-tvc-shoot/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
@@ -854,7 +860,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-syros-ev-variants-battery-features-india/</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
