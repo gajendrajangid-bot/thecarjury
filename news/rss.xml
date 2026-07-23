@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 23 Jul 2026 15:04:36 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 15:05:22 +0530</lastBuildDate>
+    <item>
+      <title>2026 Mercedes-AMG E 53 Lands In India At Rs. 1.45 Crore: A 585 HP PHEV That Nobody Asked For</title>
+      <link>https://www.thecarjury.com/news/2026-mercedes-amg-e53-launched-india-price-1-45-crore/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-mercedes-amg-e53-launched-india-price-1-45-crore/</guid>
+      <pubDate>Thu, 23 Jul 2026 15:05:20 +0530</pubDate>
+      <description>Mercedes-AMG E 53 launches in India at Rs. 1.45 crore with a 585 HP inline-six plug-in hybrid. The Car Jury on whether it makes sense.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti Brezza Facelift Bags 5-Star Bharat NCAP, One Day Before Launch</title>
       <link>https://www.thecarjury.com/news/maruti-brezza-facelift-5-star-bharat-ncap/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-carens-clavis-ev-benefits-july-2026/</guid>
       <pubDate>Mon, 13 Jul 2026 17:58:59 +0530</pubDate>
       <description>Kia is discounting the Carens Clavis EV by up to Rs 1.8 lakh in July 2026. The big money is on MY25 stock, not the fresh cars.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>VW Group to axe half its models by 2030: what it means for India</title>
-      <link>https://www.thecarjury.com/news/volkswagen-group-model-lineup-cut-50-percent-2030/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-group-model-lineup-cut-50-percent-2030/</guid>
-      <pubDate>Mon, 13 Jul 2026 15:06:53 +0530</pubDate>
-      <description>Volkswagen Group will cut its global model line-up by up to 50 percent and variants by 75 percent by 2030. Here is what India should expect.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
