@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 22 Jul 2026 17:02:23 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 08:55:01 +0530</lastBuildDate>
+    <item>
+      <title>Hatchback Sales June 2026: WagonR Holds Lead, Segment Grows 17% YoY</title>
+      <link>https://www.thecarjury.com/news/hatchback-sales-june-2026-wagonr-swift-baleno-altroz/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hatchback-sales-june-2026-wagonr-swift-baleno-altroz/</guid>
+      <pubDate>Thu, 23 Jul 2026 08:54:56 +0530</pubDate>
+      <description>Hatchback sales rose 17.27% YoY in June 2026 to 79,419 units. Maruti WagonR led with 16,952, Swift second at 15,215. Full segment read inside.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Sedan Sales June 2026: Dzire Owns 57% As Segment Grows 10% YoY</title>
       <link>https://www.thecarjury.com/news/sedan-sales-june-2026-dzire-city-virtus-verna/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-ev-spied-undisguised-bengaluru-tvc-shoot/</guid>
       <pubDate>Sun, 12 Jul 2026 08:59:42 +0530</pubDate>
       <description>Kia Syros EV spotted completely undisguised during a TVC shoot in Bengaluru. Closed grille, boxy silhouette confirmed. Launch imminent.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Sierra Jubilee Edition: Smart Sweetener, Not a Reason to Buy</title>
-      <link>https://www.thecarjury.com/news/tata-sierra-jubilee-edition-roq-accessories-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-jubilee-edition-roq-accessories-launch/</guid>
-      <pubDate>Sat, 11 Jul 2026 16:42:05 +0530</pubDate>
-      <description>Tata marks 50,000 Sierra sales with a Jubilee Edition on Smart+, Pure and Adventure trims, adding ROQ accessories and a few missing features.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
