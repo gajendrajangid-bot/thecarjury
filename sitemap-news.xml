@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-mercedes-maybach-gls-680-facelift-debut/</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -23,6 +23,18 @@
       </news:publication>
       <news:publication_date>2026-07-22T17:01:33+05:30</news:publication_date>
       <news:title>Carmakers Want Pump Fuel Tested as E20 Stalling Complaints Pile Up</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/force-urbania-deluxe-launch-price-features-2026/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-23T11:59:15+05:30</news:publication_date>
+      <news:title>Force Urbania Deluxe At Rs 28.7 Lakh: Mercedes Diesel, But It's Still A Van</news:title>
     </news:news>
   </url>
   <url>
