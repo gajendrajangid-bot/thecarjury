@@ -122,30 +122,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/maruti-brezza-facelift-leaked-1-litre-turbo-july-24-launch/</loc>
-    <lastmod>2026-07-23</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:12:43+05:30</news:publication_date>
-      <news:title>Brezza Facelift Leaks With 1.0 Turbo: Finally, A Reason To Look Again</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-suzuki-price-hike-august-2026/</loc>
-    <lastmod>2026-07-23</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:14:07+05:30</news:publication_date>
-      <news:title>Maruti Hikes Prices By Up To Rs 30,000 From August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/sedan-sales-june-2026-dzire-city-virtus-verna/</loc>
     <lastmod>2026-07-23</lastmod>
     <news:news>
@@ -167,18 +143,6 @@
       </news:publication>
       <news:publication_date>2026-07-23T08:55:41+05:30</news:publication_date>
       <news:title>Innova Hycross Facelift Spied: Hilux-Style Front Coming to India's Best MPV</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/vw-skoda-india-jsw-majority-stake-deal/</loc>
-    <lastmod>2026-07-23</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-21T18:13:26+05:30</news:publication_date>
-      <news:title>JSW Set To Take Majority Stake In Skoda-VW India: Deal In Final Stages</news:title>
     </news:news>
   </url>
 </urlset>
