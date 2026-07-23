@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 23 Jul 2026 08:55:45 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 11:57:53 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra Hikes Thar Roxx, Scorpio Classic Prices By Up To Rs 78,000 In July 2026</title>
+      <link>https://www.thecarjury.com/news/mahindra-thar-roxx-scorpio-classic-price-hike-july-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-thar-roxx-scorpio-classic-price-hike-july-2026/</guid>
+      <pubDate>Thu, 23 Jul 2026 11:57:47 +0530</pubDate>
+      <description>Mahindra has raised Thar Roxx and Scorpio Classic prices by up to Rs 78,000 from July 2026, with hikes varying across variants and drivetrains.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Innova Hycross Facelift Spied: Hilux-Style Front Coming to India's Best MPV</title>
       <link>https://www.thecarjury.com/news/toyota-innova-hycross-facelift-front-spied-hilux-design/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-launch-price-review-2026/</guid>
       <pubDate>Sun, 12 Jul 2026 11:59:02 +0530</pubDate>
       <description>Tata Sierra EV launches from Rs 18.79 lakh ex-showroom, undercutting rivals and matching the Sierra petrol AT. Our verdict on whether it earns the badge.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Battery-as-a-Service Cuts EV Sticker Prices, But Raises Lifetime Cost</title>
-      <link>https://www.thecarjury.com/news/battery-as-a-service-ev-ownership-cost-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/battery-as-a-service-ev-ownership-cost-india/</guid>
-      <pubDate>Sun, 12 Jul 2026 09:00:25 +0530</pubDate>
-      <description>Tata, Hyundai and Maruti are pushing Battery-as-a-Service to slash EV sticker prices, but the lifetime bill for the buyer is going up, not down.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
