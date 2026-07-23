@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 23 Jul 2026 11:59:20 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 12:00:25 +0530</lastBuildDate>
+    <item>
+      <title>China's EV Takeover Is Real, And India's Legacy Brands Are Sleepwalking Into It</title>
+      <link>https://www.thecarjury.com/news/chinese-ev-brands-global-takeover-india-lessons/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/chinese-ev-brands-global-takeover-india-lessons/</guid>
+      <pubDate>Thu, 23 Jul 2026 12:00:23 +0530</pubDate>
+      <description>Chinese EV brands like BYD, Geely and XPeng are eating global market share. Here&amp;#x27;s what their rise means for Indian buyers and legacy players.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Force Urbania Deluxe At Rs 28.7 Lakh: Mercedes Diesel, But It's Still A Van</title>
       <link>https://www.thecarjury.com/news/force-urbania-deluxe-launch-price-features-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/renault-kiger-july-2026-discount-benefits/</guid>
       <pubDate>Sun, 12 Jul 2026 14:49:15 +0530</pubDate>
       <description>Renault Kiger carries benefits up to Rs 1.25 lakh in July 2026, the steepest in the range. Here is what the discount actually says about the car.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata June 2026: Punch, Nexon, Sierra Push Tata to 62,076 Units, Up 67% YoY</title>
-      <link>https://www.thecarjury.com/news/tata-sales-june-2026-punch-nexon-tiago-sierra-lead/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sales-june-2026-punch-nexon-tiago-sierra-lead/</guid>
-      <pubDate>Sun, 12 Jul 2026 11:59:45 +0530</pubDate>
-      <description>Tata sold 62,076 PVs in June 2026, up 67.40% YoY. Punch led with 21,006 units, Nexon followed at 18,335, Sierra added fresh volume.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
