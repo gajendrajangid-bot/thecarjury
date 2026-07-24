@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-mercedes-amg-e53-launched-india-price-1-45-crore/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/force-urbania-deluxe-launch-price-features-2026/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -107,6 +107,18 @@
       </news:publication>
       <news:publication_date>2026-07-23T15:04:31+05:30</news:publication_date>
       <news:title>Maruti Brezza Facelift Bags 5-Star Bharat NCAP, One Day Before Launch</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mercedes-benz-india-e25-compliant-cars-biofuel-push-2026/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T08:46:01+05:30</news:publication_date>
+      <news:title>Mercedes India Goes E25-Ready Before The Government Even Sets A Date</news:title>
     </news:news>
   </url>
   <url>
