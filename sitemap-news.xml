@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/carmakers-demand-fuel-quality-checks-e20-stalling/</loc>
-    <lastmod>2026-07-24</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T17:01:33+05:30</news:publication_date>
-      <news:title>Carmakers Want Pump Fuel Tested as E20 Stalling Complaints Pile Up</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/chinese-ev-brands-global-takeover-india-lessons/</loc>
     <lastmod>2026-07-24</lastmod>
     <news:news>
@@ -83,6 +71,18 @@
       </news:publication>
       <news:publication_date>2026-07-23T08:54:56+05:30</news:publication_date>
       <news:title>Hatchback Sales June 2026: WagonR Holds Lead, Segment Grows 17% YoY</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/honda-zr-v-first-drive-review-india-price-cbu/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-24T18:09:29+05:30</news:publication_date>
+      <news:title>Honda ZR-V First Drive: Sports Hybrid Impresses, But Rs 50 Lakh CBU Price Is A Problem</news:title>
     </news:news>
   </url>
   <url>
@@ -167,18 +167,6 @@
       </news:publication>
       <news:publication_date>2026-07-24T08:46:01+05:30</news:publication_date>
       <news:title>Mercedes India Goes E25-Ready Before The Government Even Sets A Date</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/sedan-sales-june-2026-dzire-city-virtus-verna/</loc>
-    <lastmod>2026-07-24</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-22T17:02:18+05:30</news:publication_date>
-      <news:title>Sedan Sales June 2026: Dzire Owns 57% As Segment Grows 10% YoY</news:title>
     </news:news>
   </url>
   <url>
