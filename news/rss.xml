@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 24 Jul 2026 08:46:49 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 08:47:27 +0530</lastBuildDate>
+    <item>
+      <title>Geely Buys Into Ford's Spain Plant: Volvo's EV Backbone Just Got Stronger</title>
+      <link>https://www.thecarjury.com/news/ford-geely-spain-almussafes-ev-plant-deal/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/ford-geely-spain-almussafes-ev-plant-deal/</guid>
+      <pubDate>Fri, 24 Jul 2026 08:47:26 +0530</pubDate>
+      <description>Ford is selling part of its Almussafes plant to Geely for EU-built EVs. Good news for Volvo, Polestar and Lotus buyers, including in India.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Ford's F-150 Home Backup Power Rollout: Why India's EV Buyers Should Care</title>
       <link>https://www.thecarjury.com/news/ford-f150-vehicle-to-home-power-india-implications/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sales-june-2026-punch-nexon-tiago-sierra-lead/</guid>
       <pubDate>Sun, 12 Jul 2026 11:59:45 +0530</pubDate>
       <description>Tata sold 62,076 PVs in June 2026, up 67.40% YoY. Punch led with 21,006 units, Nexon followed at 18,335, Sierra added fresh volume.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Sierra EV Launched From Rs 18.79 Lakh: Priced To Kill Its Own Petrol Sibling</title>
-      <link>https://www.thecarjury.com/news/tata-sierra-ev-launch-price-review-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-launch-price-review-2026/</guid>
-      <pubDate>Sun, 12 Jul 2026 11:59:02 +0530</pubDate>
-      <description>Tata Sierra EV launches from Rs 18.79 lakh ex-showroom, undercutting rivals and matching the Sierra petrol AT. Our verdict on whether it earns the badge.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
