@@ -26,6 +26,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/ev-penetration-6-5-percent-q1-fy27-icra-report/</loc>
+    <lastmod>2026-07-25</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T11:55:27+05:30</news:publication_date>
+      <news:title>EVs Hit 6.5% Share in Q1 FY27: Adoption Is Real, But Fragile</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/force-urbania-deluxe-launch-price-features-2026/</loc>
     <lastmod>2026-07-25</lastmod>
     <news:news>
@@ -87,7 +99,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-i20-15-lakh-sales-india-milestone/</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -147,7 +159,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-brezza-facelift-5-star-bharat-ncap/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
