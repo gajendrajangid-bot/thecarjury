@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 25 Jul 2026 11:54:57 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 11:55:33 +0530</lastBuildDate>
+    <item>
+      <title>EVs Hit 6.5% Share in Q1 FY27: Adoption Is Real, But Fragile</title>
+      <link>https://www.thecarjury.com/news/ev-penetration-6-5-percent-q1-fy27-icra-report/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/ev-penetration-6-5-percent-q1-fy27-icra-report/</guid>
+      <pubDate>Sat, 25 Jul 2026 11:55:27 +0530</pubDate>
+      <description>ICRA says EV penetration in India&amp;#x27;s passenger vehicle market rose to 6.5% in Q1 FY27 from 4.6% in FY26, aided by high fuel prices.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Honda ZR-V lands at Rs 48 lakh: CBU hybrid picks a lonely fight</title>
       <link>https://www.thecarjury.com/news/honda-zr-v-launch-price-india-hybrid-cbu/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/xiaomi-skynomad-n90-hybrid-suv-revealed-china/</guid>
       <pubDate>Mon, 13 Jul 2026 17:59:38 +0530</pubDate>
       <description>Xiaomi&amp;#x27;s new SkyNomad sub-brand debuts the N90, a 5.3m three-row range-extender SUV with Volvo-style DRLs and LiDAR. Here is what it means.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Carens Clavis EV: Rs 1.8 lakh off in July, but only on MY25 stock</title>
-      <link>https://www.thecarjury.com/news/kia-carens-clavis-ev-benefits-july-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-carens-clavis-ev-benefits-july-2026/</guid>
-      <pubDate>Mon, 13 Jul 2026 17:58:59 +0530</pubDate>
-      <description>Kia is discounting the Carens Clavis EV by up to Rs 1.8 lakh in July 2026. The big money is on MY25 stock, not the fresh cars.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
