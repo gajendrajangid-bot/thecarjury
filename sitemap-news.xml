@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/chinese-ev-brands-global-takeover-india-lessons/</loc>
-    <lastmod>2026-07-25</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T12:00:23+05:30</news:publication_date>
-      <news:title>China's EV Takeover Is Real, And India's Legacy Brands Are Sleepwalking Into It</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/ev-penetration-6-5-percent-q1-fy27-icra-report/</loc>
     <lastmod>2026-07-25</lastmod>
     <news:news>
@@ -35,18 +23,6 @@
       </news:publication>
       <news:publication_date>2026-07-25T11:55:27+05:30</news:publication_date>
       <news:title>EVs Hit 6.5% Share in Q1 FY27: Adoption Is Real, But Fragile</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/force-urbania-deluxe-launch-price-features-2026/</loc>
-    <lastmod>2026-07-25</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-23T11:59:15+05:30</news:publication_date>
-      <news:title>Force Urbania Deluxe At Rs 28.7 Lakh: Mercedes Diesel, But It's Still A Van</news:title>
     </news:news>
   </url>
   <url>
@@ -131,6 +107,18 @@
       </news:publication>
       <news:publication_date>2026-07-23T15:02:58+05:30</news:publication_date>
       <news:title>Kia Syros EV Lands at Rs 13.50 Lakh: Priced Above Nexon EV and XUV 3XO EV</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/landmark-cars-second-jsw-mg-dealership-ahmedabad-loi/</loc>
+    <lastmod>2026-07-25</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-25T14:51:27+05:30</news:publication_date>
+      <news:title>Landmark Cars Bags LOI for Second JSW MG Showroom in Ahmedabad</news:title>
     </news:news>
   </url>
   <url>
