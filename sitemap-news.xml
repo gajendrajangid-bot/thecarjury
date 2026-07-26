@@ -85,4 +85,16 @@
       <news:title>Landmark Cars Bags LOI for Second JSW MG Showroom in Ahmedabad</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/maruti-cng-sales-target-9-lakh-fy27/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-26T14:59:50+05:30</news:publication_date>
+      <news:title>Maruti Bets on 9 Lakh CNG Sales in FY27: The Petrol-EV Gap Widens</news:title>
+    </news:news>
+  </url>
 </urlset>
