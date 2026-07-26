@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 26 Jul 2026 14:59:19 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 14:59:57 +0530</lastBuildDate>
+    <item>
+      <title>Maruti Bets on 9 Lakh CNG Sales in FY27: The Petrol-EV Gap Widens</title>
+      <link>https://www.thecarjury.com/news/maruti-cng-sales-target-9-lakh-fy27/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-cng-sales-target-9-lakh-fy27/</guid>
+      <pubDate>Sun, 26 Jul 2026 14:59:50 +0530</pubDate>
+      <description>Maruti Suzuki targets nearly 30% growth in CNG sales to 9 lakh units in FY27 as Q1 volumes jumped 58%. Our take on what it means for buyers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2026 Maruti Brezza Price List: Rs 7.40L to Rs 13.71L, Turbo Undercuts 1.5L</title>
       <link>https://www.thecarjury.com/news/2026-maruti-brezza-full-price-list-turbo-petrol/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-id-cross-revealed-compact-electric-crossover/</guid>
       <pubDate>Wed, 15 Jul 2026 18:09:19 +0530</pubDate>
       <description>Volkswagen unveils the ID Cross, its first compact electric crossover on the MEB+ platform, priced from EUR 27,995. India relevance is another matter.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>HPCL Claims Zero Adulteration After 2,173 Ethanol Blend Checks</title>
-      <link>https://www.thecarjury.com/news/hpcl-ethanol-fuel-quality-inspections-july-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hpcl-ethanol-fuel-quality-inspections-july-2026/</guid>
-      <pubDate>Tue, 14 Jul 2026 20:14:01 +0530</pubDate>
-      <description>HPCL completes 2,173 surprise inspections at retail outlets between July 7-13, 2026, and reports zero ethanol-blending or adulteration lapses.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
