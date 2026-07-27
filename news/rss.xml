@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 27 Jul 2026 15:03:56 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 15:04:37 +0530</lastBuildDate>
+    <item>
+      <title>Audi CFO Admits Brand Cannot Fix This Alone, Turns To VW Group</title>
+      <link>https://www.thecarjury.com/news/audi-volkswagen-restructuring-h1-2026-revenue-drop/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-volkswagen-restructuring-h1-2026-revenue-drop/</guid>
+      <pubDate>Mon, 27 Jul 2026 15:04:32 +0530</pubDate>
+      <description>Audi&amp;#x27;s H1 revenue fell 10% to 29.2 billion euros. CFO says the brand must realign with Volkswagen Group. What it means for Indian buyers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Brezza Boosterjet First Drive: Turbo Fixes the Boring Bit, Finally</title>
       <link>https://www.thecarjury.com/news/maruti-brezza-boosterjet-turbo-first-drive-review/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-adapt-platform-phev-hybrid-ev-india/</guid>
       <pubDate>Thu, 16 Jul 2026 12:15:03 +0530</pubDate>
       <description>MG Motor India reveals ADAPT, a flexible platform for PHEVs, strong hybrids, range-extender hybrids and pure EVs, skipping pure-ICE cars entirely.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>NHTSA Weighs Probe Into 806,963 Honda Odyssey Minivans Over Airbag Deployment</title>
-      <link>https://www.thecarjury.com/news/nhtsa-probe-honda-odyssey-airbag-2011-2017/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/nhtsa-probe-honda-odyssey-airbag-2011-2017/</guid>
-      <pubDate>Thu, 16 Jul 2026 09:07:42 +0530</pubDate>
-      <description>US regulator NHTSA is reviewing a petition to probe 806,963 Honda Odyssey minivans from 2011-2017 over inadvertent airbag deployment concerns.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
