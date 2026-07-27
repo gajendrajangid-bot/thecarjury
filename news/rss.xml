@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 27 Jul 2026 12:10:02 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 15:03:56 +0530</lastBuildDate>
+    <item>
+      <title>Brezza Boosterjet First Drive: Turbo Fixes the Boring Bit, Finally</title>
+      <link>https://www.thecarjury.com/news/maruti-brezza-boosterjet-turbo-first-drive-review/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-brezza-boosterjet-turbo-first-drive-review/</guid>
+      <pubDate>Mon, 27 Jul 2026 15:03:51 +0530</pubDate>
+      <description>Maruti Brezza facelift gets the 1.0L Boosterjet turbo petrol from the Fronx, base price Rs 7.4 lakh. The Car Jury&amp;#x27;s early verdict from Mumbai.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>India's EV Exports Jump 14x in a Quarter: Maruti's e-Vitara Leads the Charge Abroad</title>
       <link>https://www.thecarjury.com/news/india-ev-exports-14x-surge-maruti-tata-mahindra-q1-fy27/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nhtsa-probe-honda-odyssey-airbag-2011-2017/</guid>
       <pubDate>Thu, 16 Jul 2026 09:07:42 +0530</pubDate>
       <description>US regulator NHTSA is reviewing a petition to probe 806,963 Honda Odyssey minivans from 2011-2017 over inadvertent airbag deployment concerns.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Syros EV Bookings Open: 526 km Range, Two Battery Packs, Seven Variants</title>
-      <link>https://www.thecarjury.com/news/kia-syros-ev-bookings-open-526-km-range/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-ev-bookings-open-526-km-range/</guid>
-      <pubDate>Thu, 16 Jul 2026 09:07:07 +0530</pubDate>
-      <description>Kia opens Syros EV bookings at Rs 25,000 with 42 kWh and 51.4 kWh battery options, up to 526 km range and seven variants. The Car Jury&amp;#x27;s take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
