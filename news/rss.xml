@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 26 Jul 2026 14:59:57 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 12:10:08 +0530</lastBuildDate>
+    <item>
+      <title>India's EV Exports Jump 14x in a Quarter: Maruti's e-Vitara Leads the Charge Abroad</title>
+      <link>https://www.thecarjury.com/news/india-ev-exports-14x-surge-maruti-tata-mahindra-q1-fy27/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/india-ev-exports-14x-surge-maruti-tata-mahindra-q1-fy27/</guid>
+      <pubDate>Mon, 27 Jul 2026 12:10:01 +0530</pubDate>
+      <description>India shipped 15,641 electric cars overseas in the June quarter, up 14x, with Maruti&amp;#x27;s e-Vitara driving the surge. Our take on what it means.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti Bets on 9 Lakh CNG Sales in FY27: The Petrol-EV Gap Widens</title>
       <link>https://www.thecarjury.com/news/maruti-cng-sales-target-9-lakh-fy27/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/lexus-es-350h-launch-price-india-2026/</guid>
       <pubDate>Wed, 15 Jul 2026 18:10:08 +0530</pubDate>
       <description>Lexus launches the eighth-gen ES 350h hybrid in India from Rs 66.10 lakh, undercutting the ES 500e EV by nearly Rs 18 lakh. TCJ&amp;#x27;s take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Volkswagen ID Cross Debuts: Compact EV Crossover Skips India Again</title>
-      <link>https://www.thecarjury.com/news/volkswagen-id-cross-revealed-compact-electric-crossover/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-id-cross-revealed-compact-electric-crossover/</guid>
-      <pubDate>Wed, 15 Jul 2026 18:09:19 +0530</pubDate>
-      <description>Volkswagen unveils the ID Cross, its first compact electric crossover on the MEB+ platform, priced from EUR 27,995. India relevance is another matter.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

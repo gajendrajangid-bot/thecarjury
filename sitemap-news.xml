@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-brezza-full-price-list-turbo-petrol/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -14,63 +14,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/ev-penetration-6-5-percent-q1-fy27-icra-report/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://www.thecarjury.com/news/india-ev-exports-14x-surge-maruti-tata-mahindra-q1-fy27/</loc>
+    <lastmod>2026-07-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-07-25T11:55:27+05:30</news:publication_date>
-      <news:title>EVs Hit 6.5% Share in Q1 FY27: Adoption Is Real, But Fragile</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/honda-zr-v-first-drive-review-india-price-cbu/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24T18:09:29+05:30</news:publication_date>
-      <news:title>Honda ZR-V First Drive: Sports Hybrid Impresses, But Rs 50 Lakh CBU Price Is A Problem</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/honda-zr-v-launch-price-india-hybrid-cbu/</loc>
-    <lastmod>2026-07-25</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25T11:54:34+05:30</news:publication_date>
-      <news:title>Honda ZR-V lands at Rs 48 lakh: CBU hybrid picks a lonely fight</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-i20-15-lakh-sales-india-milestone/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24T15:10:03+05:30</news:publication_date>
-      <news:title>Hyundai i20 Crosses 15 Lakh Sales In India: The Last Premium Hatch Standing</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/jeep-meridian-85th-anniversary-edition-launched-price/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-24T15:10:44+05:30</news:publication_date>
-      <news:title>Jeep Meridian 85th Anniversary Edition Lands At Rs. 36.05 Lakh: Badges, Not Substance</news:title>
+      <news:publication_date>2026-07-27T12:10:01+05:30</news:publication_date>
+      <news:title>India's EV Exports Jump 14x in a Quarter: Maruti's e-Vitara Leads the Charge Abroad</news:title>
     </news:news>
   </url>
   <url>
@@ -87,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-cng-sales-target-9-lakh-fy27/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
