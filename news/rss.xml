@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 26 Jul 2026 14:59:52 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 12:08:47 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra Racing Wins Tokyo E-Prix: Second Formula E Win Of The Season</title>
+      <link>https://www.thecarjury.com/news/mahindra-racing-wins-formula-e-tokyo-eprix-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-racing-wins-formula-e-tokyo-eprix-2026/</guid>
+      <pubDate>Mon, 27 Jul 2026 12:08:41 +0530</pubDate>
+      <description>Nyck de Vries wins Round 15 of Formula E in Tokyo, giving Mahindra Racing its second victory of the 2025/26 season and best campaign since 2017/18.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti Bets on 9 Lakh CNG Sales in FY27: The Petrol-EV Gap Widens</title>
       <link>https://www.thecarjury.com/news/maruti-cng-sales-target-9-lakh-fy27/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-cyberster-m9-price-hike-july-2026/</guid>
       <pubDate>Thu, 16 Jul 2026 09:05:13 +0530</pubDate>
       <description>MG has raised prices of the M9 limousine and Cyberster EV by up to Rs 5 lakh in July 2026, the second hike this year at MG Select stores.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Victoris Dethrones Creta: 4.2-4.5m SUV Sales June 2026 Rewrite the Order</title>
-      <link>https://www.thecarjury.com/news/42m-45m-suv-sales-june-2026-victoris-tops-seltos-second/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/42m-45m-suv-sales-june-2026-victoris-tops-seltos-second/</guid>
-      <pubDate>Wed, 15 Jul 2026 18:12:05 +0530</pubDate>
-      <description>Maruti Victoris leads the 4.2-4.5m SUV segment in June 2026 with 10,035 units. Seltos second, Creta crashes to fifth. Full sales verdict inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
