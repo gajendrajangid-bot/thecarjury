@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 27 Jul 2026 15:04:42 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 12:07:46 +0530</lastBuildDate>
+    <item>
+      <title>Skoda Rides Kylaq to 24% Jump in June, VW Slides 20% as Virtus Cools</title>
+      <link>https://www.thecarjury.com/news/skoda-vw-india-sales-june-2026-kylaq-virtus/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-vw-india-sales-june-2026-kylaq-virtus/</guid>
+      <pubDate>Tue, 28 Jul 2026 12:07:27 +0530</pubDate>
+      <description>Skoda posted 24% YoY growth in June 2026 on Kylaq strength while Volkswagen dropped 20% YoY as Virtus volumes fell. Full breakup.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Audi CFO Admits Brand Cannot Fix This Alone, Turns To VW Group</title>
       <link>https://www.thecarjury.com/news/audi-volkswagen-restructuring-h1-2026-revenue-drop/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-ev-bookings-open-526-km-range/</guid>
       <pubDate>Thu, 16 Jul 2026 09:07:07 +0530</pubDate>
       <description>Kia opens Syros EV bookings at Rs 25,000 with 42 kWh and 51.4 kWh battery options, up to 526 km range and seven variants. The Car Jury&amp;#x27;s take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG Hikes Cyberster and M9 Prices Again: Up To Rs 5 Lakh Dearer In Three Months</title>
-      <link>https://www.thecarjury.com/news/mg-cyberster-m9-price-hike-july-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-cyberster-m9-price-hike-july-2026/</guid>
-      <pubDate>Thu, 16 Jul 2026 09:05:13 +0530</pubDate>
-      <description>MG has raised prices of the M9 limousine and Cyberster EV by up to Rs 5 lakh in July 2026, the second hike this year at MG Select stores.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
