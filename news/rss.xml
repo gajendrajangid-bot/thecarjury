@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 28 Jul 2026 12:08:33 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 12:09:13 +0530</lastBuildDate>
+    <item>
+      <title>Mercedes Q2 Profit Up 22%, But China Slump Forces Sales Downgrade</title>
+      <link>https://www.thecarjury.com/news/mercedes-q2-2026-profit-china-sales-warning/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-q2-2026-profit-china-sales-warning/</guid>
+      <pubDate>Tue, 28 Jul 2026 12:09:08 +0530</pubDate>
+      <description>Mercedes-Benz Q2 2026 operating profit rose 22% to 1.5 billion euros, but China weakness forced the carmaker to cut its full-year sales outlook.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2026 Scorpio N Facelift Cabin Spied: Thar Roxx's Twin Screens Are Coming</title>
       <link>https://www.thecarjury.com/news/mahindra-scorpio-n-facelift-interiors-spied-launch-august-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-chakan-plant-3-million-vehicles-milestone/</guid>
       <pubDate>Thu, 16 Jul 2026 15:07:37 +0530</pubDate>
       <description>Mahindra&amp;#x27;s Chakan facility has built its three-millionth vehicle, a BE 6 EV. The pace of the last million tells the real story.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG Bets 80% of Sales on EVs as Fuel Prices Spike Post West Asia War</title>
-      <link>https://www.thecarjury.com/news/mg-motor-ev-share-70-80-percent-west-asia-war-anurag-mehrotra/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-motor-ev-share-70-80-percent-west-asia-war-anurag-mehrotra/</guid>
-      <pubDate>Thu, 16 Jul 2026 15:06:51 +0530</pubDate>
-      <description>JSW MG Motor India MD Anurag Mehrotra expects NEVs to make up 70-80% of sales this year, riding fuel price volatility after the West Asia war.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
