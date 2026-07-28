@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 27 Jul 2026 15:04:37 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 12:07:40 +0530</lastBuildDate>
+    <item>
+      <title>Skoda Rides Kylaq to 24% Jump in June, VW Slides 20% as Virtus Cools</title>
+      <link>https://www.thecarjury.com/news/skoda-vw-india-sales-june-2026-kylaq-virtus/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-vw-india-sales-june-2026-kylaq-virtus/</guid>
+      <pubDate>Tue, 28 Jul 2026 12:07:27 +0530</pubDate>
+      <description>Skoda posted 24% YoY growth in June 2026 on Kylaq strength while Volkswagen dropped 20% YoY as Virtus volumes fell. Full breakup.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Audi CFO Admits Brand Cannot Fix This Alone, Turns To VW Group</title>
       <link>https://www.thecarjury.com/news/audi-volkswagen-restructuring-h1-2026-revenue-drop/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-grand-vitara-e20-consumer-court-replacement-order/</guid>
       <pubDate>Thu, 16 Jul 2026 12:15:47 +0530</pubDate>
       <description>Raipur consumer court directs Maruti Suzuki to replace a 2023 Grand Vitara Zeta+ over E20-related damage, or refund Rs 20.5 lakh with penalties.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG's ADAPT Platform Is A Smart Bet, But India Still Needs Proof</title>
-      <link>https://www.thecarjury.com/news/mg-adapt-platform-phev-hybrid-ev-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-adapt-platform-phev-hybrid-ev-india/</guid>
-      <pubDate>Thu, 16 Jul 2026 12:15:03 +0530</pubDate>
-      <description>MG Motor India reveals ADAPT, a flexible platform for PHEVs, strong hybrids, range-extender hybrids and pure EVs, skipping pure-ICE cars entirely.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
