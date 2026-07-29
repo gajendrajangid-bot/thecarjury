@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 29 Jul 2026 18:12:17 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 18:13:06 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra BE 6 to get triple screens and a rethought dashboard</title>
+      <link>https://www.thecarjury.com/news/mahindra-be-6-triple-screen-dashboard-update/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-be-6-triple-screen-dashboard-update/</guid>
+      <pubDate>Wed, 29 Jul 2026 18:12:49 +0530</pubDate>
+      <description>Mahindra plans a triple-screen setup and a redesigned dashboard for the BE 6 with a model year update, fixing the cabin&amp;#x27;s real usability gripes.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mini Cooper Convertible Stardust Edition Lands At Rs 62.90 Lakh: Paint And Wheels, No More</title>
       <link>https://www.thecarjury.com/news/mini-cooper-convertible-stardust-edition-launch-price/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-mg-electric-suv-xev-9s-rival-august-2026-launch/</guid>
       <pubDate>Fri, 17 Jul 2026 09:34:29 +0530</pubDate>
       <description>JSW MG will launch an Eksion-based electric SUV in August 2026 with a 69kWh pack and 600km range, priced to undercut the Mahindra XEV 9S 70kWh.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Toyota Teases 9th-Gen Hilux Ahead Of 28 July India Launch</title>
-      <link>https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-teaser-28-july/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-teaser-28-july/</guid>
-      <pubDate>Fri, 17 Jul 2026 09:33:40 +0530</pubDate>
-      <description>Toyota has teased the new 9th-gen Hilux ahead of its India launch on 28 July 2026, likely still with the 2.8 diesel and no hybrid.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
