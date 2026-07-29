@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 29 Jul 2026 13:29:11 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 15:15:01 +0530</lastBuildDate>
+    <item>
+      <title>Haryana Zeroes Road Tax on EVs Under Rs 30 Lakh: The Cleanest EV Deal in NCR</title>
+      <link>https://www.thecarjury.com/news/haryana-ev-road-tax-waiver-30-lakh-policy/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/haryana-ev-road-tax-waiver-30-lakh-policy/</guid>
+      <pubDate>Wed, 29 Jul 2026 15:15:00 +0530</pubDate>
+      <description>Haryana scraps road tax fully on EVs up to Rs 30 lakh ex-showroom, and halves it above. Here is what it means for buyers in Gurugram and Faridabad.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata halts Sanand production as Gujarat floods hit Nexon, Sierra, Tiago output</title>
       <link>https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-hilux-9th-gen-india-launch-teaser-28-july/</guid>
       <pubDate>Fri, 17 Jul 2026 09:33:40 +0530</pubDate>
       <description>Toyota has teased the new 9th-gen Hilux ahead of its India launch on 28 July 2026, likely still with the 2.8 diesel and no hybrid.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Volvo EX90 lands in India on August 19: flagship EV, niche audience</title>
-      <link>https://www.thecarjury.com/news/volvo-ex90-india-launch-august-19-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/volvo-ex90-india-launch-august-19-2026/</guid>
-      <pubDate>Thu, 16 Jul 2026 17:50:18 +0530</pubDate>
-      <description>Volvo EX90 debuts in India on August 19, 2026 with an 800V platform, up to 680hp and 608km WLTP range. Our verdict on where it fits.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

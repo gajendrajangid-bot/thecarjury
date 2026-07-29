@@ -451,6 +451,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/haryana-ev-road-tax-waiver-30-lakh-policy/</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hatchback-sales-april-2026-maruti-wagonr-baleno-swift-dominate/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -1094,7 +1100,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/maruti-brezza-boosterjet-turbo-first-drive-review/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
