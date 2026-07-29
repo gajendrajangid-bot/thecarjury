@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 28 Jul 2026 12:09:18 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 13:29:21 +0530</lastBuildDate>
+    <item>
+      <title>Tata halts Sanand production as Gujarat floods hit Nexon, Sierra, Tiago output</title>
+      <link>https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</guid>
+      <pubDate>Wed, 29 Jul 2026 13:29:09 +0530</pubDate>
+      <description>Tata Motors pauses Sanand production after Gujarat floods disrupt supplier network. Nexon, Sierra, Tiago, Tigor output hit. Restart in days.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mercedes Q2 Profit Up 22%, But China Slump Forces Sales Downgrade</title>
       <link>https://www.thecarjury.com/news/mercedes-q2-2026-profit-china-sales-warning/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-grand-vitara-e20-consumer-court-replacement-order/</guid>
       <pubDate>Thu, 16 Jul 2026 12:15:47 +0530</pubDate>
       <description>Raipur consumer court directs Maruti Suzuki to replace a 2023 Grand Vitara Zeta+ over E20-related damage, or refund Rs 20.5 lakh with penalties.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG's ADAPT Platform Is A Smart Bet, But India Still Needs Proof</title>
-      <link>https://www.thecarjury.com/news/mg-adapt-platform-phev-hybrid-ev-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-adapt-platform-phev-hybrid-ev-india/</guid>
-      <pubDate>Thu, 16 Jul 2026 12:15:03 +0530</pubDate>
-      <description>MG Motor India reveals ADAPT, a flexible platform for PHEVs, strong hybrids, range-extender hybrids and pure EVs, skipping pure-ICE cars entirely.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
