@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 29 Jul 2026 13:29:21 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 15:15:08 +0530</lastBuildDate>
+    <item>
+      <title>Haryana Zeroes Road Tax on EVs Under Rs 30 Lakh: The Cleanest EV Deal in NCR</title>
+      <link>https://www.thecarjury.com/news/haryana-ev-road-tax-waiver-30-lakh-policy/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/haryana-ev-road-tax-waiver-30-lakh-policy/</guid>
+      <pubDate>Wed, 29 Jul 2026 15:15:00 +0530</pubDate>
+      <description>Haryana scraps road tax fully on EVs up to Rs 30 lakh ex-showroom, and halves it above. Here is what it means for buyers in Gurugram and Faridabad.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata halts Sanand production as Gujarat floods hit Nexon, Sierra, Tiago output</title>
       <link>https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-motor-ev-share-70-80-percent-west-asia-war-anurag-mehrotra/</guid>
       <pubDate>Thu, 16 Jul 2026 15:06:51 +0530</pubDate>
       <description>JSW MG Motor India MD Anurag Mehrotra expects NEVs to make up 70-80% of sales this year, riding fuel price volatility after the West Asia war.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Raipur Consumer Court Orders Maruti to Replace Grand Vitara Over E20 Damage</title>
-      <link>https://www.thecarjury.com/news/maruti-grand-vitara-e20-consumer-court-replacement-order/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-grand-vitara-e20-consumer-court-replacement-order/</guid>
-      <pubDate>Thu, 16 Jul 2026 12:15:47 +0530</pubDate>
-      <description>Raipur consumer court directs Maruti Suzuki to replace a 2023 Grand Vitara Zeta+ over E20-related damage, or refund Rs 20.5 lakh with penalties.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

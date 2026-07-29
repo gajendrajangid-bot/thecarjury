@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/audi-volkswagen-restructuring-h1-2026-revenue-drop/</loc>
+    <loc>https://www.thecarjury.com/news/haryana-ev-road-tax-waiver-30-lakh-policy/</loc>
     <lastmod>2026-07-29</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-07-27T15:04:32+05:30</news:publication_date>
-      <news:title>Audi CFO Admits Brand Cannot Fix This Alone, Turns To VW Group</news:title>
+      <news:publication_date>2026-07-29T15:15:00+05:30</news:publication_date>
+      <news:title>Haryana Zeroes Road Tax on EVs Under Rs 30 Lakh: The Cleanest EV Deal in NCR</news:title>
     </news:news>
   </url>
   <url>
@@ -23,18 +23,6 @@
       </news:publication>
       <news:publication_date>2026-07-28T12:08:16+05:30</news:publication_date>
       <news:title>2026 Scorpio N Facelift Cabin Spied: Thar Roxx's Twin Screens Are Coming</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-brezza-boosterjet-turbo-first-drive-review/</loc>
-    <lastmod>2026-07-27</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T15:03:51+05:30</news:publication_date>
-      <news:title>Brezza Boosterjet First Drive: Turbo Fixes the Boring Bit, Finally</news:title>
     </news:news>
   </url>
   <url>
