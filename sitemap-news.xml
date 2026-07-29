@@ -2,20 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-maruti-brezza-full-price-list-turbo-petrol/</loc>
-    <lastmod>2026-07-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T14:59:08+05:30</news:publication_date>
-      <news:title>2026 Maruti Brezza Price List: Rs 7.40L to Rs 13.71L, Turbo Undercuts 1.5L</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/audi-volkswagen-restructuring-h1-2026-revenue-drop/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -23,30 +11,6 @@
       </news:publication>
       <news:publication_date>2026-07-27T15:04:32+05:30</news:publication_date>
       <news:title>Audi CFO Admits Brand Cannot Fix This Alone, Turns To VW Group</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/india-ev-exports-14x-surge-maruti-tata-mahindra-q1-fy27/</loc>
-    <lastmod>2026-07-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T12:10:01+05:30</news:publication_date>
-      <news:title>India's EV Exports Jump 14x in a Quarter: Maruti's e-Vitara Leads the Charge Abroad</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mahindra-racing-wins-formula-e-tokyo-eprix-2026/</loc>
-    <lastmod>2026-07-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T12:08:41+05:30</news:publication_date>
-      <news:title>Mahindra Racing Wins Tokyo E-Prix: Second Formula E Win Of The Season</news:title>
     </news:news>
   </url>
   <url>
@@ -74,18 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/maruti-cng-sales-target-9-lakh-fy27/</loc>
-    <lastmod>2026-07-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T14:59:50+05:30</news:publication_date>
-      <news:title>Maruti Bets on 9 Lakh CNG Sales in FY27: The Petrol-EV Gap Widens</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mercedes-q2-2026-profit-china-sales-warning/</loc>
     <lastmod>2026-07-28</lastmod>
     <news:news>
@@ -107,6 +59,18 @@
       </news:publication>
       <news:publication_date>2026-07-28T12:07:27+05:30</news:publication_date>
       <news:title>Skoda Rides Kylaq to 24% Jump in June, VW Slides 20% as Virtus Cools</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</loc>
+    <lastmod>2026-07-29</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T13:29:09+05:30</news:publication_date>
+      <news:title>Tata halts Sanand production as Gujarat floods hit Nexon, Sierra, Tiago output</news:title>
     </news:news>
   </url>
 </urlset>
