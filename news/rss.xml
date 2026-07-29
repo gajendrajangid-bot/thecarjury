@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 29 Jul 2026 15:15:42 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 15:16:24 +0530</lastBuildDate>
+    <item>
+      <title>BMW to cut 8,000 German jobs by 2027: the EV transition bill comes due</title>
+      <link>https://www.thecarjury.com/news/bmw-8000-job-cuts-germany-2027/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-8000-job-cuts-germany-2027/</guid>
+      <pubDate>Wed, 29 Jul 2026 15:16:17 +0530</pubDate>
+      <description>BMW will offer voluntary redundancy to 40,000 German staff to cut 8,000 jobs by end 2027, as EV costs, US tariffs and China bite.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai Neira Electric MPV Breaks Cover At GIIAS: Is This The Carens Clavis EV In Disguise?</title>
       <link>https://www.thecarjury.com/news/hyundai-neira-electric-mpv-giias-2026-carens-clavis-ev-sibling/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-mg-motor-adapt-platform-ev-phev-suvs-fy27/</guid>
       <pubDate>Fri, 17 Jul 2026 09:35:15 +0530</pubDate>
       <description>JSW MG Motor commits Rs 1,400 crore to launch a battery-electric and plug-in hybrid SUV on its new ADAPT platform by FY27. Our take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>JSW MG's Wuling-based electric SUV lands in August to undercut Mahindra XEV 9S</title>
-      <link>https://www.thecarjury.com/news/jsw-mg-electric-suv-xev-9s-rival-august-2026-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-mg-electric-suv-xev-9s-rival-august-2026-launch/</guid>
-      <pubDate>Fri, 17 Jul 2026 09:34:29 +0530</pubDate>
-      <description>JSW MG will launch an Eksion-based electric SUV in August 2026 with a 69kWh pack and 600km range, priced to undercut the Mahindra XEV 9S 70kWh.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/bmw-8000-job-cuts-germany-2027/</loc>
+    <lastmod>2026-07-29</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-29T15:16:17+05:30</news:publication_date>
+      <news:title>BMW to cut 8,000 German jobs by 2027: the EV transition bill comes due</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/haryana-ev-road-tax-waiver-30-lakh-policy/</loc>
     <lastmod>2026-07-29</lastmod>
     <news:news>
@@ -39,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mercedes-q2-2026-profit-china-sales-warning/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -51,7 +63,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/skoda-vw-india-sales-june-2026-kylaq-virtus/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
