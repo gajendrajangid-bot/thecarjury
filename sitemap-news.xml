@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-maruti-brezza-on-road-prices-major-cities/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T15:08:27+05:30</news:publication_date>
+      <news:title>2026 Brezza On-Road Prices Are Out: Top Trim Crosses Rs 16 Lakh</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/audi-q9-flagship-suv-revealed-x7-gls-rival/</loc>
     <lastmod>2026-07-30</lastmod>
     <news:news>
