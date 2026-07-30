@@ -2023,6 +2023,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/tata-punch-ev-5-star-bharat-ncap-rating/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/tata-punch-flex-fuel-e85-spied-testing/</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
@@ -2054,7 +2060,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

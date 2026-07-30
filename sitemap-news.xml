@@ -110,8 +110,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/tata-punch-ev-5-star-bharat-ncap-rating/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-30T09:12:50+05:30</news:publication_date>
+      <news:title>Tata Punch.ev Scores 5 Stars in Bharat NCAP: The Cheapest Safe EV You Can Buy</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
