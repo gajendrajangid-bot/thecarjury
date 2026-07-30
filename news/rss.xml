@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 30 Jul 2026 09:15:15 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 12:13:13 +0530</lastBuildDate>
+    <item>
+      <title>Gadkari Finally Admits E20 Petrol Can Damage Older Cars: What It Means</title>
+      <link>https://www.thecarjury.com/news/e20-petrol-older-vehicles-rubber-gaskets-gadkari-admission/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/e20-petrol-older-vehicles-rubber-gaskets-gadkari-admission/</guid>
+      <pubDate>Thu, 30 Jul 2026 12:13:03 +0530</pubDate>
+      <description>Nitin Gadkari tells Rajya Sabha that older BS-III vehicles may need rubber part and gasket replacements when running on E20 petrol. The Car Jury verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Audi Q9 Revealed: The New Flagship That Finally Takes On The X7 And GLS</title>
       <link>https://www.thecarjury.com/news/audi-q9-flagship-suv-revealed-x7-gls-rival/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-bayon-suv-india-petrol-cng-victoris-rival/</guid>
       <pubDate>Mon, 20 Jul 2026 14:52:42 +0530</pubDate>
       <description>Hyundai&amp;#x27;s upcoming Bayon-based SUV will launch with a 1.5 NA petrol, followed by a CNG variant with underbody tank and spare wheel, targeting the Maruti Victoris.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>myHyundai App Opens 30,000+ Charging Points To All EVs, Not Just Hyundais</title>
-      <link>https://www.thecarjury.com/news/myhyundai-app-30000-ev-charging-points-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/myhyundai-app-30000-ev-charging-points-india/</guid>
-      <pubDate>Mon, 20 Jul 2026 12:12:10 +0530</pubDate>
-      <description>Hyundai&amp;#x27;s myHyundai app now aggregates 30,000+ EV charging points across India, open to all brands, with slot booking and digital payments built in.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
