@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 30 Jul 2026 15:07:27 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 15:08:29 +0530</lastBuildDate>
+    <item>
+      <title>2026 Brezza On-Road Prices Are Out: Top Trim Crosses Rs 16 Lakh</title>
+      <link>https://www.thecarjury.com/news/2026-maruti-brezza-on-road-prices-major-cities/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-maruti-brezza-on-road-prices-major-cities/</guid>
+      <pubDate>Thu, 30 Jul 2026 15:08:27 +0530</pubDate>
+      <description>The 2026 Maruti Brezza on-road prices are out, spanning Rs 8.26 lakh to Rs 16.81 lakh across major cities. Here is the full breakdown and our take.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti's Hansalpur Hits 1 Million Units: India's Biggest Car Plant Is Now An Export Machine</title>
       <link>https://www.thecarjury.com/news/maruti-hansalpur-gujarat-1-million-capacity-largest-india-plant/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-slavia-monte-carlo-new-colours-shimla-green-steel-grey/</guid>
       <pubDate>Tue, 21 Jul 2026 15:12:43 +0530</pubDate>
       <description>Skoda adds Shimla Green and Steel Grey to the Slavia Monte Carlo, limited to 200 units. Prices unchanged at Rs 16.69 lakh to Rs 18.19 lakh.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Citroen Basalt X Comfort Edition at Rs 8.75 lakh: Trim Tweaks, Not a Fix</title>
-      <link>https://www.thecarjury.com/news/citroen-basalt-x-comfort-edition-launch-price/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/citroen-basalt-x-comfort-edition-launch-price/</guid>
-      <pubDate>Tue, 21 Jul 2026 11:55:52 +0530</pubDate>
-      <description>Citroen launches the Basalt X Comfort Edition from Rs 8.75 lakh ex-showroom, adding interior comfort features to lower variants of the coupe-SUV.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
