@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 30 Jul 2026 12:13:13 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 12:14:00 +0530</lastBuildDate>
+    <item>
+      <title>Kia Confirms Sorento Name For India With Sorrento Teaser</title>
+      <link>https://www.thecarjury.com/news/kia-sorento-india-name-confirmed-teaser/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-india-name-confirmed-teaser/</guid>
+      <pubDate>Thu, 30 Jul 2026 12:13:54 +0530</pubDate>
+      <description>Kia India&amp;#x27;s latest teaser uses Sorrento, Italy as a clue, confirming the upcoming three-row hybrid SUV will be called Sorento here.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Gadkari Finally Admits E20 Petrol Can Damage Older Cars: What It Means</title>
       <link>https://www.thecarjury.com/news/e20-petrol-older-vehicles-rubber-gaskets-gadkari-admission/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-nexon-osprey-south-africa-launch-q3-2026/</guid>
       <pubDate>Mon, 20 Jul 2026 14:55:32 +0530</pubDate>
       <description>Tata Motors will sell the Nexon as the &amp;#x27;Osprey&amp;#x27; in South Africa from Q3 2026. Same SUV, new nameplate inspired by the bird of prey.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai's Bayon-based SUV Targets Victoris With NA Petrol and Underbody CNG</title>
-      <link>https://www.thecarjury.com/news/hyundai-bayon-suv-india-petrol-cng-victoris-rival/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-bayon-suv-india-petrol-cng-victoris-rival/</guid>
-      <pubDate>Mon, 20 Jul 2026 14:52:42 +0530</pubDate>
-      <description>Hyundai&amp;#x27;s upcoming Bayon-based SUV will launch with a 1.5 NA petrol, followed by a CNG variant with underbody tank and spare wheel, targeting the Maruti Victoris.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
