@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 30 Jul 2026 12:14:06 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 15:06:48 +0530</lastBuildDate>
+    <item>
+      <title>MG Hector Hawk spied: Starlight 560 twin lands in India with EV and PHEV</title>
+      <link>https://www.thecarjury.com/news/mg-hector-hawk-ev-phev-spied-august-2026-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-hector-hawk-ev-phev-spied-august-2026-launch/</guid>
+      <pubDate>Thu, 30 Jul 2026 15:06:27 +0530</pubDate>
+      <description>MG&amp;#x27;s Wuling Starlight 560-based Hector Hawk spied in EV form, launches August 2026 with 530km range and a PHEV option to rival XUV 7XO and Safari.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Confirms Sorento Name For India With Sorrento Teaser</title>
       <link>https://www.thecarjury.com/news/kia-sorento-india-name-confirmed-teaser/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/myhyundai-app-30000-ev-charging-points-india/</guid>
       <pubDate>Mon, 20 Jul 2026 12:12:10 +0530</pubDate>
       <description>Hyundai&amp;#x27;s myHyundai app now aggregates 30,000+ EV charging points across India, open to all brands, with slot booking and digital payments built in.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Reva at 25: Chetan Maini's EV Legacy, and Why India Owes Him More Than a Nod</title>
-      <link>https://www.thecarjury.com/news/reva-25-years-chetan-maini-ev-comeback/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/reva-25-years-chetan-maini-ev-comeback/</guid>
-      <pubDate>Sat, 18 Jul 2026 09:02:22 +0530</pubDate>
-      <description>India&amp;#x27;s first electric car turns 25. Founder Chetan Maini says he would never say no to another EV venture. Our take on his legacy.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
