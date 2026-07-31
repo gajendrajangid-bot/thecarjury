@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-hector-hawk-ev-phev-spied-august-2026-launch/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -131,6 +131,18 @@
       </news:publication>
       <news:publication_date>2026-07-30T15:06:27+05:30</news:publication_date>
       <news:title>MG Hector Hawk spied: Starlight 560 twin lands in India with EV and PHEV</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mg-hector-plus-diesel-facelift-price-rs-20-lakh/</loc>
+    <lastmod>2026-07-31</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T14:58:36+05:30</news:publication_date>
+      <news:title>MG Hector Plus Diesel Returns at Rs 20 Lakh: Right Engine, Wrong Gearbox</news:title>
     </news:news>
   </url>
   <url>
@@ -203,18 +215,6 @@
       </news:publication>
       <news:publication_date>2026-07-30T09:12:50+05:30</news:publication_date>
       <news:title>Tata Punch.ev Scores 5 Stars in Bharat NCAP: The Cheapest Safe EV You Can Buy</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T13:29:09+05:30</news:publication_date>
-      <news:title>Tata halts Sanand production as Gujarat floods hit Nexon, Sierra, Tiago output</news:title>
     </news:news>
   </url>
 </urlset>

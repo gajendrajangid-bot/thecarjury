@@ -1430,13 +1430,19 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-hector-hawk-ev-phev-spied-august-2026-launch/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-hector-hawk-phev-name-trademark-india/</loc>
     <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mg-hector-plus-diesel-facelift-price-rs-20-lakh/</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
