@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-brezza-on-road-prices-major-cities/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -143,6 +143,18 @@
       </news:publication>
       <news:publication_date>2026-07-29T18:12:10+05:30</news:publication_date>
       <news:title>Mini Cooper Convertible Stardust Edition Lands At Rs 62.90 Lakh: Paint And Wheels, No More</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/suzuki-vision-e-sky-prototype-spied-europe/</loc>
+    <lastmod>2026-07-31</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T09:11:58+05:30</news:publication_date>
+      <news:title>Suzuki Vision E-Sky Spied Testing: Sub-S-Presso EV Nears Production</news:title>
     </news:news>
   </url>
   <url>
