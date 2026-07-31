@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 31 Jul 2026 09:12:13 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 09:14:07 +0530</lastBuildDate>
+    <item>
+      <title>Renault H1 2026: Revenue Up 9.5%, But Margins Slip as India Push Looms</title>
+      <link>https://www.thecarjury.com/news/renault-group-h1-2026-revenue-nissan-india-implications/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-group-h1-2026-revenue-nissan-india-implications/</guid>
+      <pubDate>Fri, 31 Jul 2026 09:13:59 +0530</pubDate>
+      <description>Renault Group posts 9.5% H1 2026 revenue growth to €30.3 billion and returns to profit, but automotive margin slips to 3%. What it means for India.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Suzuki Vision E-Sky Spied Testing: Sub-S-Presso EV Nears Production</title>
       <link>https://www.thecarjury.com/news/suzuki-vision-e-sky-prototype-spied-europe/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-brezza-facelift-leaked-1-litre-turbo-july-24-launch/</guid>
       <pubDate>Tue, 21 Jul 2026 18:12:43 +0530</pubDate>
       <description>Maruti Brezza facelift spied undisguised ahead of July 24 launch with a new 1.0-litre turbo-petrol, 10.1-inch screen and ventilated seats. TCJ&amp;#x27;s verdict.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Nissan Tekton design brief: Patrol DNA in a C-segment shot</title>
-      <link>https://www.thecarjury.com/news/nissan-tekton-design-matthew-weaver-patrol-dna/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-design-matthew-weaver-patrol-dna/</guid>
-      <pubDate>Tue, 21 Jul 2026 15:14:12 +0530</pubDate>
-      <description>Nissan Design Director Matthew Weaver explains how the Tekton compresses Patrol&amp;#x27;s boldness into a C-segment SUV built for India and beyond.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
