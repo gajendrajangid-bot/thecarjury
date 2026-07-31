@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 31 Jul 2026 18:06:06 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 18:07:33 +0530</lastBuildDate>
+    <item>
+      <title>Maruti's Q1 Profit Slips 9% Despite 36% Revenue Jump: Costs Bite Hard</title>
+      <link>https://www.thecarjury.com/news/maruti-suzuki-q1-fy27-profit-declines-9-percent/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-suzuki-q1-fy27-profit-declines-9-percent/</guid>
+      <pubDate>Fri, 31 Jul 2026 18:07:28 +0530</pubDate>
+      <description>Maruti Suzuki Q1 FY27 net profit fell 9.1% to Rs 3,447 crore despite a 36% revenue surge, as raw material costs and expenses outpaced sales growth.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Fronx, Jimny, eVitara Power India's Q2 2026 Car Exports Past 2.2 Lakh Units</title>
       <link>https://www.thecarjury.com/news/car-exports-q2-2026-fronx-jimny-evitara-lead-india-shipments/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hatchback-sales-june-2026-wagonr-swift-baleno-altroz/</guid>
       <pubDate>Thu, 23 Jul 2026 08:54:56 +0530</pubDate>
       <description>Hatchback sales rose 17.27% YoY in June 2026 to 79,419 units. Maruti WagonR led with 16,952, Swift second at 15,215. Full segment read inside.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Sedan Sales June 2026: Dzire Owns 57% As Segment Grows 10% YoY</title>
-      <link>https://www.thecarjury.com/news/sedan-sales-june-2026-dzire-city-virtus-verna/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/sedan-sales-june-2026-dzire-city-virtus-verna/</guid>
-      <pubDate>Wed, 22 Jul 2026 17:02:18 +0530</pubDate>
-      <description>India&amp;#x27;s nine top sedans sold 31,183 units in June 2026, up 10% YoY. Maruti Dzire alone took 57% share. The Car Jury&amp;#x27;s verdict inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
