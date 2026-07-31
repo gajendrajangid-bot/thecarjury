@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 31 Jul 2026 18:06:12 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 18:07:39 +0530</lastBuildDate>
+    <item>
+      <title>Maruti's Q1 Profit Slips 9% Despite 36% Revenue Jump: Costs Bite Hard</title>
+      <link>https://www.thecarjury.com/news/maruti-suzuki-q1-fy27-profit-declines-9-percent/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-suzuki-q1-fy27-profit-declines-9-percent/</guid>
+      <pubDate>Fri, 31 Jul 2026 18:07:28 +0530</pubDate>
+      <description>Maruti Suzuki Q1 FY27 net profit fell 9.1% to Rs 3,447 crore despite a 36% revenue surge, as raw material costs and expenses outpaced sales growth.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Fronx, Jimny, eVitara Power India's Q2 2026 Car Exports Past 2.2 Lakh Units</title>
       <link>https://www.thecarjury.com/news/car-exports-q2-2026-fronx-jimny-evitara-lead-india-shipments/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-suzuki-price-hike-august-2026/</guid>
       <pubDate>Tue, 21 Jul 2026 18:14:07 +0530</pubDate>
       <description>Maruti Suzuki will raise prices across its lineup by up to Rs 30,000 from August 2026, blaming sustained input cost inflation.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>JSW Set To Take Majority Stake In Skoda-VW India: Deal In Final Stages</title>
-      <link>https://www.thecarjury.com/news/vw-skoda-india-jsw-majority-stake-deal/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/vw-skoda-india-jsw-majority-stake-deal/</guid>
-      <pubDate>Tue, 21 Jul 2026 18:13:26 +0530</pubDate>
-      <description>JSW Group is in advanced talks to buy a majority stake in Skoda Auto Volkswagen India, potentially reshaping VW&amp;#x27;s India play after two decades.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
