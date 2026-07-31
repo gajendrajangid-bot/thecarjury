@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 31 Jul 2026 09:14:13 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 09:15:06 +0530</lastBuildDate>
+    <item>
+      <title>Stellantis Q2 miss: Filosa's Jeep revival isn't convincing the market yet</title>
+      <link>https://www.thecarjury.com/news/stellantis-q2-2026-profit-miss-filosa-turnaround/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/stellantis-q2-2026-profit-miss-filosa-turnaround/</guid>
+      <pubDate>Fri, 31 Jul 2026 09:14:54 +0530</pubDate>
+      <description>Stellantis posted Q2 EBIT of 773 million euros, well short of forecasts, as Europe weakness and tariffs weigh on CEO Antonio Filosa&amp;#x27;s turnaround plan.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Renault H1 2026: Revenue Up 9.5%, But Margins Slip as India Push Looms</title>
       <link>https://www.thecarjury.com/news/renault-group-h1-2026-revenue-nissan-india-implications/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-mercedes-maybach-gls-680-facelift-debut/</guid>
       <pubDate>Tue, 21 Jul 2026 15:13:27 +0530</pubDate>
       <description>The 2026 Mercedes-Maybach GLS 680 gets a stronger V8, illuminated grille, Hyperscreen cabin and 22-inch wheels as standard. Our verdict inside.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Slavia Monte Carlo gets two new colours: paint, not substance</title>
-      <link>https://www.thecarjury.com/news/skoda-slavia-monte-carlo-new-colours-shimla-green-steel-grey/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-slavia-monte-carlo-new-colours-shimla-green-steel-grey/</guid>
-      <pubDate>Tue, 21 Jul 2026 15:12:43 +0530</pubDate>
-      <description>Skoda adds Shimla Green and Steel Grey to the Slavia Monte Carlo, limited to 200 units. Prices unchanged at Rs 16.69 lakh to Rs 18.19 lakh.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
