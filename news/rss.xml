@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 31 Jul 2026 09:14:59 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 14:58:46 +0530</lastBuildDate>
+    <item>
+      <title>MG Hector Plus Diesel Returns at Rs 20 Lakh: Right Engine, Wrong Gearbox</title>
+      <link>https://www.thecarjury.com/news/mg-hector-plus-diesel-facelift-price-rs-20-lakh/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-hector-plus-diesel-facelift-price-rs-20-lakh/</guid>
+      <pubDate>Fri, 31 Jul 2026 14:58:36 +0530</pubDate>
+      <description>MG brings back the Hector Plus diesel at Rs 20 lakh with a 2.0-litre engine and manual only. No automatic, no ADAS. Our verdict inside.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Stellantis Q2 miss: Filosa's Jeep revival isn't convincing the market yet</title>
       <link>https://www.thecarjury.com/news/stellantis-q2-2026-profit-miss-filosa-turnaround/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-suzuki-price-hike-august-2026/</guid>
       <pubDate>Tue, 21 Jul 2026 18:14:07 +0530</pubDate>
       <description>Maruti Suzuki will raise prices across its lineup by up to Rs 30,000 from August 2026, blaming sustained input cost inflation.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>JSW Set To Take Majority Stake In Skoda-VW India: Deal In Final Stages</title>
-      <link>https://www.thecarjury.com/news/vw-skoda-india-jsw-majority-stake-deal/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/vw-skoda-india-jsw-majority-stake-deal/</guid>
-      <pubDate>Tue, 21 Jul 2026 18:13:26 +0530</pubDate>
-      <description>JSW Group is in advanced talks to buy a majority stake in Skoda Auto Volkswagen India, potentially reshaping VW&amp;#x27;s India play after two decades.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
