@@ -26,18 +26,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/bmw-8000-job-cuts-germany-2027/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T15:16:17+05:30</news:publication_date>
-      <news:title>BMW to cut 8,000 German jobs by 2027: the EV transition bill comes due</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/e20-petrol-older-vehicles-rubber-gaskets-gadkari-admission/</loc>
     <lastmod>2026-07-31</lastmod>
     <news:news>
@@ -50,32 +38,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/haryana-ev-road-tax-waiver-30-lakh-policy/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T15:15:00+05:30</news:publication_date>
-      <news:title>Haryana Zeroes Road Tax on EVs Under Rs 30 Lakh: The Cleanest EV Deal in NCR</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-neira-electric-mpv-giias-2026-carens-clavis-ev-sibling/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T15:15:37+05:30</news:publication_date>
-      <news:title>Hyundai Neira Electric MPV Breaks Cover At GIIAS: Is This The Carens Clavis EV In Disguise?</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-neira-vs-kia-clavis-ev-badge-engineered-mpv/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -83,6 +47,18 @@
       </news:publication>
       <news:publication_date>2026-07-30T18:03:23+05:30</news:publication_date>
       <news:title>Hyundai Neira Is A Rebadged Kia Clavis EV: Lazy Or Smart?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/kia-india-electrified-lineup-2030-cng-hybrid-plan/</loc>
+    <lastmod>2026-07-31</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-31T18:05:11+05:30</news:publication_date>
+      <news:title>Kia India Bets Big On Electrification And CNG By 2030: Smart Or Scattered?</news:title>
     </news:news>
   </url>
   <url>
@@ -99,7 +75,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mahindra-be-6-triple-screen-dashboard-update/</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
