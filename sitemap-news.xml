@@ -38,18 +38,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/e20-petrol-older-vehicles-rubber-gaskets-gadkari-admission/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-30T12:13:03+05:30</news:publication_date>
-      <news:title>Gadkari Finally Admits E20 Petrol Can Damage Older Cars: What It Means</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-bayon-based-sub-creta-suv-festive-2026-launch/</loc>
     <lastmod>2026-08-01</lastmod>
     <news:news>
@@ -83,6 +71,18 @@
       </news:publication>
       <news:publication_date>2026-07-30T18:03:23+05:30</news:publication_date>
       <news:title>Hyundai Neira Is A Rebadged Kia Clavis EV: Lazy Or Smart?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/jsw-mg-motor-july-2026-sales-record-nev-share/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T12:13:16+05:30</news:publication_date>
+      <news:title>JSW MG Motor Posts Record 8,158 Units In July, NEVs Do The Heavy Lifting</news:title>
     </news:news>
   </url>
   <url>
@@ -147,7 +147,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-hector-plus-diesel-facelift-price-rs-20-lakh/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
