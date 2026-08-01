@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 01 Aug 2026 08:04:50 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 08:48:32 +0530</lastBuildDate>
+    <item>
+      <title>MoRTH drafts safety and fitness rules for two-wheeled ambulances</title>
+      <link>https://www.thecarjury.com/news/morth-two-wheeled-ambulance-safety-norms-draft-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/morth-two-wheeled-ambulance-safety-norms-draft-2026/</guid>
+      <pubDate>Sat, 01 Aug 2026 08:48:31 +0530</pubDate>
+      <description>MoRTH proposes fitness inspections, warning-light standards and AIS:209 compliance for two-wheeled road ambulances, with phased deadlines through 2027.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti's Q1 Profit Slips 9% Despite 36% Revenue Jump: Costs Bite Hard</title>
       <link>https://www.thecarjury.com/news/maruti-suzuki-q1-fy27-profit-declines-9-percent/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-innova-hycross-facelift-front-spied-hilux-design/</guid>
       <pubDate>Thu, 23 Jul 2026 08:55:41 +0530</pubDate>
       <description>Fresh spy shots of the Toyota Innova Hycross facelift show a Hilux-inspired front fascia. Here is what changes and whether you should wait.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hatchback Sales June 2026: WagonR Holds Lead, Segment Grows 17% YoY</title>
-      <link>https://www.thecarjury.com/news/hatchback-sales-june-2026-wagonr-swift-baleno-altroz/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hatchback-sales-june-2026-wagonr-swift-baleno-altroz/</guid>
-      <pubDate>Thu, 23 Jul 2026 08:54:56 +0530</pubDate>
-      <description>Hatchback sales rose 17.27% YoY in June 2026 to 79,419 units. Maruti WagonR led with 16,952, Swift second at 15,215. Full segment read inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
