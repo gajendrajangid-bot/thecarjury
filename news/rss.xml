@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 01 Aug 2026 08:51:05 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 12:12:36 +0530</lastBuildDate>
+    <item>
+      <title>Hyundai India Cracks 75k in a Month: Record July on Creta and Exports</title>
+      <link>https://www.thecarjury.com/news/hyundai-india-sales-july-2026-record-75360-units/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-india-sales-july-2026-record-75360-units/</guid>
+      <pubDate>Sat, 01 Aug 2026 12:12:31 +0530</pubDate>
+      <description>Hyundai India posted its highest-ever monthly sales in July 2026 at 75,360 units, with domestic dispatches up 23% year-on-year.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2026 Scorpio N Spied At Dealer With Pano Sunroof: August 15 Launch Locked</title>
       <link>https://www.thecarjury.com/news/2026-mahindra-scorpio-n-panoramic-sunroof-spy-dealer-yard/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-ev-launched-price-nexon-xuv-3xo-rival/</guid>
       <pubDate>Thu, 23 Jul 2026 15:02:58 +0530</pubDate>
       <description>Kia Syros EV launches at Rs 13.50 lakh, undercut by Nexon EV and XUV 3XO EV. BaaS starts at Rs 7.99 lakh. Our verdict for buyers.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>China's EV Takeover Is Real, And India's Legacy Brands Are Sleepwalking Into It</title>
-      <link>https://www.thecarjury.com/news/chinese-ev-brands-global-takeover-india-lessons/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/chinese-ev-brands-global-takeover-india-lessons/</guid>
-      <pubDate>Thu, 23 Jul 2026 12:00:23 +0530</pubDate>
-      <description>Chinese EV brands like BYD, Geely and XPeng are eating global market share. Here&amp;#x27;s what their rise means for Indian buyers and legacy players.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
