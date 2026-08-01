@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-mahindra-scorpio-n-panoramic-sunroof-spy-dealer-yard/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T08:50:57+05:30</news:publication_date>
+      <news:title>2026 Scorpio N Spied At Dealer With Pano Sunroof: August 15 Launch Locked</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-brezza-on-road-prices-major-cities/</loc>
     <lastmod>2026-08-01</lastmod>
     <news:news>
@@ -27,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/august-2026-launches-scorpio-n-facelift-slavia-vision-s/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
