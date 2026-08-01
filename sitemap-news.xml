@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-brezza-on-road-prices-major-cities/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/car-exports-q2-2026-fronx-jimny-evitara-lead-india-shipments/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/e20-petrol-older-vehicles-rubber-gaskets-gadkari-admission/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-neira-vs-kia-clavis-ev-badge-engineered-mpv/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-india-name-confirmed-teaser/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -86,20 +86,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mahindra-be-6-triple-screen-dashboard-update/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:12:49+05:30</news:publication_date>
-      <news:title>Mahindra BE 6 to get triple screens and a rethought dashboard</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/maruti-hansalpur-gujarat-1-million-capacity-largest-india-plant/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -123,7 +111,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-hector-hawk-ev-phev-spied-august-2026-launch/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -146,20 +134,20 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mini-cooper-convertible-stardust-edition-launch-price/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <loc>https://www.thecarjury.com/news/morth-two-wheeled-ambulance-safety-norms-draft-2026/</loc>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-07-29T18:12:10+05:30</news:publication_date>
-      <news:title>Mini Cooper Convertible Stardust Edition Lands At Rs 62.90 Lakh: Paint And Wheels, No More</news:title>
+      <news:publication_date>2026-08-01T08:48:31+05:30</news:publication_date>
+      <news:title>MoRTH drafts safety and fitness rules for two-wheeled ambulances</news:title>
     </news:news>
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-group-h1-2026-revenue-nissan-india-implications/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -183,7 +171,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/suzuki-vision-e-sky-prototype-spied-europe/</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -191,18 +179,6 @@
       </news:publication>
       <news:publication_date>2026-07-31T09:11:58+05:30</news:publication_date>
       <news:title>Suzuki Vision E-Sky Spied Testing: Sub-S-Presso EV Nears Production</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/suzuki-xl7-facelift-2026-indonesia-auto-show-maruti-xl6-preview/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-29T18:13:40+05:30</news:publication_date>
-      <news:title>Suzuki XL7 facelift shown in Indonesia previews the Maruti XL6 update India needs</news:title>
     </news:news>
   </url>
   <url>
