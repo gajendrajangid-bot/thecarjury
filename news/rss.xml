@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 03 Aug 2026 15:08:22 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 15:09:02 +0530</lastBuildDate>
+    <item>
+      <title>Porsche India's 70% Buy-Back Guarantee: Smart Hedge Or Marketing Cushion?</title>
+      <link>https://www.thecarjury.com/news/porsche-india-assured-buyback-70-percent-3-years/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/porsche-india-assured-buyback-70-percent-3-years/</guid>
+      <pubDate>Mon, 03 Aug 2026 15:08:52 +0530</pubDate>
+      <description>Porsche India&amp;#x27;s new Assured Buy-Back Program guarantees up to 70% resale value after 36 months on Cayenne, Macan Electric and Taycan. Our verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Curvv Gets Rs 1.25 Lakh Off In August: The Petrol SUV Buyer's Best Deal</title>
       <link>https://www.thecarjury.com/news/tata-curvv-august-2026-discount-benefits/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-vision-t-suv-design-patent-2027-launch/</guid>
       <pubDate>Fri, 24 Jul 2026 12:02:47 +0530</pubDate>
       <description>Mahindra files design patent for Vision T concept SUV, a ruggedized boxy off-roader closely related to the Thar family. Launch expected in 2027.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mercedes India Goes E25-Ready Before The Government Even Sets A Date</title>
-      <link>https://www.thecarjury.com/news/mercedes-benz-india-e25-compliant-cars-biofuel-push-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-benz-india-e25-compliant-cars-biofuel-push-2026/</guid>
-      <pubDate>Fri, 24 Jul 2026 08:46:01 +0530</pubDate>
-      <description>Mercedes-Benz India says every car it sells in 2026 is E25-compliant, ahead of any government mandate on 25 percent ethanol-blended petrol.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
