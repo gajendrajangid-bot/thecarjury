@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 02:42:18 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 02:43:01 +0530</lastBuildDate>
+    <item>
+      <title>New Toyota Hilux India: The Features Toyota Quietly Deleted</title>
+      <link>https://www.thecarjury.com/news/toyota-hilux-india-vs-global-missing-features/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-hilux-india-vs-global-missing-features/</guid>
+      <pubDate>Tue, 04 Aug 2026 02:42:50 +0530</pubDate>
+      <description>The 9th-gen Toyota Hilux launches in India from Rs 31.99 lakh, but loses dual-zone climate, manual gearbox and 18-inch alloys versus global spec.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai Creta August 2026 Discounts Hit Rs 1 Lakh: Petrol Buyers Win, Diesel Loses</title>
       <link>https://www.thecarjury.com/news/hyundai-creta-discount-august-2026-rs-1-lakh/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/ev-penetration-6-5-percent-q1-fy27-icra-report/</guid>
       <pubDate>Sat, 25 Jul 2026 11:55:27 +0530</pubDate>
       <description>ICRA says EV penetration in India&amp;#x27;s passenger vehicle market rose to 6.5% in Q1 FY27 from 4.6% in FY26, aided by high fuel prices.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Honda ZR-V lands at Rs 48 lakh: CBU hybrid picks a lonely fight</title>
-      <link>https://www.thecarjury.com/news/honda-zr-v-launch-price-india-hybrid-cbu/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/honda-zr-v-launch-price-india-hybrid-cbu/</guid>
-      <pubDate>Sat, 25 Jul 2026 11:54:34 +0530</pubDate>
-      <description>Honda ZR-V launches in India at Rs 48 lakh ex-showroom as a CBU strong-hybrid SUV taking on the Skoda Kodiaq, VW Tayron and Tiguan.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
