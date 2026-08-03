@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 02:43:01 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 02:44:32 +0530</lastBuildDate>
+    <item>
+      <title>Kia Teases Sorento Hybrid For India: First Hybrid Kia, And The Priciest</title>
+      <link>https://www.thecarjury.com/news/kia-sorento-hybrid-india-teaser-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-hybrid-india-teaser-launch/</guid>
+      <pubDate>Tue, 04 Aug 2026 02:44:15 +0530</pubDate>
+      <description>Kia India teases the Sorento Hybrid, its first hybrid SUV and soon its priciest model. Unofficial bookings open at dealerships ahead of launch.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>New Toyota Hilux India: The Features Toyota Quietly Deleted</title>
       <link>https://www.thecarjury.com/news/toyota-hilux-india-vs-global-missing-features/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/landmark-cars-second-jsw-mg-dealership-ahmedabad-loi/</guid>
       <pubDate>Sat, 25 Jul 2026 14:51:27 +0530</pubDate>
       <description>Landmark Cars gets LOI from JSW MG Motor for a new Experia showroom in Vastral, Ahmedabad, taking its MG dealership count in India to 17.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>EVs Hit 6.5% Share in Q1 FY27: Adoption Is Real, But Fragile</title>
-      <link>https://www.thecarjury.com/news/ev-penetration-6-5-percent-q1-fy27-icra-report/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/ev-penetration-6-5-percent-q1-fy27-icra-report/</guid>
-      <pubDate>Sat, 25 Jul 2026 11:55:27 +0530</pubDate>
-      <description>ICRA says EV penetration in India&amp;#x27;s passenger vehicle market rose to 6.5% in Q1 FY27 from 4.6% in FY26, aided by high fuel prices.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
