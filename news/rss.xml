@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 03 Aug 2026 12:11:21 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 12:12:34 +0530</lastBuildDate>
+    <item>
+      <title>Maruti, Hyundai, M&amp;M eat commodity costs to keep lines running</title>
+      <link>https://www.thecarjury.com/news/carmakers-absorb-commodity-shocks-price-hikes-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/carmakers-absorb-commodity-shocks-price-hikes-2026/</guid>
+      <pubDate>Mon, 03 Aug 2026 12:12:28 +0530</pubDate>
+      <description>Maruti, Hyundai and Mahindra are absorbing commodity cost pressure and taking only calibrated price hikes as demand stays strong through 2026.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Sorento bookings open in India: three-row flagship gets serious</title>
       <link>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-mercedes-amg-e53-launched-india-price-1-45-crore/</guid>
       <pubDate>Thu, 23 Jul 2026 15:05:20 +0530</pubDate>
       <description>Mercedes-AMG E 53 launches in India at Rs. 1.45 crore with a 585 HP inline-six plug-in hybrid. The Car Jury on whether it makes sense.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti Brezza Facelift Bags 5-Star Bharat NCAP, One Day Before Launch</title>
-      <link>https://www.thecarjury.com/news/maruti-brezza-facelift-5-star-bharat-ncap/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-brezza-facelift-5-star-bharat-ncap/</guid>
-      <pubDate>Thu, 23 Jul 2026 15:04:31 +0530</pubDate>
-      <description>The 2026 Maruti Brezza facelift has scored a full 5-star Bharat NCAP rating for both adult and child occupants, a day before its July 24 launch.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
