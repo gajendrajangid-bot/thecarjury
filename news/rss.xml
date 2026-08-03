@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 02:42:11 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 02:42:55 +0530</lastBuildDate>
+    <item>
+      <title>New Toyota Hilux India: The Features Toyota Quietly Deleted</title>
+      <link>https://www.thecarjury.com/news/toyota-hilux-india-vs-global-missing-features/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-hilux-india-vs-global-missing-features/</guid>
+      <pubDate>Tue, 04 Aug 2026 02:42:50 +0530</pubDate>
+      <description>The 9th-gen Toyota Hilux launches in India from Rs 31.99 lakh, but loses dual-zone climate, manual gearbox and 18-inch alloys versus global spec.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai Creta August 2026 Discounts Hit Rs 1 Lakh: Petrol Buyers Win, Diesel Loses</title>
       <link>https://www.thecarjury.com/news/hyundai-creta-discount-august-2026-rs-1-lakh/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-maruti-brezza-full-price-list-turbo-petrol/</guid>
       <pubDate>Sun, 26 Jul 2026 14:59:08 +0530</pubDate>
       <description>Full 2026 Maruti Brezza price list is out. The new 1.0L turbo petrol starts cheaper than the 1.5L, thanks to GST 2.0 reforms.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Landmark Cars Bags LOI for Second JSW MG Showroom in Ahmedabad</title>
-      <link>https://www.thecarjury.com/news/landmark-cars-second-jsw-mg-dealership-ahmedabad-loi/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/landmark-cars-second-jsw-mg-dealership-ahmedabad-loi/</guid>
-      <pubDate>Sat, 25 Jul 2026 14:51:27 +0530</pubDate>
-      <description>Landmark Cars gets LOI from JSW MG Motor for a new Experia showroom in Vastral, Ahmedabad, taking its MG dealership count in India to 17.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
