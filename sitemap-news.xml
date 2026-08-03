@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-mahindra-scorpio-n-panoramic-sunroof-spy-dealer-yard/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:50:57+05:30</news:publication_date>
-      <news:title>2026 Scorpio N Spied At Dealer With Pano Sunroof: August 15 Launch Locked</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/bmw-7-series-i7-facelift-india-bookings-open/</loc>
     <lastmod>2026-08-01</lastmod>
     <news:news>
@@ -23,18 +11,6 @@
       </news:publication>
       <news:publication_date>2026-08-01T14:58:15+05:30</news:publication_date>
       <news:title>BMW 7 Series and i7 Facelift Bookings Open in India: What Changes</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-bayon-based-sub-creta-suv-festive-2026-launch/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:49:11+05:30</news:publication_date>
-      <news:title>Hyundai's Bayon-based sub-Creta SUV lands this festive season, and it needs to undercut the Venue</news:title>
     </news:news>
   </url>
   <url>
@@ -63,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-india-sales-july-2026-28200-units-27-percent-growth/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-03</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -71,6 +47,18 @@
       </news:publication>
       <news:publication_date>2026-08-01T14:58:58+05:30</news:publication_date>
       <news:title>Kia India Posts Best-Ever July 2026 With 28,200 Units, Up 27%</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-2026/</loc>
+    <lastmod>2026-08-03</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-03T12:11:01+05:30</news:publication_date>
+      <news:title>Kia Sorento bookings open in India: three-row flagship gets serious</news:title>
     </news:news>
   </url>
   <url>
@@ -83,18 +71,6 @@
       </news:publication>
       <news:publication_date>2026-08-01T12:13:57+05:30</news:publication_date>
       <news:title>Mercedes recalls 3.1 lakh cars in US over door switch: India not on the list</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/morth-two-wheeled-ambulance-safety-norms-draft-2026/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T08:48:31+05:30</news:publication_date>
-      <news:title>MoRTH drafts safety and fitness rules for two-wheeled ambulances</news:title>
     </news:news>
   </url>
 </urlset>
