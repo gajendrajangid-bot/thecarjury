@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/carmakers-absorb-commodity-shocks-price-hikes-2026/</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -14,8 +14,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-creta-discount-august-2026-rs-1-lakh/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T02:42:09+05:30</news:publication_date>
+      <news:title>Hyundai Creta August 2026 Discounts Hit Rs 1 Lakh: Petrol Buyers Win, Diesel Loses</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/july-2026-ev-sales-cross-30000-units-tata-mahindra-lead/</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -39,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-2026/</loc>
-    <lastmod>2026-08-03</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
