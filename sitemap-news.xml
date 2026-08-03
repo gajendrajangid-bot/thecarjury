@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/bmw-7-series-i7-facelift-india-bookings-open/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T14:58:15+05:30</news:publication_date>
-      <news:title>BMW 7 Series and i7 Facelift Bookings Open in India: What Changes</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/carmakers-absorb-commodity-shocks-price-hikes-2026/</loc>
     <lastmod>2026-08-03</lastmod>
     <news:news>
@@ -23,18 +11,6 @@
       </news:publication>
       <news:publication_date>2026-08-03T12:12:28+05:30</news:publication_date>
       <news:title>Maruti, Hyundai, M&amp;M eat commodity costs to keep lines running</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/jsw-mg-motor-july-2026-sales-record-nev-share/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T12:13:16+05:30</news:publication_date>
-      <news:title>JSW MG Motor Posts Record 8,158 Units In July, NEVs Do The Heavy Lifting</news:title>
     </news:news>
   </url>
   <url>
@@ -50,18 +26,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/kia-india-sales-july-2026-28200-units-27-percent-growth/</loc>
-    <lastmod>2026-08-03</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T14:58:58+05:30</news:publication_date>
-      <news:title>Kia India Posts Best-Ever July 2026 With 28,200 Units, Up 27%</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-2026/</loc>
     <lastmod>2026-08-03</lastmod>
     <news:news>
@@ -74,15 +38,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mercedes-benz-us-recall-door-switch-2026/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <loc>https://www.thecarjury.com/news/tata-curvv-august-2026-discount-benefits/</loc>
+    <lastmod>2026-08-03</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-01T12:13:57+05:30</news:publication_date>
-      <news:title>Mercedes recalls 3.1 lakh cars in US over door switch: India not on the list</news:title>
+      <news:publication_date>2026-08-03T15:08:13+05:30</news:publication_date>
+      <news:title>Tata Curvv Gets Rs 1.25 Lakh Off In August: The Petrol SUV Buyer's Best Deal</news:title>
     </news:news>
   </url>
 </urlset>
