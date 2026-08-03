@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 03 Aug 2026 15:09:02 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 15:09:48 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra Vision X Design Patented In India: Sub-4m SUV Nears Production</title>
+      <link>https://www.thecarjury.com/news/mahindra-vision-x-design-patent-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-vision-x-design-patent-india/</guid>
+      <pubDate>Mon, 03 Aug 2026 15:09:34 +0530</pubDate>
+      <description>Mahindra has patented the Vision X design in India. The sub-4m SUV on the NU_IQ platform will sit above the XUV 3XO, in ICE and EV forms.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Porsche India's 70% Buy-Back Guarantee: Smart Hedge Or Marketing Cushion?</title>
       <link>https://www.thecarjury.com/news/porsche-india-assured-buyback-70-percent-3-years/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-i20-15-lakh-sales-india-milestone/</guid>
       <pubDate>Fri, 24 Jul 2026 15:10:03 +0530</pubDate>
       <description>Hyundai i20 has crossed 15 lakh cumulative India sales in 18 years across three generations. The Car Jury on what it means for the premium hatchback segment.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra Vision T Patent Filed: Thar's Rugged Bigger Brother Inches Closer</title>
-      <link>https://www.thecarjury.com/news/mahindra-vision-t-suv-design-patent-2027-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-vision-t-suv-design-patent-2027-launch/</guid>
-      <pubDate>Fri, 24 Jul 2026 12:02:47 +0530</pubDate>
-      <description>Mahindra files design patent for Vision T concept SUV, a ruggedized boxy off-roader closely related to the Thar family. Launch expected in 2027.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
