@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 14:57:15 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 14:57:58 +0530</lastBuildDate>
+    <item>
+      <title>Hyundai's 60% Creta Electric buyback is the honest EV pitch India needed</title>
+      <link>https://www.thecarjury.com/news/hyundai-creta-electric-assured-buyback-60-percent/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-creta-electric-assured-buyback-60-percent/</guid>
+      <pubDate>Tue, 04 Aug 2026 14:57:50 +0530</pubDate>
+      <description>Hyundai promises 60% buyback on the Creta Electric for 3 years or 45,000km. The Car Jury on whether this fixes the EV resale problem.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>E20 Fuel Contamination Is Wrecking Engines: SIAM Demands Chloride Limits</title>
       <link>https://www.thecarjury.com/news/e20-fuel-contamination-engine-damage-siam-chloride/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/india-ev-exports-14x-surge-maruti-tata-mahindra-q1-fy27/</guid>
       <pubDate>Mon, 27 Jul 2026 12:10:01 +0530</pubDate>
       <description>India shipped 15,641 electric cars overseas in the June quarter, up 14x, with Maruti&amp;#x27;s e-Vitara driving the surge. Our take on what it means.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti Bets on 9 Lakh CNG Sales in FY27: The Petrol-EV Gap Widens</title>
-      <link>https://www.thecarjury.com/news/maruti-cng-sales-target-9-lakh-fy27/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-cng-sales-target-9-lakh-fy27/</guid>
-      <pubDate>Sun, 26 Jul 2026 14:59:50 +0530</pubDate>
-      <description>Maruti Suzuki targets nearly 30% growth in CNG sales to 9 lakh units in FY27 as Q1 volumes jumped 58%. Our take on what it means for buyers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
