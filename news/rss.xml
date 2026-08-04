@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 14:57:09 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 14:57:52 +0530</lastBuildDate>
+    <item>
+      <title>Hyundai's 60% Creta Electric buyback is the honest EV pitch India needed</title>
+      <link>https://www.thecarjury.com/news/hyundai-creta-electric-assured-buyback-60-percent/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-creta-electric-assured-buyback-60-percent/</guid>
+      <pubDate>Tue, 04 Aug 2026 14:57:50 +0530</pubDate>
+      <description>Hyundai promises 60% buyback on the Creta Electric for 3 years or 45,000km. The Car Jury on whether this fixes the EV resale problem.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>E20 Fuel Contamination Is Wrecking Engines: SIAM Demands Chloride Limits</title>
       <link>https://www.thecarjury.com/news/e20-fuel-contamination-engine-damage-siam-chloride/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-brezza-boosterjet-turbo-first-drive-review/</guid>
       <pubDate>Mon, 27 Jul 2026 15:03:51 +0530</pubDate>
       <description>Maruti Brezza facelift gets the 1.0L Boosterjet turbo petrol from the Fronx, base price Rs 7.4 lakh. The Car Jury&amp;#x27;s early verdict from Mumbai.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>India's EV Exports Jump 14x in a Quarter: Maruti's e-Vitara Leads the Charge Abroad</title>
-      <link>https://www.thecarjury.com/news/india-ev-exports-14x-surge-maruti-tata-mahindra-q1-fy27/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/india-ev-exports-14x-surge-maruti-tata-mahindra-q1-fy27/</guid>
-      <pubDate>Mon, 27 Jul 2026 12:10:01 +0530</pubDate>
-      <description>India shipped 15,641 electric cars overseas in the June quarter, up 14x, with Maruti&amp;#x27;s e-Vitara driving the surge. Our take on what it means.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
