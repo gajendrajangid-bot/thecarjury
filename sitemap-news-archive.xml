@@ -385,6 +385,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/e20-fuel-contamination-engine-damage-siam-chloride/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/e20-petrol-older-vehicles-rubber-gaskets-gadkari-admission/</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
@@ -1652,7 +1658,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/morth-two-wheeled-ambulance-safety-norms-draft-2026/</loc>
-    <lastmod>2026-08-01</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

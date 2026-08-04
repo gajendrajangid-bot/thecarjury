@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 09:00:50 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 14:57:09 +0530</lastBuildDate>
+    <item>
+      <title>E20 Fuel Contamination Is Wrecking Engines: SIAM Demands Chloride Limits</title>
+      <link>https://www.thecarjury.com/news/e20-fuel-contamination-engine-damage-siam-chloride/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/e20-fuel-contamination-engine-damage-siam-chloride/</guid>
+      <pubDate>Tue, 04 Aug 2026 14:57:07 +0530</pubDate>
+      <description>SIAM flags chloride and moisture contamination in E20 petrol as fuel injectors and pumps fail. The Centre orders tighter monitoring at retail outlets.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Jeep Meridian gets Rs 1.65 lakh off in August 2026, Compass up to Rs 1.5 lakh</title>
       <link>https://www.thecarjury.com/news/jeep-meridian-compass-discounts-august-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/india-ev-exports-14x-surge-maruti-tata-mahindra-q1-fy27/</guid>
       <pubDate>Mon, 27 Jul 2026 12:10:01 +0530</pubDate>
       <description>India shipped 15,641 electric cars overseas in the June quarter, up 14x, with Maruti&amp;#x27;s e-Vitara driving the surge. Our take on what it means.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra Racing Wins Tokyo E-Prix: Second Formula E Win Of The Season</title>
-      <link>https://www.thecarjury.com/news/mahindra-racing-wins-formula-e-tokyo-eprix-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-racing-wins-formula-e-tokyo-eprix-2026/</guid>
-      <pubDate>Mon, 27 Jul 2026 12:08:41 +0530</pubDate>
-      <description>Nyck de Vries wins Round 15 of Formula E in Tokyo, giving Mahindra Racing its second victory of the 2025/26 season and best campaign since 2017/18.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
