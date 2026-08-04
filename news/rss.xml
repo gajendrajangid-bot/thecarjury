@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 04 Aug 2026 14:59:11 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 18:07:05 +0530</lastBuildDate>
+    <item>
+      <title>Hyundai's 1,671 service touchpoints: the boring moat that beats Honda's ghost</title>
+      <link>https://www.thecarjury.com/news/hyundai-india-service-network-1671-touchpoints-1021-cities/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-india-service-network-1671-touchpoints-1021-cities/</guid>
+      <pubDate>Tue, 04 Aug 2026 18:06:51 +0530</pubDate>
+      <description>Hyundai India&amp;#x27;s service network now spans 1,671 touchpoints across 1,021 cities, with 8.23 million vehicles serviced in FY26. Our verdict for buyers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG Hector Hawk lands August 28: EV + PHEV 7-seater on new ADAPT platform</title>
       <link>https://www.thecarjury.com/news/mg-hector-hawk-launch-august-28-ev-phev/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/audi-volkswagen-restructuring-h1-2026-revenue-drop/</guid>
       <pubDate>Mon, 27 Jul 2026 15:04:32 +0530</pubDate>
       <description>Audi&amp;#x27;s H1 revenue fell 10% to 29.2 billion euros. CFO says the brand must realign with Volkswagen Group. What it means for Indian buyers.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Brezza Boosterjet First Drive: Turbo Fixes the Boring Bit, Finally</title>
-      <link>https://www.thecarjury.com/news/maruti-brezza-boosterjet-turbo-first-drive-review/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-brezza-boosterjet-turbo-first-drive-review/</guid>
-      <pubDate>Mon, 27 Jul 2026 15:03:51 +0530</pubDate>
-      <description>Maruti Brezza facelift gets the 1.0L Boosterjet turbo petrol from the Fronx, base price Rs 7.4 lakh. The Car Jury&amp;#x27;s early verdict from Mumbai.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
