@@ -163,6 +163,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/audi-india-q3-a5-q9-local-assembly-2027/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/audi-nuvolari-v8-phev-supercar-revealed/</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>daily</changefreq>
@@ -176,7 +182,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/audi-q9-flagship-suv-revealed-x7-gls-rival/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
