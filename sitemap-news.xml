@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/carmakers-absorb-commodity-shocks-price-hikes-2026/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/e20-fuel-contamination-engine-damage-siam-chloride/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-creta-discount-august-2026-rs-1-lakh/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-creta-electric-assured-buyback-60-percent/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -75,7 +75,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/july-2026-ev-sales-cross-30000-units-tata-mahindra-lead/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -87,7 +87,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-hybrid-india-interior-spied/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -99,7 +99,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-hybrid-india-teaser-launch/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -111,7 +111,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-2026/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -119,6 +119,18 @@
       </news:publication>
       <news:publication_date>2026-08-03T12:11:01+05:30</news:publication_date>
       <news:title>Kia Sorento bookings open in India: three-row flagship gets serious</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/kia-sorento-india-launch-4-september-2026/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T08:48:58+05:30</news:publication_date>
+      <news:title>Kia Sorento Lands 4 September: The Fortuner Fighter Kia Should Have Sent Years Ago</news:title>
     </news:news>
   </url>
   <url>
@@ -135,7 +147,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mg-cyberster-m9-couture-editions-price-india/</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
