@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 05 Aug 2026 08:50:50 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 11:46:48 +0530</lastBuildDate>
+    <item>
+      <title>JSW-Skoda VW JV: The Lifeline Volkswagen Group India Actually Needs</title>
+      <link>https://www.thecarjury.com/news/jsw-skoda-volkswagen-manufacturing-jv-mou-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-skoda-volkswagen-manufacturing-jv-mou-india/</guid>
+      <pubDate>Wed, 05 Aug 2026 11:46:34 +0530</pubDate>
+      <description>JSW Group and Skoda Auto Volkswagen India are close to a 51:49 manufacturing JV MoU that will fund EVs and deepen localisation.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Holds The EV Crown As VinFast Crashes Into India's Top 5</title>
       <link>https://www.thecarjury.com/news/top-5-electric-car-oems-july-2026-tata-mg-mahindra/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</guid>
       <pubDate>Wed, 29 Jul 2026 13:29:09 +0530</pubDate>
       <description>Tata Motors pauses Sanand production after Gujarat floods disrupt supplier network. Nexon, Sierra, Tiago, Tigor output hit. Restart in days.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mercedes Q2 Profit Up 22%, But China Slump Forces Sales Downgrade</title>
-      <link>https://www.thecarjury.com/news/mercedes-q2-2026-profit-china-sales-warning/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-q2-2026-profit-china-sales-warning/</guid>
-      <pubDate>Tue, 28 Jul 2026 12:09:08 +0530</pubDate>
-      <description>Mercedes-Benz Q2 2026 operating profit rose 22% to 1.5 billion euros, but China weakness forced the carmaker to cut its full-year sales outlook.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
