@@ -602,7 +602,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/honda-zr-v-launch-price-india-hybrid-cbu/</loc>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2007,6 +2007,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/sedan-sales-june-2026-dzire-city-virtus-verna/</loc>
     <lastmod>2026-07-24</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/siam-withdraws-e20-fuel-contamination-letter/</loc>
+    <lastmod>2026-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

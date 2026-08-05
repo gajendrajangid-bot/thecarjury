@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/carmakers-absorb-commodity-shocks-price-hikes-2026/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-03T12:12:28+05:30</news:publication_date>
-      <news:title>Maruti, Hyundai, M&amp;M eat commodity costs to keep lines running</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/e20-fuel-contamination-engine-damage-siam-chloride/</loc>
     <lastmod>2026-08-05</lastmod>
     <news:news>
@@ -86,18 +74,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/july-2026-ev-sales-cross-30000-units-tata-mahindra-lead/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-03T12:13:06+05:30</news:publication_date>
-      <news:title>July 2026 EV sales cross 30,000 again: Tata's 40% grip is back</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-hybrid-india-interior-spied/</loc>
     <lastmod>2026-08-05</lastmod>
     <news:news>
@@ -119,18 +95,6 @@
       </news:publication>
       <news:publication_date>2026-08-04T02:44:15+05:30</news:publication_date>
       <news:title>Kia Teases Sorento Hybrid For India: First Hybrid Kia, And The Priciest</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-2026/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-03T12:11:01+05:30</news:publication_date>
-      <news:title>Kia Sorento bookings open in India: three-row flagship gets serious</news:title>
     </news:news>
   </url>
   <url>
@@ -227,6 +191,18 @@
       </news:publication>
       <news:publication_date>2026-08-03T15:08:52+05:30</news:publication_date>
       <news:title>Porsche India's 70% Buy-Back Guarantee: Smart Hedge Or Marketing Cushion?</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/siam-withdraws-e20-fuel-contamination-letter/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-05T14:49:54+05:30</news:publication_date>
+      <news:title>SIAM Retreats On E20 Contamination Warning: Buyers Left Holding The Bag</news:title>
     </news:news>
   </url>
   <url>
