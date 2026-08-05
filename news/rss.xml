@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 05 Aug 2026 08:50:03 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 08:50:50 +0530</lastBuildDate>
+    <item>
+      <title>Tata Holds The EV Crown As VinFast Crashes Into India's Top 5</title>
+      <link>https://www.thecarjury.com/news/top-5-electric-car-oems-july-2026-tata-mg-mahindra/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/top-5-electric-car-oems-july-2026-tata-mg-mahindra/</guid>
+      <pubDate>Wed, 05 Aug 2026 08:50:39 +0530</pubDate>
+      <description>Tata leads India&amp;#x27;s EV sales in July 2026 with 15,055 units. MG reclaims second, Mahindra slips, VinFast breaks into the top five.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Nissan Tekton Bags India Book Of Records With 60-SUV Convoy To Leh</title>
       <link>https://www.thecarjury.com/news/nissan-tekton-india-book-of-records-leh-convoy/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-q2-2026-profit-china-sales-warning/</guid>
       <pubDate>Tue, 28 Jul 2026 12:09:08 +0530</pubDate>
       <description>Mercedes-Benz Q2 2026 operating profit rose 22% to 1.5 billion euros, but China weakness forced the carmaker to cut its full-year sales outlook.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Scorpio N Facelift Cabin Spied: Thar Roxx's Twin Screens Are Coming</title>
-      <link>https://www.thecarjury.com/news/mahindra-scorpio-n-facelift-interiors-spied-launch-august-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-scorpio-n-facelift-interiors-spied-launch-august-2026/</guid>
-      <pubDate>Tue, 28 Jul 2026 12:08:16 +0530</pubDate>
-      <description>Spy shots of the 2026 Mahindra Scorpio N facelift reveal a Thar Roxx-style twin-screen cabin. Launch expected on 14 August 2026.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
