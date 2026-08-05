@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 05 Aug 2026 11:46:48 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 11:47:31 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra XUV 7XO Long Drive Review: The Mass-Market Luxury SUV Finally Grows Up</title>
+      <link>https://www.thecarjury.com/news/mahindra-xuv-7xo-1500km-review-verdict/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xuv-7xo-1500km-review-verdict/</guid>
+      <pubDate>Wed, 05 Aug 2026 11:47:20 +0530</pubDate>
+      <description>After 1,500 km across Maharashtra and Karnataka in the XUV 7XO Diesel AT AWD, The Car Jury delivers its verdict on Mahindra&amp;#x27;s flagship SUV.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>JSW-Skoda VW JV: The Lifeline Volkswagen Group India Actually Needs</title>
       <link>https://www.thecarjury.com/news/jsw-skoda-volkswagen-manufacturing-jv-mou-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/haryana-ev-road-tax-waiver-30-lakh-policy/</guid>
       <pubDate>Wed, 29 Jul 2026 15:15:00 +0530</pubDate>
       <description>Haryana scraps road tax fully on EVs up to Rs 30 lakh ex-showroom, and halves it above. Here is what it means for buyers in Gurugram and Faridabad.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata halts Sanand production as Gujarat floods hit Nexon, Sierra, Tiago output</title>
-      <link>https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sanand-plant-halt-gujarat-floods-july-2026/</guid>
-      <pubDate>Wed, 29 Jul 2026 13:29:09 +0530</pubDate>
-      <description>Tata Motors pauses Sanand production after Gujarat floods disrupt supplier network. Nexon, Sierra, Tiago, Tigor output hit. Restart in days.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
