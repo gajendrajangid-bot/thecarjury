@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 05 Aug 2026 14:49:56 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 14:50:35 +0530</lastBuildDate>
+    <item>
+      <title>Audi India commits to three locally assembled launches by 2027</title>
+      <link>https://www.thecarjury.com/news/audi-india-q3-a5-q9-local-assembly-2027/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-india-q3-a5-q9-local-assembly-2027/</guid>
+      <pubDate>Wed, 05 Aug 2026 14:50:33 +0530</pubDate>
+      <description>Audi India will launch the Q3, A5 and Q9 by 2027, all locally assembled at the Aurangabad plant. Q3 lands first at around Rs 60 lakh.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>SIAM Retreats On E20 Contamination Warning: Buyers Left Holding The Bag</title>
       <link>https://www.thecarjury.com/news/siam-withdraws-e20-fuel-contamination-letter/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-be-6-triple-screen-dashboard-update/</guid>
       <pubDate>Wed, 29 Jul 2026 18:12:49 +0530</pubDate>
       <description>Mahindra plans a triple-screen setup and a redesigned dashboard for the BE 6 with a model year update, fixing the cabin&amp;#x27;s real usability gripes.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mini Cooper Convertible Stardust Edition Lands At Rs 62.90 Lakh: Paint And Wheels, No More</title>
-      <link>https://www.thecarjury.com/news/mini-cooper-convertible-stardust-edition-launch-price/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mini-cooper-convertible-stardust-edition-launch-price/</guid>
-      <pubDate>Wed, 29 Jul 2026 18:12:10 +0530</pubDate>
-      <description>Mini Cooper Convertible Stardust Edition launches in India at Rs 62.90 lakh ex-showroom, a Rs 3.9 lakh premium over the standard soft-top.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
