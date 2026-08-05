@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 05 Aug 2026 11:48:08 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 14:49:56 +0530</lastBuildDate>
+    <item>
+      <title>SIAM Retreats On E20 Contamination Warning: Buyers Left Holding The Bag</title>
+      <link>https://www.thecarjury.com/news/siam-withdraws-e20-fuel-contamination-letter/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/siam-withdraws-e20-fuel-contamination-letter/</guid>
+      <pubDate>Wed, 05 Aug 2026 14:49:54 +0530</pubDate>
+      <description>SIAM has withdrawn its E20 fuel contamination communication to the petroleum ministry, citing selective media quoting and figures needing verification.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG Hector, Hector Plus Get Up To Rs 51,000 Costlier From August 2026</title>
       <link>https://www.thecarjury.com/news/mg-hector-hector-plus-price-hike-august-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mini-cooper-convertible-stardust-edition-launch-price/</guid>
       <pubDate>Wed, 29 Jul 2026 18:12:10 +0530</pubDate>
       <description>Mini Cooper Convertible Stardust Edition launches in India at Rs 62.90 lakh ex-showroom, a Rs 3.9 lakh premium over the standard soft-top.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>BMW to cut 8,000 German jobs by 2027: the EV transition bill comes due</title>
-      <link>https://www.thecarjury.com/news/bmw-8000-job-cuts-germany-2027/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-8000-job-cuts-germany-2027/</guid>
-      <pubDate>Wed, 29 Jul 2026 15:16:17 +0530</pubDate>
-      <description>BMW will offer voluntary redundancy to 40,000 German staff to cut 8,000 jobs by end 2027, as EV costs, US tariffs and China bite.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
