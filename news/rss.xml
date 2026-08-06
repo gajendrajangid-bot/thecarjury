@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 06 Aug 2026 09:09:16 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 02:26:42 +0530</lastBuildDate>
+    <item>
+      <title>July 2026 Retail Sales: PV Market Cracks 4 Lakh For The First Time</title>
+      <link>https://www.thecarjury.com/news/car-retail-sales-july-2026-fada-maruti-tata-mahindra/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/car-retail-sales-july-2026-fada-maruti-tata-mahindra/</guid>
+      <pubDate>Fri, 07 Aug 2026 02:26:36 +0530</pubDate>
+      <description>FADA July 2026 retail data shows PV sales crossing 4 lakh for the first time in July, up 19.13% YoY, with Maruti still on top.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>BMW X1 LWB Lands August 21: The Chauffeur-Ready X1 India Actually Wanted</title>
       <link>https://www.thecarjury.com/news/bmw-x1-lwb-india-launch-august-21/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/e20-petrol-older-vehicles-rubber-gaskets-gadkari-admission/</guid>
       <pubDate>Thu, 30 Jul 2026 12:13:03 +0530</pubDate>
       <description>Nitin Gadkari tells Rajya Sabha that older BS-III vehicles may need rubber part and gasket replacements when running on E20 petrol. The Car Jury verdict.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Audi Q9 Revealed: The New Flagship That Finally Takes On The X7 And GLS</title>
-      <link>https://www.thecarjury.com/news/audi-q9-flagship-suv-revealed-x7-gls-rival/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-q9-flagship-suv-revealed-x7-gls-rival/</guid>
-      <pubDate>Thu, 30 Jul 2026 09:15:08 +0530</pubDate>
-      <description>Audi reveals the Q9, a 5.31-metre seven-seat flagship SUV aimed at the BMW X7, Mercedes GLS and Range Rover. Here is what it brings and what it means.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
