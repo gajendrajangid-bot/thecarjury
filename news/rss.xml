@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 06 Aug 2026 09:08:38 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 09:09:16 +0530</lastBuildDate>
+    <item>
+      <title>BMW X1 LWB Lands August 21: The Chauffeur-Ready X1 India Actually Wanted</title>
+      <link>https://www.thecarjury.com/news/bmw-x1-lwb-india-launch-august-21/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-x1-lwb-india-launch-august-21/</guid>
+      <pubDate>Thu, 06 Aug 2026 09:09:14 +0530</pubDate>
+      <description>BMW India will launch the long-wheelbase X1 on August 21, adding 116mm of length and a stretched rear cabin. Here is our verdict on it.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Audi wants 16% of India's luxury market in three years: ambitious, not impossible</title>
       <link>https://www.thecarjury.com/news/audi-india-market-share-target-2029-q3-a5-q9/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/audi-q9-flagship-suv-revealed-x7-gls-rival/</guid>
       <pubDate>Thu, 30 Jul 2026 09:15:08 +0530</pubDate>
       <description>Audi reveals the Q9, a 5.31-metre seven-seat flagship SUV aimed at the BMW X7, Mercedes GLS and Range Rover. Here is what it brings and what it means.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Punch.ev Scores 5 Stars in Bharat NCAP: The Cheapest Safe EV You Can Buy</title>
-      <link>https://www.thecarjury.com/news/tata-punch-ev-5-star-bharat-ncap-rating/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-punch-ev-5-star-bharat-ncap-rating/</guid>
-      <pubDate>Thu, 30 Jul 2026 09:12:50 +0530</pubDate>
-      <description>Tata Punch.ev scores 31.09/32 for adult and 45/49 for child occupant protection in Bharat NCAP, cementing its case as India&amp;#x27;s safest sub-Rs 12 lakh EV.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
