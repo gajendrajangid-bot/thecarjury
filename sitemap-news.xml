@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/audi-india-q3-a5-q9-local-assembly-2027/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T14:50:33+05:30</news:publication_date>
-      <news:title>Audi India commits to three locally assembled launches by 2027</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/bmw-x1-lwb-india-launch-august-21/</loc>
     <lastmod>2026-08-06</lastmod>
     <news:news>
@@ -39,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/car-retail-sales-july-2026-fada-maruti-tata-mahindra/</loc>
-    <lastmod>2026-08-07</lastmod>
+    <lastmod>2026-08-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -47,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-08-07T02:26:36+05:30</news:publication_date>
       <news:title>July 2026 Retail Sales: PV Market Cracks 4 Lakh For The First Time</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/jsw-skoda-volkswagen-manufacturing-jv-mou-india/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T11:46:34+05:30</news:publication_date>
-      <news:title>JSW-Skoda VW JV: The Lifeline Volkswagen Group India Actually Needs</news:title>
     </news:news>
   </url>
   <url>
@@ -74,18 +50,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mahindra-xuv-7xo-1500km-review-verdict/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T11:47:20+05:30</news:publication_date>
-      <news:title>Mahindra XUV 7XO Long Drive Review: The Mass-Market Luxury SUV Finally Grows Up</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/maruti-grand-vitara-discount-august-2026/</loc>
     <lastmod>2026-08-07</lastmod>
     <news:news>
@@ -98,27 +62,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mg-hector-hector-plus-price-hike-august-2026/</loc>
-    <lastmod>2026-08-05</lastmod>
+    <loc>https://www.thecarjury.com/news/tata-onam-2026-offers-sierra-nexon-punch-special-editions/</loc>
+    <lastmod>2026-08-08</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-05T11:48:03+05:30</news:publication_date>
-      <news:title>MG Hector, Hector Plus Get Up To Rs 51,000 Costlier From August 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/siam-withdraws-e20-fuel-contamination-letter/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T14:49:54+05:30</news:publication_date>
-      <news:title>SIAM Retreats On E20 Contamination Warning: Buyers Left Holding The Bag</news:title>
+      <news:publication_date>2026-08-08T02:31:39+05:30</news:publication_date>
+      <news:title>Tata's Onam Push: Up To ₹2.25 Lakh Off Plus Three Festive Special Editions</news:title>
     </news:news>
   </url>
 </urlset>
