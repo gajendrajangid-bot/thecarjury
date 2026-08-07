@@ -74,18 +74,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/kia-sorento-india-launch-4-september-2026/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T08:48:58+05:30</news:publication_date>
-      <news:title>Kia Sorento Lands 4 September: The Fortuner Fighter Kia Should Have Sent Years Ago</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mahindra-xuv-7xo-1500km-review-verdict/</loc>
     <lastmod>2026-08-07</lastmod>
     <news:news>
@@ -95,6 +83,18 @@
       </news:publication>
       <news:publication_date>2026-08-05T11:47:20+05:30</news:publication_date>
       <news:title>Mahindra XUV 7XO Long Drive Review: The Mass-Market Luxury SUV Finally Grows Up</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/maruti-grand-vitara-discount-august-2026/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-07T09:47:15+05:30</news:publication_date>
+      <news:title>Maruti Grand Vitara Gets Rs 1.30 Lakh Off In August 2026: Take It</news:title>
     </news:news>
   </url>
   <url>
@@ -110,18 +110,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/nissan-tekton-india-book-of-records-leh-convoy/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T08:49:51+05:30</news:publication_date>
-      <news:title>Nissan Tekton Bags India Book Of Records With 60-SUV Convoy To Leh</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/siam-withdraws-e20-fuel-contamination-letter/</loc>
     <lastmod>2026-08-07</lastmod>
     <news:news>
@@ -131,18 +119,6 @@
       </news:publication>
       <news:publication_date>2026-08-05T14:49:54+05:30</news:publication_date>
       <news:title>SIAM Retreats On E20 Contamination Warning: Buyers Left Holding The Bag</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/top-5-electric-car-oems-july-2026-tata-mg-mahindra/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-05T08:50:39+05:30</news:publication_date>
-      <news:title>Tata Holds The EV Crown As VinFast Crashes Into India's Top 5</news:title>
     </news:news>
   </url>
 </urlset>
