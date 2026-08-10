@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/electric-car-sales-july-2026-tata-mahindra-mg/</loc>
-    <lastmod>2026-08-09</lastmod>
+    <lastmod>2026-08-10</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -35,6 +35,18 @@
       </news:publication>
       <news:publication_date>2026-08-09T02:14:19+05:30</news:publication_date>
       <news:title>Mahindra Vision S Spied In Bengaluru: Sub-4m SUV On New NU IQ Platform</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/sub-4m-suv-sales-july-2026-punch-fronx-nexon-brezza/</loc>
+    <lastmod>2026-08-10</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10T17:50:15+05:30</news:publication_date>
+      <news:title>July 2026 Sub-4m SUV Sales: Punch Runs Away, Fronx Wakes Up, Brezza Sleeps</news:title>
     </news:news>
   </url>
 </urlset>
