@@ -14,8 +14,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-india-sales-july-2026-creta-venue-lead-recovery/</loc>
+    <lastmod>2026-08-10</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-10T09:00:35+05:30</news:publication_date>
+      <news:title>Hyundai Sales July 2026: Creta And Venue Drag The Brand Back To 54,000 Units</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mahindra-vision-s-spied-bengaluru-nu-iq-platform/</loc>
-    <lastmod>2026-08-09</lastmod>
+    <lastmod>2026-08-10</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -23,42 +35,6 @@
       </news:publication>
       <news:publication_date>2026-08-09T02:14:19+05:30</news:publication_date>
       <news:title>Mahindra Vision S Spied In Bengaluru: Sub-4m SUV On New NU IQ Platform</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-grand-vitara-discount-august-2026/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-07T09:47:15+05:30</news:publication_date>
-      <news:title>Maruti Grand Vitara Gets Rs 1.30 Lakh Off In August 2026: Take It</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-onam-2026-offers-sierra-nexon-punch-special-editions/</loc>
-    <lastmod>2026-08-09</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T02:31:39+05:30</news:publication_date>
-      <news:title>Tata's Onam Push: Up To ₹2.25 Lakh Off Plus Three Festive Special Editions</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-safari-ev-first-seven-seat-electric-suv-festive-launch/</loc>
-    <lastmod>2026-08-09</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-08T08:59:33+05:30</news:publication_date>
-      <news:title>Tata Safari.EV Incoming: The Seven-Seat Electric SUV Mahindra Should Fear</news:title>
     </news:news>
   </url>
 </urlset>
