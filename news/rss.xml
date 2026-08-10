@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 09 Aug 2026 09:06:11 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 09:00:47 +0530</lastBuildDate>
+    <item>
+      <title>Hyundai Sales July 2026: Creta And Venue Drag The Brand Back To 54,000 Units</title>
+      <link>https://www.thecarjury.com/news/hyundai-india-sales-july-2026-creta-venue-lead-recovery/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-india-sales-july-2026-creta-venue-lead-recovery/</guid>
+      <pubDate>Mon, 10 Aug 2026 09:00:35 +0530</pubDate>
+      <description>Hyundai India sold 54,210 units in July 2026, up 23% YoY. Creta and Venue did the heavy lifting, but the wider portfolio remains thin.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>EV Retails Cross 32,900 In July 2026: Tata And Mahindra Own The Market</title>
       <link>https://www.thecarjury.com/news/electric-car-sales-july-2026-tata-mahindra-mg/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-neira-vs-kia-clavis-ev-badge-engineered-mpv/</guid>
       <pubDate>Thu, 30 Jul 2026 18:03:23 +0530</pubDate>
       <description>Hyundai unveiled the Neira electric MPV at GIIAS 2026, a badge-engineered Kia Carens Clavis EV. India launch not confirmed yet.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Brezza On-Road Prices Are Out: Top Trim Crosses Rs 16 Lakh</title>
-      <link>https://www.thecarjury.com/news/2026-maruti-brezza-on-road-prices-major-cities/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-maruti-brezza-on-road-prices-major-cities/</guid>
-      <pubDate>Thu, 30 Jul 2026 15:08:27 +0530</pubDate>
-      <description>The 2026 Maruti Brezza on-road prices are out, spanning Rs 8.26 lakh to Rs 16.81 lakh across major cities. Here is the full breakdown and our take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
