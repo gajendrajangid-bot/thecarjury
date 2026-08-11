@@ -121,6 +121,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/2027-hyundai-tucson-front-design-leak-pleos-screen/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/2027-kia-sonet-hyundai-creta-spied-manali/</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>daily</changefreq>
@@ -2210,7 +2216,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/sub-4m-suv-sales-july-2026-punch-fronx-nexon-brezza/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

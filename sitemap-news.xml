@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2027-hyundai-tucson-front-design-leak-pleos-screen/</loc>
+    <lastmod>2026-08-11</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-11T08:59:23+05:30</news:publication_date>
+      <news:title>2027 Hyundai Tucson Face Leaks On A Pleos Screen: Boxy, Upright, India-Bound</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/electric-car-sales-july-2026-tata-mahindra-mg/</loc>
     <lastmod>2026-08-11</lastmod>
     <news:news>
@@ -39,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/sub-4m-suv-sales-july-2026-punch-fronx-nexon-brezza/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-08-11</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
