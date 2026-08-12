@@ -14,20 +14,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/electric-car-sales-july-2026-tata-mahindra-mg/</loc>
-    <lastmod>2026-08-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-09T09:05:58+05:30</news:publication_date>
-      <news:title>EV Retails Cross 32,900 In July 2026: Tata And Mahindra Own The Market</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-india-sales-july-2026-creta-venue-lead-recovery/</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -35,6 +23,18 @@
       </news:publication>
       <news:publication_date>2026-08-10T09:00:35+05:30</news:publication_date>
       <news:title>Hyundai Sales July 2026: Creta And Venue Drag The Brand Back To 54,000 Units</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mahindra-thar-roxx-scorpio-n-discounts-august-2026/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-12T08:46:23+05:30</news:publication_date>
+      <news:title>Mahindra's August 2026 Discounts: Thar Roxx, Scorpio N Lead With Big Benefits</news:title>
     </news:news>
   </url>
   <url>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/sub-4m-suv-sales-july-2026-punch-fronx-nexon-brezza/</loc>
-    <lastmod>2026-08-11</lastmod>
+    <lastmod>2026-08-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
