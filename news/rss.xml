@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 12 Aug 2026 08:46:32 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 20:27:34 +0530</lastBuildDate>
+    <item>
+      <title>Mercedes' AI XENTRY Scanner Lands in Mumbai: Service Theatre or Real Fix?</title>
+      <link>https://www.thecarjury.com/news/mercedes-xentry-ai-scanner-mumbai-service-centre/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-xentry-ai-scanner-mumbai-service-centre/</guid>
+      <pubDate>Wed, 12 Aug 2026 20:27:19 +0530</pubDate>
+      <description>Mercedes-Benz India debuts the XENTRY AI scanner at its largest Mumbai workshop, using 13 cameras and LiDAR to inspect cars on entry.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mahindra's August 2026 Discounts: Thar Roxx, Scorpio N Lead With Big Benefits</title>
       <link>https://www.thecarjury.com/news/mahindra-thar-roxx-scorpio-n-discounts-august-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-electrified-lineup-2030-cng-hybrid-plan/</guid>
       <pubDate>Fri, 31 Jul 2026 18:05:11 +0530</pubDate>
       <description>Kia India confirms eight electrified models by 2030 plus factory-fitted CNG and strong hybrids for Seltos, Sorento, Carnival. Our take on the strategy.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG Hector Plus Diesel Returns at Rs 20 Lakh: Right Engine, Wrong Gearbox</title>
-      <link>https://www.thecarjury.com/news/mg-hector-plus-diesel-facelift-price-rs-20-lakh/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-hector-plus-diesel-facelift-price-rs-20-lakh/</guid>
-      <pubDate>Fri, 31 Jul 2026 14:58:36 +0530</pubDate>
-      <description>MG brings back the Hector Plus diesel at Rs 20 lakh with a 2.0-litre engine and manual only. No automatic, no ADAS. Our verdict inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
