@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 12 Aug 2026 20:27:34 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 08:56:42 +0530</lastBuildDate>
+    <item>
+      <title>Mid-Size SUV Sales July 2026: Creta Crushes A Crowded Field</title>
+      <link>https://www.thecarjury.com/news/mid-size-suv-sales-july-2026-creta-seltos-victoris/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mid-size-suv-sales-july-2026-creta-seltos-victoris/</guid>
+      <pubDate>Thu, 13 Aug 2026 08:56:30 +0530</pubDate>
+      <description>Mid-size SUV segment jumps 62% YoY in July 2026 to 75,762 units. Hyundai Creta leads, Kia Seltos doubles, new Maruti and Toyota entries reshape the field.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mercedes' AI XENTRY Scanner Lands in Mumbai: Service Theatre or Real Fix?</title>
       <link>https://www.thecarjury.com/news/mercedes-xentry-ai-scanner-mumbai-service-centre/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/car-exports-q2-2026-fronx-jimny-evitara-lead-india-shipments/</guid>
       <pubDate>Fri, 31 Jul 2026 18:05:59 +0530</pubDate>
       <description>India&amp;#x27;s passenger vehicle exports grew 8.86% YoY in Q2 2026, led by Maruti Fronx, Jimny and the new eVitara. Full numbers and TCJ&amp;#x27;s take.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia India Bets Big On Electrification And CNG By 2030: Smart Or Scattered?</title>
-      <link>https://www.thecarjury.com/news/kia-india-electrified-lineup-2030-cng-hybrid-plan/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-electrified-lineup-2030-cng-hybrid-plan/</guid>
-      <pubDate>Fri, 31 Jul 2026 18:05:11 +0530</pubDate>
-      <description>Kia India confirms eight electrified models by 2030 plus factory-fitted CNG and strong hybrids for Seltos, Sorento, Carnival. Our take on the strategy.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
