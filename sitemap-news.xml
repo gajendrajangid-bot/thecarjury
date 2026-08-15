@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/kia-sorento-awd-strong-hybrid-diesel-india-confirmed/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-15T08:57:06+05:30</news:publication_date>
+      <news:title>Kia Sorento gets AWD and strong-hybrid: the flagship India has been waiting for</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mahindra-be-6-sporteq-interior-spied-triple-screen/</loc>
-    <lastmod>2026-08-14</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -23,30 +35,6 @@
       </news:publication>
       <news:publication_date>2026-08-14T08:53:00+05:30</news:publication_date>
       <news:title>Mahindra Scorpio N Z2 Base: The Honest Buy In The Facelift Lineup</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mercedes-xentry-ai-scanner-mumbai-service-centre/</loc>
-    <lastmod>2026-08-12</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-12T20:27:19+05:30</news:publication_date>
-      <news:title>Mercedes' AI XENTRY Scanner Lands in Mumbai: Service Theatre or Real Fix?</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mid-size-suv-sales-july-2026-creta-seltos-victoris/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-13T08:56:30+05:30</news:publication_date>
-      <news:title>Mid-Size SUV Sales July 2026: Creta Crushes A Crowded Field</news:title>
     </news:news>
   </url>
   <url>
