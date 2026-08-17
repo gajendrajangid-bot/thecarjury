@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 16 Aug 2026 18:10:32 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 08:49:42 +0530</lastBuildDate>
+    <item>
+      <title>Skoda Slavia Facelift Lands August 18: Nose Job, New 8-Speed Auto, Same Bones</title>
+      <link>https://www.thecarjury.com/news/skoda-slavia-facelift-teaser-august-18-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-slavia-facelift-teaser-august-18-launch/</guid>
+      <pubDate>Mon, 17 Aug 2026 08:49:29 +0530</pubDate>
+      <description>Skoda&amp;#x27;s Slavia facelift launches August 18, 2026 with a chrome-studded grille, new alloys and an 8-speed auto for the 1.0 TSI. Our verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG Hector Tomahawk EV spied undisguised: wait for the August 26 launch</title>
       <link>https://www.thecarjury.com/news/mg-hector-tomahawk-ev-spied-undisguised-august-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/bmw-7-series-i7-facelift-india-bookings-open/</guid>
       <pubDate>Sat, 01 Aug 2026 14:58:15 +0530</pubDate>
       <description>BMW India opens bookings for the 2026 7 Series and i7 facelifts with a new illuminated grille, split headlights and interior updates.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mercedes recalls 3.1 lakh cars in US over door switch: India not on the list</title>
-      <link>https://www.thecarjury.com/news/mercedes-benz-us-recall-door-switch-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-benz-us-recall-door-switch-2026/</guid>
-      <pubDate>Sat, 01 Aug 2026 12:13:57 +0530</pubDate>
-      <description>Mercedes-Benz recalls 310,667 cars in the US over a corroded door-lock micro-switch that can cause rollaway. India cars are not affected.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
