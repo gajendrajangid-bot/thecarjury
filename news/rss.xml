@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 17 Aug 2026 17:59:04 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 09:10:06 +0530</lastBuildDate>
+    <item>
+      <title>Porsche May Kill The Taycan By 2030: The EV Halo Bet That Didn't Pay Off</title>
+      <link>https://www.thecarjury.com/news/porsche-taycan-axed-2030-report/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/porsche-taycan-axed-2030-report/</guid>
+      <pubDate>Tue, 18 Aug 2026 09:09:37 +0530</pubDate>
+      <description>Porsche could discontinue the Taycan by 2030 after global sales collapsed 60 percent in 2025. Our verdict on what it means for the electric halo car.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Third-Gen Audi Q3 Teased For India: The Segment's Sharpest Return</title>
       <link>https://www.thecarjury.com/news/audi-q3-third-gen-india-teaser-launch-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-india-bookings-open-2026/</guid>
       <pubDate>Mon, 03 Aug 2026 12:11:01 +0530</pubDate>
       <description>Kia officially opens Sorento bookings in India and drops a teaser. Here is what the three-row SUV brings, and whether it is worth waiting for.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia India Posts Best-Ever July 2026 With 28,200 Units, Up 27%</title>
-      <link>https://www.thecarjury.com/news/kia-india-sales-july-2026-28200-units-27-percent-growth/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-sales-july-2026-28200-units-27-percent-growth/</guid>
-      <pubDate>Sat, 01 Aug 2026 14:58:58 +0530</pubDate>
-      <description>Kia India sold 28,200 units in July 2026, its best-ever July, up 27.4% YoY. Seltos, Sonet, Carens Clavis and Syros EV drove the numbers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

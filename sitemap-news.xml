@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/kia-b-segment-c-segment-suv-india-2028-plans/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-15T18:02:22+05:30</news:publication_date>
-      <news:title>Kia's Two New SUVs For India: Plugging The Syros-Seltos-Sorento Gaps By 2028</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mahindra-be-6-sporteq-formula-e-freedom-edition-launch-price/</loc>
     <lastmod>2026-08-16</lastmod>
     <news:news>
@@ -47,6 +35,18 @@
       </news:publication>
       <news:publication_date>2026-08-16T18:10:25+05:30</news:publication_date>
       <news:title>MG Hector Tomahawk EV spied undisguised: wait for the August 26 launch</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/porsche-taycan-axed-2030-report/</loc>
+    <lastmod>2026-08-18</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-18T09:09:37+05:30</news:publication_date>
+      <news:title>Porsche May Kill The Taycan By 2030: The EV Halo Bet That Didn't Pay Off</news:title>
     </news:news>
   </url>
   <url>
