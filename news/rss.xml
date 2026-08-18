@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 18 Aug 2026 09:10:06 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 18:23:11 +0530</lastBuildDate>
+    <item>
+      <title>Kia Syros EV: 150 units delivered in a day proves the small EV thesis works</title>
+      <link>https://www.thecarjury.com/news/kia-syros-ev-150-deliveries-single-day-record-kochi/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-ev-150-deliveries-single-day-record-kochi/</guid>
+      <pubDate>Tue, 18 Aug 2026 18:23:01 +0530</pubDate>
+      <description>Kia dealer Incheon Kia delivered 150 Syros EVs in Kochi on August 17, setting an India Book of Records mark for single-model EV deliveries.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Porsche May Kill The Taycan By 2030: The EV Halo Bet That Didn't Pay Off</title>
       <link>https://www.thecarjury.com/news/porsche-taycan-axed-2030-report/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/carmakers-absorb-commodity-shocks-price-hikes-2026/</guid>
       <pubDate>Mon, 03 Aug 2026 12:12:28 +0530</pubDate>
       <description>Maruti, Hyundai and Mahindra are absorbing commodity cost pressure and taking only calibrated price hikes as demand stays strong through 2026.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Sorento bookings open in India: three-row flagship gets serious</title>
-      <link>https://www.thecarjury.com/news/kia-sorento-india-bookings-open-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-india-bookings-open-2026/</guid>
-      <pubDate>Mon, 03 Aug 2026 12:11:01 +0530</pubDate>
-      <description>Kia officially opens Sorento bookings in India and drops a teaser. Here is what the three-row SUV brings, and whether it is worth waiting for.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
