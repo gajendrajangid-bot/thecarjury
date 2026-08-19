@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 18 Aug 2026 18:23:11 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 08:52:30 +0530</lastBuildDate>
+    <item>
+      <title>Skoda Octavia RS Returns With Just 50 Units: Buy Fast Or Miss Out Again</title>
+      <link>https://www.thecarjury.com/news/skoda-octavia-rs-second-batch-bookings-open-india-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-octavia-rs-second-batch-bookings-open-india-2026/</guid>
+      <pubDate>Wed, 19 Aug 2026 08:52:16 +0530</pubDate>
+      <description>Skoda opens bookings for a second, smaller 50-unit batch of the Octavia RS in India, with festive-season deliveries and full-import pricing.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Syros EV: 150 units delivered in a day proves the small EV thesis works</title>
       <link>https://www.thecarjury.com/news/kia-syros-ev-150-deliveries-single-day-record-kochi/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/july-2026-ev-sales-cross-30000-units-tata-mahindra-lead/</guid>
       <pubDate>Mon, 03 Aug 2026 12:13:06 +0530</pubDate>
       <description>India&amp;#x27;s EV market crossed 30,000 units for a second month in July 2026 at 32,609 units, up 83% YoY. Tata, Mahindra and Maruti led the charge.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti, Hyundai, M&amp;M eat commodity costs to keep lines running</title>
-      <link>https://www.thecarjury.com/news/carmakers-absorb-commodity-shocks-price-hikes-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/carmakers-absorb-commodity-shocks-price-hikes-2026/</guid>
-      <pubDate>Mon, 03 Aug 2026 12:12:28 +0530</pubDate>
-      <description>Maruti, Hyundai and Mahindra are absorbing commodity cost pressure and taking only calibrated price hikes as demand stays strong through 2026.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
