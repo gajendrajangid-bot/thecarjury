@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 19 Aug 2026 08:52:23 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 21:33:03 +0530</lastBuildDate>
+    <item>
+      <title>Kia's 2029 hybrid plan for Sonet and Carens Clavis arrives three years too late</title>
+      <link>https://www.thecarjury.com/news/kia-sonet-carens-clavis-hybrid-2029-b-suv-ev-confirmed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sonet-carens-clavis-hybrid-2029-b-suv-ev-confirmed/</guid>
+      <pubDate>Wed, 19 Aug 2026 21:33:01 +0530</pubDate>
+      <description>Kia confirms Sonet and Carens Clavis hybrids by 2029 plus a locally built B-segment EV. The Car Jury on why the timing hurts Kia in India.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Skoda Octavia RS Returns With Just 50 Units: Buy Fast Or Miss Out Again</title>
       <link>https://www.thecarjury.com/news/skoda-octavia-rs-second-batch-bookings-open-india-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-curvv-august-2026-discount-benefits/</guid>
       <pubDate>Mon, 03 Aug 2026 15:08:13 +0530</pubDate>
       <description>Tata is offering up to Rs 1.25 lakh in benefits on the Curvv in August 2026, plus deals on Nexon, Sierra, Altroz and Harrier. Full breakdown here.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>July 2026 EV sales cross 30,000 again: Tata's 40% grip is back</title>
-      <link>https://www.thecarjury.com/news/july-2026-ev-sales-cross-30000-units-tata-mahindra-lead/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/july-2026-ev-sales-cross-30000-units-tata-mahindra-lead/</guid>
-      <pubDate>Mon, 03 Aug 2026 12:13:06 +0530</pubDate>
-      <description>India&amp;#x27;s EV market crossed 30,000 units for a second month in July 2026 at 32,609 units, up 83% YoY. Tata, Mahindra and Maruti led the charge.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
