@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/kia-sonet-carens-clavis-hybrid-2029-b-suv-ev-confirmed/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-08-20</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -14,15 +14,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/kia-syros-ev-150-deliveries-single-day-record-kochi/</loc>
+    <loc>https://www.thecarjury.com/news/kia-sorento-india-reveal-september-4-launch/</loc>
     <lastmod>2026-08-20</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-18T18:23:01+05:30</news:publication_date>
-      <news:title>Kia Syros EV: 150 units delivered in a day proves the small EV thesis works</news:title>
+      <news:publication_date>2026-08-20T18:58:11+04:00</news:publication_date>
+      <news:title>Kia Sorento India Reveal: Hybrid AWD Flagship Lands September 4</news:title>
     </news:news>
   </url>
   <url>
@@ -35,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-08-20T08:49:59+05:30</news:publication_date>
       <news:title>Mahindra XEV 9S captain-seat option: Rs 25.25 lakh well spent</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/porsche-taycan-axed-2030-report/</loc>
-    <lastmod>2026-08-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-18T09:09:37+05:30</news:publication_date>
-      <news:title>Porsche May Kill The Taycan By 2030: The EV Halo Bet That Didn't Pay Off</news:title>
     </news:news>
   </url>
   <url>
