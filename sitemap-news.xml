@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/kia-sonet-carens-clavis-hybrid-2029-b-suv-ev-confirmed/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -38,15 +38,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/skoda-octavia-rs-second-batch-bookings-open-india-2026/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <loc>https://www.thecarjury.com/news/skoda-india-sedan-quintessential-car-ashish-gupta/</loc>
+    <lastmod>2026-08-21</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-19T08:52:16+05:30</news:publication_date>
-      <news:title>Skoda Octavia RS Returns With Just 50 Units: Buy Fast Or Miss Out Again</news:title>
+      <news:publication_date>2026-08-21T07:30:32+04:00</news:publication_date>
+      <news:title>Skoda India Doubles Down On Sedans: Right Call, Right Time</news:title>
     </news:news>
   </url>
 </urlset>
