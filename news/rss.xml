@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 21 Aug 2026 07:30:42 +0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 16:26:06 +0400</lastBuildDate>
+    <item>
+      <title>Volkswagen's Kylaq Twin Confirmed for India in 2027: Late, but Priced to Fight</title>
+      <link>https://www.thecarjury.com/news/volkswagen-compact-suv-india-2027-confirmed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-compact-suv-india-2027-confirmed/</guid>
+      <pubDate>Fri, 21 Aug 2026 16:25:46 +0400</pubDate>
+      <description>Volkswagen officially confirms a sub-four-metre SUV for India in 2027, built on the Kylaq&amp;#x27;s MQB-A0-IN platform with a Rs 8-13 lakh price target.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Skoda India Doubles Down On Sedans: Right Call, Right Time</title>
       <link>https://www.thecarjury.com/news/skoda-india-sedan-quintessential-car-ashish-gupta/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mg-cyberster-m9-couture-editions-price-india/</guid>
       <pubDate>Mon, 03 Aug 2026 18:13:25 +0530</pubDate>
       <description>MG prices the Cyberster and M9 Couture Editions at Rs 87.49 lakh and Rs 84.94 lakh, with Gaurav Gupta bespoke design and 50-unit runs each.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Sorento Interior Spied: Captain Chairs, Bose, Curved Screens Confirmed</title>
-      <link>https://www.thecarjury.com/news/kia-sorento-hybrid-india-interior-spied/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-hybrid-india-interior-spied/</guid>
-      <pubDate>Mon, 03 Aug 2026 18:12:30 +0530</pubDate>
-      <description>Kia Sorento hybrid interior spied undisguised in Belur reveals captain seats, ventilated second row, Bose audio and a curved dual-screen setup.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
