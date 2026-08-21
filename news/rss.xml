@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 20 Aug 2026 18:58:33 +0400</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 07:30:42 +0400</lastBuildDate>
+    <item>
+      <title>Skoda India Doubles Down On Sedans: Right Call, Right Time</title>
+      <link>https://www.thecarjury.com/news/skoda-india-sedan-quintessential-car-ashish-gupta/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-india-sedan-quintessential-car-ashish-gupta/</guid>
+      <pubDate>Fri, 21 Aug 2026 07:30:32 +0400</pubDate>
+      <description>Skoda India brand director Ashish Gupta says sedans remain the quintessential car, as the brand launches Slavia facelift, Superb diesel and Octavia RS together.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Kia Sorento India Reveal: Hybrid AWD Flagship Lands September 4</title>
       <link>https://www.thecarjury.com/news/kia-sorento-india-reveal-september-4-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-hybrid-india-interior-spied/</guid>
       <pubDate>Mon, 03 Aug 2026 18:12:30 +0530</pubDate>
       <description>Kia Sorento hybrid interior spied undisguised in Belur reveals captain seats, ventilated second row, Bose audio and a curved dual-screen setup.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra Vision X Design Patented In India: Sub-4m SUV Nears Production</title>
-      <link>https://www.thecarjury.com/news/mahindra-vision-x-design-patent-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-vision-x-design-patent-india/</guid>
-      <pubDate>Mon, 03 Aug 2026 15:09:34 +0530</pubDate>
-      <description>Mahindra has patented the Vision X design in India. The sub-4m SUV on the NU_IQ platform will sit above the XUV 3XO, in ICE and EV forms.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
