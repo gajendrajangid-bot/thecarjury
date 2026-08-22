@@ -2786,7 +2786,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/volkswagen-compact-suv-india-2027-confirmed/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2799,6 +2799,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/volkswagen-india-4-upcoming-cars-2026-virtus-facelift/</loc>
     <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/volkswagen-india-eu-fta-niche-models-thomas-schafer/</loc>
+    <lastmod>2026-08-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

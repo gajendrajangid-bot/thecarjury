@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/volkswagen-compact-suv-india-2027-confirmed/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-22</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -47,6 +47,18 @@
       </news:publication>
       <news:publication_date>2026-08-21T16:25:46+04:00</news:publication_date>
       <news:title>Volkswagen's Kylaq Twin Confirmed for India in 2027: Late, but Priced to Fight</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/volkswagen-india-eu-fta-niche-models-thomas-schafer/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-22T18:06:34+04:00</news:publication_date>
+      <news:title>VW eyes India-EU FTA to slip niche imports in alongside local compact SUV</news:title>
     </news:news>
   </url>
 </urlset>

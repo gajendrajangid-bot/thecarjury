@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 22 Aug 2026 07:38:47 +0400</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 18:06:36 +0400</lastBuildDate>
+    <item>
+      <title>VW eyes India-EU FTA to slip niche imports in alongside local compact SUV</title>
+      <link>https://www.thecarjury.com/news/volkswagen-india-eu-fta-niche-models-thomas-schafer/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-india-eu-fta-niche-models-thomas-schafer/</guid>
+      <pubDate>Sat, 22 Aug 2026 18:06:34 +0400</pubDate>
+      <description>Volkswagen CEO Thomas Schafer says the India-EU FTA opens a window to bring niche models here, alongside a locally built compact SUV due next year.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2027 Hyundai Tucson Spied In White: Fifth-Gen SUV's Boxy New Look Goes Public</title>
       <link>https://www.thecarjury.com/news/2027-hyundai-tucson-spied-white-real-world-photos/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-hilux-india-vs-global-missing-features/</guid>
       <pubDate>Tue, 04 Aug 2026 02:42:50 +0530</pubDate>
       <description>The 9th-gen Toyota Hilux launches in India from Rs 31.99 lakh, but loses dual-zone climate, manual gearbox and 18-inch alloys versus global spec.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai Creta August 2026 Discounts Hit Rs 1 Lakh: Petrol Buyers Win, Diesel Loses</title>
-      <link>https://www.thecarjury.com/news/hyundai-creta-discount-august-2026-rs-1-lakh/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-creta-discount-august-2026-rs-1-lakh/</guid>
-      <pubDate>Tue, 04 Aug 2026 02:42:09 +0530</pubDate>
-      <description>Hyundai Creta petrol and N Line variants get up to Rs 1 lakh off in August 2026, but diesel buyers get just Rs 10,000. Here&amp;#x27;s our take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
