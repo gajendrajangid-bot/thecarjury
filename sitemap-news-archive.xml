@@ -2216,7 +2216,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/skoda-india-sedan-quintessential-car-ashish-gupta/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2763,6 +2763,12 @@
   <url>
     <loc>https://www.thecarjury.com/news/tvs-hyundai-blue-move-electric-three-wheeler-pilot-gurugram/</loc>
     <lastmod>2026-07-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/upcoming-sedans-india-tigor-ev-superb-diesel-roundup/</loc>
+    <lastmod>2026-08-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
