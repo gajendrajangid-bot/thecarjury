@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 24 Aug 2026 09:16:04 +0400</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 18:05:52 +0400</lastBuildDate>
+    <item>
+      <title>JSW Files Seven New Car Names, Combat And Adventura Hint At Rugged SUVs</title>
+      <link>https://www.thecarjury.com/news/jsw-motors-trademarks-combat-adventura-dominor-sereno-cadet-urbanique-eleve/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-motors-trademarks-combat-adventura-dominor-sereno-cadet-urbanique-eleve/</guid>
+      <pubDate>Mon, 24 Aug 2026 18:05:50 +0400</pubDate>
+      <description>JSW Motors trademarks seven names ahead of its pre-Diwali 2026 debut, including Combat and Adventura. The Car Jury reads the strategy.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Scorpio Lifestyler Look Will Reshape Scorpio-N, Says Pratap Bose</title>
       <link>https://www.thecarjury.com/news/mahindra-scorpio-lifestyler-design-scorpio-n-future-pratap-bose/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-creta-electric-assured-buyback-60-percent/</guid>
       <pubDate>Tue, 04 Aug 2026 14:57:50 +0530</pubDate>
       <description>Hyundai promises 60% buyback on the Creta Electric for 3 years or 45,000km. The Car Jury on whether this fixes the EV resale problem.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>E20 Fuel Contamination Is Wrecking Engines: SIAM Demands Chloride Limits</title>
-      <link>https://www.thecarjury.com/news/e20-fuel-contamination-engine-damage-siam-chloride/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/e20-fuel-contamination-engine-damage-siam-chloride/</guid>
-      <pubDate>Tue, 04 Aug 2026 14:57:07 +0530</pubDate>
-      <description>SIAM flags chloride and moisture contamination in E20 petrol as fuel injectors and pumps fail. The Centre orders tighter monitoring at retail outlets.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
