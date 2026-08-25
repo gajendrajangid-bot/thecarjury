@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 25 Aug 2026 08:47:30 +0400</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 18:47:20 +0400</lastBuildDate>
+    <item>
+      <title>Skoda Superb Diesel Returns To India: Camry Finally Has A Rival That Bites</title>
+      <link>https://www.thecarjury.com/news/skoda-superb-diesel-india-4th-gen-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-superb-diesel-india-4th-gen-launch/</guid>
+      <pubDate>Tue, 25 Aug 2026 18:47:12 +0400</pubDate>
+      <description>Skoda unveils the 4th-gen Superb TDI for India as a CBU, reviving diesel after six years and taking direct aim at the Toyota Camry.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2027 Tata Nexon Spied: Gen-2 'Garud' Ditches The Coupe Roof</title>
       <link>https://www.thecarjury.com/news/2027-tata-nexon-gen-2-spied-garud/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-india-service-network-1671-touchpoints-1021-cities/</guid>
       <pubDate>Tue, 04 Aug 2026 18:06:51 +0530</pubDate>
       <description>Hyundai India&amp;#x27;s service network now spans 1,671 touchpoints across 1,021 cities, with 8.23 million vehicles serviced in FY26. Our verdict for buyers.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>MG Hector Hawk lands August 28: EV + PHEV 7-seater on new ADAPT platform</title>
-      <link>https://www.thecarjury.com/news/mg-hector-hawk-launch-august-28-ev-phev/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-hector-hawk-launch-august-28-ev-phev/</guid>
-      <pubDate>Tue, 04 Aug 2026 14:59:03 +0530</pubDate>
-      <description>JSW MG will launch the Hector Hawk on August 28, a 7-seater built on the new ADAPT platform with EV and PHEV powertrains taking on Mahindra XEV 9S.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
