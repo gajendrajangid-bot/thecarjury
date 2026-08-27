@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 25 Aug 2026 18:47:20 +0400</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 19:20:56 +0530</lastBuildDate>
+    <item>
+      <title>Porsche Cayenne Electric hits India on September 30: a Rs 1.76 crore hard sell</title>
+      <link>https://www.thecarjury.com/news/porsche-cayenne-electric-india-debut-september-30/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/porsche-cayenne-electric-india-debut-september-30/</guid>
+      <pubDate>Thu, 27 Aug 2026 19:20:53 +0530</pubDate>
+      <description>Porsche Cayenne Electric officially debuts in India on September 30, priced from Rs 1.76 crore, with up to 1,156hp and 642km range on offer.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Skoda Superb Diesel Returns To India: Camry Finally Has A Rival That Bites</title>
       <link>https://www.thecarjury.com/news/skoda-superb-diesel-india-4th-gen-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-india-launch-4-september-2026/</guid>
       <pubDate>Wed, 05 Aug 2026 08:48:58 +0530</pubDate>
       <description>Kia Sorento launches in India on 4 September 2026 with hybrid and diesel powertrains, taking on Fortuner, Kodiaq, Meridian and MG Majestor.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai's 1,671 service touchpoints: the boring moat that beats Honda's ghost</title>
-      <link>https://www.thecarjury.com/news/hyundai-india-service-network-1671-touchpoints-1021-cities/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-india-service-network-1671-touchpoints-1021-cities/</guid>
-      <pubDate>Tue, 04 Aug 2026 18:06:51 +0530</pubDate>
-      <description>Hyundai India&amp;#x27;s service network now spans 1,671 touchpoints across 1,021 cities, with 8.23 million vehicles serviced in FY26. Our verdict for buyers.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
