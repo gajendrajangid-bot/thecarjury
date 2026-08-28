@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/mahindra-xev-9s-xev-9e-baas-prices-launched/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-28T19:23:50+05:30</news:publication_date>
+      <news:title>Mahindra XEV 9S At Rs 12.65L, XEV 9e At Rs 13.90L With BaaS: The Sticker Trick Works</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/porsche-cayenne-electric-india-debut-september-30/</loc>
     <lastmod>2026-08-28</lastmod>
     <news:news>

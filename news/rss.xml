@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 28 Aug 2026 10:27:10 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 19:23:56 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra XEV 9S At Rs 12.65L, XEV 9e At Rs 13.90L With BaaS: The Sticker Trick Works</title>
+      <link>https://www.thecarjury.com/news/mahindra-xev-9s-xev-9e-baas-prices-launched/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xev-9s-xev-9e-baas-prices-launched/</guid>
+      <pubDate>Fri, 28 Aug 2026 19:23:50 +0530</pubDate>
+      <description>Mahindra extends Battery-as-a-Service to XEV 9S and XEV 9e, dropping upfront ex-showroom prices to Rs 12.65 lakh and Rs 13.90 lakh respectively.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata.cars: A Rebrand That Papers Over The Real Question</title>
       <link>https://www.thecarjury.com/news/tata-motors-rebrands-pv-business-tata-cars/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/top-5-electric-car-oems-july-2026-tata-mg-mahindra/</guid>
       <pubDate>Wed, 05 Aug 2026 08:50:39 +0530</pubDate>
       <description>Tata leads India&amp;#x27;s EV sales in July 2026 with 15,055 units. MG reclaims second, Mahindra slips, VinFast breaks into the top five.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Nissan Tekton Bags India Book Of Records With 60-SUV Convoy To Leh</title>
-      <link>https://www.thecarjury.com/news/nissan-tekton-india-book-of-records-leh-convoy/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-india-book-of-records-leh-convoy/</guid>
-      <pubDate>Wed, 05 Aug 2026 08:49:51 +0530</pubDate>
-      <description>Nissan Tekton entered the India Book of Records with a 60-SUV convoy from Chandigarh to Leh, covering 700+ km through Shinku La at 16,703 feet.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
