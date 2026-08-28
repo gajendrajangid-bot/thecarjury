@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 27 Aug 2026 19:21:02 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 10:27:17 +0530</lastBuildDate>
+    <item>
+      <title>Tata.cars: A Rebrand That Papers Over The Real Question</title>
+      <link>https://www.thecarjury.com/news/tata-motors-rebrands-pv-business-tata-cars/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-rebrands-pv-business-tata-cars/</guid>
+      <pubDate>Fri, 28 Aug 2026 10:27:08 +0530</pubDate>
+      <description>Tata Motors renames its passenger vehicle business Tata.cars, folding ICE and EV models under one identity. The Car Jury on what actually changes.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Porsche Cayenne Electric hits India on September 30: a Rs 1.76 crore hard sell</title>
       <link>https://www.thecarjury.com/news/porsche-cayenne-electric-india-debut-september-30/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-india-book-of-records-leh-convoy/</guid>
       <pubDate>Wed, 05 Aug 2026 08:49:51 +0530</pubDate>
       <description>Nissan Tekton entered the India Book of Records with a 60-SUV convoy from Chandigarh to Leh, covering 700+ km through Shinku La at 16,703 feet.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Sorento Lands 4 September: The Fortuner Fighter Kia Should Have Sent Years Ago</title>
-      <link>https://www.thecarjury.com/news/kia-sorento-india-launch-4-september-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-india-launch-4-september-2026/</guid>
-      <pubDate>Wed, 05 Aug 2026 08:48:58 +0530</pubDate>
-      <description>Kia Sorento launches in India on 4 September 2026 with hybrid and diesel powertrains, taking on Fortuner, Kodiaq, Meridian and MG Majestor.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

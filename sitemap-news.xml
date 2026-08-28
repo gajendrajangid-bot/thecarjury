@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/porsche-cayenne-electric-india-debut-september-30/</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -14,15 +14,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/skoda-superb-diesel-india-4th-gen-launch/</loc>
-    <lastmod>2026-08-25</lastmod>
+    <loc>https://www.thecarjury.com/news/tata-motors-rebrands-pv-business-tata-cars/</loc>
+    <lastmod>2026-08-28</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-25T18:47:12+04:00</news:publication_date>
-      <news:title>Skoda Superb Diesel Returns To India: Camry Finally Has A Rival That Bites</news:title>
+      <news:publication_date>2026-08-28T10:27:08+05:30</news:publication_date>
+      <news:title>Tata.cars: A Rebrand That Papers Over The Real Question</news:title>
     </news:news>
   </url>
 </urlset>
