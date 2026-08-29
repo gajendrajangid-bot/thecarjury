@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 28 Aug 2026 19:24:05 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 10:21:30 +0530</lastBuildDate>
+    <item>
+      <title>July 2026 Car Exports: Verna, Jimny, Fronx Lead as Shipments Crawl 2.4%</title>
+      <link>https://www.thecarjury.com/news/car-exports-july-2026-verna-jimny-fronx-top-30/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/car-exports-july-2026-verna-jimny-fronx-top-30/</guid>
+      <pubDate>Sat, 29 Aug 2026 10:21:19 +0530</pubDate>
+      <description>India shipped 69,931 cars overseas in July 2026, up just 2.4% YoY. Hyundai Verna, Maruti Jimny and Fronx anchor the top 30 list.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mahindra XEV 9S At Rs 12.65L, XEV 9e At Rs 13.90L With BaaS: The Sticker Trick Works</title>
       <link>https://www.thecarjury.com/news/mahindra-xev-9s-xev-9e-baas-prices-launched/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-skoda-volkswagen-manufacturing-jv-mou-india/</guid>
       <pubDate>Wed, 05 Aug 2026 11:46:34 +0530</pubDate>
       <description>JSW Group and Skoda Auto Volkswagen India are close to a 51:49 manufacturing JV MoU that will fund EVs and deepen localisation.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Holds The EV Crown As VinFast Crashes Into India's Top 5</title>
-      <link>https://www.thecarjury.com/news/top-5-electric-car-oems-july-2026-tata-mg-mahindra/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/top-5-electric-car-oems-july-2026-tata-mg-mahindra/</guid>
-      <pubDate>Wed, 05 Aug 2026 08:50:39 +0530</pubDate>
-      <description>Tata leads India&amp;#x27;s EV sales in July 2026 with 15,055 units. MG reclaims second, Mahindra slips, VinFast breaks into the top five.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
