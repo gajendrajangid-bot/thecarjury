@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 29 Aug 2026 10:21:30 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 19:32:10 +0530</lastBuildDate>
+    <item>
+      <title>Renault Triber Turbo CNG Spied In Pune: The Fix Buyers Actually Wanted</title>
+      <link>https://www.thecarjury.com/news/renault-triber-turbo-cng-spied-pune-arai/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-triber-turbo-cng-spied-pune-arai/</guid>
+      <pubDate>Sat, 29 Aug 2026 19:31:57 +0530</pubDate>
+      <description>Renault Triber Turbo CNG test mule spotted in Pune ahead of a September 2026 launch. Here is why the powertrain switch finally makes the MPV worth a look.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>July 2026 Car Exports: Verna, Jimny, Fronx Lead as Shipments Crawl 2.4%</title>
       <link>https://www.thecarjury.com/news/car-exports-july-2026-verna-jimny-fronx-top-30/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xuv-7xo-1500km-review-verdict/</guid>
       <pubDate>Wed, 05 Aug 2026 11:47:20 +0530</pubDate>
       <description>After 1,500 km across Maharashtra and Karnataka in the XUV 7XO Diesel AT AWD, The Car Jury delivers its verdict on Mahindra&amp;#x27;s flagship SUV.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>JSW-Skoda VW JV: The Lifeline Volkswagen Group India Actually Needs</title>
-      <link>https://www.thecarjury.com/news/jsw-skoda-volkswagen-manufacturing-jv-mou-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-skoda-volkswagen-manufacturing-jv-mou-india/</guid>
-      <pubDate>Wed, 05 Aug 2026 11:46:34 +0530</pubDate>
-      <description>JSW Group and Skoda Auto Volkswagen India are close to a 51:49 manufacturing JV MoU that will fund EVs and deepen localisation.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
