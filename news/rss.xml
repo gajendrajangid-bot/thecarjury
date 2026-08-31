@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 30 Aug 2026 19:16:38 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 11:29:40 +0530</lastBuildDate>
+    <item>
+      <title>September 2026 Launches: Kia Sorento Leads, Maruti And BMW Facelifts Follow</title>
+      <link>https://www.thecarjury.com/news/september-2026-car-launches-kia-sorento-maruti-bmw/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/september-2026-car-launches-kia-sorento-maruti-bmw/</guid>
+      <pubDate>Mon, 31 Aug 2026 11:29:38 +0530</pubDate>
+      <description>Kia Sorento arrives September 4 as the brand&amp;#x27;s ICE flagship, joined by a Maruti hatchback facelift and a BMW sedan update. Our take.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG Hector Tomahawk PHEV vs Innova Hycross Hybrid: Rs 4 Lakh Gap, Two Very Different Bets</title>
       <link>https://www.thecarjury.com/news/mg-hector-tomahawk-phev-vs-toyota-innova-hycross-hybrid/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/audi-india-q3-a5-q9-local-assembly-2027/</guid>
       <pubDate>Wed, 05 Aug 2026 14:50:33 +0530</pubDate>
       <description>Audi India will launch the Q3, A5 and Q9 by 2027, all locally assembled at the Aurangabad plant. Q3 lands first at around Rs 60 lakh.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>SIAM Retreats On E20 Contamination Warning: Buyers Left Holding The Bag</title>
-      <link>https://www.thecarjury.com/news/siam-withdraws-e20-fuel-contamination-letter/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/siam-withdraws-e20-fuel-contamination-letter/</guid>
-      <pubDate>Wed, 05 Aug 2026 14:49:54 +0530</pubDate>
-      <description>SIAM has withdrawn its E20 fuel contamination communication to the petroleum ministry, citing selective media quoting and figures needing verification.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

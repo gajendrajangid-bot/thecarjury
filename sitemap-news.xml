@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-mahindra-thar-facelift-spied-new-grille/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -14,32 +14,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/car-exports-july-2026-verna-jimny-fronx-top-30/</loc>
-    <lastmod>2026-08-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-29T10:21:19+05:30</news:publication_date>
-      <news:title>July 2026 Car Exports: Verna, Jimny, Fronx Lead as Shipments Crawl 2.4%</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mahindra-xev-9s-xev-9e-baas-prices-launched/</loc>
-    <lastmod>2026-08-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-28T19:23:50+05:30</news:publication_date>
-      <news:title>Mahindra XEV 9S At Rs 12.65L, XEV 9e At Rs 13.90L With BaaS: The Sticker Trick Works</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mg-hector-tomahawk-phev-vs-toyota-innova-hycross-hybrid/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -51,7 +27,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/renault-triber-turbo-cng-spied-pune-arai/</loc>
-    <lastmod>2026-08-30</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -59,6 +35,18 @@
       </news:publication>
       <news:publication_date>2026-08-29T19:31:57+05:30</news:publication_date>
       <news:title>Renault Triber Turbo CNG Spied In Pune: The Fix Buyers Actually Wanted</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/september-2026-car-launches-kia-sorento-maruti-bmw/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-31T11:29:38+05:30</news:publication_date>
+      <news:title>September 2026 Launches: Kia Sorento Leads, Maruti And BMW Facelifts Follow</news:title>
     </news:news>
   </url>
 </urlset>
