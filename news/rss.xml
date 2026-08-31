@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 31 Aug 2026 11:29:40 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 19:20:19 +0530</lastBuildDate>
+    <item>
+      <title>Next-Gen Tata Nexon Cabin Spied: Real Reset, Not Another Facelift</title>
+      <link>https://www.thecarjury.com/news/next-gen-tata-nexon-interiors-spied-2027-launch/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-tata-nexon-interiors-spied-2027-launch/</guid>
+      <pubDate>Mon, 31 Aug 2026 19:20:08 +0530</pubDate>
+      <description>Next-gen Tata Nexon interior spied by Punit Patil. A ground-up redesign is due in 2027, ending the 2017 platform&amp;#x27;s long facelift cycle.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>September 2026 Launches: Kia Sorento Leads, Maruti And BMW Facelifts Follow</title>
       <link>https://www.thecarjury.com/news/september-2026-car-launches-kia-sorento-maruti-bmw/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-carens-clavis-discount-august-2026/</guid>
       <pubDate>Thu, 06 Aug 2026 09:07:56 +0530</pubDate>
       <description>Kia Carens Clavis MPV gets benefits up to Rs 1.2 lakh in August 2026, with MY25 stock carrying the fattest cash discounts. Details inside.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Audi India commits to three locally assembled launches by 2027</title>
-      <link>https://www.thecarjury.com/news/audi-india-q3-a5-q9-local-assembly-2027/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-india-q3-a5-q9-local-assembly-2027/</guid>
-      <pubDate>Wed, 05 Aug 2026 14:50:33 +0530</pubDate>
-      <description>Audi India will launch the Q3, A5 and Q9 by 2027, all locally assembled at the Aurangabad plant. Q3 lands first at around Rs 60 lakh.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
