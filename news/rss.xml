@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 31 Aug 2026 19:20:19 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 10:22:41 +0530</lastBuildDate>
+    <item>
+      <title>Hyundai Confirms Hilux Rival Pickup, Fortuner Rival Could Follow</title>
+      <link>https://www.thecarjury.com/news/hyundai-hilux-rival-pickup-fortuner-suv-confirmed/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-hilux-rival-pickup-fortuner-suv-confirmed/</guid>
+      <pubDate>Tue, 01 Sep 2026 10:22:34 +0530</pubDate>
+      <description>Hyundai has confirmed a body-on-frame midsize pickup to rival the Toyota Hilux. A Fortuner-style SUV derivative is the obvious next step.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Next-Gen Tata Nexon Cabin Spied: Real Reset, Not Another Facelift</title>
       <link>https://www.thecarjury.com/news/next-gen-tata-nexon-interiors-spied-2027-launch/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/audi-india-market-share-target-2029-q3-a5-q9/</guid>
       <pubDate>Thu, 06 Aug 2026 09:08:37 +0530</pubDate>
       <description>Audi plans to double its India luxury market share to 15-16% in three years, riding on the new Q3, next-gen A5 and flagship Q9 SUV.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Carens Clavis gets up to Rs 1.2 lakh off in August 2026</title>
-      <link>https://www.thecarjury.com/news/kia-carens-clavis-discount-august-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-carens-clavis-discount-august-2026/</guid>
-      <pubDate>Thu, 06 Aug 2026 09:07:56 +0530</pubDate>
-      <description>Kia Carens Clavis MPV gets benefits up to Rs 1.2 lakh in August 2026, with MY25 stock carrying the fattest cash discounts. Details inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
