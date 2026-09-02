@@ -2,20 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-mahindra-thar-facelift-spied-new-grille/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T10:41:02+05:30</news:publication_date>
-      <news:title>2026 Mahindra Thar Facelift Spied: New Grille, Alloys Hint At Festive Launch</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-hilux-rival-pickup-fortuner-suv-confirmed/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -26,39 +14,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mg-hector-tomahawk-phev-vs-toyota-innova-hycross-hybrid/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <loc>https://www.thecarjury.com/news/jsw-motors-jetour-t2-suv-spied-india/</loc>
+    <lastmod>2026-09-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-08-30T19:16:32+05:30</news:publication_date>
-      <news:title>MG Hector Tomahawk PHEV vs Innova Hycross Hybrid: Rs 4 Lakh Gap, Two Very Different Bets</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/next-gen-tata-nexon-interiors-spied-2027-launch/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T19:20:08+05:30</news:publication_date>
-      <news:title>Next-Gen Tata Nexon Cabin Spied: Real Reset, Not Another Facelift</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/september-2026-car-launches-kia-sorento-maruti-bmw/</loc>
-    <lastmod>2026-09-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T11:29:38+05:30</news:publication_date>
-      <news:title>September 2026 Launches: Kia Sorento Leads, Maruti And BMW Facelifts Follow</news:title>
+      <news:publication_date>2026-09-02T19:40:22+05:30</news:publication_date>
+      <news:title>JSW Motors' Jetour T2-Based SUV Spied Testing in India</news:title>
     </news:news>
   </url>
 </urlset>
