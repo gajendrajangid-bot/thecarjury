@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 06 Sep 2026 09:33:11 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 10:40:23 +0530</lastBuildDate>
+    <item>
+      <title>2026 Maruti Baleno Facelift Launched at Rs 6.10 Lakh: New 3-Cylinder Engine, ADAS Added</title>
+      <link>https://www.thecarjury.com/news/2026-maruti-baleno-facelift-launch-price-adas/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-maruti-baleno-facelift-launch-price-adas/</guid>
+      <pubDate>Sun, 06 Sep 2026 10:40:17 +0530</pubDate>
+      <description>Maruti launches the 2026 Baleno facelift from Rs 6.10 lakh with Level 2 ADAS, a new 1.2 three-cylinder petrol, and CNG option. TCJ verdict inside.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Innova Hycross Facelift Spied: Toyota Hides The Screen, Cabin Looks Familiar</title>
       <link>https://www.thecarjury.com/news/toyota-innova-hycross-facelift-interior-spied-2027/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-india-sales-july-2026-creta-venue-lead-recovery/</guid>
       <pubDate>Mon, 10 Aug 2026 09:00:35 +0530</pubDate>
       <description>Hyundai India sold 54,210 units in July 2026, up 23% YoY. Creta and Venue did the heavy lifting, but the wider portfolio remains thin.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>EV Retails Cross 32,900 In July 2026: Tata And Mahindra Own The Market</title>
-      <link>https://www.thecarjury.com/news/electric-car-sales-july-2026-tata-mahindra-mg/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/electric-car-sales-july-2026-tata-mahindra-mg/</guid>
-      <pubDate>Sun, 09 Aug 2026 09:05:58 +0530</pubDate>
-      <description>India&amp;#x27;s electric car retails hit 32,928 units in July 2026, up 83% YoY. Tata leads with 13,678, Mahindra doubles to 7,742.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
