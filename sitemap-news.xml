@@ -14,8 +14,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/kia-clavis-discounts-september-2026/</loc>
+    <lastmod>2026-09-06</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-06T19:18:22+05:30</news:publication_date>
+      <news:title>Kia Carens Clavis Gets Rs 1.20 Lakh Off This September, Carnival Leads With Rs 1.50 Lakh</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-vs-toyota-fortuner-comparison/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-06</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -27,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/kia-syros-flex-fuel-e100-concept-showcased-india/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-06</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
