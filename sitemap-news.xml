@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-bmw-7-series-facelift-launch-india-price/</loc>
+    <lastmod>2026-09-11</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-11T17:56:56+05:30</news:publication_date>
+      <news:title>2026 BMW 7 Series facelift lands at Rs 1.95 crore, undercuts S-Class by Rs 43 lakh</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/2026-maruti-baleno-on-road-price-top-cities/</loc>
     <lastmod>2026-09-11</lastmod>
     <news:news>
@@ -11,18 +23,6 @@
       </news:publication>
       <news:publication_date>2026-09-10T17:54:16+05:30</news:publication_date>
       <news:title>2026 Maruti Baleno On-Road Prices: Top Alpha (O) Crosses Rs 11.8 Lakh</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/kia-sorento-deliveries-begin-india-first-owner/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T10:31:59+05:30</news:publication_date>
-      <news:title>Kia Sorento Deliveries Begin In India: First Owner Takes Home Rs 27.99 Lakh Flagship</news:title>
     </news:news>
   </url>
   <url>
