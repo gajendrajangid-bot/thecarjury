@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2026-bmw-7-series-facelift-launch-india-price/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -14,32 +14,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/2026-maruti-baleno-on-road-price-top-cities/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T17:54:16+05:30</news:publication_date>
-      <news:title>2026 Maruti Baleno On-Road Prices: Top Alpha (O) Crosses Rs 11.8 Lakh</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-victoris-discount-september-2026/</loc>
-    <lastmod>2026-09-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T10:18:29+05:30</news:publication_date>
-      <news:title>Maruti Victoris Gets Rs 1.35 Lakh Off In September: Read The Signal</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/renault-duster-discounts-september-2026/</loc>
-    <lastmod>2026-09-11</lastmod>
+    <lastmod>2026-09-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -47,6 +23,18 @@
       </news:publication>
       <news:publication_date>2026-09-11T08:47:53+05:30</news:publication_date>
       <news:title>Renault Duster Gets Rs 1.8 Lakh Off: First Discount Since Launch Signals Slow Start</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-punch-ev-price-hike-september-2026/</loc>
+    <lastmod>2026-09-12</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-12T18:47:32+05:30</news:publication_date>
+      <news:title>Tata Punch EV Gets Up To Rs 20,000 Costlier: New Price List Inside</news:title>
     </news:news>
   </url>
 </urlset>
