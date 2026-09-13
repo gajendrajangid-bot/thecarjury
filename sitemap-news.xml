@@ -2,39 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-bmw-7-series-facelift-launch-india-price/</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://www.thecarjury.com/news/2027-tata-nexon-gen-2-spied-garud/</loc>
+    <lastmod>2026-08-25</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-11T17:56:56+05:30</news:publication_date>
-      <news:title>2026 BMW 7 Series facelift lands at Rs 1.95 crore, undercuts S-Class by Rs 43 lakh</news:title>
+      <news:publication_date>2026-08-25T08:47:22+04:00</news:publication_date>
+      <news:title>2027 Tata Nexon Spied: Gen-2 'Garud' Ditches The Coupe Roof</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/renault-duster-discounts-september-2026/</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://www.thecarjury.com/news/jsw-motors-trademarks-combat-adventura-dominor-sereno-cadet-urbanique-eleve/</loc>
+    <lastmod>2026-08-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-11T08:47:53+05:30</news:publication_date>
-      <news:title>Renault Duster Gets Rs 1.8 Lakh Off: First Discount Since Launch Signals Slow Start</news:title>
+      <news:publication_date>2026-08-24T18:05:50+04:00</news:publication_date>
+      <news:title>JSW Files Seven New Car Names, Combat And Adventura Hint At Rugged SUVs</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/tata-punch-ev-price-hike-september-2026/</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://www.thecarjury.com/news/mahindra-scorpio-lifestyler-design-scorpio-n-future-pratap-bose/</loc>
+    <lastmod>2026-08-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-12T18:47:32+05:30</news:publication_date>
-      <news:title>Tata Punch EV Gets Up To Rs 20,000 Costlier: New Price List Inside</news:title>
+      <news:publication_date>2026-08-24T09:15:55+04:00</news:publication_date>
+      <news:title>Scorpio Lifestyler Look Will Reshape Scorpio-N, Says Pratap Bose</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/skoda-superb-diesel-india-4th-gen-launch/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25T18:47:12+04:00</news:publication_date>
+      <news:title>Skoda Superb Diesel Returns To India: Camry Finally Has A Rival That Bites</news:title>
     </news:news>
   </url>
 </urlset>
