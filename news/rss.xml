@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 15 Sep 2026 08:51:39 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 17:45:57 +0530</lastBuildDate>
+    <item>
+      <title>Maruti Wagon R Facelift Spied: New Z-Series Engine Is The Real Story</title>
+      <link>https://www.thecarjury.com/news/maruti-wagon-r-facelift-spied-z-series-engine/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-wagon-r-facelift-spied-z-series-engine/</guid>
+      <pubDate>Tue, 15 Sep 2026 17:45:51 +0530</pubDate>
+      <description>A camouflaged Maruti Wagon R facelift test mule points to mild styling tweaks and a possible switch to the new Z-Series petrol engine.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>2027 Tata Nexon Spied: Boxier Silhouette Signals a Bigger Jump Than Usual</title>
       <link>https://www.thecarjury.com/news/2027-tata-nexon-spied-boxier-design-new-rear/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/porsche-taycan-axed-2030-report/</guid>
       <pubDate>Tue, 18 Aug 2026 09:09:37 +0530</pubDate>
       <description>Porsche could discontinue the Taycan by 2030 after global sales collapsed 60 percent in 2025. Our verdict on what it means for the electric halo car.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Third-Gen Audi Q3 Teased For India: The Segment's Sharpest Return</title>
-      <link>https://www.thecarjury.com/news/audi-q3-third-gen-india-teaser-launch-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/audi-q3-third-gen-india-teaser-launch-2026/</guid>
-      <pubDate>Mon, 17 Aug 2026 17:58:49 +0530</pubDate>
-      <description>Audi India teases the third-gen Q3 SUV ahead of its imminent launch, part of a product offensive that also brings the A5 and Q9.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
