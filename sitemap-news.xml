@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/2027-tata-nexon-spied-boxier-design-new-rear/</loc>
-    <lastmod>2026-09-15</lastmod>
+    <lastmod>2026-09-16</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -47,6 +47,18 @@
       </news:publication>
       <news:publication_date>2026-09-15T17:45:51+05:30</news:publication_date>
       <news:title>Maruti Wagon R Facelift Spied: New Z-Series Engine Is The Real Story</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-harrier-ev-refund-hyderabad-consumer-court-dealer-liable/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-16T08:49:13+05:30</news:publication_date>
+      <news:title>Hyderabad Court Orders Tata Dealer To Refund Rs 28 Lakh For Faulty Harrier EV</news:title>
     </news:news>
   </url>
 </urlset>
