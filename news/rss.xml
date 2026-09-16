@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 16 Sep 2026 08:49:18 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 18:07:59 +0530</lastBuildDate>
+    <item>
+      <title>2026 VW Virtus Facelift Spied Again: Festive Launch Locked In</title>
+      <link>https://www.thecarjury.com/news/2026-volkswagen-virtus-facelift-spied-mumbai-pune-expressway/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-volkswagen-virtus-facelift-spied-mumbai-pune-expressway/</guid>
+      <pubDate>Wed, 16 Sep 2026 18:07:54 +0530</pubDate>
+      <description>Volkswagen Virtus facelift spotted on Mumbai-Pune Expressway ahead of a festive-season launch. Front and rear get the changes, cabin stays familiar.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyderabad Court Orders Tata Dealer To Refund Rs 28 Lakh For Faulty Harrier EV</title>
       <link>https://www.thecarjury.com/news/tata-harrier-ev-refund-hyderabad-consumer-court-dealer-liable/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-octavia-rs-second-batch-bookings-open-india-2026/</guid>
       <pubDate>Wed, 19 Aug 2026 08:52:16 +0530</pubDate>
       <description>Skoda opens bookings for a second, smaller 50-unit batch of the Octavia RS in India, with festive-season deliveries and full-import pricing.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Syros EV: 150 units delivered in a day proves the small EV thesis works</title>
-      <link>https://www.thecarjury.com/news/kia-syros-ev-150-deliveries-single-day-record-kochi/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-ev-150-deliveries-single-day-record-kochi/</guid>
-      <pubDate>Tue, 18 Aug 2026 18:23:01 +0530</pubDate>
-      <description>Kia dealer Incheon Kia delivered 150 Syros EVs in Kochi on August 17, setting an India Book of Records mark for single-model EV deliveries.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2026-volkswagen-virtus-facelift-spied-mumbai-pune-expressway/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-16T18:07:54+05:30</news:publication_date>
+      <news:title>2026 VW Virtus Facelift Spied Again: Festive Launch Locked In</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/2027-tata-nexon-spied-boxier-design-new-rear/</loc>
     <lastmod>2026-09-16</lastmod>
     <news:news>
@@ -11,30 +23,6 @@
       </news:publication>
       <news:publication_date>2026-09-15T08:51:34+05:30</news:publication_date>
       <news:title>2027 Tata Nexon Spied: Boxier Silhouette Signals a Bigger Jump Than Usual</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-bayon-name-india-midsize-suv-below-creta/</loc>
-    <lastmod>2026-09-15</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T17:52:43+05:30</news:publication_date>
-      <news:title>Hyundai Bayon: A Sub-Creta SUV Nobody Was Asking For</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/india-eu-fta-1-lakh-car-import-quota-lower-tariffs/</loc>
-    <lastmod>2026-09-15</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T08:59:05+05:30</news:publication_date>
-      <news:title>India-EU FTA: 1 Lakh Euro Cars At 30-35% Duty, Volkswagen And Germans Cheer</news:title>
     </news:news>
   </url>
   <url>
