@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-volkswagen-virtus-facelift-spied-mumbai-pune-expressway/</loc>
-    <lastmod>2026-09-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T18:07:54+05:30</news:publication_date>
-      <news:title>2026 VW Virtus Facelift Spied Again: Festive Launch Locked In</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/kia-carens-clavis-ev-lifetime-battery-warranty/</loc>
     <lastmod>2026-09-18</lastmod>
     <news:news>
@@ -26,15 +14,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/tata-harrier-ev-refund-hyderabad-consumer-court-dealer-liable/</loc>
+    <loc>https://www.thecarjury.com/news/mahindra-vision-s-interior-spied-production-suv/</loc>
     <lastmod>2026-09-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-16T08:49:13+05:30</news:publication_date>
-      <news:title>Hyderabad Court Orders Tata Dealer To Refund Rs 28 Lakh For Faulty Harrier EV</news:title>
+      <news:publication_date>2026-09-18T18:09:26+05:30</news:publication_date>
+      <news:title>Mahindra Vision S interior spied: production SUV borrows heavily from Thar Roxx and XUV 7XO</news:title>
     </news:news>
   </url>
   <url>

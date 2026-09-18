@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 18 Sep 2026 08:47:11 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 18:09:42 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra Vision S interior spied: production SUV borrows heavily from Thar Roxx and XUV 7XO</title>
+      <link>https://www.thecarjury.com/news/mahindra-vision-s-interior-spied-production-suv/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-vision-s-interior-spied-production-suv/</guid>
+      <pubDate>Fri, 18 Sep 2026 18:09:26 +0530</pubDate>
+      <description>New spy shots of the Mahindra Vision S-based SUV reveal a production cabin cribbed from the Thar Roxx and XUV 7XO parts bin.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Safari EV Spied With Triple-Screen Dash, Loads Up For XEV 9S Fight</title>
       <link>https://www.thecarjury.com/news/tata-safari-ev-triple-screen-dashboard-spied/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-india-reveal-september-4-launch/</guid>
       <pubDate>Thu, 20 Aug 2026 18:58:11 +0400</pubDate>
       <description>Kia reveals India-spec Sorento ahead of September 4 launch with strong-hybrid AWD and diesel. Expected price Rs 30-35 lakh ex-showroom.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra XEV 9S captain-seat option: Rs 25.25 lakh well spent</title>
-      <link>https://www.thecarjury.com/news/mahindra-xev-9s-6-seat-captain-chairs-price/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xev-9s-6-seat-captain-chairs-price/</guid>
-      <pubDate>Thu, 20 Aug 2026 08:49:59 +0530</pubDate>
-      <description>Mahindra XEV 9S now gets a 6-seat captain-chair layout from Rs 25.25 lakh, a Rs 25,000 premium over the 7-seat versions across three trims.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
