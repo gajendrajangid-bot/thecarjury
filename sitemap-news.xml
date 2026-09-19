@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/kia-carens-clavis-ev-lifetime-battery-warranty/</loc>
-    <lastmod>2026-09-18</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-17T09:12:00+05:30</news:publication_date>
-      <news:title>Kia's Lifetime Battery Warranty on Carens Clavis EV: Real Cover or Fine Print?</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mahindra-vision-s-interior-spied-production-suv/</loc>
     <lastmod>2026-09-18</lastmod>
     <news:news>
@@ -26,8 +14,20 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/tata-aeris-trademark-tigor-facelift-launch-september-2026/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-19T21:02:35+05:30</news:publication_date>
+      <news:title>Tata Aeris Trademark Filed: Tigor Facelift Set For A Rebrand On 25 September?</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/tata-safari-ev-triple-screen-dashboard-spied/</loc>
-    <lastmod>2026-09-18</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
