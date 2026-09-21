@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 21 Sep 2026 11:35:21 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 22:43:48 +0530</lastBuildDate>
+    <item>
+      <title>Renault Sales Slide In August 2026: Duster Fails To Fire, Triber Carries The Load</title>
+      <link>https://www.thecarjury.com/news/renault-nissan-sales-august-2026-duster-triber-decline/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-nissan-sales-august-2026-duster-triber-decline/</guid>
+      <pubDate>Mon, 21 Sep 2026 22:43:42 +0530</pubDate>
+      <description>Renault sold 2,842 units in August 2026, down 5.74% YoY. Triber led with 1,536 units while Duster and Kiger volumes stayed weak.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>4.5-5m SUV Sales August 2026: Mahindra Owns 71% Of A Bracket That Just Grew 65%</title>
       <link>https://www.thecarjury.com/news/45m-to-5m-suv-sales-august-2026-mahindra-dominates/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-vision-s-baby-scorpio-diesel-spy-shots/</guid>
       <pubDate>Sun, 23 Aug 2026 08:59:57 +0400</pubDate>
       <description>Mahindra&amp;#x27;s Vision S-based compact SUV, the so-called Baby Scorpio, has been spotted with a diesel engine, AdBlue tank and ADAS hardware.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>VW eyes India-EU FTA to slip niche imports in alongside local compact SUV</title>
-      <link>https://www.thecarjury.com/news/volkswagen-india-eu-fta-niche-models-thomas-schafer/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-india-eu-fta-niche-models-thomas-schafer/</guid>
-      <pubDate>Sat, 22 Aug 2026 18:06:34 +0400</pubDate>
-      <description>Volkswagen CEO Thomas Schafer says the India-EU FTA opens a window to bring niche models here, alongside a locally built compact SUV due next year.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
