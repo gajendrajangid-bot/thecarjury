@@ -2,39 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/2026-mercedes-maybach-s-class-india-launch-october-5/</loc>
-    <lastmod>2026-09-22</lastmod>
+    <loc>https://www.thecarjury.com/news/2027-tata-nexon-gen-2-spied-garud/</loc>
+    <lastmod>2026-08-25</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-22T18:00:11+05:30</news:publication_date>
-      <news:title>2026 Mercedes-Maybach S-Class Lands October 5: Same Recipe, Bigger Grille</news:title>
+      <news:publication_date>2026-08-25T08:47:22+04:00</news:publication_date>
+      <news:title>2027 Tata Nexon Spied: Gen-2 'Garud' Ditches The Coupe Roof</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/45m-to-5m-suv-sales-august-2026-mahindra-dominates/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <loc>https://www.thecarjury.com/news/jsw-motors-trademarks-combat-adventura-dominor-sereno-cadet-urbanique-eleve/</loc>
+    <lastmod>2026-08-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-21T11:35:17+05:30</news:publication_date>
-      <news:title>4.5-5m SUV Sales August 2026: Mahindra Owns 71% Of A Bracket That Just Grew 65%</news:title>
+      <news:publication_date>2026-08-24T18:05:50+04:00</news:publication_date>
+      <news:title>JSW Files Seven New Car Names, Combat And Adventura Hint At Rugged SUVs</news:title>
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/renault-nissan-sales-august-2026-duster-triber-decline/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <loc>https://www.thecarjury.com/news/mahindra-scorpio-lifestyler-design-scorpio-n-future-pratap-bose/</loc>
+    <lastmod>2026-08-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-09-21T22:43:42+05:30</news:publication_date>
-      <news:title>Renault Sales Slide In August 2026: Duster Fails To Fire, Triber Carries The Load</news:title>
+      <news:publication_date>2026-08-24T09:15:55+04:00</news:publication_date>
+      <news:title>Scorpio Lifestyler Look Will Reshape Scorpio-N, Says Pratap Bose</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/skoda-superb-diesel-india-4th-gen-launch/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-25T18:47:12+04:00</news:publication_date>
+      <news:title>Skoda Superb Diesel Returns To India: Camry Finally Has A Rival That Bites</news:title>
     </news:news>
   </url>
 </urlset>
