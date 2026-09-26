@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 26 Sep 2026 08:03:13 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 08:53:44 +0530</lastBuildDate>
+    <item>
+      <title>Renault Duster Hybrid Lands 17 October: The Diesel-Killer Renault Actually Needs</title>
+      <link>https://www.thecarjury.com/news/renault-duster-hybrid-launch-17-october-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-hybrid-launch-17-october-2026/</guid>
+      <pubDate>Sat, 26 Sep 2026 08:53:39 +0530</pubDate>
+      <description>Renault confirms the Duster strong-hybrid for 17 October launch in India, pairing a 1.8 petrol with twin motors for 160 hp. Our verdict.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>JSW Combat Spied Next To Thar Roxx: The Ladder-Frame Fight Gets A Third Player</title>
       <link>https://www.thecarjury.com/news/jsw-combat-suv-spied-next-to-mahindra-thar-roxx/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-superb-diesel-india-4th-gen-launch/</guid>
       <pubDate>Tue, 25 Aug 2026 18:47:12 +0400</pubDate>
       <description>Skoda unveils the 4th-gen Superb TDI for India as a CBU, reviving diesel after six years and taking direct aim at the Toyota Camry.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2027 Tata Nexon Spied: Gen-2 'Garud' Ditches The Coupe Roof</title>
-      <link>https://www.thecarjury.com/news/2027-tata-nexon-gen-2-spied-garud/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2027-tata-nexon-gen-2-spied-garud/</guid>
-      <pubDate>Tue, 25 Aug 2026 08:47:22 +0400</pubDate>
-      <description>The second-generation Tata Nexon, codenamed Garud, has been spied testing with a more upright C-pillar and reworked rear doors. Launch in 2027.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
