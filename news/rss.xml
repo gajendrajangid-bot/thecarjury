@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 27 Sep 2026 08:59:23 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 17:50:01 +0530</lastBuildDate>
+    <item>
+      <title>Scorpio N Facelift Grille Patent Leaks: Twin Peaks Badge, Layered Bars Confirmed</title>
+      <link>https://www.thecarjury.com/news/mahindra-scorpio-n-facelift-grille-patent-leak/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-scorpio-n-facelift-grille-patent-leak/</guid>
+      <pubDate>Sun, 27 Sep 2026 17:49:55 +0530</pubDate>
+      <description>Mahindra has patented a new grille for the 2027 Scorpio N facelift, revealing horizontal bars, a Twin Peaks logo mount, and a layered frame.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Suzuki Targets 100 kg Weight Cut By 2030: Lighter Marutis Incoming</title>
       <link>https://www.thecarjury.com/news/suzuki-100-kg-weight-reduction-plan-2030/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xev-9s-xev-9e-baas-prices-launched/</guid>
       <pubDate>Fri, 28 Aug 2026 19:23:50 +0530</pubDate>
       <description>Mahindra extends Battery-as-a-Service to XEV 9S and XEV 9e, dropping upfront ex-showroom prices to Rs 12.65 lakh and Rs 13.90 lakh respectively.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata.cars: A Rebrand That Papers Over The Real Question</title>
-      <link>https://www.thecarjury.com/news/tata-motors-rebrands-pv-business-tata-cars/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-rebrands-pv-business-tata-cars/</guid>
-      <pubDate>Fri, 28 Aug 2026 10:27:08 +0530</pubDate>
-      <description>Tata Motors renames its passenger vehicle business Tata.cars, folding ICE and EV models under one identity. The Car Jury on what actually changes.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
