@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 28 Sep 2026 09:36:07 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 18:06:47 +0530</lastBuildDate>
+    <item>
+      <title>Tata rolls BaaS across the entire EV range: Harrier EV now starts at Rs 14.49 lakh</title>
+      <link>https://www.thecarjury.com/news/tata-nexon-sierra-harrier-curvv-ev-baas-scheme/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-nexon-sierra-harrier-curvv-ev-baas-scheme/</guid>
+      <pubDate>Mon, 28 Sep 2026 18:06:44 +0530</pubDate>
+      <description>Tata extends Battery-as-a-Service to the Nexon, Curvv, Sierra and Harrier EVs, cutting upfront prices by up to Rs 7.30 lakh.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Suzuki's 125 BHP 1.2 Turbo Is The Engine Maruti's Line-up Has Been Begging For</title>
       <link>https://www.thecarjury.com/news/suzuki-1-2-turbo-ditc-125bhp-india-flex-fuel-cng/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/renault-triber-turbo-cng-spied-pune-arai/</guid>
       <pubDate>Sat, 29 Aug 2026 19:31:57 +0530</pubDate>
       <description>Renault Triber Turbo CNG test mule spotted in Pune ahead of a September 2026 launch. Here is why the powertrain switch finally makes the MPV worth a look.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>July 2026 Car Exports: Verna, Jimny, Fronx Lead as Shipments Crawl 2.4%</title>
-      <link>https://www.thecarjury.com/news/car-exports-july-2026-verna-jimny-fronx-top-30/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/car-exports-july-2026-verna-jimny-fronx-top-30/</guid>
-      <pubDate>Sat, 29 Aug 2026 10:21:19 +0530</pubDate>
-      <description>India shipped 69,931 cars overseas in July 2026, up just 2.4% YoY. Hyundai Verna, Maruti Jimny and Fronx anchor the top 30 list.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

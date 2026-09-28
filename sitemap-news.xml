@@ -49,4 +49,16 @@
       <news:title>Suzuki Targets 100 kg Weight Cut By 2030: Lighter Maruti Cars Coming</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-nexon-sierra-harrier-curvv-ev-baas-scheme/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-09-28T18:06:44+05:30</news:publication_date>
+      <news:title>Tata rolls BaaS across the entire EV range: Harrier EV now starts at Rs 14.49 lakh</news:title>
+    </news:news>
+  </url>
 </urlset>
