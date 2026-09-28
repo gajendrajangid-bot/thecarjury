@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 28 Sep 2026 09:21:25 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 09:36:07 +0530</lastBuildDate>
+    <item>
+      <title>Suzuki's 125 BHP 1.2 Turbo Is The Engine Maruti's Line-up Has Been Begging For</title>
+      <link>https://www.thecarjury.com/news/suzuki-1-2-turbo-ditc-125bhp-india-flex-fuel-cng/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/suzuki-1-2-turbo-ditc-125bhp-india-flex-fuel-cng/</guid>
+      <pubDate>Mon, 28 Sep 2026 09:35:58 +0530</pubDate>
+      <description>Suzuki reveals a new 1.2L DITC turbo petrol with 125 bhp, 230 Nm, E100 flex fuel and CNG/CBG compatibility. India is a named target market.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Scorpio N Facelift Grille Patent Leaks: Twin Peaks Badge, Layered Bars Confirmed</title>
       <link>https://www.thecarjury.com/news/mahindra-scorpio-n-facelift-grille-patent-leak/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/car-exports-july-2026-verna-jimny-fronx-top-30/</guid>
       <pubDate>Sat, 29 Aug 2026 10:21:19 +0530</pubDate>
       <description>India shipped 69,931 cars overseas in July 2026, up just 2.4% YoY. Hyundai Verna, Maruti Jimny and Fronx anchor the top 30 list.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra XEV 9S At Rs 12.65L, XEV 9e At Rs 13.90L With BaaS: The Sticker Trick Works</title>
-      <link>https://www.thecarjury.com/news/mahindra-xev-9s-xev-9e-baas-prices-launched/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-xev-9s-xev-9e-baas-prices-launched/</guid>
-      <pubDate>Fri, 28 Aug 2026 19:23:50 +0530</pubDate>
-      <description>Mahindra extends Battery-as-a-Service to XEV 9S and XEV 9e, dropping upfront ex-showroom prices to Rs 12.65 lakh and Rs 13.90 lakh respectively.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
