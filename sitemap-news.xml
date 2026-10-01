@@ -25,4 +25,16 @@
       <news:title>Supreme Court floats linking unpaid challans to power bills</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/toyota-india-sales-september-2026-decline/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-01T18:09:27+05:30</news:publication_date>
+      <news:title>Toyota India Slips 7.61% In September 2026 As Festive Momentum Stalls</news:title>
+    </news:news>
+  </url>
 </urlset>
