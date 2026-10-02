@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 02 Oct 2026 08:06:18 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 09:08:52 +0530</lastBuildDate>
+    <item>
+      <title>Maruti's hatchback revival is real, and the GST cut is doing the heavy lifting</title>
+      <link>https://www.thecarjury.com/news/maruti-hatchback-sales-h1-fy27-gst-boost/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-hatchback-sales-h1-fy27-gst-boost/</guid>
+      <pubDate>Fri, 02 Oct 2026 09:08:50 +0530</pubDate>
+      <description>Maruti hatchback sales jumped 41 percent in H1 FY27 and SUVs 56 percent, with the carmaker crediting last year&amp;#x27;s GST rate cut for the lift.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Toyota India Slips 7.61% In September 2026 As Festive Momentum Stalls</title>
       <link>https://www.thecarjury.com/news/toyota-india-sales-september-2026-decline/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-hilux-rival-pickup-fortuner-suv-confirmed/</guid>
       <pubDate>Tue, 01 Sep 2026 10:22:34 +0530</pubDate>
       <description>Hyundai has confirmed a body-on-frame midsize pickup to rival the Toyota Hilux. A Fortuner-style SUV derivative is the obvious next step.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Next-Gen Tata Nexon Cabin Spied: Real Reset, Not Another Facelift</title>
-      <link>https://www.thecarjury.com/news/next-gen-tata-nexon-interiors-spied-2027-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-tata-nexon-interiors-spied-2027-launch/</guid>
-      <pubDate>Mon, 31 Aug 2026 19:20:08 +0530</pubDate>
-      <description>Next-gen Tata Nexon interior spied by Punit Patil. A ground-up redesign is due in 2027, ending the 2017 platform&amp;#x27;s long facelift cycle.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
