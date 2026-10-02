@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 02 Oct 2026 09:08:52 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 18:12:37 +0530</lastBuildDate>
+    <item>
+      <title>September 2026 EV sales: Kia leapfrogs Maruti, Tata hits record 14,769 units</title>
+      <link>https://www.thecarjury.com/news/september-2026-ev-sales-kia-overtakes-maruti-tata-leads/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/september-2026-ev-sales-kia-overtakes-maruti-tata-leads/</guid>
+      <pubDate>Fri, 02 Oct 2026 18:12:34 +0530</pubDate>
+      <description>India&amp;#x27;s EV market hit 35,995 units in September 2026, up 94 percent YoY. Tata leads, Kia overtakes Maruti for fifth, Vinfast cracks top four.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti's hatchback revival is real, and the GST cut is doing the heavy lifting</title>
       <link>https://www.thecarjury.com/news/maruti-hatchback-sales-h1-fy27-gst-boost/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-motors-jetour-t2-suv-spied-india/</guid>
       <pubDate>Wed, 02 Sep 2026 19:40:22 +0530</pubDate>
       <description>JSW Motors&amp;#x27; debut passenger SUV, based on the Jetour T2, has been spied testing in India with a plug-in hybrid powertrain confirmed.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai Confirms Hilux Rival Pickup, Fortuner Rival Could Follow</title>
-      <link>https://www.thecarjury.com/news/hyundai-hilux-rival-pickup-fortuner-suv-confirmed/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-hilux-rival-pickup-fortuner-suv-confirmed/</guid>
-      <pubDate>Tue, 01 Sep 2026 10:22:34 +0530</pubDate>
-      <description>Hyundai has confirmed a body-on-frame midsize pickup to rival the Toyota Hilux. A Fortuner-style SUV derivative is the obvious next step.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
