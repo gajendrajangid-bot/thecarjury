@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 03 Oct 2026 08:06:11 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 08:48:33 +0530</lastBuildDate>
+    <item>
+      <title>Honda Elevate Facelift Borrows WR-V TrailSport Concept Face For Oct 6 Launch</title>
+      <link>https://www.thecarjury.com/news/honda-elevate-facelift-wrv-trailsport-hrc-concept-link/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/honda-elevate-facelift-wrv-trailsport-hrc-concept-link/</guid>
+      <pubDate>Sat, 03 Oct 2026 08:48:26 +0530</pubDate>
+      <description>Honda Elevate facelift launches October 6 with LED signatures lifted from the WR-V TrailSport HRC Concept shown at Tokyo Auto Salon 2026.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>September 2026 EV sales: Kia leapfrogs Maruti, Tata hits record 14,769 units</title>
       <link>https://www.thecarjury.com/news/september-2026-ev-sales-kia-overtakes-maruti-tata-leads/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/volkswagen-taigun-discount-september-2026/</guid>
       <pubDate>Thu, 03 Sep 2026 10:23:02 +0530</pubDate>
       <description>Volkswagen is offering up to Rs 3.5 lakh off on the MY2025 Taigun in September 2026, alongside benefits on the Virtus, Tiguan R-Line and Tayron.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>JSW Motors' Jetour T2-Based SUV Spied Testing in India</title>
-      <link>https://www.thecarjury.com/news/jsw-motors-jetour-t2-suv-spied-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-motors-jetour-t2-suv-spied-india/</guid>
-      <pubDate>Wed, 02 Sep 2026 19:40:22 +0530</pubDate>
-      <description>JSW Motors&amp;#x27; debut passenger SUV, based on the Jetour T2, has been spied testing in India with a plug-in hybrid powertrain confirmed.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
