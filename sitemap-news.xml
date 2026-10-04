@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/honda-cars-india-september-2026-sales-decline-elevate-facelift/</loc>
+    <lastmod>2026-10-04</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-04T18:00:29+05:30</news:publication_date>
+      <news:title>Honda India Sales Slip 15.8% in September, Elevate Facelift Is The Real Test</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/honda-elevate-facelift-wrv-trailsport-hrc-concept-link/</loc>
     <lastmod>2026-10-04</lastmod>
     <news:news>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-10-04T08:48:03+05:30</news:publication_date>
       <news:title>Mahindra Thar Electric Spied: Vision T Design Survives The Jump To Production</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/maruti-hatchback-sales-h1-fy27-gst-boost/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-02T09:08:50+05:30</news:publication_date>
-      <news:title>Maruti's hatchback revival is real, and the GST cut is doing the heavy lifting</news:title>
     </news:news>
   </url>
   <url>

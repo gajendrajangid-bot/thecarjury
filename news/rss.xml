@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 04 Oct 2026 08:48:08 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 18:00:34 +0530</lastBuildDate>
+    <item>
+      <title>Honda India Sales Slip 15.8% in September, Elevate Facelift Is The Real Test</title>
+      <link>https://www.thecarjury.com/news/honda-cars-india-september-2026-sales-decline-elevate-facelift/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/honda-cars-india-september-2026-sales-decline-elevate-facelift/</guid>
+      <pubDate>Sun, 04 Oct 2026 18:00:29 +0530</pubDate>
+      <description>Honda Cars India posted 4,465 domestic units in September 2026, down 15.80%. The Elevate facelift now has to carry the quarter.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mahindra Thar Electric Spied: Vision T Design Survives The Jump To Production</title>
       <link>https://www.thecarjury.com/news/mahindra-thar-electric-spied-vision-t-design/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-flex-fuel-e100-concept-showcased-india/</guid>
       <pubDate>Fri, 04 Sep 2026 19:40:07 +0530</pubDate>
       <description>Kia showcases the Syros Flex Fuel E100 Concept in India with a 1.0L turbo petrol and 6AT, running on anything from pure petrol to pure ethanol.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Nissan Terrano PHEV Spied In China: Body-On-Frame Comeback, Not For India</title>
-      <link>https://www.thecarjury.com/news/nissan-terrano-phev-spied-china-2027-launch/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-terrano-phev-spied-china-2027-launch/</guid>
-      <pubDate>Fri, 04 Sep 2026 10:35:29 +0530</pubDate>
-      <description>Nissan Terrano PHEV spied testing in China ahead of an early 2027 launch. Export markets confirmed, but India is not on the list. Here is our take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
