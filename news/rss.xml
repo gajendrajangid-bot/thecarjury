@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 05 Oct 2026 08:05:59 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 17:45:53 +0530</lastBuildDate>
+    <item>
+      <title>Mercedes GLC Electric bookings open, launch set for November 4</title>
+      <link>https://www.thecarjury.com/news/mercedes-glc-electric-bookings-open-india-launch-november-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-glc-electric-bookings-open-india-launch-november-2026/</guid>
+      <pubDate>Mon, 05 Oct 2026 17:45:50 +0530</pubDate>
+      <description>Mercedes-Benz GLC Electric bookings are open ahead of a November 4 launch, with the Chakan-assembled 400 4Matic expected at Rs 80-90 lakh ex-showroom.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Honda India Sales Slip 15.8% in September, Elevate Facelift Is The Real Test</title>
       <link>https://www.thecarjury.com/news/honda-cars-india-september-2026-sales-decline-elevate-facelift/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-vs-toyota-fortuner-comparison/</guid>
       <pubDate>Sat, 05 Sep 2026 10:35:34 +0530</pubDate>
       <description>Kia Sorento launches at Rs 27.99 lakh to challenge Toyota Fortuner. We compare dimensions, price and positioning to pick a winner.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Kia Syros E100 Flex-Fuel Concept: Ready For Ethanol, But No Launch Date</title>
-      <link>https://www.thecarjury.com/news/kia-syros-flex-fuel-e100-concept-showcased-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-syros-flex-fuel-e100-concept-showcased-india/</guid>
-      <pubDate>Fri, 04 Sep 2026 19:40:07 +0530</pubDate>
-      <description>Kia showcases the Syros Flex Fuel E100 Concept in India with a 1.0L turbo petrol and 6AT, running on anything from pure petrol to pure ethanol.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

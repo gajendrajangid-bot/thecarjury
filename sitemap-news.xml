@@ -14,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/honda-elevate-facelift-wrv-trailsport-hrc-concept-link/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-03T08:48:26+05:30</news:publication_date>
-      <news:title>Honda Elevate Facelift Borrows WR-V TrailSport Concept Face For Oct 6 Launch</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/kia-carens-clavis-discount-october-2026/</loc>
     <lastmod>2026-10-04</lastmod>
     <news:news>
@@ -47,6 +35,18 @@
       </news:publication>
       <news:publication_date>2026-10-04T08:48:03+05:30</news:publication_date>
       <news:title>Mahindra Thar Electric Spied: Vision T Design Survives The Jump To Production</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/mercedes-glc-electric-bookings-open-india-launch-november-2026/</loc>
+    <lastmod>2026-10-05</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-05T17:45:50+05:30</news:publication_date>
+      <news:title>Mercedes GLC Electric bookings open, launch set for November 4</news:title>
     </news:news>
   </url>
 </urlset>
