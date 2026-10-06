@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/honda-cars-india-september-2026-sales-decline-elevate-facelift/</loc>
-    <lastmod>2026-10-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-04T18:00:29+05:30</news:publication_date>
-      <news:title>Honda India Sales Slip 15.8% in September, Elevate Facelift Is The Real Test</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-accessories-india-exterior-interior/</loc>
     <lastmod>2026-10-06</lastmod>
     <news:news>
@@ -35,6 +23,18 @@
       </news:publication>
       <news:publication_date>2026-10-05T17:45:50+05:30</news:publication_date>
       <news:title>Mercedes GLC Electric bookings open, launch set for November 4</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-nexon-october-2026-discounts-75000/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-06T18:13:40+05:30</news:publication_date>
+      <news:title>Tata Nexon Gets Rs 75,000 Off In October As Discounts Spread Across The Range</news:title>
     </news:news>
   </url>
 </urlset>
