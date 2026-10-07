@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/jaguar-type-01-debut-1016-bhp-720km-india-2027/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-07T08:50:11+05:30</news:publication_date>
+      <news:title>Jaguar Type 01 Breaks Cover: 1016 BHP, 720 Km Range, India in 2027</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/kia-sorento-accessories-india-exterior-interior/</loc>
     <lastmod>2026-10-06</lastmod>
     <news:news>
