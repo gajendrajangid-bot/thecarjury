@@ -2,63 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/jaguar-type-01-debut-1016-bhp-720km-india-2027/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <loc>https://www.thecarjury.com/news/mahindra-xuv-3xo-cng-spied-october-15-debut/</loc>
+    <lastmod>2026-10-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-10-07T08:50:11+05:30</news:publication_date>
-      <news:title>Jaguar Type 01 Breaks Cover: 1016 BHP, 720 Km Range, India in 2027</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mg-hector-blackstorm-snowstorm-launched-20-lakh/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-07T18:05:24+05:30</news:publication_date>
-      <news:title>MG Hector Blackstorm and Snowstorm at Rs 20 lakh: cosmetics, not a cure</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-aeris-review-tigor-replacement-petrol-cng-price/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T17:57:36+05:30</news:publication_date>
-      <news:title>Tata Aeris Review: Tigor Reborn, Still Chasing The Dzire</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-harrier-ev-discount-october-2026/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T09:05:14+05:30</news:publication_date>
-      <news:title>Tata Harrier EV gets up to Rs 2.75 lakh off this October</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-nexon-october-2026-discounts-75000/</loc>
-    <lastmod>2026-10-08</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T18:13:40+05:30</news:publication_date>
-      <news:title>Tata Nexon Gets Rs 75,000 Off In October As Discounts Spread Across The Range</news:title>
+      <news:publication_date>2026-10-12T14:20:28+11:00</news:publication_date>
+      <news:title>Mahindra XUV 3XO CNG spied days before October 15 debut</news:title>
     </news:news>
   </url>
 </urlset>
