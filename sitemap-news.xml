@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/honda-0-alpha-esuv-spied-japan-india-launch-december-2026/</loc>
+    <lastmod>2026-10-16</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-16T17:59:58+05:30</news:publication_date>
+      <news:title>Honda 0 Alpha EV Spied In Japan, India Launch Set For December 2026</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyundai-creta-15-lakh-sales-milestone-india/</loc>
     <lastmod>2026-10-16</lastmod>
     <news:news>
