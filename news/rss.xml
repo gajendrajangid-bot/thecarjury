@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 17 Oct 2026 08:06:14 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:59:20 +0530</lastBuildDate>
+    <item>
+      <title>Hyundai's Sub-4m Electric SUV Slips to January 2027</title>
+      <link>https://www.thecarjury.com/news/hyundai-compact-ev-he1i-q1-2027-debut/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-compact-ev-he1i-q1-2027-debut/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:59:04 +0530</pubDate>
+      <description>Hyundai&amp;#x27;s sub-four-metre electric SUV, codenamed HE1i, is now slated for a January 2027 debut, built at Sriperumbudur on the E-GMP K platform.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Honda 0 Alpha EV Spied In Japan, India Launch Set For December 2026</title>
       <link>https://www.thecarjury.com/news/honda-0-alpha-esuv-spied-japan-india-launch-december-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-maruti-baleno-on-road-price-top-cities/</guid>
       <pubDate>Thu, 10 Sep 2026 17:54:16 +0530</pubDate>
       <description>2026 Maruti Baleno on-road prices revealed for Delhi, Mumbai, Hyderabad, Kolkata and Chennai. New Alpha (O) trim adds Level 2 ADAS. Our verdict inside.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti Victoris Gets Rs 1.35 Lakh Off In September: Read The Signal</title>
-      <link>https://www.thecarjury.com/news/maruti-victoris-discount-september-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-victoris-discount-september-2026/</guid>
-      <pubDate>Thu, 10 Sep 2026 10:18:29 +0530</pubDate>
-      <description>Maruti Victoris strong hybrid gets up to Rs 1.35 lakh in benefits in September 2026, with petrol and CNG at Rs 85,000. The Car Jury&amp;#x27;s verdict.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
