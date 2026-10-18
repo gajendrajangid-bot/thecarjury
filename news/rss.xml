@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 18 Oct 2026 08:06:09 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 08:49:27 +0530</lastBuildDate>
+    <item>
+      <title>Mercedes wraps 140-year S-Class world tour: a reminder of what the three-pointed star still means</title>
+      <link>https://www.thecarjury.com/news/mercedes-s-class-140-years-140-places-tour-ends-stuttgart/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-s-class-140-years-140-places-tour-ends-stuttgart/</guid>
+      <pubDate>Sun, 18 Oct 2026 08:49:21 +0530</pubDate>
+      <description>Three Mercedes S-Class sedans finish a 65,000km, 55-country tour marking 140 years since Carl Benz&amp;#x27;s Motorwagen patent, ending in Stuttgart.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai's Sub-4m Electric SUV Slips to January 2027</title>
       <link>https://www.thecarjury.com/news/hyundai-compact-ev-he1i-q1-2027-debut/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-discounts-september-2026/</guid>
       <pubDate>Fri, 11 Sep 2026 08:47:53 +0530</pubDate>
       <description>Renault&amp;#x27;s new Duster gets its first discount, up to Rs 1.8 lakh in September 2026. Our take on what the early sweetener says about demand.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Maruti Baleno On-Road Prices: Top Alpha (O) Crosses Rs 11.8 Lakh</title>
-      <link>https://www.thecarjury.com/news/2026-maruti-baleno-on-road-price-top-cities/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-maruti-baleno-on-road-price-top-cities/</guid>
-      <pubDate>Thu, 10 Sep 2026 17:54:16 +0530</pubDate>
-      <description>2026 Maruti Baleno on-road prices revealed for Delhi, Mumbai, Hyderabad, Kolkata and Chennai. New Alpha (O) trim adds Level 2 ADAS. Our verdict inside.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
