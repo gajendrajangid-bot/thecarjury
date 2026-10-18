@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/honda-0-alpha-esuv-spied-japan-india-launch-december-2026/</loc>
-    <lastmod>2026-10-16</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-16T17:59:58+05:30</news:publication_date>
-      <news:title>Honda 0 Alpha EV Spied In Japan, India Launch Set For December 2026</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-compact-ev-he1i-q1-2027-debut/</loc>
     <lastmod>2026-10-17</lastmod>
     <news:news>
@@ -26,18 +14,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/hyundai-creta-15-lakh-sales-milestone-india/</loc>
-    <lastmod>2026-10-17</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-16T08:59:22+05:30</news:publication_date>
-      <news:title>Hyundai Creta Crosses 15 Lakh Sales: One SUV, Half of Hyundai's UV Business</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/mercedes-s-class-140-years-140-places-tour-ends-stuttgart/</loc>
     <lastmod>2026-10-18</lastmod>
     <news:news>
@@ -47,6 +23,18 @@
       </news:publication>
       <news:publication_date>2026-10-18T08:49:21+05:30</news:publication_date>
       <news:title>Mercedes wraps 140-year S-Class world tour: a reminder of what the three-pointed star still means</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/renault-duster-on-road-prices-indian-cities-2026/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-18T18:02:34+05:30</news:publication_date>
+      <news:title>Renault Duster On-Road Prices: Top Trim Crosses Rs 22 Lakh in Bengaluru</news:title>
     </news:news>
   </url>
 </urlset>
