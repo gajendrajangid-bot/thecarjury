@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/dion-gowda-f3-2027-ln4-fusion-lando-norris/</loc>
+    <lastmod>2026-10-19</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-19T18:55:11+05:30</news:publication_date>
+      <news:title>Dion Gowda joins Lando Norris' LN4 Fusion for F3 2027</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyundai-bayon-real-world-images-dealer-yard/</loc>
     <lastmod>2026-10-19</lastmod>
     <news:news>
