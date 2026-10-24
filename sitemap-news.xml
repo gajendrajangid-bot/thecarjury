@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-bayon-ivt-dash-boost-paddle-shifters-india/</loc>
-    <lastmod>2026-10-23</lastmod>
+    <lastmod>2026-10-24</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -11,6 +11,18 @@
       </news:publication>
       <news:publication_date>2026-10-23T17:57:22+05:30</news:publication_date>
       <news:title>Hyundai Bayon Adds Dash Boost, Paddle Shifters: IVT Gets Sport Pretensions</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/hyundai-bayon-variants-features-dimensions-leak/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-24T09:14:42+05:30</news:publication_date>
+      <news:title>Hyundai Bayon Variant List Leaks: Seven Trims, ADAS Only On Top HX10</news:title>
     </news:news>
   </url>
 </urlset>
