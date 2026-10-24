@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 24 Oct 2026 09:15:04 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 18:02:21 +0530</lastBuildDate>
+    <item>
+      <title>Maruti's Electric Seven-Seater Breaks Cover: Nexa YMC Front and Cabin Spied</title>
+      <link>https://www.thecarjury.com/news/maruti-nexa-electric-mpv-ymc-spied-interior-front/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-nexa-electric-mpv-ymc-spied-interior-front/</guid>
+      <pubDate>Sat, 24 Oct 2026 18:02:15 +0530</pubDate>
+      <description>Fresh spy shots of Maruti&amp;#x27;s upcoming Nexa electric MPV, codenamed YMC, reveal front styling and the first cabin glimpse ahead of a 2027 launch.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai Bayon Variant List Leaks: Seven Trims, ADAS Only On Top HX10</title>
       <link>https://www.thecarjury.com/news/hyundai-bayon-variants-features-dimensions-leak/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-wagon-r-facelift-spied-z-series-engine/</guid>
       <pubDate>Tue, 15 Sep 2026 17:45:51 +0530</pubDate>
       <description>A camouflaged Maruti Wagon R facelift test mule points to mild styling tweaks and a possible switch to the new Z-Series petrol engine.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2027 Tata Nexon Spied: Boxier Silhouette Signals a Bigger Jump Than Usual</title>
-      <link>https://www.thecarjury.com/news/2027-tata-nexon-spied-boxier-design-new-rear/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2027-tata-nexon-spied-boxier-design-new-rear/</guid>
-      <pubDate>Tue, 15 Sep 2026 08:51:34 +0530</pubDate>
-      <description>Fresh spy shots show the 2027 Tata Nexon with a flatter roof, squared rear and reworked proportions. Here is what the next-gen compact SUV is shaping into.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
