@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 08:54:37 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 17:49:15 +0530</lastBuildDate>
+    <item>
+      <title>Maruti Grabs 51% Of India Car Exports In H1 FY2027, Fronx And Jimny Lead</title>
+      <link>https://www.thecarjury.com/news/india-car-exports-h1-fy2027-maruti-fronx-jimny/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/india-car-exports-h1-fy2027-maruti-fronx-jimny/</guid>
+      <pubDate>Sun, 25 Oct 2026 17:49:09 +0530</pubDate>
+      <description>India exported 4.51 lakh cars in H1 FY2027, up 1.25%. Maruti crossed 51% share led by Fronx and Jimny, while Hyundai and Nissan slipped.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Citroen eyes India to build the 2CV EV for the world: a real coup, if it lands</title>
       <link>https://www.thecarjury.com/news/citroen-2cv-ev-india-production-base-export/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-volkswagen-virtus-facelift-spied-mumbai-pune-expressway/</guid>
       <pubDate>Wed, 16 Sep 2026 18:07:54 +0530</pubDate>
       <description>Volkswagen Virtus facelift spotted on Mumbai-Pune Expressway ahead of a festive-season launch. Front and rear get the changes, cabin stays familiar.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyderabad Court Orders Tata Dealer To Refund Rs 28 Lakh For Faulty Harrier EV</title>
-      <link>https://www.thecarjury.com/news/tata-harrier-ev-refund-hyderabad-consumer-court-dealer-liable/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-harrier-ev-refund-hyderabad-consumer-court-dealer-liable/</guid>
-      <pubDate>Wed, 16 Sep 2026 08:49:13 +0530</pubDate>
-      <description>Hyderabad consumer commission orders Tata Select Motors to refund Rs 28 lakh for a Harrier EV with persistent faults. Tata Motors escapes liability.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
