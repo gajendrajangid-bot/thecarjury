@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 25 Oct 2026 08:06:23 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 08:54:37 +0530</lastBuildDate>
+    <item>
+      <title>Citroen eyes India to build the 2CV EV for the world: a real coup, if it lands</title>
+      <link>https://www.thecarjury.com/news/citroen-2cv-ev-india-production-base-export/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/citroen-2cv-ev-india-production-base-export/</guid>
+      <pubDate>Sun, 25 Oct 2026 08:54:24 +0530</pubDate>
+      <description>Citroen is evaluating India as the global production base for its 2028 2CV electric hatchback, with Thiruvallur as the likely plant.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Maruti's Electric Seven-Seater Breaks Cover: Nexa YMC Front and Cabin Spied</title>
       <link>https://www.thecarjury.com/news/maruti-nexa-electric-mpv-ymc-spied-interior-front/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-harrier-ev-refund-hyderabad-consumer-court-dealer-liable/</guid>
       <pubDate>Wed, 16 Sep 2026 08:49:13 +0530</pubDate>
       <description>Hyderabad consumer commission orders Tata Select Motors to refund Rs 28 lakh for a Harrier EV with persistent faults. Tata Motors escapes liability.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti Wagon R Facelift Spied: New Z-Series Engine Is The Real Story</title>
-      <link>https://www.thecarjury.com/news/maruti-wagon-r-facelift-spied-z-series-engine/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-wagon-r-facelift-spied-z-series-engine/</guid>
-      <pubDate>Tue, 15 Sep 2026 17:45:51 +0530</pubDate>
-      <description>A camouflaged Maruti Wagon R facelift test mule points to mild styling tweaks and a possible switch to the new Z-Series petrol engine.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
