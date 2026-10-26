@@ -26,18 +26,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/hyundai-bayon-variants-features-dimensions-leak/</loc>
-    <lastmod>2026-10-26</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-24T09:14:42+05:30</news:publication_date>
-      <news:title>Hyundai Bayon Variant List Leaks: Seven Trims, ADAS Only On Top HX10</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/india-car-exports-h1-fy2027-maruti-fronx-jimny/</loc>
     <lastmod>2026-10-26</lastmod>
     <news:news>
@@ -59,6 +47,18 @@
       </news:publication>
       <news:publication_date>2026-10-24T18:02:15+05:30</news:publication_date>
       <news:title>Maruti's Electric Seven-Seater Breaks Cover: Nexa YMC Front and Cabin Spied</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/maruti-ymc-electric-mpv-spied-design-details/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-26T17:59:34+05:30</news:publication_date>
+      <news:title>Maruti YMC Electric MPV Spied: e Vitara Underneath, Victoris Face On Top</news:title>
     </news:news>
   </url>
 </urlset>
