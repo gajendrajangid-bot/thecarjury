@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/car-exports-h1-fy2027-maruti-51-percent-fronx-jimny-lead/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -14,20 +14,20 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/citroen-2cv-ev-india-production-base-export/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <loc>https://www.thecarjury.com/news/hyundai-bayon-launched-india-price-creta-venue/</loc>
+    <lastmod>2026-10-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-10-25T08:54:24+05:30</news:publication_date>
-      <news:title>Citroen eyes India to build the 2CV EV for the world: a real coup, if it lands</news:title>
+      <news:publication_date>2026-10-27T09:06:48+05:30</news:publication_date>
+      <news:title>Hyundai Bayon lands at Rs 10 lakh, slots between Venue and Creta</news:title>
     </news:news>
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/india-car-exports-h1-fy2027-maruti-fronx-jimny/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-10-27</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
