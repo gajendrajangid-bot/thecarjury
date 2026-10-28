@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:07:02 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:46:41 +0530</lastBuildDate>
+    <item>
+      <title>Hyundai Bayon CNG Gets Twin-Cylinder Setup, Boot Space Survives</title>
+      <link>https://www.thecarjury.com/news/hyundai-bayon-cng-twin-cylinder-january-2027/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-bayon-cng-twin-cylinder-january-2027/</guid>
+      <pubDate>Wed, 28 Oct 2026 08:46:21 +0530</pubDate>
+      <description>Hyundai Bayon CNG launches January 2027 with a twin-cylinder under-boot tank setup, making it Hyundai&amp;#x27;s first midsize SUV in India on CNG.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai Bayon lands at Rs 10 lakh, slots between Venue and Creta</title>
       <link>https://www.thecarjury.com/news/hyundai-bayon-launched-india-price-creta-venue/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-aeris-trademark-tigor-facelift-launch-september-2026/</guid>
       <pubDate>Sat, 19 Sep 2026 21:02:35 +0530</pubDate>
       <description>Tata has trademarked the Aeris name, and reports say the Tigor facelift will launch as an all-new nameplate on 25 September. Here is what we make of it.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra Vision S interior spied: production SUV borrows heavily from Thar Roxx and XUV 7XO</title>
-      <link>https://www.thecarjury.com/news/mahindra-vision-s-interior-spied-production-suv/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-vision-s-interior-spied-production-suv/</guid>
-      <pubDate>Fri, 18 Sep 2026 18:09:26 +0530</pubDate>
-      <description>New spy shots of the Mahindra Vision S-based SUV reveal a production cabin cribbed from the Thar Roxx and XUV 7XO parts bin.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
