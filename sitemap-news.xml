@@ -14,6 +14,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/diwali-2026-compact-suv-discounts-kylaq-nexon-fronx/</loc>
+    <lastmod>2026-10-29</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-29T09:07:06+05:30</news:publication_date>
+      <news:title>Diwali 2026 compact SUV deals: Kylaq leads with Rs 90,000 off, Nexon follows</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/hyundai-bayon-cng-twin-cylinder-january-2027/</loc>
     <lastmod>2026-10-28</lastmod>
     <news:news>
@@ -23,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-10-28T08:46:21+05:30</news:publication_date>
       <news:title>Hyundai Bayon CNG Gets Twin-Cylinder Setup, Boot Space Survives</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/hyundai-bayon-launched-india-price-creta-venue/</loc>
-    <lastmod>2026-10-28</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-27T09:06:48+05:30</news:publication_date>
-      <news:title>Hyundai Bayon lands at Rs 10 lakh, slots between Venue and Creta</news:title>
     </news:news>
   </url>
 </urlset>
