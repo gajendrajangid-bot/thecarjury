@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 08:06:09 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 09:06:42 +0530</lastBuildDate>
+    <item>
+      <title>Toyota's New 1.5L Four-Cylinder Hybrid: What It Means for Hyryder and Grand Vitara</title>
+      <link>https://www.thecarjury.com/news/toyota-next-gen-1-5-hybrid-engine-india-impact/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-next-gen-1-5-hybrid-engine-india-impact/</guid>
+      <pubDate>Sat, 31 Oct 2026 09:06:33 +0530</pubDate>
+      <description>Toyota reveals a new 1.5-litre four-cylinder hybrid engine targeting 15% better fuel economy. Here is what it means for Hyryder and Grand Vitara buyers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Diwali Hatchback Deals: Tiago EV, Citroen C3 Lead The Discount Chart</title>
       <link>https://www.thecarjury.com/news/diwali-2026-hatchback-deals-tiago-ev-citroen-c3/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2026-mercedes-maybach-s-class-india-launch-october-5/</guid>
       <pubDate>Tue, 22 Sep 2026 18:00:11 +0530</pubDate>
       <description>The 2026 Mercedes-Maybach S-Class launches in India on October 5 with a bigger grille, new LED lighting, fresh alloys and updated tech.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Renault Sales Slide In August 2026: Duster Fails To Fire, Triber Carries The Load</title>
-      <link>https://www.thecarjury.com/news/renault-nissan-sales-august-2026-duster-triber-decline/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-nissan-sales-august-2026-duster-triber-decline/</guid>
-      <pubDate>Mon, 21 Sep 2026 22:43:42 +0530</pubDate>
-      <description>Renault sold 2,842 units in August 2026, down 5.74% YoY. Triber led with 1,536 units while Duster and Kiger volumes stayed weak.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
