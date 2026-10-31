@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/diwali-2026-compact-suv-discounts-kylaq-nexon-fronx/</loc>
-    <lastmod>2026-10-30</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-29T09:07:06+05:30</news:publication_date>
-      <news:title>Diwali 2026 compact SUV deals: Kylaq leads with Rs 90,000 off, Nexon follows</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/diwali-2026-hatchback-deals-tiago-ev-citroen-c3/</loc>
     <lastmod>2026-10-30</lastmod>
     <news:news>
@@ -26,15 +14,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/hyundai-ioniq-p-india-entry-ev-january-2027/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <loc>https://www.thecarjury.com/news/mg-windsor-majestor-price-hike-november-2026/</loc>
+    <lastmod>2026-10-31</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-10-29T17:54:52+05:30</news:publication_date>
-      <news:title>Hyundai Ioniq P: Entry EV For India Confirmed, Nexon EV In Crosshairs</news:title>
+      <news:publication_date>2026-10-31T18:06:35+05:30</news:publication_date>
+      <news:title>MG Hikes Windsor By Rs 15,000 And Majestor By Rs 1 Lakh From November 2026</news:title>
     </news:news>
   </url>
   <url>

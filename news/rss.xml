@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 31 Oct 2026 09:06:42 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 18:06:41 +0530</lastBuildDate>
+    <item>
+      <title>MG Hikes Windsor By Rs 15,000 And Majestor By Rs 1 Lakh From November 2026</title>
+      <link>https://www.thecarjury.com/news/mg-windsor-majestor-price-hike-november-2026/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-windsor-majestor-price-hike-november-2026/</guid>
+      <pubDate>Sat, 31 Oct 2026 18:06:35 +0530</pubDate>
+      <description>JSW MG Motor India raises prices on the Windsor EV by Rs 15,000 and the Majestor flagship SUV by Rs 1 lakh across variants from November 2026.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Toyota's New 1.5L Four-Cylinder Hybrid: What It Means for Hyryder and Grand Vitara</title>
       <link>https://www.thecarjury.com/news/toyota-next-gen-1-5-hybrid-engine-india-impact/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-aeris-interior-teaser-360-camera-dashcam/</guid>
       <pubDate>Thu, 24 Sep 2026 08:56:46 +0530</pubDate>
       <description>Tata teases the Aeris sedan interior a day before launch: beige cabin, Tiago-style dashboard and a 360-degree camera with dashcam.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>2026 Mercedes-Maybach S-Class Lands October 5: Same Recipe, Bigger Grille</title>
-      <link>https://www.thecarjury.com/news/2026-mercedes-maybach-s-class-india-launch-october-5/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/2026-mercedes-maybach-s-class-india-launch-october-5/</guid>
-      <pubDate>Tue, 22 Sep 2026 18:00:11 +0530</pubDate>
-      <description>The 2026 Mercedes-Maybach S-Class launches in India on October 5 with a bigger grille, new LED lighting, fresh alloys and updated tech.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
