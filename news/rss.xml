@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 08:54:09 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 18:12:01 +0530</lastBuildDate>
+    <item>
+      <title>Toyota October 2026 Sales Crash 27% YoY, Slips Behind Kia Again</title>
+      <link>https://www.thecarjury.com/news/toyota-sales-october-2026-slips-behind-kia/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-sales-october-2026-slips-behind-kia/</guid>
+      <pubDate>Sun, 01 Nov 2026 18:11:56 +0530</pubDate>
+      <description>Toyota Kirloskar sold 29,521 units domestically in October 2026, down 27% YoY but up 18% MoM. Kia takes the No. 5 spot for a second month.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Dzire Hits 35 Lakh Units: India's Sedan Of Choice Keeps Pulling Away</title>
       <link>https://www.thecarjury.com/news/maruti-dzire-35-lakh-production-milestone/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/jsw-combat-suv-spied-next-to-mahindra-thar-roxx/</guid>
       <pubDate>Fri, 25 Sep 2026 08:55:31 +0530</pubDate>
       <description>Fresh spy shots show the JSW Combat SUV parked next to a Mahindra Thar Roxx, giving the clearest size and stance comparison yet.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Nissan Tekton 7-Seater Spied With New Lights: The Volume Play Nissan Needs</title>
-      <link>https://www.thecarjury.com/news/nissan-tekton-7-seater-spied-new-headlight-taillight/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-7-seater-spied-new-headlight-taillight/</guid>
-      <pubDate>Thu, 24 Sep 2026 17:59:19 +0530</pubDate>
-      <description>Nissan&amp;#x27;s upcoming 7-seater Tekton spied with fresh headlight and taillight signatures. Here is why this stretched SUV matters more than the 5-seater.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
