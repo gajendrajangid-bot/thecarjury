@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 01 Nov 2026 08:06:08 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 08:54:09 +0530</lastBuildDate>
+    <item>
+      <title>Dzire Hits 35 Lakh Units: India's Sedan Of Choice Keeps Pulling Away</title>
+      <link>https://www.thecarjury.com/news/maruti-dzire-35-lakh-production-milestone/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-dzire-35-lakh-production-milestone/</guid>
+      <pubDate>Sun, 01 Nov 2026 08:54:03 +0530</pubDate>
+      <description>Maruti Dzire crosses 35 lakh cumulative production and leads FY26 domestic sales ahead of Tata Punch. The Car Jury&amp;#x27;s take on what it means.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>MG Hikes Windsor By Rs 15,000 And Majestor By Rs 1 Lakh From November 2026</title>
       <link>https://www.thecarjury.com/news/mg-windsor-majestor-price-hike-november-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/nissan-tekton-7-seater-spied-new-headlight-taillight/</guid>
       <pubDate>Thu, 24 Sep 2026 17:59:19 +0530</pubDate>
       <description>Nissan&amp;#x27;s upcoming 7-seater Tekton spied with fresh headlight and taillight signatures. Here is why this stretched SUV matters more than the 5-seater.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Aeris Interior Teased: Tiago Dashboard, Beige Cabin, 360-Cam With Dashcam</title>
-      <link>https://www.thecarjury.com/news/tata-aeris-interior-teaser-360-camera-dashcam/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-aeris-interior-teaser-360-camera-dashcam/</guid>
-      <pubDate>Thu, 24 Sep 2026 08:56:46 +0530</pubDate>
-      <description>Tata teases the Aeris sedan interior a day before launch: beige cabin, Tiago-style dashboard and a 360-degree camera with dashcam.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

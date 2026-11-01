@@ -14,6 +14,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/maruti-dzire-35-lakh-production-milestone/</loc>
+    <lastmod>2026-11-01</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-01T08:54:03+05:30</news:publication_date>
+      <news:title>Dzire Hits 35 Lakh Units: India's Sedan Of Choice Keeps Pulling Away</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mg-windsor-majestor-price-hike-november-2026/</loc>
     <lastmod>2026-10-31</lastmod>
     <news:news>
@@ -27,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/toyota-next-gen-1-5-hybrid-engine-india-impact/</loc>
-    <lastmod>2026-10-31</lastmod>
+    <lastmod>2026-11-01</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
