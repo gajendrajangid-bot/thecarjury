@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/kia-india-sales-october-2026-record-33462-units/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T08:49:07+05:30</news:publication_date>
+      <news:title>Kia India Hits Record 33,462 Units in October 2026, Seltos Tops 13k</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/maruti-dzire-35-lakh-production-milestone/</loc>
     <lastmod>2026-11-01</lastmod>
     <news:news>
@@ -39,7 +51,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/toyota-sales-october-2026-slips-behind-kia/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
