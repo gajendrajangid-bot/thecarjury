@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/honda-cars-india-october-2026-sales-elevate/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-02T18:11:13+05:30</news:publication_date>
+      <news:title>Honda India October 2026 Sales Up 19%, But The Base Is Still Tiny</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/kia-india-sales-october-2026-record-33462-units/</loc>
     <lastmod>2026-11-02</lastmod>
     <news:news>
@@ -23,30 +35,6 @@
       </news:publication>
       <news:publication_date>2026-11-01T08:54:03+05:30</news:publication_date>
       <news:title>Dzire Hits 35 Lakh Units: India's Sedan Of Choice Keeps Pulling Away</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mg-windsor-majestor-price-hike-november-2026/</loc>
-    <lastmod>2026-10-31</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T18:06:35+05:30</news:publication_date>
-      <news:title>MG Hikes Windsor By Rs 15,000 And Majestor By Rs 1 Lakh From November 2026</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/toyota-next-gen-1-5-hybrid-engine-india-impact/</loc>
-    <lastmod>2026-11-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-31T09:06:33+05:30</news:publication_date>
-      <news:title>Toyota's New 1.5L Four-Cylinder Hybrid: What It Means for Hyryder and Grand Vitara</news:title>
     </news:news>
   </url>
   <url>
