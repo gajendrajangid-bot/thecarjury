@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 03 Nov 2026 08:06:12 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:52:05 +0530</lastBuildDate>
+    <item>
+      <title>Next-Gen Kia Sonet Caught Testing in the Himalayas: New Platform, Not a Facelift</title>
+      <link>https://www.thecarjury.com/news/next-gen-kia-sonet-spied-high-altitude-testing-himalayas/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/next-gen-kia-sonet-spied-high-altitude-testing-himalayas/</guid>
+      <pubDate>Tue, 03 Nov 2026 08:51:58 +0530</pubDate>
+      <description>The next-generation Kia Sonet has been spied testing in the Himalayas with new LEDs, fresh doors and a new platform. Here is what we know and why it matters.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Honda India October 2026 Sales Up 19%, But The Base Is Still Tiny</title>
       <link>https://www.thecarjury.com/news/honda-cars-india-october-2026-sales-elevate/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/suzuki-100-kg-weight-reduction-plan-2030/</guid>
       <pubDate>Sun, 27 Sep 2026 08:59:17 +0530</pubDate>
       <description>Suzuki plans a 100 kg vehicle weight reduction by 2030, plus lighter CNG cylinders. Here is what it means for future Maruti buyers in India.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Suzuki Targets 100 kg Weight Cut By 2030: Lighter Maruti Cars Coming</title>
-      <link>https://www.thecarjury.com/news/suzuki-100-kg-weight-reduction-target-2030/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/suzuki-100-kg-weight-reduction-target-2030/</guid>
-      <pubDate>Sat, 26 Sep 2026 18:08:42 +0530</pubDate>
-      <description>Suzuki plans a 100 kg vehicle weight reduction by 2030 and lighter 20 kg CNG cylinders. Here is what it means for Maruti buyers in India.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
