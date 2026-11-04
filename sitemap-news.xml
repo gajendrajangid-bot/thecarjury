@@ -26,18 +26,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/maruti-dzire-35-lakh-production-milestone/</loc>
-    <lastmod>2026-11-01</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T08:54:03+05:30</news:publication_date>
-      <news:title>Dzire Hits 35 Lakh Units: India's Sedan Of Choice Keeps Pulling Away</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/next-gen-kia-sonet-spied-high-altitude-testing-himalayas/</loc>
     <lastmod>2026-11-03</lastmod>
     <news:news>
@@ -47,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-11-03T08:51:58+05:30</news:publication_date>
       <news:title>Next-Gen Kia Sonet Caught Testing in the Himalayas: New Platform, Not a Facelift</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/toyota-sales-october-2026-slips-behind-kia/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-01T18:11:56+05:30</news:publication_date>
-      <news:title>Toyota October 2026 Sales Crash 27% YoY, Slips Behind Kia Again</news:title>
     </news:news>
   </url>
 </urlset>
