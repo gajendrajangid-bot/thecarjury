@@ -2,30 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/honda-cars-india-october-2026-sales-elevate/</loc>
-    <lastmod>2026-11-02</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T18:11:13+05:30</news:publication_date>
-      <news:title>Honda India October 2026 Sales Up 19%, But The Base Is Still Tiny</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/kia-india-sales-october-2026-record-33462-units/</loc>
-    <lastmod>2026-11-03</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-02T08:49:07+05:30</news:publication_date>
-      <news:title>Kia India Hits Record 33,462 Units in October 2026, Seltos Tops 13k</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/next-gen-kia-sonet-spied-high-altitude-testing-himalayas/</loc>
     <lastmod>2026-11-03</lastmod>
     <news:news>
@@ -35,6 +11,18 @@
       </news:publication>
       <news:publication_date>2026-11-03T08:51:58+05:30</news:publication_date>
       <news:title>Next-Gen Kia Sonet Caught Testing in the Himalayas: New Platform, Not a Facelift</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/nissan-magnite-gravite-free-cng-kit-festive-offer-november-2026/</loc>
+    <lastmod>2026-11-04</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-04T20:59:30+05:30</news:publication_date>
+      <news:title>Nissan Throws In Free CNG Kits On Magnite And Gravite, Worth Up To Rs 86,000</news:title>
     </news:news>
   </url>
 </urlset>
