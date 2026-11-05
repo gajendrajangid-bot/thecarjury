@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 05 Nov 2026 08:51:39 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 17:53:56 +0530</lastBuildDate>
+    <item>
+      <title>Toyota Innova Crysta Limo Edition Launches At Rs 19.95 Lakh: Fleet-Only Trim, Nothing For You</title>
+      <link>https://www.thecarjury.com/news/toyota-innova-crysta-limo-edition-launch-price-india/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-innova-crysta-limo-edition-launch-price-india/</guid>
+      <pubDate>Thu, 05 Nov 2026 17:53:51 +0530</pubDate>
+      <description>Toyota launches the Innova Crysta Limo Edition at Rs 19.95 lakh ex-showroom, based on the GX-SLF trim and aimed squarely at commercial fleet operators.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Toyota Innova Crysta Gets Up To Rs 33,000 Price Hike, Nothing New In Return</title>
       <link>https://www.thecarjury.com/news/toyota-innova-crysta-price-hike-november-2026/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-nexon-sierra-harrier-curvv-ev-baas-scheme/</guid>
       <pubDate>Mon, 28 Sep 2026 18:06:44 +0530</pubDate>
       <description>Tata extends Battery-as-a-Service to the Nexon, Curvv, Sierra and Harrier EVs, cutting upfront prices by up to Rs 7.30 lakh.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Suzuki's 125 BHP 1.2 Turbo Is The Engine Maruti's Line-up Has Been Begging For</title>
-      <link>https://www.thecarjury.com/news/suzuki-1-2-turbo-ditc-125bhp-india-flex-fuel-cng/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/suzuki-1-2-turbo-ditc-125bhp-india-flex-fuel-cng/</guid>
-      <pubDate>Mon, 28 Sep 2026 09:35:58 +0530</pubDate>
-      <description>Suzuki reveals a new 1.2L DITC turbo petrol with 125 bhp, 230 Nm, E100 flex fuel and CNG/CBG compatibility. India is a named target market.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
