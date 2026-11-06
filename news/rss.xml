@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 06 Nov 2026 08:05:34 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 09:19:12 +0530</lastBuildDate>
+    <item>
+      <title>Tata Says iRA App Holes Plugged After CERT-In Flags High-Severity Flaws</title>
+      <link>https://www.thecarjury.com/news/tata-ira-app-security-vulnerabilities-cert-in-fix/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-ira-app-security-vulnerabilities-cert-in-fix/</guid>
+      <pubDate>Fri, 06 Nov 2026 09:19:05 +0530</pubDate>
+      <description>Tata Motors says iRA 2.0 and iRA.ev app vulnerabilities flagged by CERT-In have been patched via August and September 2026 updates. Our take inside.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Toyota Innova Crysta Limo Edition Launches At Rs 19.95 Lakh: Fleet-Only Trim, Nothing For You</title>
       <link>https://www.thecarjury.com/news/toyota-innova-crysta-limo-edition-launch-price-india/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-slavia-facelift-production-chakan-pune/</guid>
       <pubDate>Tue, 29 Sep 2026 08:51:19 +0530</pubDate>
       <description>Skoda has started production of the Slavia facelift at Chakan, adding an 8-speed auto, 360 camera and rear massage ahead of a festive launch.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata rolls BaaS across the entire EV range: Harrier EV now starts at Rs 14.49 lakh</title>
-      <link>https://www.thecarjury.com/news/tata-nexon-sierra-harrier-curvv-ev-baas-scheme/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-nexon-sierra-harrier-curvv-ev-baas-scheme/</guid>
-      <pubDate>Mon, 28 Sep 2026 18:06:44 +0530</pubDate>
-      <description>Tata extends Battery-as-a-Service to the Nexon, Curvv, Sierra and Harrier EVs, cutting upfront prices by up to Rs 7.30 lakh.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
