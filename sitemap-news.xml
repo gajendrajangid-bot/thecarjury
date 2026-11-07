@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/nissan-magnite-gravite-free-cng-kit-festive-offer-november-2026/</loc>
-    <lastmod>2026-11-04</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-04T20:59:30+05:30</news:publication_date>
-      <news:title>Nissan Throws In Free CNG Kits On Magnite And Gravite, Worth Up To Rs 86,000</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/tata-ira-app-security-vulnerabilities-cert-in-fix/</loc>
     <lastmod>2026-11-06</lastmod>
     <news:news>
@@ -35,18 +23,6 @@
       </news:publication>
       <news:publication_date>2026-11-05T17:53:51+05:30</news:publication_date>
       <news:title>Toyota Innova Crysta Limo Edition Launches At Rs 19.95 Lakh: Fleet-Only Trim, Nothing For You</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/toyota-innova-crysta-price-hike-november-2026/</loc>
-    <lastmod>2026-11-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-05T08:51:34+05:30</news:publication_date>
-      <news:title>Toyota Innova Crysta Gets Up To Rs 33,000 Price Hike, Nothing New In Return</news:title>
     </news:news>
   </url>
 </urlset>
