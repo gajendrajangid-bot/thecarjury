@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 09:13:51 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 18:11:12 +0530</lastBuildDate>
+    <item>
+      <title>Mahindra BE 7 Spied In Mumbai With GNSS Rig: 2027 Launch Looks Real</title>
+      <link>https://www.thecarjury.com/news/mahindra-be-7-spied-bkc-mumbai-gnss-receiver/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-be-7-spied-bkc-mumbai-gnss-receiver/</guid>
+      <pubDate>Sat, 07 Nov 2026 18:11:05 +0530</pubDate>
+      <description>Mahindra BE 7 test mule spotted in Mumbai&amp;#x27;s BKC with a roof-mounted GNSS receiver, pointing to calibration work ahead of a likely 2027 launch.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Renault Duster Strong Hybrid Deliveries Begin, First Unit Goes To Hyderabad</title>
       <link>https://www.thecarjury.com/news/renault-duster-hybrid-deliveries-begin-hyderabad/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/jetour-t2-facelift-global-launch-jsw-combat-india/</guid>
       <pubDate>Thu, 01 Oct 2026 09:07:22 +0530</pubDate>
       <description>Jetour T2 facelift launches internationally with design, feature and powertrain updates while JSW readies the pre-facelift car as the Combat for India.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Supreme Court floats linking unpaid challans to power bills</title>
-      <link>https://www.thecarjury.com/news/supreme-court-unpaid-traffic-challans-electricity-bills/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/supreme-court-unpaid-traffic-challans-electricity-bills/</guid>
-      <pubDate>Wed, 30 Sep 2026 08:47:11 +0530</pubDate>
-      <description>The Supreme Court has suggested adding unpaid traffic e-challans to electricity bills, with only Rs 25,000 crore of Rs 45,000 crore recovered so far.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

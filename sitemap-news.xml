@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/mahindra-be-7-spied-bkc-mumbai-gnss-receiver/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-07T18:11:05+05:30</news:publication_date>
+      <news:title>Mahindra BE 7 Spied In Mumbai With GNSS Rig: 2027 Launch Looks Real</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/renault-duster-hybrid-deliveries-begin-hyderabad/</loc>
     <lastmod>2026-11-07</lastmod>
     <news:news>
@@ -23,18 +35,6 @@
       </news:publication>
       <news:publication_date>2026-11-06T09:19:05+05:30</news:publication_date>
       <news:title>Tata Says iRA App Holes Plugged After CERT-In Flags High-Severity Flaws</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/toyota-innova-crysta-limo-edition-launch-price-india/</loc>
-    <lastmod>2026-11-05</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-05T17:53:51+05:30</news:publication_date>
-      <news:title>Toyota Innova Crysta Limo Edition Launches At Rs 19.95 Lakh: Fleet-Only Trim, Nothing For You</news:title>
     </news:news>
   </url>
 </urlset>
