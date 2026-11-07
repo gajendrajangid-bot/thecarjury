@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 07 Nov 2026 08:56:34 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 09:13:51 +0530</lastBuildDate>
+    <item>
+      <title>Renault Duster Strong Hybrid Deliveries Begin, First Unit Goes To Hyderabad</title>
+      <link>https://www.thecarjury.com/news/renault-duster-hybrid-deliveries-begin-hyderabad/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-hybrid-deliveries-begin-hyderabad/</guid>
+      <pubDate>Sat, 07 Nov 2026 09:13:44 +0530</pubDate>
+      <description>Renault Duster Strong Hybrid E-Tech 160 deliveries begin from Hyderabad, three weeks after the Rs 16.99 lakh launch. TCJ&amp;#x27;s take on whether to buy.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Says iRA App Holes Plugged After CERT-In Flags High-Severity Flaws</title>
       <link>https://www.thecarjury.com/news/tata-ira-app-security-vulnerabilities-cert-in-fix/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/supreme-court-unpaid-traffic-challans-electricity-bills/</guid>
       <pubDate>Wed, 30 Sep 2026 08:47:11 +0530</pubDate>
       <description>The Supreme Court has suggested adding unpaid traffic e-challans to electricity bills, with only Rs 25,000 crore of Rs 45,000 crore recovered so far.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Skoda Slavia Facelift Rolls Off Chakan Line, Launch Imminent</title>
-      <link>https://www.thecarjury.com/news/skoda-slavia-facelift-production-chakan-pune/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/skoda-slavia-facelift-production-chakan-pune/</guid>
-      <pubDate>Tue, 29 Sep 2026 08:51:19 +0530</pubDate>
-      <description>Skoda has started production of the Slavia facelift at Chakan, adding an 8-speed auto, 360 camera and rear massage ahead of a festive launch.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
