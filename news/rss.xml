@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 08:15:44 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 08:51:24 +0530</lastBuildDate>
+    <item>
+      <title>October 2026 Retail Sales Slip 14% YoY as Festive Buying Shifts to November</title>
+      <link>https://www.thecarjury.com/news/car-retail-sales-october-2026-maruti-tata-mahindra-dip/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/car-retail-sales-october-2026-maruti-tata-mahindra-dip/</guid>
+      <pubDate>Sun, 08 Nov 2026 08:51:17 +0530</pubDate>
+      <description>Passenger vehicle retails slipped 14.23% YoY to 5.07 lakh units in October 2026 as Dhanteras and Diwali moved into November. Here is the read.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mahindra BE 7 Spied In Mumbai With GNSS Rig: 2027 Launch Looks Real</title>
       <link>https://www.thecarjury.com/news/mahindra-be-7-spied-bkc-mumbai-gnss-receiver/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-india-sales-september-2026-decline/</guid>
       <pubDate>Thu, 01 Oct 2026 18:09:27 +0530</pubDate>
       <description>Toyota Kirloskar Motor&amp;#x27;s domestic dispatches fell to 25,027 units in September 2026, down 7.61% YoY and 11.91% from August. Exports fell harder.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Jetour T2 facelift goes on sale globally as India waits for the old one</title>
-      <link>https://www.thecarjury.com/news/jetour-t2-facelift-global-launch-jsw-combat-india/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/jetour-t2-facelift-global-launch-jsw-combat-india/</guid>
-      <pubDate>Thu, 01 Oct 2026 09:07:22 +0530</pubDate>
-      <description>Jetour T2 facelift launches internationally with design, feature and powertrain updates while JSW readies the pre-facelift car as the Combat for India.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
