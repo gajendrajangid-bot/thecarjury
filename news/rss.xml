@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sun, 08 Nov 2026 08:51:24 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 19:07:26 +0530</lastBuildDate>
+    <item>
+      <title>EV Sales Oct 2026: Tata Holds, Mahindra and MG Surge 76% YoY</title>
+      <link>https://www.thecarjury.com/news/electric-car-sales-october-2026-tata-mahindra-mg/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/electric-car-sales-october-2026-tata-mahindra-mg/</guid>
+      <pubDate>Sun, 08 Nov 2026 19:07:18 +0530</pubDate>
+      <description>India&amp;#x27;s electric passenger vehicle registrations hit 37,049 units in October 2026, up 76.47% YoY, with Tata, Mahindra and MG leading the charge.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>October 2026 Retail Sales Slip 14% YoY as Festive Buying Shifts to November</title>
       <link>https://www.thecarjury.com/news/car-retail-sales-october-2026-maruti-tata-mahindra-dip/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-hatchback-sales-h1-fy27-gst-boost/</guid>
       <pubDate>Fri, 02 Oct 2026 09:08:50 +0530</pubDate>
       <description>Maruti hatchback sales jumped 41 percent in H1 FY27 and SUVs 56 percent, with the carmaker crediting last year&amp;#x27;s GST rate cut for the lift.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Toyota India Slips 7.61% In September 2026 As Festive Momentum Stalls</title>
-      <link>https://www.thecarjury.com/news/toyota-india-sales-september-2026-decline/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-india-sales-september-2026-decline/</guid>
-      <pubDate>Thu, 01 Oct 2026 18:09:27 +0530</pubDate>
-      <description>Toyota Kirloskar Motor&amp;#x27;s domestic dispatches fell to 25,027 units in September 2026, down 7.61% YoY and 11.91% from August. Exports fell harder.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
