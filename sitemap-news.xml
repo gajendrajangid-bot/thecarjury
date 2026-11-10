@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/car-retail-sales-october-2026-maruti-tata-mahindra-dip/</loc>
-    <lastmod>2026-11-08</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-08T08:51:17+05:30</news:publication_date>
-      <news:title>October 2026 Retail Sales Slip 14% YoY as Festive Buying Shifts to November</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/electric-car-sales-october-2026-tata-mahindra-mg/</loc>
     <lastmod>2026-11-08</lastmod>
     <news:news>
@@ -23,18 +11,6 @@
       </news:publication>
       <news:publication_date>2026-11-08T19:07:18+05:30</news:publication_date>
       <news:title>EV Sales Oct 2026: Tata Holds, Mahindra and MG Surge 76% YoY</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/mahindra-be-7-spied-bkc-mumbai-gnss-receiver/</loc>
-    <lastmod>2026-11-08</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-07T18:11:05+05:30</news:publication_date>
-      <news:title>Mahindra BE 7 Spied In Mumbai With GNSS Rig: 2027 Launch Looks Real</news:title>
     </news:news>
   </url>
   <url>
