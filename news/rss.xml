@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 11 Nov 2026 20:40:56 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:06:45 +0530</lastBuildDate>
+    <item>
+      <title>Renault Kiger Facelift Doubles Its GNCAP Score To 4 Stars</title>
+      <link>https://www.thecarjury.com/news/renault-kiger-facelift-gncap-4-star-safety-rating/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-kiger-facelift-gncap-4-star-safety-rating/</guid>
+      <pubDate>Thu, 12 Nov 2026 09:06:39 +0530</pubDate>
+      <description>The India-made Renault Kiger facelift scores 4 stars for adults and 3 for children in GNCAP tests, a major jump from the pre-facelift 2-star result.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mahindra Vision S Spied In Hyderabad: Lighting Signature Finally Visible</title>
       <link>https://www.thecarjury.com/news/mahindra-vision-s-test-mules-hyderabad-lighting-spied/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/honda-cars-india-september-2026-sales-decline-elevate-facelift/</guid>
       <pubDate>Sun, 04 Oct 2026 18:00:29 +0530</pubDate>
       <description>Honda Cars India posted 4,465 domestic units in September 2026, down 15.80%. The Elevate facelift now has to carry the quarter.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mahindra Thar Electric Spied: Vision T Design Survives The Jump To Production</title>
-      <link>https://www.thecarjury.com/news/mahindra-thar-electric-spied-vision-t-design/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mahindra-thar-electric-spied-vision-t-design/</guid>
-      <pubDate>Sun, 04 Oct 2026 08:48:03 +0530</pubDate>
-      <description>Mahindra&amp;#x27;s Thar Electric has been spied testing for the first time, carrying Vision T concept design cues into a near-production five-door SUV.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
