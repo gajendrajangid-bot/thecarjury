@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 12 Nov 2026 09:06:45 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 18:04:22 +0530</lastBuildDate>
+    <item>
+      <title>Upcoming Cars By March 2027: The Launches That Actually Matter</title>
+      <link>https://www.thecarjury.com/news/upcoming-cars-india-march-2027-roundup/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/upcoming-cars-india-march-2027-roundup/</guid>
+      <pubDate>Thu, 12 Nov 2026 18:04:13 +0530</pubDate>
+      <description>A roundup of confirmed car launches in India through March 2027, from BYD Denza to the Innova Hycross facelift and Bharat Mobility 2027 debuts.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Renault Kiger Facelift Doubles Its GNCAP Score To 4 Stars</title>
       <link>https://www.thecarjury.com/news/renault-kiger-facelift-gncap-4-star-safety-rating/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-glc-electric-bookings-open-india-launch-november-2026/</guid>
       <pubDate>Mon, 05 Oct 2026 17:45:50 +0530</pubDate>
       <description>Mercedes-Benz GLC Electric bookings are open ahead of a November 4 launch, with the Chakan-assembled 400 4Matic expected at Rs 80-90 lakh ex-showroom.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Honda India Sales Slip 15.8% in September, Elevate Facelift Is The Real Test</title>
-      <link>https://www.thecarjury.com/news/honda-cars-india-september-2026-sales-decline-elevate-facelift/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/honda-cars-india-september-2026-sales-decline-elevate-facelift/</guid>
-      <pubDate>Sun, 04 Oct 2026 18:00:29 +0530</pubDate>
-      <description>Honda Cars India posted 4,465 domestic units in September 2026, down 15.80%. The Elevate facelift now has to carry the quarter.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

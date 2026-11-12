@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/mahindra-vision-s-test-mules-hyderabad-lighting-spied/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -39,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/sedan-sales-october-2026-dzire-aura-aeris-amaze-slavia-virtus-verna-city/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-12</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -47,6 +47,18 @@
       </news:publication>
       <news:publication_date>2026-11-11T20:26:43+05:30</news:publication_date>
       <news:title>Sedan Sales Oct 2026: Tata Aeris Crashes the Top 3 in Month One</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/upcoming-cars-india-march-2027-roundup/</loc>
+    <lastmod>2026-11-12</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-12T18:04:13+05:30</news:publication_date>
+      <news:title>Upcoming Cars By March 2027: The Launches That Actually Matter</news:title>
     </news:news>
   </url>
 </urlset>
