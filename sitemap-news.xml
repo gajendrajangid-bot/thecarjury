@@ -2,18 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/genesis-gv90-patented-india-2027-launch/</loc>
-    <lastmod>2026-11-11</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11T20:38:26+05:30</news:publication_date>
-      <news:title>Genesis GV90 Patented In India: Hyundai's Luxury Push Lands In 2027</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/kia-india-sales-october-2026-seltos-sorento-syros/</loc>
     <lastmod>2026-11-13</lastmod>
     <news:news>
@@ -26,15 +14,15 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/mahindra-vision-s-test-mules-hyderabad-lighting-spied/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <loc>https://www.thecarjury.com/news/mahindra-vision-s-nu-iq-10k-monthly-target/</loc>
+    <lastmod>2026-11-13</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
         <news:language>en</news:language>
       </news:publication>
-      <news:publication_date>2026-11-11T20:40:35+05:30</news:publication_date>
-      <news:title>Mahindra Vision S Spied In Hyderabad: Lighting Signature Finally Visible</news:title>
+      <news:publication_date>2026-11-13T20:44:31+05:30</news:publication_date>
+      <news:title>Mahindra Wants 10,000 Vision S SUVs A Month, And It Just Might Get There</news:title>
     </news:news>
   </url>
   <url>
@@ -50,20 +38,8 @@
     </news:news>
   </url>
   <url>
-    <loc>https://www.thecarjury.com/news/sedan-sales-october-2026-dzire-aura-aeris-amaze-slavia-virtus-verna-city/</loc>
-    <lastmod>2026-11-12</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-11T20:26:43+05:30</news:publication_date>
-      <news:title>Sedan Sales Oct 2026: Tata Aeris Crashes the Top 3 in Month One</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/upcoming-cars-india-march-2027-roundup/</loc>
-    <lastmod>2026-11-12</lastmod>
+    <lastmod>2026-11-13</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
