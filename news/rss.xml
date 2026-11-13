@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 13 Nov 2026 08:05:44 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 08:58:22 +0530</lastBuildDate>
+    <item>
+      <title>Kia's Record October: Seltos Crosses 13,000 as Sorento and Syros Build Momentum</title>
+      <link>https://www.thecarjury.com/news/kia-india-sales-october-2026-seltos-sorento-syros/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-india-sales-october-2026-seltos-sorento-syros/</guid>
+      <pubDate>Fri, 13 Nov 2026 08:58:15 +0530</pubDate>
+      <description>Kia India posted its highest-ever monthly tally in October 2026 at 33,462 units, led by the new Seltos crossing 13,000 units for the first time.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Upcoming Cars By March 2027: The Launches That Actually Matter</title>
       <link>https://www.thecarjury.com/news/upcoming-cars-india-march-2027-roundup/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/kia-sorento-accessories-india-exterior-interior/</guid>
       <pubDate>Tue, 06 Oct 2026 08:55:40 +0530</pubDate>
       <description>Kia has detailed 21 official accessories for the new Sorento in India, covering styling kits, side steps and cabin add-ons. Here is what matters.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Mercedes GLC Electric bookings open, launch set for November 4</title>
-      <link>https://www.thecarjury.com/news/mercedes-glc-electric-bookings-open-india-launch-november-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-glc-electric-bookings-open-india-launch-november-2026/</guid>
-      <pubDate>Mon, 05 Oct 2026 17:45:50 +0530</pubDate>
-      <description>Mercedes-Benz GLC Electric bookings are open ahead of a November 4 launch, with the Chakan-assembled 400 4Matic expected at Rs 80-90 lakh ex-showroom.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
