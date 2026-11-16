@@ -37,4 +37,16 @@
       <news:title>New Toyota Fortuner Spied In Argentina: India Wait Stretches To 2027</news:title>
     </news:news>
   </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/tata-2026-sales-beat-2025-total-october/</loc>
+    <lastmod>2026-11-16</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-16T09:00:54+05:30</news:publication_date>
+      <news:title>Tata Blows Past Its Entire 2025 Sales Tally With Two Months Still Left</news:title>
+    </news:news>
+  </url>
 </urlset>

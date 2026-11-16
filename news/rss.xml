@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 16 Nov 2026 08:05:45 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 09:00:59 +0530</lastBuildDate>
+    <item>
+      <title>Tata Blows Past Its Entire 2025 Sales Tally With Two Months Still Left</title>
+      <link>https://www.thecarjury.com/news/tata-2026-sales-beat-2025-total-october/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-2026-sales-beat-2025-total-october/</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:54 +0530</pubDate>
+      <description>Tata Motors has already outsold its full 2025 passenger vehicle tally by end of October 2026, with wholesales up 37.81 percent year to date.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Thar Roxx With DaVinci Suspension And OG Alloys Spotted: Launch Imminent</title>
       <link>https://www.thecarjury.com/news/mahindra-thar-roxx-davinci-suspension-og-alloys-spotted/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/tata-aeris-review-tigor-replacement-petrol-cng-price/</guid>
       <pubDate>Thu, 08 Oct 2026 17:57:36 +0530</pubDate>
       <description>Tata Aeris replaces the Tigor with fresh styling, new cabin and petrol plus i-CNG options, undercutting the Maruti Dzire by over a lakh.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Tata Harrier EV gets up to Rs 2.75 lakh off this October</title>
-      <link>https://www.thecarjury.com/news/tata-harrier-ev-discount-october-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-harrier-ev-discount-october-2026/</guid>
-      <pubDate>Thu, 08 Oct 2026 09:05:14 +0530</pubDate>
-      <description>Tata is offering up to Rs 2.75 lakh off the Harrier EV in October 2026, with Curvv EV, Nexon EV and older Punch and Tiago EVs also discounted.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
