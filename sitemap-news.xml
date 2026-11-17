@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/2027-audi-a5-sedan-spied-india-uncamouflaged/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-17T09:10:02+05:30</news:publication_date>
+      <news:title>Audi A5 Sedan Spied Naked In Pune: The A4 Replacement Lands Early 2027</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mahindra-thar-roxx-davinci-suspension-og-alloys-spotted/</loc>
     <lastmod>2026-11-16</lastmod>
     <news:news>
