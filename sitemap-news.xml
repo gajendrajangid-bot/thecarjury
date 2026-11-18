@@ -14,6 +14,18 @@
     </news:news>
   </url>
   <url>
+    <loc>https://www.thecarjury.com/news/mahindra-xev-9s-bharat-ncap-5-star-rating/</loc>
+    <lastmod>2026-11-18</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-18T09:13:41+05:30</news:publication_date>
+      <news:title>Mahindra XEV 9S Scores 5 Stars at Bharat NCAP, Tops Every 7-Seater Tested</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mini-cooper-se-paul-smith-edition-india-bookings-open/</loc>
     <lastmod>2026-11-17</lastmod>
     <news:news>
@@ -27,7 +39,7 @@
   </url>
   <url>
     <loc>https://www.thecarjury.com/news/sub-4m-suvs-2027-tata-mahindra-hyundai-honda-maruti/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-18</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -35,18 +47,6 @@
       </news:publication>
       <news:publication_date>2026-11-16T17:46:17+05:30</news:publication_date>
       <news:title>Sub 4m SUV War Reloads: Nexon Gen-2, Scorpio Sport And More Due In 2027</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://www.thecarjury.com/news/tata-2026-sales-beat-2025-total-october/</loc>
-    <lastmod>2026-11-16</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-16T09:00:54+05:30</news:publication_date>
-      <news:title>Tata Blows Past Its Entire 2025 Sales Tally With Two Months Still Left</news:title>
     </news:news>
   </url>
 </urlset>
