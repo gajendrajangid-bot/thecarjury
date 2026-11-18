@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Wed, 18 Nov 2026 09:13:46 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 17:49:15 +0530</lastBuildDate>
+    <item>
+      <title>Tata Sierra EV Nails 5-Star Bharat NCAP: Another Safety Scalp For Tata</title>
+      <link>https://www.thecarjury.com/news/tata-sierra-ev-bharat-ncap-5-star-rating/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-sierra-ev-bharat-ncap-5-star-rating/</guid>
+      <pubDate>Wed, 18 Nov 2026 17:49:10 +0530</pubDate>
+      <description>Tata Sierra EV scores a full 5-star Bharat NCAP rating for adult and child occupant protection, matching Hyundai Verna in the same test cycle.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mahindra XEV 9S Scores 5 Stars at Bharat NCAP, Tops Every 7-Seater Tested</title>
       <link>https://www.thecarjury.com/news/mahindra-xev-9s-bharat-ncap-5-star-rating/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/mercedes-s-class-140-years-140-places-tour-ends-stuttgart/</guid>
       <pubDate>Sun, 18 Oct 2026 08:49:21 +0530</pubDate>
       <description>Three Mercedes S-Class sedans finish a 65,000km, 55-country tour marking 140 years since Carl Benz&amp;#x27;s Motorwagen patent, ending in Stuttgart.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai's Sub-4m Electric SUV Slips to January 2027</title>
-      <link>https://www.thecarjury.com/news/hyundai-compact-ev-he1i-q1-2027-debut/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-compact-ev-he1i-q1-2027-debut/</guid>
-      <pubDate>Sat, 17 Oct 2026 08:59:04 +0530</pubDate>
-      <description>Hyundai&amp;#x27;s sub-four-metre electric SUV, codenamed HE1i, is now slated for a January 2027 debut, built at Sriperumbudur on the E-GMP K platform.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
