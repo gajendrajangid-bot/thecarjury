@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Thu, 19 Nov 2026 09:06:07 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 17:47:25 +0530</lastBuildDate>
+    <item>
+      <title>Toyota Sales Slide 27% in October: Hyryder and Hycross Lead a Shrinking Lineup</title>
+      <link>https://www.thecarjury.com/news/toyota-sales-october-2026-hyryder-hycross-fortuner/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/toyota-sales-october-2026-hyryder-hycross-fortuner/</guid>
+      <pubDate>Thu, 19 Nov 2026 17:47:20 +0530</pubDate>
+      <description>Toyota India sold 29,521 units in October 2026, down 26.67% YoY. Hyryder led, Hycross followed, Fortuner and Crysta gained. Our take on the slide.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai Neira EV MPV Is A Rebadged Carens Clavis EV, Debuts At Indonesia Auto Week</title>
       <link>https://www.thecarjury.com/news/hyundai-neira-electric-mpv-kia-carens-clavis-ev-rebadge-indonesia-debut/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-bayon-real-world-images-dealer-yard/</guid>
       <pubDate>Mon, 19 Oct 2026 09:06:43 +0530</pubDate>
       <description>First real-world images of the India-spec Hyundai Bayon show up at a dealer yard ahead of the October 26 launch. Our take on the Venue-Creta filler.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Renault Duster On-Road Prices: Top Trim Crosses Rs 22 Lakh in Bengaluru</title>
-      <link>https://www.thecarjury.com/news/renault-duster-on-road-prices-indian-cities-2026/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/renault-duster-on-road-prices-indian-cities-2026/</guid>
-      <pubDate>Sun, 18 Oct 2026 18:02:34 +0530</pubDate>
-      <description>Renault Duster on-road prices are out across Mumbai, Delhi, Bengaluru and more. Entry trim starts near Rs 11.75 lakh; the Iconic DCT breaches Rs 22 lakh.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
