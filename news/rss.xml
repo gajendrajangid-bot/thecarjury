@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Fri, 20 Nov 2026 08:05:59 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 08:57:55 +0530</lastBuildDate>
+    <item>
+      <title>Kia Trims The Fat: Seltos, Clavis, Sonet Lose Slow-Selling Variants</title>
+      <link>https://www.thecarjury.com/news/kia-seltos-clavis-sonet-variants-discontinued-lineup-rejig/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/kia-seltos-clavis-sonet-variants-discontinued-lineup-rejig/</guid>
+      <pubDate>Fri, 20 Nov 2026 08:57:50 +0530</pubDate>
+      <description>Kia India quietly discontinues iMT Seltos variants and prunes Clavis, Sonet trims. Here is what is gone and what it means for buyers.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Toyota Sales Slide 27% in October: Hyryder and Hycross Lead a Shrinking Lineup</title>
       <link>https://www.thecarjury.com/news/toyota-sales-october-2026-hyryder-hycross-fortuner/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/dion-gowda-f3-2027-ln4-fusion-lando-norris/</guid>
       <pubDate>Mon, 19 Oct 2026 18:55:11 +0530</pubDate>
       <description>Indian racer Dion Gowda signs with Lando Norris&amp;#x27; LN4 Fusion for the 2027 FIA F3 Championship, becoming the third Indian to reach the series.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai Bayon In The Flesh: Sharper Than The Brochure Suggested</title>
-      <link>https://www.thecarjury.com/news/hyundai-bayon-real-world-images-dealer-yard/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-bayon-real-world-images-dealer-yard/</guid>
-      <pubDate>Mon, 19 Oct 2026 09:06:43 +0530</pubDate>
-      <description>First real-world images of the India-spec Hyundai Bayon show up at a dealer yard ahead of the October 26 launch. Our take on the Venue-Creta filler.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>

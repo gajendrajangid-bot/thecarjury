@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://www.thecarjury.com/news/hyundai-neira-electric-mpv-kia-carens-clavis-ev-rebadge-indonesia-debut/</loc>
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -11,6 +11,18 @@
       </news:publication>
       <news:publication_date>2026-11-19T09:06:01+05:30</news:publication_date>
       <news:title>Hyundai Neira EV MPV Is A Rebadged Carens Clavis EV, Debuts At Indonesia Auto Week</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/kia-seltos-clavis-sonet-variants-discontinued-lineup-rejig/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-20T08:57:50+05:30</news:publication_date>
+      <news:title>Kia Trims The Fat: Seltos, Clavis, Sonet Lose Slow-Selling Variants</news:title>
     </news:news>
   </url>
   <url>
