@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Mon, 23 Nov 2026 08:05:42 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 09:06:31 +0530</lastBuildDate>
+    <item>
+      <title>MG Windsor Facelift Needs More Than A Bigger Battery To Reclaim Its Lead</title>
+      <link>https://www.thecarjury.com/news/mg-windsor-facelift-2027-61-kwh-battery-sales-pressure/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-windsor-facelift-2027-61-kwh-battery-sales-pressure/</guid>
+      <pubDate>Mon, 23 Nov 2026 09:06:26 +0530</pubDate>
+      <description>MG Windsor facelift expected in 2027 with a larger 61 kWh battery as sales slip behind Mahindra XEV 9S and Tata Punch EV. The Car Jury&amp;#x27;s verdict inside.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai's Three-Row Hybrid SUV Spied: The Alcazar Replacement XUV700 Should Fear</title>
       <link>https://www.thecarjury.com/news/hyundai-ni1i-7-seater-hybrid-suv-spied-xuv700-rival/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/maruti-nexa-electric-mpv-ymc-spied-interior-front/</guid>
       <pubDate>Sat, 24 Oct 2026 18:02:15 +0530</pubDate>
       <description>Fresh spy shots of Maruti&amp;#x27;s upcoming Nexa electric MPV, codenamed YMC, reveal front styling and the first cabin glimpse ahead of a 2027 launch.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai Bayon Variant List Leaks: Seven Trims, ADAS Only On Top HX10</title>
-      <link>https://www.thecarjury.com/news/hyundai-bayon-variants-features-dimensions-leak/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-bayon-variants-features-dimensions-leak/</guid>
-      <pubDate>Sat, 24 Oct 2026 09:14:42 +0530</pubDate>
-      <description>Hyundai Bayon variant list leaks days before launch: seven trims from HX2 to HX10, 1.5 petrol, ADAS limited to the top variant. TCJ&amp;#x27;s take.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
