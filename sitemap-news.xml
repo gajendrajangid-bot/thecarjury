@@ -2,20 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
-    <loc>https://www.thecarjury.com/news/4-5m-to-5m-suv-sales-october-2026-mahindra-dominates/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <news:news>
-      <news:publication>
-        <news:name>The Car Jury</news:name>
-        <news:language>en</news:language>
-      </news:publication>
-      <news:publication_date>2026-11-21T17:51:38+05:30</news:publication_date>
-      <news:title>4.5-5m SUV Sales Oct 2026: Mahindra Takes Nearly 68% Of The Segment</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://www.thecarjury.com/news/hyundai-ni1i-7-seater-hybrid-suv-spied-xuv700-rival/</loc>
-    <lastmod>2026-11-22</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <news:news>
       <news:publication>
         <news:name>The Car Jury</news:name>
@@ -23,6 +11,18 @@
       </news:publication>
       <news:publication_date>2026-11-22T08:55:53+05:30</news:publication_date>
       <news:title>Hyundai's Three-Row Hybrid SUV Spied: The Alcazar Replacement XUV700 Should Fear</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.thecarjury.com/news/hyundai-smart-care-clinic-november-2026-service-camp/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-23T17:58:50+05:30</news:publication_date>
+      <news:title>Hyundai Smart Care Clinic: Free 50-Point Check, Up To 30% Off Labour Till Dec 8</news:title>
     </news:news>
   </url>
   <url>
