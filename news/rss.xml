@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 24 Nov 2026 08:06:24 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 09:02:01 +0530</lastBuildDate>
+    <item>
+      <title>Tata Punch Flex-Fuel Spied Near Pune: Bharat Expo 2027 Reveal Likely</title>
+      <link>https://www.thecarjury.com/news/tata-punch-flex-fuel-spied-pune-bharat-expo-2027/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-punch-flex-fuel-spied-pune-bharat-expo-2027/</guid>
+      <pubDate>Tue, 24 Nov 2026 09:01:55 +0530</pubDate>
+      <description>A camouflaged Tata Punch mule testing near Pune points to a flex-fuel variant, likely bound for a Bharat Mobility Expo 2027 reveal.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Hyundai Smart Care Clinic: Free 50-Point Check, Up To 30% Off Labour Till Dec 8</title>
       <link>https://www.thecarjury.com/news/hyundai-smart-care-clinic-november-2026-service-camp/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/india-car-exports-h1-fy2027-maruti-fronx-jimny/</guid>
       <pubDate>Sun, 25 Oct 2026 17:49:09 +0530</pubDate>
       <description>India exported 4.51 lakh cars in H1 FY2027, up 1.25%. Maruti crossed 51% share led by Fronx and Jimny, while Hyundai and Nissan slipped.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Citroen eyes India to build the 2CV EV for the world: a real coup, if it lands</title>
-      <link>https://www.thecarjury.com/news/citroen-2cv-ev-india-production-base-export/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/citroen-2cv-ev-india-production-base-export/</guid>
-      <pubDate>Sun, 25 Oct 2026 08:54:24 +0530</pubDate>
-      <description>Citroen is evaluating India as the global production base for its 2028 2CV electric hatchback, with Thiruvallur as the likely plant.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
