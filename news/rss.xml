@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Tue, 24 Nov 2026 09:02:01 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 18:09:49 +0530</lastBuildDate>
+    <item>
+      <title>Tata Hikes Prices 0.5 Percent From December 1: Small Sting, Same Strong Line-up</title>
+      <link>https://www.thecarjury.com/news/tata-motors-december-2026-price-hike-0-5-percent/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/tata-motors-december-2026-price-hike-0-5-percent/</guid>
+      <pubDate>Tue, 24 Nov 2026 18:09:44 +0530</pubDate>
+      <description>Tata Motors will raise passenger vehicle prices by an average 0.5 percent from December 1, 2026, covering both ICE cars and EVs.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Tata Punch Flex-Fuel Spied Near Pune: Bharat Expo 2027 Reveal Likely</title>
       <link>https://www.thecarjury.com/news/tata-punch-flex-fuel-spied-pune-bharat-expo-2027/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/car-exports-h1-fy2027-maruti-51-percent-fronx-jimny-lead/</guid>
       <pubDate>Mon, 26 Oct 2026 09:00:21 +0530</pubDate>
       <description>India exported 4.51 lakh cars in H1 FY2027, up 1.25%. Maruti crossed 51% share with Fronx and Jimny leading the model charts.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Maruti Grabs 51% Of India Car Exports In H1 FY2027, Fronx And Jimny Lead</title>
-      <link>https://www.thecarjury.com/news/india-car-exports-h1-fy2027-maruti-fronx-jimny/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/india-car-exports-h1-fy2027-maruti-fronx-jimny/</guid>
-      <pubDate>Sun, 25 Oct 2026 17:49:09 +0530</pubDate>
-      <description>India exported 4.51 lakh cars in H1 FY2027, up 1.25%. Maruti crossed 51% share led by Fronx and Jimny, while Hyundai and Nissan slipped.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
