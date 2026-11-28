@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://www.thecarjury.com/news/hyundai-ioniq-p-sub-4m-electric-suv-january-16-debut/</loc>
+    <lastmod>2026-11-28</lastmod>
+    <news:news>
+      <news:publication>
+        <news:name>The Car Jury</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2026-11-28T17:50:35+05:30</news:publication_date>
+      <news:title>Hyundai Ioniq P Debuts January 16: Nexon EV And Syros EV On Notice</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://www.thecarjury.com/news/mg-hector-tomahawk-phev-review-ahmedabad-delhi-drive/</loc>
     <lastmod>2026-11-28</lastmod>
     <news:news>
