@@ -6,7 +6,15 @@
     <atom:link href="https://www.thecarjury.com/news/rss.xml" rel="self" type="application/rss+xml" />
     <description>News and verdicts on the Indian car market from The Car Jury.</description>
     <language>en-IN</language>
-    <lastBuildDate>Sat, 28 Nov 2026 08:06:20 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 09:01:47 +0530</lastBuildDate>
+    <item>
+      <title>MG Hector Tomahawk PHEV Review: The Diesel Replacement Under Rs 28 Lakh</title>
+      <link>https://www.thecarjury.com/news/mg-hector-tomahawk-phev-review-ahmedabad-delhi-drive/</link>
+      <guid isPermaLink="true">https://www.thecarjury.com/news/mg-hector-tomahawk-phev-review-ahmedabad-delhi-drive/</guid>
+      <pubDate>Sat, 28 Nov 2026 09:01:42 +0530</pubDate>
+      <description>MG Hector Tomahawk PHEV review after a 1,000 km Ahmedabad to Delhi drive on one tank and one charge. Priced from Rs 25.7 lakh ex-showroom.</description>
+      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
+    </item>
     <item>
       <title>Mini Cooper SE Lands At Rs 53.90 Lakh: Paul Smith Trio Priced For The Faithful</title>
       <link>https://www.thecarjury.com/news/mini-cooper-se-paul-smith-edition-india-launch-price/</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://www.thecarjury.com/news/2027-maruti-fronx-facelift-spied-adas-z-series-engine/</guid>
       <pubDate>Wed, 28 Oct 2026 17:47:20 +0530</pubDate>
       <description>Maruti Fronx facelift caught testing with revised grille, Level 2 ADAS hardware, rear disc brakes and the new 1.2L Z-Series three-cylinder petrol.</description>
-      <author>noreply@thecarjury.com (Rajat Dewasi)</author>
-    </item>
-    <item>
-      <title>Hyundai Bayon CNG Gets Twin-Cylinder Setup, Boot Space Survives</title>
-      <link>https://www.thecarjury.com/news/hyundai-bayon-cng-twin-cylinder-january-2027/</link>
-      <guid isPermaLink="true">https://www.thecarjury.com/news/hyundai-bayon-cng-twin-cylinder-january-2027/</guid>
-      <pubDate>Wed, 28 Oct 2026 08:46:21 +0530</pubDate>
-      <description>Hyundai Bayon CNG launches January 2027 with a twin-cylinder under-boot tank setup, making it Hyundai&amp;#x27;s first midsize SUV in India on CNG.</description>
       <author>noreply@thecarjury.com (Rajat Dewasi)</author>
     </item>
   </channel>
